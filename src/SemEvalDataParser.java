@@ -74,7 +74,7 @@ public class SemEvalDataParser {
 				
 				if (cols[1].equals("NEWLINE"))	sentStr += "\n";
 				else if (cols[2].equals("DCT")) sentStr += cols[1];
-				else if (!cols[2].equals(curPart)) sentStr += "\n\n" + cols[1];
+				else if (!cols[2].equals(curPart)) sentStr += "\n\n" + cols[1] + " ";
 				else sentStr += cols[1] + " ";
 				
 				curPart = cols[2];
@@ -87,7 +87,7 @@ public class SemEvalDataParser {
 				
 				} else if (line.startsWith("#end")) {
 					sentences.append(sentStr);
-					BufferedWriter bw = new BufferedWriter(new FileWriter("./data/files/" + filename + ".txt"));
+					BufferedWriter bw = new BufferedWriter(new FileWriter("./data/input/s1/files/" + filename + ".txt"));
 			        bw.write(sentStr);
 			        bw.close();					
 				}
