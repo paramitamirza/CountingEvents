@@ -24,6 +24,7 @@ import it.uniroma1.lcl.babelfy.commons.annotation.SemanticAnnotation.Source;
 import it.uniroma1.lcl.babelfy.commons.annotation.TokenOffsetFragment;
 import it.uniroma1.lcl.babelfy.core.Babelfy;
 import it.uniroma1.lcl.babelnet.BabelNet;
+import it.uniroma1.lcl.babelnet.BabelSense;
 import it.uniroma1.lcl.babelnet.BabelSynset;
 import it.uniroma1.lcl.babelnet.BabelSynsetID;
 import it.uniroma1.lcl.babelnet.InvalidBabelSynsetIDException;
@@ -168,8 +169,8 @@ public class SemEvalDataParser {
 		String curSent = "";
 		String curPart = "";
 		
-		int limit = 1;
-		int start = 3;
+		int limit = 100;
+		int start = 1011;
 		int num = 1;
 		
 		BabelNet bn = BabelNet.getInstance();
@@ -198,7 +199,7 @@ public class SemEvalDataParser {
 				} 
 				
 				if (cols[1].equals("NEWLINE"))	sentStr += "\n";
-				else if (cols[2].equals("DCT")) sentStr += "";
+				else if (cols[2].equals("DCT")) sentStr += cols[1];
 				else if (!cols[2].equals(curPart)) sentStr += "\n\n" + cols[1] + " ";
 				else sentStr += cols[1] + " ";
 				
@@ -214,27 +215,27 @@ public class SemEvalDataParser {
 					sentences.setLength(0);
 				
 				} else if (line.startsWith("#end")) {
-					for (String l : sentStr.split("\n")) {
-						
-						if (!l.trim().equals("")) {
-							Document doc = new Document(l);
-							for (Sentence sss : doc.sentences()) {
-//								List<String> words = sss.words();
-								sentences.append(sss.text() + "\n");
-							}
-						}
-					}
+//					for (String l : sentStr.split("\n")) {
+//						
+//						if (!l.trim().equals("")) {
+//							Document doc = new Document(l);
+//							for (Sentence sss : doc.sentences()) {
+////								List<String> words = sss.words();
+//								sentences.append(sss.text() + "\n");
+//							}
+//						}
+//					}
 					
 					if (num >= start) {
 					
 						BufferedWriter bw = new BufferedWriter(new FileWriter("./data/babel/s1/files/" + filename + ".txt"));
-				        bw.write(sentences.toString());
+				        bw.write(sentStr);
 				        bw.close();
 						
 						System.out.println("====" + num + "====");
-	//					System.out.println(sentences.toString());
+//						System.out.println(sentStr);
 						
-						List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(sentences.toString(), Language.EN, constraints);
+						List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(sentStr, Language.EN, constraints);
 						//bfyAnnotations is the result of Babelfy.babelfy() call
 						List<String> words = new ArrayList<String>();
 						List<String> offsets = new ArrayList<String>();
@@ -246,20 +247,21 @@ public class SemEvalDataParser {
 						for (SemanticAnnotation annotation : bfyAnnotations)
 						{
 						    //splitting the input text using the CharOffsetFragment start and end anchors
-						    String frag = sentences.toString().substring(annotation.getCharOffsetFragment().getStart(),
+						    String frag = sentStr.substring(annotation.getCharOffsetFragment().getStart(),
 						        annotation.getCharOffsetFragment().getEnd() + 1);
 						    words.add(frag);
 						    offsets.add(annotation.getCharOffsetFragment().getStart() + "," + (annotation.getCharOffsetFragment().getEnd() + 1));
 						    babelSynsets.add(annotation.getBabelSynsetID());
 						    babelNetURLs.add(annotation.getBabelNetURL());
 						    DBPediaURLs.add(annotation.getDBpediaURL());
-						    BabelSynset by = bn.getSynset(new BabelSynsetID(annotation.getBabelSynsetID()));
-						    Set<String> wnSynSet = new HashSet<String>();
-						    List<WordNetSynsetID> wnSynList = by.getWordNetOffsets();
-						    for (WordNetSynsetID syn : wnSynList) {
-						    	wnSynSet.add(syn.toString());
-						    }					    
-						    wordnetSynsets.add(wnSynSet.toString());
+						    
+//						    BabelSynset by = bn.getSynset(new BabelSynsetID(annotation.getBabelSynsetID()));
+//						    Set<String> wnSynSet = new HashSet<String>();
+//						    List<WordNetSynsetID> wnSynList = by.getWordNetOffsets();
+//						    for (WordNetSynsetID syn : wnSynList) {
+//						    	wnSynSet.add(syn.toString());
+//						    }					    
+//						    wordnetSynsets.add(wnSynSet.toString());
 						}
 						
 						String lastOffset = "";
@@ -270,7 +272,7 @@ public class SemEvalDataParser {
 								bw.write(words.get(n)
 					        			+ "\t" + offsets.get(n)
 					        			+ "\t" + babelSynsets.get(n)
-					        			+ "\t" + wordnetSynsets.get(n)
+//					        			+ "\t" + wordnetSynsets.get(n)
 					        			+ "\t" + babelNetURLs.get(n)
 					        			+ "\t" + DBPediaURLs.get(n)
 					        			+ "\n"
@@ -282,7 +284,7 @@ public class SemEvalDataParser {
 				        			bw.write(words.get(n)
 						        			+ "\t" + offsets.get(n)
 						        			+ "\t" + babelSynsets.get(n)
-						        			+ "\t" + wordnetSynsets.get(n)
+//						        			+ "\t" + wordnetSynsets.get(n)
 						        			+ "\t" + babelNetURLs.get(n)
 						        			+ "\t" + DBPediaURLs.get(n)
 						        			+ "\n"
@@ -291,11 +293,13 @@ public class SemEvalDataParser {
 				        		}
 								
 							} else if (n == (words.size()-1) && (n-1) > 0) {	//last concept
-								if (!isIncludedInOffset(offsets.get(n), lastOffset)) {
+								if (((!lastOffset.equals("") && !isIncludedInOffset(offsets.get(n), lastOffset)))
+										|| lastOffset.equals("")
+											) {
 				        			bw.write(words.get(n)
 						        			+ "\t" + offsets.get(n)
 						        			+ "\t" + babelSynsets.get(n)
-						        			+ "\t" + wordnetSynsets.get(n)
+//						        			+ "\t" + wordnetSynsets.get(n)
 						        			+ "\t" + babelNetURLs.get(n)
 						        			+ "\t" + DBPediaURLs.get(n)
 						        			+ "\n"
@@ -304,12 +308,17 @@ public class SemEvalDataParser {
 				        		}
 								
 							} else {	//excluding the first concept and the last concept
+								
 								if (!isIncludedInOffset(offsets.get(n), offsets.get(n+1))
-										&& !isIncludedInOffset(offsets.get(n), lastOffset)) {
+										&& (
+											((!lastOffset.equals("") && !isIncludedInOffset(offsets.get(n), lastOffset)))
+											|| lastOffset.equals("")
+												)
+										) {
 				        			bw.write(words.get(n)
 						        			+ "\t" + offsets.get(n)
 						        			+ "\t" + babelSynsets.get(n)
-						        			+ "\t" + wordnetSynsets.get(n)
+//						        			+ "\t" + wordnetSynsets.get(n)
 						        			+ "\t" + babelNetURLs.get(n)
 						        			+ "\t" + DBPediaURLs.get(n)
 						        			+ "\n"
@@ -341,7 +350,14 @@ public class SemEvalDataParser {
 //		parser.writeSentences("./data/trial_data_final/input/s1/docs.conll");
 		
 		//Parse SemEval CoNLL format into sentence (raw text) format, then run BabelFly on the sentences
-		parser.writeBabelOutput("./data/trial_data_final/input/s1/docs.conll");
+//		parser.writeBabelOutput("./data/trial_data_final/input/s1/docs.conll");
+		
+		BabelNet bn = BabelNet.getInstance();
+		
+		// Gets a BabelSynset from a concept identifier (Babel synset ID).
+		BabelSynset by = bn.getSynset(new BabelSynsetID("bn:00191195n"));
+		BabelSense bs = by.getMainSense(Language.EN);
+		System.out.println(bs.getSimpleLemma() + "---" + bs.getWordNetOffset());
 		
 	}
 
