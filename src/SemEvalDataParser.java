@@ -26,6 +26,7 @@ import it.uniroma1.lcl.babelfy.commons.BabelfyParameters;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.MCS;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.ScoredCandidates;
 import it.uniroma1.lcl.babelfy.commons.BabelfyParameters.SemanticAnnotationResource;
+import it.uniroma1.lcl.babelfy.commons.BabelfyToken;
 import it.uniroma1.lcl.babelfy.commons.annotation.SemanticAnnotation;
 import it.uniroma1.lcl.babelfy.commons.annotation.SemanticAnnotation.Source;
 import it.uniroma1.lcl.babelfy.commons.annotation.TokenOffsetFragment;
@@ -176,8 +177,8 @@ public class SemEvalDataParser {
 		String curSent = "";
 		String curPart = "";
 		
-		int limit = 1100;
-		int start = 252;
+		int limit = 1200;
+		int start = 218;
 		int num = 1;
 		
 		BabelNet bn = BabelNet.getInstance();
@@ -205,9 +206,13 @@ public class SemEvalDataParser {
 					curSent = cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1];
 				} 
 				
-				if (cols[1].equals("NEWLINE"))	sentStr += "\n";
-				else if (cols[2].equals("DCT")) sentStr += cols[1];
-				else if (!cols[2].equals(curPart)) sentStr += "\n\n" + cols[1] + " ";
+//				if (cols[1].equals("NEWLINE"))	sentStr += "\n";
+//				else if (cols[2].equals("DCT")) sentStr += cols[1];
+//				else if (!cols[2].equals(curPart)) sentStr += "\n\n" + cols[1] + " ";
+//				else sentStr += cols[1] + " ";
+				
+				if (cols[2].equals("DCT")) sentStr += cols[1];
+				else if (!cols[2].equals(curPart)) sentStr += "\n" + cols[1] + " ";
 				else sentStr += cols[1] + " ";
 				
 				curPart = cols[2];
@@ -240,9 +245,17 @@ public class SemEvalDataParser {
 				        bw.close();
 						
 						System.out.println("====" + num + "====");
+						
+						sentStr = sentStr.trim();
+						List<BabelfyToken> tokenizedInput = new ArrayList<>();
+						for (String l : sentStr.split("\n")) {
+							for (String tok : l.split(" ")) {
+								tokenizedInput.add(new BabelfyToken(tok, Language.EN));
+							}
+						}
 //						System.out.println(sentStr);
 						
-						List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(sentStr, Language.EN, constraints);
+						List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(tokenizedInput, Language.EN, constraints);
 						//bfyAnnotations is the result of Babelfy.babelfy() call
 						List<String> words = new ArrayList<String>();
 						List<String> offsets = new ArrayList<String>();
@@ -255,10 +268,21 @@ public class SemEvalDataParser {
 						for (SemanticAnnotation annotation : bfyAnnotations)
 						{
 						    //splitting the input text using the CharOffsetFragment start and end anchors
-						    String frag = sentStr.substring(annotation.getCharOffsetFragment().getStart(),
-						        annotation.getCharOffsetFragment().getEnd() + 1);
-						    words.add(frag);
-						    offsets.add(annotation.getCharOffsetFragment().getStart() + "," + (annotation.getCharOffsetFragment().getEnd() + 1));
+//						    String frag = sentStr.substring(annotation.getCharOffsetFragment().getStart(),
+//						        annotation.getCharOffsetFragment().getEnd() + 1);
+							
+							//get the word from tokenized input text
+							String frag = "";
+							for (int t = annotation.getTokenOffsetFragment().getStart(); 
+									t < (annotation.getTokenOffsetFragment().getEnd() + 1);
+									t ++) {
+								frag += " " + tokenizedInput.get(t).getWord();
+							}
+							frag = frag.substring(1);
+							
+							words.add(frag);
+							
+						    offsets.add(annotation.getTokenOffsetFragment().getStart() + "," + (annotation.getTokenOffsetFragment().getEnd() + 1));
 						    babelSynsets.add(annotation.getBabelSynsetID());
 						    babelNetURLs.add(annotation.getBabelNetURL());
 						    DBPediaURLs.add(annotation.getDBpediaURL());
