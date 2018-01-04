@@ -178,7 +178,7 @@ public class SemEvalDataParser {
 		String curPart = "";
 		
 		int limit = 1200;
-		int start = 218;
+		int start = 1;
 		int num = 1;
 		
 		BabelNet bn = BabelNet.getInstance();
@@ -240,7 +240,7 @@ public class SemEvalDataParser {
 					
 					if (num >= start) {
 					
-						BufferedWriter bw = new BufferedWriter(new FileWriter("./data/babel/s1/files/" + filename + ".txt"));
+						BufferedWriter bw = new BufferedWriter(new FileWriter("./data/babel/s3/files/" + filename + ".txt"));
 				        bw.write(sentStr);
 				        bw.close();
 						
@@ -299,7 +299,7 @@ public class SemEvalDataParser {
 						
 						String lastOffset = "";
 						
-						bw = new BufferedWriter(new FileWriter("./data/babel/s1/output/" + filename + ".tsv"));
+						bw = new BufferedWriter(new FileWriter("./data/babel/s3/output/" + filename + ".tsv"));
 						for (int n = 0; n < words.size(); n ++) {
 							if (n == 0 && n == (words.size()-1)) {	//the only concept
 								bw.write(words.get(n)
@@ -729,7 +729,7 @@ public class SemEvalDataParser {
 //		parser.writeSentences("./data/trial_data_final/input/s1/docs.conll");
 		
 		//Parse SemEval CoNLL format into sentence (raw text) format, then run BabelFly on the sentences
-		parser.writeBabelOutput("./data/trial_data_final/input/s1/docs.conll");
+		parser.writeBabelOutput("./data/trial_data_final/input/s3/docs.conll");
 		
 //		parser.writeBabelOutputOnlyTitle("./data/trial_data_final/input/s1/docs.conll");
 		

@@ -62,9 +62,8 @@
             <zipfileset excludes="META-INF/*.SF" src="${dir.jarfile}/lib/babelfy-commons-1.0.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="${dir.jarfile}/lib/babelnet-api-3.7.1.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="${dir.jarfile}/lib/jltutils-2.2.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="/local/home/paramita/.m2/repository/org/apache/lucene/lucene-core/4.9.0/lucene-core-4.9.0.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="/local/home/paramita/.m2/repository/org/apache/lucene/lucene-queryparser/4.9.0/lucene-queryparser-4.9.0.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="/local/home/paramita/.m2/repository/org/apache/lucene/lucene-sandbox/4.9.0/lucene-sandbox-4.9.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.jarfile}/lib/lucene-core-4.9.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.jarfile}/lib/lucene-queryparser-4.9.0.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="/local/home/paramita/.m2/repository/edu/mit/jwi/2.2.3/jwi-2.2.3.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="/local/home/paramita/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="/local/home/paramita/.m2/repository/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar"/>
