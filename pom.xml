@@ -24,6 +24,30 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+	<dependency>
+	    <groupId>commons-lang</groupId>
+	    <artifactId>commons-lang</artifactId>
+	    <version>2.6</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+	<dependency>
+	    <groupId>commons-logging</groupId>
+	    <artifactId>commons-logging</artifactId>
+	    <version>1.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-configuration2 -->
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-configuration2</artifactId>
+	    <version>2.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+	<dependency>
+	    <groupId>commons-collections</groupId>
+	    <artifactId>commons-collections</artifactId>
+	    <version>3.2.2</version>
+	</dependency>		   
     <!-- https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
   	<dependency>
   		<groupId>edu.stanford.nlp</groupId>
@@ -54,5 +78,64 @@
 	    <artifactId>anna</artifactId>
 	    <version>3.5</version>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+	<dependency>
+	    <groupId>com.google.code.gson</groupId>
+	    <artifactId>gson</artifactId>
+	    <version>2.3.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpclient</artifactId>
+	    <version>4.3.6</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore -->
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpcore</artifactId>
+	    <version>4.3.3</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpmime</artifactId>
+	    <version>4.3.6</version>
+	</dependency>
+	<dependency>
+		<groupId>edu.cmu.lti</groupId>
+		<artifactId>ws4j</artifactId>
+		<version>1.0.1</version>
+		<!-- <scope>system</scope> -->
+		<!-- <systemPath>${basedir}/lib/ws4j-1.0.1.jar</systemPath> -->
+	</dependency>
+        <dependency>
+               <groupId>it.uniroma1.lcl</groupId>
+               <artifactId>babelfly</artifactId>
+               <version>1.0</version>
+               <scope>system</scope>
+               <systemPath>${basedir}/lib/babelfy-online-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+               <groupId>it.uniroma1.lcl</groupId>
+               <artifactId>babelfly-commons</artifactId>
+               <version>1.0</version>
+               <scope>system</scope>
+               <systemPath>${basedir}/lib/babelfy-commons-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+               <groupId>it.uniroma1.lcl</groupId>
+               <artifactId>babelnet</artifactId>
+               <version>3.7.1</version>
+               <scope>system</scope>
+               <systemPath>${basedir}/lib/babelnet-api-3.7.1.jar</systemPath>
+        </dependency>
+        <dependency>
+               <groupId>it.uniroma1.lcl</groupId>
+               <artifactId>jltutils</artifactId>
+               <version>2.2</version>
+               <scope>system</scope>
+               <systemPath>${basedir}/lib/jltutils-2.2.jar</systemPath>
+        </dependency>
   </dependencies>
 </project>
