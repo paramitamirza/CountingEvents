@@ -1,0 +1,515 @@
+     2015-09-02	        CD	      S-NP	         O	              -	(S1(NP*))
+
+          Fired	       VBN	      B-NP	         O	          Fired	       S-V	      B-A1	(S1(S(NP*
+             	        NN	      I-NP	         O	              -	      B-A1	      I-A1	*
+         worker	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+           ’s	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+             	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+          award	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+             	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+        expands	       VBZ	      S-VP	         O	        expands	         O	         O	(VP*)))
+
+          SHARE	        NN	      S-NP	         O	              -	      S-A1	         O	(S1(S(NP(NP*)
+          Fired	       VBD	      S-VP	         O	          Fired	       S-V	         O	(VP*
+             	        JJ	      B-NP	         O	              -	      B-A1	      B-A1	(NP*
+         worker	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+           ’s	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+             	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+          award	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+             	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)))
+        expands	       VBZ	      S-VP	         O	        expands	      I-A1	       S-V	(VP*
+             By	        IN	      S-PP	         O	              -	      I-A1	      B-A0	(PP*
+            Amy	       NNP	      B-NP	     B-PER	              -	      I-A1	      I-A0	(NP*
+       Hamilton	       NNP	      E-NP	     E-PER	              -	      E-A1	      E-A0	*)))))
+
+        Tuesday	       NNP	      S-NP	         O	              -	         O	         O	         O	         O	         O	         O	  S-AM-TMP	(S1(S(NP*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	         O	         O	*
+      September	       NNP	      B-NP	         O	              -	         O	         O	         O	         O	         O	         O	      B-A0	(NP*
+              1	        CD	      I-NP	         O	              -	         O	         O	         O	         O	         O	         O	      I-A0	*
+              ,	         ,	      I-NP	         O	              -	         O	         O	         O	         O	         O	         O	      I-A0	*
+           2015	        CD	      E-NP	         O	              -	         O	         O	         O	         O	         O	         O	      I-A0	*)
+              A	        DT	      B-NP	         O	              -	      B-A0	         O	         O	         O	         O	         O	      I-A0	(NP(NP*
+         former	        JJ	      I-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	      I-A0	*
+       Montrose	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	         O	         O	         O	         O	      I-A0	*
+         County	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	         O	         O	         O	         O	      I-A0	*
+       employee	        NN	      E-NP	         O	              -	      E-A0	         O	         O	         O	         O	         O	      I-A0	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	         O	      I-A0	*
+            who	        WP	      S-NP	         O	              -	    S-R-A0	         O	         O	         O	    S-R-A0	    S-R-A0	      I-A0	(SBAR(WHNP*)
+            won	       VBD	      S-VP	         O	            won	       S-V	         O	         O	         O	         O	         O	      I-A0	(S(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	         O	         O	         O	         O	         O	      I-A0	(NP(NP*
+     settlement	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	         O	         O	      I-A0	*)
+      following	       VBG	      S-PP	         O	      following	  B-AM-TMP	       S-V	         O	         O	         O	         O	      I-A0	(VP*
+            her	       PRP	      S-NP	         O	              -	  I-AM-TMP	      B-A2	      S-A1	      S-A1	         O	         O	      I-A0	(S(NP*)
+        getting	       VBG	      B-VP	         O	        getting	  I-AM-TMP	      I-A2	       S-V	         O	         O	         O	      I-A0	(VP*
+          fired	       VBN	      E-VP	         O	          fired	  I-AM-TMP	      E-A2	         O	       S-V	         O	         O	      I-A0	(VP*
+          after	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	         O	         O	         O	         O	      I-A0	(PP*
+         asking	       VBG	      B-VP	         O	         asking	  I-AM-TMP	         O	         O	         O	       S-V	         O	      I-A0	(S(VP*
+             to	        TO	      I-VP	         O	              -	  I-AM-TMP	         O	         O	         O	      B-A1	         O	      I-A0	(S(VP*
+         change	        VB	      E-VP	         O	         change	  I-AM-TMP	         O	         O	         O	      I-A1	       S-V	      I-A0	(VP*
+            her	      PRP$	      B-NP	         O	              -	  I-AM-TMP	         O	         O	         O	      I-A1	      B-A1	      I-A0	(NP*
+       schedule	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	         O	         O	      E-A1	      E-A1	      I-A0	*)
+          while	        IN	    S-SBAR	         O	              -	  I-AM-TMP	         O	         O	         O	         O	         O	      I-A0	(SBAR*
+       pregnant	        JJ	    S-ADJP	         O	              -	  E-AM-TMP	         O	         O	         O	         O	         O	      I-A0	(ADJP*))))))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	         O	      E-A0	*)))))
+            has	       VBZ	      B-VP	         O	              -	         O	         O	         O	         O	         O	         O	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	         O	         O	         O	         O	         O	         O	(VP*
+        awarded	       VBN	      E-VP	         O	        awarded	         O	         O	         O	         O	         O	         O	       S-V	(VP*
+             an	        DT	      B-NP	         O	              -	         O	         O	         O	         O	         O	         O	      B-A1	(NP*
+     additional	        JJ	      I-NP	         O	              -	         O	         O	         O	         O	         O	         O	      I-A1	*
+              $	         $	      I-NP	         O	              -	         O	         O	         O	         O	         O	         O	      I-A1	*
+        465,011	        CD	      E-NP	         O	              -	         O	         O	         O	         O	         O	         O	      E-A1	*)
+             by	        IN	      S-PP	         O	              -	         O	         O	         O	         O	         O	         O	      B-A0	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	         O	         O	         O	         O	      I-A0	(NP*
+          judge	        NN	      E-NP	         O	              -	         O	         O	         O	         O	         O	         O	      E-A0	*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	         O	         O	*))
+
+             In	        IN	      S-PP	         O	              -	  B-AM-TMP	(S1(S(PP*
+           late	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           July	       NNP	      E-NP	         O	              -	  E-AM-TMP	*))
+              ,	         ,	         O	         O	              -	         O	*
+      Stephanie	       NNP	      B-NP	     B-PER	              -	      B-A0	(NP(NP*
+        Barnett	       NNP	      E-NP	     E-PER	              -	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A0	*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP(NP*
+         former	        JJ	      I-NP	         O	              -	      I-A0	*
+       director	        NN	      E-NP	         O	              -	      I-A0	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP*
+         county	        NN	      I-NP	         O	              -	      I-A0	*
+           ’s	        JJ	      I-NP	         O	              -	      I-A0	*
+       internal	        JJ	      I-NP	         O	              -	      I-A0	*
+       services	       NNS	      I-NP	         O	              -	      I-A0	*
+       division	        NN	      E-NP	         O	              -	      I-A0	*)))
+              ,	         ,	         O	         O	              -	      E-A0	*)
+            won	       VBD	      S-VP	         O	            won	       S-V	(VP*
+             an	        DT	      B-NP	         O	              -	      B-A1	(NP(NP*
+          award	        NN	      E-NP	         O	              -	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+              $	         $	      B-NP	         O	              -	      I-A1	(NP*
+        306,400	        CD	      E-NP	         O	              -	      I-A1	*))
+              ,	         ,	         O	         O	              -	      I-A1	*
+         mostly	        RB	    S-ADVP	         O	              -	      I-A1	(PP(ADVP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	*
+           back	        JJ	      B-NP	         O	              -	      I-A1	(NP*
+            pay	        NN	      I-NP	         O	              -	      I-A1	*
+        damages	       NNS	      E-NP	         O	              -	      E-A1	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+         Jurors	       NNS	      S-NP	         O	              -	      S-A0	      S-A0	         O	         O	         O	(S1(NP(NP*)
+         during	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	         O	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      B-A0	  I-AM-TMP	         O	         O	         O	(NP(NP*
+       weeklong	        JJ	      I-NP	         O	              -	      I-A0	  I-AM-TMP	         O	         O	         O	*
+          trial	        NN	      E-NP	         O	              -	      E-A0	  I-AM-TMP	         O	         O	         O	*)
+     determined	       VBD	      S-VP	         O	     determined	       S-V	  E-AM-TMP	         O	         O	         O	(VP*
+       Montrose	       NNP	      B-NP	     B-ORG	              -	      B-A1	      B-A0	      B-A0	         O	         O	(SBAR(S(NP*
+         County	       NNP	      E-NP	     E-ORG	              -	      I-A1	      E-A0	      E-A0	         O	         O	*)
+       violated	       VBD	      S-VP	         O	       violated	      I-A1	       S-V	         O	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	         O	(NP(NP*
+            law	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	         O	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	         O	         O	         O	(PP*
+         firing	       VBG	      S-VP	         O	         firing	      I-A1	  I-AM-TMP	       S-V	         O	         O	(S(VP*
+            her	       PRP	      S-NP	         O	              -	      I-A1	  I-AM-TMP	      S-A1	         O	         O	(NP*)
+           when	       WRB	    S-ADVP	         O	              -	      I-A1	  I-AM-TMP	         O	         O	         O	(SBAR(WHADVP*)
+            she	       PRP	      S-NP	         O	              -	      I-A1	  I-AM-TMP	         O	      S-A0	      S-A0	(S(NP*)
+      requested	       VBD	      B-VP	         O	      requested	      I-A1	  I-AM-TMP	         O	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	  I-AM-TMP	         O	      B-A1	         O	(S(VP*
+           work	        VB	      E-VP	         O	           work	      I-A1	  I-AM-TMP	         O	      I-A1	       S-V	(VP*
+           part	        NN	      B-NP	         O	              -	      I-A1	  I-AM-TMP	         O	      I-A1	      B-A1	(NP*
+           time	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	         O	      I-A1	      E-A1	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	         O	      I-A1	  B-AM-TMP	(PP*
+            May	       NNP	      B-NP	         O	              -	      I-A1	  I-AM-TMP	         O	      I-A1	  I-AM-TMP	(NP*
+           2013	        CD	      E-NP	         O	              -	      E-A1	  E-AM-TMP	         O	      E-A1	  E-AM-TMP	*))))))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*))
+
+        Barnett	       NNP	      S-NP	     S-PER	              -	      S-A1	      S-A0	         O	(S1(S(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+          fired	       VBN	      E-VP	         O	          fired	       S-V	         O	         O	(VP*
+          seven	        CD	      B-NP	         O	              -	  B-AM-TMP	         O	         O	(PP(NP*
+           days	       NNS	      E-NP	         O	              -	  E-AM-TMP	         O	         O	*)
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	*
+        meeting	       VBG	      S-VP	         O	        meeting	  I-AM-TMP	       S-V	         O	(S(VP*
+           with	        IN	      S-PP	         O	              -	  I-AM-TMP	      B-A1	         O	(PP*
+            her	      PRP$	      B-NP	         O	              -	  I-AM-TMP	      I-A1	         O	(NP(NP*
+         former	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A1	         O	*
+           boss	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A1	         O	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	      I-A1	         O	*
+       Montrose	       NNP	      B-NP	     S-ORG	              -	  I-AM-TMP	      I-A1	         O	(NP*
+           ’s	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A1	         O	*
+         former	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A1	         O	*
+         county	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A1	         O	*
+        manager	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A1	         O	*)))))))))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	      I-A1	         O	*
+            Roy	       NNP	      S-NP	     B-PER	              -	  I-AM-TMP	      I-A1	      S-A0	(NP*)
+            “	       VBD	      S-VP	     I-PER	            “	  I-AM-TMP	      I-A1	       S-V	(VP*
+           Rick	       NNP	      B-NP	     I-PER	              -	  I-AM-TMP	      I-A1	      B-A1	(NP*
+            ”	        NN	      I-NP	     I-PER	              -	  I-AM-TMP	      I-A1	      I-A1	*
+         Eckert	       NNP	      E-NP	     E-PER	              -	  E-AM-TMP	      E-A1	      E-A1	*))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+        Barnett	       NNP	      B-NP	     S-PER	              -	         O	         O	         O	      B-A1	(S1(S(S(NP*
+           ’s	        JJ	      I-NP	         O	              -	         O	         O	         O	      I-A1	*
+          total	        JJ	      I-NP	         O	              -	         O	         O	         O	      I-A1	*
+          award	        NN	      E-NP	         O	              -	         O	         O	         O	      I-A1	*)
+            now	        RB	    S-ADVP	         O	              -	         O	         O	         O	      I-A1	(ADVP*)
+             is	       VBZ	      S-VP	         O	              -	         O	         O	         O	      I-A1	(VP*
+              $	         $	      B-NP	         O	              -	         O	         O	         O	      I-A1	(SBAR(S(NP(NP*
+        771,411	        CD	      E-NP	         O	              -	         O	         O	         O	      I-A1	*)
+            and	        CC	         O	         O	              -	         O	         O	         O	      I-A1	*
+            she	       PRP	      S-NP	         O	              -	         O	      B-A0	         O	      I-A1	(NP*)
+            and	        CC	         O	         O	              -	         O	      I-A0	         O	      I-A1	*
+            her	      PRP$	      B-NP	         O	              -	      B-A0	      I-A0	         O	      I-A1	(NP*
+      attorneys	       NNS	      E-NP	         O	              -	      E-A0	      E-A0	         O	      I-A1	*))
+           plan	       VBP	      B-VP	         O	           plan	       S-V	         O	         O	      I-A1	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	         O	      I-A1	(S(VP*
+           seek	        VB	      E-VP	         O	           seek	      I-A1	       S-V	         O	      I-A1	(VP*
+       attorney	        NN	      B-NP	         O	              -	      I-A1	      B-A1	         O	      I-A1	(NP(NP(NP*
+          costs	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	         O	      I-A1	*)
+            and	        CC	         O	         O	              -	      I-A1	      I-A1	         O	      I-A1	*
+     litigation	        NN	      B-NP	         O	              -	      I-A1	      I-A1	      B-A0	      I-A1	(NP*
+          costs	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	      E-A0	      I-A1	*))
+           that	       WDT	      S-NP	         O	              -	      I-A1	      I-A1	    S-R-A0	      I-A1	(SBAR(WHNP*)
+          could	        MD	      B-VP	         O	              -	      I-A1	      I-A1	  S-AM-MOD	      I-A1	(S(VP*
+          reach	        VB	      E-VP	         O	          reach	      I-A1	      I-A1	       S-V	      I-A1	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      B-A1	      I-A1	(NP(NP*
+          total	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	(PP*
+              $	         $	      B-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	(NP(QP*
+              1	        CD	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	*
+        million	        CD	      E-NP	         O	              -	      E-A1	      E-A1	      E-A1	      E-A1	*)))))))))))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+           said	       VBD	      S-VP	         O	           said	         O	         O	         O	       S-V	(VP*
+            one	        CD	      S-NP	         O	              -	         O	         O	         O	      B-A0	(NP(NP(NP*)
+             of	        IN	      S-PP	         O	              -	         O	         O	         O	      I-A0	(PP*
+            her	      PRP$	      B-NP	         O	              -	         O	         O	         O	      I-A0	(NP*
+      attorneys	       NNS	      E-NP	         O	              -	         O	         O	         O	      I-A0	*)))
+              ,	         ,	         O	         O	              -	         O	         O	         O	      I-A0	*
+           Nick	       NNP	      B-NP	     B-PER	              -	         O	         O	         O	      I-A0	(NP(NP*
+          Mayle	       NNP	      E-NP	     E-PER	              -	         O	         O	         O	      I-A0	*)
+           with	        IN	      S-PP	         O	              -	         O	         O	         O	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	      I-A0	(NP*
+            law	        NN	      I-NP	         O	              -	         O	         O	         O	      I-A0	*
+           firm	        NN	      E-NP	         O	              -	         O	         O	         O	      I-A0	*))
+        Killian	       NNP	      B-NP	     S-PER	              -	         O	         O	         O	      I-A0	(NP*
+              ,	         ,	      I-NP	         O	              -	         O	         O	         O	      I-A0	*
+          Davis	       NNP	      I-NP	     S-PER	              -	         O	         O	         O	      I-A0	*
+              ,	         ,	      I-NP	         O	              -	         O	         O	         O	      I-A0	*
+        Richter	       NNP	      I-NP	     B-PER	              -	         O	         O	         O	      I-A0	*
+              &	        CC	      I-NP	     I-PER	              -	         O	         O	         O	      I-A0	*
+          Mayle	       NNP	      E-NP	     E-PER	              -	         O	         O	         O	      I-A0	*)
+             in	        IN	      S-PP	         O	              -	         O	         O	         O	      I-A0	(PP*
+          Grand	       NNP	      B-NP	     B-LOC	              -	         O	         O	         O	      I-A0	(NP*
+       Junction	       NNP	      E-NP	     E-LOC	              -	         O	         O	         O	      E-A0	*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+            “	       SYM	         O	         O	              -	(S1(NP*))
+
+              I	       PRP	      S-NP	         O	              -	      S-A0	         O	         O	         O	         O	         O	(S1(S(S(S(NP*)
+          think	       VBP	      S-VP	         O	          think	       S-V	         O	         O	         O	         O	         O	(VP*
+             it	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	         O	         O	         O	         O	(SBAR(S(NP*)
+           ’s	       VBD	      S-VP	         O	           ’s	      I-A1	       S-V	         O	         O	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	         O	         O	(NP*
+    significant	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	         O	         O	         O	         O	*
+          award	        NN	      E-NP	         O	              -	      E-A1	      E-A1	         O	         O	         O	         O	*))))))
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	         O	         O	*
+              I	       PRP	      S-NP	         O	              -	         O	         O	      S-A0	         O	         O	         O	(S(NP*)
+          think	       VBP	      S-VP	         O	          think	         O	         O	       S-V	         O	         O	         O	(VP*
+             it	       PRP	      S-NP	         O	              -	         O	         O	      B-A1	         O	         O	         O	(SBAR(S(NP*)
+       reflects	       VBZ	      S-VP	         O	       reflects	         O	         O	      I-A1	       S-V	         O	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	         O	         O	      I-A1	      B-A1	         O	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	         O	         O	      I-A1	      I-A1	      B-A0	         O	(S(NP*
+           jury	        NN	      I-NP	         O	              -	         O	         O	      I-A1	      I-A1	      I-A0	         O	*
+            and	        CC	      I-NP	         O	              -	         O	         O	      I-A1	      I-A1	      I-A0	         O	*
+          judge	        NN	      E-NP	         O	              -	         O	         O	      I-A1	      I-A1	      E-A0	         O	*)
+          found	       VBD	      S-VP	         O	          found	         O	         O	      I-A1	      I-A1	       S-V	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	         O	         O	      I-A1	      I-A1	      B-A1	         O	(SBAR*
+            Ms.	       NNP	      B-NP	     B-PER	              -	         O	         O	      I-A1	      I-A1	      I-A1	         O	(S(NP*
+        Barnett	       NNP	      E-NP	     E-PER	              -	         O	         O	      I-A1	      I-A1	      I-A1	         O	*)
+            was	       VBD	      S-VP	         O	              -	         O	         O	      I-A1	      I-A1	      I-A1	         O	(VP*
+        subject	        JJ	    S-ADJP	         O	              -	         O	         O	      I-A1	      I-A1	      I-A1	         O	(ADJP*
+             to	        TO	      S-PP	         O	              -	         O	         O	      I-A1	      I-A1	      I-A1	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	      I-A1	      I-A1	      I-A1	         O	(NP(NP*
+            lot	        NN	      E-NP	         O	              -	         O	         O	      I-A1	      I-A1	      I-A1	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	         O	      I-A1	      I-A1	      I-A1	         O	(PP*
+ discrimination	        NN	      S-NP	         O	              -	         O	         O	      E-A1	      E-A1	      E-A1	         O	(NP*)))))))))))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	         O	*
+            ”	        NN	      S-NP	         O	              -	         O	         O	         O	         O	         O	       S-V	(NP*)
+             he	       PRP	      S-NP	         O	              -	         O	         O	         O	         O	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	         O	         O	         O	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	         O	*))
+
+          Mayle	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(SBAR(S(NP(NP*
+           most	       RBS	      I-NP	         O	              -	      I-A1	         O	         O	(ADJP*
+         recent	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*)
+         ruling	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)
+             on	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+           Aug.	       NNP	      B-NP	         O	              -	      I-A1	         O	         O	(NP*
+             28	        CD	      E-NP	         O	              -	      I-A1	         O	         O	*))
+             by	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+           U.S.	       NNP	      B-NP	     S-LOC	              -	      I-A1	         O	         O	(NP*
+       District	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+          Court	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+          Judge	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+          James	       NNP	      I-NP	     B-PER	              -	      I-A1	         O	         O	*
+         Parker	       NNP	      E-NP	     E-PER	              -	      I-A1	         O	         O	*)))
+            was	       VBD	      S-VP	         O	              -	      I-A1	         O	         O	(VP*
+             an	        DT	      B-NP	         O	              -	      I-A1	         O	         O	(NP(NP(NP*
+          award	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)
+            for	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+        Barnett	       NNP	      B-NP	     S-PER	              -	      I-A1	         O	         O	(NP*
+           ’s	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+          front	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+            pay	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	*
+             or	        CC	         O	         O	              -	      I-A1	         O	         O	*
+             an	        DT	      B-NP	         O	              -	      I-A1	         O	      B-A1	(NP(NP*
+      estimated	       VBN	      I-NP	         O	      estimated	      I-A1	       S-V	      I-A1	*
+         amount	        NN	      E-NP	         O	              -	      I-A1	      S-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	      I-A1	(PP*
+         income	        NN	      S-NP	         O	              -	      I-A1	         O	      E-A1	(NP*))
+            she	       PRP	      S-NP	         O	              -	      I-A1	         O	      S-A0	(SBAR(S(NP*)
+           lost	       VBD	      S-VP	         O	           lost	      I-A1	         O	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	      I-A1	         O	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	  I-AM-TMP	(NP(NP*
+            end	        NN	      E-NP	         O	              -	      I-A1	         O	  I-AM-TMP	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	  I-AM-TMP	(PP*
+            her	      PRP$	      B-NP	         O	              -	      I-A1	         O	  I-AM-TMP	(NP*
+          trial	        NN	      E-NP	         O	              -	      I-A1	         O	  I-AM-TMP	*))))
+           into	        IN	      S-PP	         O	              -	      I-A1	         O	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	  I-AM-TMP	(NP*
+         future	        NN	      E-NP	         O	              -	      E-A1	         O	  E-AM-TMP	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+        Barnett	       NNP	      B-NP	     S-PER	              -	         O	         O	         O	(S1(S(NP(NP*
+           ’s	        NN	      I-NP	         O	              -	         O	         O	         O	*
+          prior	        RB	      I-NP	         O	              -	         O	         O	         O	*
+          award	        NN	      E-NP	         O	              -	         O	         O	         O	*)
+             by	        IN	      S-PP	         O	              -	         O	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	         O	(NP(NP*
+           jury	        NN	      E-NP	         O	              -	         O	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	         O	         O	(PP*
+             12	        CD	      B-NP	         O	              -	         O	         O	         O	(NP*
+      residents	       NNS	      E-NP	         O	              -	         O	         O	         O	*)))))
+            was	       VBD	      S-VP	         O	              -	         O	         O	         O	(VP*
+            for	        IN	      S-PP	         O	              -	         O	         O	         O	(PP(PP*
+           back	        JJ	      B-NP	         O	              -	         O	         O	         O	(NP*
+            pay	        NN	      E-NP	         O	              -	         O	         O	         O	*))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+             or	        CC	         O	         O	              -	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP(NP(NP*
+         amount	        NN	      E-NP	         O	              -	      E-A1	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	         O	         O	(PP*
+          money	        NN	      S-NP	         O	              -	      S-A1	      S-A1	         O	(NP*)))
+            she	       PRP	      S-NP	         O	              -	      S-A0	      S-A0	         O	(SBAR(S(NP*)
+           lost	       VBD	      S-VP	         O	           lost	       S-V	         O	         O	(VP*
+           from	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	         O	(NP(NP*
+           time	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	         O	(PP*
+        getting	       VBG	      B-VP	         O	        getting	  I-AM-TMP	       S-V	         O	(S(VP*
+          fired	       VBN	      E-VP	         O	          fired	  I-AM-TMP	      B-A2	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	  I-AM-TMP	      I-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A2	         O	(NP(NP*
+           date	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A2	         O	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A2	         O	(PP*
+          trial	        NN	      S-NP	         O	              -	  E-AM-TMP	      E-A2	         O	(NP*))))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+      According	       VBG	      S-PP	         O	              -	  B-AM-ADV	         O	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	         O	(NP*
+      complaint	        NN	      E-NP	         O	              -	  E-AM-ADV	         O	*)))
+              ,	         ,	         O	         O	              -	         O	         O	*
+         Eckert	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	(NP*)
+           told	       VBD	      S-VP	         O	           told	       S-V	         O	(VP*
+        Barnett	       NNP	      S-NP	     S-PER	              -	      S-A2	         O	(NP*)
+            her	      PRP$	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+       division	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+          would	        MD	      B-VP	         O	              -	      I-A1	  S-AM-MOD	(VP*
+             be	        VB	      I-VP	         O	              -	      I-A1	         O	(VP*
+      dissolved	       VBN	      E-VP	         O	      dissolved	      I-A1	       S-V	(VP*
+        because	        IN	      B-PP	         O	              -	      I-A1	  B-AM-CAU	(PP*
+             of	        IN	      E-PP	         O	              -	      I-A1	  I-AM-CAU	*
+            “	        JJ	      B-NP	         O	              -	      I-A1	  I-AM-CAU	(NP(NP*
+      budgetary	        JJ	      I-NP	         O	              -	      I-A1	  I-AM-CAU	*
+     restraints	       NNS	      E-NP	         O	              -	      I-A1	  I-AM-CAU	*
+            ”	        NN	      S-NP	         O	              -	      I-A1	  I-AM-CAU	*)
+             at	        IN	      S-PP	         O	              -	      I-A1	  I-AM-CAU	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-CAU	(NP*
+         county	        NN	      E-NP	         O	              -	      E-A1	  E-AM-CAU	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+        However	        RB	    S-ADVP	         O	              -	         O	         O	(S1(S(S(ADVP*)
+              ,	         ,	         O	         O	              -	         O	         O	*
+            she	       PRP	      S-NP	         O	              -	         O	         O	(NP*)
+            was	       VBD	      S-VP	         O	              -	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A0	         O	(NP*
+           only	        JJ	      I-NP	         O	              -	      I-A0	         O	*
+       employee	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+             to	        TO	      B-VP	         O	              -	         O	         O	(S(VP*
+           lose	        VB	      E-VP	         O	           lose	       S-V	         O	(VP*
+            her	      PRP$	      B-NP	         O	              -	      B-A1	      B-A1	(NP*
+            job	        NN	      E-NP	         O	              -	      E-A1	      I-A1	*
+            and	        CC	         O	         O	              -	         O	      I-A1	*
+        Barnett	       NNP	      B-NP	     S-PER	              -	         O	      I-A1	*
+           ’s	        NN	      I-NP	         O	              -	         O	      I-A1	*
+         duties	       NNS	      E-NP	         O	              -	         O	      E-A1	*))))))
+           were	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	         O	       B-V	(VP*
+           over	        RP	     S-PRT	         O	              -	         O	       E-V	(ADVP*)
+             by	        IN	      S-PP	         O	              -	         O	      B-A0	(PP*
+        another	        DT	      B-NP	         O	              -	         O	      I-A0	(NP*
+         person	        NN	      E-NP	         O	              -	         O	      E-A0	*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+       Montrose	       NNP	      B-NP	     B-ORG	              -	      B-A0	(S1(S(NP*
+         County	       NNP	      E-NP	     E-ORG	              -	      E-A0	*)
+            has	       VBZ	      B-VP	         O	              -	         O	*
+           said	       VBN	      E-VP	         O	           said	       S-V	*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+      statement	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+           that	        IN	    S-SBAR	         O	              -	      B-A1	*
+           they	       PRP	      S-NP	         O	              -	      I-A1	(NP*)
+            “	         .	    S-ADJP	         O	              -	      E-A1	*))
+
+       consider	        VB	      S-VP	         O	       consider	       S-V	(S1(S(VP*
+           this	        DT	      B-NP	         O	              -	      B-A1	(NP*
+           case	        NN	      E-NP	         O	              -	      E-A1	*)
+             to	        TO	      B-VP	         O	              -	      B-A2	(S(VP*
+             be	        VB	      E-VP	         O	              -	      I-A2	(VP*
+     completely	        RB	    S-ADVP	         O	              -	      I-A2	(ADVP*)
+        without	        IN	      S-PP	         O	              -	      I-A2	(PP*
+          merit	        NN	      S-NP	         O	              -	      E-A2	(NP*))))))
+              .	         .	         O	         O	              -	         O	*))
+
+            ”	       SYM	      B-NP	         O	              -	      B-A0	      B-A0	(S1(S(VP*
+       Montrose	       NNP	      I-NP	     B-ORG	              -	      I-A0	      I-A0	(SBAR(S(NP*
+         County	       NNP	      E-NP	     E-ORG	              -	      E-A0	      E-A0	*)
+            has	       VBZ	      S-VP	         O	            has	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	(NP*
+         option	        NN	      E-NP	         O	              -	      I-A1	         O	*
+             to	        TO	      B-VP	         O	              -	      I-A1	         O	(S(VP*
+           file	        VB	      E-VP	         O	           file	      I-A1	       S-V	(VP*
+             an	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP(NP*
+         appeal	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+           both	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+       monetary	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+         awards	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	         O	      B-A0	(S1(S(NP*
+          media	       NNS	      I-NP	         O	              -	      I-A0	         O	      I-A0	*
+ representative	        NN	      E-NP	         O	              -	      E-A0	         O	      I-A0	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	      I-A0	(VP*
+        Tuesday	       NNP	      S-NP	         O	              -	      B-A1	      B-A1	      I-A0	(NP*)
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      I-A0	(SBAR(S(NP*
+         county	        NN	      E-NP	         O	              -	      I-A1	      E-A1	      E-A0	*)
+             is	       VBZ	      B-VP	         O	              -	      I-A1	         O	         O	(VP(VP*
+       awaiting	       VBG	      E-VP	         O	       awaiting	      I-A1	       S-V	         O	(VP*
+       judgment	        NN	      S-NP	         O	              -	      I-A1	      B-A2	         O	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A2	         O	(NP*
+           case	        NN	      E-NP	         O	              -	      I-A1	      E-A2	         O	*)))))
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	*
+          would	        MD	      B-VP	         O	              -	      I-A1	         O	  S-AM-MOD	(VP*
+            not	        RB	      I-VP	         O	              -	      I-A1	         O	  S-AM-NEG	*
+        comment	        VB	      E-VP	         O	        comment	      I-A1	         O	       S-V	(VP*
+            for	        IN	      S-PP	         O	              -	      I-A1	         O	      B-A1	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	         O	      I-A1	(NP*
+          story	        NN	      E-NP	         O	              -	      E-A1	         O	      E-A1	*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+        Barnett	       NNP	      S-NP	     S-PER	              -	      S-A0	      B-A0	      B-A0	(S1(NP(NP*)
+              ,	         ,	         O	         O	              -	         O	      I-A0	      I-A0	*
+            who	        WP	      S-NP	         O	              -	    S-R-A0	      I-A0	      I-A0	(SBAR(WHNP*)
+            had	       VBD	      B-VP	         O	              -	         O	      I-A0	      I-A0	(S(VP*
+         worked	       VBN	      E-VP	         O	         worked	       S-V	      I-A0	      I-A0	(VP(VP*
+            for	        IN	      S-PP	         O	              -	      B-A3	      I-A0	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A3	      I-A0	      I-A0	(NP*
+         county	        NN	      E-NP	         O	              -	      E-A3	      I-A0	      I-A0	*))
+          since	        IN	      S-PP	         O	              -	  B-AM-TMP	      I-A0	      I-A0	(PP*
+       November	       NNP	      B-NP	         O	              -	  I-AM-TMP	      I-A0	      I-A0	(NP*
+           2007	        CD	      E-NP	         O	              -	  E-AM-TMP	      I-A0	      I-A0	*))
+              ,	         ,	         O	         O	              -	         O	      E-A0	      E-A0	*
+            had	       VBD	      S-VP	         O	            had	         O	       S-V	         O	(VP*
+             an	        DT	      B-NP	         O	              -	         O	      B-A1	         O	(NP*
+            “	        JJ	      I-NP	         O	              -	         O	      I-A1	         O	*
+      exemplary	        JJ	      I-NP	         O	              -	         O	      I-A1	         O	*
+     employment	        NN	      I-NP	         O	              -	         O	      I-A1	         O	*
+         record	        NN	      E-NP	         O	              -	         O	      I-A1	         O	*)))
+            and	        CC	         O	         O	              -	         O	      I-A1	         O	*
+   continuously	        RB	      B-VP	         O	              -	         O	      I-A1	  S-AM-MNR	(VP(ADVP*)
+       received	       VBD	      E-VP	         O	       received	         O	      I-A1	       S-V	*
+       positive	        JJ	      B-NP	         O	              -	         O	      I-A1	      B-A1	(NP*
+     employment	        NN	      I-NP	         O	              -	         O	      I-A1	      I-A1	*
+    evaluations	       NNS	      E-NP	         O	              -	         O	      E-A1	      E-A1	*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+           Just	        RB	      B-NP	         O	              -	  B-AM-TMP	         O	(S1(S(S(NP(NP(NP*
+              a	        DT	      I-NP	         O	              -	  I-AM-TMP	         O	*
+            few	        JJ	      I-NP	         O	              -	  I-AM-TMP	         O	*
+         months	       NNS	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+         before	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+            her	      PRP$	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+    termination	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	*)))
+              ,	         ,	         O	         O	              -	         O	         O	*
+        Barnett	       NNP	      S-NP	     S-PER	              -	      S-A2	      S-A0	(NP*))
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+          given	       VBN	      E-VP	         O	          given	       S-V	         O	(VP*
+             an	        DT	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
+          award	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+             by	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+            her	      PRP$	      B-NP	         O	              -	      I-A1	         O	(NP*
+          peers	       NNS	      E-NP	         O	              -	      E-A1	         O	*)))
+            for	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+            her	      PRP$	      B-NP	         O	              -	      I-A2	         O	(NP*
+           work	        NN	      I-NP	         O	              -	      I-A2	         O	*
+     excellence	        NN	      E-NP	         O	              -	      I-A2	         O	*)))))
+              ,	         ,	         O	         O	              -	      I-A2	         O	*
+            ”	       VBD	      S-VP	         O	            ”	      I-A2	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      B-A1	(NP*
+      complaint	        NN	      I-NP	         O	              -	      I-A2	      I-A1	*
+         states	       NNS	      E-NP	         O	              -	      E-A2	      E-A1	*))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+        Shortly	        RB	    S-ADVP	         O	              -	         O	  B-AM-TMP	  B-AM-TMP	(S1(S(PP(ADVP*)
+          after	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	  I-AM-TMP	*
+          being	       VBG	      B-VP	         O	              -	         O	  I-AM-TMP	  I-AM-TMP	(S(VP*
+          fired	       VBN	      E-VP	         O	          fired	       S-V	  E-AM-TMP	  E-AM-TMP	(VP*))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+        Barnett	       NNP	      S-NP	     S-PER	              -	         O	      S-A0	      S-A0	(NP*)
+     miscarried	       VBD	      S-VP	         O	     miscarried	         O	       S-V	         O	(VP(VP*)
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+           lost	       VBD	      S-VP	         O	           lost	         O	         O	       S-V	(VP*
+            her	      PRP$	      B-NP	         O	              -	         O	         O	      B-A1	(NP(NP*
+           baby	        NN	      E-NP	         O	              -	         O	         O	      E-A1	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	(NP*
+      complaint	        NN	      I-NP	         O	              -	         O	         O	         O	*
+         states	       NNS	      E-NP	         O	              -	         O	         O	         O	*))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+         Jurors	       NNS	      S-NP	         O	              -	      S-A0	         O	         O	(S1(S(NP*)
+     determined	       VBD	      S-VP	         O	     determined	       S-V	         O	         O	(VP*
+       Montrose	       NNP	      B-NP	     B-ORG	              -	      B-A1	      B-A0	      B-A0	(SBAR(S(NP*
+         County	       NNP	      E-NP	     E-ORG	              -	      I-A1	      E-A0	      E-A0	*)
+       violated	       VBD	      S-VP	         O	       violated	      I-A1	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	(NP(NP(NP*
+           1964	        CD	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
+          Civil	       NNP	      I-NP	     B-ORG	              -	      I-A1	      I-A1	         O	*
+         Rights	       NNP	      I-NP	     I-ORG	              -	      I-A1	      I-A1	         O	*
+            Act	       NNP	      E-NP	     E-ORG	              -	      I-A1	      I-A1	         O	*)
+            and	        CC	         O	         O	              -	      I-A1	      I-A1	         O	*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	         O	(NP*
+           1978	        CD	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
+      Pregnancy	       NNP	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
+ Discrimination	       NNP	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
+            Act	       NNP	      E-NP	         O	              -	      I-A1	      E-A1	         O	*))
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-PNC	         O	(PP*
+         firing	       VBG	      B-NP	         O	         firing	      I-A1	  I-AM-PNC	       S-V	(S(VP*
+        Barnett	       NNP	      E-NP	     S-PER	              -	      E-A1	  E-AM-PNC	      S-A1	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+

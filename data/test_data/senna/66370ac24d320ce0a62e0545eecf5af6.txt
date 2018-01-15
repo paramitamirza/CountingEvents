@@ -1,0 +1,423 @@
+     2015-07-20	        CD	      S-NP	         O	              -	(S1(NP*))
+
+           SPPD	       NNP	      S-NP	         O	              -	(S1(NP(NP*)
+              :	         :	         O	         O	              -	*
+        Suspect	        VB	      S-VP	         O	              -	(S(VP*
+             in	        IN	      S-PP	         O	              -	(PP(PP*
+          party	        NN	      B-NP	         O	              -	(NP*
+            bus	        NN	      I-NP	         O	              -	*
+           drop	        NN	      E-NP	         O	              -	*))
+              -	         :	         O	         O	              -	*
+            off	        IN	      S-PP	         O	              -	(PP*
+       shooting	        NN	      S-NP	         O	              -	(NP(NP*)
+       arrested	       VBN	      S-VP	         O	              -	(VP*
+       Saturday	       NNP	      S-NP	         O	              -	(NP*)))))))))
+
+             By	        IN	      S-PP	         O	              -	         O	         O	         O	         O	         O	         O	(S1(S(PP*
+          Peggy	       NNP	      B-NP	     B-PER	              -	      B-A0	         O	         O	         O	         O	         O	(NP*
+          Kelly	       NNP	      I-NP	     I-PER	              -	      I-A0	         O	         O	         O	         O	         O	*
+        NEWLINE	       NNP	      I-NP	     I-PER	              -	      I-A0	         O	         O	         O	         O	         O	*
+          Santa	       NNP	      I-NP	     I-PER	              -	      I-A0	         O	         O	         O	         O	         O	*
+          Paula	       NNP	      I-NP	     I-PER	              -	      I-A0	         O	         O	         O	         O	         O	*
+           News	       NNP	      I-NP	     I-PER	              -	      I-A0	         O	         O	         O	         O	         O	*
+        NEWLINE	       NNP	      I-NP	     I-PER	              -	      I-A0	         O	         O	         O	         O	         O	*
+          Santa	       NNP	      I-NP	     I-PER	              -	      I-A0	         O	         O	         O	         O	         O	*
+          Paula	       NNP	      I-NP	     I-PER	              -	      I-A0	         O	         O	         O	         O	         O	*
+         Police	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	         O	         O	         O	*))
+           made	       VBD	      S-VP	         O	           made	       S-V	         O	         O	         O	         O	         O	(VP*
+             an	        DT	      B-NP	         O	              -	      B-A1	         O	         O	         O	         O	         O	(NP*
+         arrest	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	         O	         O	*)
+       Saturday	       NNP	      S-NP	         O	              -	  S-AM-TMP	         O	         O	         O	         O	         O	(NP*)
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	         O	         O	         O	(SBAR*
+             an	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A0	         O	         O	         O	         O	(S(NP*
+          early	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A0	         O	         O	         O	         O	*
+        morning	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A0	         O	         O	         O	         O	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A0	         O	         O	         O	         O	*)
+           left	       VBD	      S-VP	         O	           left	  I-AM-TMP	       S-V	         O	         O	         O	         O	(VP*
+           five	        CD	      B-NP	         O	              -	  I-AM-TMP	      B-A1	      B-A0	         O	         O	         O	(SBAR(S(NP*
+            men	       NNS	      E-NP	         O	              -	  I-AM-TMP	      I-A1	      E-A0	         O	         O	         O	*)
+  wounded…and	       VBP	      S-VP	         O	  wounded…and	  I-AM-TMP	      I-A1	       S-V	         O	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A1	      B-A1	      B-A1	         O	         O	(SBAR(S(NP(NP*
+            man	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	      E-A1	         O	         O	*)
+          taken	       VBN	      S-VP	         O	          taken	  I-AM-TMP	      I-A1	      I-A1	       S-V	         O	         O	(VP*
+           into	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	      B-A2	         O	         O	(PP*
+        custody	        NN	      S-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	      E-A2	         O	         O	(NP*))))
+            was	       VBD	      S-VP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	         O	         O	(VP*
+            one	        CD	      S-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	         O	         O	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	         O	         O	(PP*
+          those	        DT	      S-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	      S-A1	         O	(NP(NP(NP*)
+        injured	       VBN	      S-VP	         O	        injured	  I-AM-TMP	      I-A1	      I-A1	         O	       S-V	         O	(VP*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	      B-A1	(NP(NP*
+          melee	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	      E-A1	*)
+           that	       WDT	      S-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	    S-R-A1	(SBAR(WHNP*)
+       occurred	       VBD	      S-VP	         O	       occurred	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	       S-V	(S(VP*
+         during	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	  I-AM-TMP	(NP*
+          party	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	  I-AM-TMP	*
+            bus	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	  I-AM-TMP	*
+           drop	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	  I-AM-TMP	*)))))))))
+              -	         :	         O	         O	              -	  I-AM-TMP	      I-A1	      I-A1	         O	  I-AM-LOC	  I-AM-TMP	*
+            off	        RB	    S-ADVP	         O	              -	  E-AM-TMP	      I-A1	      E-A1	         O	  E-AM-LOC	  E-AM-TMP	(ADVP*))))))))))))))
+              .	         .	         O	         O	              -	         O	      I-A1	         O	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	      E-A1	         O	         O	         O	         O	(NP*)))
+
+            One	        CD	      B-NP	         O	              -	         O	(S1(S(NP(NP*
+         victim	        NN	      E-NP	         O	              -	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)
+           that	       WDT	      S-NP	         O	              -	    S-R-A1	(SBAR(WHNP*)
+           took	       VBD	      S-VP	         O	           took	       S-V	(S(VP*
+          place	        NN	      S-NP	         O	              -	      S-A2	(NP*)
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+          about	        IN	      B-NP	         O	              -	  I-AM-TMP	(NP(QP*
+           2:47	        CD	      I-NP	         O	              -	  I-AM-TMP	*)
+           a.m.	        NN	      I-NP	         O	              -	  I-AM-TMP	*))
+           July	       NNP	      I-NP	         O	              -	  I-AM-TMP	(NP*
+             18	        CD	      E-NP	         O	              -	  E-AM-TMP	*)))))))
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+       critical	        JJ	      B-NP	         O	              -	         O	(NP(ADJP*
+            but	        CC	      I-NP	         O	              -	         O	*
+         stable	        JJ	      I-NP	         O	              -	         O	*)
+      condition	        NN	      E-NP	         O	              -	         O	*)))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+           Eric	       NNP	      B-NP	     B-PER	              -	      B-A1	         O	(S1(S(NP(NP(NP*
+        Medrano	       NNP	      E-NP	     E-PER	              -	      I-A1	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+             22	        CD	      S-NP	         O	              -	      I-A1	         O	(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+          Santa	       NNP	      B-NP	     B-LOC	              -	      I-A1	         O	(NP*
+          Paula	       NNP	      E-NP	     E-LOC	              -	      I-A1	         O	*)))
+              ,	         ,	         O	         O	              -	      E-A1	         O	*
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+       arrested	       VBN	      E-VP	         O	       arrested	       S-V	         O	(VP*
+            for	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+      suspicion	        NN	      S-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+      attempted	       VBN	      B-NP	         O	      attempted	  I-AM-TMP	       S-V	(NP*
+         murder	        NN	      E-NP	         O	              -	  I-AM-TMP	      S-A1	*))))
+       Saturday	       NNP	      S-NP	         O	              -	  I-AM-TMP	  S-AM-TMP	(NP*)
+             at	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+  approximately	        RB	      B-NP	         O	              -	  I-AM-TMP	         O	(NP(QP*
+             10	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	*)
+           p.m.	        NN	      I-NP	         O	              -	  I-AM-TMP	         O	*
+        NEWLINE	        NN	      E-NP	     S-LOC	              -	  E-AM-TMP	         O	*))))))
+
+      According	       VBG	      S-PP	         O	              -	(S1(PP*
+             to	        TO	      S-PP	         O	              -	(PP*
+           SPPD	       NNP	      B-NP	         O	              -	(NP*
+            Sgt	       NNP	      E-NP	         O	              -	*))
+              .	         .	         O	         O	              -	*))
+
+           Cody	       NNP	      B-NP	     B-PER	              -	         O	         O	         O	         O	(S1(S(NP*
+        Madison	       NNP	      E-NP	     E-PER	              -	         O	         O	         O	         O	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	(PRN*
+            “	        JJ	      B-NP	         O	              -	         O	         O	         O	         O	(S(NP*
+        Medrano	       NNP	      E-NP	     S-PER	              -	         O	         O	         O	         O	*)
+            was	       VBD	      S-VP	         O	              -	         O	         O	         O	         O	(VP*
+            one	        CD	      S-NP	         O	              -	         O	         O	         O	         O	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	         O	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	         O	(NP*
+        initial	        JJ	      I-NP	         O	              -	         O	         O	         O	         O	*
+       reported	       VBN	      I-NP	         O	       reported	       S-V	         O	         O	         O	*
+  ’victims’	        NN	      E-NP	         O	              -	      B-A1	         O	         O	         O	*)))
+        however	        RB	    S-ADVP	         O	              -	      I-A1	         O	         O	         O	(ADVP*)
+        through	        IN	      S-PP	         O	              -	      I-A1	         O	         O	         O	(PP*
+  investigation	        NN	      S-NP	         O	              -	      I-A1	         O	         O	         O	(NP(NP*)
+             he	       PRP	      S-NP	         O	              -	      I-A1	      S-A1	         O	         O	(SBAR(S(NP*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+     determined	       VBN	      I-VP	         O	     determined	      I-A1	       S-V	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	      B-A2	         O	         O	(S(VP*
+             be	        VB	      E-VP	         O	              -	      I-A1	      I-A2	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A2	         O	         O	(NP*
+        suspect	        JJ	      E-NP	         O	              -	      I-A1	      I-A2	         O	         O	*))))))))))))
+              ,	         ,	         O	         O	              -	      I-A1	      I-A2	         O	         O	*
+            ”	        NN	      S-NP	         O	              -	      I-A1	      E-A2	         O	         O	(SBAR(NP*)
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	         O	*
+          after	        IN	    S-SBAR	         O	              -	      I-A1	         O	         O	  B-AM-TMP	(SBAR*
+             he	       PRP	      S-NP	         O	              -	      I-A1	         O	      S-A1	  I-AM-TMP	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	  I-AM-TMP	(VP*
+      medically	        RB	      I-VP	         O	              -	      I-A1	         O	  S-AM-MNR	  I-AM-TMP	(ADVP*)
+        cleared	       VBN	      E-VP	         O	        cleared	      I-A1	         O	       S-V	  I-AM-TMP	(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	         O	  B-AM-LOC	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	  I-AM-LOC	  I-AM-TMP	(NP*
+       hospital	        NN	      E-NP	         O	              -	      I-A1	         O	  E-AM-LOC	  E-AM-TMP	*))
+             he	       PRP	      S-NP	         O	              -	      I-A1	         O	         O	      S-A1	(SBAR(S(NP*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+    transported	       VBN	      E-VP	         O	    transported	      I-A1	         O	         O	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	         O	         O	      B-A4	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	      I-A4	(NP*
+           SPPD	       NNP	      I-NP	     B-ORG	              -	      I-A1	         O	         O	      I-A4	*
+        Station	       NNP	      E-NP	     E-ORG	              -	      I-A1	         O	         O	      E-A4	*))
+            for	        IN	      S-PP	         O	              -	      I-A1	         O	         O	  B-AM-PNC	(PP*
+     processing	        NN	      S-NP	         O	              -	      E-A1	         O	         O	  E-AM-PNC	(NP*
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	         O	*))))))))))))))
+
+        Medrano	       NNP	      S-NP	     S-PER	              -	      B-A1	         O	         O	         O	(S1(S(S(NP(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	         O	*
+            who	        WP	      S-NP	         O	              -	      I-A1	         O	         O	         O	(SBAR(WHNP*)
+            was	       VBD	      S-VP	         O	              -	      I-A1	         O	         O	         O	(S(VP*
+             on	        IN	      S-PP	         O	              -	      I-A1	         O	         O	         O	(PP*
+         parole	        NN	      S-NP	         O	              -	      I-A1	         O	         O	         O	(NP*)))))
+              ,	         ,	         O	         O	              -	      E-A1	         O	         O	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+          later	        RB	      I-VP	         O	              -	  S-AM-TMP	         O	         O	         O	(ADVP*)
+    transported	       VBN	      E-VP	         O	    transported	       S-V	         O	         O	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A4	         O	         O	         O	(PP*
+        Ventura	       NNP	      B-NP	     B-LOC	              -	      I-A4	         O	         O	         O	(NP*
+         County	       NNP	      I-NP	     I-LOC	              -	      I-A4	         O	         O	         O	*
+           Main	       NNP	      I-NP	     I-LOC	              -	      I-A4	         O	         O	         O	*
+           Jail	       NNP	      E-NP	     E-LOC	              -	      I-A4	         O	         O	         O	*))
+             in	        IN	      S-PP	         O	              -	      I-A4	         O	         O	         O	(PP*
+        Ventura	       NNP	      S-NP	     S-LOC	              -	      E-A4	         O	         O	         O	(NP*)))))
+              ;	         :	         O	         O	              -	         O	         O	         O	         O	*
+       although	        IN	    S-SBAR	         O	              -	         O	         O	  B-AM-ADV	         O	(S(SBAR*
+           bail	        NN	      S-NP	         O	              -	         O	      S-A1	  I-AM-ADV	         O	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	  I-AM-ADV	         O	(VP*
+      initially	        RB	      I-VP	         O	              -	         O	  S-AM-TMP	  I-AM-ADV	         O	(ADVP*)
+            set	       VBN	      E-VP	         O	            set	         O	       S-V	  I-AM-ADV	         O	(VP*
+             at	        IN	      S-PP	         O	              -	         O	      B-A2	  I-AM-ADV	         O	(PP*
+              $	         $	      B-NP	         O	              -	         O	      I-A2	  I-AM-ADV	         O	(NP(NP*
+        500,000	        CD	      E-NP	         O	              -	         O	      E-A2	  I-AM-ADV	         O	*)
+             an	        DT	      B-NP	         O	              -	         O	         O	  I-AM-ADV	         O	(NP*
+       increase	        NN	      E-NP	         O	              -	         O	         O	  E-AM-ADV	         O	*)))))))
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+      requested	       VBN	      E-VP	         O	      requested	         O	         O	       S-V	         O	(VP*
+           that	        DT	      S-NP	         O	              -	         O	         O	    B-C-A1	      S-A0	(SBAR(S(NP*)
+         raised	       VBD	      S-VP	         O	         raised	         O	         O	    I-C-A1	       S-V	(VP*
+             it	       PRP	      S-NP	         O	              -	         O	         O	    I-C-A1	      S-A1	(NP*)
+             to	        TO	      S-PP	         O	              -	         O	         O	    I-C-A1	      B-A4	(PP*
+              $	         $	      B-NP	         O	              -	         O	         O	    I-C-A1	      I-A4	(NP(QP*
+              1	        CD	      I-NP	         O	              -	         O	         O	    I-C-A1	      I-A4	*
+        million	        CD	      E-NP	         O	              -	         O	         O	    E-C-A1	      E-A4	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	         O	(NP*)))
+
+          Since	        IN	    S-SBAR	         O	              -	  B-AM-CAU	(S1(S(SBAR*
+        Medrano	       NNP	      S-NP	     S-PER	              -	  I-AM-CAU	(S(NP*)
+            was	       VBD	      S-VP	         O	              -	  I-AM-CAU	(VP*
+           also	        RB	    S-ADVP	         O	              -	  I-AM-CAU	(ADVP*)
+             on	        IN	      S-PP	         O	              -	  I-AM-CAU	(PP*
+         active	        JJ	      B-NP	         O	              -	  I-AM-CAU	(NP*
+         parole	        NN	      E-NP	         O	              -	  I-AM-CAU	*))
+             at	        IN	      S-PP	         O	              -	  I-AM-CAU	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-CAU	(NP(NP*
+           time	        NN	      E-NP	         O	              -	  I-AM-CAU	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-CAU	(PP*
+            his	      PRP$	      B-NP	         O	              -	  I-AM-CAU	(NP*
+         arrest	        NN	      E-NP	         O	              -	  E-AM-CAU	*)))))))
+              a	        DT	      B-NP	         O	              -	      B-A1	(NP*
+             no	        DT	      I-NP	         O	              -	      I-A1	*
+           bail	        NN	      I-NP	         O	              -	      I-A1	*
+           hold	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+           also	        RB	      I-VP	         O	              -	  S-AM-DIS	(ADVP*)
+         placed	       VBN	      E-VP	         O	         placed	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	      B-A2	(PP*
+            him	       PRP	      S-NP	         O	              -	      E-A2	(NP*))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	(NP*)))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	         O	         O	(S1(S(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+        looking	       VBG	      E-VP	         O	        looking	       S-V	         O	         O	         O	(VP*
+            for	        IN	      S-PP	         O	              -	      B-A1	         O	         O	         O	(PP*
+          other	        JJ	      B-NP	         O	              -	      I-A1	         O	         O	         O	(NP(NP*
+       suspects	       NNS	      E-NP	         O	              -	      I-A1	         O	         O	         O	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	(NP(NP*
+       incident	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	*)
+           that	       WDT	      S-NP	         O	              -	      I-A1	    S-R-A1	         O	         O	(SBAR(WHNP*)
+       occurred	       VBD	      S-VP	         O	       occurred	      I-A1	       S-V	         O	         O	(S(VP*
+           near	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	         O	         O	(NP(NP*
+         corner	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	         O	         O	(PP*
+           Ojai	       NNP	      S-NP	     S-LOC	              -	      I-A1	  I-AM-LOC	         O	         O	(NP*))))))))))))))
+              -	         :	         O	         O	              -	      I-A1	  I-AM-LOC	         O	         O	*
+          Santa	       NNP	      B-NP	     B-PER	              -	      I-A1	  I-AM-LOC	         O	      B-A0	(S(NP(NP(NP(NP*
+          Paula	       NNP	      I-NP	     I-PER	              -	      I-A1	  I-AM-LOC	         O	      I-A0	*
+         Street	       NNP	      E-NP	     E-PER	              -	      I-A1	  I-AM-LOC	         O	      I-A0	*)
+              (	     -LRB-	         O	         O	              -	      I-A1	  I-AM-LOC	         O	      I-A0	(PRN*
+        Highway	       NNP	      B-NP	         O	              -	      I-A1	  I-AM-LOC	         O	      I-A0	(NP*
+            150	        CD	      E-NP	         O	              -	      I-A1	  I-AM-LOC	         O	      I-A0	*)
+              )	     -RRB-	         O	         O	              -	      I-A1	  I-AM-LOC	         O	      I-A0	*))
+            and	        CC	         O	         O	              -	      I-A1	  I-AM-LOC	         O	      I-A0	*
+           High	       NNP	      B-NP	     B-LOC	              -	      I-A1	  I-AM-LOC	         O	      I-A0	(NP*
+         Street	       NNP	      E-NP	     E-LOC	              -	      E-A1	  E-AM-LOC	         O	      I-A0	*))
+           when	       WRB	    S-ADVP	         O	              -	  B-AM-TMP	  B-AM-TMP	         O	      I-A0	(SBAR(WHADVP*)
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	      B-A1	      I-A0	(S(NP*
+          party	        NN	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	      I-A1	      I-A0	*
+            bus	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	      E-A1	      I-A0	*)
+     reportedly	        RB	    S-ADVP	         O	              -	  I-AM-TMP	  I-AM-TMP	  S-AM-ADV	      I-A0	(ADVP*)
+      returning	       VBG	      S-VP	         O	      returning	  I-AM-TMP	  I-AM-TMP	       S-V	      I-A0	(VP*
+           from	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	      B-A3	      I-A0	(PP*
+            Los	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	  I-AM-TMP	      I-A3	      I-A0	(NP*
+        Angeles	       NNP	      E-NP	     E-LOC	              -	  I-AM-TMP	  I-AM-TMP	      E-A3	      E-A0	*))))))
+        dropped	       VBD	      S-VP	         O	        dropped	  I-AM-TMP	  I-AM-TMP	         O	       B-V	(VP*
+            off	        RP	     S-PRT	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	       E-V	(ADVP*)
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	      B-A1	(NP(NP*
+          large	        JJ	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	      I-A1	*
+          group	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	      I-A1	(PP*
+             up	        IN	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	      I-A1	(NP(QP*
+             to	        TO	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	      I-A1	*
+             50	        CD	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	      I-A1	*)
+         people	       NNS	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	      E-A1	*)))))
+              .	         .	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	  E-AM-TMP	  E-AM-TMP	         O	         O	(NP*)))
+
+           Many	        JJ	      S-NP	         O	              -	(S1(S(S(NP*)
+              ,	         ,	         O	         O	              -	*
+      according	       VBG	      S-PP	         O	              -	(PP*
+             to	        TO	      S-PP	         O	              -	(PP*
+              a	        DT	      B-NP	         O	              -	(NP*
+        witness	        NN	      E-NP	         O	              -	*)))
+              ,	         ,	         O	         O	              -	*
+           were	       VBD	      S-VP	         O	              -	(VP*
+    intoxicated	        JJ	    S-ADJP	         O	              -	(ADJP*)))
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	(NP*)))
+
+         People	       NNS	      S-NP	         O	              -	      S-A1	      S-A0	         O	         O	         O	         O	         O	(S1(S(NP*)
+        started	       VBD	      B-VP	         O	        started	       S-V	         O	         O	         O	         O	         O	         O	(VP*
+       fighting	       VBG	      E-VP	         O	       fighting	    B-C-A1	       S-V	         O	         O	         O	         O	         O	(S(VP*
+            —	        NN	      S-NP	         O	              -	    I-C-A1	      S-A2	         O	         O	         O	         O	         O	(NP(NP*
+             an	        DT	      B-NP	         O	              -	    I-C-A1	      B-A1	         O	      B-A1	         O	         O	         O	*
+    altercation	        NN	      E-NP	         O	              -	    I-C-A1	      I-A1	         O	      E-A1	         O	         O	         O	*)
+           that	        IN	    S-SBAR	         O	              -	    I-C-A1	      I-A1	         O	         O	         O	         O	         O	(SBAR(WHNP*)
+           SPPD	       NNP	      B-NP	     S-ORG	              -	    I-C-A1	      I-A1	      B-A0	         O	         O	         O	         O	(S(VP(SBAR(S(NP*
+      Commander	       NNP	      I-NP	         O	              -	    I-C-A1	      I-A1	      I-A0	         O	         O	         O	         O	*
+            Ish	       NNP	      I-NP	     B-PER	              -	    I-C-A1	      I-A1	      I-A0	         O	         O	         O	         O	*
+        Cordero	       NNP	      E-NP	     E-PER	              -	    I-C-A1	      I-A1	      E-A0	         O	         O	         O	         O	*)
+           said	       VBD	      S-VP	         O	           said	    I-C-A1	      I-A1	       S-V	         O	         O	         O	         O	(VP*
+          could	        MD	      B-VP	         O	              -	    I-C-A1	      I-A1	      B-A1	  S-AM-MOD	         O	         O	         O	(SBAR(SINV*
+           have	        VB	      I-VP	         O	              -	    I-C-A1	      I-A1	      I-A1	         O	         O	         O	         O	(VP*
+        started	       VBN	      E-VP	         O	        started	    I-C-A1	      I-A1	      I-A1	       S-V	         O	         O	         O	(VP*
+             on	        IN	      S-PP	         O	              -	    I-C-A1	      I-A1	      I-A1	  B-AM-LOC	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	    I-C-A1	      I-A1	      I-A1	  I-AM-LOC	         O	         O	         O	(NP*
+            bus	        NN	      I-NP	         O	              -	    I-C-A1	      I-A1	      I-A1	  I-AM-LOC	         O	         O	         O	*
+            —	        NN	      I-NP	         O	              -	    I-C-A1	      I-A1	      I-A1	  E-AM-LOC	         O	         O	         O	*
+            and	        CC	      I-NP	         O	              -	    I-C-A1	      I-A1	      I-A1	         O	         O	         O	         O	*
+      witnesses	       NNS	      E-NP	         O	              -	    I-C-A1	      E-A1	      I-A1	         O	      S-A0	         O	         O	*)))))))))
+           said	       VBD	      S-VP	         O	           said	    I-C-A1	         O	      I-A1	         O	       S-V	         O	         O	*
+           they	       PRP	      S-NP	         O	              -	    I-C-A1	         O	      I-A1	         O	      B-A1	      S-A0	         O	(SBAR(S(NP*)
+          heard	       VBD	      S-VP	         O	          heard	    I-C-A1	         O	      I-A1	         O	      I-A1	       S-V	         O	(VP*
+             15	        CD	      S-NP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      B-A1	         O	(NP*)
+             to	        TO	      S-PP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	         O	(SBAR(S(PP*
+             20	        CD	      B-NP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	         O	(NP*
+       gunshots	       NNS	      E-NP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	         O	*))
+           from	        IN	      S-PP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	         O	(PP*
+           what	        WP	      S-NP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	    S-R-A1	(SBAR(WHNP*)
+           they	       PRP	      S-NP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	      S-A0	(S(NP*)
+       believed	       VBD	      S-VP	         O	       believed	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	       S-V	(VP*))))
+            was	       VBD	      S-VP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	         O	(VP*
+           more	       JJR	      B-NP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	         O	(NP(QP*
+           than	        IN	      I-NP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	         O	*
+            one	        CD	      I-NP	         O	              -	    I-C-A1	         O	      I-A1	         O	      I-A1	      I-A1	         O	*)
+        shooter	        NN	      E-NP	         O	              -	    E-C-A1	         O	      E-A1	         O	      E-A1	      E-A1	         O	*))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	         O	         O	*))
+
+           When	       WRB	    S-ADVP	         O	              -	S-R-AM-TMP	  B-AM-TMP	(S1(S(SBAR(WHADVP*)
+            the	        DT	      B-NP	         O	              -	      B-A0	  I-AM-TMP	(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A0	  I-AM-TMP	*)
+        stopped	       VBD	      S-VP	         O	        stopped	       S-V	  E-AM-TMP	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+       suspects	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*)
+           took	       VBD	      S-VP	         O	           took	         O	       B-V	(VP*
+            off	        RP	     S-PRT	         O	              -	         O	       E-V	(ADVP*)
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	(NP*
+        vehicle	        NN	      E-NP	         O	              -	         O	  E-AM-LOC	*))))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+            All	       PDT	      B-NP	         O	              -	(S1(FRAG(NP(NP*
+            the	        DT	      I-NP	         O	              -	*
+            men	       NNS	      E-NP	         O	              -	*)
+           that	       WDT	      S-NP	         O	              -	(SBAR(WHNP*)
+           were	       VBD	      B-VP	         O	              -	(S(VP*
+        wounded	       VBN	      E-VP	         O	              -	(ADJP*
+            are	       VBP	      S-VP	         O	              -	*
+             20	        CD	      S-NP	         O	              -	(ADJP(NP(QP*
+             to	        TO	      S-PP	         O	              -	*
+             35	        CD	      B-NP	         O	              -	*)
+          years	       NNS	      E-NP	         O	              -	*)
+            old	        JJ	    S-ADJP	         O	              -	*))))))
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	(NP*)))
+
+          Santa	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	         O	         O	         O	         O	(S1(S(NP*
+          Paula	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	         O	         O	         O	         O	*
+           Fire	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	*
+           EMTs	      NNPS	      E-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	*
+            and	        CC	         O	         O	              -	      I-A0	         O	         O	         O	         O	         O	*
+     ambulances	       NNS	      S-NP	         O	              -	      E-A0	         O	         O	         O	         O	         O	*)
+           also	        RB	    S-ADVP	         O	              -	  S-AM-DIS	         O	         O	         O	         O	         O	(ADVP*)
+      responded	       VBD	      S-VP	         O	      responded	       S-V	         O	         O	         O	         O	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	         O	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	  B-AM-LOC	         O	         O	         O	         O	(NP(NP*
+          scene	        NN	      E-NP	         O	              -	      I-A2	  E-AM-LOC	         O	         O	         O	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	      I-A2	S-R-AM-LOC	         O	         O	         O	         O	(PP(WHADVP*)
+         people	       NNS	      S-NP	         O	              -	      I-A2	      S-A0	         O	         O	         O	         O	(NP(NP*)
+           were	       VBD	      B-VP	         O	              -	      I-A2	         O	         O	         O	         O	         O	(PP*
+      screaming	       VBG	      I-VP	         O	      screaming	      I-A2	       S-V	         O	         O	         O	         O	(S(VP(VP*)
+            and	        CC	      I-VP	         O	              -	      I-A2	         O	         O	         O	         O	         O	*
+         crying	       VBG	      E-VP	         O	              -	      I-A2	         O	         O	         O	         O	         O	(VP*
+      including	       VBG	      S-PP	         O	      including	      I-A2	         O	       S-V	         O	         O	         O	(PP*
+          those	        DT	      S-NP	         O	              -	      I-A2	         O	      B-A1	         O	         O	         O	(NP(NP*)
+      according	       VBG	      S-PP	         O	              -	      I-A2	         O	      I-A1	         O	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	      I-A2	         O	      I-A1	         O	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	         O	      I-A1	      B-A1	         O	      B-A0	(NP(NP*
+        witness	        NN	      E-NP	         O	              -	      I-A2	         O	      I-A1	      E-A1	         O	      I-A0	*)
+           that	       WDT	      S-NP	         O	              -	      I-A2	         O	      I-A1	    S-R-A1	         O	      I-A0	(SBAR(WHNP*)
+           were	       VBD	      S-VP	         O	              -	      I-A2	         O	      I-A1	         O	         O	      I-A0	(S(VP*
+            “	        JJ	    B-ADJP	         O	              -	      I-A2	         O	      I-A1	      B-A1	         O	      I-A0	(ADJP*
+hysterical…and	        JJ	    E-ADJP	         O	              -	      I-A2	         O	      I-A1	      E-A1	         O	      I-A0	*)
+        getting	       VBG	      S-VP	         O	        getting	      I-A2	         O	      I-A1	       S-V	         O	      I-A0	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A2	         O	      I-A1	      B-A2	         O	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	         O	      I-A1	      I-A2	         O	      I-A0	(NP(NP*
+            way	        NN	      E-NP	         O	              -	      I-A2	         O	      I-A1	      I-A2	         O	      I-A0	*)
+             of	        IN	      S-PP	         O	              -	      I-A2	         O	      I-A1	      I-A2	         O	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	         O	      I-A1	      I-A2	         O	      I-A0	(NP(NP*
+        firemen	       NNS	      I-NP	         O	              -	      I-A2	         O	      I-A1	      I-A2	         O	      I-A0	*
+            and	        CC	      I-NP	         O	              -	      I-A2	         O	      I-A1	      I-A2	         O	      I-A0	*
+      ambulance	        NN	      I-NP	         O	              -	      I-A2	         O	      I-A1	      I-A2	         O	      I-A0	*
+           guys	       NNS	      E-NP	         O	              -	      I-A2	         O	      I-A1	      E-A2	         O	      E-A0	*)
+              ,	         ,	         O	         O	              -	      I-A2	         O	      I-A1	         O	         O	         O	*
+            ”	        NN	      S-NP	         O	              -	      I-A2	         O	      I-A1	         O	      S-A0	      S-A0	(NP(NP*)
+         trying	       VBG	      B-VP	         O	         trying	      I-A2	         O	      I-A1	         O	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A2	         O	      I-A1	         O	      B-A1	         O	(S(VP*
+          treat	        VB	      E-VP	         O	          treat	      I-A2	         O	      I-A1	         O	      I-A1	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A2	         O	      I-A1	         O	      I-A1	      B-A1	(NP*
+        wounded	       VBN	      I-NP	         O	              -	      I-A2	         O	      I-A1	         O	      I-A1	      I-A1	*
+              .	         .	      I-NP	         O	              -	      I-A2	         O	      I-A1	         O	      I-A1	      I-A1	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      E-A2	         O	      E-A1	         O	      E-A1	      E-A1	*))))))))))))))))))))))))))))))
+
+        Cordero	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	         O	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	         O	         O	(VP*
+       officers	       NNS	      S-NP	         O	              -	      B-A1	         O	      S-A0	      S-A0	         O	(SBAR(S(NP*)
+            had	       VBD	      B-VP	         O	            had	      I-A1	       S-V	         O	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	         O	         O	         O	         O	(PP*
+            “	        VB	      I-VP	         O	            “	      I-A1	         O	       S-V	         O	         O	(S(VP*
+        restore	        VB	      E-VP	         O	        restore	      I-A1	         O	      B-A1	       S-V	         O	(S(VP*
+          order	        NN	         O	         O	              -	      I-A1	         O	      I-A1	      B-A1	         O	(NP*
+            ”	        NN	      S-NP	         O	              -	      I-A1	         O	      I-A1	      E-A1	         O	*)
+             at	        IN	      S-PP	         O	              -	      I-A1	         O	      I-A1	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	      I-A1	  I-AM-LOC	         O	(NP(NP*
+          scene	        NN	      E-NP	         O	              -	      I-A1	         O	      E-A1	  E-AM-LOC	         O	*)
+           that	        IN	    S-SBAR	         O	              -	      I-A1	         O	         O	         O	         O	(SBAR(WHNP*)
+             he	       PRP	      S-NP	         O	              -	      I-A1	         O	         O	         O	      S-A0	(S(NP*)
+      described	       VBD	      S-VP	         O	      described	      I-A1	         O	         O	         O	       S-V	(VP*
+             as	        IN	      S-PP	         O	              -	      I-A1	         O	         O	         O	      B-A2	(PP*
+            “	        NN	      S-NP	         O	              -	      E-A1	         O	         O	         O	      E-A2	(NP*))))))))))))))))))
+
+     chaotic…	        LS	      B-NP	         O	              -	(S1(NP*
+            ”	         .	      E-NP	         O	              -	*))
+

@@ -1,0 +1,157 @@
+     2016-11-07	        CD	      S-NP	         O	              -	(S1(NP*))
+
+           Teen	        JJ	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+           shot	        NN	      E-NP	         O	              -	      I-A1	*)
+             on	        IN	      S-PP	         O	              -	      I-A1	(PP*
+           West	       NNP	      B-NP	     B-LOC	              -	      I-A1	(NP*
+           Side	       NNP	      E-NP	     E-LOC	              -	      E-A1	*)))
+     identified	       VBD	      S-VP	         O	     identified	       S-V	(VP*
+             as	        IN	      S-PP	         O	              -	      B-A2	(PP*
+        16-year	        JJ	      B-NP	         O	              -	      I-A2	(ADJP*)
+              -	         :	      I-NP	         O	              -	      I-A2	*
+            old	        JJ	      I-NP	         O	              -	      I-A2	(NP*
+         Austin	       NNP	      I-NP	     S-LOC	              -	      I-A2	*
+            boy	        NN	      E-NP	         O	              -	      E-A2	*)))))
+
+           Teen	        JJ	      B-NP	         O	              -	      B-A1	         O	      B-A1	(S1(S(NP(NP*
+           shot	        NN	      E-NP	         O	              -	      E-A1	         O	      I-A1	*)
+             on	        IN	      S-PP	         O	              -	         O	         O	      I-A1	(PP*
+           West	       NNP	      B-NP	     B-LOC	              -	         O	         O	      I-A1	(NP*
+           Side	       NNP	      E-NP	     E-LOC	              -	         O	         O	      I-A1	*)))
+     identified	       VBD	      S-VP	         O	     identified	       S-V	         O	      I-A1	(VP*
+             as	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	      I-A1	(PP*
+        16-year	        JJ	      B-NP	         O	              -	  I-AM-TMP	         O	      I-A1	(NP(ADJP*
+              -	         :	      I-NP	         O	              -	  I-AM-TMP	         O	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	  I-AM-TMP	         O	      I-A1	*)
+         Austin	       NNP	      I-NP	     S-PER	              -	  I-AM-TMP	         O	      I-A1	*
+            boy	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	      I-A1	*
+        NEWLINE	       NNP	      S-VP	     S-ORG	              -	  I-AM-TMP	         O	      I-A1	*))
+              A	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A1	      I-A1	(SBAR(S(NP(NP*
+        teenage	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	*
+            boy	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	      I-A1	*)
+        fatally	        RB	      B-VP	         O	              -	  I-AM-TMP	  S-AM-MNR	      I-A1	(VP(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	  I-AM-TMP	       S-V	      I-A1	*
+         Monday	       NNP	      B-NP	         O	              -	  I-AM-TMP	  B-AM-TMP	      I-A1	(NP*
+      afternoon	        NN	      E-NP	         O	              -	  I-AM-TMP	  E-AM-TMP	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	      I-A1	(NP*
+           West	       NNP	      I-NP	     B-LOC	              -	  I-AM-TMP	  I-AM-LOC	      I-A1	*
+       Garfield	       NNP	      I-NP	     I-LOC	              -	  I-AM-TMP	  I-AM-LOC	      I-A1	*
+           Park	       NNP	      I-NP	     E-LOC	              -	  I-AM-TMP	  I-AM-LOC	      I-A1	*
+   neighborhood	        NN	      E-NP	         O	              -	  I-AM-TMP	  E-AM-LOC	      E-A1	*))))
+            has	       VBZ	      B-VP	         O	              -	  I-AM-TMP	         O	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	  I-AM-TMP	         O	         O	(VP*
+     identified	       VBN	      E-VP	         O	     identified	  I-AM-TMP	         O	       S-V	(VP*
+             as	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	  I-AM-TMP	(NP*
+        16-year	        JJ	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-TMP	*
+              -	         :	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-TMP	*
+            old	        JJ	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-TMP	*
+         Austin	       NNP	      I-NP	     S-PER	              -	  I-AM-TMP	         O	  I-AM-TMP	*
+       resident	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	  I-AM-TMP	*
+              .	         .	         O	         O	              -	  I-AM-TMP	         O	  I-AM-TMP	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	  E-AM-TMP	         O	  E-AM-TMP	*))))))))))
+
+        Someone	        NN	      S-NP	         O	              -	      S-A0	      S-A0	(S1(SBAR(S(NP*)
+         walked	       VBD	      S-VP	         O	         walked	       B-V	         O	(VP(VP*
+             up	        RP	     S-PRT	         O	              -	       E-V	         O	(ADVP*)
+             to	        TO	      S-PP	         O	              -	      B-A1	         O	(PP*
+       Clarence	       NNP	      B-NP	     B-PER	              -	      I-A1	         O	(NP*
+        Coakley	       NNP	      E-NP	     E-PER	              -	      E-A1	         O	*))
+          about	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+           3:30	        CD	      B-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	*)
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*
+           4600	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	*
+          block	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+           West	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	         O	(NP*
+           Lake	       NNP	      I-NP	     I-LOC	              -	  I-AM-TMP	         O	*
+         Street	       NNP	      E-NP	     E-LOC	              -	  E-AM-TMP	         O	*)))))))
+            and	        CC	         O	         O	              -	         O	         O	*
+           shot	       VBD	      S-VP	         O	           shot	         O	       S-V	(VP(VP*
+            him	       PRP	      S-NP	         O	              -	         O	      S-A1	(NP*)
+     repeatedly	        RB	    S-ADVP	         O	              -	         O	  S-AM-MNR	(ADVP*)
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	(NP*
+          upper	        JJ	      I-NP	         O	              -	         O	  I-AM-LOC	*
+          torso	        NN	      E-NP	         O	              -	         O	  E-AM-LOC	*)))
+              ,	         ,	         O	         O	              -	         O	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	         O	(PP*
+        Chicago	       NNP	      B-NP	     B-ORG	              -	         O	         O	(NP(NP*
+         Police	       NNP	      E-NP	     E-ORG	              -	         O	         O	*)
+            and	        CC	         O	         O	              -	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	         O	(NP*
+           Cook	       NNP	      I-NP	     B-LOC	              -	         O	         O	*
+         County	       NNP	      I-NP	     E-LOC	              -	         O	         O	*
+        medical	        JJ	      I-NP	         O	              -	         O	         O	*
+       examiner	        NN	      I-NP	         O	              -	         O	         O	*
+           ’s	        NN	      I-NP	         O	              -	         O	         O	*
+         office	        NN	      E-NP	         O	              -	         O	         O	*
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	*)))))))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(S(NP*
+            boy	        NN	      E-NP	         O	              -	      E-A1	      I-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	      I-A1	(VP*
+     pronounced	       VBN	      E-VP	         O	     pronounced	       S-V	      I-A1	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	      S-A2	      I-A1	(ADJP*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	      I-A1	(NP*
+          scene	        NN	      E-NP	         O	              -	  E-AM-LOC	      I-A1	*))
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	      I-A1	(PP*
+           3:50	        CD	      B-NP	         O	              -	  I-AM-TMP	      I-A1	(NP*
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A1	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+    authorities	       NNS	      S-NP	         O	              -	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             An	        DT	      B-NP	         O	              -	      B-A0	         O	      B-A0	(S1(S(NP*
+        autopsy	        NN	      E-NP	         O	              -	      E-A0	         O	      E-A0	*)
+         showed	       VBD	      S-VP	         O	         showed	       S-V	         O	         O	(VP*
+             he	       PRP	      S-NP	         O	              -	      B-A1	      S-A1	      S-A0	(SBAR(S(NP*)
+           died	       VBD	      S-VP	         O	           died	      I-A1	       S-V	         O	(VP(VP*
+             of	        IN	      S-PP	         O	              -	      I-A1	      B-A3	         O	(PP*
+       multiple	        JJ	      B-NP	         O	              -	      I-A1	      I-A3	         O	(NP*
+        gunshot	        NN	      I-NP	         O	              -	      I-A1	      I-A3	         O	*
+         wounds	       NNS	      E-NP	         O	              -	      E-A1	      E-A3	         O	*)))
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+          ruled	       VBD	      S-VP	         O	          ruled	         O	         O	       S-V	(VP*
+            his	      PRP$	      B-NP	         O	              -	         O	         O	      B-A1	(NP*
+          death	        NN	      E-NP	         O	              -	         O	         O	      I-A1	*)
+              a	        DT	      B-NP	         O	              -	         O	         O	      I-A1	(NP*
+       homicide	        NN	      E-NP	         O	              -	         O	         O	      E-A1	*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+          lived	       VBD	      S-VP	         O	          lived	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+           1300	        CD	      I-NP	         O	              -	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+          North	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	(NP*
+       Parkside	       NNP	      I-NP	     E-ORG	              -	  I-AM-LOC	*
+              .	         .	      I-NP	         O	              -	  I-AM-LOC	*
+        NEWLINE	       NNP	      E-NP	     S-LOC	              -	  E-AM-LOC	*)))))))
+
+             No	        DT	      B-NP	         O	              -	         O	(S1(S(NP*
+            one	        CD	      E-NP	         O	              -	         O	*)
+            was	       VBD	      S-VP	         O	              -	         O	(VP*
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+        custody	        NN	      S-NP	         O	              -	         O	(NP*))
+             as	        IN	      S-PP	         O	              -	         O	(PP*
+             of	        IN	      S-PP	         O	              -	         O	(PP*
+           late	        JJ	      B-NP	         O	              -	         O	(NP*
+        Tuesday	       NNP	      I-NP	         O	              -	         O	*
+      afternoon	        NN	      E-NP	         O	              -	         O	*)))
+             as	        IN	    S-SBAR	         O	              -	         O	(SBAR*
+           Area	       NNP	      B-NP	     B-ORG	              -	      B-A0	(S(NP*
+          North	       NNP	      I-NP	     E-ORG	              -	      I-A0	*
+     detectives	       NNS	      E-NP	         O	              -	      E-A0	*)
+    investigate	       VBP	      S-VP	         O	    investigate	       S-V	(VP*))))
+              .	         .	         O	         O	              -	         O	*))
+

@@ -1,0 +1,98 @@
+     2016-12-02	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        16-year	       SYM	      S-NP	         O	              -	(S1(X(X*)
+              -	         :	         O	         O	              -	*
+            old	        JJ	      B-NP	         O	              -	(NP(NP*
+            boy	        NN	      E-NP	         O	              -	*
+           shot	        NN	      S-VP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+          North	       NNP	      B-NP	     B-LOC	              -	(NP*
+       Lawndale	       NNP	      E-NP	     E-LOC	              -	*)))))
+
+        16-year	       SYM	      S-NP	         O	              -	         O	(S1(S(NP(ADJP*
+              -	         :	         O	         O	              -	         O	*
+            old	        JJ	      B-NP	         O	              -	      B-A1	*)
+            boy	        NN	      E-NP	         O	              -	      I-A1	*
+           shot	        NN	      S-VP	         O	              -	      E-A1	*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+          North	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+       Lawndale	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+        NEWLINE	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	*))
+              A	        DT	      B-NP	         O	              -	      B-A1	(NP*
+            boy	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+         Friday	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP(NP*
+        evening	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          North	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	*
+       Lawndale	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	*
+   neighborhood	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+             on	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+      Southwest	       NNP	      I-NP	    B-MISC	              -	  I-AM-LOC	*
+           Side	       NNP	      E-NP	    E-MISC	              -	  E-AM-LOC	*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	*)))))))
+
+             At	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	(S1(S(PP*
+           6:13	        CD	      B-NP	         O	              -	         O	  I-AM-TMP	(NP*
+           p.m.	        NN	      E-NP	         O	              -	         O	  E-AM-TMP	*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	         O	(NP*
+        16-year	        JJ	      I-NP	         O	              -	         O	         O	(ADJP*
+              -	         :	      I-NP	         O	              -	         O	         O	*
+            old	        JJ	      I-NP	         O	              -	         O	         O	*)
+            boy	        NN	      E-NP	         O	              -	         O	         O	*)
+            was	       VBD	      S-VP	         O	              -	         O	         O	(VP*
+         inside	        IN	      S-PP	         O	              -	         O	         O	(PP(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	(NP(NP*
+           home	        NN	      E-NP	         O	              -	         O	         O	*)
+           with	        IN	      S-PP	         O	              -	         O	         O	(PP*
+            two	        CD	      B-NP	         O	              -	         O	         O	(NP(NP*
+          other	        JJ	      I-NP	         O	              -	         O	         O	*
+         people	       NNS	      E-NP	         O	              -	         O	         O	*)
+             in	        IN	      S-PP	         O	              -	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	(NP(NP*
+           1500	        CD	      I-NP	         O	              -	         O	         O	*
+          block	        NN	      E-NP	         O	              -	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	         O	(PP*
+          South	       NNP	      B-NP	     B-LOC	              -	         O	         O	(NP*
+         Kedzie	       NNP	      E-NP	     E-LOC	              -	         O	         O	*)))))))
+           when	       WRB	    S-ADVP	         O	              -	         O	         O	(SBAR(WHADVP*)
+              a	        DT	      B-NP	         O	              -	      B-A1	         O	(S(S(NP*
+        gunshot	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+          heard	       VBN	      E-VP	         O	          heard	       S-V	         O	(VP*)))
+            and	        CC	         O	         O	              -	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	      B-A1	(S(NP*
+            boy	        NN	      E-NP	         O	              -	         O	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	         O	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	(NP*
+           face	        NN	      E-NP	         O	              -	         O	  E-AM-LOC	*))))))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	         O	(PP*
+        Chicago	       NNP	      B-NP	     B-ORG	              -	         O	         O	(NP*
+         Police	       NNP	      I-NP	     E-ORG	              -	         O	         O	*
+              .	         .	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	*)))))))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	      B-A1	(S1(S(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	      I-A1	(VP*
+          taken	       VBN	      E-VP	         O	          taken	       S-V	      I-A1	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	      I-A1	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	      I-A2	      I-A1	(NP*
+          Sinai	       NNP	      I-NP	     I-LOC	              -	      I-A2	      I-A1	*
+       Hospital	       NNP	      E-NP	     E-LOC	              -	      E-A2	      I-A1	*))
+             in	        IN	      S-PP	         O	              -	  B-AM-MNR	      I-A1	(PP*
+       critical	        JJ	      B-NP	         O	              -	  I-AM-MNR	      I-A1	(NP*
+      condition	        NN	      E-NP	         O	              -	  E-AM-MNR	      E-A1	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+         police	        NN	      S-NP	         O	              -	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	*))
+

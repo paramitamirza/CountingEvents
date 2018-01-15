@@ -1,0 +1,133 @@
+     2016-08-20	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Police	       NNS	      S-NP	         O	              -	(S1(NP(NP*)
+              :	         :	         O	         O	              -	*
+              5	        CD	      B-NP	         O	              -	(NP(NP*
+           shot	        NN	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+       downtown	        NN	      B-NP	         O	              -	(NP*
+         Tacoma	       NNP	      E-NP	     S-LOC	              -	*)))))
+
+              .	         .	         O	         O	              -	(S1(X*))
+
+              (	     -LRB-	         O	         O	              -	(S1(S*
+          Photo	        NN	      S-NP	         O	              -	(NP*)
+              :	         :	         O	         O	              -	*
+           KING	       NNP	      B-NP	         O	              -	(NP*
+              5	        CD	      I-NP	         O	              -	*
+           News	       NNP	      E-NP	         O	              -	*)
+              )	     -RRB-	         O	         O	              -	*
+        NEWLINE	       NNP	      B-NP	     B-ORG	              -	*
+         TACOMA	       NNP	      E-NP	     E-ORG	              -	(NP*)))
+
+              ,	         ,	         O	         O	              -	         O	         O	(S1(S(S*
+          Wash.	       NNP	      S-NP	     S-LOC	              -	         O	         O	(NP(NP*)
+              -	         :	         O	         O	              -	         O	         O	*
+         Tacoma	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	(NP*
+         Police	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*))
+            are	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	         O	(VP*
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(SBAR*
+           five	        CD	      B-NP	         O	              -	  I-AM-TMP	      B-A1	(S(NP*
+         people	       NNS	      E-NP	         O	              -	  I-AM-TMP	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	  I-AM-TMP	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	  I-AM-TMP	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+       downtown	        NN	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	(NP*
+         Tacoma	       NNP	      E-NP	     S-LOC	              -	  I-AM-TMP	  E-AM-LOC	*))
+          early	        JJ	      B-NP	         O	              -	  I-AM-TMP	  B-AM-TMP	(NP*
+       Saturday	       NNP	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+        morning	        NN	      I-NP	         O	              -	  E-AM-TMP	  E-AM-TMP	*))))))))
+              .	         .	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	      S-A1	(NP*)))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	      S-A0	(S1(S(NP*)
+       reported	       VBD	      S-VP	         O	       reported	       S-V	         O	(VP*
+        hearing	       VBG	      S-VP	         O	        hearing	      B-A1	       S-V	(S(VP*
+       gunshots	       NNS	      S-NP	         O	              -	      I-A1	      S-A1	(NP*)
+           just	        RB	    S-ADVP	         O	              -	      I-A1	  B-AM-TMP	(PP(PP(ADVP*)
+         before	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	*
+              2	        CD	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP(NP*
+           a.m.	        NN	      E-NP	         O	              -	      I-A1	  E-AM-TMP	*)
+             on	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+        Pacific	       NNP	      B-NP	     B-LOC	              -	      I-A1	  I-AM-LOC	(NP*
+         Avenue	       NNP	      E-NP	     E-LOC	              -	      I-A1	  I-AM-LOC	*))))
+        between	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	(PP*
+            7th	        JJ	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP(NP*
+         Street	       NNP	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*)
+            and	        CC	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+            9th	        JJ	      I-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+         Street	       NNP	      I-NP	         O	              -	      I-A1	  E-AM-LOC	*
+              .	         .	      I-NP	         O	              -	      I-A1	         O	*
+        NEWLINE	       NNP	      E-NP	     S-LOC	              -	      E-A1	      S-A0	*)))))))))
+
+       Officers	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+          found	       VBD	      S-VP	         O	          found	       S-V	         O	(VP(VP*
+            two	        CD	      B-NP	         O	              -	      B-A1	         O	(NP*
+        victims	       NNS	      E-NP	         O	              -	      E-A1	         O	*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+          scene	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	*))
+           with	        IN	      S-PP	         O	              -	      B-A1	         O	(PP*
+        gunshot	        NN	      B-NP	         O	              -	      I-A1	         O	(NP*
+         wounds	       NNS	      E-NP	         O	              -	      I-A1	         O	*)))
+            and	        CC	         O	         O	              -	      I-A1	         O	*
+            had	       VBD	      S-VP	         O	              -	      I-A1	         O	(VP*
+           them	       PRP	      S-NP	         O	              -	      I-A1	      S-A1	(S(NP*)
+          taken	       VBN	      S-VP	         O	          taken	      I-A1	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A2	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A2	(NP*
+       hospital	        NN	      E-NP	         O	              -	      E-A1	      E-A2	*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+          Three	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+          other	        JJ	      I-NP	         O	              -	      I-A1	*
+        victims	       NNS	      E-NP	         O	              -	      I-A1	*)
+           with	        IN	      S-PP	         O	              -	      I-A1	(PP*
+        gunshot	        NN	      B-NP	         O	              -	      I-A1	(NP*
+         wounds	       NNS	      E-NP	         O	              -	      E-A1	*)))
+           also	        RB	    S-ADVP	         O	              -	  S-AM-DIS	(ADVP*)
+         showed	       VBD	      S-VP	         O	         showed	       B-V	(VP*
+             up	        RP	     S-PRT	         O	              -	       E-V	(ADVP*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            St.	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	(NP*
+         Joseph	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	*
+        Medical	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	*
+         Center	       NNP	      E-NP	     E-ORG	              -	  E-AM-LOC	*))
+         around	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           same	        JJ	      I-NP	         O	              -	  I-AM-TMP	*
+           time	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+      condition	        NN	      E-NP	         O	              -	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+        victims	       NNS	      E-NP	         O	              -	      E-A1	*)))
+             is	       VBZ	      B-VP	         O	              -	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	*
+          known	       VBN	      E-VP	         O	          known	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           have	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	         O	*
+      confirmed	       VBN	      E-VP	         O	      confirmed	       S-V	         O	(VP*
+             if	        IN	    S-SBAR	         O	              -	  B-AM-ADV	         O	(SBAR*
+            all	        DT	      B-NP	         O	              -	  I-AM-ADV	      B-A1	(S(NP*
+        victims	       NNS	      E-NP	         O	              -	  I-AM-ADV	      E-A1	*)
+            are	       VBP	      B-VP	         O	              -	  I-AM-ADV	         O	(VP*
+      connected	       VBN	      E-VP	         O	      connected	  I-AM-ADV	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	      B-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	      I-A1	(NP*
+           same	        JJ	      I-NP	         O	              -	  I-AM-ADV	      I-A1	*
+       shooting	        NN	      I-NP	         O	              -	  E-AM-ADV	      E-A1	*))))))))
+              .	         .	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	(NP*)))
+
+      Copyright	        NN	      B-NP	         O	              -	(S1(NP*
+           2016	        CD	      I-NP	         O	              -	*
+           KING	        NN	      E-NP	         O	              -	*))
+

@@ -1,0 +1,48 @@
+     2016-06-11	        CD	      S-NP	         O	              -	(S1(NP*))
+
+              1	        CD	      S-NP	         O	              -	      S-A1	         O	(S1(S(S(NP*)
+         killed	       VBD	      S-VP	         O	         killed	       S-V	         O	(VP*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+              3	        CD	      S-NP	         O	              -	    B-C-A1	      S-A1	(NP*)
+        injured	       VBN	      S-VP	         O	        injured	    I-C-A1	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	    I-C-A1	  B-AM-LOC	(PP*
+     University	       NNP	      B-NP	     B-LOC	              -	    I-C-A1	  I-AM-LOC	(NP*
+           City	       NNP	      I-NP	     E-LOC	              -	    I-C-A1	  I-AM-LOC	*
+      apartment	        NN	      I-NP	         O	              -	    I-C-A1	  I-AM-LOC	*
+       shooting	        NN	      E-NP	         O	              -	    E-C-A1	  E-AM-LOC	*)))))
+
+         Police	       NNS	      S-NP	         O	              -	         O	(S1(NP(NP*)
+              :	         :	         O	         O	              -	         O	*
+              4	        CD	      S-NP	         O	              -	      B-A1	(NP(NP*
+           shot	        NN	      S-VP	         O	              -	      I-A1	*)
+          after	        IN	      S-PP	         O	              -	      I-A1	(SBAR*
+          fight	        NN	      S-NP	         O	              -	      E-A1	(S(NP*)
+          broke	       VBD	      S-VP	         O	          broke	       B-V	(VP*
+            out	        RP	     S-PRT	         O	              -	       E-V	(ADVP*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+          large	        JJ	      B-NP	         O	              -	  I-AM-LOC	(NP*
+      gathering	        NN	      E-NP	         O	              -	  I-AM-LOC	*)))))
+          early	        JJ	      B-NP	         O	              -	  I-AM-LOC	(NP*
+       Saturday	       NNP	      I-NP	         O	              -	  I-AM-LOC	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	  E-AM-LOC	*))))
+
+            The	        DT	      B-NP	         O	              -	         O	         O	(S1(S(NP*
+      apartment	        NN	      E-NP	         O	              -	         O	         O	*)
+             is	       VBZ	      S-VP	         O	              -	         O	         O	*
+             on	        IN	      S-PP	         O	              -	         O	         O	(PP*
+     Collegiate	       NNP	      B-NP	     B-ORG	              -	         O	         O	(NP*
+         Avenue	       NNP	      E-NP	     E-ORG	              -	         O	         O	*))
+            off	        IN	      S-PP	         O	              -	         O	         O	(PP*
+       Pavilion	       NNP	      B-NP	     B-ORG	              -	         O	         O	(NP*
+      Boulevard	       NNP	      I-NP	     I-ORG	              -	         O	         O	*
+        NEWLINE	       NNP	      I-NP	     E-ORG	              -	         O	         O	*
+              3	        CD	      E-NP	         O	              -	         O	         O	*))
+        injured	       VBN	      B-VP	         O	              -	         O	         O	*
+       suffered	       VBD	      E-VP	         O	       suffered	       S-V	         O	(VP*
+            non	        JJ	      B-NP	         O	              -	      B-A1	         O	(ADJP*))
+              -	         :	      I-NP	         O	              -	      I-A1	         O	*
+           life	        NN	      E-NP	         O	              -	      I-A1	      S-A0	(NP*)
+    threatening	       VBG	      S-VP	         O	    threatening	      I-A1	       S-V	*
+        gunshot	        NN	      B-NP	         O	              -	      I-A1	      B-A1	(NP*
+         wounds	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*)))
+

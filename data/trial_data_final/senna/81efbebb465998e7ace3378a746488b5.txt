@@ -1,0 +1,120 @@
+     2017-03-14	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        Officer	        NN	      B-NP	         O	              -	      S-A0	(S1(S(NP*)
+   Accidentally	        RB	      E-NP	     B-PER	              -	  S-AM-MNR	(ADVP*)
+         Shoots	       VBZ	      S-VP	     I-PER	         Shoots	       S-V	(VP*
+        Himself	       PRP	      S-NP	     I-PER	              -	      S-A1	(NP*)
+             In	        IN	      S-PP	     I-PER	              -	      B-A2	(PP*
+           Hand	        NN	      S-NP	     E-PER	              -	      E-A2	(NP*)))))
+
+        CENTRAL	       NNP	      B-NP	     B-LOC	              -	      B-A0	      B-A1	(S1(S(S(NP(NP(NP*
+          ISLIP	       NNP	      E-NP	     E-LOC	              -	      I-A0	      I-A1	*)
+              ,	         ,	         O	         O	              -	      I-A0	      I-A1	*
+             NY	       NNP	      S-NP	     S-LOC	              -	      I-A0	      I-A1	(NP*))
+              -	         :	         O	         O	              -	      I-A0	      I-A1	*
+              A	        DT	      B-NP	         O	              -	      I-A0	      I-A1	(NP(NP*
+        Suffolk	       NNP	      I-NP	     B-ORG	              -	      I-A0	      I-A1	*
+         Police	       NNP	      I-NP	     E-ORG	              -	      I-A0	      I-A1	*
+        officer	        NN	      E-NP	         O	              -	      E-A0	      I-A1	*)
+   accidentally	        RB	      B-VP	         O	              -	  S-AM-MNR	      I-A1	(VP(ADVP*)
+           shot	       VBD	      E-VP	         O	           shot	       S-V	      I-A1	*
+        himself	       PRP	      S-NP	         O	              -	      S-A1	      I-A1	(NP*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	      I-A1	(NP*
+           hand	        NN	      E-NP	         O	              -	  I-AM-LOC	      I-A1	*))
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	(PP*
+        Central	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	      I-A1	(NP*
+          Islip	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	      I-A1	*))
+             on	        IN	      S-PP	         O	              -	  B-AM-TMP	      I-A1	(PP*
+         Monday	       NNP	      B-NP	         O	              -	  I-AM-TMP	      I-A1	(NP*
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A1	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+         police	        NN	      S-NP	         O	              -	         O	      S-A0	(NP*)
+      confirmed	       VBD	      S-VP	         O	      confirmed	         O	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	      B-A1	         O	         O	(S1(S(S(NP*
+        officer	        NN	      E-NP	         O	              -	      E-A0	      E-A1	         O	         O	*)
+   accidentally	        RB	      B-VP	         O	              -	  S-AM-MNR	         O	         O	         O	(ADVP*)
+     discharged	       VBD	      E-VP	         O	     discharged	       S-V	         O	         O	         O	(VP(VP*
+            his	      PRP$	      B-NP	         O	              -	      B-A1	         O	         O	         O	(NP*
+         weapon	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	*))
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	*
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+         struck	       VBN	      E-VP	         O	         struck	         O	       S-V	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	         O	         O	(NP*
+           hand	        NN	      E-NP	         O	              -	         O	  E-AM-LOC	         O	         O	*))
+             at	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	         O	         O	(PP*
+          about	        IN	      B-NP	         O	              -	         O	  I-AM-TMP	         O	         O	(NP(QP*
+           8:45	        CD	      I-NP	         O	              -	         O	  I-AM-TMP	         O	         O	*)
+           p.m.	        NN	      I-NP	         O	              -	         O	  I-AM-TMP	         O	         O	*
+        NEWLINE	        NN	      E-NP	    S-MISC	              -	         O	  I-AM-TMP	         O	         O	*))
+             He	       PRP	      S-NP	         O	              -	         O	  I-AM-TMP	      S-A1	      S-A0	(SBAR(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	  I-AM-TMP	         O	         O	(VP(VP*
+   hospitalized	       VBN	      E-VP	         O	   hospitalized	         O	  E-AM-TMP	       S-V	         O	(VP*))
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	*
+      underwent	       VBD	      S-VP	         O	      underwent	         O	         O	         O	       S-V	(VP*
+        surgery	        NN	      S-NP	         O	              -	         O	         O	         O	      S-A1	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	         O	(NP*)))
+
+            His	      PRP$	      B-NP	         O	              -	         O	      B-A1	(S1(X(S(S(NP*
+       injuries	       NNS	      E-NP	         O	              -	         O	      I-A1	*)
+           were	       VBD	      S-VP	         O	              -	         O	      I-A1	(VP*
+            non	        JJ	      B-NP	         O	              -	         O	      I-A1	(ADJP*)))
+              -	         :	      I-NP	         O	              -	         O	      I-A1	*
+           life	        NN	      E-NP	         O	              -	         O	      I-A1	(S(NP*)
+    threatening	       VBG	      S-VP	         O	    threatening	       S-V	      E-A1	*)
+              ,	         ,	         O	         O	              -	         O	         O	*
+         police	       NNS	      S-NP	         O	              -	         O	      S-A0	(S(NP*)
+            say	       VBP	      S-VP	         O	            say	         O	       S-V	(VP*)))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	       S-V	(NP*)))
+
+             No	        DT	      B-NP	         O	              -	      B-A1	(S1(X(S(NP*
+          other	        JJ	      I-NP	         O	              -	      I-A1	*
+       injuries	       NNS	      E-NP	         O	              -	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+       reported	       VBN	      E-VP	         O	       reported	       S-V	(VP*)))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	       S-V	(NP*)))
+
+        Central	       NNP	      B-NP	     B-LOC	              -	(S1(NP(NP*
+          Islip	       NNP	      E-NP	     E-LOC	              -	*)
+              ,	         ,	         O	         O	              -	*
+            NY-	       NNP	      S-NP	     S-LOC	              -	(NP*)))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	      B-A0	      B-A0	(S1(S(S(NP*
+        Suffolk	       NNP	      I-NP	     S-LOC	              -	      I-A1	      I-A0	      I-A0	*
+         police	        NN	      I-NP	         O	              -	      I-A1	      I-A0	      I-A0	*
+        officer	        NN	      E-NP	         O	              -	      E-A1	      E-A0	      E-A0	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	         O	(VP*
+     recovering	       VBG	      E-VP	         O	     recovering	       S-V	         O	         O	(VP(VP*
+          after	        RB	      B-NP	         O	              -	  B-AM-TMP	         O	         O	(ADVP*)
+   accidentally	        RB	      I-NP	         O	              -	  I-AM-TMP	         O	         O	(ADVP*)
+    discharging	       VBG	      I-NP	         O	    discharging	  I-AM-TMP	       S-V	         O	(NP*
+         weapon	        NN	      E-NP	         O	              -	  I-AM-TMP	      S-A1	         O	*))
+            and	        CC	         O	         O	              -	  I-AM-TMP	         O	         O	*
+       shooting	       VBG	      S-VP	         O	       shooting	  I-AM-TMP	         O	       S-V	(VP*
+        himself	       PRP	      S-NP	         O	              -	  I-AM-TMP	         O	      S-A1	(NP*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	(NP*
+           hand	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	*))
+         Monday	       NNP	      B-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	(NP(NP*)
+          night	        NN	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	(NX(NX(ADJP*
+pic.twitter.com/t9PQ7dcqsJ	        JJ	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	*)
+        NEWLINE	        NN	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	*)
+            —	        NN	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	*
+       Stringer	       NNP	      I-NP	     B-ORG	              -	  I-AM-TMP	         O	  I-AM-LOC	*
+           News	       NNP	      E-NP	     E-ORG	              -	  I-AM-TMP	         O	  I-AM-LOC	*))))))
+              (	     -LRB-	         O	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	(PRN*
+  @Stringernews	       NNS	      S-NP	     S-ORG	              -	  I-AM-TMP	         O	  I-AM-LOC	(NP*)
+              )	     -RRB-	         O	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	*)
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	(NP(NP*
+             14	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	*)
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	*
+           2017	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	(NP*
+        NEWLINE	        NN	      E-NP	     S-ORG	              -	  E-AM-TMP	         O	  E-AM-LOC	*))))
+

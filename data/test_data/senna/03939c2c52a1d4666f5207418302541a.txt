@@ -1,0 +1,73 @@
+     2016-12-17	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        Wichita	       NNP	      S-NP	     S-LOC	              -	(S1(ADJP(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+         Kansas	       NNP	      B-NP	     B-ORG	              -	(NP*
+           News	       NNP	      E-NP	     I-ORG	              -	*)
+              ,	         ,	         O	     I-ORG	              -	*
+        Weather	       NNP	      S-NP	     I-ORG	              -	(NP*)
+              ,	         ,	         O	     I-ORG	              -	*
+         Sports	      NNPS	      S-NP	     E-ORG	              -	(NP*)
+              -	         :	         O	         O	              -	*
+              1	        CD	      S-NP	         O	              -	(NP*))
+           dead	        JJ	    S-ADJP	         O	              -	*
+          after	        IN	      S-PP	         O	              -	(PP*
+          north	        JJ	      B-NP	         O	              -	(NP*
+        Wichita	       NNP	      I-NP	     S-LOC	              -	*
+       shooting	        NN	      E-NP	         O	              -	*))))
+
+            One	        CD	      B-NP	         O	              -	(S1(S(NP*
+         person	        NN	      E-NP	         O	              -	*)
+             is	       VBZ	      S-VP	         O	              -	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	(ADJP*)
+          after	        IN	      S-PP	         O	              -	(PP*
+              a	        DT	      B-NP	         O	              -	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+          north	        JJ	      B-NP	         O	              -	(NP*
+        Wichita	       NNP	      I-NP	     S-LOC	              -	*
+          early	        JJ	      I-NP	         O	              -	*
+       Saturday	       NNP	      I-NP	         O	              -	*
+        morning	        NN	      I-NP	         O	              -	*)))))
+              .	         .	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	(NP*)))
+
+    Dispatchers	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+       officers	       NNS	      S-NP	         O	              -	      B-A1	      S-A0	(SBAR(S(NP*)
+      responded	       VBD	      S-VP	         O	      responded	      I-A1	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A1	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*))
+         around	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(PP*
+              2	        CD	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP*
+           a.m.	        NN	      E-NP	         O	              -	      I-A1	  E-AM-TMP	*))
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP(NP*
+         1300th	        JJ	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	(PP*
+          North	       NNP	      B-NP	     B-LOC	              -	      I-A1	  I-AM-LOC	(NP*
+           Erie	       NNP	      I-NP	     E-LOC	              -	      I-A1	  I-AM-LOC	*
+              .	         .	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+        NEWLINE	       NNP	      E-NP	     S-LOC	              -	      E-A1	  E-AM-LOC	*))))))))))
+
+             We	       PRP	      S-NP	         O	              -	      S-A0	      S-A0	(S1(S(NP*)
+         expect	       VBP	      B-VP	         O	         expect	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	(S(VP*
+            get	        VB	      E-VP	         O	            get	      I-A1	       S-V	(VP*
+             an	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP(NP*
+         update	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*)
+          about	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP(NP*
+  investigation	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+           from	        IN	      S-PP	         O	              -	      I-A1	      B-A2	(PP*
+       officers	       NNS	      S-NP	         O	              -	      I-A1	      E-A2	(NP*)))))
+          after	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP*
+          media	       NNS	      I-NP	         O	              -	      I-A1	  I-AM-TMP	*
+       briefing	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	*))
+          later	        RB	    S-ADVP	         O	              -	      I-A1	  I-AM-TMP	(ADVP*
+          today	        NN	      S-NP	         O	              -	      E-A1	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+

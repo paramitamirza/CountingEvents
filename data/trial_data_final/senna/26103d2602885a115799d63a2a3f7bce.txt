@@ -1,0 +1,235 @@
+     2017-03-01	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            3rd	        JJ	      B-NP	         O	              -	      B-A0	         O	(S1(NP(NP*
+        suspect	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+        charged	       VBN	      S-VP	         O	        charged	       S-V	         O	(VP*
+           with	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+        killing	       VBG	      S-VP	         O	        killing	      I-A2	       S-V	(S(VP*
+        15-year	        JJ	    B-ADJP	         O	              -	      I-A2	      B-A1	(ADJP*))))
+              -	         :	    I-ADJP	         O	              -	      I-A2	      I-A1	*
+            old	        JJ	    E-ADJP	         O	              -	      I-A2	      E-A1	(ADJP*
+             at	        IN	      S-PP	         O	              -	      I-A2	      B-A0	(PP*
+          party	        NN	      S-NP	         O	              -	      I-A2	      E-A0	(NP*))))
+              -	         :	         O	         O	              -	      I-A2	         O	*
+            WMC	       NNP	      B-NP	     B-ORG	              -	      I-A2	      B-A0	(NP(NP*
+         Action	       NNP	      I-NP	     I-ORG	              -	      I-A2	      I-A0	*
+           News	       NNP	      I-NP	     E-ORG	              -	      I-A2	      I-A0	*
+              5	        CD	      E-NP	         O	              -	      I-A2	      I-A0	*)
+              -	         :	         O	         O	              -	      I-A2	      I-A0	*
+        Memphis	       NNP	      S-NP	     S-LOC	              -	      I-A2	      I-A0	(NP(NP*)
+              ,	         ,	         O	         O	              -	      I-A2	      I-A0	*
+      Tennessee	       NNP	      S-NP	     S-LOC	              -	      E-A2	      E-A0	(NP*)))))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+          third	        JJ	      I-NP	         O	              -	      I-A1	*
+         person	        NN	      E-NP	         O	              -	      E-A1	*)
+            has	       VBZ	      B-VP	         O	              -	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	(VP*
+       arrested	       VBN	      E-VP	         O	       arrested	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(UCP(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+         murder	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+        15-year	        JJ	      E-NP	         O	              -	  I-AM-LOC	*))))
+              -	         :	         O	         O	              -	  I-AM-LOC	*
+            old	        JJ	    S-ADJP	         O	              -	  I-AM-LOC	(ADJP*
+             at	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          house	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+          party	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+         Vernon	       NNP	      B-NP	     B-PER	              -	      B-A1	         O	(S1(S(NP(NP*
+        Houston	       NNP	      E-NP	     E-PER	              -	      I-A1	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+             19	        CD	      S-NP	         O	              -	      I-A1	         O	(NP*)
+              ,	         ,	         O	         O	              -	      E-A1	         O	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+        charged	       VBN	      E-VP	         O	        charged	       S-V	         O	(VP*
+           with	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+        killing	       VBG	      B-NP	         O	        killing	      I-A2	       S-V	(S(VP*
+        15-year	        JJ	      I-NP	         O	              -	      I-A2	      B-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A2	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A2	      I-A1	*))))
+       Terrance	       NNP	      I-NP	     B-PER	              -	      I-A2	      I-A1	*
+        Maxwell	       NNP	      E-NP	     E-PER	              -	      I-A2	      E-A1	(NP*)
+             at	        IN	      S-PP	         O	              -	      I-A2	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	  I-AM-LOC	(NP(NP*
+           home	        NN	      E-NP	         O	              -	      I-A2	  E-AM-LOC	*)
+             on	        IN	      S-PP	         O	              -	      I-A2	      B-A1	(PP*
+           Blue	       NNP	      B-NP	     B-LOC	              -	      I-A2	      I-A1	(NP*
+           Wing	       NNP	      I-NP	     I-LOC	              -	      I-A2	      I-A1	*
+         Street	       NNP	      E-NP	     E-LOC	              -	      I-A2	      I-A1	*
+              .	         .	         O	         O	              -	      I-A2	      I-A1	*
+        NEWLINE	       NNP	         O	     S-LOC	              -	      E-A2	      E-A1	*))))))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+        January	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP(NP*
+             21	        CD	      E-NP	         O	              -	  I-AM-TMP	*)
+         around	        RB	    S-ADVP	         O	              -	  I-AM-TMP	(PP*
+             10	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+      witnesses	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	(VP*
+        several	        JJ	      B-NP	         O	              -	      B-A1	      B-A0	      B-A0	(SBAR(S(NP(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      I-A0	      I-A0	*)
+         inside	        IN	      S-PP	         O	              -	      I-A1	      I-A0	      I-A0	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A0	      I-A0	(NP*
+            car	        NN	      E-NP	         O	              -	      I-A1	      E-A0	      E-A0	*)))
+         yelled	       VBD	      S-VP	         O	         yelled	      I-A1	       S-V	         O	(VP*
+              "	        ``	         O	         O	              -	      I-A1	      B-A1	         O	(ADVP*)
+          Grape	       NNP	      B-NP	    B-MISC	              -	      I-A1	      I-A1	         O	(S(NP*
+         Street	       NNP	      E-NP	    E-MISC	              -	      I-A1	      E-A1	         O	*)
+              "	        IN	   B-CONJP	         O	              -	      I-A1	         O	         O	(VP*
+          while	        IN	   E-CONJP	         O	              -	      I-A1	  B-AM-TMP	         O	(SBAR*
+        driving	       VBG	      S-VP	         O	        driving	      I-A1	  I-AM-TMP	       S-V	(S(VP*
+           past	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A2	(NP*
+          house	        NN	      E-NP	         O	              -	      E-A1	  E-AM-TMP	      E-A2	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A0	*)
+             in	        IN	      S-PP	         O	              -	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP*
+            car	        NN	      E-NP	         O	              -	      E-A0	*)))
+           then	        RB	    S-ADVP	         O	              -	  S-AM-TMP	(ADVP*)
+          fired	       VBD	      S-VP	         O	          fired	       S-V	(VP*
+          shots	       NNS	      S-NP	         O	              -	      S-A1	(NP(NP*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          house	        NN	      E-NP	         O	              -	  E-AM-LOC	*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	*))))))
+
+        Maxwell	       NNP	      S-NP	     S-PER	              -	      B-A1	(S1(S(NP(NP*)
+            and	        CC	         O	         O	              -	      I-A1	*
+        another	        DT	      B-NP	         O	              -	      I-A1	(NP*
+       teenager	        NN	      E-NP	         O	              -	      E-A1	*))
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	*))
+
+           Both	        DT	      S-NP	         O	              -	      S-A1	         O	(S1(S(NP*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	  B-AM-LOC	(NP*
+       hospital	        NN	      E-NP	         O	              -	      I-A2	  E-AM-LOC	*))
+          where	       WRB	    S-ADVP	         O	              -	      I-A2	S-R-AM-LOC	(SBAR(WHADVP*)
+        Maxwell	       NNP	      S-NP	     S-PER	              -	      I-A2	      S-A1	(S(NP*)
+           died	       VBD	      S-VP	         O	           died	      E-A2	       S-V	(VP*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+          other	        JJ	      I-NP	         O	              -	      I-A1	*
+       teenager	        NN	      E-NP	         O	              -	      E-A1	*)
+             is	       VBZ	      B-VP	         O	              -	         O	(VP*
+     recovering	       VBG	      E-VP	         O	     recovering	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	      B-A2	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A2	(NP*
+       injuries	       NNS	      E-NP	         O	              -	      E-A2	*))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+        Memphis	       NNP	      B-NP	     B-ORG	              -	      B-A0	(S1(S(NP*
+         Police	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+     Department	       NNP	      E-NP	     E-ORG	              -	      E-A0	*)
+       arrested	       VBD	      S-VP	         O	       arrested	       S-V	(VP*
+      Marcellus	       NNP	      B-NP	     B-PER	              -	      B-A1	(NP*
+       Williams	       NNP	      E-NP	     E-PER	              -	      I-A1	*
+            and	        CC	         O	         O	              -	      I-A1	*
+        Marquez	       NNP	      B-NP	     B-PER	              -	      I-A1	*
+          Banks	      NNPS	      E-NP	     E-PER	              -	      E-A1	*)
+        earlier	       RBR	    S-ADVP	         O	              -	  B-AM-TMP	(ADVP*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+       February	       NNP	      S-NP	         O	              -	  E-AM-TMP	(NP*))))
+              .	         .	         O	         O	              -	         O	*))
+
+           Both	        DT	      S-NP	         O	              -	      S-A1	         O	(S1(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+        charged	       VBN	      E-VP	         O	        charged	       S-V	         O	(VP(VP*
+           with	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+          first	        JJ	      B-NP	         O	              -	      I-A2	         O	(ADJP*))
+              -	         :	      I-NP	         O	              -	      I-A2	         O	(PP*
+         degree	        NN	      I-NP	         O	              -	      I-A2	         O	(NP*
+         murder	        NN	      E-NP	         O	              -	      E-A2	         O	*)))
+            and	        CC	         O	         O	              -	         O	         O	*
+      attempted	       VBD	      S-VP	         O	      attempted	         O	       S-V	(VP*
+          first	        RB	    S-ADVP	         O	              -	         O	  S-AM-TMP	(ADVP*)
+              -	         :	         O	         O	              -	         O	         O	*
+         degree	        NN	      B-NP	         O	              -	         O	      B-A1	(NP*
+         murder	        NN	      E-NP	         O	              -	         O	      E-A1	*))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+        Houston	       NNP	      S-NP	     S-PER	              -	      S-A1	(S1(S(NP*)
+         turned	       VBD	      S-VP	         O	         turned	       S-V	(VP*
+        himself	       PRP	      S-NP	         O	              -	      S-A1	(NP*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(ADVP*)
+             to	        TO	      S-PP	         O	              -	  I-AM-LOC	(PP*
+  investigators	       NNS	      S-NP	         O	              -	  E-AM-LOC	(NP(NP*)
+             on	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+       February	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP*
+             28	        CD	      E-NP	         O	              -	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A0	         O	         O	(S1(S(NP*)
+           told	       VBD	      S-VP	         O	           told	       S-V	         O	         O	(VP*
+       officers	       NNS	      S-NP	         O	              -	      S-A2	         O	         O	(NP(NP*)
+             he	       PRP	      S-NP	         O	              -	      B-A1	         O	         O	(SBAR(S(NP*)
+            was	       VBD	      S-VP	         O	              -	      I-A1	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	(NP*
+            car	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)))))
+           that	       WDT	      S-NP	         O	              -	      I-A1	    S-R-A1	         O	(SBAR(WHNP*)
+          drove	       VBD	      S-VP	         O	          drove	      I-A1	       S-V	         O	(S(VP(VP*
+           past	        RB	      B-NP	         O	              -	      I-A1	      B-A2	         O	(ADVP*)
+            the	        DT	      I-NP	         O	              -	      I-A1	      I-A2	         O	(NP*
+          house	        NN	      E-NP	         O	              -	      I-A1	      E-A2	         O	*))
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	*
+          fired	       VBD	      S-VP	         O	          fired	      I-A1	         O	       S-V	(VP*
+          shots	       NNS	      S-NP	         O	              -	      I-A1	         O	      S-A1	(NP*)
+           from	        IN	      S-PP	         O	              -	      I-A1	         O	      B-A3	(PP*
+         inside	        IN	      S-PP	         O	              -	      I-A1	         O	      I-A3	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	      I-A3	(NP*
+        vehicle	        NN	      E-NP	         O	              -	      I-A1	         O	      E-A3	*)))))))))
+              .	         .	         O	         O	              -	      I-A1	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      E-A1	         O	         O	(NP*)))
+
+        Houston	       NNP	      S-NP	     S-LOC	              -	      S-A1	      S-A0	(S1(S(NP*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+        charged	       VBN	      E-VP	         O	        charged	       S-V	         O	(VP(VP*
+           with	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+          first	        JJ	      B-NP	         O	              -	      I-A2	         O	(ADJP*))
+              -	         :	      I-NP	         O	              -	      I-A2	         O	*
+         degree	        NN	      I-NP	         O	              -	      I-A2	         O	(NP*
+         murder	        NN	      E-NP	         O	              -	      E-A2	         O	*))
+            and	        CC	         O	         O	              -	         O	         O	*
+      attempted	       VBD	      S-VP	         O	      attempted	         O	       S-V	(VP*
+          first	        RB	    S-ADVP	         O	              -	         O	  S-AM-TMP	(ADVP*)
+              -	         :	         O	         O	              -	         O	         O	*
+         degree	        NN	      B-NP	         O	              -	         O	      B-A1	(NP*
+         murder	        NN	      E-NP	         O	              -	         O	      E-A1	*))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+      Copyright	        NN	      B-NP	         O	              -	(S1(NP(NP*
+           2017	        CD	      I-NP	         O	              -	*
+            WMC	       NNP	      I-NP	     B-ORG	              -	*
+         Action	       NNP	      I-NP	     I-ORG	              -	*
+           News	       NNP	      I-NP	     E-ORG	              -	*
+              5	        CD	      E-NP	         O	              -	*)
+              .	         .	         O	         O	              -	*))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         rights	       NNS	      E-NP	         O	              -	      E-A1	*)
+       reserved	       VBN	      S-VP	         O	       reserved	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+

@@ -1,0 +1,226 @@
+     2008-10-09	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        2-alarm	       SYM	      B-NP	         O	              -	      B-A1	(S1(NP(NP*
+          Salem	       NNP	      I-NP	     S-LOC	              -	      I-A1	*
+           fire	        NN	      E-NP	         O	              -	      E-A1	*)
+        started	       VBN	      S-VP	         O	        started	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	      B-A0	(PP*
+      fireworks	       NNS	      S-NP	         O	              -	      E-A0	(NP*)))))
+
+             At	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(S1(S(PP*
+          12:45	        CD	      S-NP	         O	              -	  I-AM-TMP	         O	(NP*))
+             am	       VBP	      S-VP	         O	              -	  I-AM-TMP	         O	*
+             on	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+       Thursday	       NNP	      S-NP	         O	              -	  E-AM-TMP	         O	(NP*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+           2008	        CD	      B-NP	         O	              -	      B-A0	         O	(NP*
+          Salem	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	*
+           Fire	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	*
+     Department	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*)
+      responded	       VBD	      S-VP	         O	      responded	       S-V	         O	*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	*
+              a	        DT	      B-NP	         O	              -	      I-A2	      B-A1	(NP*
+      structure	        NN	      I-NP	         O	              -	      I-A2	      I-A1	*
+           fire	        NN	      E-NP	         O	              -	      I-A2	      E-A1	*)
+        located	       VBN	      S-VP	         O	        located	      I-A2	       S-V	*
+             at	        IN	      S-PP	         O	              -	      I-A2	  B-AM-LOC	(PP*
+           3847	        CD	      B-NP	         O	              -	      I-A2	  I-AM-LOC	(NP*
+          Helen	       NNP	      I-NP	     B-PER	              -	      I-A2	  I-AM-LOC	*
+            Ave	       NNP	      I-NP	     I-PER	              -	      I-A2	  I-AM-LOC	*
+            SE.	       NNP	      E-NP	     E-PER	              -	      E-A2	  E-AM-LOC	*))))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+          first	        JJ	      I-NP	         O	              -	      I-A0	*
+          alarm	        NN	      E-NP	         O	              -	      E-A0	*)
+           sent	       VBD	      S-VP	         O	           sent	       S-V	(VP*
+              3	        CD	      B-NP	         O	              -	      B-A2	(NP(NP*
+        engines	       NNS	      E-NP	         O	              -	      I-A2	*)
+              ,	         ,	         O	         O	              -	      I-A2	*
+         ladder	        NN	      B-NP	         O	              -	      I-A2	(NP*
+          truck	        NN	      E-NP	         O	              -	      I-A2	*)
+            and	        CC	         O	         O	              -	      I-A2	*
+      Battalion	       NNP	      B-NP	         O	              -	      I-A2	(NP*
+          Chief	       NNP	      E-NP	         O	              -	      E-A2	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+           Upon	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	         O	         O	(S1(S(PP*
+       arriving	       VBG	      S-VP	         O	       arriving	       S-V	  E-AM-TMP	         O	         O	(NP*
+           fire	        NN	      B-NP	         O	              -	      B-A1	      B-A0	         O	         O	*
+       fighters	       NNS	      E-NP	         O	              -	      E-A1	      E-A0	         O	         O	*))
+       reported	       VBD	      S-VP	         O	       reported	         O	       S-V	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A1	      B-A1	      B-A1	(NP(NP*
+          large	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	*
+           tree	        NN	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	*
+            and	        CC	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	*
+         garage	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      E-A1	      E-A1	*)
+           that	       WDT	      S-NP	         O	              -	      I-A1	      I-A1	    S-R-A1	    S-R-A1	(SBAR(WHNP*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	      I-A1	         O	         O	(S(VP*
+       attached	       VBN	      E-VP	         O	       attached	      I-A1	      I-A1	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      I-A1	      B-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      I-A1	      B-A1	(NP(NP*
+           home	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      I-A1	      E-A1	*)
+       engulfed	       VBN	      S-VP	         O	       engulfed	      I-A1	      I-A1	      I-A1	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      I-A1	  B-AM-LOC	(PP*
+         flames	       NNS	      S-NP	         O	              -	      E-A1	      E-A1	      E-A1	  E-AM-LOC	(NP*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         second	        JJ	      I-NP	         O	              -	      I-A1	*
+          alarm	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+         called	       VBN	      E-VP	         O	         called	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+         second	        JJ	      I-NP	         O	              -	      I-A0	*
+          alarm	        NN	      E-NP	         O	              -	      E-A0	*)
+        brought	       VBD	      S-VP	         O	        brought	       S-V	(VP*
+           more	       JJR	      B-NP	         O	              -	      B-A1	(NP*
+           fire	        NN	      I-NP	         O	              -	      I-A1	*
+       fighters	       NNS	      I-NP	         O	              -	      I-A1	*
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+      apparatus	        NN	      E-NP	         O	              -	      E-A1	*)
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+          scene	        NN	      E-NP	         O	              -	      E-A2	*)))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+   Firefighters	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+          began	       VBD	      S-VP	         O	          began	       S-V	         O	(VP*
+           fire	        NN	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
+         attack	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+           from	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*
+        outside	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+      structure	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	*))))
+           when	       WRB	    S-ADVP	         O	              -	  I-AM-TMP	         O	(SBAR(WHADVP*)
+         police	       NNS	      S-NP	         O	              -	  I-AM-TMP	      S-A1	(S(NP*)
+           were	       VBD	      B-VP	         O	              -	  I-AM-TMP	         O	(VP*
+       notified	       VBN	      E-VP	         O	       notified	  I-AM-TMP	       S-V	(VP*
+           that	        IN	    S-SBAR	         O	              -	  I-AM-TMP	      B-A2	(SBAR*
+          there	        EX	      S-NP	         O	              -	  I-AM-TMP	      I-A2	(S(NP*)
+            was	       VBD	      S-VP	         O	              -	  I-AM-TMP	      I-A2	(VP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A2	(NP(NP*
+          child	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A2	*)
+          still	        RB	    S-ADVP	         O	              -	  I-AM-TMP	      I-A2	(PP(ADVP*)
+         inside	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A2	*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A2	(NP*
+          house	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A2	*))))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           Fire	        NN	      B-NP	         O	              -	      B-A0	         O	         O	         O	         O	(S1(S(S(NP*
+          crews	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	         O	         O	*)
+    immediately	        RB	    S-ADVP	         O	              -	  S-AM-TMP	         O	         O	         O	         O	(ADVP*)
+           went	       VBD	      S-VP	         O	           went	       S-V	         O	         O	         O	         O	(VP*
+           into	        IN	      S-PP	         O	              -	      B-A2	         O	         O	         O	         O	(PP*
+         rescue	        NN	      B-NP	         O	              -	      I-A2	         O	         O	         O	         O	(NP*
+           mode	        NN	      E-NP	         O	              -	      E-A2	         O	         O	         O	         O	*))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	*
+            but	        CC	         O	         O	              -	         O	         O	         O	         O	         O	*
+         minute	        NN	      S-NP	         O	              -	         O	      B-A0	         O	         O	         O	(S(NP(NP*
+             's	       POS	      B-NP	         O	              -	         O	      I-A0	         O	         O	         O	*)
+          later	        JJ	      I-NP	         O	              -	         O	      I-A0	         O	         O	         O	*
+         police	       NNS	      E-NP	         O	              -	         O	      E-A0	         O	         O	         O	*)
+            had	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	         O	(VP(VP*
+       notified	       VBN	      E-VP	         O	       notified	         O	       S-V	         O	         O	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	         O	      B-A2	         O	         O	         O	(SBAR*
+           they	       PRP	      S-NP	         O	              -	         O	      I-A2	      S-A0	      S-A0	         O	(S(NP*)
+            had	       VBD	      B-VP	         O	              -	         O	      I-A2	         O	         O	         O	(VP*
+        alerted	       VBN	      E-VP	         O	        alerted	         O	      I-A2	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A2	      B-A1	         O	         O	(NP*
+       sleeping	        JJ	      I-NP	         O	              -	         O	      I-A2	      I-A1	         O	         O	*
+           boys	       NNS	      E-NP	         O	              -	         O	      I-A2	      E-A1	         O	         O	*)))))))
+            and	        CC	         O	         O	              -	         O	      I-A2	         O	         O	         O	*
+            had	       VBD	      S-VP	         O	            had	         O	      I-A2	         O	       S-V	         O	(VP*
+           them	       PRP	      S-NP	         O	              -	         O	      I-A2	         O	      B-A1	      S-A0	(S(NP*)
+           exit	        VB	      S-VP	         O	           exit	         O	      I-A2	         O	      I-A1	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A2	         O	      I-A1	      B-A1	(NP*
+      structure	        NN	      E-NP	         O	              -	         O	      E-A2	         O	      E-A1	      E-A1	*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	         O	      S-A0	(NP*)))
+
+            Due	        JJ	    S-ADJP	         O	              -	  B-AM-CAU	         O	(S1(X(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-CAU	         O	*
+           fire	        NN	      B-NP	         O	              -	  I-AM-CAU	         O	(NP(NP*
+       fighters	       NNS	      E-NP	         O	              -	  I-AM-CAU	         O	*
+          quick	        JJ	      B-NP	         O	              -	  I-AM-CAU	         O	*
+        actions	       NNS	      E-NP	         O	              -	  E-AM-CAU	         O	*)
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	(SBAR(S(NP*
+           fire	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+      contained	       VBN	      E-VP	         O	      contained	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	         O	(NP*
+         garage	        NN	      E-NP	         O	              -	      E-A2	         O	*))
+           with	        IN	      S-PP	         O	              -	  B-AM-ADV	         O	(PP*
+           only	        RB	      B-NP	         O	              -	  I-AM-ADV	      B-A0	(S(NP*
+           some	        DT	      I-NP	         O	              -	  I-AM-ADV	      I-A0	*
+          light	        JJ	      I-NP	         O	              -	  I-AM-ADV	      I-A0	*
+          smoke	        NN	      E-NP	         O	              -	  I-AM-ADV	      E-A0	*)
+         making	       VBG	      S-VP	         O	         making	  I-AM-ADV	       S-V	(VP*
+             it	       PRP	      S-NP	         O	              -	  I-AM-ADV	         O	(S(NP*)
+             's	       VBZ	      S-VP	         O	              -	  I-AM-ADV	         O	(VP*
+            way	        NN	      S-NP	         O	              -	  I-AM-ADV	         O	(ADVP*
+           into	        IN	      S-PP	         O	              -	  I-AM-ADV	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	         O	(NP*
+          house	        NN	      E-NP	         O	              -	  E-AM-ADV	         O	*))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Damage	        NN	      S-NP	         O	              -	      B-A1	         O	(S1(S(NP(NP*)
+             to	        TO	      S-PP	         O	              -	      I-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
+      structure	        NN	      E-NP	         O	              -	      E-A1	         O	*)))
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+      estimated	       VBN	      E-VP	         O	      estimated	       S-V	         O	(VP*
+             at	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+              $	         $	      B-NP	         O	              -	      I-A2	         O	(NP(NP*
+         25,000	        CD	      E-NP	         O	              -	      I-A2	         O	*)
+            and	        CC	         O	         O	              -	      I-A2	         O	*
+             an	        DT	      B-NP	         O	              -	      I-A2	         O	(NP*
+     additional	        JJ	      I-NP	         O	              -	      I-A2	         O	*
+              $	         $	      I-NP	         O	              -	      I-A2	         O	*
+          3,000	        CD	      E-NP	         O	              -	      I-A2	         O	*)))
+             to	        TO	      S-PP	         O	              -	      I-A2	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	      B-A1	(NP(NP*
+            car	        NN	      E-NP	         O	              -	      I-A2	      E-A1	*)
+         parked	       VBN	      S-VP	         O	         parked	      I-A2	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A2	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      I-A2	(NP*
+       driveway	        NN	      E-NP	         O	              -	      E-A2	      E-A2	*)))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	      S-A1	(NP*)))
+
+          Salem	       NNP	      B-NP	     S-LOC	              -	      B-A0	         O	         O	(S1(S(NP*
+           fire	        NN	      I-NP	         O	              -	      I-A0	         O	         O	*
+   investigator	        NN	      E-NP	         O	              -	      I-A0	         O	         O	*)
+              ,	         ,	         O	         O	              -	      I-A0	         O	         O	*
+           John	       NNP	      B-NP	     B-PER	              -	      I-A0	         O	         O	(NP*
+       Stroebel	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	*)
+     determined	       VBD	      S-VP	         O	     determined	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	(SBAR(S(NP*
+           fire	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+        started	       VBN	      E-VP	         O	        started	      I-A1	       S-V	         O	(VP*
+             by	        IN	      S-PP	         O	              -	      I-A1	      B-A0	         O	(PP*
+      fireworks	       NNS	      S-NP	         O	              -	      I-A1	      I-A0	         O	(NP*))
+           that	        IN	    S-SBAR	         O	              -	      I-A1	      I-A0	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A0	      B-A0	(S(NP(NP*
+           boys	       NNS	      E-NP	         O	              -	      I-A1	      I-A0	      I-A0	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A0	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A0	      I-A0	(NP*
+          house	        NN	      E-NP	         O	              -	      I-A1	      I-A0	      E-A0	*)))
+           were	       VBD	      B-VP	         O	              -	      I-A1	      I-A0	         O	(VP*
+        playing	       VBG	      E-VP	         O	        playing	      I-A1	      I-A0	       S-V	(VP*
+           with	        IN	      S-PP	         O	              -	      I-A1	      I-A0	  B-AM-MNR	(ADVP(ADVP*
+        earlier	       RBR	      B-NP	         O	              -	      I-A1	      I-A0	  I-AM-MNR	*)
+           that	        IN	      I-NP	         O	              -	      I-A1	      I-A0	  I-AM-MNR	(PP*
+        evening	        NN	      E-NP	         O	              -	      I-A1	      I-A0	  E-AM-MNR	(NP(NP*)
+          prior	        RB	    S-ADVP	         O	              -	      I-A1	      I-A0	  B-AM-TMP	(PP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      I-A0	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A0	  I-AM-TMP	(NP*
+           fire	        NN	      E-NP	         O	              -	      E-A1	      E-A0	  E-AM-TMP	*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+

@@ -1,0 +1,106 @@
+     2016-10-18	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         UPDATE	        NN	      S-NP	         O	              -	         O	(S1(NP(NP*)
+              :	         :	         O	         O	              -	         O	*
+            Man	        NN	      S-NP	         O	              -	      B-A0	(NP(NP*)
+           dead	        JJ	    S-ADJP	         O	              -	      E-A0	(ADJP*)
+      following	       VBG	      S-PP	         O	      following	       S-V	(PP*
+        Calhoun	       NNP	      B-NP	     B-LOC	              -	      B-A1	(NP*
+         County	       NNP	      I-NP	     E-LOC	              -	      I-A1	*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)))))
+
+        CALHOUN	       NNP	      B-NP	     B-LOC	              -	(S1(NP(NP*
+         COUNTY	       NNP	      E-NP	     E-LOC	              -	*)
+              ,	         ,	         O	         O	              -	*
+          Miss.	       NNP	      S-NP	     S-LOC	              -	(NP*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+           WTVA	       NNP	      S-NP	     S-ORG	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*)
+            —	         .	         O	         O	              -	*))
+
+            One	        CD	      B-NP	         O	              -	         O	(S1(S(NP*
+         person	        NN	      E-NP	         O	              -	         O	*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	         O	(ADJP*)
+          after	        IN	      S-PP	         O	              -	         O	(SBAR*
+              a	        DT	      B-NP	         O	              -	         O	(S(NP*
+        Tuesday	       NNP	      I-NP	         O	              -	         O	*
+          night	        NN	      E-NP	         O	              -	         O	*)
+       shooting	       VBG	      S-VP	         O	       shooting	       S-V	(VP*
+           west	        NN	      S-NP	         O	              -	      B-A1	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+      Pittsboro	       NNP	      S-NP	     S-LOC	              -	      E-A1	(NP*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	*)))))))))
+
+        Calhoun	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	(S1(S(NP*
+         County	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	*
+        Sheriff	       NNP	      I-NP	         O	              -	      I-A0	         O	*
+           Greg	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	*
+         Pollan	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	(VP*
+        William	       NNP	      B-NP	     B-PER	              -	      B-A1	      B-A1	(SBAR(S(NP(NP*
+       Eacholes	       NNP	      E-NP	     E-PER	              -	      I-A1	      I-A1	*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A1	*
+             27	        CD	      S-NP	         O	              -	      I-A1	      I-A1	(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	      E-A1	*)
+           died	       VBD	      S-VP	         O	           died	      I-A1	       S-V	(VP*
+             as	        IN	      S-PP	         O	              -	      I-A1	  B-AM-CAU	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-CAU	(NP(NP*
+         result	        NN	      E-NP	         O	              -	      I-A1	  I-AM-CAU	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-CAU	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-CAU	(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	  E-AM-CAU	*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+         County	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	(NP(NP*
+           Road	       NNP	      I-NP	     E-ORG	              -	  I-AM-LOC	*
+            300	        CD	      I-NP	         O	              -	  I-AM-LOC	*
+           west	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+      Pittsboro	       NNP	      S-NP	     S-LOC	              -	  I-AM-LOC	(NP*))))
+             at	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+           home	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+           near	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+              9	        CD	      B-NP	         O	              -	  I-AM-LOC	(NP*
+             pm	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	(NP*)))
+
+        However	        RB	    S-ADVP	         O	              -	  S-AM-DIS	         O	         O	(S1(S(ADVP*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+         Pollan	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	(NP*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	(VP*
+       Eacholes	       NNP	      S-NP	     S-PER	              -	      B-A1	      S-A0	         O	(SBAR(S(NP*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+        holding	       VBG	      E-VP	         O	        holding	      I-A1	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	(NP*
+         weapon	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+           when	       WRB	    S-ADVP	         O	              -	      I-A1	  B-AM-TMP	         O	(SBAR(WHADVP*)
+             it	       PRP	      S-NP	         O	              -	      I-A1	  I-AM-TMP	      S-A1	(S(NP*)
+     discharged	       VBD	      S-VP	         O	     discharged	      E-A1	  E-AM-TMP	       S-V	(VP*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+           They	       PRP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+         ruling	       VBG	      E-VP	         O	         ruling	       S-V	(VP*
+           this	        DT	      S-NP	         O	              -	      B-A1	(NP*
+             an	        DT	      B-NP	         O	              -	      I-A1	*
+       accident	        NN	      E-NP	         O	              -	      E-A1	*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	*)))))
+
+  Investigators	       NNS	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+        waiting	       VBG	      E-VP	         O	        waiting	       S-V	(VP*
+            for	        IN	      S-PP	         O	              -	      B-A2	(PP*
+        results	       NNS	      S-NP	         O	              -	      I-A2	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A2	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A2	(NP*
+        autopsy	        NN	      E-NP	         O	              -	      E-A2	*))))))
+              .	         .	         O	         O	              -	         O	*))
+

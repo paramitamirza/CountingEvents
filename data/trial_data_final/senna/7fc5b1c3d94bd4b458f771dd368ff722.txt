@@ -1,0 +1,85 @@
+     2017-02-20	        CD	      S-NP	         O	              -	(S1(NP*))
+
+              1	        CD	      B-NP	         O	              -	(S1(NP(NP(NP*
+            man	        NN	      E-NP	         O	              -	*)
+           dead	        JJ	    S-ADJP	         O	              -	(ADJP*
+             in	        IN	      S-PP	         O	              -	(PP*
+       shooting	        NN	      S-NP	         O	              -	(NP*))))
+              ,	         ,	         O	         O	              -	*
+        another	        DT	      S-NP	         O	              -	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	(PP*
+        custody	        NN	      S-NP	         O	              -	(NP*)))))
+
+          GREEN	       NNP	      B-NP	     B-LOC	              -	      B-A0	(S1(S(NP(NP*
+            BAY	       NNP	      E-NP	     E-LOC	              -	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A0	*
+           Wis.	       NNP	      S-NP	     S-LOC	              -	      I-A0	(NP*)
+              -	         :	         O	         O	              -	      I-A0	*
+         Police	       NNS	      S-NP	         O	              -	      E-A0	(NP*))
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	(NP(NP*
+          fatal	        JJ	      I-NP	         O	              -	      I-A1	*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+          Green	       NNP	      B-NP	     B-LOC	              -	      I-A1	(NP*
+            Bay	       NNP	      E-NP	     E-LOC	              -	      E-A1	*)))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-LOC	              -	      S-A0	(NP*)))
+
+       Officers	       NNS	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+      responded	       VBD	      S-VP	         O	      responded	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+       shooting	        NN	      I-NP	         O	              -	      I-A1	*
+          scene	        NN	      E-NP	         O	              -	      E-A1	*))
+             on	        IN	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP(NP*
+           city	        NN	      E-NP	         O	              -	      I-A2	*
+             's	       POS	      B-NP	         O	              -	      I-A2	*)
+           east	        JJ	      I-NP	         O	              -	      I-A2	*
+           side	        NN	      E-NP	         O	              -	      E-A2	*))
+          about	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+           3:20	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           a.m.	        NN	      E-NP	         O	              -	  I-AM-TMP	*))
+         Monday	       NNP	      S-NP	         O	              -	  E-AM-TMP	(NP*))
+              .	         .	         O	         O	              -	         O	*))
+
+           They	       PRP	      S-NP	         O	              -	      S-A0	      S-A0	(S1(S(S(NP*)
+          found	       VBD	      S-VP	         O	          found	       S-V	         O	(VP(VP*
+            one	        CD	      B-NP	         O	              -	      B-A1	         O	(S(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+           dead	        JJ	    S-ADJP	         O	              -	      E-A1	         O	(ADJP*)))
+            and	        CC	         O	         O	              -	         O	         O	*
+           took	       VBD	      S-VP	         O	           took	         O	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	         O	      B-A1	(NP(NP*
+         second	        JJ	      I-NP	         O	              -	         O	      I-A1	*
+            man	        NN	      E-NP	         O	              -	         O	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
+        custody	        NN	      B-NP	         O	              -	         O	      E-A1	(NP*))))))
+              .	         .	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	(NP*)))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	(VP(VP*
+           they	       PRP	      S-NP	         O	              -	      B-A1	(SBAR(S(NP*)
+            are	       VBP	      S-VP	         O	              -	      I-A1	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+          early	        JJ	      I-NP	         O	              -	      I-A1	*
+         stages	       NNS	      E-NP	         O	              -	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+  investigation	        NN	      E-NP	         O	              -	      E-A1	*))))))))
+              ,	         ,	         O	         O	              -	         O	*
+            but	        CC	         O	         O	              -	         O	*
+            are	       VBP	      S-VP	         O	              -	         O	(VP*
+      confident	        JJ	    S-ADJP	         O	              -	         O	(ADJP*
+            the	        DT	      B-NP	         O	              -	         O	(SBAR(S(NP*
+         public	        NN	      E-NP	         O	              -	         O	*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+            not	        RB	         O	         O	              -	         O	*
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+         danger	        NN	      S-NP	         O	              -	         O	(NP*))))))))
+              .	         .	         O	         O	              -	         O	*))
+

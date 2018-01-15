@@ -1,0 +1,86 @@
+     2016-05-07	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            Two	        CD	      B-NP	         O	              -	      B-A0	(S1(X(NP(NP*)
+              -	         :	      I-NP	         O	              -	      I-A0	*
+           year	        NN	      E-NP	         O	              -	      I-A0	(NP*))
+              -	         :	         O	         O	              -	      I-A0	*
+            old	        JJ	      B-NP	         O	              -	      E-A0	(ADJP*
+   Accidentally	        RB	      E-NP	         O	              -	  S-AM-MNR	(ADVP*))
+         Shoots	       VBZ	      S-VP	         O	         Shoots	       S-V	(S(VP*
+        Herself	       NNP	      S-NP	         O	              -	      S-A1	(NP*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+         Smyrna	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	(NP*))))))
+
+   ------------	       SYM	      B-NP	         O	              -	      B-A0	(S1(S(NP(NP*
+        NEWLINE	       NNP	      I-NP	     B-LOC	              -	      I-A0	*)
+         SMYRNA	       NNP	      I-NP	     E-LOC	              -	      I-A0	(NP(NP*)
+              ,	         ,	      I-NP	         O	              -	      I-A0	*
+          Tenn.	       NNP	      E-NP	     S-PER	              -	      I-A0	(NP*)))
+             --	         :	         O	         O	              -	      I-A0	*
+              A	        DT	      B-NP	         O	              -	      I-A0	(S(NP(NP*
+         2-year	        JJ	      E-NP	         O	              -	      I-A0	*)
+              -	         :	         O	         O	              -	      I-A0	*
+            old	        JJ	    S-ADJP	         O	              -	      I-A0	(ADJP(ADJP*)
+             in	        IN	      S-PP	         O	              -	      I-A0	(PP*
+         Smyrna	       NNP	      S-NP	     S-LOC	              -	      E-A0	(NP*))))
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+     Vanderbilt	       NNP	      B-NP	     B-ORG	              -	         O	(NP*
+        Medical	       NNP	      I-NP	     I-ORG	              -	         O	*
+         Center	       NNP	      E-NP	     E-ORG	              -	         O	*))
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+      Nashville	       NNP	      S-NP	     S-LOC	              -	         O	(NP*))
+          after	        IN	      S-PP	         O	              -	         O	(PP*
+   accidentally	        RB	      B-VP	         O	              -	  S-AM-MNR	(VP(ADVP*)
+       shooting	       VBG	      E-VP	         O	       shooting	       S-V	*
+        herself	       PRP	      S-NP	         O	              -	      S-A1	(NP*)))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP(NP*
+         family	        NN	      E-NP	         O	              -	      I-A0	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	         O	         O	(NP*
+         2-year	        JJ	      E-NP	         O	              -	      I-A0	         O	         O	(ADJP*
+              -	         :	         O	         O	              -	      I-A0	         O	         O	*
+            old	        JJ	         O	         O	              -	      E-A0	         O	         O	*))))
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	(VP*
+            her	      PRP$	      B-NP	         O	              -	      B-A1	      B-A1	         O	(SBAR(S(NP*
+       injuries	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+             do	       VBP	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+            not	        RB	      I-VP	         O	              -	      I-A1	  S-AM-NEG	         O	*
+         appear	        VB	      I-VP	         O	         appear	      I-A1	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	    B-C-A1	         O	(S(VP*
+             be	        VB	      E-VP	         O	              -	      I-A1	    I-C-A1	         O	(VP*
+           life	        NN	      S-NP	         O	              -	      I-A1	    I-C-A1	         O	(NP*)
+    threatening	       VBG	      S-VP	         O	    threatening	      E-A1	    E-C-A1	       S-V	(VP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	      S-A0	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	(S1(X(S(NP*
+       incident	        NN	      E-NP	         O	              -	*)
+             is	       VBZ	      S-VP	         O	              -	(VP*
+          under	        IN	      S-PP	         O	              -	(PP*
+  investigation	        NN	      S-NP	         O	              -	(NP*))))
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	(NP*)))
+
+           Stay	        VB	      S-VP	         O	           Stay	       S-V	(S1(S(VP*
+           with	        IN	      S-PP	         O	              -	      B-A3	(PP*
+            FOX	       NNP	      B-NP	    B-MISC	              -	      I-A3	(NP*
+             17	        CD	      I-NP	    I-MISC	              -	      I-A3	*
+           News	       NNP	      E-NP	    E-MISC	              -	      I-A3	*))
+            for	        IN	      S-PP	         O	              -	      I-A3	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A3	(NP*
+         latest	       JJS	      I-NP	         O	              -	      I-A3	*
+        details	       NNS	      E-NP	         O	              -	      E-A3	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+         STREAM	        NN	      S-NP	         O	              -	(S1(X(NP(NP*)
+             at	        IN	      S-PP	         O	              -	(PP*
+              9	        CD	      B-NP	         O	              -	(NP*
+             pm	        NN	      E-NP	         O	              -	*)))
+              :	         :	         O	         O	              -	*
+ fox17.com/live	        JJ	      B-NP	         O	              -	(NP*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	*)))
+

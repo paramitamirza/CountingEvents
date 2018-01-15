@@ -1,0 +1,89 @@
+     2013-11-30	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Police	       NNS	      S-NP	         O	              -	(S1(NP(NP*)
+              :	         :	         O	         O	              -	*
+              5	        CD	      B-NP	         O	              -	(NP(NP*
+           Shot	        NN	      E-NP	         O	              -	*)
+         During	        IN	      S-PP	         O	              -	(PP*
+          Fight	        NN	      S-NP	         O	              -	(NP*))
+             at	        IN	      S-PP	         O	              -	(PP*
+        Lansing	       NNP	      B-NP	     B-ORG	              -	(NP*
+          House	       NNP	      I-NP	     I-ORG	              -	*
+          Party	       NNP	      E-NP	     E-ORG	              -	*)))))
+
+        LANSING	       NNP	      S-NP	     S-LOC	              -	      B-A1	(S1(X(NP(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	*
+          Mich.	       NNP	      S-NP	     S-PER	              -	      I-A1	(NP*)
+              (	     -LRB-	         O	         O	              -	      I-A1	(PRN*
+             AP	       NNP	         O	     S-ORG	              -	      I-A1	(NP*)
+              )	     -RRB-	         O	         O	              -	      E-A1	*))
+             --	         :	         O	         O	              -	         O	*
+           Five	        CD	      B-NP	         O	              -	      B-A1	(S(NP*
+         people	       NNS	      E-NP	         O	              -	      E-A1	*)
+           have	       VBP	      B-VP	         O	              -	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+         during	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP(NP*
+          fight	        NN	      E-NP	         O	              -	  I-AM-TMP	*)
+             at	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP(NP*
+          house	        NN	      I-NP	         O	              -	  I-AM-TMP	*
+          party	        NN	      E-NP	         O	              -	  I-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+        Lansing	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	(NP*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	*))))))))))))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           tell	       VBP	      S-VP	         O	           tell	       S-V	         O	*
+            the	        DT	      B-NP	         O	              -	      B-A2	         O	(NP*
+        Lansing	       NNP	      I-NP	     B-ORG	              -	      I-A2	         O	*
+          State	       NNP	      I-NP	     I-ORG	              -	      I-A2	         O	*
+        Journal	       NNP	      E-NP	     E-ORG	              -	      E-A2	         O	*)
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+       occurred	       VBD	      S-VP	         O	       occurred	      I-A1	       S-V	(VP*
+          about	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(NP(NP*
+           3:30	        CD	      B-NP	         O	              -	      I-A1	  I-AM-TMP	*
+           a.m.	        NN	      I-NP	         O	              -	      I-A1	  E-AM-TMP	*)
+       Saturday	       NNP	      E-NP	         O	              -	      I-A1	  S-AM-TMP	(NP*))
+             at	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP(NP*
+           home	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	*)
+             on	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP(NP*
+           city	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	*
+             's	       POS	      B-NP	         O	              -	      I-A1	  I-AM-LOC	*)
+          south	        JJ	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+           side	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*)))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	         O	*))
+
+           None	        NN	      S-NP	         O	              -	      B-A0	(S1(S(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP*
+        victims	       NNS	      E-NP	         O	              -	      E-A0	*)))
+       suffered	       VBD	      S-VP	         O	       suffered	       S-V	(VP*
+           life	        NN	      S-NP	         O	              -	      S-A1	(NP*)
+              -	         :	         O	         O	              -	         O	*
+    threatening	        JJ	      B-NP	         O	              -	         O	(NP*
+         wounds	       NNS	      E-NP	         O	              -	         O	*))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+          Three	        CD	      B-NP	         O	              -	      B-A1	         O	(S1(S(S(S(NP*
+        arrests	       NNS	      E-NP	         O	              -	      E-A1	         O	*)
+           have	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	         O	(VP*
+           made	       VBN	      E-VP	         O	           made	       S-V	         O	(VP*))))
+            and	        CC	         O	         O	              -	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	      B-A1	(S(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	      E-A1	*)
+        remains	       VBZ	      S-VP	         O	        remains	         O	       S-V	(VP*
+          under	        IN	      S-PP	         O	              -	         O	      B-A3	(PP*
+  investigation	        NN	      S-NP	         O	              -	         O	      E-A3	(NP*)))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+

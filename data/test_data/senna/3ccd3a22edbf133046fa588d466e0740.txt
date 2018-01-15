@@ -1,0 +1,30 @@
+     2015-08-20	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        Sheriff	       NNP	      S-NP	         O	              -	(S1(NP(NP*)
+              :	         :	         O	         O	              -	*
+        Iredell	       NNP	      B-NP	     B-LOC	              -	(NP*
+         County	       NNP	      E-NP	     E-LOC	              -	*)))
+
+            man	        NN	      S-NP	         O	              -	      S-A0	      B-A1	(S1(S(NP(NP*)
+            who	        WP	      S-NP	         O	              -	    S-R-A0	      I-A1	(SBAR(WHNP*)
+        fatally	        RB	    S-ADVP	         O	              -	  S-AM-MNR	      I-A1	(S(VP(ADVP*)
+           shot	       VBD	      S-VP	         O	           shot	       S-V	      I-A1	*
+          young	        JJ	      B-NP	         O	              -	      B-A1	      I-A1	(NP*
+           sons	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*)))))
+            has	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+           died	       VBN	      E-VP	         O	           died	         O	         O	(VP*))))
+
+          Shawn	       NNP	      B-NP	     B-PER	              -	      B-A0	         O	(S1(S(NP*
+         Fuller	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	*)
+           also	        RB	    S-ADVP	         O	              -	  S-AM-DIS	         O	(ADVP*)
+           shot	       VBD	      S-VP	         O	           shot	       S-V	         O	(VP*
+        himself	       PRP	      S-NP	         O	              -	      S-A2	         O	(NP(NP(NP*)
+        NEWLINE	        NN	      S-NP	     B-PER	              -	      B-A1	         O	(NP*))
+             He	       PRP	      S-NP	     E-PER	              -	      I-A1	      S-A1	(SBAR(S(NP*)
+           died	       VBD	      S-VP	         O	           died	      I-A1	       S-V	(VP*
+             of	        IN	      S-PP	         O	              -	      I-A1	      B-A4	(PP*
+  complications	       NNS	      S-NP	         O	              -	      I-A1	      E-A4	(NP(NP*)
+           from	        IN	      S-PP	         O	              -	      I-A1	      B-A3	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	      I-A3	(NP*
+       injuries	       NNS	      E-NP	         O	              -	      E-A1	      E-A3	*)))))))))))
+

@@ -1,0 +1,87 @@
+     2017-03-08	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         UPDATE	        NN	      S-NP	         O	              -	(S1(NP*
+              :	         :	         O	         O	              -	*))
+
+             No	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+        charges	       NNS	      E-NP	         O	              -	      E-A1	*)
+       expected	       VBN	      S-VP	         O	       expected	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+        Tuesday	       NNP	      B-NP	         O	              -	  I-AM-LOC	(NP*
+           ’s	        JJ	      I-NP	         O	              -	  I-AM-LOC	*
+        midtown	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+       shooting	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))))
+
+         UPDATE	        NN	      S-NP	         O	              -	(S1(NP*
+              :	         :	         O	         O	              -	*))
+
+             No	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+        charges	       NNS	      E-NP	         O	              -	      E-A1	         O	*)
+       expected	       VBN	      S-VP	         O	       expected	       S-V	         O	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+        Tuesday	       NNP	      B-NP	         O	              -	  E-AM-TMP	         O	(NP*
+           ’s	        JJ	      I-NP	         O	              -	         O	         O	*
+        midtown	        NN	      I-NP	         O	              -	         O	         O	*
+       shooting	        NN	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	       NNP	      I-NP	     B-PER	              -	         O	         O	*
+        JACKSON	       NNP	      E-NP	     E-PER	              -	         O	         O	*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+       Tenn.-An	       NNP	      B-NP	     S-LOC	              -	         O	         O	(NP*
+         update	        NN	      E-NP	         O	              -	         O	         O	*)
+             to	        TO	      S-PP	         O	              -	         O	         O	(S(VP*
+       breaking	       VBG	      B-NP	         O	       breaking	         O	       S-V	(VP*
+           news	        NN	      E-NP	         O	              -	         O	      S-A1	(NP*)
+           from	        IN	      S-PP	         O	              -	         O	         O	(PP*
+        Tuesday	       NNP	      B-NP	         O	              -	         O	         O	(NP*
+          night	        NN	      E-NP	         O	              -	         O	         O	*))
+          after	        IN	      S-PP	         O	              -	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	         O	*)
+             in	        IN	      S-PP	         O	              -	         O	         O	(PP*
+        midtown	        NN	      B-NP	         O	              -	         O	         O	(NP*
+        Jackson	       NNP	      I-NP	     S-PER	              -	         O	         O	*
+              .	         .	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	*))))))))))
+
+         Police	       NNP	      S-NP	         O	              -	      S-A0	         O	         O	(S1(S(NP*)
+           told	       VBD	      S-VP	         O	           told	       S-V	         O	         O	(VP*
+           WBBJ	       NNP	      B-NP	     S-ORG	              -	      B-A2	         O	         O	(NP*
+              7	        CD	      I-NP	         O	              -	      I-A2	         O	         O	*
+     Eyewitness	       NNP	      I-NP	         O	              -	      I-A2	         O	         O	*
+           News	       NNP	      E-NP	         O	              -	      E-A2	         O	         O	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	      B-A0	         O	(SBAR(S(NP*
+         victim	        NN	      E-NP	         O	              -	         O	      E-A0	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+       handling	       VBG	      E-VP	         O	       handling	         O	       S-V	         O	(VP(VP*
+             an	        DT	      B-NP	         O	              -	         O	      B-A1	         O	(NP*
+            old	        JJ	      I-NP	         O	              -	         O	      I-A1	         O	*
+          rifle	        NN	      E-NP	         O	              -	         O	      E-A1	         O	*)
+        without	        IN	      S-PP	         O	              -	         O	  B-AM-MNR	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	  I-AM-MNR	         O	(NP*
+          stock	        NN	      E-NP	         O	              -	         O	  E-AM-MNR	         O	*))
+           when	       WRB	    S-ADVP	         O	              -	         O	  B-AM-TMP	S-R-AM-TMP	(SBAR(WHADVP*)
+             he	       PRP	      S-NP	         O	              -	         O	  I-AM-TMP	      S-A0	(S(NP*)
+   accidentally	        RB	    S-ADVP	         O	              -	         O	  I-AM-TMP	  S-AM-MNR	(ADVP*)
+           shot	       VBD	      S-VP	         O	           shot	         O	  I-AM-TMP	       S-V	(VP*
+        himself	       PRP	      S-NP	         O	              -	         O	  I-AM-TMP	      S-A1	(NP*)
+             in	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	      B-A4	(PP*
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-TMP	      I-A4	(NP*
+           foot	        NN	      I-NP	         O	              -	         O	  I-AM-TMP	      I-A4	*
+        NEWLINE	        NN	      E-NP	     S-LOC	              -	         O	  I-AM-TMP	      I-A4	*))
+         around	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	      I-A4	(PP*
+              9	        CD	      S-NP	         O	              -	         O	  I-AM-TMP	      I-A4	(NP*))))))
+              -	         :	         O	         O	              -	         O	  I-AM-TMP	      I-A4	*
+             30	        CD	      B-NP	         O	              -	         O	  I-AM-TMP	      I-A4	(NP(NP*
+           p.m.	        NN	      E-NP	         O	              -	         O	  I-AM-TMP	      I-A4	*)
+          along	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	      I-A4	(PP*
+       Fernlawn	       NNP	      B-NP	     B-LOC	              -	         O	  I-AM-TMP	      I-A4	(NP*
+         Street	       NNP	      E-NP	     E-LOC	              -	         O	  E-AM-TMP	      E-A4	*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+             No	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+        charges	       NNS	      E-NP	         O	              -	      E-A1	*)
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+       expected	       VBN	      E-VP	         O	       expected	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	*))
+

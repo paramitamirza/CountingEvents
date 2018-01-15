@@ -1,0 +1,101 @@
+     2016-12-15	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            One	        CD	      B-NP	         O	              -	      S-A1	(S1(S(NP*)
+           hurt	        NN	      E-NP	         O	           hurt	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      B-A2	(PP*
+       shooting	        NN	      B-NP	         O	              -	      I-A2	(NP*
+          range	        NN	      I-NP	         O	              -	      I-A2	*
+       accident	        NN	      E-NP	         O	              -	      E-A2	*)))))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         person	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+        treated	       VBN	      E-VP	         O	        treated	       S-V	(VP*
+            for	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+        gunshot	        NN	      I-NP	         O	              -	  I-AM-TMP	*
+          wound	        NN	      E-NP	         O	              -	  I-AM-TMP	*))
+          after	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+             an	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP(NP*
+       accident	        NN	      E-NP	         O	              -	  I-AM-TMP	*)
+             at	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP(NP*
+       shooting	        NN	      I-NP	         O	              -	  I-AM-TMP	*
+          range	        NN	      E-NP	         O	              -	  I-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+     Mannington	       NNP	      B-NP	     S-LOC	              -	  I-AM-TMP	(NP*
+              .	         .	      I-NP	         O	              -	  I-AM-TMP	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	  E-AM-TMP	*))))))))))
+
+      According	       VBG	      S-PP	         O	              -	  B-AM-ADV	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	(NP(NP*
+         Marion	       NNP	      I-NP	     B-ORG	              -	  I-AM-ADV	*
+         County	       NNP	      I-NP	     I-ORG	              -	  I-AM-ADV	*
+        Sheriff	       NNP	      E-NP	     I-ORG	              -	  I-AM-ADV	*
+             's	       POS	      B-NP	     I-ORG	              -	  I-AM-ADV	*)
+     Department	       NNP	      E-NP	     E-ORG	              -	  E-AM-ADV	*)))
+              ,	         ,	         O	         O	              -	         O	*
+            the	        DT	      B-NP	         O	              -	      B-A1	(NP*
+       accident	        NN	      E-NP	         O	              -	      E-A1	*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+           Dent	       NNP	      E-NP	     S-ORG	              -	  I-AM-LOC	*
+             's	       POS	      B-NP	         O	              -	  I-AM-LOC	*)
+            Run	       NNP	      I-NP	         O	              -	  I-AM-LOC	*
+       Shooting	       NNP	      I-NP	         O	              -	  I-AM-LOC	*
+          Range	       NNP	      E-NP	         O	              -	  E-AM-LOC	*)))
+           just	        RB	    S-ADVP	         O	              -	  B-AM-TMP	(PP(ADVP*)
+          after	        IN	      S-PP	         O	              -	  I-AM-TMP	*
+          10:00	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
+       Thursday	       NNP	      I-NP	         O	              -	  I-AM-TMP	*
+        morning	        NN	      E-NP	         O	              -	  E-AM-TMP	*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	*))))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	         O	      B-A1	(S1(S(NP*
+            man	        NN	      E-NP	         O	              -	      E-A0	         O	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+      unloading	       VBG	      E-VP	         O	      unloading	       S-V	         O	         O	(VP*
+            his	      PRP$	      B-NP	         O	              -	      B-A1	         O	         O	(NP*
+            gun	        NN	      E-NP	         O	              -	      E-A1	         O	         O	*)
+           when	       WRB	    S-ADVP	         O	              -	  B-AM-TMP	         O	         O	(SBAR(WHADVP*)
+             he	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A0	      S-A0	(S(NP*)
+   accidentally	        RB	    S-ADVP	         O	              -	  I-AM-TMP	  S-AM-MNR	         O	(ADVP*)
+         pulled	       VBD	      S-VP	         O	         pulled	  I-AM-TMP	       S-V	         O	(VP(VP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A1	         O	(NP*
+        trigger	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	         O	*)
+            too	        RB	    B-ADVP	         O	              -	  I-AM-TMP	  B-AM-TMP	         O	(ADVP*
+           soon	        RB	    E-ADVP	         O	              -	  I-AM-TMP	  E-AM-TMP	         O	*))
+            and	        CC	         O	         O	              -	  I-AM-TMP	         O	         O	*
+           shot	       VBD	      S-VP	         O	           shot	  I-AM-TMP	         O	       S-V	(VP*
+        himself	       PRP	      S-NP	         O	              -	  I-AM-TMP	         O	      S-A1	(NP*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	  B-AM-MNR	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	  I-AM-MNR	(NP*
+           hand	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	  E-AM-MNR	*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	         O	(S1(S(NP(NP*
+            man	        NN	      E-NP	         O	              -	         O	*
+             's	       POS	      B-NP	         O	              -	         O	*)
+       injuries	       NNS	      E-NP	         O	              -	         O	*)
+           were	       VBD	      S-VP	         O	              -	         O	(VP*
+            not	        RB	         O	         O	              -	         O	*
+           life	        NN	      S-NP	         O	              -	         O	(NP(NP*)
+              -	         :	         O	         O	              -	         O	*
+    threatening	        JJ	         O	         O	              -	         O	(ADJP*
+            and	        CC	         O	         O	              -	         O	*
+             he	       PRP	      S-NP	         O	              -	      S-A1	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	  B-AM-DIR	(PP*
+       Fairmont	       NNP	      B-NP	     B-ORG	              -	  I-AM-DIR	(NP*
+       Regional	       NNP	      I-NP	     I-ORG	              -	  I-AM-DIR	*
+        Medical	       NNP	      I-NP	     I-ORG	              -	  I-AM-DIR	*
+         Center	       NNP	      E-NP	     E-ORG	              -	  E-AM-DIR	*))
+            for	        IN	      S-PP	         O	              -	  B-AM-PNC	(PP*
+      treatment	        NN	      S-NP	         O	              -	  E-AM-PNC	(NP*))))))))
+              .	         .	         O	         O	              -	         O	*))
+
