@@ -13,7 +13,8 @@
            With	        IN	      S-PP	         O	              -	      B-A2	(PP*
        Felonies	       NNS	      S-NP	         O	              -	      E-A2	(NP*)))))
 
-         former	        JJ	      B-NP	         O	              -	      B-A0	         O	      B-A1	(S1(S(NP(NP*
+          EMPTY	        JJ	      B-NP	         O	              -	      B-A0	         O	      B-A1	(S1(S(NP(NP*
+         former	        JJ	      I-NP	         O	              -	      I-A0	         O	      I-A1	*
        Michigan	       NNP	      I-NP	     S-LOC	              -	      I-A0	         O	      I-A1	*
          police	        NN	      I-NP	         O	              -	      I-A0	         O	      I-A1	*
         officer	        NN	      E-NP	         O	              -	      E-A0	         O	      I-A1	*)
@@ -27,13 +28,13 @@
          during	        IN	      S-PP	         O	              -	    I-C-A1	  B-AM-TMP	      I-A1	(PP*
               a	        DT	      B-NP	         O	              -	    I-C-A1	  I-AM-TMP	      I-A1	(NP*
         traffic	        NN	      I-NP	         O	              -	    I-C-A1	  I-AM-TMP	      I-A1	*
-           stop	        NN	      E-NP	         O	              -	    E-C-A1	  E-AM-TMP	      E-A1	*)))))))
-            has	       VBZ	      B-VP	         O	              -	         O	         O	         O	(VP*
-           been	       VBN	      I-VP	         O	              -	         O	         O	         O	(VP*
-        charged	       VBN	      E-VP	         O	        charged	         O	         O	       S-V	(VP*
-           with	        IN	      S-PP	         O	              -	         O	         O	      B-A2	(PP*
-            two	        CD	      B-NP	         O	              -	         O	         O	      I-A2	(NP*
-       felonies	       NNS	      I-NP	         O	              -	         O	         O	      E-A2	*)))))
+           stop	        NN	      E-NP	         O	              -	    I-C-A1	  E-AM-TMP	      E-A1	*)))))))
+            has	       VBZ	      B-VP	         O	              -	    I-C-A1	         O	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	    I-C-A1	         O	         O	(VP*
+        charged	       VBN	      E-VP	         O	        charged	    I-C-A1	         O	       S-V	(VP*
+           with	        IN	      S-PP	         O	              -	    I-C-A1	         O	      B-A2	(PP*
+            two	        CD	      B-NP	         O	              -	    I-C-A1	         O	      I-A2	(NP*
+       felonies	       NNS	      I-NP	         O	              -	    E-C-A1	         O	      E-A2	*)))))
               .	         .	      I-NP	         O	              -	         O	         O	         O	*
         NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	         O	(NP*)))
 

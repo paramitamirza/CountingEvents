@@ -11,16 +11,16 @@
              On	        IN	      S-PP	         O	              -	  B-AM-TMP	(S1(S(PP*
          Sunday	       NNP	      S-NP	         O	              -	  E-AM-TMP	(NP*))
               ,	         ,	         O	         O	              -	         O	*
-          March	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP(NP(NP*
-             12	        CD	      E-NP	         O	              -	  I-AM-TMP	*
-              ,	         ,	         O	         O	              -	  I-AM-TMP	*
-           2006	        CD	      S-NP	         O	              -	  I-AM-TMP	*)
+          March	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP(NP*
+             12	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	*
+           2006	        CD	      E-NP	         O	              -	  I-AM-TMP	*)
              at	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
-              	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          EMPTY	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
            8:47	        CD	      I-NP	         O	              -	  I-AM-TMP	*
            p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))
               ,	         ,	         O	         O	              -	         O	*
-            six	        CD	      B-NP	         O	              -	      B-A0	(NP(NP*
+            six	        CD	      B-NP	         O	              -	      B-A0	(NP(NP(NP*
       companies	       NNS	      E-NP	         O	              -	      I-A0	*)
              of	        IN	      S-PP	         O	              -	      I-A0	(PP*
             Los	       NNP	      B-NP	     B-LOC	              -	      I-A0	(NP*
@@ -41,31 +41,31 @@
       battalion	        NN	      I-NP	         O	              -	      I-A0	*
         captain	        NN	      E-NP	         O	              -	      I-A0	*)
               ,	         ,	         O	         O	              -	      I-A0	*
-              	        JJ	      B-NP	         O	              -	      I-A0	*
-            one	        CD	      I-NP	         O	              -	      I-A0	(NP*
+          EMPTY	       NNP	      B-NP	         O	              -	      I-A0	(NP*
+            one	        CD	      I-NP	         O	              -	      I-A0	*
       battalion	        NN	      I-NP	         O	              -	      I-A0	*
           chief	        NN	      I-NP	         O	              -	      I-A0	*
         officer	        NN	      I-NP	         O	              -	      I-A0	*
         command	        NN	      I-NP	         O	              -	      I-A0	*
            team	        NN	      E-NP	         O	              -	      I-A0	*)
               ,	         ,	         O	         O	              -	      I-A0	*
-              	        NN	      S-NP	         O	              -	      I-A0	(NP(NP*)
-            and	        CC	         O	         O	              -	      I-A0	*
-            one	        CD	      B-NP	         O	              -	      I-A0	(NP*
+          EMPTY	       NNP	      B-NP	         O	              -	      I-A0	(NP*)
+            and	        CC	      I-NP	         O	              -	      I-A0	*
+            one	        CD	      I-NP	         O	              -	      I-A0	(NP*
        division	        NN	      I-NP	         O	              -	      I-A0	*
           chief	        NN	      I-NP	         O	              -	      I-A0	*
         officer	        NN	      I-NP	         O	              -	      I-A0	*
         command	        NN	      I-NP	         O	              -	      I-A0	*
-           team	        NN	      E-NP	         O	              -	      I-A0	*)
-            all	        DT	      S-NP	         O	              -	      I-A0	(PP*
-          under	        IN	      S-PP	         O	              -	      I-A0	*
+           team	        NN	      E-NP	         O	              -	      I-A0	*))
+            all	        DT	      S-NP	         O	              -	      I-A0	(NP*
+          under	        IN	      S-PP	         O	              -	      I-A0	(PP*
             the	        DT	      B-NP	         O	              -	      I-A0	(NP(NP*
       direction	        NN	      E-NP	         O	              -	      I-A0	*)
              of	        IN	      S-PP	         O	              -	      I-A0	(PP*
       Battalion	       NNP	      B-NP	         O	              -	      I-A0	(NP*
           Chief	       NNP	      I-NP	         O	              -	      I-A0	*
          Joseph	       NNP	      I-NP	     B-PER	              -	      I-A0	*
-         Castro	       NNP	      E-NP	     E-PER	              -	      E-A0	*))))))
+         Castro	       NNP	      E-NP	     E-PER	              -	      E-A0	*)))))
       responded	       VBD	      S-VP	         O	      responded	       S-V	(VP*
              to	        TO	      S-PP	         O	              -	      B-A1	(PP*
               a	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
@@ -331,5 +331,5 @@
           being	       VBG	      I-VP	         O	              -	(VP*
       tabulated	       VBN	      E-VP	         O	              -	(VP*)))
               .	         .	         O	         O	              -	*
-              	         .	         O	         O	              -	(NP*)))
+          EMPTY	       NNP	         O	         O	              -	(NP*)))
 

@@ -330,31 +330,32 @@
         NEWLINE	       NNP	      E-NP	     S-ORG	              -	      E-A1	*))))
 
             She	       PRP	      S-NP	         O	              -	      S-A1	         O	         O	         O	(S1(S(NP*)
-            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
-         barred	       VBN	      E-VP	         O	         barred	       S-V	         O	         O	         O	(VP*
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	*
+         barred	       VBN	      E-VP	         O	         barred	       S-V	         O	         O	         O	*
              by	        IN	      S-PP	         O	              -	      B-A0	         O	         O	         O	(PP*
               a	        DT	      B-NP	         O	              -	      I-A0	         O	         O	         O	(NP*
           judge	        NN	      E-NP	         O	              -	      I-A0	         O	         O	         O	*))
-           from	        IN	      S-PP	         O	              -	      I-A0	         O	         O	         O	(PP*
-      asserting	       VBG	      S-VP	         O	      asserting	      I-A0	       S-V	         O	         O	(S(VP*
-       evidence	        NN	      S-NP	         O	              -	      I-A0	      B-A1	      S-A1	         O	(NP*
-           that	        IN	    S-SBAR	         O	              -	      I-A0	      I-A1	         O	         O	(SBAR*
-            she	       PRP	      S-NP	         O	              -	      I-A0	      I-A1	      S-A1	      S-A0	(S(NP*)
-            was	       VBD	      B-VP	         O	              -	      I-A0	      I-A1	         O	         O	(VP*
-          fired	       VBN	      E-VP	         O	          fired	      I-A0	      I-A1	       S-V	         O	(VP*
-            for	        IN	      S-PP	         O	              -	      I-A0	      I-A1	  B-AM-PNC	         O	(PP*
-    cooperating	       VBG	      S-VP	         O	    cooperating	      I-A0	      I-A1	  I-AM-PNC	       S-V	(S(VP*
+           from	        IN	      S-PP	         O	              -	      I-A0	         O	         O	         O	*
+      asserting	       VBG	      S-VP	         O	      asserting	      I-A0	       S-V	         O	         O	*
+       evidence	        NN	      S-NP	         O	              -	      I-A0	      B-A1	      S-A1	         O	*
+           that	        IN	    S-SBAR	         O	              -	      I-A0	      I-A1	         O	         O	*
+            she	       PRP	      S-NP	         O	              -	      I-A0	      I-A1	      S-A1	      S-A0	(NP*)
+            was	       VBD	      B-VP	         O	              -	      I-A0	      I-A1	         O	         O	*
+          fired	       VBN	      E-VP	         O	          fired	      I-A0	      I-A1	       S-V	         O	*
+            for	        IN	      S-PP	         O	              -	      I-A0	      I-A1	  B-AM-PNC	         O	*
+    cooperating	       VBG	      S-VP	         O	    cooperating	      I-A0	      I-A1	  I-AM-PNC	       S-V	*
              in	        IN	      S-PP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  B-AM-LOC	(PP*
-            the	        DT	      B-NP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  I-AM-LOC	(NP(NP(NP*
+            the	        DT	      B-NP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  I-AM-LOC	(NP(NP*
             FBI	       NNP	      E-NP	     S-ORG	              -	      I-A0	      I-A1	  I-AM-PNC	  I-AM-LOC	*
              's	       POS	      B-NP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  I-AM-LOC	*)
       Operation	       NNP	      I-NP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  I-AM-LOC	*
             Bid	       NNP	      I-NP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  I-AM-LOC	*
             Rig	       NNP	      I-NP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  I-AM-LOC	*
-  investigation	        NN	      E-NP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  E-AM-LOC	*)
-             in	        IN	      S-PP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	         O	(PP*
-           2005	        CD	      S-NP	         O	              -	      E-A0	      E-A1	  E-AM-PNC	         O	(NP*)))))))))))))))))
-              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+  investigation	        NN	      E-NP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  I-AM-LOC	*))
+             in	        IN	      S-PP	         O	              -	      I-A0	      I-A1	  I-AM-PNC	  I-AM-LOC	(PP*
+           2005	        CD	      S-NP	         O	              -	      I-A0	      E-A1	  E-AM-PNC	  I-AM-LOC	(NP*))
+              .	         .	         O	         O	              -	      I-A0	         O	         O	  I-AM-LOC	*
+          EMPTY	       NNP	    S-ADJP	         O	              -	      E-A0	         O	         O	  E-AM-LOC	*))
 
       Operation	       NNP	      B-NP	         O	              -	         O	(S1(S(NP*
             Bid	       NNP	      I-NP	         O	              -	         O	*

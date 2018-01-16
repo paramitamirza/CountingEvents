@@ -7,25 +7,25 @@
           house	        NN	      B-NP	         O	              -	         O	      B-A1	(NP*
            fire	        NN	      E-NP	         O	              -	         O	      E-A1	*))))
 
-             At	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	(S1(S(S(PP*
-           2:30	        CD	      S-NP	         O	              -	         O	  I-AM-TMP	(NP*))
+             At	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	(S1(S(PP*
+           2:30	        CD	      S-NP	         O	              -	         O	  I-AM-TMP	(S(NP*)
              am	       VBP	      S-VP	         O	              -	         O	  I-AM-TMP	(VP*
-              	        JJ	    S-ADJP	         O	              -	         O	  I-AM-TMP	(ADJP*)
-      Wednesday	       NNP	      S-NP	         O	              -	         O	  E-AM-TMP	(NP*)))
+          EMPTY	       NNP	      B-NP	         O	              -	         O	  I-AM-TMP	(ADJP*)
+      Wednesday	       NNP	      E-NP	         O	              -	         O	  E-AM-TMP	(NP*))))
               ,	         ,	         O	         O	              -	         O	         O	*
              an	        DT	      B-NP	         O	              -	         O	      B-A0	(NP*
      overloaded	        JJ	      I-NP	         O	     overloaded	       S-V	      I-A0	*
      electrical	        JJ	      I-NP	         O	              -	      B-A1	      I-A0	*
         circuit	        NN	      E-NP	         O	              -	      E-A1	      E-A0	*)
          caused	       VBD	      S-VP	         O	         caused	         O	       S-V	(VP*
-              a	        DT	      B-NP	         O	              -	         O	      B-A1	(NP(NP*
+              a	        DT	      B-NP	         O	              -	         O	      B-A1	(NP*
           house	        NN	      I-NP	         O	              -	         O	      I-A1	*
            fire	        NN	      E-NP	         O	              -	         O	      E-A1	*)
              at	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	(PP*
            6371	        CD	      B-NP	         O	              -	         O	  I-AM-LOC	(NP*
              SW	       NNP	      I-NP	         O	              -	         O	  I-AM-LOC	*
          Childs	       NNP	      I-NP	     B-LOC	              -	         O	  I-AM-LOC	*
-           Road	       NNP	      E-NP	     E-LOC	              -	         O	  E-AM-LOC	*))))
+           Road	       NNP	      E-NP	     E-LOC	              -	         O	  E-AM-LOC	*)))
               .	         .	         O	         O	              -	         O	         O	*))
 
    Firefighters	       NNS	      S-NP	         O	              -	      B-A0	         O	(S1(S(NP(NP*)

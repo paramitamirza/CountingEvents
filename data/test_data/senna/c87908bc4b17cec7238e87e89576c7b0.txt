@@ -7,10 +7,10 @@
       structure	        NN	      B-NP	         O	              -	  I-AM-LOC	(NP*
            fire	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))))
 
-             At	        IN	      S-PP	         O	              -	         O	(S1(S(PP*
-              	        NN	      B-NP	         O	              -	         O	(NP*
-           7:06	        CD	      I-NP	         O	              -	         O	*
-           a.m.	        NN	      E-NP	         O	              -	         O	*))
+             At	        IN	      S-PP	         O	              -	  B-AM-TMP	(S1(S(PP*
+          EMPTY	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           7:06	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+           a.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*))
               ,	         ,	         O	         O	              -	         O	*
              13	        CD	      B-NP	         O	              -	         O	(NP(NP(NP*
       companies	       NNS	      E-NP	         O	              -	         O	*)
@@ -19,7 +19,7 @@
         Angeles	       NNP	      I-NP	     E-LOC	              -	         O	*
    firefighters	       NNS	      E-NP	         O	              -	         O	*)))
               ,	         ,	         O	         O	              -	         O	*
-           five	        CD	      B-NP	         O	              -	         O	(NP*
+           five	        CD	      B-NP	         O	              -	         O	(NP(NP*
            LAFD	       NNP	      I-NP	    S-MISC	              -	         O	*
          rescue	        NN	      I-NP	         O	              -	         O	*
      ambulances	       NNS	      E-NP	         O	              -	         O	*)
@@ -28,25 +28,25 @@
           Arson	       NNP	      I-NP	         O	              -	         O	*
           Units	      NNPS	      E-NP	         O	              -	         O	*)
               ,	         ,	         O	         O	              -	         O	*
-            one	        CD	      B-NP	         O	              -	         O	(NP(NP*
+            one	        CD	      B-NP	         O	              -	         O	(NP*
           Urban	       NNP	      I-NP	     B-ORG	              -	         O	*
          Search	       NNP	      I-NP	     I-ORG	              -	         O	*
             and	        CC	      I-NP	     I-ORG	              -	         O	*
          Rescue	       NNP	      I-NP	     I-ORG	              -	         O	*
-           Unit	       NNP	      E-NP	     E-ORG	              -	         O	*)
-              ,	         ,	         O	         O	              -	         O	*))
-              	       VBD	      S-VP	         O	              -	         O	(VP*
-            one	        CD	      B-NP	         O	              -	         O	(NP(NP*
-      Hazardous	       NNP	      I-NP	     B-ORG	              -	         O	*
-      Materials	      NNPS	      I-NP	     I-ORG	              -	         O	*
-           Team	       NNP	      E-NP	     E-ORG	              -	         O	*)
+           Unit	       NNP	      E-NP	     E-ORG	              -	         O	*))
               ,	         ,	         O	         O	              -	         O	*
-            one	        CD	      B-NP	         O	              -	         O	(NP*
-            EMS	       NNP	      I-NP	     S-ORG	              -	         O	*
-      battalion	        NN	      I-NP	         O	              -	         O	*
-        captain	        NN	      E-NP	         O	              -	         O	*)
+          EMPTY	       NNP	      B-NP	         O	              -	         O	(NP*
+            one	        CD	      I-NP	         O	              -	         O	*
+      Hazardous	       NNP	      I-NP	         O	              -	         O	*
+      Materials	      NNPS	      I-NP	         O	              -	         O	*
+           Team	       NNP	      E-NP	         O	              -	         O	*)
               ,	         ,	         O	         O	              -	         O	*
-           four	        CD	      B-NP	         O	              -	      B-A0	(NP(NP*
+            one	        CD	      B-NP	         O	              -	      B-A0	(NP*
+            EMS	       NNP	      I-NP	     S-ORG	              -	      I-A0	*
+      battalion	        NN	      I-NP	         O	              -	      I-A0	*
+        captain	        NN	      E-NP	         O	              -	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A0	*
+           four	        CD	      B-NP	         O	              -	      I-A0	(NP(NP*
       Battalion	       NNP	      I-NP	         O	              -	      I-A0	*
           Chief	       NNP	      I-NP	         O	              -	      I-A0	*
         Officer	       NNP	      I-NP	         O	              -	      I-A0	*
@@ -59,25 +59,25 @@
           Chief	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
         Officer	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
         Command	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
-           Team	       NNP	      E-NP	     E-ORG	              -	      I-A0	*)))
-            all	        DT	      S-NP	         O	              -	      I-A0	(SBAR(S(NP*
-          under	        IN	      S-PP	         O	              -	      I-A0	(PP*
+           Team	       NNP	      E-NP	     E-ORG	              -	      I-A0	*)
+            all	        DT	      S-NP	         O	              -	      I-A0	(PP*
+          under	        IN	      S-PP	         O	              -	      I-A0	*
             the	        DT	      B-NP	         O	              -	      I-A0	(NP(NP*
       direction	        NN	      E-NP	         O	              -	      I-A0	*)
              of	        IN	      S-PP	         O	              -	      I-A0	(PP*
       Assistant	       NNP	      B-NP	         O	              -	      I-A0	(NP*
           Chief	       NNP	      I-NP	         O	              -	      I-A0	*
            Tony	       NNP	      I-NP	     B-PER	              -	      I-A0	*
-         Varela	       NNP	      E-NP	     E-PER	              -	      E-A0	*)))))
+         Varela	       NNP	      E-NP	     E-PER	              -	      E-A0	*))))))
       responded	       VBD	      S-VP	         O	      responded	       S-V	(VP*
              to	        TO	      S-PP	         O	              -	      B-A1	(PP*
-              a	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+              a	        DT	      B-NP	         O	              -	      I-A1	(NP*
       structure	        NN	      I-NP	         O	              -	      I-A1	*
-           fire	        NN	      E-NP	         O	              -	      E-A1	*)
+           fire	        NN	      E-NP	         O	              -	      E-A1	*))
              at	        IN	      S-PP	         O	              -	      B-A2	(PP*
            7085	        CD	      B-NP	         O	              -	      I-A2	(NP*
     Hayvenhurst	       NNP	      I-NP	     B-PER	              -	      I-A2	*
-            Ave	       NNP	      E-NP	     E-PER	              -	      E-A2	*))))))))
+            Ave	       NNP	      E-NP	     E-PER	              -	      E-A2	*)))
               .	         .	         O	         O	              -	         O	*))
 
              in	        IN	      S-PP	         O	              -	(S1(PP*

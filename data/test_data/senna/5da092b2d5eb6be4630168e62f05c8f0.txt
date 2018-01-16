@@ -10,26 +10,27 @@
     transgender	        JJ	      B-NP	         O	              -	      I-A0	(NP*
           woman	        NN	      E-NP	         O	              -	      E-A0	*))))))
 
-        SEATTLE	       NNP	      S-NP	     S-ORG	              -	      B-A0	         O	         O	         O	         O	         O	         O	(S1(NP(NP(NP*)
-              -	         :	         O	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	*
-        NEWLINE	        NN	      S-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	(NP(NP*)
-              A	        DT	      B-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	(NP*
+        SEATTLE	       NNP	      B-NP	     S-ORG	              -	      B-A0	         O	         O	         O	         O	         O	         O	(S1(NP(NP*)
+          EMPTY	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	(ADJP*)
+              -	         :	      I-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	*
+        NEWLINE	        NN	      E-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	(NP(NP*)
+              A	        DT	      B-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	(SBAR(S(NP*
     transgender	        JJ	      I-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	*
           woman	        NN	      E-NP	         O	              -	      E-A0	         O	         O	         O	         O	         O	         O	*)
-            has	       VBZ	      B-VP	         O	              -	         O	         O	         O	         O	         O	         O	         O	(NP*
+            has	       VBZ	      B-VP	         O	              -	         O	         O	         O	         O	         O	         O	         O	(VP*
           filed	       VBN	      E-VP	         O	          filed	       S-V	         O	         O	         O	         O	         O	         O	(VP*
               a	        DT	      B-NP	         O	              -	      B-A1	         O	         O	         O	         O	         O	         O	(NP(NP*
         federal	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	         O	         O	         O	         O	*
  discrimination	        NN	      I-NP	         O	              -	      I-A1	         O	         O	         O	         O	         O	         O	*
         lawsuit	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	         O	         O	         O	*)
         against	        IN	      S-PP	         O	              -	  B-AM-ADV	         O	         O	         O	         O	         O	         O	(PP*
-              a	        DT	      B-NP	         O	              -	  I-AM-ADV	         O	      B-A0	         O	         O	         O	         O	(NP(NP*
+              a	        DT	      B-NP	         O	              -	  I-AM-ADV	         O	      B-A0	         O	         O	         O	         O	(NP(NP(NP*
         Seattle	       NNP	      I-NP	     S-ORG	              -	  I-AM-ADV	         O	      I-A0	         O	         O	         O	         O	*)
               -	         :	      I-NP	         O	              -	  I-AM-ADV	         O	      I-A0	         O	         O	         O	         O	*
           based	       VBN	      I-NP	         O	          based	  I-AM-ADV	       S-V	      I-A0	         O	         O	         O	         O	(NP*
           blood	        NN	      I-NP	         O	              -	  I-AM-ADV	      B-A1	      I-A0	         O	         O	         O	         O	*
            bank	        NN	      E-NP	         O	              -	  I-AM-ADV	      E-A1	      E-A0	         O	         O	         O	         O	*
-         saying	       VBG	      S-VP	         O	         saying	  I-AM-ADV	         O	       S-V	         O	         O	         O	         O	(S(VP*
+         saying	       VBG	      S-VP	         O	         saying	  I-AM-ADV	         O	       S-V	         O	         O	         O	         O	(VP*
             she	       PRP	      S-NP	         O	              -	  I-AM-ADV	         O	      B-A1	      S-A1	      S-A0	         O	         O	(SBAR(S(NP*)
             was	       VBD	      B-VP	         O	              -	  I-AM-ADV	         O	      I-A1	         O	         O	         O	         O	*
           fired	       VBN	      E-VP	         O	          fired	  E-AM-ADV	         O	      I-A1	       S-V	         O	         O	         O	(VP*
@@ -45,9 +46,9 @@
             her	       PRP	      S-NP	         O	              -	  I-AM-TMP	         O	      I-A1	  I-AM-TMP	         O	      S-A1	      S-A0	(S(NP*)
        reissued	       VBD	      S-VP	         O	       reissued	  I-AM-TMP	         O	      I-A1	  I-AM-TMP	         O	         O	       S-V	(VP*
           birth	        NN	      B-NP	         O	              -	  I-AM-TMP	         O	      I-A1	  I-AM-TMP	         O	         O	      B-A1	(NP*
-    certificate	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	      E-A1	  E-AM-TMP	         O	         O	      E-A1	*))))))))))))))))))))))
+    certificate	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	      E-A1	  E-AM-TMP	         O	         O	      E-A1	*)))))))))))))))
               .	         .	         O	         O	              -	         O	         O	         O	         O	         O	         O	         O	*
-        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	         O	         O	         O	         O	         O	         O	(NP*)))
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	         O	         O	         O	         O	         O	         O	(NP*)))))))))))
 
              In	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	         O	         O	(S1(S(S(PP*
             the	        DT	      B-NP	         O	              -	      B-A1	  I-AM-LOC	         O	         O	(NP(NP*

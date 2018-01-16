@@ -10,10 +10,10 @@
              On	        IN	      S-PP	         O	              -	  B-AM-TMP	(S1(S(PP*
          Monday	       NNP	      S-NP	         O	              -	  E-AM-TMP	(NP*))
               ,	         ,	         O	         O	              -	         O	*
-      September	       NNP	      B-NP	         O	              -	         O	(NP(NP(NP(NP*
+      September	       NNP	      B-NP	         O	              -	         O	(NP(NP(NP*
               8	        CD	      E-NP	         O	              -	         O	*)
-              ,	         ,	         O	         O	              -	         O	*)
-              	        NN	      S-NP	         O	              -	         O	(NP(NP*)
+              ,	         ,	         O	         O	              -	         O	*
+          EMPTY	       NNP	      S-NP	         O	              -	         O	(ADJP*
              at	        IN	      S-PP	         O	              -	         O	(PP*
            5:25	        CD	      B-NP	         O	              -	         O	(NP*
              AM	       NNP	      E-NP	         O	              -	         O	*)))
@@ -32,13 +32,13 @@
               ,	         ,	         O	         O	              -	      I-A0	*
               3	        CD	      B-NP	         O	              -	      I-A0	(NP*
           Arson	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
-          Units	      NNPS	      E-NP	     E-ORG	              -	      I-A0	*))
+          Units	      NNPS	      E-NP	     E-ORG	              -	      I-A0	*)
               ,	         ,	         O	         O	              -	      I-A0	*
-              1	        CD	      B-NP	         O	              -	      I-A0	(NP(NP*
+              1	        CD	      B-NP	         O	              -	      I-A0	(NP*
             EMS	       NNP	      I-NP	     S-ORG	              -	      I-A0	*
       Battalion	       NNP	      I-NP	         O	              -	      I-A0	*
         Captain	       NNP	      E-NP	         O	              -	      I-A0	*)
-              ,	         ,	         O	         O	              -	      I-A0	*
+              ,	         ,	         O	         O	              -	      I-A0	*)
             and	        CC	         O	         O	              -	      I-A0	*
               1	        CD	      B-NP	         O	              -	      I-A0	(NP*
       Battalion	       NNP	      I-NP	         O	              -	      I-A0	*
@@ -54,21 +54,21 @@
       Battalion	       NNP	      B-NP	         O	              -	      I-A0	(NP*
           Chief	       NNP	      I-NP	         O	              -	      I-A0	*
         Michael	       NNP	      I-NP	     B-PER	              -	      I-A0	*
-        Greenup	       NNP	      E-NP	     E-PER	              -	      E-A0	*))))))
+        Greenup	       NNP	      E-NP	     E-PER	              -	      E-A0	*)))))
       responded	       VBD	      S-VP	         O	      responded	       S-V	(VP*
              to	        TO	      S-PP	         O	              -	      B-A1	(PP*
               a	        DT	      B-NP	         O	              -	      I-A1	(NP*
       Structure	        NN	      I-NP	         O	              -	      I-A1	*
            Fire	        NN	      E-NP	         O	              -	      I-A1	*))
            With	        IN	      S-PP	         O	              -	      I-A1	(PP*
-              a	        DT	      B-NP	         O	              -	      I-A1	(NP*
+              a	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
        Civilian	        JJ	      I-NP	    S-MISC	              -	      I-A1	*
-       Fatality	        NN	      E-NP	         O	              -	      I-A1	*))
+       Fatality	        NN	      E-NP	         O	              -	      I-A1	*)
              at	        IN	      S-PP	         O	              -	      I-A1	(PP*
            3448	        CD	      B-NP	         O	              -	      I-A1	(NP*
              S.	       NNP	      I-NP	     B-ORG	              -	      I-A1	*
        Colonial	       NNP	      I-NP	     I-ORG	              -	      I-A1	*
-             Av	       NNP	      E-NP	     E-ORG	              -	      E-A1	*)))
+             Av	       NNP	      E-NP	     E-ORG	              -	      E-A1	*)))))
               .	         .	         O	         O	              -	         O	*))
 
              in	        IN	      S-PP	         O	              -	(S1(PP*

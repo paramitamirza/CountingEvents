@@ -12,7 +12,8 @@
             job	        NN	      S-NP	         O	              -	  I-AM-CAU	         O	      S-A1	(NP*)
            back	        RB	    S-ADVP	         O	              -	  E-AM-CAU	         O	      S-A2	(ADVP*)))
 
-       Veterans	       NNP	      B-NP	     B-ORG	              -	      B-A1	      B-A0	         O	         O	(S1(S(NP(NP*
+          EMPTY	       NNP	      B-NP	         O	              -	      B-A1	      B-A0	         O	         O	(S1(S(NP(NP*
+       Veterans	       NNP	      I-NP	     B-ORG	              -	      I-A1	      I-A0	         O	         O	*
         Affairs	       NNP	      I-NP	     I-ORG	              -	      I-A1	      I-A0	         O	         O	*
      Department	       NNP	      I-NP	     E-ORG	              -	      I-A1	      I-A0	         O	         O	*
        employee	        NN	      E-NP	         O	              -	      E-A1	      E-A0	         O	         O	*)
@@ -23,12 +24,12 @@
      contacting	       VBG	      S-VP	         O	     contacting	      I-A3	       S-V	         O	         O	(S(VP*
             his	      PRP$	      B-NP	         O	              -	      I-A3	      B-A1	      B-A0	         O	(NP*
         senator	        NN	      E-NP	         O	              -	      E-A3	      E-A1	      E-A0	         O	*)
-             to	        TO	      B-VP	         O	              -	         O	  B-AM-PNC	         O	         O	(S(VP*
-         report	        VB	      E-VP	         O	         report	         O	  I-AM-PNC	       S-V	         O	(VP*
-       problems	       NNS	      S-NP	         O	              -	         O	  I-AM-PNC	      S-A1	         O	(NP(NP*)
-             at	        IN	      S-PP	         O	              -	         O	  I-AM-PNC	         O	         O	(PP*
-            the	        DT	      B-NP	         O	              -	         O	  I-AM-PNC	         O	         O	(NP*
-     department	        NN	      E-NP	         O	              -	         O	  E-AM-PNC	         O	         O	*))))))))))))))
+             to	        TO	      B-VP	         O	              -	         O	         O	         O	         O	(S(VP*
+         report	        VB	      E-VP	         O	         report	         O	         O	       S-V	         O	(VP*
+       problems	       NNS	      S-NP	         O	              -	         O	         O	      S-A1	         O	(NP(NP*)
+             at	        IN	      S-PP	         O	              -	         O	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	         O	(NP*
+     department	        NN	      E-NP	         O	              -	         O	         O	         O	         O	*))))))))))))))
              is	       VBZ	      S-VP	         O	              -	         O	         O	         O	         O	*
            back	        RB	    S-ADVP	         O	              -	         O	         O	         O	         O	(ADVP*
              on	        IN	      S-PP	         O	              -	         O	         O	         O	         O	(PP*

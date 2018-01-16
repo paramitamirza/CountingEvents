@@ -11,7 +11,7 @@
         Jackson	       NNP	      I-NP	     E-PER	              -	  I-AM-LOC	*
           death	        NN	      E-NP	         O	              -	  E-AM-LOC	*))))))))
 
-              	       SYM	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP*
+          EMPTY	       NNP	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP*
            Rock	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	*
          Island	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	*
          County	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	*
@@ -22,9 +22,9 @@
        instated	       VBN	      E-VP	         O	       instated	      I-A1	       S-V	(VP*
           first	        RB	    S-ADVP	         O	              -	      I-A1	  S-AM-TMP	(ADVP*))
               -	         :	         O	         O	              -	      I-A1	         O	*
-         degree	        NN	      B-NP	         O	              -	      I-A1	         O	(NP(NP*
-         murder	        NN	      I-NP	         O	              -	      I-A1	         O	*
-        charges	       NNS	      E-NP	         O	              -	      I-A1	         O	*)
+         degree	        NN	      B-NP	         O	              -	      I-A1	      B-A1	(NP(NP*
+         murder	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+        charges	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
         against	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
       Yolanduis	       NNP	      B-NP	     B-PER	              -	      I-A1	         O	(NP*
              L.	       NNP	      I-NP	     I-PER	              -	      I-A1	         O	*
@@ -175,13 +175,13 @@
               .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*
         NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	         O	         O	(NP*)))
 
-              A	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+              A	        DT	      B-NP	         O	              -	      B-A1	(S1(NP(NP*
               $	         $	      I-NP	         O	              -	      I-A1	(ADJP(QP*
             1.5	        CD	      I-NP	         O	              -	      I-A1	*
         million	        CD	      I-NP	         O	              -	      I-A1	*))
          arrest	        NN	      I-NP	         O	              -	      I-A1	*
         warrant	        NN	      E-NP	         O	              -	      E-A1	*)
-            was	       VBD	      B-VP	         O	              -	         O	(VP*
+            was	       VBD	      B-VP	         O	              -	         O	(NP*
          issued	       VBN	      E-VP	         O	         issued	       S-V	(VP*
            Aug.	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP*
              26	        CD	      E-NP	         O	              -	  E-AM-TMP	*)
@@ -190,7 +190,7 @@
        McDuffie	       NNP	      E-NP	     E-PER	              -	      E-A3	*)
               ,	         ,	         O	         O	              -	         O	*
             who	        WP	      S-NP	         O	              -	         O	(SBAR(WHNP*)
-              	        NN	      S-NP	         O	              -	         O	(S(NP*)
+          EMPTY	       NNP	    S-ADJP	         O	              -	         O	(S(NP*)
             was	       VBD	      S-VP	         O	              -	         O	(VP*
              in	        IN	      S-PP	         O	              -	         O	(PP*
             the	        DT	      B-NP	         O	              -	         O	(NP*
@@ -315,8 +315,8 @@
         conduct	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))))))))
               .	         .	         O	         O	              -	         O	*))
 
-             He	       PRP	      S-NP	         O	              -	      B-A0	         O	(S1(S(NP*
-              	        NN	      S-NP	         O	              -	      E-A0	         O	*)
+             He	       PRP	      S-NP	         O	              -	      B-A0	         O	(S1(S(NP*)
+          EMPTY	       NNP	    S-ADJP	         O	              -	      E-A0	         O	(ADJP*)
              is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
         serving	       VBG	      E-VP	         O	        serving	       S-V	         O	(VP*
               a	        DT	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
@@ -333,11 +333,11 @@
        December	       NNP	      B-NP	         O	              -	  I-AM-ADV	         O	(NP*
            2056	        CD	      I-NP	         O	              -	  E-AM-ADV	         O	*
               .	         .	      I-NP	         O	              -	         O	         O	*
-        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      S-A0	         O	*)))))))))
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      S-A2	         O	*)))))))))
 
             Mr.	       NNP	      B-NP	         O	              -	      B-A0	(S1(S(NP*
-              	       NNP	      I-NP	         O	              -	      I-A0	*)
-        McGehee	       NNP	      E-NP	     S-PER	              -	      E-A0	(NP*)
+          EMPTY	       NNP	      I-NP	         O	              -	      I-A0	*
+        McGehee	       NNP	      E-NP	     S-PER	              -	      E-A0	*)
            said	       VBD	      S-VP	         O	           said	       S-V	(VP*
             the	        DT	      B-NP	         O	              -	      B-A1	(SBAR(S(NP(NP*
             new	        JJ	      I-NP	         O	              -	      I-A1	*
@@ -354,9 +354,9 @@
         testing	        NN	      E-NP	         O	              -	      I-A1	*))
              on	        IN	      S-PP	         O	              -	      I-A1	(PP*
               a	        DT	      B-NP	         O	              -	      I-A1	(NP*
-            gun	        NN	      I-NP	         O	              -	      E-A1	*)))))))
-              .	         .	      I-NP	         O	              -	         O	*
-        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      S-A0	(NP*)))
+            gun	        NN	      I-NP	         O	              -	      I-A1	*)))))))
+              .	         .	      I-NP	         O	              -	      I-A1	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      E-A1	(NP*)))
 
             The	        DT	      B-NP	         O	              -	      B-A1	      B-A0	         O	         O	      B-A1	(S1(S(NP(NP(NP*
             gun	        NN	      E-NP	         O	              -	      E-A1	      E-A0	         O	         O	      I-A1	*)

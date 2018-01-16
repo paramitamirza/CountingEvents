@@ -11,19 +11,19 @@
             LOS	       NNP	      B-NP	     B-ORG	              -	(S1(NP*
         ANGELES	       NNP	      I-NP	     E-ORG	              -	*
             —	        NN	      E-NP	         O	              -	*
-              	         .	    S-ADJP	         O	              -	*))
+          EMPTY	       NNP	    S-ADJP	         O	              -	*))
 
-             On	        IN	      S-PP	         O	              -	  B-AM-TMP	(S1(S(PP*
+             On	        IN	      S-PP	         O	              -	  B-AM-TMP	(S1(S(S(PP*
        Saturday	       NNP	      S-NP	         O	              -	  E-AM-TMP	(NP*))
               ,	         ,	         O	         O	              -	         O	*
           March	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP(NP*
-             25	        CD	      E-NP	         O	              -	  I-AM-TMP	*)
-              ,	         ,	         O	         O	              -	  I-AM-TMP	*
-           2006	        CD	      S-NP	         O	              -	  I-AM-TMP	(NP(NP*)
+             25	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	*
+           2006	        CD	      E-NP	         O	              -	  I-AM-TMP	*)
              at	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
-              	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          EMPTY	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
            8:23	        CD	      I-NP	         O	              -	  I-AM-TMP	*
-           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*))
               ,	         ,	         O	         O	              -	         O	*
              20	        CD	      B-NP	         O	              -	      B-A0	(NP(NP*
       companies	       NNS	      E-NP	         O	              -	      I-A0	*)
@@ -57,7 +57,7 @@
             EMS	       NNP	      I-NP	     S-ORG	              -	      I-A0	*
       battalion	        NN	      I-NP	         O	              -	      I-A0	*
        captains	       NNS	      E-NP	         O	              -	      I-A0	*)
-              ,	         ,	         O	         O	              -	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A0	*
           seven	        CD	      B-NP	         O	              -	      I-A0	(NP(NP*
       battalion	        NN	      I-NP	         O	              -	      I-A0	*
           chief	        NN	      I-NP	         O	              -	      I-A0	*
@@ -80,7 +80,7 @@
       Assistant	       NNP	      B-NP	         O	              -	      I-A0	(NP*
           Chief	       NNP	      I-NP	         O	              -	      I-A0	*
            John	       NNP	      I-NP	     B-PER	              -	      I-A0	*
-           Ware	       NNP	      E-NP	     E-PER	              -	      E-A0	*)))))
+           Ware	       NNP	      E-NP	     E-PER	              -	      E-A0	*))))))
       responded	       VBD	      S-VP	         O	      responded	       S-V	(VP*
              to	        TO	      S-PP	         O	              -	      B-A2	(PP*
               a	        DT	      B-NP	         O	              -	      I-A2	(NP*
@@ -98,7 +98,7 @@
         Hancock	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	*
   Park/Wilshire	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
          Center	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	*
-           area	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))))
+           area	        NN	      E-NP	         O	              -	  E-AM-LOC	*))))))
               .	         .	         O	         O	              -	         O	*
         NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	(NP*)))
 

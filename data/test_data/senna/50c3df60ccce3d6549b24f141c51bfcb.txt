@@ -35,11 +35,11 @@
            West	       NNP	      B-NP	     B-LOC	              -	      I-A1	         O	(NP*
           Salem	       NNP	      I-NP	     E-LOC	              -	      I-A1	         O	*
            High	       NNP	      I-NP	         O	              -	      I-A1	         O	*
-         School	       NNP	      I-NP	         O	              -	      I-A1	         O	*
-              .	         .	      I-NP	         O	              -	      I-A1	         O	*
-              	        NN	      E-NP	         O	              -	      E-A1	         O	*)))))))))
+         School	       NNP	      E-NP	         O	              -	      I-A1	         O	*
+              .	         .	         O	         O	              -	      I-A1	         O	*
+          EMPTY	       NNP	         O	         O	              -	      E-A1	         O	*)))))))))
 
-           When	       WRB	    S-ADVP	         O	              -	S-R-AM-TMP	  B-AM-TMP	         O	(S1(X(SBAR(WHADVP*)
+           When	       WRB	    S-ADVP	         O	              -	S-R-AM-TMP	  B-AM-TMP	         O	(S1(SBAR(WHADVP*)
          engine	        NN	      B-NP	         O	              -	      B-A1	  I-AM-TMP	         O	(S(NP*
               5	        CD	      E-NP	         O	              -	      E-A1	  E-AM-TMP	         O	*)
         arrived	       VBD	      S-VP	         O	        arrived	       S-V	         O	         O	(VP*
@@ -47,17 +47,17 @@
          school	        NN	      I-NP	         O	              -	      I-A4	      I-A0	         O	*
        employee	        NN	      E-NP	         O	              -	      I-A4	      E-A0	         O	*)
        reported	       VBD	      S-VP	         O	       reported	      I-A4	       S-V	         O	(VP*
-             to	        TO	      S-PP	         O	              -	      I-A4	      B-A1	         O	(SBAR(S(PP*
-           them	       PRP	      S-NP	         O	              -	      I-A4	      I-A1	      S-A0	(NP*))
+             to	        TO	      S-PP	         O	              -	      I-A4	      B-A1	         O	(PP*
+           them	       PRP	      S-NP	         O	              -	      I-A4	      I-A1	      S-A0	(S(NP*)
           smoke	        VB	      S-VP	         O	          smoke	      I-A4	      I-A1	       S-V	(VP*
          inside	        IN	      S-PP	         O	              -	      I-A4	      I-A1	  B-AM-LOC	(PP*
             the	        DT	      B-NP	         O	              -	      I-A4	      I-A1	  I-AM-LOC	(NP*
          boiler	        NN	      I-NP	         O	              -	      I-A4	      I-A1	  I-AM-LOC	*
-           room	        NN	      E-NP	         O	              -	      E-A4	      E-A1	  E-AM-LOC	*)))))))))))
+           room	        NN	      E-NP	         O	              -	      E-A4	      E-A1	  E-AM-LOC	*
               .	         .	         O	         O	              -	         O	         O	         O	*
-              	         .	         O	         O	              -	         O	         O	         O	*))
+          EMPTY	       NNP	         O	         O	              -	         O	         O	         O	*))))))))))))
 
-           When	       WRB	    S-ADVP	         O	              -	S-R-AM-TMP	         O	         O	         O	(S1(SBAR(WHADVP*)
+           When	       WRB	    S-ADVP	         O	              -	S-R-AM-TMP	         O	         O	         O	(S1(FRAG(SBAR(WHADVP*)
            Fire	        NN	      B-NP	         O	              -	      B-A0	         O	         O	         O	(S(NP*
        fighters	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	         O	*)
         entered	       VBD	      S-VP	         O	        entered	       S-V	         O	         O	         O	(VP*
@@ -72,9 +72,9 @@
             way	       VBP	      B-VP	         O	            way	      I-A1	      I-A1	       S-V	         O	*)
              to	        TO	      I-VP	         O	              -	      I-A1	      I-A1	      B-A1	         O	(SBAR(S(VP*
          ground	        VB	      E-VP	         O	         ground	      I-A1	      I-A1	      I-A1	       S-V	(VP*
-          level	        NN	      S-NP	         O	              -	      E-A1	      E-A1	      E-A1	      S-A1	(NP*
+          level	        NN	      S-NP	         O	              -	      E-A1	      E-A1	      E-A1	      S-A1	(NP*)))))))))))))
               .	         .	         O	         O	              -	         O	         O	         O	         O	*
-              	        NN	         O	         O	              -	         O	         O	         O	         O	*))))))))))))))
+          EMPTY	       NNP	    S-ADJP	         O	              -	         O	         O	         O	         O	(NP*)))
 
            They	       PRP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
       requested	       VBD	      S-VP	         O	      requested	       S-V	(VP*
@@ -112,9 +112,9 @@
          source	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	      I-A1	*)
              of	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	      I-A1	(PP*
             the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	      I-A1	(NP*
-           fire	        NN	      I-NP	         O	              -	  E-AM-TMP	         O	      E-A1	*
-              .	         .	      I-NP	         O	              -	         O	         O	         O	*
-              	        NN	      E-NP	         O	              -	         O	         O	         O	*)))))))))))))
+           fire	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	      E-A1	*)))))))))))
+              .	         .	         O	         O	              -	  I-AM-TMP	         O	         O	*
+          EMPTY	       NNP	    S-ADJP	         O	              -	  E-AM-TMP	         O	         O	*))
 
              It	       PRP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
             was	       VBD	      S-VP	         O	              -	         O	(VP*
@@ -152,12 +152,12 @@
               .	         .	         O	         O	              -	         O	         O	*
         NEWLINE	       NNP	         O	     S-LOC	              -	         O	         O	(NP*)))
 
-          After	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(S1(S(SBAR*
+          After	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(S1(SBAR*
             all	       PDT	      B-NP	         O	              -	  I-AM-TMP	         O	(S(NP*
             the	        DT	      I-NP	         O	              -	  I-AM-TMP	         O	*
           smoke	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	*)
             was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
-     ventilated	       VBN	      E-VP	         O	     ventilated	       S-V	         O	(VP*
+     ventilated	       VBN	      E-VP	         O	     ventilated	       S-V	         O	(PP*
              it	       PRP	      S-NP	         O	              -	      S-A1	         O	(SBAR(S(NP*)
             was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
      determined	       VBN	      E-VP	         O	     determined	         O	       S-V	(VP*
@@ -170,9 +170,9 @@
          inside	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
             the	        DT	      B-NP	         O	              -	         O	      I-A1	(NP*
          boiler	        NN	      I-NP	         O	              -	         O	      I-A1	*
-           room	        NN	      E-NP	         O	              -	         O	      E-A1	*))))))))))))))
-              .	         .	         O	         O	              -	         O	         O	*
-              	         .	         O	         O	              -	         O	         O	*))
+           room	        NN	      E-NP	         O	              -	         O	      I-A1	*
+              .	         .	         O	         O	              -	         O	      I-A1	*
+          EMPTY	       NNP	         O	         O	              -	         O	      E-A1	*)))))))))))))))
 
             The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
            fire	        NN	      E-NP	         O	              -	      E-A1	*)
@@ -186,7 +186,7 @@
             the	        DT	      B-NP	         O	              -	      I-A0	(NP*
          boiler	        NN	      E-NP	         O	              -	      E-A0	*
               .	         .	         O	         O	              -	         O	*
-              	        NN	         O	         O	              -	       S-V	*)))))))))
+          EMPTY	       NNP	         O	         O	              -	  S-AM-TMP	*)))))))))
 
             The	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(S(NP*
          boiler	        NN	      E-NP	         O	              -	      E-A1	         O	*)
@@ -200,12 +200,12 @@
               .	         .	         O	         O	              -	         O	         O	*
         NEWLINE	       NNP	         O	     S-LOC	              -	         O	         O	(NP*)))
 
-             No	        DT	      B-NP	         O	              -	      B-A1	(S1(S(S(NP*
+             No	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
        injuries	       NNS	      E-NP	         O	              -	      E-A1	*)
            were	       VBD	      B-VP	         O	              -	         O	(VP*
-       reported	       VBN	      E-VP	         O	       reported	       S-V	(VP*)))
+       reported	       VBN	      E-VP	         O	       reported	       S-V	(VP*))
               .	         .	         O	         O	              -	         O	*
-              	        NN	         O	         O	              -	       S-V	(NP*)))
+          EMPTY	       NNP	    S-ADJP	         O	              -	       S-V	(ADJP*)))
 
          School	       NNP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
             was	       VBD	      B-VP	         O	              -	         O	(VP*

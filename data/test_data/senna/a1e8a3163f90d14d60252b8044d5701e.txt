@@ -209,9 +209,9 @@
              An	        DT	      B-NP	         O	              -	      B-A0	         O	         O	         O	         O	(S1(S(S(NP*
   investigation	        NN	      E-NP	         O	              -	      E-A0	         O	         O	         O	         O	*)
             has	       VBZ	      B-VP	         O	              -	         O	         O	         O	         O	         O	(VP*
-     determined	       VBN	      E-VP	         O	     determined	       S-V	         O	         O	         O	         O	(VP*
-           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	         O	         O	         O	(S(PP*
-              a	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	      B-A0	      B-A0	(NP(NP*
+     determined	       VBN	      E-VP	         O	     determined	       S-V	         O	         O	         O	         O	(S(ADJP*
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	         O	         O	         O	(SBAR*
+              a	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	      B-A0	      B-A0	(S(NP(NP*
            wall	        NN	      I-NP	         O	              -	      I-A1	      I-A1	         O	      I-A0	      I-A0	*
          heater	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	      I-A0	      I-A0	*)
               ,	         ,	         O	         O	              -	      I-A1	         O	         O	      I-A0	      I-A0	*
@@ -222,11 +222,11 @@
              on	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	         O	      I-A0	      I-A0	(PP*
            when	       WRB	    S-ADVP	         O	              -	      I-A1	  I-AM-TMP	         O	      I-A0	      I-A0	(SBAR(WHADVP*)
             the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	      B-A1	      I-A0	      I-A0	(S(NP*
-      occupants	       NNS	      E-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	      I-A0	      I-A0	*
-              	        NN	      S-NP	         O	              -	      I-A1	  I-AM-TMP	      E-A1	      I-A0	      I-A0	*)
+      occupants	       NNS	      E-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	      I-A0	      I-A0	*)
+          EMPTY	       NNP	    S-ADJP	         O	              -	      I-A1	  I-AM-TMP	      E-A1	      I-A0	      I-A0	(ADJP*))))))))))
             had	       VBD	      B-VP	         O	              -	      I-A1	  I-AM-TMP	         O	      I-A0	      I-A0	(VP*
            gone	       VBN	      E-VP	         O	           gone	      I-A1	  I-AM-TMP	       B-V	      I-A0	      I-A0	(VP*
-            out	        RP	     S-PRT	         O	              -	      I-A1	  E-AM-TMP	       E-V	      I-A0	      I-A0	(ADVP*)))))))))))))))))
+            out	        RP	     S-PRT	         O	              -	      I-A1	  E-AM-TMP	       E-V	      I-A0	      I-A0	(ADVP*)))))))))
               ,	         ,	         O	         O	              -	      I-A1	         O	         O	      E-A0	      E-A0	*
         started	       VBD	      S-VP	         O	        started	      I-A1	         O	         O	       S-V	         O	(VP(VP*
             the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	      B-A1	         O	(NP*

@@ -79,7 +79,7 @@
           brick	        NN	      I-NP	         O	              -	         O	      I-A1	      I-A4	*
        building	        NN	      E-NP	         O	              -	         O	      E-A1	      E-A4	*
               .	         .	         O	         O	              -	         O	         O	         O	*
-              	        NN	         O	         O	              -	         O	         O	         O	*)))))))))
+          EMPTY	       NNP	         O	         O	              -	         O	         O	         O	*)))))))))
 
            This	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
         portion	        NN	      E-NP	         O	              -	      I-A1	*)
@@ -91,7 +91,7 @@
             for	        IN	      S-PP	         O	              -	      B-A2	(PP*
      apartments	       NNS	      S-NP	         O	              -	      E-A2	(NP*
               .	         .	         O	         O	              -	         O	*
-              	         .	         O	         O	              -	         O	*))))))
+          EMPTY	       NNP	    S-ADJP	         O	              -	         O	*))))))
 
               A	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
          second	        JJ	      I-NP	         O	              -	      I-A1	         O	*
@@ -127,20 +127,20 @@
             the	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
       stairwell	        NN	      E-NP	         O	              -	      E-A1	         O	*)))))))))
               .	         .	         O	         O	              -	         O	         O	*
-              	         .	         O	         O	              -	         O	         O	(NP*)))
+          EMPTY	       NNP	         O	         O	              -	         O	         O	(NP*)))
 
-           They	       PRP	      S-NP	         O	              -	      S-A0	(S1(S(S(NP*)
+           They	       PRP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
            were	       VBD	      S-VP	         O	              -	         O	(VP*
            able	        JJ	    S-ADJP	         O	              -	         O	(ADJP*
              to	        TO	      B-VP	         O	              -	         O	(S(VP*
         quickly	        RB	      I-VP	         O	              -	  S-AM-MNR	(ADVP*)
      extinguish	        VB	      E-VP	         O	     extinguish	       S-V	(VP*
            this	        DT	      B-NP	         O	              -	      B-A1	(NP*
-           fire	        NN	      I-NP	         O	              -	      E-A1	*)))))))
-              .	         .	      I-NP	         O	              -	         O	*
-              	        NN	      E-NP	         O	              -	         O	(NP*)))
+           fire	        NN	      E-NP	         O	              -	      E-A1	*))))))
+              .	         .	         O	         O	              -	         O	*
+          EMPTY	       NNP	    S-ADJP	         O	              -	         O	(NP*)))
 
-            The	        DT	      B-NP	         O	              -	(S1(SBAR(S(NP(NP*
+            The	        DT	      B-NP	         O	              -	(S1(S(NP(NP*
            main	        JJ	      I-NP	         O	              -	*
         portion	        NN	      E-NP	         O	              -	*)
              of	        IN	      S-PP	         O	              -	(PP*
@@ -153,9 +153,9 @@
             was	       VBD	      S-VP	         O	              -	(S(VP*
          inside	        IN	      S-PP	         O	              -	(PP*
             the	        DT	      B-NP	         O	              -	(NP*
-      stairwell	        NN	      E-NP	         O	              -	*))))))))
+      stairwell	        NN	      E-NP	         O	              -	*
               .	         .	         O	         O	              -	*
-              	         .	         O	         O	              -	*))
+          EMPTY	       NNP	         O	         O	              -	*)))))))))
 
            They	       PRP	      S-NP	         O	              -	      S-A0	         O	         O	(S1(S(S(NP*)
            also	        RB	    S-ADVP	         O	              -	  S-AM-DIS	         O	         O	(ADVP*)
@@ -216,7 +216,7 @@
               .	         .	         O	         O	              -	  I-AM-TMP	      I-A1	*
         NEWLINE	       NNP	         O	     S-ORG	              -	  E-AM-TMP	      E-A1	(NP*)))
 
-            The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(S(NP*
        occupant	        NN	      I-NP	         O	              -	      I-A0	         O	         O	*
            Juan	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	         O	*
            Leos	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	*)
@@ -224,15 +224,15 @@
            when	       WRB	    S-ADVP	         O	              -	  B-AM-TMP	         O	  B-AM-TMP	(SBAR(WHADVP*)
              he	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A1	  I-AM-TMP	(S(NP*)
            came	       VBD	      S-VP	         O	           came	  I-AM-TMP	       S-V	  I-AM-TMP	(VP*
-           home	        NN	    S-ADVP	         O	              -	  I-AM-TMP	  B-AM-LOC	  E-AM-TMP	(NP(ADVP*)
-            his	      PRP$	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	      B-A1	(SBAR(S(NP*
+           home	        NN	    S-ADVP	         O	              -	  I-AM-TMP	  B-AM-LOC	  E-AM-TMP	(ADVP*))))))
+            his	      PRP$	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	      B-A1	(S(NP*
           smoke	        NN	      I-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	      I-A1	*
        detector	        NN	      E-NP	         O	              -	  I-AM-TMP	  E-AM-LOC	      E-A1	*)
             was	       VBD	      B-VP	         O	              -	  I-AM-TMP	         O	         O	(VP*
           going	       VBG	      E-VP	         O	          going	  I-AM-TMP	         O	       B-V	(VP*
-            off	        RP	     S-PRT	         O	              -	  E-AM-TMP	         O	       E-V	(ADVP*))))))))))
+            off	        RP	     S-PRT	         O	              -	  E-AM-TMP	         O	       E-V	(ADVP*))))
               .	         .	         O	         O	              -	         O	         O	         O	*
-              	        NN	         O	         O	              -	         O	         O	         O	(NP*)))
+          EMPTY	       NNP	         O	         O	              -	         O	         O	         O	(NP*)))
 
              He	       PRP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
      discovered	       VBD	      S-VP	         O	     discovered	       S-V	(VP*
@@ -253,9 +253,9 @@
              to	        TO	      I-VP	         O	              -	  I-AM-PNC	      B-A1	         O	(S(VP*
      extinguish	        VB	      E-VP	         O	     extinguish	  I-AM-PNC	      I-A1	       S-V	(VP*
             the	        DT	      B-NP	         O	              -	  I-AM-PNC	      I-A1	      B-A1	(NP*
-           fire	        NN	      I-NP	         O	              -	  E-AM-PNC	      E-A1	      E-A1	*
-              .	         .	      I-NP	         O	              -	         O	         O	         O	*
-              	        NN	      E-NP	         O	              -	         O	         O	         O	*))))))))))
+           fire	        NN	      E-NP	         O	              -	  E-AM-PNC	      E-A1	      E-A1	*
+              .	         .	         O	         O	              -	         O	         O	         O	*
+          EMPTY	       NNP	    S-ADJP	         O	              -	         O	         O	         O	*))))))))))
 
              He	       PRP	      S-NP	         O	              -	      S-A0	         O	         O	         O	(S1(S(S(S(NP*)
         thought	       VBD	      S-VP	         O	        thought	       S-V	         O	         O	         O	(VP*
@@ -278,18 +278,18 @@
               .	         .	         O	         O	              -	         O	         O	  I-AM-DIR	         O	*
         NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	  E-AM-DIR	         O	(NP*)))
 
-            Two	        CD	      B-NP	         O	              -	      B-A1	(S1(S(S(NP*
+            Two	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP*
            male	        NN	      I-NP	         O	              -	      I-A1	*
       occupants	       NNS	      E-NP	         O	              -	      E-A1	*)
-           were	       VBD	      B-VP	         O	              -	         O	(VP*
-        treated	       VBN	      E-VP	         O	        treated	       S-V	(VP*
+           were	       VBD	      B-VP	         O	              -	         O	*
+        treated	       VBN	      E-VP	         O	        treated	       S-V	*
              by	        IN	      S-PP	         O	              -	      B-A0	(PP*
      paramedics	       NNS	      S-NP	         O	              -	      I-A0	(NP(NP*)
              on	        IN	      S-PP	         O	              -	      I-A0	(PP*
             the	        DT	      B-NP	         O	              -	      I-A0	(NP*
-          scene	        NN	      E-NP	         O	              -	      E-A0	*)))))))
+          scene	        NN	      E-NP	         O	              -	      E-A0	*))))
               .	         .	         O	         O	              -	         O	*
-              	         .	         O	         O	              -	      S-A1	*))
+          EMPTY	       NNP	         O	         O	              -	      S-A1	*))
 
             One	        CD	      S-NP	         O	              -	(S1(NP(NP*)
             for	        IN	      S-PP	         O	              -	(PP*
@@ -322,9 +322,9 @@
               $	         $	      I-NP	         O	              -	      I-A2	(ADJP*
           1,000	        CD	      I-NP	         O	              -	      I-A2	*)
        Contents	       NNS	      E-NP	         O	              -	      I-A2	*)
-              )	     -RRB-	         O	         O	              -	      I-A2	*)))))
-              .	         .	         O	         O	              -	      I-A2	*
-              	        NN	         O	         O	              -	      E-A2	(NP*)))
+              )	     -RRB-	         O	         O	              -	      E-A2	*)))))
+              .	         .	         O	         O	              -	         O	*
+          EMPTY	       NNP	    S-ADJP	         O	              -	      S-A1	(NP*)))
 
           Salem	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	         O	         O	         O	(S1(S(NP*
            Fire	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	         O	         O	         O	*

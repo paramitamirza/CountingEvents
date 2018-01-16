@@ -6,21 +6,26 @@
              at	        IN	      S-PP	         O	              -	      B-A2	(PP*
       policeman	        NN	      S-NP	         O	              -	      E-A2	(NP*)))))
 
-        Comment	        VB	      B-NP	         O	        Comment	       S-V	      B-A1	         O	(S1(S(S(NP(NP*
-             ·	        JJ	      I-NP	         O	              -	      B-A1	      I-A1	         O	*
-          print	        NN	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
-             ·	        NN	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
-              T	       NNP	      I-NP	    B-MISC	              -	      I-A1	      I-A1	         O	*
-              T	       NNP	      E-NP	    I-MISC	              -	      I-A1	      I-A1	         O	*
-        NEWLINE	       NNP	      B-NP	    I-MISC	              -	      I-A1	      I-A1	         O	*
-           T+·	       NNP	      I-NP	    I-MISC	              -	      I-A1	      I-A1	         O	*
-             T-	       NNP	      I-NP	    I-MISC	              -	      I-A1	      I-A1	         O	*
-        NEWLINE	       NNP	      I-NP	    I-MISC	              -	      I-A1	      I-A1	         O	*
-            Two	        CD	      I-NP	    E-MISC	              -	      I-A1	      I-A1	         O	*
+        Comment	        VB	      S-VP	         O	        Comment	       S-V	         O	         O	(S1(S(S(NP*
+          EMPTY	        JJ	      B-NP	         O	              -	      B-A1	         O	         O	*
+             ·	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+          EMPTY	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+          print	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+             ·	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+          EMPTY	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+              T	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+          EMPTY	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+              T	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+        NEWLINE	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+           T+·	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+          EMPTY	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+             T-	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+        NEWLINE	       NNP	      I-NP	         O	              -	      I-A1	         O	         O	*
+            Two	        CD	      I-NP	         O	              -	      I-A1	      B-A1	         O	*
    unidentified	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
-            men	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	         O	*)
-             on	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	(PP*
-    motorcycles	       NNS	      S-NP	         O	              -	      I-A1	      E-A1	         O	(NP*)))
+            men	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+             on	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+    motorcycles	       NNS	      S-NP	         O	              -	      I-A1	      S-A1	         O	(NP*))
       allegedly	        RB	    S-ADVP	         O	              -	      I-A1	  S-AM-ADV	         O	(ADVP*)
            shot	       VBD	      S-VP	         O	           shot	      I-A1	       S-V	         O	(VP*
              at	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	         O	(PP*
@@ -29,26 +34,26 @@
          Police	       NNP	      I-NP	     E-LOC	              -	      I-A1	  I-AM-LOC	         O	*
            head	        NN	      I-NP	         O	              -	      I-A1	  I-AM-LOC	         O	*
       constable	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	         O	*))
-          while	        IN	    S-SBAR	         O	              -	         O	  B-AM-TMP	         O	(SBAR*
-             he	       PRP	      S-NP	         O	              -	         O	  I-AM-TMP	      S-A0	(S(NP*)
-            was	       VBD	      B-VP	         O	              -	         O	  I-AM-TMP	         O	(VP*
-        leaving	       VBG	      E-VP	         O	        leaving	         O	  I-AM-TMP	       S-V	(VP*
-            for	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	      B-A1	(PP*
-           work	        NN	      S-NP	         O	              -	         O	  I-AM-TMP	      I-A1	(NP(NP*)
-           from	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	      I-A1	(PP*
-            his	      PRP$	      B-NP	         O	              -	         O	  I-AM-TMP	      I-A1	(NP(NP*
-           home	        NN	      E-NP	         O	              -	         O	  I-AM-TMP	      E-A1	*)
-             in	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	  B-AM-LOC	(PP*
-          south	        RB	    S-ADVP	         O	              -	         O	  I-AM-TMP	  I-AM-LOC	(ADVP*)
-              -	         :	         O	         O	              -	         O	  I-AM-TMP	  I-AM-LOC	*
-           west	        JJ	      B-NP	         O	              -	         O	  I-AM-TMP	  I-AM-LOC	(NP*
-          Delhi	       NNP	      I-NP	     S-LOC	              -	         O	  I-AM-TMP	  I-AM-LOC	*
-           ’s	        JJ	      I-NP	         O	              -	         O	  I-AM-TMP	  I-AM-LOC	*
-        Chhawla	       NNP	      I-NP	     S-LOC	              -	         O	  I-AM-TMP	  I-AM-LOC	*
-           area	        NN	      E-NP	         O	              -	         O	  I-AM-TMP	  E-AM-LOC	*))))))
-             on	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	  B-AM-TMP	(PP*
-        Tuesday	       NNP	      B-NP	         O	              -	         O	  I-AM-TMP	  I-AM-TMP	(NP*
-        morning	        NN	      E-NP	         O	              -	         O	  E-AM-TMP	  E-AM-TMP	*))))))))
+          while	        IN	    S-SBAR	         O	              -	  B-AM-TMP	  B-AM-TMP	         O	(SBAR*
+             he	       PRP	      S-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	      S-A0	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	(VP*
+        leaving	       VBG	      E-VP	         O	        leaving	  I-AM-TMP	  I-AM-TMP	       S-V	(VP*
+            for	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	      B-A1	(PP*
+           work	        NN	      S-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	      I-A1	(NP(NP*)
+           from	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	      I-A1	(PP*
+            his	      PRP$	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	      I-A1	(NP(NP*
+           home	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	      E-A1	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	  B-AM-LOC	(PP*
+          south	        RB	    S-ADVP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-LOC	(ADVP*)
+              -	         :	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-LOC	*
+           west	        JJ	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-LOC	(NP*
+          Delhi	       NNP	      I-NP	     S-LOC	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-LOC	*
+           ’s	        JJ	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-LOC	*
+        Chhawla	       NNP	      I-NP	     S-LOC	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-LOC	*
+           area	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  E-AM-LOC	*))))))
+             on	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	  B-AM-TMP	(PP*
+        Tuesday	       NNP	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	(NP*
+        morning	        NN	      E-NP	         O	              -	  E-AM-TMP	  E-AM-TMP	  E-AM-TMP	*))))))))
               .	         .	         O	         O	              -	         O	         O	         O	*
         NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	         O	      S-A1	(NP*)))
 

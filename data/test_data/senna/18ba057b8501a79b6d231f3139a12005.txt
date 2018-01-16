@@ -87,11 +87,11 @@
               .	         .	         O	         O	              -	         O	*
         NEWLINE	       NNP	         O	     S-LOC	              -	         O	(NP*)))
 
-            The	        DT	      B-NP	         O	              -	      B-A0	         O	(S1(NP(NP(NP*
-              	        JJ	      I-NP	         O	              -	      I-A0	         O	*
-           four	        CD	      I-NP	         O	              -	      I-A0	         O	*)
-              -	         :	      I-NP	         O	              -	      I-A0	         O	*
-          alarm	        NN	      I-NP	         O	              -	      I-A0	         O	(NP*
+            The	        DT	      B-NP	         O	              -	         O	         O	(S1(S(NP*
+          EMPTY	        JJ	      I-NP	         O	              -	         O	         O	*
+           four	        CD	      I-NP	         O	              -	         O	         O	*
+              -	         :	      I-NP	         O	              -	         O	         O	*
+          alarm	        NN	      I-NP	         O	              -	      B-A0	         O	*
            fire	        NN	      E-NP	         O	              -	      E-A0	         O	*)
          caused	       VBD	      S-VP	         O	         caused	       S-V	         O	(VP*
              an	        DT	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
@@ -102,7 +102,7 @@
              in	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
       estimated	       VBN	      B-NP	         O	      estimated	      I-A1	       S-V	(NP*
      structural	        JJ	      I-NP	         O	              -	      I-A1	      B-A1	*
-        damages	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*)))))
+        damages	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*))))
               .	         .	         O	         O	              -	         O	         O	*))
 
             The	        DT	      B-NP	         O	              -	      B-A1	      B-A0	         O	(S1(S(NP(NP*

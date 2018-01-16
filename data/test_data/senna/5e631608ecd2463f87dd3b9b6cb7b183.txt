@@ -9,17 +9,17 @@
            L.A.	       NNP	      S-NP	     S-LOC	              -	(NP*)))))
 
              On	        IN	      S-PP	         O	              -	  B-AM-TMP	(S1(S(S(PP*
-              	        NN	      B-NP	         O	              -	  I-AM-TMP	(NP*))
-         Monday	       NNP	      E-NP	         O	              -	  I-AM-TMP	(NP*)
+          EMPTY	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP*
+         Monday	       NNP	      E-NP	         O	              -	  I-AM-TMP	*))
               ,	         ,	         O	         O	              -	  I-AM-TMP	*
-         August	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP(NP(NP*
+         August	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP(NP*
              13	        CD	      E-NP	         O	              -	  I-AM-TMP	*)
               ,	         ,	         O	         O	              -	  I-AM-TMP	*
              at	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
            2:24	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
              PM	       NNP	      E-NP	         O	              -	  E-AM-TMP	*))
               ,	         ,	         O	         O	              -	         O	*
-              4	        CD	      B-NP	         O	              -	      B-A0	(NP(NP(NP*
+              4	        CD	      B-NP	         O	              -	      B-A0	(NP(NP(NP(NP(NP*
       Companies	      NNPS	      E-NP	         O	              -	      I-A0	*)
              of	        IN	      S-PP	         O	              -	      I-A0	(PP*
             Los	       NNP	      B-NP	     B-ORG	              -	      I-A0	(NP*
@@ -45,10 +45,10 @@
           Chief	       NNP	      I-NP	         O	              -	      I-A0	*
         Officer	       NNP	      I-NP	         O	              -	      I-A0	*
         Command	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
-           Team	       NNP	      E-NP	     E-ORG	              -	      I-A0	*))
+           Team	       NNP	      E-NP	     E-ORG	              -	      I-A0	*)
             and	        CC	         O	         O	              -	      I-A0	*
-            DOT	       NNP	      S-NP	         O	              -	      I-A0	(NP*)
-              ,	         ,	         O	         O	              -	      I-A0	*
+            DOT	       NNP	      S-NP	         O	              -	      I-A0	(NP*))
+              ,	         ,	         O	         O	              -	      I-A0	*)
             all	        DT	      S-NP	         O	              -	      I-A0	(NP(NP*)
           under	        IN	      S-PP	         O	              -	      I-A0	(PP*
             the	        DT	      B-NP	         O	              -	      I-A0	(NP(NP*
@@ -57,8 +57,8 @@
       Battalion	       NNP	      B-NP	         O	              -	      I-A0	(NP*
           Chief	       NNP	      I-NP	         O	              -	      I-A0	*
            Mark	       NNP	      I-NP	     B-PER	              -	      I-A0	*
-          Jones	       NNP	      E-NP	     E-PER	              -	      I-A0	*))))))
-              ,	         ,	         O	         O	              -	      E-A0	*)
+          Jones	       NNP	      E-NP	     E-PER	              -	      I-A0	*)))))
+              ,	         ,	         O	         O	              -	      E-A0	*))
       responded	       VBD	      S-VP	         O	      responded	       S-V	(VP*
              to	        TO	      S-PP	         O	              -	      B-A1	(PP*
               a	        DT	      B-NP	         O	              -	      I-A1	(NP*

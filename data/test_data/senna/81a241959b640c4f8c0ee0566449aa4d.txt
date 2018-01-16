@@ -94,7 +94,7 @@
             and	        CC	      I-NP	         O	              -	         O	      I-A1	         O	*
            wind	        NN	      E-NP	         O	              -	         O	      E-A1	         O	*
               .	         .	         O	         O	              -	         O	         O	         O	*
-              	        NN	         O	         O	              -	         O	         O	         O	*)))))))))
+          EMPTY	       NNP	         O	         O	              -	         O	         O	         O	*)))))))))
 
      Additional	        JJ	      B-NP	         O	              -	      B-A1	      B-A2	         O	(S1(S(NP*
           units	       NNS	      E-NP	         O	              -	      E-A1	      E-A2	         O	*)
@@ -138,22 +138,22 @@
               5	        CD	      B-NP	         O	              -	         O	      B-A1	(S1(S(NP*
             ”	        JJ	      I-NP	         O	              -	         O	      I-A1	*
            line	        NN	      E-NP	         O	              -	         O	      E-A1	*)
-            had	       VBD	      B-VP	         O	            had	       S-V	  S-AM-MOD	(VP*
-             to	        TO	      I-VP	         O	              -	         O	         O	(S(VP*
-             be	        VB	      I-VP	         O	              -	         O	         O	(VP*
-           laid	       VBN	      E-VP	         O	           laid	         O	       S-V	(VP*
+            had	       VBD	      B-VP	         O	            had	       S-V	  S-AM-MOD	*
+             to	        TO	      I-VP	         O	              -	         O	         O	*
+             be	        VB	      I-VP	         O	              -	         O	         O	*
+           laid	       VBN	      E-VP	         O	           laid	         O	       S-V	*
              to	        TO	      S-PP	         O	              -	         O	      B-A2	(PP*
             the	        DT	      B-NP	         O	              -	         O	      I-A2	(NP*
-        hydrant	        NN	      E-NP	         O	              -	         O	      I-A2	*))
-             in	        IN	      S-PP	         O	              -	         O	      I-A2	(PP*
-       adjacent	        JJ	      B-NP	         O	              -	         O	      I-A2	(NP(NP*
-            cul	        NN	      I-NP	         O	              -	         O	      I-A2	*)
-              -	        FW	      I-NP	         O	              -	         O	      I-A2	*
-             de	        FW	      I-NP	         O	              -	         O	      I-A2	*
-              -	        FW	      I-NP	         O	              -	         O	      I-A2	*
-            sac	        NN	      E-NP	         O	              -	         O	      I-A2	(NP*
-              .	         .	         O	         O	              -	         O	      I-A2	*
-              	        NN	         O	         O	              -	         O	      E-A2	*))))))))))
+        hydrant	        NN	      E-NP	         O	              -	         O	      E-A2	*))
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	(PP*
+       adjacent	        JJ	      B-NP	         O	              -	         O	  I-AM-LOC	(NP*
+            cul	        NN	      I-NP	         O	              -	         O	  I-AM-LOC	*))
+              -	        FW	      I-NP	         O	              -	         O	  I-AM-LOC	*
+             de	        FW	      I-NP	         O	              -	         O	  I-AM-LOC	(NP*
+              -	        FW	      I-NP	         O	              -	         O	  I-AM-LOC	*
+            sac	        NN	      E-NP	         O	              -	         O	  I-AM-LOC	(NP*))
+              .	         .	         O	         O	              -	         O	  I-AM-LOC	*
+          EMPTY	       NNP	    S-ADJP	         O	              -	         O	  E-AM-LOC	*))
 
            This	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
    neighborhood	        NN	      E-NP	         O	              -	      E-A1	*)
@@ -180,9 +180,9 @@
              in	        IN	      S-PP	         O	              -	         O	         O	(PP*
          excess	        NN	      S-NP	         O	              -	         O	         O	(NP(NP*)
              of	        IN	      S-PP	         O	              -	         O	         O	(PP*
-              $	         $	      B-NP	         O	              -	         O	         O	(NP(ADJP*
-          500K.	        CD	      I-NP	     S-LOC	              -	         O	         O	*)
-              	        NN	      E-NP	         O	              -	         O	         O	*))))))))
+              $	         $	      B-NP	         O	              -	         O	         O	(NP(NP*
+          500K.	       NNP	      I-NP	         O	              -	         O	         O	*)
+          EMPTY	       NNP	      E-NP	         O	              -	         O	         O	(ADJP*)))))))))
 
              In	        IN	      S-PP	         O	              -	  B-AM-DIS	  B-AM-DIS	(S1(S(S(PP*
        addition	        NN	      S-NP	         O	              -	  E-AM-DIS	  E-AM-DIS	(NP*))
@@ -197,7 +197,7 @@
             the	        DT	      B-NP	         O	              -	         O	      I-A4	(NP*
          owners	       NNS	      E-NP	         O	              -	         O	      E-A4	*))))))
               .	         .	         O	         O	              -	         O	         O	*
-              	         .	         O	         O	              -	         O	         O	*))
+          EMPTY	       NNP	    S-ADJP	         O	              -	         O	         O	(ADJP*)))
 
             The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
        American	       NNP	      I-NP	     B-ORG	              -	      I-A0	*

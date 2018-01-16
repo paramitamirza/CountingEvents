@@ -17,40 +17,40 @@
              to	        TO	      S-PP	         O	              -	      B-A2	(PP*
             Cop	       NNP	      S-NP	         O	              -	      E-A2	(NP*))))))
 
-         UPDATE	        NN	      S-NP	         O	              -	         O	         O	(S1(NP(NP*)
+         UPDATE	        NN	      S-NP	         O	              -	         O	         O	(S1(S(NP*)
               :	         :	         O	         O	              -	         O	         O	*
-              	        JJ	      B-NP	         O	              -	      B-A0	      B-A0	(S(NP*
-           Arby	       NNP	      I-NP	     S-ORG	              -	      I-A0	      I-A0	*
-           ’s	        NN	      I-NP	         O	              -	      I-A0	      I-A0	*
+          EMPTY	       NNP	      B-NP	         O	              -	      B-A0	      B-A0	(S(NP(NP*
+           Arby	       NNP	      I-NP	         O	              -	      I-A0	      I-A0	*
+           ’s	        JJ	      I-NP	         O	              -	      I-A0	      I-A0	*
           Chief	       NNP	      I-NP	         O	              -	      I-A0	      I-A0	*
       Executive	       NNP	      I-NP	         O	              -	      I-A0	      I-A0	*
         Officer	       NNP	      I-NP	         O	              -	      I-A0	      I-A0	*
            Paul	       NNP	      I-NP	     B-PER	              -	      I-A0	      I-A0	*
-          Brown	       NNP	      I-NP	     E-PER	              -	      I-A0	      I-A0	*
-              	        NN	      E-NP	         O	              -	      E-A0	      E-A0	*)
+          Brown	       NNP	      I-NP	     E-PER	              -	      I-A0	      I-A0	*)
+          EMPTY	       NNP	      E-NP	         O	              -	      E-A0	      E-A0	*)
      apologized	       VBD	      S-VP	         O	     apologized	       S-V	         O	(VP(VP*
             for	        IN	      S-PP	         O	              -	      B-A1	         O	(PP*
             the	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
        incident	        NN	      E-NP	         O	              -	      E-A1	         O	*)))
             and	        CC	         O	         O	              -	         O	         O	*
         offered	       VBD	      S-VP	         O	        offered	         O	       S-V	(VP*
-              	        NN	      S-NP	         O	              -	         O	      S-A2	(NP(NP*)
-              a	        DT	      B-NP	         O	              -	         O	      B-A1	(NP*
+          EMPTY	       NNP	      B-NP	         O	              -	         O	      B-A1	(NP(NP(NP(NP*
+              a	        DT	      I-NP	         O	              -	         O	      I-A1	*
            free	        JJ	      I-NP	         O	              -	         O	      I-A1	*
           combo	        NN	      I-NP	         O	              -	         O	      I-A1	*
            meal	        NN	      E-NP	         O	              -	         O	      I-A1	*
-              	        NN	      S-VP	         O	              -	         O	      I-A1	*)
-           this	        DT	      B-NP	         O	              -	         O	      I-A1	(NP*
-         Friday	       NNP	      E-NP	         O	              -	         O	      I-A1	*))
-             to	        TO	      S-PP	         O	              -	         O	      I-A1	(PP*
-            all	        DT	      B-NP	         O	              -	         O	      I-A1	(NP(NP*
-            law	        NN	      I-NP	         O	              -	         O	      I-A1	*
-    enforcement	        NN	      I-NP	         O	              -	         O	      I-A1	*
-       officers	       NNS	      E-NP	         O	              -	         O	      I-A1	*)
-             in	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
-            the	        DT	      B-NP	         O	              -	         O	      I-A1	(NP*
-           area	        NN	      E-NP	         O	              -	         O	      E-A1	*)))))))
-              .	         .	         O	         O	              -	         O	         O	*))
+          EMPTY	       NNP	      B-NP	         O	              -	         O	      I-A1	*
+           this	        DT	      E-NP	         O	              -	         O	      E-A1	*)
+         Friday	       NNP	      S-NP	         O	              -	         O	  S-AM-TMP	(NP*))
+             to	        TO	      S-PP	         O	              -	         O	      B-A4	*)
+            all	        DT	      B-NP	         O	              -	         O	      I-A4	(NP(NP*
+            law	        NN	      I-NP	         O	              -	         O	      I-A4	*
+    enforcement	        NN	      I-NP	         O	              -	         O	      I-A4	*
+       officers	       NNS	      E-NP	         O	              -	         O	      I-A4	*)
+             in	        IN	      S-PP	         O	              -	         O	      I-A4	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A4	(NP*
+           area	        NN	      E-NP	         O	              -	         O	      E-A4	*))))))
+              .	         .	         O	         O	              -	         O	         O	*)))
 
              On	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	         O	(S1(S(S(PP*
        Thursday	       NNP	      B-NP	         O	              -	  I-AM-TMP	         O	         O	         O	(NP*
@@ -551,6 +551,6 @@
          Across	        IN	      S-PP	    I-MISC	              -	(PP*
            This	        DT	      B-NP	    I-MISC	              -	(NP(NP*
         Country	       NNP	      E-NP	    E-MISC	              -	*
-              '	       POS	      B-NP	         O	              -	*)
-              	        NN	      E-NP	         O	              -	*))))
+              '	       POS	      S-NP	         O	              -	*)
+          EMPTY	        JJ	    S-ADJP	         O	              -	(ADJP*)))))
 

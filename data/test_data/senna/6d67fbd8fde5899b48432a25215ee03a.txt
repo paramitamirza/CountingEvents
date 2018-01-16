@@ -1,6 +1,7 @@
      2007-10-12	        CD	      S-NP	         O	              -	(S1(NP*))
 
-           Fire	       NNP	      B-NP	         O	              -	(S1(NP*
+          EMPTY	       NNP	      B-NP	         O	              -	(S1(NP*
+           Fire	       NNP	      I-NP	         O	              -	*
       Sprinkler	       NNP	      I-NP	         O	              -	*
    Extinguishes	       NNP	      I-NP	     B-ORG	              -	*
         Kitchen	       NNP	      I-NP	     I-ORG	              -	*
@@ -15,7 +16,7 @@
         Tuesday	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP*
       afternoon	        NN	      E-NP	         O	              -	  E-AM-TMP	*))
               ,	         ,	         O	         O	              -	         O	*
-              	        JJ	      B-NP	         O	              -	      B-A0	(NP*
+          EMPTY	       NNP	      B-NP	         O	              -	      B-A0	(NP*
      Burlington	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
            Fire	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
      Department	       NNP	      E-NP	     E-ORG	              -	      E-A0	*)
@@ -104,15 +105,15 @@
             had	       VBD	      B-VP	         O	              -	         O	         O	  I-AM-PNC	      I-A1	         O	(VP*
         ignited	       VBN	      E-VP	         O	        ignited	         O	         O	  E-AM-PNC	      E-A1	       S-V	(VP*)))))))))))
               .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*
-              	        NN	         O	         O	              -	         O	         O	         O	         O	         O	(NP*)))
+          EMPTY	       NNP	         O	         O	              -	         O	         O	         O	         O	         O	(NP*)))
 
             The	        DT	      B-NP	         O	              -	      B-A1	         O	         O	         O	(S1(S(S(NP*
            fire	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	*)
     intensified	       VBD	      S-VP	         O	    intensified	       S-V	         O	         O	         O	(VP*
-           when	       WRB	    S-ADVP	         O	              -	  B-AM-TMP	         O	         O	         O	(SBAR(WHADVP*)
+           when	       WRB	    S-ADVP	         O	              -	  B-AM-TMP	S-R-AM-TMP	         O	         O	(SBAR(WHADVP*)
             the	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A0	         O	         O	(S(NP*
-       occupant	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A0	         O	         O	*
-              	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A0	         O	         O	*)
+       occupant	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A0	         O	         O	*)
+          EMPTY	       NNP	      E-NP	         O	              -	  I-AM-TMP	      E-A0	         O	         O	(ADJP*)
         removed	       VBD	      S-VP	         O	        removed	  I-AM-TMP	       S-V	         O	         O	(VP*
             the	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A1	         O	         O	(NP*
         flaming	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A1	         O	         O	*
@@ -121,7 +122,7 @@
             the	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A2	         O	         O	(NP*
           stove	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A2	         O	         O	*)))))))
               ,	         ,	         O	         O	              -	  I-AM-TMP	         O	         O	         O	*
-              	        NN	      S-NP	         O	              -	  I-AM-TMP	         O	      S-A0	      S-A0	(NP*)
+          EMPTY	       NNP	      S-NP	         O	              -	  I-AM-TMP	         O	      S-A0	      S-A0	(NP*)
          placed	       VBD	      S-VP	         O	         placed	  I-AM-TMP	         O	       S-V	         O	(VP*
              it	       PRP	      S-NP	         O	              -	  I-AM-TMP	         O	      S-A1	         O	(NP*)
              on	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	      B-A2	         O	(PP*
@@ -131,17 +132,17 @@
             the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	      I-A2	         O	(NP*
            sink	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	      I-A2	         O	*)))))
               ,	         ,	         O	         O	              -	  I-AM-TMP	         O	      I-A2	         O	*
-              	        NN	      S-NP	         O	              -	  I-AM-TMP	         O	      I-A2	         O	(NP(NP*)
-            and	        CC	         O	         O	              -	  I-AM-TMP	         O	      I-A2	         O	*
-        sprayed	       VBN	      S-VP	         O	        sprayed	  I-AM-TMP	         O	      I-A2	       S-V	(VP*
-            tap	        NN	      B-NP	         O	              -	  I-AM-TMP	         O	      I-A2	      B-A1	(NP*
-          water	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	      I-A2	      E-A1	*)
-           into	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	      I-A2	      B-A2	(PP*
-            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	      I-A2	      I-A2	(NP*
-          flame	        NN	      I-NP	         O	              -	  I-AM-TMP	         O	      I-A2	      I-A2	*
-            pot	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	      I-A2	      E-A2	*))))
-              .	         .	         O	         O	              -	  I-AM-TMP	         O	      I-A2	         O	*
-        NEWLINE	       NNP	         O	     S-ORG	              -	  E-AM-TMP	         O	      E-A2	         O	(NP*)))
+          EMPTY	       NNP	      S-NP	         O	              -	  I-AM-TMP	         O	      E-A2	         O	(UCP(ADJP*)
+            and	        CC	         O	         O	              -	  I-AM-TMP	         O	         O	         O	*
+        sprayed	       VBN	      S-VP	         O	        sprayed	  I-AM-TMP	         O	         O	       S-V	(VP*
+            tap	        NN	      B-NP	         O	              -	  I-AM-TMP	         O	         O	      B-A1	(NP*
+          water	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	         O	      E-A1	*)
+           into	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	         O	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	         O	      I-A2	(NP*
+          flame	        NN	      I-NP	         O	              -	  I-AM-TMP	         O	         O	      I-A2	*
+            pot	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	         O	      E-A2	*))))
+              .	         .	         O	         O	              -	  I-AM-TMP	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	  E-AM-TMP	         O	         O	         O	(NP*)))
 
             The	        DT	      B-NP	         O	              -	         O	      B-A0	(S1(S(UCP(NP(NP*
             mix	        NN	      E-NP	         O	              -	         O	      I-A0	*)
@@ -187,13 +188,13 @@
             the	        DT	      B-NP	         O	              -	         O	  I-AM-ADV	(NP*
        occupant	        NN	      E-NP	         O	              -	         O	  E-AM-ADV	*))
               ,	         ,	         O	         O	              -	         O	         O	*
-              	        NN	      S-NP	         O	              -	      S-A1	      S-A0	(NP*)
-      activated	       VBN	      S-VP	         O	      activated	       S-V	         O	(VP(VP*)
-            and	        CC	         O	         O	              -	         O	         O	*
-     completely	        RB	      B-VP	         O	              -	         O	  S-AM-MNR	(VP(ADVP*)
-   extinguished	       VBD	      E-VP	         O	   extinguished	         O	       S-V	*
-            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(NP*
-           fire	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)))
+          EMPTY	       NNP	      B-NP	         O	              -	      S-A1	         O	(NP*)
+      activated	       VBN	      I-NP	         O	      activated	       S-V	         O	(VP(VP*)
+            and	        CC	      I-NP	         O	              -	         O	         O	*
+     completely	        RB	      E-NP	         O	              -	         O	  S-AM-MNR	(VP(ADVP*)
+   extinguished	       VBD	      S-VP	         O	   extinguished	         O	       S-V	*
+            the	        DT	      B-NP	         O	              -	         O	      B-A1	(NP*
+           fire	        NN	      E-NP	         O	              -	         O	      E-A1	*)))
               .	         .	         O	         O	              -	         O	         O	*))
 
  Simultaneously	        RB	    S-ADVP	         O	              -	         O	  S-AM-TMP	  S-AM-TMP	(S1(S(S(ADVP*)
@@ -271,16 +272,16 @@
       ambulance	        NN	      E-NP	         O	              -	      E-A0	*))))
               .	         .	         O	         O	              -	         O	*))
 
-            The	        DT	      B-NP	         O	              -	(S1(S(S(NP(NP*
+            The	        DT	      B-NP	         O	              -	(S1(S(NP(NP*
          second	        JJ	      I-NP	         O	              -	*
        occupant	        NN	      E-NP	         O	              -	*)
              in	        IN	      S-PP	         O	              -	(PP*
             the	        DT	      B-NP	         O	              -	(NP*
       apartment	        NN	      E-NP	         O	              -	*)))
             was	       VBD	      S-VP	         O	              -	(VP*
-      uninjured	        JJ	    S-ADJP	         O	              -	(ADJP*)))
+      uninjured	        JJ	    S-ADJP	         O	              -	(ADJP*))
               .	         .	         O	         O	              -	*
-              	        NN	         O	         O	              -	(NP*)))
+          EMPTY	       NNP	         O	         O	              -	(ADJP*)))
 
    Firefighters	       NNS	      S-NP	         O	              -	      S-A0	         O	      S-A0	(S1(S(S(NP*)
            were	       VBD	      S-VP	         O	              -	         O	         O	         O	(VP*
@@ -402,16 +403,16 @@
             Bus	       NNP	      I-NP	     B-ORG	              -	      I-A1	*
            Barn	       NNP	      I-NP	     I-ORG	              -	      I-A1	*
         Housing	       NNP	      I-NP	     I-ORG	              -	      I-A1	*
-        Complex	       NNP	      E-NP	     E-ORG	              -	      I-A1	*))
-              ,	         ,	         O	         O	              -	      E-A1	*))
+        Complex	       NNP	      E-NP	     E-ORG	              -	      I-A1	*)))
+              ,	         ,	         O	         O	              -	      E-A1	*)
              is	       VBZ	      B-VP	         O	              -	         O	(VP*
           owned	       VBN	      E-VP	         O	          owned	       S-V	(VP*
              by	        IN	      S-PP	         O	              -	      B-A0	(PP*
       Champlain	       NNP	      B-NP	     B-ORG	              -	      I-A0	(NP*
         Housing	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
-          Trust	       NNP	      E-NP	     E-ORG	              -	      E-A0	*
+          Trust	       NNP	      E-NP	     E-ORG	              -	      E-A0	*))))
               .	         .	         O	         O	              -	         O	*
-              	        NN	         O	         O	              -	      S-A1	*))))))
+          EMPTY	       NNP	         O	         O	              -	      S-A1	(NP*)))
 
          Damage	        NN	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
              is	       VBZ	      B-VP	         O	              -	         O	(VP*
@@ -435,8 +436,8 @@
      Protection	       NNP	      I-NP	         O	              -	      I-A2	  I-AM-TMP	         O	         O	*
            Week	       NNP	      E-NP	         O	              -	      E-A2	  E-AM-TMP	         O	         O	*)))))))
               ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
-              	        NN	      S-NP	         O	              -	         O	      B-A0	         O	         O	(NP*)
-           this	        DT	      B-NP	         O	              -	         O	      I-A0	         O	         O	(NP*
+          EMPTY	       NNP	      B-NP	         O	              -	         O	      B-A0	         O	         O	(NP*
+           this	        DT	      I-NP	         O	              -	         O	      I-A0	         O	         O	*
            fire	        NN	      E-NP	         O	              -	         O	      E-A0	         O	         O	*)
    demonstrates	       VBZ	      S-VP	         O	   demonstrates	         O	       S-V	         O	         O	(VP*
             the	        DT	      B-NP	         O	              -	         O	      B-A1	         O	         O	(NP(NP(NP*
@@ -449,7 +450,7 @@
            fire	        NN	      B-NP	         O	              -	         O	      I-A1	      B-A1	         O	(NP*
      prevention	        NN	      E-NP	         O	              -	         O	      I-A1	      E-A1	         O	*)))))
               ,	         ,	         O	         O	              -	         O	      I-A1	         O	         O	*
-              	        NN	      S-NP	         O	              -	         O	      I-A1	         O	         O	(NP*)
+          EMPTY	       NNP	      S-NP	         O	              -	         O	      I-A1	         O	         O	(NP*)
             and	        CC	         O	         O	              -	         O	      I-A1	         O	         O	*
             the	        DT	      B-NP	         O	              -	         O	      I-A1	         O	         O	(NP(NP*
    significance	        NN	      E-NP	         O	              -	         O	      I-A1	         O	         O	*)

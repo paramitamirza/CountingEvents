@@ -18,7 +18,7 @@
      Department	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	         O	*)
             has	       VBZ	      B-VP	         O	              -	         O	         O	         O	(VP*
        launched	       VBN	      E-VP	         O	       launched	       S-V	         O	         O	(VP*
-              a	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP(NP*
+              a	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(SBAR(S(NP(NP*
        thorough	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	(ADJP*
             and	        CC	      I-NP	         O	              -	      I-A1	         O	         O	*
   comprehensive	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*)
@@ -29,9 +29,9 @@
     surrounding	       VBG	      S-VP	         O	    surrounding	      I-A1	       S-V	         O	(VP*
             the	        DT	      B-NP	         O	              -	      I-A1	      B-A2	         O	(NP*
         NEWLINE	       NNP	      I-NP	     S-ORG	              -	      I-A1	      I-A2	         O	*
-          Below	       NNP	      E-NP	         O	              -	      I-A1	      E-A2	         O	*)))))))
+          Below	       NNP	      E-NP	         O	              -	      I-A1	      E-A2	         O	*)))))
              is	       VBZ	      S-VP	         O	              -	      I-A1	         O	         O	(VP*
-              a	        DT	      B-NP	         O	              -	      I-A1	         O	         O	(NP(NP(NP(NP*
+              a	        DT	      B-NP	         O	              -	      I-A1	         O	         O	(NP(NP(NP*
     preliminary	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
          update	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)
           based	       VBN	      S-PP	         O	          based	      I-A1	         O	       S-V	(PP*
@@ -39,11 +39,11 @@
             the	        DT	      B-NP	         O	              -	      I-A1	         O	      I-A2	(NP*
        evidence	        NN	      E-NP	         O	              -	      E-A1	         O	      E-A2	*))))
              so	        RB	    B-ADVP	         O	              -	  B-AM-TMP	         O	         O	(ADVP*
-            far	        RB	    E-ADVP	         O	              -	  E-AM-TMP	         O	         O	*))
+            far	        RB	    E-ADVP	         O	              -	  E-AM-TMP	         O	         O	*)
               :	         :	         O	         O	              -	         O	         O	         O	*
         NEWLINE	        JJ	      B-NP	     S-LOC	              -	         O	         O	         O	(NP*
              ·	        NN	      E-NP	         O	              -	         O	         O	         O	*
-              	         .	    S-ADJP	         O	              -	         O	         O	         O	*)))))
+          EMPTY	       NNP	    S-ADJP	         O	              -	         O	         O	         O	*)))))))))
 
             The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
            fire	        NN	      E-NP	         O	              -	      I-A1	*)
@@ -412,16 +412,16 @@
               .	         .	         O	         O	              -	         O	         O	  I-AM-LOC	*
         NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	  E-AM-LOC	*)))))))
 
-             ·	       SYM	      S-NP	         O	              -	      B-A1	         O	(S1(S(S(NP*
-              	         :	      S-VP	         O	              -	      I-A1	         O	*
-            Two	        CD	      B-NP	         O	              -	      I-A1	         O	*
+             ·	       SYM	      B-NP	         O	              -	      B-A1	         O	(S1(S(S(VP*
+          EMPTY	        JJ	      I-NP	         O	              -	      I-A1	         O	(SBAR(S(NP*
+            Two	        CD	      I-NP	         O	              -	      I-A1	         O	*
           smoke	        NN	      I-NP	         O	              -	      I-A1	         O	*
          alarms	       NNS	      E-NP	         O	              -	      E-A1	         O	*)
            were	       VBD	      B-VP	         O	              -	         O	         O	(VP*
           found	       VBN	      E-VP	         O	          found	       S-V	         O	(VP*
          inside	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
             the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
-       building	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	*)))))
+       building	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	*))))))))
               ,	         ,	         O	         O	              -	         O	         O	*
             but	        CC	         O	         O	              -	         O	         O	*
            they	       PRP	      S-NP	         O	              -	         O	      S-A0	(S(NP*)
@@ -430,11 +430,11 @@
         contain	        VB	      E-VP	         O	        contain	         O	       S-V	(VP*
       batteries	       NNS	      S-NP	         O	              -	         O	      S-A1	(NP*
               .	         .	         O	         O	              -	         O	         O	*
-        NEWLINE	       NNP	         O	     S-ORG	              -	         O	      S-A0	*))))))
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	*))))))
 
-             ·	        JJ	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
-              	        NN	      I-NP	         O	              -	      I-A1	*
-           Fire	        NN	      I-NP	         O	              -	      I-A1	*
+             ·	       SYM	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+          EMPTY	       NNP	      I-NP	         O	              -	      I-A1	*
+           Fire	       NNP	      I-NP	         O	              -	      I-A1	*
          safety	        NN	      I-NP	         O	              -	      I-A1	*
            tips	       NNS	      E-NP	         O	              -	      E-A1	*)
             can	        MD	      B-VP	         O	              -	  S-AM-MOD	(VP*
@@ -445,6 +445,6 @@
            FDNY	       NNP	      E-NP	     S-ORG	              -	  I-AM-LOC	*
              's	       POS	      B-NP	         O	              -	  I-AM-LOC	*)
             Web	       NNP	      I-NP	         O	              -	  I-AM-LOC	*
-           site	        NN	      E-NP	         O	              -	  E-AM-LOC	*))))))
+           site	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))))
              at	        IN	      S-PP	         O	              -	         O	(PP*)))
 

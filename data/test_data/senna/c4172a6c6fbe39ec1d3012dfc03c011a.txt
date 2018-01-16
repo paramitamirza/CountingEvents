@@ -8,10 +8,10 @@
        townhome	        JJ	      I-NP	         O	              -	*
          duplex	        NN	      E-NP	         O	              -	*)))
 
-           Fire	        NN	      B-NP	         O	              -	      B-A1	(S1(S(S(NP*
+           Fire	        NN	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
           crews	       NNS	      E-NP	         O	              -	      I-A1	*)
            from	        IN	      S-PP	         O	              -	      I-A1	(PP*
-           TVFR	       NNP	      S-NP	     S-ORG	              -	      E-A1	(NP*))
+           TVFR	       NNP	      S-NP	     S-ORG	              -	      E-A1	(NP*)))
            were	       VBD	      B-VP	         O	              -	         O	(VP*
          called	       VBN	      E-VP	         O	         called	       S-V	(VP*
              to	        TO	      S-PP	         O	              -	      B-A4	(PP*
@@ -23,11 +23,11 @@
       Beaverton	       NNP	      S-NP	     S-LOC	              -	      E-A4	(NP*))
         shortly	        RB	    S-ADVP	         O	              -	  B-AM-TMP	(PP(ADVP*)
           after	        IN	      S-PP	         O	              -	  I-AM-TMP	*
-        11:30pm	        FW	      B-NP	         O	              -	  I-AM-TMP	(NP*
-              	        FW	      I-NP	         O	              -	  I-AM-TMP	*))
-         Monday	       NNP	      I-NP	         O	              -	  E-AM-TMP	(NP*))))
-              .	         .	      I-NP	         O	              -	         O	*
-        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      S-A1	(NP*)))
+        11:30pm	       NNS	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          EMPTY	       NNP	      I-NP	         O	              -	  I-AM-TMP	*
+         Monday	       NNP	      I-NP	         O	              -	  I-AM-TMP	*
+              .	         .	      I-NP	         O	              -	  I-AM-TMP	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	  E-AM-TMP	*))))))
 
            Upon	        IN	      S-PP	         O	              -	         O	(S1(S(PP*
         arrival	        NN	      B-NP	         O	              -	      B-A0	(NP*

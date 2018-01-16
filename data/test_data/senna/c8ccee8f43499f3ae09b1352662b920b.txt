@@ -16,11 +16,11 @@
           Texas	       NNP	      B-NP	     S-LOC	              -	(NP*
             —	        NN	      E-NP	         O	              -	*)))
 
-              A	        DT	      B-NP	         O	              -	      B-A1	         O	      B-A0	(S1(S(NP*
-           fast	        JJ	      I-NP	         O	              -	      I-A1	         O	      I-A0	*
-           food	        NN	      I-NP	         O	              -	      I-A1	         O	      I-A0	*
-     restaurant	        NN	      I-NP	         O	              -	      I-A1	         O	      I-A0	*
-       employee	        NN	      E-NP	         O	              -	      E-A1	         O	      E-A0	*)
+              A	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(S1(S(NP*
+           fast	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+           food	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+     restaurant	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+       employee	        NN	      E-NP	         O	              -	      E-A1	         O	         O	*)
             has	       VBZ	      B-VP	         O	              -	         O	         O	         O	(VP*
            been	       VBN	      I-VP	         O	              -	         O	         O	         O	(VP*
           fired	       VBN	      E-VP	         O	          fired	       S-V	         O	         O	(VP*
@@ -28,9 +28,9 @@
        refusing	       VBG	      B-VP	         O	       refusing	  I-AM-TMP	       S-V	         O	(S(VP*
              to	        TO	      I-VP	         O	              -	  I-AM-TMP	      B-A1	         O	(S(VP*
           serve	        VB	      E-VP	         O	          serve	  I-AM-TMP	      I-A1	       S-V	(VP*
-              	        JJ	      B-NP	         O	              -	  I-AM-TMP	      I-A1	      B-A0	(NP*
-         police	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A0	*
-       officers	       NNS	      E-NP	         O	              -	  E-AM-TMP	      E-A1	      E-A0	*)))))))))
+          EMPTY	        JJ	      B-NP	         O	              -	  I-AM-TMP	      I-A1	      B-A1	(NP*
+         police	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	*
+       officers	       NNS	      E-NP	         O	              -	  E-AM-TMP	      E-A1	      E-A1	*)))))))))
               ,	         ,	         O	         O	              -	         O	         O	         O	*
       according	       VBG	      S-PP	         O	              -	         O	         O	         O	(PP*
              to	        TO	      S-PP	         O	              -	         O	         O	         O	(PP*
@@ -74,7 +74,7 @@
              in	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
      Lewisville	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	(NP*
               .	         .	         O	         O	              -	         O	*
-              	        NN	         O	         O	              -	      S-A1	*)))))
+          EMPTY	       NNP	    S-ADJP	         O	              -	  S-AM-TMP	*)))))
 
             The	        DT	      B-NP	         O	              -	         O	(S1(S(NP*
             men	       NNS	      E-NP	         O	              -	         O	*)
@@ -91,9 +91,9 @@
        Magovern	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	         O	(S1(S(NP*)
           tells	       VBZ	      S-VP	         O	          tells	       S-V	         O	         O	         O	(VP*
             FOX	       NNP	      B-NP	     S-ORG	              -	      B-A1	         O	         O	         O	(NP*
-              4	        CD	      I-NP	         O	              -	      I-A1	         O	         O	         O	*
-              	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	*)
-         before	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	         O	(SBAR*
+              4	        CD	      E-NP	         O	              -	      I-A1	         O	         O	         O	*
+          EMPTY	        NN	    S-ADJP	         O	              -	      E-A1	         O	         O	         O	*)
+         before	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	         O	         O	(SBAR*
              he	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A0	         O	         O	(S(NP*)
            even	        RB	    S-ADVP	         O	              -	  I-AM-TMP	  S-AM-ADV	         O	         O	(ADVP*)
             got	       VBD	      S-VP	         O	            got	  I-AM-TMP	       S-V	         O	         O	(VP*
@@ -122,7 +122,7 @@
             was	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
          joking	       VBG	      E-VP	         O	         joking	      E-A1	       S-V	(VP*)))))
               .	         .	         O	         O	              -	         O	         O	*
-              	        NN	         O	         O	              -	         O	         O	(NP*)))
+          EMPTY	       NNP	    S-ADJP	         O	              -	         O	         O	(NP*)))
 
             One	        CD	      B-NP	         O	              -	      B-A0	(S1(S(NP*
         officer	        NN	      E-NP	         O	              -	      E-A0	*)
@@ -142,7 +142,7 @@
             The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
      restaurant	        NN	      I-NP	         O	              -	      I-A0	         O	         O	*
        employee	        NN	      I-NP	         O	              -	      I-A0	         O	         O	*
-              	        NN	      I-NP	         O	              -	      I-A0	         O	         O	*
+          EMPTY	        JJ	      I-NP	         O	              -	      I-A0	         O	         O	*
        didn’t	        NN	      E-NP	         O	              -	      E-A0	         O	         O	*)
             say	       VBP	      S-VP	         O	            say	       S-V	         O	         O	(VP*
        anything	        NN	      S-NP	         O	              -	      B-A1	         O	         O	(SBAR(S(NP(NP*)
@@ -154,10 +154,10 @@
          served	       VBN	      E-VP	         O	         served	      E-A1	      S-A2	       S-V	(VP*))))))
               .	         .	         O	         O	              -	         O	         O	         O	*))
 
-            The	        DT	      B-NP	         O	              -	      B-A0	      B-A0	      B-A0	(S1(S(NP*
-              	        JJ	      I-NP	         O	              -	      I-A0	      I-A0	      I-A0	*
-       officers	       NNS	      I-NP	         O	              -	      I-A0	      E-A0	      E-A0	*
-              	        NN	      E-NP	         O	              -	      E-A0	         O	         O	*)
+            The	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(S1(S(NP(NP*
+          EMPTY	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+       officers	       NNS	      E-NP	         O	              -	      I-A1	         O	         O	*)
+          EMPTY	       NNP	      S-NP	         O	              -	      E-A1	         O	         O	(ADJP*))
            went	       VBD	      S-VP	         O	           went	       S-V	         O	         O	(VP*
              to	        TO	      S-PP	         O	              -	      B-A4	         O	         O	(S(VP*
         another	        DT	      B-NP	         O	              -	      I-A4	         O	         O	(ADJP*
@@ -190,7 +190,7 @@
     Whataburger	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	         O	         O	(S1(S(NP*)
        released	       VBD	      S-VP	         O	       released	       S-V	         O	         O	         O	         O	(VP*
               a	        DT	      B-NP	         O	              -	      B-A1	         O	         O	         O	         O	(NP(NP(NP*
-              	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	         O	         O	*
+          EMPTY	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	         O	         O	*
       statement	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	         O	*)
              on	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	         O	         O	(PP*
       Wednesday	       NNP	      S-NP	         O	              -	  I-AM-TMP	         O	         O	         O	         O	(NP*))

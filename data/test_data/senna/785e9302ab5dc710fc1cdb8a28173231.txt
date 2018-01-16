@@ -13,11 +13,11 @@
          Friday	       NNP	      S-NP	         O	              -	  E-AM-TMP	(NP*))
               ,	         ,	         O	         O	              -	         O	*
           April	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP(NP(NP*
-              7	        CD	      E-NP	         O	              -	  I-AM-TMP	*
-              ,	         ,	         O	         O	              -	  I-AM-TMP	*
-           2006	        CD	      S-NP	         O	              -	  I-AM-TMP	*)
+              7	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	*
+           2006	        CD	      E-NP	         O	              -	  I-AM-TMP	*)
              at	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
-              	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          EMPTY	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
            4:45	        CD	      I-NP	         O	              -	  I-AM-TMP	*
            p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))
               ,	         ,	         O	         O	              -	         O	*
@@ -37,7 +37,7 @@
           arson	        NN	      I-NP	         O	              -	      I-A0	*
            unit	        NN	      E-NP	         O	              -	      I-A0	*)
               ,	         ,	         O	         O	              -	      I-A0	*
-              	        JJ	      B-NP	         O	              -	      I-A0	(NP*
+          EMPTY	       NNP	      B-NP	         O	              -	      I-A0	(NP*
             two	        CD	      I-NP	         O	              -	      I-A0	*
             EMS	       NNP	      I-NP	     S-ORG	              -	      I-A0	*
       battalion	        NN	      I-NP	         O	              -	      I-A0	*
@@ -158,21 +158,21 @@
           attic	        NN	      E-NP	         O	              -	      E-A2	*)))))))
               .	         .	         O	         O	              -	         O	*))
 
-            The	        DT	      B-NP	         O	              -	      B-A0	      B-A1	(S1(X(NP(NP*
-      residents	       NNS	      E-NP	         O	              -	      I-A0	      I-A1	*)
-             of	        IN	      S-PP	         O	              -	      I-A0	      I-A1	(PP*
-            the	        DT	      B-NP	         O	              -	      I-A0	      I-A1	(NP*
-              	        JJ	      I-NP	         O	              -	      I-A0	      I-A1	*
-          eight	        CD	      I-NP	         O	              -	      I-A0	      I-A1	*)))
-              -	         :	      I-NP	         O	              -	      I-A0	      I-A1	*
-           unit	        NN	      I-NP	         O	              -	      I-A0	      I-A1	(VP*
-      apartment	        NN	      I-NP	         O	              -	      E-A0	      E-A1	(VP*
-       building	       VBG	      I-NP	         O	       building	       S-V	         O	(VP*
-              	        JJ	      I-NP	         O	              -	      B-A1	         O	(NP*
+            The	        DT	      B-NP	         O	              -	         O	      B-A1	(S1(S(NP(NP*
+      residents	       NNS	      E-NP	         O	              -	         O	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	(NP*
+          EMPTY	        JJ	      I-NP	         O	              -	         O	      I-A1	*
+          eight	        CD	      I-NP	         O	              -	         O	      E-A1	*
+              -	         :	      I-NP	         O	              -	         O	         O	*
+           unit	        NN	      I-NP	         O	              -	      B-A0	      B-A1	*
+      apartment	        NN	      E-NP	         O	              -	      E-A0	      E-A1	*)))
+       building	       VBG	      S-VP	         O	       building	       S-V	         O	(VP*
+          EMPTY	        JJ	      B-NP	         O	              -	      B-A1	         O	(NP*
            self	        NN	      E-NP	         O	              -	      E-A1	         O	*)
               -	         :	         O	         O	              -	         O	         O	*
       evacuated	       VBN	      S-VP	         O	      evacuated	         O	       S-V	(VP*
-          prior	        RB	    S-ADVP	         O	              -	         O	  B-AM-TMP	(ADVP*
+          prior	        RB	    S-ADVP	         O	              -	         O	  B-AM-TMP	(PP*
              to	        TO	      S-PP	         O	              -	         O	  I-AM-TMP	(PP*
             the	        DT	      B-NP	         O	              -	         O	  I-AM-TMP	(NP(NP*
         arrival	        NN	      E-NP	         O	              -	         O	  I-AM-TMP	*)
@@ -181,7 +181,7 @@
             Los	       NNP	      I-NP	     B-ORG	              -	         O	  I-AM-TMP	*
         Angeles	       NNP	      I-NP	     I-ORG	              -	         O	  I-AM-TMP	*
            Fire	       NNP	      I-NP	     I-ORG	              -	         O	  I-AM-TMP	*
-     Department	       NNP	      E-NP	     E-ORG	              -	         O	  E-AM-TMP	*)))))))))
+     Department	       NNP	      E-NP	     E-ORG	              -	         O	  E-AM-TMP	*)))))))
               .	         .	         O	         O	              -	         O	         O	*))
 
              As	        IN	      S-PP	         O	              -	  B-AM-CAU	         O	(S1(PP*
