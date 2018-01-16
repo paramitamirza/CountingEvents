@@ -1,0 +1,165 @@
+     2017-01-22	        CD	      S-NP	         O	              -	(S1(NP*))
+
+       Possible	        JJ	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+        charges	       NNS	      E-NP	         O	              -	      E-A1	         O	*)
+         coming	       VBG	      S-VP	         O	         coming	       S-V	         O	(VP(VP*
+          after	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	(PP*
+              K	       NNP	      S-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*)
+              -	         :	         O	         O	              -	  I-AM-TMP	         O	*
+          State	        NN	      B-NP	         O	              -	  I-AM-TMP	      B-A1	(NP(NP*
+        student	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	*)
+        injured	       VBN	      S-VP	         O	        injured	  I-AM-TMP	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	  I-AM-TMP	      B-A0	(PP*
+           self	        NN	      B-NP	         O	              -	  I-AM-TMP	      I-A0	(NP*)))))))
+              -	         :	      I-NP	         O	              -	  I-AM-TMP	      I-A0	*
+      inflicted	       VBN	      I-NP	         O	              -	  I-AM-TMP	      I-A0	(VP*
+        gunshot	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A0	(NP*)))))
+
+              A	        DT	      B-NP	         O	              -	         O	         O	      B-A0	(S1(S(NP(NP*
+       nineteen	        CD	      I-NP	         O	              -	         O	         O	      I-A0	*
+              -	         :	      I-NP	         O	              -	         O	         O	      I-A0	*
+           year	        NN	      E-NP	         O	              -	         O	         O	      I-A0	*)
+              -	         :	         O	         O	              -	         O	         O	      I-A0	*
+            old	        JJ	      B-NP	         O	              -	      B-A1	         O	      I-A0	(NP*
+         Kansas	       NNP	      I-NP	     B-ORG	              -	      I-A1	         O	      I-A0	*
+          State	       NNP	      I-NP	     I-ORG	              -	      I-A1	         O	      I-A0	*
+     University	       NNP	      I-NP	     E-ORG	              -	      I-A1	         O	      I-A0	*
+        student	        NN	      E-NP	         O	              -	      E-A1	         O	      I-A0	*)
+            who	        WP	      S-NP	         O	              -	    S-R-A1	         O	      I-A0	(SBAR(WHNP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	      I-A0	(S(VP*
+        injured	       VBN	      E-VP	         O	        injured	       S-V	         O	      I-A0	(VP*
+           when	       WRB	    S-ADVP	         O	              -	  B-AM-TMP	S-R-AM-TMP	      I-A0	(SBAR(WHADVP*)
+             he	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A0	      I-A0	(S(NP*)
+   accidentally	        RB	      B-VP	         O	              -	  I-AM-TMP	  S-AM-MNR	      I-A0	(ADVP*)
+           shot	       VBD	      E-VP	         O	           shot	  I-AM-TMP	       S-V	      I-A0	(VP*
+        himself	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A1	      I-A0	(NP*)
+         Sunday	       NNP	      S-NP	         O	              -	  E-AM-TMP	  S-AM-TMP	      E-A0	(NP*)))))))))
+          could	        MD	      B-VP	         O	              -	         O	         O	  S-AM-MOD	(VP*
+           face	        VB	      E-VP	         O	           face	         O	         O	       S-V	(VP*
+        charges	       NNS	      S-NP	         O	              -	         O	         O	      B-A1	(NP(NP*)
+            for	        IN	      S-PP	         O	              -	         O	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	      I-A1	(NP*
+       incident	        NN	      E-NP	         O	              -	         O	         O	      E-A1	*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	(NP*)))
+
+         Campus	        NN	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+      officials	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	         O	(VP*
+         campus	        NN	      B-NP	         O	              -	      B-A1	      B-A0	         O	(SBAR(S(NP*
+         police	       NNS	      E-NP	         O	              -	      I-A1	      E-A0	         O	*)
+            are	       VBP	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	      I-A1	       S-V	         O	(VP*
+       criminal	        JJ	      B-NP	         O	              -	      I-A1	      B-A1	         O	(NP(NP*
+        charges	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	         O	*)
+        against	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	         O	(NP(NP*
+        student	        NN	      E-NP	         O	              -	      I-A1	      I-A1	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A1	         O	*
+          whose	       WP$	      B-NP	         O	              -	      I-A1	      I-A1	    B-R-A1	(SBAR(WHNP*
+           name	        NN	      E-NP	         O	              -	      I-A1	      I-A1	    E-R-A1	*)
+            has	       VBZ	      B-VP	         O	              -	      I-A1	      I-A1	         O	(S(VP*
+            not	        RB	      I-VP	         O	              -	      I-A1	      I-A1	  S-AM-NEG	*
+           been	       VBN	      I-VP	         O	              -	      I-A1	      I-A1	         O	(VP*
+       released	       VBN	      E-VP	         O	       released	      E-A1	      E-A1	       S-V	(VP*)))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+           They	       PRP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+           note	       VBP	      S-VP	         O	           note	       S-V	(VP*
+           that	        IN	    S-SBAR	         O	              -	      B-A1	(SBAR*
+            the	        DT	      B-NP	         O	              -	      I-A1	(S(NP(NP(NP*
+     University	       NNP	      E-NP	     S-ORG	              -	      I-A1	*
+             's	       POS	      B-NP	         O	              -	      I-A1	*)
+         policy	        NN	      I-NP	         O	              -	      I-A1	*
+           bars	       NNS	      I-NP	         O	              -	      I-A1	*
+     possession	        NN	      E-NP	         O	              -	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+       firearms	       NNS	      S-NP	         O	              -	      I-A1	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+      residence	        NN	      B-NP	         O	              -	      I-A1	(NP*
+          halls	       NNS	      E-NP	         O	              -	      I-A1	*)))))
+              .	         .	         O	         O	              -	      I-A1	*
+        NEWLINE	       NNP	         O	     S-LOC	              -	      E-A1	(NP*))))))
+
+            The	        DT	      B-NP	     B-ORG	              -	      B-A0	         O	(S1(S(NP*
+     University	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	(VP*
+         campus	        NN	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+         police	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+         called	       VBN	      E-VP	         O	         called	      I-A1	       S-V	(VP*
+        shortly	        RB	    S-ADVP	         O	              -	      I-A1	  B-AM-TMP	(PP(ADVP*)
+          after	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	*
+           8:00	        CD	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP*
+           p.m.	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	*))
+             to	        TO	      S-PP	         O	              -	      I-A1	  I-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP(NP(NP*
+        student	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	*
+             's	       POS	      B-NP	         O	              -	      I-A1	  I-AM-TMP	*)
+           room	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	(PP*
+        Goodnow	       NNP	      B-NP	     B-LOC	              -	      I-A1	  I-AM-TMP	(NP*
+           Hall	       NNP	      E-NP	     E-LOC	              -	      E-A1	  E-AM-TMP	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           When	       WRB	    S-ADVP	         O	              -	S-R-AM-TMP	  B-AM-TMP	  B-AM-TMP	(S1(S(SBAR(WHADVP*)
+           they	       PRP	      S-NP	         O	              -	      S-A1	  I-AM-TMP	  I-AM-TMP	(S(NP*)
+        arrived	       VBD	      S-VP	         O	        arrived	       S-V	  E-AM-TMP	  E-AM-TMP	(VP*)))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+           they	       PRP	      S-NP	         O	              -	         O	      S-A0	         O	(NP*)
+     determined	       VBD	      S-VP	         O	     determined	         O	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	         O	      B-A1	      B-A1	(SBAR(S(NP*
+        student	        NN	      E-NP	         O	              -	         O	      I-A1	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	      I-A1	         O	(VP*
+        injured	       VBN	      E-VP	         O	        injured	         O	      I-A1	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	         O	      I-A1	      B-A0	(PP*
+              a	        DT	      B-NP	         O	              -	         O	      I-A1	      I-A0	(NP*
+        gunshot	        NN	      I-NP	         O	              -	         O	      E-A1	      E-A0	*
+              .	         .	      I-NP	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	      S-A1	*)))))))))
+
+            The	        DT	      B-NP	         O	              -	(S1(S(NP*
+        student	        NN	      E-NP	         O	              -	*)
+             is	       VBZ	      S-VP	         O	              -	(VP*
+     reportedly	        RB	    S-ADVP	         O	              -	(ADVP*)
+             in	        IN	      S-PP	         O	              -	(PP*
+         stable	        JJ	      B-NP	         O	              -	(NP*
+      condition	        NN	      E-NP	         O	              -	*)))
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	(NP*)))
+
+            The	        DT	      B-NP	     B-ORG	              -	      B-A0	(S1(S(NP*
+     University	       NNP	      E-NP	     E-ORG	              -	      E-A0	*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	(VP*
+          there	        EX	      S-NP	         O	              -	      B-A1	(SBAR(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	      I-A1	(VP*
+             no	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+         threat	        NN	      E-NP	         O	              -	      I-A1	*)
+             to	        TO	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+     university	        NN	      I-NP	         O	              -	      I-A1	*
+              .	         .	      I-NP	         O	              -	      I-A1	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      E-A1	*)))))))))
+
+         Kansas	       NNP	      B-NP	     B-ORG	              -	      B-A0	(S1(S(NP(NP(NP*
+          State	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+     University	       NNP	      E-NP	     I-ORG	              -	      I-A0	*
+             's	       POS	      B-NP	     I-ORG	              -	      I-A0	*)
+         Office	       NNP	      E-NP	     I-ORG	              -	      I-A0	*)
+             of	        IN	      S-PP	     I-ORG	              -	      I-A0	(PP*
+        Student	       NNP	      B-NP	     I-ORG	              -	      I-A0	(NP(NP*
+           Life	       NNP	      E-NP	     E-ORG	              -	      I-A0	*)
+            and	        CC	         O	         O	              -	      I-A0	*
+     Counseling	       NNP	      B-NP	         O	              -	      I-A0	(NP*
+         Serves	      NNPS	      E-NP	         O	              -	      E-A0	*))))
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+       offering	       VBG	      E-VP	         O	       offering	       S-V	(VP*
+     counseling	        NN	      B-NP	         O	              -	      B-A1	(NP(NP*
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+     assistance	        NN	      E-NP	         O	              -	      I-A1	*)
+             to	        TO	      S-PP	         O	              -	      I-A1	(PP*
+       students	       NNS	      B-NP	         O	              -	      I-A1	(NP*
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+      employees	       NNS	      E-NP	         O	              -	      E-A1	*)))))
+              .	         .	         O	         O	              -	         O	*))
+

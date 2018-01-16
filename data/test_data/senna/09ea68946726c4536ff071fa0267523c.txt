@@ -1,0 +1,279 @@
+     2008-06-26	        CD	      S-NP	         O	              -	(S1(NP*))
+
+          House	        NN	      B-NP	         O	              -	(S1(NP(NP*
+           fire	        NN	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+        Maywood	       NNP	      B-NP	     B-LOC	              -	(NP(NP*
+           Park	       NNP	      E-NP	     E-LOC	              -	*)
+              ,	         ,	         O	         O	              -	*
+       Portland	       NNP	      S-NP	     S-LOC	              -	(NP*)))))
+
+             At	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	  B-AM-TMP	(S1(S(PP*
+          01:37	        CD	      B-NP	         O	              -	  E-AM-TMP	         O	  E-AM-TMP	(NP*))
+         Monday	       NNP	      E-NP	         O	              -	  S-AM-TMP	         O	  S-AM-TMP	(NP*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+              	        JJ	      B-NP	         O	              -	      B-A1	         O	         O	(NP*
+       Portland	       NNP	      I-NP	     B-ORG	              -	      I-A1	         O	         O	*
+           Fire	       NNP	      I-NP	     I-ORG	              -	      I-A1	         O	         O	*
+              &	        CC	      I-NP	     I-ORG	              -	      I-A1	         O	         O	*
+         Rescue	       NNP	      E-NP	     E-ORG	              -	      E-A1	         O	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+     dispatched	       VBN	      E-VP	         O	     dispatched	       S-V	         O	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A3	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A3	         O	      B-A0	(NP*
+       reported	       VBN	      I-NP	         O	       reported	      I-A3	       S-V	      I-A0	*
+          house	        NN	      I-NP	         O	              -	      I-A3	      B-A1	      I-A0	*
+           fire	        NN	      E-NP	         O	              -	      I-A3	      E-A1	      I-A0	*))
+             at	        IN	      S-PP	         O	              -	      I-A3	         O	      I-A0	(PP*
+           9914	        CD	      B-NP	         O	              -	      I-A3	         O	      I-A0	(NP*
+             NE	       NNP	      I-NP	         O	              -	      I-A3	         O	      I-A0	*
+        Failing	       NNP	      I-NP	         O	              -	      I-A3	         O	      I-A0	*
+            St.	       NNP	      I-NP	         O	              -	      I-A3	         O	      I-A0	*
+        Initial	       NNP	      I-NP	         O	              -	      I-A3	         O	      I-A0	*
+        reports	       NNS	      E-NP	         O	              -	      E-A3	         O	      E-A0	*))))
+           also	        RB	    S-ADVP	         O	              -	         O	         O	  S-AM-DIS	(ADVP*)
+         stated	       VBD	      S-VP	         O	         stated	         O	         O	       S-V	(VP*
+           that	        IN	    S-SBAR	         O	              -	         O	         O	      B-A1	(SBAR*
+            the	        DT	      B-NP	         O	              -	         O	         O	      I-A1	(S(NP*
+       occupant	        NN	      E-NP	         O	              -	         O	         O	      I-A1	*)
+          might	        MD	      B-VP	         O	              -	         O	         O	      I-A1	(VP*
+          still	        RB	      I-VP	         O	              -	         O	         O	      I-A1	(ADVP*)
+             be	        VB	      E-VP	         O	              -	         O	         O	      I-A1	(VP*
+         inside	        RB	    S-ADJP	         O	              -	         O	         O	      E-A1	(ADVP*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+             On	        IN	      S-PP	         O	              -	         O	         O	(S1(S(PP*
+        arrival	        NN	      B-NP	         O	              -	      B-A0	         O	(NP*
+           fire	        NN	      I-NP	         O	              -	      I-A0	         O	*
+          crews	       NNS	      E-NP	         O	              -	      E-A0	         O	*))
+          found	       VBD	      S-VP	         O	          found	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
+          house	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+           with	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+          heavy	        JJ	      B-NP	         O	              -	      I-A1	         O	(NP(NP*
+          smoke	        NN	      I-NP	         O	              -	      I-A1	         O	*
+            and	        CC	      I-NP	         O	              -	      I-A1	         O	*
+           fire	        NN	      E-NP	         O	              -	      I-A1	      S-A1	*)
+        showing	       VBG	      S-VP	         O	        showing	      I-A1	       S-V	(S(VP*
+           from	        IN	      S-PP	         O	              -	      I-A1	      B-A1	(PP*
+           most	       JJS	      S-NP	         O	              -	      I-A1	      I-A1	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+        windows	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	         O	(NP*)))
+
+             As	        IN	      S-PP	         O	              -	         O	         O	         O	(S1(X(SBAR*
+            the	        DT	      B-NP	         O	              -	      B-A0	         O	         O	(S(NP*
+          first	        JJ	      I-NP	         O	              -	      I-A0	         O	         O	*
+      companies	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	*)
+        entered	       VBD	      S-VP	         O	        entered	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP(NP*
+          house	        NN	      E-NP	         O	              -	      E-A1	         O	         O	*)
+           they	       PRP	      S-NP	         O	              -	         O	      S-A0	         O	(SBAR(S(NP*)
+          found	       VBD	      S-VP	         O	          found	         O	       S-V	         O	(VP*
+         access	        NN	      S-NP	         O	              -	         O	      B-A1	         O	(NP(NP*)
+      difficult	        JJ	    B-ADJP	         O	              -	         O	      I-A1	         O	(ADJP(ADJP*)
+            due	        JJ	    E-ADJP	         O	              -	         O	      I-A1	         O	*
+             to	        TO	      S-PP	         O	              -	         O	      I-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	         O	(NP*
+           fact	        NN	      E-NP	         O	              -	         O	      I-A1	         O	*
+           that	        IN	    S-SBAR	         O	              -	         O	      I-A1	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	      B-A0	(S(NP*
+          house	        NN	      E-NP	         O	              -	         O	      I-A1	      E-A0	*)
+            had	       VBD	      S-VP	         O	            had	         O	      I-A1	       S-V	(VP*
+      excessive	        JJ	      B-NP	         O	              -	         O	      I-A1	      B-A1	(NP*
+        content	        JJ	      I-NP	         O	              -	         O	      I-A1	      I-A1	*
+        clutter	        NN	      E-NP	         O	              -	         O	      E-A1	      E-A1	*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+           Once	        RB	      B-NP	         O	              -	  B-AM-TMP	         O	         O	         O	(S1(S(NP*
+          entry	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	         O	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+           made	       VBN	      E-VP	         O	           made	       S-V	         O	         O	         O	(VP*
+   firefighters	       NNS	      S-NP	         O	              -	      B-A1	      S-A0	      S-A0	         O	(NP(NP*)
+         needed	       VBN	      S-VP	         O	         needed	      I-A1	       S-V	         O	         O	(VP*
+          three	        CD	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	(NP*
+           hose	        NN	      I-NP	         O	              -	      I-A1	      I-A1	         O	         O	*
+          lines	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	         O	         O	*)
+             to	        TO	      B-VP	         O	              -	  B-AM-PNC	  B-AM-PNC	         O	         O	(SBAR(S(VP*
+           slow	        VB	      E-VP	         O	           slow	  I-AM-PNC	  I-AM-PNC	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	  I-AM-PNC	  I-AM-PNC	      B-A1	         O	(NP(NP*
+           fire	        NN	      E-NP	         O	              -	  I-AM-PNC	  I-AM-PNC	      I-A1	         O	*)
+         enough	        RB	    S-ADJP	         O	              -	  I-AM-PNC	  I-AM-PNC	      I-A1	         O	(ADJP*
+             to	        TO	      B-VP	         O	              -	  I-AM-PNC	  I-AM-PNC	      I-A1	         O	(S(VP*
+         search	        VB	      E-VP	         O	         search	  I-AM-PNC	  I-AM-PNC	      I-A1	       S-V	(VP*
+            for	        IN	      S-PP	         O	              -	  I-AM-PNC	  I-AM-PNC	      I-A1	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-PNC	  I-AM-PNC	      I-A1	      I-A2	(NP*
+       possible	        JJ	      I-NP	         O	              -	  I-AM-PNC	  I-AM-PNC	      I-A1	      I-A2	*
+         victim	        NN	      E-NP	         O	              -	  E-AM-PNC	  E-AM-PNC	      E-A1	      E-A2	*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+  Approximately	        RB	      B-NP	         O	              -	      B-A0	         O	(S1(S(S(NP(NP(QP*
+            ten	        CD	      I-NP	         O	              -	      I-A0	         O	*)
+        minutes	       NNS	      E-NP	         O	              -	      I-A0	         O	*)
+           into	        IN	      S-PP	         O	              -	      I-A0	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	         O	(NP*
+           fire	        NN	      I-NP	         O	              -	      I-A0	         O	*
+         police	        NN	      E-NP	         O	              -	      I-A0	         O	*)))
+              (	     -LRB-	         O	         O	              -	      I-A0	         O	(PRN*
+            who	        WP	      S-NP	         O	              -	      I-A0	         O	(SBAR(WHNP*)
+           were	       VBD	      S-VP	         O	              -	      I-A0	         O	(S(VP*
+             on	        IN	      S-PP	         O	              -	      I-A0	         O	(PP*
+          scene	        NN	      S-NP	         O	              -	      I-A0	         O	(NP*)))))
+              )	     -RRB-	         O	         O	              -	      E-A0	         O	*)
+       reported	       VBD	      S-VP	         O	       reported	       S-V	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A0	(S(NP*
+       occupant	        NN	      E-NP	         O	              -	      I-A1	      E-A0	*)
+            had	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP(VP*
+           made	       VBN	      E-VP	         O	           made	      I-A1	       S-V	(VP*
+        contact	        NN	      S-NP	         O	              -	      I-A1	      S-A1	(NP*)
+           with	        IN	      S-PP	         O	              -	      I-A1	      B-A2	(PP*
+           them	       PRP	      S-NP	         O	              -	      I-A1	      E-A2	(NP*))))
+            and	        CC	         O	         O	              -	      I-A1	         O	*
+            was	       VBD	      S-VP	         O	              -	      I-A1	         O	(VP*
+           safe	        JJ	    S-ADJP	         O	              -	      E-A1	         O	(ADJP*)))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-LOC	              -	         O	         O	(NP*)))
+
+             At	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(S1(S(PP*
+           this	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+          point	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	*))
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP(NP*
+           roof	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+          house	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)))
+          began	       VBD	      B-VP	         O	          began	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	    B-C-A1	         O	(S(VP*
+         weaken	        VB	      E-VP	         O	         weaken	    E-C-A1	       S-V	(VP*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           This	        DT	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+          posed	       VBD	      S-VP	         O	          posed	       S-V	         O	(VP*
+             an	        DT	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
+        extreme	        JJ	      I-NP	         O	              -	      I-A1	         O	*
+         danger	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	(PP*
+   firefighters	       NNS	      S-NP	         O	              -	      I-A2	      S-A1	(NP(NP*)
+      operating	       VBG	      S-VP	         O	      operating	      I-A2	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A2	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	  I-AM-LOC	(NP(NP*
+       interior	        NN	      E-NP	         O	              -	      I-A2	  E-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	      I-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	         O	(NP*
+      residence	        NN	      E-NP	         O	              -	      E-A2	         O	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           With	        IN	      S-PP	         O	              -	         O	         O	(S1(S(S(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	(NP*
+   confirmation	        NN	      E-NP	         O	              -	         O	         O	*
+           that	        IN	    S-SBAR	         O	              -	         O	         O	(SBAR*
+            all	        DT	      S-NP	         O	              -	      B-A0	         O	(S(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	         O	(NP*
+          homes	       NNS	      I-NP	         O	              -	      I-A0	         O	*
+      occupants	       NNS	      E-NP	         O	              -	      I-A0	         O	*)))
+           were	       VBD	      S-VP	         O	              -	      I-A0	         O	(VP*
+           safe	        JJ	      B-NP	         O	              -	      I-A0	         O	(SBAR(S(NP*
+           fire	        NN	      I-NP	         O	              -	      I-A0	         O	*
+        command	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+        ordered	       VBD	      S-VP	         O	        ordered	       S-V	         O	(VP*
+            all	        DT	      B-NP	         O	              -	      B-A1	         O	(NP*
+   firefighters	       NNS	      E-NP	         O	              -	      E-A1	         O	*)
+            out	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+             of	        IN	      S-PP	         O	              -	      I-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	         O	(NP*
+      structure	        NN	      E-NP	         O	              -	      I-A2	         O	*)))))))))))
+            and	        CC	         O	         O	              -	      I-A2	         O	*
+            the	        DT	      B-NP	         O	              -	      I-A2	      B-A1	(S(NP*
+         switch	        NN	      E-NP	         O	              -	      E-A2	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+           made	       VBN	      E-VP	         O	           made	         O	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	         O	      B-A2	(PP*
+      defensive	        JJ	    S-ADJP	         O	              -	         O	      I-A2	(NP*
+              (	     -LRB-	         O	         O	              -	         O	      I-A2	(PRN*
+       exterior	        NN	      S-NP	         O	              -	         O	      I-A2	*
+              )	     -RRB-	         O	         O	              -	         O	      I-A2	*)
+   firefighting	        NN	      B-NP	         O	              -	         O	      I-A2	*
+     operations	       NNS	      E-NP	         O	              -	         O	      E-A2	*))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+            One	        CD	      B-NP	         O	              -	      B-A0	      B-A1	(S1(S(NP*
+    firefighter	        NN	      E-NP	         O	              -	      E-A0	      E-A1	*)
+       suffered	       VBD	      S-VP	         O	       suffered	       S-V	         O	(VP(VP*
+           heat	        NN	      B-NP	         O	              -	      B-A1	         O	(NP*
+     exhaustion	        NN	      E-NP	         O	              -	      E-A1	         O	*))
+            and	        CC	         O	         O	              -	         O	         O	*
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+    transported	       VBN	      E-VP	         O	    transported	         O	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	         O	      B-A4	(PP*
+       Portland	       NNP	      S-NP	     B-LOC	              -	         O	      I-A4	(NP*
+      Adventist	       NNP	      B-NP	     I-LOC	              -	         O	      I-A4	*
+       Hospital	       NNP	      E-NP	     E-LOC	              -	         O	      I-A4	*))
+             as	        IN	      S-PP	         O	              -	         O	      I-A4	(PP*
+              a	        DT	      B-NP	         O	              -	         O	      I-A4	(NP*
+     precaution	        NN	      E-NP	         O	              -	         O	      E-A4	*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	      S-A1	      S-A1	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP(VP*
+       released	       VBN	      E-VP	         O	       released	       S-V	         O	         O	(VP*
+         within	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	(PP*
+          hours	       NNS	      S-NP	         O	              -	  E-AM-TMP	         O	         O	(NP*))))
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+             is	       VBZ	      B-VP	         O	              -	         O	         O	         O	(VP*
+       expected	       VBN	      I-VP	         O	       expected	         O	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	         O	    B-C-A1	         O	(S(VP*
+          fully	        RB	      I-VP	         O	              -	         O	    I-C-A1	  S-AM-MNR	(ADVP*)
+        recover	        VB	      E-VP	         O	        recover	         O	    E-C-A1	       S-V	(VP*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	      B-A0	      B-A0	      B-A1	(S1(VP(NP(NP*
+      homeowner	        NN	      E-NP	         O	              -	      E-A0	      E-A0	      E-A0	      I-A1	*)
+            who	        WP	      S-NP	         O	              -	    S-R-A0	    S-R-A0	    S-R-A0	      I-A1	(SBAR(WHNP*)
+     discovered	       VBD	      S-VP	         O	     discovered	       S-V	         O	         O	      I-A1	(S(VP*))))
+            and	        CC	         O	         O	              -	         O	         O	         O	      I-A1	*
+      attempted	       VBD	      B-VP	         O	      attempted	         O	       S-V	         O	      I-A1	(VP(VP*
+             to	        TO	      I-VP	         O	              -	         O	      B-A1	         O	      I-A1	(S(VP*
+     extinguish	        VB	      E-VP	         O	     extinguish	         O	      I-A1	       S-V	      I-A1	(VP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	      B-A1	      I-A1	(NP*
+           fire	        NN	      E-NP	         O	              -	         O	      E-A1	      E-A1	      E-A1	*)))))
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+          later	        RB	      I-VP	         O	              -	         O	         O	         O	  S-AM-TMP	(ADVP*)
+    transported	       VBN	      E-VP	         O	    transported	         O	         O	         O	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	         O	         O	         O	      B-A4	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	      I-A4	(NP*
+       hospital	        NN	      E-NP	         O	              -	         O	         O	         O	      E-A4	*))
+            for	        IN	      S-PP	         O	              -	         O	         O	         O	  B-AM-PNC	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	         O	  I-AM-PNC	(NP*
+       physical	        JJ	      I-NP	         O	              -	         O	         O	         O	  I-AM-PNC	*
+     evaluation	        NN	      E-NP	         O	              -	         O	         O	         O	  E-AM-PNC	*
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	         O	*)))))))
+
+            The	        DT	      B-NP	         O	              -	         O	(S1(S(S(NP(NP*
+          cause	        NN	      E-NP	         O	              -	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+           fire	        NN	      E-NP	         O	              -	         O	*)))
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+   undetermined	        JJ	    S-ADJP	         O	              -	         O	(ADJP*)
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+           this	        DT	      B-NP	         O	              -	         O	(NP*
+          point	        NN	      E-NP	         O	              -	         O	*))))
+            and	        CC	         O	         O	              -	         O	*
+  investigators	       NNS	      S-NP	         O	              -	      S-A0	(S(NP*)
+           will	        MD	      B-VP	         O	              -	  S-AM-MOD	(VP*
+         likely	        RB	      I-VP	         O	              -	  S-AM-ADV	(ADVP*)
+             be	        VB	      I-VP	         O	              -	         O	(VP*
+        working	       VBG	      E-VP	         O	        working	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	      B-A1	(PP*
+          scene	        NN	      S-NP	         O	              -	      E-A1	(NP*))
+     throughout	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+            day	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))))
+              .	         .	         O	         O	              -	         O	*))
+

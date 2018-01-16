@@ -1,0 +1,217 @@
+     2013-07-03	        CD	      S-NP	         O	              -	(S1(NP*))
+
+       Brooklyn	       NNP	      B-NP	     S-LOC	              -	         O	(S1(X(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	*)
+              :	         :	         O	         O	              -	         O	*
+         Tyrone	       NNP	      B-NP	     B-PER	              -	      B-A1	(S(NP*
+          Brown	       NNP	      E-NP	     E-PER	              -	      E-A1	*)
+       arrested	       VBD	      S-VP	         O	       arrested	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-MNR	(PP*
+     connection	        NN	      S-NP	         O	              -	  I-AM-MNR	(NP(NP*)
+           with	        IN	      S-PP	         O	              -	  I-AM-MNR	(PP*
+          crime	        NN	      S-NP	         O	              -	  E-AM-MNR	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+           East	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+       Flatbush	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	*
+   neighborhood	        NN	      E-NP	         O	              -	  E-AM-LOC	*))))))))))
+
+              (	     -LRB-	         O	         O	              -	         O	         O	         O	(S1(S*
+            CNN	       NNP	      S-NP	     S-ORG	              -	         O	         O	         O	(NP*)
+              )	     -RRB-	         O	         O	              -	         O	         O	         O	*
+             --	         :	         O	         O	              -	         O	         O	         O	*
+         Police	       NNP	      S-NP	         O	              -	      B-A0	         O	         O	(S(NP(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A0	         O	         O	(PP*
+            New	       NNP	      B-NP	     B-LOC	              -	      I-A0	         O	         O	(NP*
+           York	       NNP	      E-NP	     E-LOC	              -	      E-A0	         O	         O	*)))
+           have	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+       arrested	       VBN	      E-VP	         O	       arrested	       S-V	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A0	         O	(NP(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	      E-A0	         O	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+     connection	        NN	      S-NP	         O	              -	      I-A1	         O	         O	(NP(NP*)
+           with	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	         O	         O	(NP*
+        weekend	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*))
+             at	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      B-A0	         O	(NP(NP*
+       Brooklyn	       NNP	      I-NP	     S-LOC	              -	      I-A1	      I-A0	         O	*
+          house	        NN	      I-NP	         O	              -	      I-A1	      I-A0	         O	*
+          party	        NN	      E-NP	         O	              -	      I-A1	      E-A0	         O	*)
+           that	       WDT	      S-NP	         O	              -	      I-A1	    S-R-A0	         O	(SBAR(WHNP*)
+           left	       VBD	      S-VP	         O	           left	      I-A1	       S-V	         O	(S(VP*
+           nine	        CD	      B-NP	         O	              -	      I-A1	      B-A1	      B-A1	(S(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	      E-A1	*)
+   hospitalized	       VBN	      S-VP	         O	   hospitalized	      E-A1	      S-A2	       S-V	(VP*)))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	(NP*)))
+
+         Tyrone	       NNP	      B-NP	     B-PER	              -	      B-A1	         O	      B-A1	(S1(S(S(NP(NP*
+          Brown	       NNP	      I-NP	     E-PER	              -	      I-A1	         O	      I-A1	*)
+              ,	         ,	      I-NP	         O	              -	      I-A1	         O	      I-A1	*
+             24	        CD	      E-NP	         O	              -	      I-A1	         O	      I-A1	(NP*)
+              ,	         ,	         O	         O	              -	      E-A1	         O	      I-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	      I-A1	(VP*
+        charged	       VBN	      E-VP	         O	        charged	       S-V	         O	      I-A1	(VP*
+           with	        IN	      S-PP	         O	              -	      B-A2	         O	      I-A1	(PP*
+      attempted	       VBN	      B-NP	         O	      attempted	      I-A2	       S-V	      I-A1	(NP*
+         murder	        NN	      E-NP	         O	              -	      I-A2	      S-A1	      I-A1	*)))))
+              ,	         ,	         O	         O	              -	      I-A2	         O	      I-A1	*
+        assault	        NN	      S-NP	         O	              -	      I-A2	         O	      I-A1	(NP*)
+              ,	         ,	         O	         O	              -	      I-A2	         O	      I-A1	*
+       criminal	        JJ	      B-NP	         O	              -	      I-A2	         O	      I-A1	(NP(NP*
+     possession	        NN	      E-NP	         O	              -	      I-A2	         O	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A2	         O	      I-A1	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	         O	      I-A1	(NP*
+         weapon	        NN	      E-NP	         O	              -	      I-A2	         O	      I-A1	*)))
+            and	        CC	         O	         O	              -	      I-A2	         O	      I-A1	*
+       reckless	        JJ	      B-NP	         O	              -	      I-A2	         O	      I-A1	(S(NX*
+   endangerment	        NN	      E-NP	         O	              -	      E-A2	         O	      E-A1	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+         police	        NN	      S-NP	         O	              -	         O	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	         O	       S-V	(VP*
+        Tuesday	       NNP	      S-NP	         O	              -	         O	         O	  S-AM-TMP	(NP*)))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	      S-NP	     S-ORG	              -	      S-A1	         O	       S-V	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	      I-A1	*)
+        started	       VBD	      S-VP	         O	        started	       S-V	      I-A1	(VP*
+          early	        JJ	      B-NP	         O	              -	  B-AM-TMP	      I-A1	(NP*
+         Sunday	       NNP	      E-NP	         O	              -	  E-AM-TMP	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	      I-A1	(NP*
+           East	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	      I-A1	*
+       Flatbush	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	      I-A1	*
+   neighborhood	        NN	      E-NP	         O	              -	  E-AM-LOC	      E-A1	*))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+         police	       NNS	      S-NP	         O	              -	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP*
+       neighbor	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+           told	       VBD	      S-VP	         O	           told	       S-V	         O	(VP*
+            CNN	       NNP	      B-NP	     S-ORG	              -	      B-A2	         O	(NP*
+      affiliate	        NN	      I-NP	         O	              -	      I-A2	         O	*
+           WCBS	       NNP	      E-NP	     S-ORG	              -	      E-A2	         O	*)
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	(SBAR*
+            she	       PRP	      S-NP	         O	              -	      I-A1	      S-A0	(S(NP*)
+          heard	       VBD	      S-VP	         O	          heard	      I-A1	       S-V	(VP*
+       gunshots	       NNS	      S-NP	         O	              -	      I-A1	      S-A1	(NP*)))))
+              .	         .	         O	         O	              -	      I-A1	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      E-A1	         O	(NP*)))
+
+           Four	        CD	      B-NP	         O	              -	      B-A1	      B-A0	(S1(S(NP(NP(NP*
+            men	       NNS	      E-NP	         O	              -	      I-A1	      I-A0	*)
+            and	        CC	         O	         O	              -	      I-A1	      I-A0	*
+           five	        CD	      B-NP	         O	              -	      I-A1	      I-A0	(NP*
+          women	       NNS	      E-NP	         O	              -	      E-A1	      E-A0	*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+            all	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(ADVP*
+        younger	       JJR	      I-NP	         O	              -	      I-A1	      I-A1	*
+           than	        IN	      I-NP	         O	              -	      I-A1	      I-A1	(PP*
+             45	        CD	      E-NP	         O	              -	      I-A1	      I-A1	(NP*)))
+              ,	         ,	         O	         O	              -	      E-A1	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+        injured	       VBN	      I-VP	         O	        injured	       S-V	         O	(VP*
+            and	        CC	      I-VP	         O	              -	         O	         O	*
+          taken	       VBN	      E-VP	         O	          taken	         O	       S-V	*
+             to	        TO	      S-PP	         O	              -	         O	      B-A2	(PP*
+           four	        CD	      B-NP	         O	              -	         O	      I-A2	(NP*
+      hospitals	       NNS	      E-NP	         O	              -	         O	      E-A2	*
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	*))))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(S(S(NP*
+       injuries	       NNS	      E-NP	         O	              -	      I-A1	*)
+           were	       VBD	      S-VP	         O	              -	      I-A1	(VP*
+            not	        RB	         O	         O	              -	      I-A1	*
+           life	        NN	      S-NP	         O	              -	      I-A1	(S(NP*)
+              -	         :	         O	         O	              -	      I-A1	*
+    threatening	        JJ	    S-ADJP	         O	              -	      I-A1	(ADJP*))))
+              ,	         ,	         O	         O	              -	      I-A1	*
+            New	       NNP	      B-NP	     B-ORG	              -	      I-A1	(NP(NP*
+           York	       NNP	      I-NP	     I-ORG	              -	      I-A1	*
+         Police	       NNP	      I-NP	     I-ORG	              -	      I-A1	*
+     Department	       NNP	      I-NP	     E-ORG	              -	      I-A1	*
+        Officer	       NNP	      I-NP	         O	              -	      I-A1	*
+         Sophia	       NNP	      I-NP	     B-PER	              -	      I-A1	*
+          Tassy	       NNP	      E-NP	     E-PER	              -	      E-A1	*)
+              -	         :	         O	         O	              -	         O	*
+          Mason	       NNP	      S-NP	     S-PER	              -	      S-A0	(NP*))
+           said	       VBD	      S-VP	         O	           said	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	       S-V	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(S(NP(NP*
+   neighborhood	        NN	      E-NP	         O	              -	      I-A1	*)
+             at	        IN	      S-PP	         O	              -	      I-A1	(PP*
+           East	       NNP	      B-NP	     S-LOC	              -	      I-A1	(NP*
+           52nd	       NNP	      I-NP	         O	              -	      I-A1	*
+         Street	       NNP	      E-NP	         O	              -	      I-A1	*)))
+             is	       VBZ	      S-VP	         O	              -	      I-A1	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+            mix	        NN	      E-NP	         O	              -	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+    residential	        JJ	      B-NP	         O	              -	      I-A1	(NP(ADJP*
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+     commercial	        JJ	      I-NP	         O	              -	      I-A1	*)
+      buildings	       NNS	      E-NP	         O	              -	      E-A1	*)))))
+              ,	         ,	         O	         O	              -	         O	*
+            she	       PRP	      S-NP	         O	              -	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+
+      According	       VBG	      S-PP	         O	              -	         O	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	         O	(PP*
+           NYPD	       NNP	      B-NP	    S-MISC	              -	         O	(NP*
+     statistics	       NNS	      E-NP	         O	              -	         O	*)))
+              ,	         ,	         O	         O	              -	         O	*
+          there	        EX	      S-NP	         O	              -	         O	(NP*)
+           have	       VBP	      B-VP	         O	              -	         O	(VP*
+           been	       VBN	      E-VP	         O	              -	         O	(VP*
+             21	        CD	      B-NP	         O	              -	      B-A1	(NP(NP*
+       shooting	        NN	      I-NP	         O	              -	      I-A1	*
+      incidents	       NNS	      E-NP	         O	              -	      E-A1	*)
+       reported	       VBD	      S-VP	         O	       reported	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+           area	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+           this	        DT	      B-NP	         O	              -	  B-AM-TMP	(NP*
+           year	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+            CNN	       NNP	      S-NP	     S-ORG	              -	      B-A0	(S1(S(NP(NP*
+             's	       POS	      B-NP	         O	              -	      I-A0	*)
+          Julie	       NNP	      I-NP	     B-PER	              -	      I-A0	*
+        Cannold	       NNP	      E-NP	     E-PER	              -	      E-A0	*)
+    contributed	       VBD	      S-VP	         O	    contributed	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+           this	        DT	      B-NP	         O	              -	      I-A2	(NP*
+         report	        NN	      E-NP	         O	              -	      E-A2	*)))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	(NP*)))
+
+            ™	        NN	      B-NP	         O	              -	(S1(NP(NP*
+              &	        CC	      I-NP	         O	              -	*
+             ©	        NN	      I-NP	         O	              -	*)
+           2013	        CD	      I-NP	         O	              -	(NP*
+          Cable	       NNP	      I-NP	     B-ORG	              -	*
+           News	       NNP	      I-NP	     I-ORG	              -	*
+        Network	       NNP	      E-NP	     I-ORG	              -	*
+              ,	         ,	         O	     I-ORG	              -	*
+           Inc.	       NNP	      S-NP	     E-ORG	              -	*)
+              ,	         ,	         O	         O	              -	*
+              a	        DT	      B-NP	         O	              -	(NP*
+           Time	       NNP	      I-NP	     B-ORG	              -	*
+         Warner	       NNP	      I-NP	     I-ORG	              -	*
+        Company	       NNP	      E-NP	     E-ORG	              -	*)
+              .	         .	         O	         O	              -	*))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         rights	       NNS	      E-NP	         O	              -	      E-A1	*)
+       reserved	       VBN	      S-VP	         O	       reserved	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+

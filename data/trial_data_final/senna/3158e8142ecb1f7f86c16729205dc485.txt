@@ -1,0 +1,164 @@
+     2017-02-11	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            Man	        NN	      B-NP	         O	              -	      B-A1	(S1(X(S(NP*
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+          woman	        NN	      E-NP	         O	              -	      E-A1	*)
+           shot	        NN	      S-VP	         O	           shot	       S-V	(VP*
+         inside	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+       Franklin	       NNP	      B-NP	     S-LOC	              -	  I-AM-LOC	(NP*
+          hotel	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+           room	        NN	      E-NP	         O	              -	  I-AM-LOC	*))))
+              -	         :	         O	         O	              -	  I-AM-LOC	*
+           WSMV	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	(NP*
+        Channel	       NNP	      I-NP	     E-ORG	              -	  I-AM-LOC	*
+              4	        CD	      E-NP	         O	              -	  E-AM-LOC	*)))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	*)
+            and	        CC	         O	         O	              -	      I-A1	*
+              a	        DT	      B-NP	         O	              -	      I-A1	(NP*
+          woman	        NN	      E-NP	         O	              -	      E-A1	*))
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+        injured	       VBN	      E-VP	         O	        injured	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+             at	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+       Franklin	       NNP	      I-NP	     S-LOC	              -	  I-AM-LOC	*
+          hotel	        NN	      E-NP	         O	              -	  E-AM-LOC	*
+       Saturday	       NNP	      B-NP	         O	              -	  B-AM-TMP	*
+      afternoon	        NN	      E-NP	         O	              -	  E-AM-TMP	*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	*))))))
+
+      According	       VBG	      S-PP	         O	              -	  B-AM-ADV	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	(PP*
+       Franklin	       NNP	      B-NP	     B-ORG	              -	  I-AM-ADV	(NP*
+         Police	       NNP	      E-NP	     E-ORG	              -	  E-AM-ADV	*)))
+              ,	         ,	         O	         O	              -	         O	*
+       officers	       NNS	      S-NP	         O	              -	      S-A1	(NP*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+         called	       VBN	      E-VP	         O	         called	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+          Hyatt	       NNP	      I-NP	     B-ORG	              -	      I-A2	*
+          Place	       NNP	      I-NP	     E-ORG	              -	      I-A2	*
+          hotel	        NN	      E-NP	         O	              -	      E-A2	*))
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            650	        CD	      B-NP	         O	              -	  I-AM-LOC	(NP*
+         Bakers	       NNP	      I-NP	     B-ORG	              -	  I-AM-LOC	*
+         Bridge	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	*
+            Ave	       NNP	      E-NP	     E-ORG	              -	  E-AM-LOC	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+           just	        RB	      B-NP	         O	              -	(S1(FRAG(ADVP*)
+         before	        RB	      I-NP	         O	              -	*
+              4	        CD	      I-NP	         O	              -	(NP*
+           p.m.	        NN	      I-NP	         O	              -	*)
+       Saturday	       NNP	      I-NP	         O	              -	(NP*)
+              .	         .	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	(NP*)))
+
+           They	       PRP	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*)
+            and	        CC	         O	         O	              -	      I-A1	      I-A1	*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+          woman	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*))
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	      I-A1	       S-V	(VP*
+         inside	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+          hotel	        NN	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+           room	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*)))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+          round	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+          fired	       VBN	      E-VP	         O	          fired	       S-V	         O	(VP*
+              ,	         ,	         O	         O	              -	         O	         O	*
+        hitting	       VBG	      S-VP	         O	        hitting	         O	       S-V	(S(VP*
+           both	        DT	      B-NP	         O	              -	         O	      B-A1	(NP*
+         people	       NNS	      I-NP	         O	              -	         O	      E-A1	*
+              .	         .	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	      S-A0	*)))))))
+
+           Both	        DT	      S-NP	         O	              -	      S-A1	(S1(S(S(NP*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+    transported	       VBN	      E-VP	         O	    transported	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A4	(PP*
+     Vanderbilt	       NNP	      B-NP	     B-ORG	              -	      I-A4	(NP*
+     University	       NNP	      I-NP	     I-ORG	              -	      I-A4	*
+        Medical	       NNP	      I-NP	     I-ORG	              -	      I-A4	*
+         Center	       NNP	      E-NP	     E-ORG	              -	      E-A4	*))
+           with	        IN	      S-PP	         O	              -	  B-AM-MNR	(PP*
+            non	        JJ	      B-NP	         O	              -	  I-AM-MNR	(ADJP*)))))
+              -	         :	      I-NP	         O	              -	  I-AM-MNR	*
+           life	        NN	      E-NP	         O	              -	  I-AM-MNR	(NP*)
+    threatening	        JJ	      B-NP	         O	              -	  I-AM-MNR	*
+       injuries	       NNS	      E-NP	         O	              -	  E-AM-MNR	*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	(VP*
+           they	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	(SBAR(S(NP*)
+            are	       VBP	      B-VP	         O	              -	      I-A1	         O	(VP*
+            not	        RB	      I-VP	         O	              -	      I-A1	  S-AM-NEG	*
+      searching	       VBG	      E-VP	         O	      searching	      I-A1	       S-V	(VP*
+            for	        IN	      S-PP	         O	              -	      I-A1	      B-A1	(PP*
+            any	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+       suspects	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*))
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+        however	        RB	    S-ADVP	         O	              -	      E-A1	  S-AM-DIS	(ADVP*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           They	       PRP	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+        believe	       VBP	      S-VP	         O	        believe	       S-V	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	(S(NP(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+            and	        CC	         O	         O	              -	      I-A1	         O	*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
+          woman	        NN	      E-NP	         O	              -	      I-A1	         O	*))
+             to	        TO	      B-VP	         O	              -	      I-A1	         O	(VP*
+             be	        VB	      E-VP	         O	              -	      I-A1	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP(NP*
+           only	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+       involved	       VBN	      S-VP	         O	       involved	      I-A1	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A2	(NP*
+       incident	        NN	      E-NP	         O	              -	      I-A1	      E-A2	*))))))))
+              .	         .	         O	         O	              -	      I-A1	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      E-A1	         O	(NP*)))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	      S-A0	         O	(S1(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+          still	        RB	      I-VP	         O	              -	  S-AM-TMP	         O	         O	(ADVP*)
+  investigating	       VBG	      I-VP	         O	  investigating	       S-V	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	         O	(S(VP*
+         figure	        VB	      E-VP	         O	         figure	      I-A1	       B-V	         O	(VP*
+            out	        RP	     S-PRT	         O	              -	      I-A1	       E-V	         O	(ADVP*)
+        exactly	        RB	      B-NP	         O	              -	      I-A1	      B-A1	         O	(ADVP*)
+           what	        WP	      E-NP	         O	              -	      I-A1	      I-A1	    S-R-A1	(SBAR(WHNP*)
+       happened	       VBD	      S-VP	         O	       happened	      I-A1	      I-A1	       S-V	(S(VP*))))))))
+              .	         .	         O	         O	              -	      I-A1	      I-A1	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      E-A1	      E-A1	         O	(NP*)))
+
+      Copyright	        NN	      B-NP	         O	              -	(S1(NP(NP*
+           2017	        CD	      I-NP	         O	              -	*
+           WSMV	       NNP	      E-NP	     S-ORG	              -	*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+       Meredith	       NNP	      B-NP	     B-ORG	              -	(NP*
+    Corporation	       NNP	      E-NP	     E-ORG	              -	*)
+              )	     -RRB-	         O	         O	              -	*)
+              .	         .	         O	         O	              -	*))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         rights	       NNS	      E-NP	         O	              -	      E-A1	*)
+       reserved	       VBN	      S-VP	         O	       reserved	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+

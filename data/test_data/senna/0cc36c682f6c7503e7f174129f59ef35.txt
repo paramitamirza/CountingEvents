@@ -1,0 +1,129 @@
+     2015-11-12	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        10-year	       SYM	      B-NP	         O	              -	         O	(S1(NP(NP(ADJP*
+              -	         :	      I-NP	         O	              -	         O	*
+            old	        JJ	      I-NP	         O	              -	      B-A1	*)
+            boy	        NN	      E-NP	         O	              -	      E-A1	*)
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+        surgery	        NN	      S-NP	         O	              -	         O	(NP*))
+          after	        IN	      S-PP	         O	              -	         O	(PP*
+          being	       VBG	      B-VP	         O	              -	         O	(S(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	      B-A0	(PP*
+         8-year	        JJ	      S-NP	         O	              -	      I-A0	(NP(ADJP*
+              -	         :	         O	         O	              -	      I-A0	*
+            old	        JJ	         O	         O	              -	      I-A0	*)
+       relative	        JJ	         O	         O	              -	      E-A0	*))))))))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(S(NP*
+        10-year	        JJ	      I-NP	         O	              -	      I-A1	         O	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	         O	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	         O	*)
+            boy	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+     undergoing	       VBG	      E-VP	         O	     undergoing	       S-V	         O	(VP*
+        surgery	        NN	      S-NP	         O	              -	      S-A1	         O	(NP(NP*)
+          after	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	(SBAR*
+             he	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A1	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	  I-AM-TMP	         O	(VP*
+   accidentally	        RB	      I-VP	         O	              -	  I-AM-TMP	  S-AM-MNR	(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	  I-AM-TMP	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	  I-AM-TMP	      B-A0	(PP*
+             an	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A0	(NP*
+         8-year	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A0	*
+              -	         :	      I-NP	         O	              -	  I-AM-TMP	      I-A0	*
+            old	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A0	*
+       relative	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A0	*
+       Thursday	       NNP	      I-NP	         O	              -	  I-AM-TMP	      I-A0	*
+        morning	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A0	*))
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A0	(NP*
+          South	       NNP	      I-NP	     B-LOC	              -	  I-AM-TMP	      I-A0	*
+           Side	       NNP	      I-NP	     I-LOC	              -	  I-AM-TMP	      I-A0	*
+     Washington	       NNP	      I-NP	     I-LOC	              -	  I-AM-TMP	      I-A0	*
+        Heights	       NNP	      I-NP	     E-LOC	              -	  I-AM-TMP	      I-A0	*
+   neighborhood	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A0	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+        10-year	        JJ	      E-NP	         O	              -	      I-A1	(ADJP*
+              -	         :	         O	         O	              -	      I-A1	*
+            old	        JJ	    S-ADJP	         O	              -	      E-A1	*))
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+        brought	       VBN	      E-VP	         O	        brought	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A3	(PP*
+         Little	       NNP	      B-NP	    B-MISC	              -	      I-A3	(NP(NP*
+        Company	       NNP	      E-NP	    I-MISC	              -	      I-A3	*)
+             of	        IN	      S-PP	    I-MISC	              -	      I-A3	(PP*
+           Mary	       NNP	      S-NP	    E-MISC	              -	      E-A3	(NP*))))
+           with	        IN	      S-PP	         O	              -	      B-A2	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	(NP(NP*
+        gunshot	        NN	      I-NP	         O	              -	      I-A2	*
+          wound	        NN	      E-NP	         O	              -	      I-A2	*)
+             to	        TO	      S-PP	         O	              -	      I-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+           side	        NN	      E-NP	         O	              -	      E-A2	*))))
+              ,	         ,	         O	         O	              -	         O	*
+      according	       VBG	      S-PP	         O	              -	  B-AM-ADV	(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	(PP*
+        Chicago	       NNP	      B-NP	     B-ORG	              -	  I-AM-ADV	(NP*
+         Police	       NNP	      E-NP	     E-ORG	              -	  E-AM-ADV	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	  S-AM-ADV	         O	(UCP(PP*
+        guarded	       VBN	      B-NP	         O	        guarded	       S-V	         O	(NP*
+      condition	        NN	      E-NP	         O	              -	      B-A1	         O	*))
+            and	        CC	         O	         O	              -	      I-A1	         O	*
+     undergoing	       VBG	      S-VP	         O	     undergoing	      I-A1	       S-V	(VP*
+        surgery	        NN	      S-NP	         O	              -	      E-A1	      S-A1	(NP*)))
+              ,	         ,	         O	         O	              -	         O	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	(NP*
+         source	        NN	      E-NP	         O	              -	         O	         O	*))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	      B-A1	(S1(S(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	      I-A1	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	      I-A1	(VP*
+             by	        IN	      S-PP	         O	              -	      B-A0	      I-A1	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A0	      I-A1	(NP*
+         8-year	        JJ	      I-NP	         O	              -	      I-A0	      I-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A0	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A0	      I-A1	*)
+            boy	        NN	      E-NP	         O	              -	      I-A0	      I-A1	*))
+             in	        IN	      S-PP	         O	              -	      I-A0	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	      I-A1	(NP(NP*
+           9000	        CD	      I-NP	         O	              -	      I-A0	      I-A1	*
+          block	        NN	      E-NP	         O	              -	      I-A0	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	      I-A1	(PP*
+          South	       NNP	      B-NP	     B-LOC	              -	      I-A0	      I-A1	(NP*
+         Bishop	       NNP	      E-NP	     E-LOC	              -	      I-A0	      I-A1	*))
+          about	        IN	      S-PP	         O	              -	      I-A0	      I-A1	(PP*
+             10	        CD	      B-NP	         O	              -	      I-A0	      I-A1	(NP*
+           a.m.	        NN	      E-NP	         O	              -	      E-A0	      E-A1	*)))))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+         police	        NN	      S-NP	         O	              -	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(S1(S(S(NP*
+           boys	       NNS	      E-NP	         O	              -	      E-A1	         O	         O	*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+        related	       VBN	      E-VP	         O	        related	       S-V	         O	         O	(ADJP*)))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+         police	        NN	      S-NP	         O	              -	         O	      S-A0	         O	(S(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	         O	      B-A1	      B-A1	(SBAR(S(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	      I-A1	      E-A1	*)
+        appears	       VBZ	      B-VP	         O	        appears	         O	      I-A1	       S-V	(VP*
+             to	        TO	      I-VP	         O	              -	         O	      I-A1	    B-C-A1	(S(VP*
+             be	        VB	      E-VP	         O	              -	         O	      I-A1	    I-C-A1	(VP*
+     accidental	        JJ	    S-ADJP	         O	              -	         O	      E-A1	    E-C-A1	(ADJP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+

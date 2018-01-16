@@ -1,0 +1,113 @@
+     2013-06-30	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Police	       NNS	      S-NP	         O	              -	(S1(NP(NP*)
+              :	         :	         O	         O	              -	*
+              4	        CD	      B-NP	         O	              -	(NP(NP*
+           shot	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+         Aurora	       NNP	      B-NP	     S-LOC	              -	(NP*
+          house	        NN	      I-NP	         O	              -	*
+          party	        NN	      E-NP	         O	              -	*)))))
+
+             ×	       SYM	      B-NP	         O	              -	(S1(NP(NP*
+         Police	       NNP	      E-NP	         O	              -	*)
+              :	         :	         O	         O	              -	*
+              4	        CD	      S-NP	         O	              -	(NP(NP*
+           shot	        NN	      S-VP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+         Aurora	       NNP	      B-NP	     S-LOC	              -	(NP*
+          house	        NN	      I-NP	         O	              -	*
+          party	        NN	      I-NP	         O	              -	*)))
+        NEWLINE	       NNP	      I-NP	     B-ORG	              -	(VP*
+         AURORA	       NNP	      E-NP	     E-ORG	              -	(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+          Colo.	       NNP	      B-NP	     S-LOC	              -	(NP*
+            —	        NN	      E-NP	         O	              -	*)))))
+
+           Four	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         people	       NNS	      E-NP	         O	              -	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          large	        JJ	      I-NP	         O	              -	  I-AM-LOC	*
+          house	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+          party	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+         Aurora	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	(NP*))
+           late	        JJ	      B-NP	         O	              -	  B-AM-TMP	(NP*
+       Saturday	       NNP	      I-NP	         O	              -	  I-AM-TMP	*
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	(NP*)))
+
+         Aurora	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	(S1(S(NP*
+         Police	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+           call	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+           came	       VBD	      S-VP	         O	           came	      I-A1	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(PP*
+          about	        IN	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP*
+          11:40	        CD	      I-NP	         O	              -	      I-A1	  I-AM-TMP	*
+           p.m.	        NN	      E-NP	         O	              -	      I-A1	  E-AM-TMP	*))
+             on	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP(NP*
+           2300	        CD	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	(PP*
+          Paris	       NNP	      B-NP	     B-ORG	              -	      I-A1	  I-AM-LOC	(NP*
+            St.	       NNP	      I-NP	     I-ORG	              -	      I-A1	  I-AM-LOC	*
+        NEWLINE	       NNP	      I-NP	     E-ORG	              -	      I-A1	  I-AM-LOC	*
+      Spokesman	       NNP	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+            Sgt	       NNP	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+          Frank	       NNP	      B-NP	     B-PER	              -	      B-A0	         O	         O	(S1(S(S(S(NP*
+          Fania	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	(VP*
+          three	        CD	      B-NP	         O	              -	      B-A1	      B-A1	         O	(SBAR(S(NP*
+      juveniles	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	      I-A1	       S-V	         O	(VP*
+             by	        IN	      S-PP	         O	              -	      I-A1	      B-A0	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A0	         O	(NP*
+          small	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	         O	*
+        caliber	        NN	      I-NP	         O	              -	      I-A1	      I-A0	         O	*
+         weapon	        NN	      E-NP	         O	              -	      I-A1	      I-A0	         O	*))))))))
+            and	        CC	         O	         O	              -	      I-A1	      I-A0	         O	*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A0	      B-A0	(S(NP*
+         bullet	        NN	      E-NP	         O	              -	      I-A1	      I-A0	      E-A0	*)
+         grazed	       VBD	      S-VP	         O	         grazed	      I-A1	      I-A0	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A0	      B-A1	(NP*
+            4th	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	      I-A1	*
+         person	        NN	      E-NP	         O	              -	      E-A1	      E-A0	      E-A1	*))))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	(NP*)))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(S(NP*
+           four	        CD	      I-NP	         O	              -	      I-A1	      I-A1	*
+         people	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+       expected	       VBN	      I-VP	         O	       expected	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	    B-C-A1	         O	(S(VP*
+        recover	        VB	      E-VP	         O	        recover	    I-C-A1	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	    I-C-A1	      B-A1	(PP*
+          their	      PRP$	      B-NP	         O	              -	    I-C-A1	      I-A1	(NP*
+       injuries	       NNS	      E-NP	         O	              -	    E-C-A1	      E-A1	*))))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+             No	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+        arrests	       NNS	      E-NP	         O	              -	      E-A1	*)
+            had	       VBD	      B-VP	         O	              -	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	(VP*
+           made	       VBN	      E-VP	         O	           made	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+           case	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))))
+              .	         .	         O	         O	              -	         O	*))
+

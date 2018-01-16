@@ -1,0 +1,58 @@
+     2013-12-23	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Police	       NNS	      S-NP	         O	              -	         O	(S1(S(NP*)
+              :	         :	         O	         O	              -	         O	*
+              4	        CD	      S-NP	         O	              -	      S-A0	(S(NP*)
+            hit	        NN	      S-VP	         O	            hit	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+       shooting	        NN	      S-NP	         O	              -	  E-AM-LOC	(NP*))))))
+
+              ;	         :	         O	         O	              -	         O	(S1(S*
+       suspects	       NNS	      S-NP	         O	              -	      S-A1	(S(NP*)
+         sought	       VBD	      S-VP	         O	         sought	         O	(VP*))))
+
+         Police	       NNS	      S-NP	         O	              -	         O	         O	         O	         O	(S1(X(NP*)
+              :	         :	         O	         O	              -	         O	         O	         O	         O	*
+              4	        CD	      S-NP	         O	              -	      S-A1	         O	         O	         O	(S(S(NP*)
+            hit	        NN	      S-VP	         O	            hit	       S-V	         O	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	      B-A1	         O	         O	         O	(PP*
+       shooting	        NN	      S-NP	         O	              -	      E-A1	         O	         O	         O	(NP*))))
+              ;	         :	         O	         O	              -	         O	         O	         O	         O	*
+       suspects	       NNS	      S-NP	         O	              -	         O	      S-A0	         O	         O	(S(NP*)
+         sought	       VBD	      S-VP	         O	         sought	         O	       S-V	         O	         O	(VP*
+        NEWLINE	       NNP	      B-NP	     B-ORG	              -	         O	      B-A1	      B-A0	         O	(S(NP*
+         Police	       NNP	      E-NP	     E-ORG	              -	         O	      I-A1	      E-A0	         O	*)
+            say	       VBP	      S-VP	         O	            say	         O	      I-A1	       S-V	         O	(VP*
+           four	        CD	      B-NP	         O	              -	         O	      I-A1	      B-A1	      B-A1	(SBAR(S(NP*
+         people	       NNS	      E-NP	         O	              -	         O	      I-A1	      I-A1	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	      I-A1	      I-A1	         O	(VP*
+            hit	       VBN	      E-VP	         O	            hit	         O	      I-A1	      I-A1	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	         O	      I-A1	      I-A1	  B-AM-LOC	(PP*
+             an	        DT	      B-NP	         O	              -	         O	      I-A1	      I-A1	  I-AM-LOC	(NP(NP*
+      overnight	        JJ	      I-NP	         O	              -	         O	      I-A1	      I-A1	  I-AM-LOC	*
+       shooting	        NN	      E-NP	         O	              -	         O	      I-A1	      I-A1	  I-AM-LOC	*)
+             in	        IN	      S-PP	         O	              -	         O	      I-A1	      I-A1	  I-AM-LOC	(PP*
+         Shelby	       NNP	      S-NP	     S-LOC	              -	         O	      I-A1	      E-A1	  E-AM-LOC	(NP*
+              .	         .	         O	         O	              -	         O	      I-A1	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	      E-A1	         O	         O	*)))))))))))))))
+
+         Posted	       VBN	      S-VP	         O	         Posted	       S-V	(S1(VP*
+           Dec.	       NNP	      B-NP	         O	              -	      B-A1	(NP(NP*
+             23	        CD	      I-NP	         O	              -	      I-A1	*
+              ,	         ,	      I-NP	         O	              -	      I-A1	*
+           2013	        CD	      E-NP	         O	              -	      I-A1	*)
+             at	        IN	      S-PP	         O	              -	      I-A1	(PP*
+          12:01	        CD	      B-NP	         O	              -	      I-A1	(NP*
+             AM	       NNP	      I-NP	         O	              -	      I-A1	*
+        NEWLINE	       NNP	      E-NP	         O	              -	      E-A1	*)))))
+
+        Updated	       VBN	      B-NP	         O	        Updated	       S-V	(S1(NP(NP*
+            Dec	       NNP	      I-NP	         O	              -	      B-A1	*
+             23	        CD	      I-NP	         O	              -	      E-A1	*
+              ,	         ,	      I-NP	         O	              -	         O	*
+           2013	        CD	      E-NP	         O	              -	         O	*)
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+           9:11	        CD	      B-NP	         O	              -	         O	(NP*
+             AM	       NNP	      I-NP	         O	              -	         O	*
+        NEWLINE	       NNP	      E-NP	         O	              -	         O	*))))
+

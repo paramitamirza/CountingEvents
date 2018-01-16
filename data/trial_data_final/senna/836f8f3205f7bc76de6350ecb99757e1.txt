@@ -1,0 +1,90 @@
+     2017-03-07	        CD	      S-NP	         O	              -	(S1(NP*))
+
+     Accidental	        JJ	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A0	*)
+          sends	       VBZ	      S-VP	         O	          sends	       S-V	(VP*
+            one	        CD	      B-NP	         O	              -	      S-A1	(NP(NP*)
+             to	        TO	      I-NP	         O	              -	      B-A2	(PP*
+       hospital	        NN	      E-NP	         O	              -	      E-A2	(NP*))))))
+
+     Accidental	        JJ	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A0	*)
+          sends	       VBZ	      S-VP	         O	          sends	       S-V	(VP*
+            one	        CD	      B-NP	         O	              -	      S-A1	(NP(NP(NP*)
+             to	        TO	      I-NP	         O	              -	      B-A2	(PP*
+       hospital	        NN	      I-NP	         O	              -	      I-A2	(NP*
+        NEWLINE	       NNP	      I-NP	     B-PER	              -	      I-A2	*)))
+        JACKSON	       NNP	      I-NP	     E-PER	              -	      I-A2	(NP(NP*)
+              ,	         ,	      I-NP	         O	              -	      I-A2	*
+           Tenn	       NNP	      I-NP	     S-PER	              -	      I-A2	(NP*
+            —	        NN	      E-NP	         O	              -	      E-A2	*))))))
+
+             An	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+     accidental	        JJ	      I-NP	         O	              -	      I-A0	*
+       shooting	        NN	      E-NP	         O	              -	      E-A0	*)
+           sent	       VBD	      S-VP	         O	           sent	       S-V	(VP*
+            one	        CD	      S-NP	         O	              -	      S-A1	(NP*)
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+       hospital	        NN	      E-NP	         O	              -	      E-A2	*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-LOC	              -	      S-A0	*)))))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+        Tuesday	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP(NP*
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+             on	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+       Fernlawn	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP(NP*
+         Street	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+        Midtown	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	(NP*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	*))))))))
+
+        Jackson	       NNP	      B-NP	     S-PER	              -	      B-A0	         O	(S1(S(NP*
+         police	       NNS	      E-NP	         O	              -	      E-A0	         O	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+      allegedly	        RB	      I-VP	         O	              -	      I-A1	  B-AM-MNR	(ADVP*)
+   accidentally	        RB	      I-VP	         O	              -	      I-A1	  E-AM-MNR	(VP(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	      I-A1	       S-V	*
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+          lower	       JJR	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+           body	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	*)))))))))
+
+             No	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+    information	        NN	      E-NP	         O	              -	      I-A1	*)
+          about	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+         victim	        NN	      E-NP	         O	              -	      E-A1	*)))
+             is	       VBZ	      B-VP	         O	              -	         O	(VP*
+          being	       VBG	      I-VP	         O	              -	         O	(VP*
+       released	       VBN	      E-VP	         O	       released	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+           this	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           time	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+      Officials	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+             he	       PRP	      S-NP	         O	              -	      B-A1	      S-A1	(SBAR(S(NP*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+    transported	       VBN	      E-VP	         O	    transported	      I-A1	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A4	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A4	(NP*
+       hospital	        NN	      E-NP	         O	              -	      I-A1	      E-A4	*))
+           with	        IN	      S-PP	         O	              -	      I-A1	  B-AM-MNR	(SBAR*
+            non	        JJ	      B-NP	         O	              -	      I-A1	  I-AM-MNR	(S(NP(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	  I-AM-MNR	*)
+           life	        NN	      E-NP	         O	              -	      I-A1	  I-AM-MNR	(NP*))
+    threatening	        JJ	      B-NP	         O	              -	      I-A1	  I-AM-MNR	(VP*
+       injuries	       NNS	      E-NP	         O	              -	      E-A1	  E-AM-MNR	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+

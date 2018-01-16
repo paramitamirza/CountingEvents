@@ -1,0 +1,227 @@
+     2016-09-15	        CD	      S-NP	         O	              -	(S1(NP*))
+
+  Investigation	        NN	      S-NP	         O	              -	(S1(NP(NP*)
+           into	        IN	      S-PP	         O	              -	(PP*
+          Fatal	        JJ	      B-NP	         O	              -	(NP*
+       Shooting	        NN	      E-NP	         O	              -	*))
+             at	        IN	      S-PP	         O	              -	(PP*
+          16411	        CD	      B-NP	         O	              -	(NP*
+       Saybrook	       NNP	      E-NP	     S-ORG	              -	*))))
+
+       Incident	       NNP	      B-NP	         O	              -	         O	         O	(S1(S(S(NP(NP(NP*
+         Update	       NNP	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	       NNP	      I-NP	     B-ORG	              -	         O	         O	*
+        Houston	       NNP	      I-NP	     I-ORG	              -	         O	         O	*
+         Police	       NNP	      I-NP	     I-ORG	              -	         O	         O	*
+     Department	       NNP	      I-NP	     I-ORG	              -	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     E-ORG	              -	         O	         O	*)
+            FOR	        IN	      S-PP	         O	              -	         O	         O	(PP*
+      IMMEDIATE	        JJ	      B-NP	         O	              -	         O	         O	(NP*
+        RELEASE	        NN	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	        JJ	      I-NP	         O	              -	         O	         O	*
+           DATE	        NN	      E-NP	         O	              -	         O	         O	*)))
+              :	         :	         O	         O	              -	         O	         O	*
+      September	       NNP	      B-NP	         O	              -	         O	         O	(NP*
+             15	        CD	      I-NP	         O	              -	         O	         O	*))
+              ,	         ,	      I-NP	         O	              -	         O	         O	*)
+           2016	        CD	      I-NP	         O	              -	         O	         O	(S(NP*
+        9:11:51	        NN	      E-NP	         O	              -	         O	         O	*)
+             AM	       VBP	      S-VP	         O	              -	         O	         O	(VP*
+            CDT	       NNP	      B-NP	         O	              -	         O	         O	(NP*
+        NEWLINE	       NNP	      I-NP	         O	              -	         O	         O	*
+  Investigation	       NNP	      E-NP	         O	              -	         O	         O	*)
+           into	        IN	      S-PP	         O	              -	         O	         O	(PP*
+          Fatal	        JJ	      B-NP	         O	              -	         O	         O	(NP*
+       Shooting	        NN	      E-NP	         O	              -	         O	         O	*))
+             at	        IN	      S-PP	         O	              -	         O	         O	(PP*
+          16411	        CD	      B-NP	         O	              -	      B-A0	         O	(NP*
+       Saybrook	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	*
+        NEWLINE	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	*
+        Houston	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	*
+         police	       NNS	      E-NP	         O	              -	      E-A0	         O	*))))
+            are	       VBP	      B-VP	         O	              -	         O	         O	(S(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	         O	(VP(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(NP(NP*
+          fatal	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+          woman	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*))))
+            and	        CC	         O	         O	              -	      I-A1	      I-A1	*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP(NP*
+       wounding	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+          three	        CD	      B-NP	         O	              -	      I-A1	      I-A1	(NP(NP*
+            men	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+          found	       VBD	      S-VP	         O	          found	      I-A1	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+          16411	        CD	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+       Saybrook	       NNP	      E-NP	     S-ORG	              -	      I-A1	  E-AM-LOC	*))
+          about	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(PP*
+          12:20	        CD	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP*
+           a.m.	        NN	      E-NP	         O	              -	      I-A1	  E-AM-TMP	*))
+          today	        NN	      S-NP	         O	              -	      I-A1	  B-AM-LOC	(NP*))
+              (	     -LRB-	         O	         O	              -	      I-A1	  I-AM-LOC	(PRN*
+      September	       NNP	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+             15	        CD	      E-NP	         O	              -	      I-A1	  I-AM-LOC	*)
+              )	     -RRB-	         O	         O	              -	      I-A1	  I-AM-LOC	*))))))
+              .	         .	         O	         O	              -	      I-A1	  I-AM-LOC	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      E-A1	  E-AM-LOC	(NP*))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         victim	        NN	      E-NP	         O	              -	      I-A1	*
+              ,	         ,	         O	         O	              -	      I-A1	*
+             20	        CD	      S-NP	         O	              -	      I-A1	*)
+              ,	         ,	         O	         O	              -	      E-A1	*
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+     pronounced	       VBN	      E-VP	         O	     pronounced	       S-V	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	      S-A2	(ADJP*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          scene	        NN	      E-NP	         O	              -	  E-AM-LOC	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+            Her	      PRP$	      B-NP	         O	              -	(S1(S(NP*
+       identity	        NN	      E-NP	         O	              -	*)
+             is	       VBZ	      B-VP	         O	              -	(VP*
+        pending	       VBG	      E-VP	         O	              -	(PP*
+   verification	        NN	      S-NP	         O	              -	(NP(NP*)
+             by	        IN	      S-PP	         O	              -	(PP*
+            the	        DT	      B-NP	         O	              -	(NP(NP*
+         Harris	       NNP	      I-NP	     B-ORG	              -	*
+         County	       NNP	      I-NP	     I-ORG	              -	*
+      Institute	       NNP	      E-NP	     I-ORG	              -	*)
+             of	        IN	      S-PP	     I-ORG	              -	(PP*
+       Forensic	       NNP	      B-NP	     I-ORG	              -	(NP*
+       Sciences	      NNPS	      E-NP	     E-ORG	              -	*)))))))
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	(NP*)))
+
+            HPD	       NNP	      B-NP	         O	              -	      B-A0	         O	         O	         O	(S1(S(NP(NP*
+       Homicide	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+       Division	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+         Senior	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+         Police	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+        Officer	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+             B.	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	         O	         O	*
+         Nabors	       NNP	      E-NP	     E-PER	              -	      I-A0	         O	         O	         O	*)
+            and	        CC	         O	         O	              -	      I-A0	         O	         O	         O	*
+        Officer	       NNP	      B-NP	         O	              -	      I-A0	         O	         O	         O	(NP*
+             W.	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	         O	         O	*
+        Gilbert	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	         O	*))
+       reported	       VBD	      S-VP	         O	       reported	       S-V	         O	         O	         O	(VP*
+              :	         :	         O	         O	              -	         O	         O	         O	         O	*
+        NEWLINE	       NNP	      B-NP	     B-ORG	              -	         O	      B-A0	      B-A0	         O	(S(NP*
+            HPD	       NNP	      I-NP	     E-ORG	              -	         O	      I-A0	      I-A0	         O	*
+         patrol	        NN	      I-NP	         O	              -	         O	      I-A0	      I-A0	         O	*
+       officers	       NNS	      E-NP	         O	              -	         O	      E-A0	      E-A0	         O	*)
+      responded	       VBD	      S-VP	         O	      responded	         O	       S-V	         O	         O	(VP(VP*
+             to	        TO	      S-PP	         O	              -	         O	      B-A1	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	      I-A1	         O	         O	(NP*
+       shooting	        NN	      I-NP	         O	              -	         O	      I-A1	         O	         O	*
+           call	        NN	      E-NP	         O	              -	         O	      I-A1	         O	         O	*))
+             at	        IN	      S-PP	         O	              -	         O	      I-A1	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	         O	         O	(NP*
+          above	        JJ	      I-NP	         O	              -	         O	      I-A1	         O	         O	*
+        address	        NN	      E-NP	         O	              -	         O	      E-A1	         O	         O	*)))
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	*
+          found	       VBD	      S-VP	         O	          found	         O	         O	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	         O	         O	      B-A1	      B-A1	(S(NP*
+         victim	        NN	      E-NP	         O	              -	         O	         O	      I-A1	      E-A1	*)
+       deceased	       VBN	      S-VP	         O	       deceased	         O	         O	      I-A1	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	         O	         O	      I-A1	      B-A2	(PP*
+             an	        DT	      B-NP	         O	              -	         O	         O	      I-A1	      I-A2	(NP*
+       apparent	        JJ	      I-NP	         O	              -	         O	         O	      I-A1	      I-A2	*
+        gunshot	        NN	      I-NP	         O	              -	         O	         O	      I-A1	      I-A2	*
+          wound	        NN	      E-NP	         O	              -	         O	         O	      E-A1	      E-A2	*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+          Three	        CD	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP(NP*
+       Hispanic	        JJ	      I-NP	    S-MISC	              -	      I-A1	      I-A1	*
+          males	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*)
+              ,	         ,	         O	         O	              -	         O	         O	*
+        between	        IN	      S-PP	         O	              -	  B-AM-TMP	  B-AM-TMP	(PP*
+             20	        CD	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP(NP(QP*
+             to	        TO	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+             30	        CD	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*)
+          years	       NNS	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	(PP*
+            age	        NN	      S-NP	         O	              -	  E-AM-TMP	  E-AM-TMP	(NP*))))
+              ,	         ,	         O	         O	              -	         O	         O	*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+           also	        RB	      I-VP	         O	              -	  S-AM-DIS	         O	(ADVP*)
+        wounded	       VBN	      I-VP	         O	        wounded	       S-V	         O	(VP*
+            and	        CC	      I-VP	         O	              -	         O	         O	*
+    transported	       VBN	      E-VP	         O	    transported	         O	       S-V	*
+             to	        TO	      S-PP	         O	              -	      B-A2	      B-A2	(PP*
+           area	        NN	      B-NP	         O	              -	      I-A2	      I-A2	(NP*
+      hospitals	       NNS	      E-NP	         O	              -	      E-A2	      E-A2	*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            One	        CD	      S-NP	         O	              -	      B-A1	(S1(S(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+          males	       NNS	      E-NP	         O	              -	      E-A1	*)))
+        remains	       VBZ	      S-VP	         O	        remains	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      B-A3	(PP*
+       critical	        JJ	      B-NP	         O	              -	      I-A3	(NP*
+      condition	        NN	      E-NP	         O	              -	      E-A3	*))
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+           this	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           time	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	(NP*)))
+
+             At	        IN	      S-PP	         O	              -	(S1(S(PP*
+           this	        DT	      B-NP	         O	              -	(NP*
+           time	        NN	      E-NP	         O	              -	*))
+              ,	         ,	         O	         O	              -	*
+          there	        EX	      S-NP	         O	              -	(NP*)
+            are	       VBP	      S-VP	         O	              -	(VP*
+             no	        DT	      B-NP	         O	              -	(NP(NP*
+          known	        JJ	      I-NP	         O	              -	*
+      witnesses	       NNS	      E-NP	         O	              -	*)
+            nor	        CC	         O	         O	              -	*
+       suspects	       NNS	      S-VP	         O	              -	(NP*)))
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	(NP*)))
+
+         Anyone	        NN	      S-NP	         O	              -	      B-A1	      S-A0	(S1(S(NP(NP*)
+           with	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+    information	        NN	      S-NP	         O	              -	      I-A1	         O	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+           this	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
+           case	        NN	      E-NP	         O	              -	      E-A1	         O	*)))))
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+          urged	       VBN	      I-VP	         O	          urged	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A2	         O	(S(VP*
+        contact	        VB	      E-VP	         O	        contact	      I-A2	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      B-A1	(NP*
+            HPD	       NNP	      I-NP	    B-MISC	              -	      I-A2	      I-A1	*
+       Homicide	       NNP	      I-NP	    I-MISC	              -	      I-A2	      I-A1	*
+       Division	       NNP	      E-NP	    E-MISC	              -	      I-A2	      E-A1	*)
+             at	        IN	      S-PP	         O	              -	      I-A2	      B-A2	(PP*
+            713	        CD	      S-NP	         O	              -	      I-A2	      I-A2	(NP*)))))
+              -	         :	         O	         O	              -	      I-A2	      I-A2	*
+            308	        CD	      S-NP	         O	              -	      I-A2	      I-A2	(NP*)
+              -	         :	         O	         O	              -	      I-A2	      I-A2	*
+           3600	        CD	         O	         O	              -	      I-A2	      I-A2	(NP(NP(NP(NP*)
+             or	        CC	         O	         O	              -	      I-A2	      I-A2	*
+          Crime	       NNP	      B-NP	         O	              -	      I-A2	      I-A2	(NP*
+       Stoppers	      NNPS	      E-NP	         O	              -	      I-A2	      I-A2	*))
+             at	        IN	      S-PP	         O	              -	      I-A2	      I-A2	(PP*
+            713	        CD	      S-NP	         O	              -	      I-A2	      I-A2	(NP*)))
+              -	         :	         O	         O	              -	      I-A2	      I-A2	*
+      222-TIPS.	       NNP	      B-NP	     B-ORG	              -	      I-A2	      I-A2	(NP(NP(NP*
+        NEWLINE	       NNP	      I-NP	     I-ORG	              -	      I-A2	      I-A2	*
+        VHS/JFC	       NNP	      I-NP	     E-ORG	              -	      I-A2	      I-A2	*
+              9	        CD	      E-NP	         O	              -	      I-A2	      I-A2	*)
+              -	         :	         O	         O	              -	      I-A2	      I-A2	*
+             15	        CD	      S-NP	         O	              -	      I-A2	      I-A2	(NP*))
+              -	         :	         O	         O	              -	      I-A2	      I-A2	*
+             16	        CD	      B-NP	         O	              -	      I-A2	      I-A2	(NP(NP*
+        NEWLINE	       NNP	      I-NP	     B-ORG	              -	      I-A2	      I-A2	*
+           Inc.	       NNP	      E-NP	     E-ORG	              -	      I-A2	      E-A2	*)
+              #	        FW	      S-VP	         O	              -	      I-A2	      B-A1	(NP*
+      118179616	        FW	         O	         O	              -	      E-A2	      E-A1	*))))))))
+

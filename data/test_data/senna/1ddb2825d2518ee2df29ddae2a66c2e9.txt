@@ -1,0 +1,316 @@
+     2016-01-17	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        17-Year	       SYM	      B-NP	         O	              -	      B-A0	(S1(NP(NP(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A0	*
+            Old	        JJ	      I-NP	         O	              -	      I-A0	*)
+            Man	        NN	      E-NP	         O	              -	      E-A0	*)
+        Charged	       VBN	      S-VP	         O	        Charged	       S-V	(VP*
+           With	        IN	      S-PP	         O	              -	      B-A2	(PP*
+      Negligent	        JJ	      B-NP	         O	              -	      I-A2	(NP*
+       Homicide	        NN	      E-NP	         O	              -	      E-A2	*)))))
+
+          After	        IN	      S-PP	         O	              -	(S1(PP*
+   Accidentally	        RB	      B-NP	         O	              -	(NP*
+       Shooting	       VBG	      I-NP	         O	              -	*
+         Friend	        NN	      E-NP	         O	              -	*)))
+
+        17-Year	       SYM	      B-NP	         O	              -	      B-A0	(S1(NP(NP(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A0	*
+            Old	        JJ	      I-NP	         O	              -	      I-A0	*)
+            Man	        NN	      E-NP	         O	              -	      E-A0	*)
+        Charged	       VBN	      S-VP	         O	        Charged	       S-V	(VP*
+           With	        IN	      S-PP	         O	              -	      B-A2	(PP*
+      Negligent	        JJ	      B-NP	         O	              -	      I-A2	(NP*
+       Homicide	        NN	      E-NP	         O	              -	      E-A2	*)))))
+
+          After	        IN	      S-PP	         O	              -	         O	         O	  B-AM-TMP	(S1(S(SBAR*
+   Accidentally	        RB	      B-NP	         O	              -	  S-AM-MNR	      B-A0	  I-AM-TMP	(SINV(S(VP(ADVP*)
+       Shooting	       VBG	      I-NP	         O	       Shooting	       S-V	      I-A0	  I-AM-TMP	*))
+         Friend	        NN	      I-NP	         O	              -	      B-A1	      I-A0	  I-AM-TMP	(NP(NP*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      I-A1	      E-A0	  I-AM-TMP	*)
+         Posted	       VBD	      S-VP	         O	         Posted	      I-A1	       S-V	  I-AM-TMP	(VP*
+             on	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	  E-AM-TMP	(PP*
+        NEWLINE	       NNP	      B-NP	     B-ORG	              -	      I-A1	  I-AM-LOC	      B-A0	(NP*
+          Baton	       NNP	      I-NP	     I-ORG	              -	      I-A1	  I-AM-LOC	      I-A0	*
+          Rouge	       NNP	      I-NP	     I-ORG	              -	      I-A1	  I-AM-LOC	      I-A0	*
+         Police	       NNP	      E-NP	     E-ORG	              -	      E-A1	  E-AM-LOC	      E-A0	*))))
+           have	       VBP	      B-VP	         O	              -	         O	         O	         O	*
+        charged	       VBN	      E-VP	         O	        charged	         O	         O	       S-V	(VP*
+        17-year	        JJ	      B-NP	         O	              -	         O	         O	      B-A1	(NP(NP(ADJP*
+              -	         :	      I-NP	         O	              -	         O	         O	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	         O	         O	      I-A1	*)
+          Ahmad	       NNP	      I-NP	     B-PER	              -	         O	         O	      I-A1	*
+        Antoine	       NNP	      E-NP	     E-PER	              -	         O	         O	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	         O	         O	      I-A1	(PP*
+          Baton	       NNP	      B-NP	     B-LOC	              -	         O	         O	      I-A1	(NP*
+          Rouge	       NNP	      E-NP	     E-LOC	              -	         O	         O	      E-A1	*))
+           with	        IN	      S-PP	         O	              -	         O	         O	      B-A2	(PP*
+      Negligent	       NNP	      B-NP	         O	              -	         O	         O	      I-A2	(NP*
+       Homicide	       NNP	      E-NP	         O	              -	         O	         O	      I-A2	*))
+             in	        IN	      S-PP	         O	              -	         O	         O	      I-A2	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	      I-A2	(NP*
+           city	        NN	      I-NP	         O	              -	         O	         O	      I-A2	*
+           ’s	        NN	      I-NP	         O	              -	         O	         O	      I-A2	*
+         latest	       JJS	      I-NP	         O	              -	         O	         O	      I-A2	*
+       shooting	        NN	      I-NP	         O	              -	         O	         O	      I-A2	*
+          death	        NN	      I-NP	         O	              -	         O	         O	      E-A2	*))))))
+              .	         .	      I-NP	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	      S-A1	(NP*)))
+
+  Investigators	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	(VP*
+        Antoine	       NNP	      S-NP	     S-PER	              -	      B-A1	      B-A0	(SBAR(S(NP*)
+            and	        CC	         O	         O	              -	      I-A1	      I-A0	*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	      I-A0	(S(NP*
+         friend	        NN	      I-NP	         O	              -	      I-A1	      I-A0	*)
+              ,	         ,	      I-NP	         O	              -	      I-A1	      I-A0	*
+        17-year	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	(ADJP*))
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A0	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	(NP*
+          Devin	       NNP	      I-NP	     B-PER	              -	      I-A1	      I-A0	*
+       Anderson	       NNP	      E-NP	     E-PER	              -	      I-A1	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A1	      E-A0	*
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+        playing	       VBG	      E-VP	         O	        playing	      I-A1	       S-V	(VP*
+           with	        IN	      S-PP	         O	              -	      I-A1	  B-AM-MNR	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-MNR	(NP*
+        shotgun	        NN	      E-NP	         O	              -	      I-A1	  E-AM-MNR	*))
+             on	        IN	      S-PP	         O	              -	      I-A1	      B-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP(NP*
+          front	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+          porch	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+        Antoine	       NNP	      B-NP	     S-PER	              -	      I-A1	      I-A1	(NP*
+           ’s	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+      residence	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*))
+           last	        JJ	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+          night	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*)
+         around	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+         5:00pm	        NN	      S-NP	         O	              -	      E-A1	      E-A1	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+        Antoine	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	(S1(X(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	(SBAR(S(NP*
+            gun	        NN	      I-NP	         O	              -	      I-A1	      E-A1	         O	*)
+   accidentally	        RB	      E-NP	         O	              -	      I-A1	  S-AM-MNR	         O	(VP(ADVP*)
+           went	       VBD	      S-VP	         O	           went	      I-A1	       B-V	         O	*
+            off	        RP	     S-PRT	         O	              -	      I-A1	       E-V	         O	(ADVP*))))))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	*
+       striking	        JJ	      B-NP	         O	              -	      I-A1	  B-AM-ADV	      B-A1	(NP(NP(NP*
+       Anderson	       NNP	      E-NP	     S-PER	              -	      I-A1	  I-AM-ADV	      E-A1	*)
+              ,	         ,	         O	         O	              -	      I-A1	  I-AM-ADV	         O	*
+            who	        WP	      S-NP	         O	              -	      I-A1	  I-AM-ADV	    S-R-A1	(SBAR(WHNP*)
+           died	       VBD	      S-VP	         O	           died	      I-A1	  I-AM-ADV	       S-V	(S(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	  I-AM-ADV	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-ADV	  I-AM-LOC	(NP*
+          scene	        NN	      E-NP	         O	              -	      E-A1	  E-AM-ADV	  E-AM-LOC	*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	(NP*))))
+
+        Antoine	       NNP	      S-NP	     S-PER	              -	      S-A1	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+         booked	       VBN	      E-VP	         O	         booked	       S-V	(VP*
+           into	        IN	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+            EBR	       NNP	      I-NP	     B-ORG	              -	      I-A2	*
+         Parish	       NNP	      I-NP	     I-ORG	              -	      I-A2	*
+         Prison	       NNP	      I-NP	     E-ORG	              -	      I-A2	*
+              .	         .	      I-NP	         O	              -	      I-A2	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      E-A2	*))))))
+
+       Incident	       NNP	      B-NP	         O	              -	(S1(NP*
+    Information	       NNP	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      I-NP	     S-ORG	              -	*
+           Date	        NN	      E-NP	         O	              -	*
+            –	         .	    S-ADJP	         O	              -	*))
+
+        January	       NNP	      B-NP	         O	              -	(S1(NP(NP*
+           16th	        JJ	      I-NP	         O	              -	*)
+              ,	         ,	      I-NP	         O	              -	*
+           2016	        CD	      I-NP	         O	              -	(NP*
+        NEWLINE	       NNP	      I-NP	         O	              -	*
+           Type	       NNP	      E-NP	         O	              -	*
+            –	         .	         O	         O	              -	*)))
+
+       Shooting	       VBG	      B-NP	         O	       Shooting	       S-V	(S1(X*
+        NEWLINE	       NNP	      I-NP	    B-MISC	              -	      B-A1	(WHNP(NP*
+         Weapon	       NNP	      I-NP	    I-MISC	              -	      I-A1	*
+    Information	       NNP	      I-NP	    I-MISC	              -	      I-A1	*)
+            –	        JJ	      I-NP	    I-MISC	              -	      I-A1	*
+        Shotgun	       NNP	      I-NP	    I-MISC	              -	      I-A1	(NP*
+        NEWLINE	       NNP	      I-NP	    E-MISC	              -	      I-A1	*
+  Investigating	       NNP	      I-NP	         O	              -	      I-A1	*
+         Agency	       NNP	      I-NP	         O	              -	      I-A1	*)
+            –	        JJ	      I-NP	         O	              -	      I-A1	(NP*
+          Baton	       NNP	      I-NP	     B-ORG	              -	      I-A1	*
+          Rouge	       NNP	      I-NP	     I-ORG	              -	      I-A1	*
+           City	       NNP	      I-NP	     E-ORG	              -	      I-A1	*
+         Police	       NNP	      I-NP	         O	              -	      I-A1	*
+        NEWLINE	       NNP	      I-NP	     S-ORG	              -	      I-A1	*
+       Incident	       NNP	      I-NP	         O	              -	      I-A1	*
+       Location	       NNP	      I-NP	         O	              -	      I-A1	*
+        NEWLINE	       NNP	      I-NP	     S-ORG	              -	      I-A1	*
+        Address	       NNP	      I-NP	         O	              -	      I-A1	*)
+            –	        NN	      I-NP	         O	              -	      I-A1	*
+           1915	        CD	      I-NP	         O	              -	      I-A1	(NP*
+          Birch	       NNP	      I-NP	     B-ORG	              -	      I-A1	*
+         Street	       NNP	      I-NP	     I-ORG	              -	      I-A1	*
+        NEWLINE	       NNP	      I-NP	     E-ORG	              -	      I-A1	*
+            Zip	       NNP	      I-NP	         O	              -	      I-A1	*
+           Code	       NNP	      I-NP	         O	              -	      I-A1	*
+            –	        NN	      E-NP	         O	              -	      E-A1	*))))
+
+          70802	        CD	      B-NP	         O	              -	(S1(NP*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	*))
+
+           This	        DT	      B-NP	         O	              -	         O	(S1(S(NP(NP*
+            Zip	       NNP	      I-NP	         O	              -	         O	*
+           Code	       NNP	      E-NP	         O	              -	         O	*)
+             to	        TO	      B-VP	         O	              -	         O	(S(VP*
+           Date	        VB	      E-VP	         O	           Date	       S-V	(VP*
+            –	        JJ	      B-NP	         O	              -	      B-A2	(NP(NP*
+              2	        CD	      I-NP	         O	              -	      I-A2	*)
+        NEWLINE	       NNP	      I-NP	     B-ORG	              -	      I-A2	*
+           This	       NNP	      I-NP	     I-ORG	              -	      I-A2	*
+            Zip	       NNP	      I-NP	     I-ORG	              -	      I-A2	*
+           Code	       NNP	      I-NP	     E-ORG	              -	      I-A2	*
+           2015	        CD	      I-NP	         O	              -	      I-A2	(ADJP(QP*
+            –	        NN	      I-NP	         O	              -	      I-A2	*
+             22	        CD	      I-NP	         O	              -	      I-A2	*
+        NEWLINE	       NNP	      I-NP	     S-ORG	              -	      I-A2	*))
+         Victim	       NNP	      I-NP	         O	              -	      I-A2	*
+    Information	       NNP	      I-NP	         O	              -	      I-A2	*
+        NEWLINE	       NNP	      I-NP	         O	              -	      I-A2	*
+           Name	       NNP	      E-NP	         O	              -	      I-A2	*
+            –	        NN	      B-NP	         O	              -	      I-A2	*)))))
+          Devin	       NNP	      I-NP	     B-PER	              -	      I-A2	(NP*
+       Anderson	       NNP	      I-NP	     E-PER	              -	      I-A2	*
+        NEWLINE	       NNP	      I-NP	         O	              -	      I-A2	*
+            Age	       NNP	      I-NP	         O	              -	      I-A2	*
+            –	         .	      E-NP	         O	              -	      E-A2	*)))
+
+             17	        CD	      B-NP	         O	              -	(S1(NP*
+        NEWLINE	       NNP	      I-NP	    B-MISC	              -	*
+           Race	       NNP	      I-NP	    I-MISC	              -	*
+            –	        JJ	      I-NP	    I-MISC	              -	*
+          Black	       NNP	      I-NP	    I-MISC	              -	*
+        NEWLINE	       NNP	      I-NP	    I-MISC	              -	*
+            Sex	       NNP	      I-NP	    E-MISC	              -	*
+            –	         .	      E-NP	         O	              -	*))
+
+           Male	       NNP	      B-NP	         O	              -	(S1(X(NP*
+        NEWLINE	       NNP	      I-NP	         O	              -	*
+           Home	       NNP	      I-NP	         O	              -	*
+        Address	       NNP	      E-NP	         O	              -	*)
+            –	        NN	      S-VP	         O	              -	(VP*
+           1608	        CD	      B-NP	         O	              -	(NP*
+            Bay	       NNP	      I-NP	     B-ORG	              -	*
+            St.	       NNP	      I-NP	     I-ORG	              -	*
+        NEWLINE	       NNP	      I-NP	     E-ORG	              -	*
+       Distance	       NNP	      E-NP	         O	              -	*)
+           From	        IN	      S-PP	         O	              -	(PP*
+           Home	        NN	      B-NP	         O	              -	(NP*
+            –	        NN	      E-NP	         O	              -	*)))))
+
+             .3	        CD	      B-NP	         O	              -	(S1(X(NP*
+          Miles	       NNP	      I-NP	         O	              -	*)
+        NEWLINE	       NNP	      I-NP	         O	              -	*
+        Suspect	       NNP	      I-NP	         O	              -	(NP*
+    Information	       NNP	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      I-NP	     S-ORG	              -	*
+           Name	       NNP	      E-NP	         O	              -	*
+            –	         .	    S-ADJP	         O	              -	*)))
+
+          Ahmad	       NNP	      B-NP	     B-PER	              -	(S1(NP*
+        Antoine	       NNP	      I-NP	     I-PER	              -	*
+        NEWLINE	       NNP	      I-NP	     E-PER	              -	*
+            Age	       NNP	      E-NP	         O	              -	*
+            –	         .	         O	         O	              -	*))
+
+             17	        CD	      B-NP	         O	              -	(S1(NP*
+        NEWLINE	       NNP	      I-NP	    B-MISC	              -	*
+           Race	       NNP	      I-NP	    I-MISC	              -	*
+            –	        JJ	      I-NP	    I-MISC	              -	*
+          Black	       NNP	      I-NP	    I-MISC	              -	*
+        NEWLINE	       NNP	      I-NP	    I-MISC	              -	*
+            Sex	       NNP	      I-NP	    E-MISC	              -	*
+            –	         .	      E-NP	         O	              -	*))
+
+           Male	       NNP	      B-NP	         O	              -	(S1(S(NP*
+        NEWLINE	       NNP	      I-NP	         O	              -	*
+           Home	       NNP	      I-NP	         O	              -	*
+        Address	       NNP	      E-NP	         O	              -	*)
+            –	        NN	      S-VP	         O	              -	(VP*
+           1915	        CD	      B-NP	         O	              -	(NP(NP*
+          Birch	       NNP	      I-NP	     B-PER	              -	*
+         Street	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+          Baton	       NNP	      B-NP	     B-LOC	              -	(NP*
+          Rouge	       NNP	      I-NP	     I-LOC	              -	*
+        NEWLINE	       NNP	      I-NP	     I-LOC	              -	*
+       Previous	       NNP	      I-NP	     I-LOC	              -	*
+Arrests/Convictions	      NNPS	      I-NP	     E-LOC	              -	*
+            –	        NN	      E-NP	         O	              -	*)))))
+
+            N/A	       NNP	      B-NP	         O	              -	(S1(NP(NP*
+        NEWLINE	       NNP	      I-NP	         O	              -	*
+     Additional	       NNP	      I-NP	         O	              -	*
+    Information	       NNP	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      I-NP	         O	              -	*
+       Incident	       NNP	      I-NP	         O	              -	*
+         Number	       NNP	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+           2016	        CD	      B-NP	         O	              -	(NP(NP(QP*
+            –	        NN	      I-NP	         O	              -	*
+              3	        CD	      I-NP	         O	              -	*)
+        NEWLINE	       NNP	      I-NP	         O	              -	*
+         Number	       NNP	      E-NP	         O	              -	*)
+             of	        IN	      S-PP	         O	              -	(PP*
+      Incidents	       NNS	      S-NP	         O	              -	(NP*))))))
+
+           This	        DT	      B-NP	         O	              -	(S1(S(NP*
+           Date	        NN	      E-NP	         O	              -	*)
+           2015	        CD	      B-NP	         O	              -	(NP*
+            –	        NN	      I-NP	         O	              -	*
+              3	        CD	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      I-NP	     S-ORG	              -	*
+     Difference	       NNP	      E-NP	         O	              -	*)
+            –	       VBD	      S-VP	         O	              -	(VP*
+              0	        CD	      B-NP	         O	              -	(NP*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	*))))
+
+           Days	       NNS	      S-NP	         O	              -	(S1(NP(NP(NP(NP*)
+          Since	        IN	      S-PP	         O	              -	(PP*
+           Last	        JJ	      B-NP	         O	              -	(NP*
+       Homicide	        NN	      I-NP	         O	              -	*
+            –	        NN	      I-NP	         O	              -	*)))
+              4	        CD	      I-NP	         O	              -	(NP(NP*
+        NEWLINE	       NNP	      I-NP	     S-ORG	              -	*
+           Data	       NNP	      I-NP	         O	              -	*
+    Compilation	       NNP	      E-NP	         O	              -	*)
+             of	        IN	      S-PP	         O	              -	(PP*
+       Homicide	       NNP	      B-NP	         O	              -	(NP*
+      Incidents	      NNPS	      E-NP	         O	              -	*))
+             in	        IN	      S-PP	         O	              -	(PP*
+           2016	        CD	      B-NP	         O	              -	(NP*
+        NEWLINE	       NNP	      I-NP	    S-MISC	              -	*
+       Previous	       NNP	      I-NP	         O	              -	*
+          Years	      NNPS	      E-NP	         O	              -	*))))
+              :	         :	         O	         O	              -	*
+           2013	        CD	      B-NP	         O	              -	(NP*
+              |	        NN	      I-NP	         O	              -	*
+           2014	        CD	      I-NP	         O	              -	*
+              |	        NN	      I-NP	         O	              -	*
+           2015	        CD	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      I-NP	         O	              -	*
+       Comments	      NNPS	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      I-NP	     S-ORG	              -	*
+       comments	       NNS	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      I-NP	     B-PER	              -	*
+         Tagged	       NNP	      I-NP	     I-PER	              -	*
+          Baton	       NNP	      I-NP	     I-PER	              -	*
+          Rouge	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+       homicide	        NN	      S-NP	         O	              -	(NP*)))
+

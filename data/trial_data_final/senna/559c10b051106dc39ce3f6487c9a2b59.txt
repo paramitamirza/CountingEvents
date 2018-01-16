@@ -1,0 +1,184 @@
+     2017-02-28	        CD	      S-NP	         O	              -	(S1(NP*))
+
+              2	        CD	      B-NP	         O	              -	(S1(NP(NP*
+           shot	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+   Murfreesboro	       NNP	      B-NP	     S-LOC	              -	(NP(NP*
+           park	        NN	      I-NP	         O	              -	*)
+              -	         :	      I-NP	         O	              -	*
+           WSMV	       NNP	      I-NP	     B-ORG	              -	(NP*
+        Channel	       NNP	      I-NP	     E-ORG	              -	*
+              4	        CD	      E-NP	         O	              -	*)))))
+
+         Police	       NNP	      S-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A0	         O	         O	(PP*
+   Murfreesboro	       NNP	      S-NP	     S-LOC	              -	      E-A0	         O	         O	(NP*)))
+            are	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+      searching	       VBG	      E-VP	         O	      searching	       S-V	         O	         O	(VP*
+            for	        IN	      S-PP	         O	              -	      B-A1	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      B-A1	      B-A0	(NP(NP*
+         gunman	        NN	      E-NP	         O	              -	      I-A1	      E-A1	      E-A0	*)
+        accused	       VBN	      S-VP	         O	        accused	      I-A1	       S-V	         O	(VP*
+             of	        IN	      S-PP	         O	              -	      I-A1	      B-A2	         O	(PP*
+       shooting	       VBG	      S-VP	         O	       shooting	      I-A1	      I-A2	       S-V	(S(VP*
+            two	        CD	      B-NP	         O	              -	      I-A1	      I-A2	      B-A1	(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      I-A2	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A2	      I-A1	(PP*
+         Rogers	       NNP	      B-NP	     B-LOC	              -	      I-A1	      I-A2	      I-A1	(NP*
+           Park	       NNP	      E-NP	     E-LOC	              -	      I-A1	      I-A2	      I-A1	*))))))))))
+              .	         .	         O	         O	              -	      I-A1	      I-A2	      I-A1	*
+        NEWLINE	       NNP	         O	     S-LOC	              -	      E-A1	      E-A2	      E-A1	(NP*)))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         person	        NN	      E-NP	         O	              -	      E-A1	*)
+             is	       VBZ	      B-VP	         O	              -	         O	(VP*
+          being	       VBG	      I-VP	         O	              -	         O	(VP*
+        treated	       VBN	      E-VP	         O	        treated	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+          Saint	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+         Thomas	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+     Rutherford	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+       Hospital	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+         Police	       NNP	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A0	(SBAR(S(NP(NP*
+          other	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	*
+         victim	        NN	      E-NP	         O	              -	      I-A1	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A0	*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A0	(NP*
+       juvenile	        JJ	      E-NP	         O	              -	      I-A1	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A1	      E-A0	*)
+         walked	       VBD	      S-VP	         O	         walked	      I-A1	       S-V	(VP*
+           home	        NN	    S-ADVP	         O	              -	      I-A1	  S-AM-DIR	(ADVP*)
+          after	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP*
+       shooting	        NN	      I-NP	         O	              -	      I-A1	  E-AM-TMP	*))))))
+              .	         .	      I-NP	         O	              -	      I-A1	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      E-A1	      S-A1	(NP*)))
+
+         Anyone	        NN	      S-NP	         O	              -	      B-A2	      B-A0	(S1(S(NP(NP*)
+           with	        IN	      S-PP	         O	              -	      I-A2	      I-A0	(PP*
+    information	        NN	      S-NP	         O	              -	      I-A2	      I-A0	(NP(NP*)
+          about	        IN	      S-PP	         O	              -	      I-A2	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      I-A0	(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A2	      E-A0	*)))))
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+          asked	       VBN	      E-VP	         O	          asked	       S-V	         O	(VP*
+             to	        TO	      B-VP	         O	              -	      B-A1	         O	(S(VP*
+           call	        VB	      E-VP	         O	           call	      I-A1	       S-V	(VP*
+         police	       NNS	      S-NP	         O	              -	      I-A1	      S-A1	(NP*)
+             at	        IN	      S-PP	         O	              -	      I-A1	      B-A2	(PP*
+            615	        CD	      S-NP	         O	              -	      I-A1	      I-A2	(NP(NP(QP*
+              -	         :	         O	         O	              -	      I-A1	      I-A2	*
+            893	        CD	      S-NP	         O	              -	      I-A1	      I-A2	*
+              -	         :	         O	         O	              -	      I-A1	      I-A2	*
+           2717	        CD	      B-NP	         O	              -	      I-A1	      I-A2	*
+             or	        CC	      I-NP	         O	              -	      I-A1	      I-A2	*
+            615	        CD	      I-NP	         O	              -	      I-A1	      I-A2	*
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A2	*
+            893	        CD	      I-NP	         O	              -	      I-A1	      I-A2	*
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A2	*
+           7867	        CD	      E-NP	         O	              -	      E-A1	      E-A2	*))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*))))))))))
+
+           Stay	        VB	      S-VP	         O	           Stay	       S-V	(S1(S(S(VP*
+           with	        IN	      S-PP	         O	              -	      B-A3	(PP*
+        Channel	       NNP	      B-NP	    B-MISC	              -	      I-A3	(NP*
+              4	        CD	      I-NP	    E-MISC	              -	      I-A3	*
+            and	        CC	      I-NP	         O	              -	      I-A3	*
+       WSMV.com	       NNP	      E-NP	     S-PER	              -	      E-A3	*))
+            for	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+        updates	       NNS	      S-NP	         O	              -	  I-AM-TMP	(NP(NP*)
+             to	        TO	      S-PP	         O	              -	  I-AM-TMP	(PP*
+           this	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          story	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	(NP*)))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         person	        NN	      E-NP	         O	              -	      E-A1	*)
+            has	       VBZ	      B-VP	         O	              -	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          upper	        JJ	      I-NP	         O	              -	  I-AM-LOC	*
+       leg/butt	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+             at	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+         Rogers	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+           Park	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+       Officers	       NNS	      S-NP	         O	              -	      S-A0	         O	         O	(S1(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+       tracking	       VBG	      E-VP	         O	       tracking	       S-V	      B-A1	         O	(VP*
+        suspect	        NN	      S-NP	         O	              -	      B-A1	      E-A1	         O	(NP(NP(NP*)
+            who	        WP	      S-NP	         O	              -	      I-A1	    S-R-A1	         O	(SBAR(WHNP*)
+             is	       VBZ	      B-VP	         O	              -	      I-A1	         O	         O	(S(VP*
+      described	       VBN	      E-VP	         O	      described	      I-A1	       S-V	         O	(VP*
+             as	        IN	      S-PP	         O	              -	      I-A1	      B-A2	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A2	      B-A0	(NP*
+            b/m	        NN	      E-NP	         O	              -	      I-A1	      I-A2	      E-A0	*)))))))
+        wearing	       VBG	      S-VP	         O	        wearing	      I-A1	      I-A2	       S-V	(VP*
+            all	        DT	      B-NP	         O	              -	      I-A1	      I-A2	      B-A1	(NP*
+          black	        JJ	      E-NP	         O	              -	      E-A1	      E-A2	      E-A1	*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            —	        NN	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+           Kyle	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	         O	*
+          Evans	       NNP	      E-NP	     E-PER	              -	      I-A0	         O	         O	*)
+              (	     -LRB-	         O	         O	              -	      I-A0	         O	         O	(PRN*
+@MboroPoliceDept	        JJ	         O	     S-LOC	              -	      I-A0	         O	         O	(NP*)
+              )	     -RRB-	         O	         O	              -	      I-A0	         O	         O	*)
+       February	       NNP	      B-NP	         O	              -	      I-A0	         O	         O	(S(VP*
+             28	        CD	      I-NP	         O	              -	      I-A0	         O	         O	(NP(NP*)
+              ,	         ,	      I-NP	         O	              -	      I-A0	         O	         O	*
+           2017	        CD	      I-NP	         O	              -	      I-A0	         O	         O	(SBAR(S(NP*
+        NEWLINE	       NNP	      I-NP	     S-ORG	              -	      I-A0	         O	         O	*
+       Officers	      NNPS	      E-NP	         O	              -	      E-A0	         O	         O	*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+      searching	       VBG	      E-VP	         O	      searching	       S-V	         O	         O	(VP*
+            for	        IN	      S-PP	         O	              -	      B-A1	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	         O	         O	(NP*
+        suspect	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+            and	        CC	      I-NP	         O	              -	      I-A1	         O	         O	*
+     detectives	       NNS	      E-NP	         O	              -	      E-A1	      S-A0	         O	*)))))))))
+            are	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+     processing	       VBG	      E-VP	         O	     processing	         O	       S-V	         O	(VP(VP*
+            the	        DT	      B-NP	         O	              -	         O	      B-A1	         O	(NP*
+          scene	        NN	      E-NP	         O	              -	         O	      E-A1	         O	*))
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+       speaking	       VBG	      S-VP	         O	       speaking	         O	         O	       S-V	(VP*
+           with	        IN	      S-PP	         O	              -	         O	         O	      B-A1	(PP*
+      witnesses	       NNS	      S-NP	         O	              -	         O	         O	      E-A1	(NP*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+pic.twitter.com/IhQHF1Yfd0	        FW	      B-NP	         O	              -	(S1(S*
+            —	        FW	      I-NP	         O	              -	*
+           Kyle	       NNP	      I-NP	     B-PER	              -	*
+          Evans	       NNP	      E-NP	     E-PER	              -	*
+              (	     -LRB-	         O	         O	              -	(PRN*
+@MboroPoliceDept	        JJ	         O	     S-LOC	              -	(ADJP*)
+              )	     -RRB-	         O	         O	              -	*)
+       February	       NNP	      B-NP	         O	              -	*
+             28	        CD	      I-NP	         O	              -	*
+              ,	         ,	      I-NP	         O	              -	*
+           2017	        CD	      I-NP	         O	              -	(ADJP*
+        NEWLINE	       NNP	      I-NP	     B-ORG	              -	*)
+      Copyright	       NNP	      I-NP	     E-ORG	              -	*
+           2017	        CD	      I-NP	         O	              -	(NX*
+           WSMV	       NNP	      E-NP	     S-ORG	              -	*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+       Meredith	       NNP	      B-NP	     B-ORG	              -	(NP*
+    Corporation	       NNP	      E-NP	     E-ORG	              -	*)
+              )	     -RRB-	         O	         O	              -	*)
+              .	         .	         O	         O	              -	*))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         rights	       NNS	      E-NP	         O	              -	      E-A1	*)
+       reserved	       VBN	      S-VP	         O	       reserved	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+

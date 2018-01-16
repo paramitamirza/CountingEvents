@@ -1,0 +1,260 @@
+     2013-06-16	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Police	       NNS	      S-NP	         O	              -	(S1(NP(NP*)
+              :	         :	         O	         O	              -	*
+              1	        CD	      B-NP	         O	              -	(NP(NP*
+           Dead	       NNP	      E-NP	         O	              -	*)
+              ,	         ,	         O	         O	              -	*
+              3	        CD	      S-NP	         O	              -	(NP(NP*
+           Hurt	        NN	      S-VP	         O	              -	*)
+             In	        IN	      S-PP	         O	              -	(PP*
+       Shooting	        NN	      S-NP	         O	              -	(NP*))
+             At	        IN	      S-PP	         O	              -	(PP*
+        Chatham	       NNP	      B-NP	     B-LOC	              -	(NP*
+           Club	       NNP	      E-NP	     E-LOC	              -	*))))))
+
+           June	       NNP	      B-NP	         O	              -	(S1(NP(NP*
+             16	        CD	      I-NP	         O	              -	*
+              ,	         ,	      I-NP	         O	              -	*
+           2013	        CD	      I-NP	         O	              -	*
+          10:03	        CD	      I-NP	         O	              -	*
+             AM	       NNP	      I-NP	         O	              -	*
+        NEWLINE	       NNP	      I-NP	     B-ORG	              -	*
+        CHICAGO	       NNP	      E-NP	     E-ORG	              -	*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+           STMW	       NNP	      S-NP	     S-ORG	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*)
+            —	         .	         O	         O	              -	*))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	         O	      B-A1	(S1(S(S(S(S(NP*
+            man	        NN	      E-NP	         O	              -	      E-A1	         O	      I-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	      I-A1	(VP*
+         killed	       VBN	      E-VP	         O	         killed	       S-V	         O	      I-A1	(VP*)))
+            and	        CC	         O	         O	              -	         O	         O	      I-A1	*
+          three	        CD	      B-NP	         O	              -	         O	      B-A1	      I-A1	(S(NP*
+         others	       NNS	      E-NP	         O	              -	         O	      E-A1	      I-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	      I-A1	(VP*
+        wounded	       VBN	      E-VP	         O	        wounded	         O	       S-V	      I-A1	(VP*
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	      I-A1	(PP*
+              a	        DT	      B-NP	         O	              -	         O	  I-AM-TMP	      I-A1	(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	  I-AM-TMP	      I-A1	*))
+          early	        JJ	      B-NP	         O	              -	         O	  I-AM-TMP	      I-A1	(NP*
+         Sunday	       NNP	      E-NP	         O	              -	         O	  E-AM-TMP	      I-A1	*)
+             at	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	      I-A1	(PP*
+              a	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	      I-A1	(NP(NP*
+      nightclub	        NN	      E-NP	         O	              -	         O	  I-AM-LOC	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	         O	  I-AM-LOC	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	      I-A1	(NP*
+          South	       NNP	      I-NP	     B-LOC	              -	         O	  I-AM-LOC	      I-A1	*
+           Side	       NNP	      I-NP	     I-LOC	              -	         O	  I-AM-LOC	      I-A1	*
+        Chatham	       NNP	      I-NP	     E-LOC	              -	         O	  I-AM-LOC	      I-A1	*
+   neighborhood	        NN	      E-NP	         O	              -	         O	  E-AM-LOC	      E-A1	*))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+         police	       NNS	      S-NP	         O	              -	         O	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	         O	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	       S-V	(NP*)))
+
+          About	        IN	      B-NP	         O	              -	  B-AM-TMP	  B-AM-TMP	         O	      B-A1	(S1(S(NP(SBAR(S(NP*
+          12:10	        CD	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	      I-A1	*
+           a.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	  E-AM-TMP	         O	      I-A1	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	      I-A1	*
+              a	        DT	      B-NP	         O	              -	      B-A0	      B-A0	      B-A0	      I-A1	(NP*
+         gunman	        NN	      E-NP	         O	              -	      E-A0	      E-A0	      E-A0	      I-A1	*)
+         walked	       VBD	      S-VP	         O	         walked	       B-V	         O	         O	      I-A1	(VP(VP*
+             up	        RP	     S-PRT	         O	              -	       E-V	         O	         O	      I-A1	(ADVP*)
+             to	        TO	      S-PP	         O	              -	  B-AM-DIR	         O	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-DIR	         O	         O	      I-A1	(NP(NP*
+           open	        JJ	      I-NP	         O	              -	  I-AM-DIR	         O	         O	      I-A1	*
+           door	        NN	      E-NP	         O	              -	  I-AM-DIR	         O	         O	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-DIR	         O	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-DIR	         O	         O	      I-A1	(NP*
+           club	        NN	      E-NP	         O	              -	  E-AM-DIR	         O	         O	      I-A1	*))))
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	         O	      I-A1	(NP(NP*
+            900	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	         O	      I-A1	*
+          block	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	         O	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	         O	      I-A1	(PP*
+           East	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	         O	         O	      I-A1	(NP*
+           79th	        JJ	      I-NP	     I-LOC	              -	  I-AM-TMP	         O	         O	      I-A1	*
+         Street	       NNP	      E-NP	     E-LOC	              -	  I-AM-TMP	         O	         O	      I-A1	*)))))
+            and	        CC	         O	         O	              -	  I-AM-TMP	         O	         O	      I-A1	*
+          fired	       VBD	      S-VP	         O	          fired	  I-AM-TMP	       S-V	         O	      I-A1	(VP*
+          shots	       NNS	      S-NP	         O	              -	  E-AM-TMP	      S-A1	         O	      I-A1	(NP*))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	      I-A1	*)
+       striking	       VBG	      S-VP	         O	       striking	         O	         O	       S-V	      I-A1	(S(VP*
+            the	        DT	      B-NP	         O	              -	         O	         O	      B-A1	      I-A1	(NP(NP*
+           four	        CD	      I-NP	         O	              -	         O	         O	      I-A1	      I-A1	*
+            men	       NNS	      E-NP	         O	              -	         O	         O	      E-A1	      E-A1	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+         police	        NN	      B-NP	         O	              -	         O	         O	         O	      B-A0	(NP*
+           News	       NNP	      I-NP	     B-ORG	              -	         O	         O	         O	      I-A0	*
+        Affairs	      NNPS	      I-NP	     E-ORG	              -	         O	         O	         O	      I-A0	*
+        Officer	       NNP	      I-NP	         O	              -	         O	         O	         O	      I-A0	*
+          Amina	       NNP	      I-NP	     B-PER	              -	         O	         O	         O	      I-A0	*
+          Greer	       NNP	      E-NP	     E-PER	              -	         O	         O	         O	      E-A0	*)))))
+           said	       VBD	      S-VP	         O	           said	         O	         O	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	       S-V	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(S(S(NP*
+            men	       NNS	      E-NP	         O	              -	      E-A1	      I-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	      I-A1	(VP*
+       involved	       VBN	      E-VP	         O	       involved	       S-V	      I-A1	(VP*
+             in	        IN	      S-PP	         O	              -	      B-A2	      I-A1	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A2	      I-A1	(NP(NP*
+       argument	        NN	      E-NP	         O	              -	      I-A2	      I-A1	*)
+        outside	        IN	      S-PP	         O	              -	      I-A2	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      I-A1	(NP*
+           club	        NN	      E-NP	         O	              -	      E-A2	      I-A1	*))
+          prior	        RB	    S-ADVP	         O	              -	  B-AM-TMP	      I-A1	(ADVP*
+             to	        TO	      S-PP	         O	              -	  I-AM-TMP	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A1	(NP*
+         attack	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A1	*))))))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+          Greer	       NNP	      S-NP	     S-PER	              -	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	       S-V	(NP*)))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(S(NP(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A1	*
+             40	        CD	      S-NP	         O	              -	      I-A1	      I-A1	(NP*)
+              ,	         ,	         O	         O	              -	      E-A1	      I-A1	*)
+           died	       VBD	      S-VP	         O	           died	       S-V	      I-A1	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	      I-A1	(PP*
+       Advocate	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	      I-A1	(NP*
+        Trinity	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	      I-A1	*
+       Hospital	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	      E-A1	*))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+          Greer	       NNP	      S-NP	     S-PER	              -	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	*))
+
+        Another	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP*
+        40-year	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+            man	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	         O	(VP(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+          chest	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	*)))
+            and	        CC	         O	         O	              -	         O	         O	*
+          taken	       VBN	      S-VP	         O	          taken	         O	       B-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	       E-V	(PP*
+       critical	        JJ	      B-NP	         O	              -	  I-AM-LOC	      B-A1	(NP*
+      condition	        NN	      E-NP	         O	              -	  I-AM-LOC	      I-A1	*))
+             to	        TO	      S-PP	         O	              -	  I-AM-LOC	      I-A1	(PP*
+       Advocate	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	      I-A1	(NP(NP*
+         Christ	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	      I-A1	*
+        Medical	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	      I-A1	*
+         Center	       NNP	      E-NP	     E-ORG	              -	  I-AM-LOC	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	(PP*
+            Oak	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	      I-A1	(NP*
+           Lawn	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	      E-A1	*)))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP*
+        35-year	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*)
+            man	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	         O	(VP(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+            leg	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	*)))
+            and	        CC	         O	         O	              -	         O	         O	*
+         listed	       VBN	      S-VP	         O	         listed	         O	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	      B-A2	(PP*
+            “	        NN	      S-NP	         O	              -	  E-AM-LOC	      E-A2	(NP*)))))))
+
+         stable	        JJ	      B-NP	         O	              -	(S1(NP(NP(ADJP*
+            ”	        NN	      I-NP	         O	              -	*)
+      condition	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+     University	       NNP	      S-NP	     B-ORG	              -	(NP(NP*)
+             of	        IN	      S-PP	     I-ORG	              -	(PP*
+        Chicago	       NNP	      B-NP	     I-ORG	              -	(NP*
+        Medical	       NNP	      I-NP	     I-ORG	              -	*
+         Center	       NNP	      E-NP	     E-ORG	              -	*
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	*))))))
+
+        Another	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	*)
+              ,	         ,	         O	         O	              -	      I-A1	*
+             35	        CD	      S-NP	         O	              -	      I-A1	(NP*)
+              ,	         ,	         O	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	      B-A0	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A0	(NP(NP*
+         friend	        NN	      E-NP	         O	              -	      I-A0	*)
+             to	        TO	      S-PP	         O	              -	      I-A0	(PP*
+        Jackson	       NNP	      B-NP	     B-LOC	              -	      I-A0	(NP*
+           Park	       NNP	      I-NP	     I-LOC	              -	      I-A0	*
+       Hospital	       NNP	      E-NP	     E-LOC	              -	      I-A0	*))))
+           with	        IN	      S-PP	         O	              -	      I-A0	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A0	(NP(NP*
+        gunshot	        NN	      I-NP	         O	              -	      I-A0	*
+          wound	        NN	      E-NP	         O	              -	      I-A0	*)
+             to	        TO	      S-PP	         O	              -	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP*
+            leg	        NN	      E-NP	         O	              -	      E-A0	*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	*))))))))
+
+             No	        DT	      B-NP	         O	              -	         O	(S1(X(S(NP*
+            one	        NN	      E-NP	         O	              -	         O	*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+        custody	        NN	      S-NP	         O	              -	         O	(NP*))
+             as	        IN	      S-PP	         O	              -	         O	(SBAR*
+           Area	       NNP	      S-NP	     B-ORG	              -	         O	(S(NP*
+          South	       NNP	      B-NP	     E-ORG	              -	      B-A0	*
+     detectives	       NNS	      E-NP	         O	              -	      E-A0	*)
+    investigate	       VBP	      S-VP	         O	    investigate	       S-V	(VP*)))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+              (	     -LRB-	         O	         O	              -	(S1(NP*
+         Source	        NN	      S-NP	         O	              -	(NP*)
+              :	         :	         O	         O	              -	*
+            Sun	       NNP	      S-NP	     B-ORG	              -	(NP(NP(NP*)
+              -	         :	         O	     I-ORG	              -	*
+          Times	       NNP	      B-NP	     I-ORG	              -	(ADJP*
+          Media	       NNP	      I-NP	     I-ORG	              -	*)
+           Wire	       NNP	      I-NP	     I-ORG	              -	*)
+             ©	        JJ	      I-NP	     I-ORG	              -	(VP*
+        Chicago	       NNP	      I-NP	     I-ORG	              -	(NP(NP*
+            Sun	       NNP	      E-NP	     I-ORG	              -	*)
+              -	         :	         O	     I-ORG	              -	*
+          Times	       NNP	      B-NP	     E-ORG	              -	(NP*
+           2013	        CD	      E-NP	         O	              -	*))))
+              .	         .	         O	         O	              -	*))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         Rights	       NNS	      E-NP	         O	              -	      E-A1	*)
+       Reserved	       VBN	      S-VP	         O	       Reserved	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+
+           This	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP*
+       material	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+            may	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	         O	*
+             be	        VB	      I-VP	         O	              -	         O	         O	(VP*
+      published	       VBN	      E-VP	         O	      published	       S-V	         O	(VP(VP*
+              ,	         ,	         O	         O	              -	         O	         O	*
+      broadcast	        NN	      S-NP	         O	              -	         O	         O	*
+              ,	         ,	         O	         O	              -	         O	         O	*
+      rewritten	       VBN	      B-VP	         O	              -	         O	         O	*)
+              ,	         ,	      I-VP	         O	              -	         O	         O	*
+             or	        CC	      I-VP	         O	              -	         O	         O	*
+  redistributed	       VBN	      E-VP	         O	  redistributed	         O	       S-V	(VP*))))
+              .	         .	         O	         O	              -	         O	         O	*
+              )	     -RRB-	         O	         O	              -	         O	         O	*))
+

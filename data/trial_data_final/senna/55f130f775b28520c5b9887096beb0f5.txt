@@ -1,0 +1,194 @@
+     2017-01-27	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        12-year	       SYM	      S-NP	         O	              -	         O	(S1(NP(NP(ADJP*
+              -	         :	         O	         O	              -	         O	*
+            old	        JJ	      B-NP	         O	              -	      B-A1	*)
+            boy	        NN	      E-NP	         O	              -	      E-A1	*)
+           shot	       VBN	      S-VP	         O	           shot	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	  B-AM-MNR	(PP*
+       relative	        JJ	    S-ADJP	         O	              -	  E-AM-MNR	(ADJP*))
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+          Salem	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	(NP*)))))
+
+          SALEM	       NNP	      S-NP	     S-LOC	              -	(S1(FRAG(NP*)
+              ,	         ,	         O	         O	              -	*
+           Ore.	       NNP	      S-NP	     S-PER	              -	(NP(NP*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+           KOIN	       NNP	      S-NP	     S-ORG	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*)
+            —	         .	         O	         O	              -	*)))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(S(S(NP*
+        12-year	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*)
+            boy	        NN	      E-NP	         O	              -	      E-A1	      I-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	      I-A1	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	      I-A1	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	      I-A1	(PP*
+          Salem	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	      I-A1	(NP*))
+         Friday	       NNP	      B-NP	         O	              -	  B-AM-TMP	      I-A1	(NP*
+      afternoon	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A1	*))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+          Salem	       NNP	      B-NP	     S-LOC	              -	         O	      B-A0	(NP*
+         police	        NN	      E-NP	         O	              -	         O	      E-A0	*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	       S-V	(NP*)))
+
+             Lt	       NNP	      S-NP	         O	              -	(S1(NP*
+              .	         .	         O	         O	              -	*))
+
+           Dave	       NNP	      B-NP	     B-PER	              -	      B-A0	         O	(S1(S(NP*
+          Okada	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	*)
+           told	       VBD	      S-VP	         O	           told	       S-V	         O	(VP*
+           KOIN	       NNP	      B-NP	     S-ORG	              -	      S-A2	         O	(NP*)
+            the	        DT	      I-NP	         O	              -	      B-A1	         O	(SBAR(S(NP*
+        shooter	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+            was	       VBD	      S-VP	         O	              -	      I-A1	         O	(VP*
+              a	        DT	    B-ADJP	         O	              -	      I-A1	         O	(NP*
+       relative	        JJ	    E-ADJP	         O	              -	      E-A1	         O	*)))))
+            but	        CC	         O	         O	              -	         O	         O	*
+           they	       PRP	      S-NP	         O	              -	         O	      S-A0	(S(NP*)
+             do	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+            not	        RB	      I-VP	         O	              -	         O	  S-AM-NEG	*
+           know	        VB	      E-VP	         O	           know	         O	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	         O	      B-A1	(NP(NP*
+  circumstances	       NNS	      E-NP	         O	              -	         O	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	(NP*
+       incident	        NN	      E-NP	         O	              -	         O	      E-A1	*))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+             do	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	         O	(S*
+           know	        VB	      E-VP	         O	           know	       S-V	         O	(VP*
+          where	       WRB	    S-ADVP	         O	              -	      B-A1	         O	(SBAR(WHADVP*)
+           that	        DT	      B-NP	         O	              -	      I-A1	         O	(S(NP*
+       relative	        JJ	      E-NP	         O	              -	      I-A1	         O	*)
+             is	       VBZ	      S-VP	         O	              -	      I-A1	         O	(VP(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+           this	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
+           time	        NN	      E-NP	         O	              -	      I-A1	         O	*)))
+            and	        CC	         O	         O	              -	      I-A1	         O	*
+             do	       VBP	      B-VP	         O	              -	      I-A1	         O	(VP*
+            not	        RB	      I-VP	         O	              -	      I-A1	  S-AM-NEG	*
+           have	        VB	      E-VP	         O	           have	      I-A1	       S-V	(VP*
+         anyone	        NN	      S-NP	         O	              -	      I-A1	      B-A1	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+        custody	        NN	      B-NP	         O	              -	      E-A1	      E-A1	(NP*)))))))))))
+              .	         .	      I-NP	         O	              -	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	(S1(S(NP*
+          child	        NN	      I-NP	         O	              -	*
+           ’s	        NN	      I-NP	         O	              -	*
+       injuries	       NNS	      E-NP	         O	              -	*)
+            are	       VBP	      S-VP	         O	              -	(VP*
+            not	        RB	         O	         O	              -	*
+           life	        NN	      S-NP	         O	              -	(NP*)
+              -	         :	         O	         O	              -	*
+    threatening	       VBG	      S-VP	         O	              -	(S(VP*)))
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	(NP*)))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	(S1(NP(NP*
+            man	        NN	      E-NP	         O	              -	      E-A0	*)
+            who	        WP	      S-NP	         O	              -	    S-R-A0	(SBAR(WHNP*)
+          works	       VBZ	      S-VP	         O	          works	       S-V	(S(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+       Builders	      NNPS	      I-NP	     B-ORG	              -	  I-AM-LOC	*
+       Hardware	       NNP	      I-NP	     E-ORG	              -	  I-AM-LOC	*
+          store	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+           1700	        CD	      I-NP	         O	              -	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+             NE	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	(NP*
+    Fairgrounds	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	*
+             Rd	       NNP	      E-NP	     E-ORG	              -	  E-AM-LOC	*)))))))
+              .	         .	         O	         O	              -	         O	*))
+
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(S1(S(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+       happened	       VBD	      S-VP	         O	       happened	      I-A1	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+      apartment	        NN	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+        complex	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	*))
+         behind	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+          store	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+           KOIN	       NNP	      B-NP	     S-ORG	              -	(S1(NP*
+              6	        CD	      E-NP	         O	              -	*))
+
+           News	        NN	      S-NP	         O	              -	      S-A0	      S-A0	         O	(S1(S(NP*)
+            has	       VBZ	      S-VP	         O	            has	       S-V	         O	         O	(VP(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP(NP*
+           crew	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)
+             on	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	(NP*
+            way	        NN	      E-NP	         O	              -	      E-A1	         O	         O	*))))
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+           will	        MD	      B-VP	         O	              -	         O	  S-AM-MOD	         O	(VP*
+           have	        VB	      E-VP	         O	           have	         O	       S-V	         O	(VP*
+           more	       JJR	      B-NP	         O	              -	         O	      B-A1	         O	(NP(NP*
+    information	        NN	      E-NP	         O	              -	         O	      E-A1	         O	*)
+           when	       WRB	    S-ADVP	         O	              -	         O	  B-AM-TMP	         O	(SBAR(WHADVP*)
+             it	       PRP	      S-NP	         O	              -	         O	  I-AM-TMP	         O	(S(NP*)
+        becomes	       VBZ	      S-VP	         O	        becomes	         O	  I-AM-TMP	       S-V	(VP*
+      available	        JJ	    S-ADJP	         O	              -	         O	  I-AM-TMP	      S-A2	(ADJP*))))))))
+              .	         .	         O	         O	              -	         O	  I-AM-TMP	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	  E-AM-TMP	         O	(NP*)))
+
+          SALEM	       NNP	      B-NP	     S-LOC	              -	         O	(S1(FRAG(NP*
+       SHOOTING	       NNP	      E-NP	         O	              -	         O	*)
+              :	         :	         O	         O	              -	         O	*
+           Just	        RB	      S-NP	         O	              -	  S-AM-ADV	(S(ADVP*)
+          spoke	       VBD	      S-VP	         O	          spoke	       S-V	(VP*
+           with	        IN	      S-PP	         O	              -	      B-A2	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A2	(NP*
+       employee	        NN	      E-NP	         O	              -	      I-A2	*))
+             at	        IN	      S-PP	         O	              -	      I-A2	(PP*
+        Builder	       NNP	      S-NP	     B-ORG	              -	      I-A2	(NP(NP*
+             's	       POS	      B-NP	     I-ORG	              -	      I-A2	*)
+       Hardware	       NNP	      E-NP	     E-ORG	              -	      E-A2	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	(VP*
+       shooting	        NN	      S-NP	         O	              -	      B-A1	      S-A1	(SBAR(S(NP*)
+            did	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+            not	        RB	      I-VP	         O	              -	      I-A1	  S-AM-NEG	*
+         happen	        VB	      E-VP	         O	         happen	      I-A1	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+          store	        NN	      E-NP	         O	              -	      I-A1	  E-AM-LOC	*))
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+            but	        CC	         O	         O	              -	      I-A1	         O	*
+            out	        RB	    B-ADVP	         O	              -	      I-A1	  B-AM-ADV	(ADVP*
+           back	        RB	    E-ADVP	         O	              -	      I-A1	  I-AM-ADV	*
+             by	        IN	      S-PP	         O	              -	      I-A1	  I-AM-ADV	(PP*
+           apts	       NNS	      S-NP	         O	              -	      E-A1	  E-AM-ADV	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            —	       SYM	         O	         O	              -	(S1(NP*))
+
+         Eileen	       NNP	      B-NP	     B-PER	              -	(S1(NP(NP*
+           Park	       NNP	      E-NP	     E-PER	              -	*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+  @EileenParkTV	        NN	      S-NP	     S-LOC	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*)
+        January	       NNP	      B-NP	         O	              -	(NP*
+             27	        CD	      E-NP	         O	              -	*
+              ,	         ,	         O	         O	              -	*
+           2017	        NN	      S-NP	         O	              -	*)))
+

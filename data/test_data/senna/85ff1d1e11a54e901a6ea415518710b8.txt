@@ -1,0 +1,253 @@
+     2015-08-06	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            Man	        NN	      S-NP	         O	              -	(S1(NP(NP*
+         guilty	        JJ	    S-ADJP	         O	              -	*)
+             of	        IN	      S-PP	         O	              -	(PP*
+   manslaughter	        NN	      S-NP	         O	              -	(NP*))
+             in	        IN	      S-PP	         O	              -	(PP*
+           teen	        NN	      S-NP	         O	              -	(NP(NP(NP*
+             's	       POS	      B-NP	         O	              -	*)
+       shooting	        NN	      I-NP	         O	              -	*
+          death	        NN	      E-NP	         O	              -	*)
+              -	         :	         O	         O	              -	*
+           KSLA	       NNP	      B-NP	     B-ORG	              -	(NP(NP*
+           News	       NNP	      E-NP	     E-ORG	              -	*
+             12	        CD	      B-NP	         O	              -	*
+     Shreveport	       NNP	      E-NP	     S-ORG	              -	*)
+              ,	         ,	         O	         O	              -	*
+      Louisiana	       NNP	      B-NP	     B-ORG	              -	(NP*
+           News	       NNP	      I-NP	     I-ORG	              -	*
+        Weather	       NNP	      I-NP	     I-ORG	              -	*
+              &	        CC	      I-NP	     I-ORG	              -	*
+         Sports	      NNPS	      E-NP	     E-ORG	              -	*))))))
+
+            Man	        NN	      S-NP	         O	              -	         O	         O	         O	         O	         O	(S1(S(NP(NP*
+         guilty	        JJ	    S-ADJP	         O	              -	         O	         O	         O	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	         O	         O	         O	         O	(PP*
+   manslaughter	        NN	      S-NP	         O	              -	         O	         O	         O	         O	         O	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	         O	         O	         O	         O	         O	(PP*
+           teen	        NN	      S-NP	         O	              -	      B-A1	         O	         O	         O	         O	(NP(NP*
+             's	       POS	      B-NP	         O	              -	      I-A1	         O	         O	         O	         O	*)
+       shooting	        NN	      I-NP	         O	              -	      I-A1	         O	         O	         O	         O	*
+          death	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	         O	*)))))
+         Posted	       VBD	      S-VP	         O	         Posted	       S-V	         O	         O	         O	         O	(VP*
+              :	         :	         O	         O	              -	         O	         O	         O	         O	         O	*
+       Thursday	       NNP	      S-NP	         O	              -	  B-AM-LOC	  S-AM-TMP	         O	         O	         O	(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+         August	       NNP	      B-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	(NP*
+              6	        CD	      E-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+           2015	        CD	      B-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	(FRAG(NP(NP*
+           8:36	        CD	      I-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+             AM	       NNP	      I-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+            EDT	       NNP	      E-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*)
+        Updated	       VBN	      S-VP	         O	        Updated	  I-AM-LOC	       S-V	         O	         O	         O	(ADJP*
+              :	         :	         O	         O	              -	  I-AM-LOC	         O	         O	         O	         O	(PP*
+       Thursday	       NNP	      S-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	(ADJP(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+         August	       NNP	      B-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	(NP*
+              6	        CD	      E-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+           2015	        CD	      B-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	(NP(QP*
+           8:36	        CD	      I-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*)
+             AM	       NNP	      I-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+            EDT	       NNP	      I-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+        NEWLINE	       NNP	      I-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+      THIBODAUX	       NNP	      E-NP	     S-LOC	              -	  I-AM-LOC	         O	         O	         O	         O	(NP*))
+              ,	         ,	         O	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+            La.	       NNP	      S-NP	     S-LOC	              -	  I-AM-LOC	         O	         O	         O	         O	(NP(NP*)
+              (	     -LRB-	         O	         O	              -	  I-AM-LOC	         O	         O	         O	         O	(PRN*
+             AP	       NNP	      S-NP	     S-ORG	              -	  I-AM-LOC	         O	         O	         O	         O	(NP*)
+              )	     -RRB-	         O	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*)))
+              -	         :	         O	         O	              -	  E-AM-LOC	         O	         O	         O	         O	*
+              A	        DT	      B-NP	         O	              -	         O	         O	      B-A0	         O	         O	(SBAR(S(NP*
+          state	        NN	      I-NP	         O	              -	         O	         O	      I-A0	         O	         O	*
+          judge	        NN	      E-NP	         O	              -	         O	         O	      E-A0	         O	         O	*)
+          ruled	       VBD	      S-VP	         O	          ruled	         O	         O	       S-V	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	         O	         O	      B-A1	         O	         O	(SBAR(S(NP*
+        20-year	        JJ	      I-NP	         O	              -	         O	         O	      I-A1	         O	         O	*)
+              -	         :	      I-NP	         O	              -	         O	         O	      I-A1	         O	         O	*
+            old	        JJ	      I-NP	         O	              -	         O	         O	      I-A1	      B-A0	         O	(NP*
+       Galliano	       NNP	      I-NP	     S-PER	              -	         O	         O	      I-A1	      I-A0	         O	*
+            man	        NN	      E-NP	         O	              -	         O	         O	      I-A1	      E-A0	         O	*)
+      committed	       VBD	      S-VP	         O	      committed	         O	         O	      I-A1	       S-V	         O	(VP*
+    involuntary	        JJ	      B-NP	         O	              -	         O	         O	      I-A1	      B-A1	         O	(NP*
+   manslaughter	        NN	      E-NP	         O	              -	         O	         O	      E-A1	      E-A1	         O	*)
+           when	       WRB	    S-ADVP	         O	              -	         O	         O	  B-AM-TMP	  B-AM-TMP	         O	(SBAR(WHADVP*)
+             he	       PRP	      S-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	      S-A0	(S(NP*)
+           shot	       VBD	      S-VP	         O	           shot	         O	         O	  I-AM-TMP	  I-AM-TMP	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	      B-A1	(NP*
+        15-year	        JJ	      I-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	      I-A1	*
+              -	         :	      I-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	      I-A1	*
+            boy	        NN	      E-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	      E-A1	*)
+             in	        IN	      S-PP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	  I-AM-LOC	(NP*
+           head	        NN	      E-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	  E-AM-LOC	*))
+           last	        JJ	      B-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	  B-AM-TMP	(NP*
+         summer	        NN	      E-NP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	  E-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	  B-AM-LOC	(PP*
+         Larose	       NNP	      S-NP	     S-LOC	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	  E-AM-LOC	(NP*
+              .	         .	         O	         O	              -	         O	         O	  I-AM-TMP	  I-AM-TMP	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	  E-AM-TMP	  E-AM-TMP	         O	*)))))))))))))))))))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+          Daily	       NNP	      I-NP	    B-MISC	              -	      I-A0	*
+          Comet	       NNP	      E-NP	    E-MISC	              -	      E-A0	*)
+        reports	       VBZ	      S-VP	         O	        reports	       S-V	(VP*
+              (	     -LRB-	         O	         O	              -	    B-C-A1	(PRN*
+http://bit.ly/1IHFbfG	        NN	      S-NP	         O	              -	    E-C-A1	(NP*)
+              )	     -RRB-	         O	         O	              -	         O	*))))
+
+          Neely	       NNP	      B-NP	     B-PER	              -	      B-A0	         O	         O	(S1(S(NP*
+        Gardner	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	*)
+          faces	       VBZ	      S-VP	         O	          faces	       S-V	         O	         O	(VP*
+             up	        RP	     S-PRT	         O	              -	      B-A1	         O	         O	(NP(QP*
+             to	        TO	      S-PP	         O	              -	      I-A1	         O	         O	*
+             40	        CD	      B-NP	         O	              -	      I-A1	         O	         O	*)
+          years	       NNS	      E-NP	         O	              -	      I-A1	         O	         O	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+         prison	        NN	      S-NP	         O	              -	      E-A1	         O	         O	(NP*))
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	(PP*
+          state	        NN	      B-NP	         O	              -	  I-AM-TMP	      B-A0	         O	(NP*
+       District	       NNP	      I-NP	         O	              -	  I-AM-TMP	      I-A0	         O	*
+          Judge	       NNP	      I-NP	         O	              -	  I-AM-TMP	      I-A0	         O	*
+         Walter	       NNP	      I-NP	     B-PER	              -	  I-AM-TMP	      I-A0	         O	*
+         Lanier	       NNP	      E-NP	     E-PER	              -	  I-AM-TMP	      E-A0	         O	*))
+          sided	       VBD	      S-VP	         O	          sided	  I-AM-TMP	       S-V	         O	(VP*
+           with	        IN	      S-PP	         O	              -	  I-AM-TMP	      B-A1	         O	(PP*
+    prosecutors	       NNS	      S-NP	         O	              -	  I-AM-TMP	      I-A1	         O	(NP*))
+      Wednesday	       NNP	      S-NP	         O	              -	  I-AM-TMP	      I-A1	         O	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	      I-A1	         O	*
+            who	        WP	      S-NP	         O	              -	  I-AM-TMP	      I-A1	    S-R-A0	(SBAR(WHNP*)
+            had	       VBD	      B-VP	         O	              -	  I-AM-TMP	      I-A1	         O	(S(VP*
+       upgraded	       VBN	      E-VP	         O	       upgraded	  I-AM-TMP	      I-A1	       S-V	(VP*
+        Gardner	       NNP	      S-NP	     S-PER	              -	  I-AM-TMP	      I-A1	      B-A1	(NP(NP*
+             's	       POS	      B-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	*)
+         charge	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A1	      E-A1	*)
+           from	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A1	      B-A3	(PP*
+      negligent	        JJ	      B-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A3	(NP*
+       homicide	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A1	      E-A3	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+          judge	        NN	      E-NP	         O	              -	      E-A0	*)
+           will	        MD	      B-VP	         O	              -	  S-AM-MOD	(VP*
+       sentence	        VB	      E-VP	         O	       sentence	       S-V	(VP*
+            him	       PRP	      S-NP	         O	              -	      S-A1	(S(NP*)
+           Aug.	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP*
+             28	        CD	      E-NP	         O	              -	  E-AM-TMP	*))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A2	(NP*)))
+
+         Lanier	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	         O	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	         O	         O	*
+       although	        IN	    S-SBAR	         O	              -	      B-A1	         O	         O	         O	         O	(SBAR*
+        Gardner	       NNP	      S-NP	     S-PER	              -	      I-A1	      S-A0	      S-A0	         O	         O	(S(NP*)
+            may	        MD	      B-VP	         O	              -	      I-A1	  S-AM-MOD	         O	         O	         O	(VP*
+            not	        RB	      I-VP	         O	              -	      I-A1	  S-AM-NEG	         O	         O	         O	*
+           have	        VB	      I-VP	         O	              -	      I-A1	         O	         O	         O	         O	(VP*
+       intended	       VBN	      I-VP	         O	       intended	      I-A1	       S-V	         O	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	      B-A1	         O	         O	         O	(S(VP*
+           kill	        VB	      E-VP	         O	           kill	      I-A1	      I-A1	       S-V	         O	         O	(VP*
+        Braxton	       NNP	      B-NP	     B-PER	              -	      I-A1	      I-A1	      B-A1	         O	         O	(NP(NP*
+         Bourda	       NNP	      E-NP	     E-PER	              -	      I-A1	      I-A1	      E-A1	         O	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A1	         O	         O	         O	*
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	         O	         O	(PP*
+         Larose	       NNP	      S-NP	     S-PER	              -	      I-A1	      E-A1	         O	         O	         O	(NP*)))))))))))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	         O	         O	*
+             he	       PRP	      S-NP	         O	              -	      I-A1	         O	         O	      S-A0	      S-A0	(NP*)
+            did	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	         O	         O	*
+             so	        RB	      I-VP	         O	              -	      I-A1	         O	         O	         O	         O	(ADVP*)
+          while	        IN	      I-VP	         O	              -	      I-A1	         O	         O	         O	         O	(SBAR*
+     committing	       VBG	      E-VP	         O	     committing	      I-A1	         O	         O	       S-V	         O	(S(VP*
+        another	        DT	      B-NP	         O	              -	      I-A1	         O	         O	      B-A1	         O	(NP(NP*
+         felony	        NN	      E-NP	         O	              -	      I-A1	         O	         O	      E-A1	         O	*)
+              -	         :	         O	         O	              -	      I-A1	         O	         O	         O	         O	*
+     aggravated	       VBN	      B-NP	         O	              -	      I-A1	         O	         O	         O	         O	(NP(NP*
+        assault	        NN	      E-NP	         O	              -	      I-A1	         O	         O	         O	         O	*)
+           with	        IN	      S-PP	         O	              -	      I-A1	         O	         O	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	         O	         O	         O	         O	(NP*
+        firearm	        NN	      E-NP	         O	              -	      I-A1	         O	         O	         O	         O	*)))))))
+              -	         :	         O	         O	              -	      I-A1	         O	         O	         O	         O	*
+           thus	        RB	    S-ADVP	         O	              -	      I-A1	         O	         O	         O	  S-AM-DIS	(S(ADVP*)
+        meeting	       VBG	      S-VP	         O	        meeting	      I-A1	         O	         O	         O	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	         O	      B-A1	(NP(NP*
+       criteria	       NNS	      E-NP	         O	              -	      I-A1	         O	         O	         O	      I-A1	*)
+            for	        IN	      S-PP	         O	              -	      I-A1	         O	         O	         O	      I-A1	(PP*
+   manslaughter	        NN	      B-NP	         O	              -	      E-A1	         O	         O	         O	      E-A1	(NP*
+              .	         .	      I-NP	         O	              -	         O	         O	         O	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	         O	         O	         O	*)))))))
+
+         Bourda	       NNP	      S-NP	     S-PER	              -	      B-A1	      B-A0	         O	         O	(S1(S(NP(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A0	         O	         O	*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A0	         O	         O	(NP*
+          South	       NNP	      I-NP	     B-LOC	              -	      I-A1	      I-A0	         O	         O	*
+      Lafourche	       NNP	      I-NP	     I-LOC	              -	      I-A1	      I-A0	         O	         O	*
+           High	       NNP	      I-NP	     I-LOC	              -	      I-A1	      I-A0	         O	         O	*
+         School	       NNP	      I-NP	     E-LOC	              -	      I-A1	      I-A0	         O	         O	*
+        student	        NN	      E-NP	         O	              -	      I-A1	      I-A0	         O	         O	*)
+              ,	         ,	         O	         O	              -	      E-A1	      E-A0	         O	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+         killed	       VBN	      E-VP	         O	         killed	       S-V	         O	         O	         O	(VP*
+           June	       NNP	      B-NP	         O	              -	  B-AM-TMP	         O	         O	         O	(NP*
+              5	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	         O	         O	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	         O	         O	         O	*
+           2014	        CD	      E-NP	         O	              -	  E-AM-TMP	         O	         O	         O	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+          while	        IN	    S-SBAR	         O	              -	  B-AM-ADV	         O	         O	         O	(SBAR*
+         riding	       VBG	      S-VP	         O	         riding	  I-AM-ADV	       S-V	         O	         O	(S(VP*
+            his	      PRP$	      B-NP	         O	              -	  I-AM-ADV	      B-A1	         O	         O	(NP*
+        bicycle	        NN	      E-NP	         O	              -	  E-AM-ADV	      E-A1	         O	         O	*)
+             as	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	         O	         O	(PP*
+             he	       PRP	      S-NP	         O	              -	         O	  I-AM-TMP	      B-A1	         O	(NP(NP*)
+            and	        CC	         O	         O	              -	         O	  I-AM-TMP	      I-A1	         O	(SBAR*
+           five	        CD	      B-NP	         O	              -	         O	  I-AM-TMP	      I-A1	         O	(S(NP*
+          other	        JJ	      I-NP	         O	              -	         O	  I-AM-TMP	      I-A1	         O	*
+          males	       NNS	      E-NP	         O	              -	         O	  I-AM-TMP	      E-A1	         O	*)
+           hung	       VBD	      S-VP	         O	           hung	         O	  I-AM-TMP	       B-V	         O	(VP*
+            out	        RP	     S-PRT	         O	              -	         O	  I-AM-TMP	       E-V	         O	(ADVP*)
+           near	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	  B-AM-LOC	         O	(PP*
+             an	        DT	      B-NP	         O	              -	         O	  I-AM-TMP	  I-AM-LOC	         O	(NP(NP*
+      abandoned	       VBN	      I-NP	         O	      abandoned	         O	  I-AM-TMP	  I-AM-LOC	       S-V	*
+           home	        NN	      E-NP	         O	              -	         O	  I-AM-TMP	  I-AM-LOC	      S-A1	*)
+             in	        IN	      S-PP	         O	              -	         O	  I-AM-TMP	  I-AM-LOC	         O	(PP*
+         Larose	       NNP	      S-NP	     S-LOC	              -	         O	  E-AM-TMP	  E-AM-LOC	         O	(NP*
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	         O	*))))))))))))))))
+
+    Information	        NN	      S-NP	         O	              -	(S1(S(NP*)
+           from	        IN	      S-PP	         O	              -	*
+              :	         :	         O	         O	              -	*
+          Daily	       NNP	      B-NP	         O	              -	(NP*
+          Comet	       NNP	      E-NP	         O	              -	*)
+              ,	         ,	         O	         O	              -	*
+http://www.dailycomet.com	        JJ	      B-NP	         O	              -	(NP*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	*)))
+
+      Copyright	        NN	      B-NP	         O	              -	(S1(NP(NP*
+           2015	        CD	      E-NP	         O	              -	*)
+            The	        DT	      B-NP	     B-ORG	              -	(NP*
+     Associated	       NNP	      I-NP	     I-ORG	              -	*
+          Press	       NNP	      E-NP	     E-ORG	              -	*
+              .	         .	         O	         O	              -	*)))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         rights	       NNS	      E-NP	         O	              -	      E-A1	*)
+       reserved	       VBN	      S-VP	         O	       reserved	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+
+           This	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP*
+       material	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+            may	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	         O	*
+             be	        VB	      I-VP	         O	              -	         O	         O	(VP*
+      published	       VBN	      E-VP	         O	      published	       S-V	         O	(VP*
+              ,	         ,	         O	         O	              -	         O	         O	*
+      broadcast	        NN	      S-NP	         O	              -	         O	         O	*
+              ,	         ,	         O	         O	              -	         O	         O	*
+      rewritten	       VBN	      B-VP	         O	              -	         O	         O	*
+             or	        CC	      I-VP	         O	              -	         O	         O	*
+  redistributed	       VBN	      E-VP	         O	  redistributed	         O	       S-V	*)))
+              .	         .	         O	         O	              -	         O	         O	*))
+

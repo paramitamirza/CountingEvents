@@ -1,0 +1,113 @@
+     2016-07-08	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Police	       NNP	      S-NP	         O	              -	(S1(NP(NP*)
+              :	         :	         O	         O	              -	*
+       18-month	        JJ	    B-ADJP	         O	              -	(NP(NP(ADJP*
+            old	        JJ	    I-ADJP	         O	              -	*)
+           dead	        JJ	    E-ADJP	         O	              -	*)
+          after	        IN	      S-PP	         O	              -	(PP*
+       shooting	        NN	      S-NP	         O	              -	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	(PP*
+          Beebe	       NNP	      S-NP	     S-PER	              -	(NP*)))))))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+          Beebe	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
+         Police	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+     Department	       NNP	      E-NP	     E-ORG	              -	      E-A0	*)
+       confirms	       VBZ	      S-VP	         O	       confirms	       S-V	(VP*
+             an	        DT	      B-NP	         O	              -	      B-A1	(SBAR(S(NP*
+       18-month	        JJ	      I-NP	         O	              -	      I-A1	(ADJP*
+            old	        JJ	      I-NP	         O	              -	      I-A1	*))
+             is	       VBZ	      E-NP	         O	              -	      I-A1	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	      I-A1	(ADJP*)
+          after	        IN	      S-PP	         O	              -	      I-A1	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+       apparent	        JJ	      I-NP	         O	              -	      I-A1	*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+          Beebe	       NNP	      S-NP	     S-PER	              -	      I-A1	(NP*))
+         Friday	       NNP	      B-NP	         O	              -	      I-A1	(NP*
+        morning	        NN	      E-NP	         O	              -	      E-A1	*)))))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	(NP*)))
+
+            Few	        JJ	      B-NP	         O	              -	      B-A1	         O	         O	(S1(S(S(NP*
+        details	       NNS	      E-NP	         O	              -	      E-A1	         O	         O	*)
+           have	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	         O	         O	(VP*
+       released	       VBN	      E-VP	         O	       released	       S-V	         O	         O	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	(PP*
+           this	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	         O	(NP*
+           time	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	         O	*))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+            but	        CC	         O	         O	              -	         O	         O	         O	*
+         police	       NNS	      S-NP	         O	              -	         O	      S-A0	         O	(S(NP*)
+            say	       VBP	      S-VP	         O	            say	         O	       S-V	         O	(VP*
+           this	        DT	      B-NP	         O	              -	         O	      B-A1	      B-A1	(SBAR(S(NP*
+       incident	        NN	      E-NP	         O	              -	         O	      I-A1	      E-A1	*)
+       happened	       VBD	      S-VP	         O	       happened	         O	      I-A1	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	         O	      I-A1	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	         O	      I-A1	  I-AM-LOC	(NP(NP*
+         duplex	        NN	      E-NP	         O	              -	         O	      I-A1	  I-AM-LOC	*)
+             in	        IN	      S-PP	         O	              -	         O	      I-A1	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	  I-AM-LOC	(NP(NP*
+            300	        CD	      I-NP	         O	              -	         O	      I-A1	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	         O	      I-A1	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A1	  I-AM-LOC	(PP*
+         Spring	       NNP	      B-NP	     B-LOC	              -	         O	      I-A1	  I-AM-LOC	(NP*
+         Street	       NNP	      E-NP	     E-LOC	              -	         O	      E-A1	  E-AM-LOC	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+     reportedly	        RB	      I-VP	         O	              -	  S-AM-ADV	(ADVP*)
+         called	       VBN	      E-VP	         O	         called	       S-V	(VP*
+           just	        RB	    S-ADVP	         O	              -	  B-AM-TMP	(PP(ADVP*)
+          after	        IN	      S-PP	         O	              -	  I-AM-TMP	*
+          11:15	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           a.m.	        NN	      I-NP	         O	              -	  I-AM-TMP	*
+        NEWLINE	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))))
+
+           This	        DT	      S-NP	         O	              -	         O	(S1(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+              a	        DT	      B-NP	         O	              -	         O	(NP*
+     developing	       VBG	      I-NP	         O	     developing	       S-V	*
+          story	        NN	      E-NP	         O	              -	      S-A1	*))
+              .	         .	         O	         O	              -	         O	*))
+
+             We	       PRP	      S-NP	         O	              -	      S-A0	      S-A0	         O	(S1(S(NP*)
+           will	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	         O	(VP*
+       continue	        VB	      I-VP	         O	       continue	       S-V	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	         O	(S(VP*
+         update	        VB	      E-VP	         O	         update	      I-A1	       S-V	         O	(VP*
+           this	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	(NP*
+          story	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	*))))
+             as	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(SBAR*
+           more	       JJR	      B-NP	         O	              -	      I-A1	         O	      B-A1	(S(NP*
+    information	        NN	      E-NP	         O	              -	      I-A1	         O	      E-A1	*)
+        becomes	       VBZ	      S-VP	         O	        becomes	      I-A1	         O	       S-V	(VP*
+      available	        JJ	    S-ADJP	         O	              -	      E-A1	         O	      S-A2	(ADJP*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+           Matt	       NNP	      B-NP	     B-PER	              -	      B-A0	         O	(S1(S(NP*
+        Mershon	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	*)
+           will	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	*
+           have	        VB	      E-VP	         O	           have	       S-V	         O	*
+              a	        DT	      B-NP	         O	              -	      B-A1	         O	(NP*
+           live	        JJ	      I-NP	         O	              -	      I-A1	         O	*
+         report	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+           with	        IN	      S-PP	         O	              -	      I-A1	         O	*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP*
+         latest	       JJS	      I-NP	         O	              -	      I-A1	      I-A1	*
+        details	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+         coming	       VBG	      S-VP	         O	         coming	      I-A1	       B-V	*
+             up	        RP	     S-PRT	         O	              -	      I-A1	       E-V	(ADVP*)
+             on	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+        Channel	       NNP	      B-NP	    B-MISC	              -	      I-A1	  I-AM-LOC	(NP*
+              7	        CD	      I-NP	    I-MISC	              -	      I-A1	  I-AM-LOC	*
+           News	       NNP	      E-NP	    E-MISC	              -	      I-A1	  E-AM-LOC	*))
+             at	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(PP*
+             10	        CD	      S-NP	         O	              -	      E-A1	  E-AM-TMP	(NP*
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	         O	*))))
+

@@ -1,0 +1,119 @@
+     2017-03-10	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Police	       NNP	      S-NP	         O	              -	(S1(NP(NP*)
+              :	         :	         O	         O	              -	*
+         Female	        JJ	      B-NP	    S-MISC	              -	(NP(NP*
+           teen	        NN	      I-NP	         O	              -	*
+           shot	        NN	      E-NP	         O	              -	*)
+              ,	         ,	         O	         O	              -	*
+        suspect	        JJ	    S-ADJP	         O	              -	(ADJP*
+             in	        IN	      S-PP	         O	              -	(PP*
+        custody	        NN	      S-NP	         O	              -	(NP*))))))
+
+             ×	       SYM	      B-NP	         O	              -	         O	         O	         O	(S1(S(NP*
+         Police	       NNP	      E-NP	         O	              -	         O	         O	         O	*)
+              :	         :	         O	         O	              -	         O	         O	         O	*
+         Female	        JJ	      B-NP	    S-MISC	              -	         O	         O	         O	(S(NP(NP(NP*
+           teen	        NN	      I-NP	         O	              -	         O	         O	         O	*
+           shot	        NN	      E-NP	         O	              -	         O	         O	         O	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+        suspect	        JJ	    S-ADJP	         O	              -	         O	         O	         O	(ADJP*
+             in	        IN	      S-PP	         O	              -	         O	         O	         O	(PP*
+        custody	        NN	      B-NP	         O	              -	         O	         O	         O	(NP*
+        NEWLINE	       NNP	      I-NP	     B-LOC	              -	         O	         O	         O	*
+          OLIVE	       NNP	      I-NP	     I-LOC	              -	         O	         O	         O	*
+         BRANCH	       NNP	      E-NP	     E-LOC	              -	         O	         O	         O	*))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+          Miss.	       NNP	      S-NP	     S-LOC	              -	      S-A0	         O	         O	(NP*))
+            —	       VBD	      S-VP	         O	            —	       S-V	         O	         O	(VP*
+             An	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	(SBAR(S(NP*
+          Olive	       NNP	      I-NP	     B-LOC	              -	      I-A1	      I-A1	         O	*
+         Branch	       NNP	      I-NP	     E-LOC	              -	      I-A1	      I-A1	         O	*
+           teen	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+            has	       VBZ	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	      I-A1	         O	         O	(VP*
+         rushed	       VBN	      E-VP	         O	         rushed	      I-A1	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A2	         O	(NP*
+       hospital	        NN	      E-NP	         O	              -	      E-A1	      E-A2	         O	*))
+      following	       VBG	      S-PP	         O	      following	  B-AM-TMP	  B-AM-TMP	       S-V	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	      B-A1	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	      E-A1	*)
+         Friday	       NNP	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  B-AM-TMP	(NP*
+      afternoon	        NN	      E-NP	         O	              -	  E-AM-TMP	  E-AM-TMP	  E-AM-TMP	*
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	      S-A1	         O	*))))))))))))
+
+      According	       VBG	      S-PP	         O	              -	         O	(S1(S*
+             to	        TO	      S-PP	         O	              -	         O	*
+         police	        NN	      S-NP	         O	              -	         O	(NP*)
+              ,	         ,	         O	         O	              -	         O	*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+        17-year	        JJ	      I-NP	         O	              -	         O	(ADJP*
+              -	         :	      I-NP	         O	              -	         O	*
+            old	        JJ	      I-NP	         O	              -	         O	*)
+         female	        NN	      E-NP	         O	              -	         O	*)
+            was	       VBD	      S-VP	         O	              -	         O	(VP*
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	(NP(NP*
+           home	        NN	      E-NP	         O	              -	         O	*)
+             on	        IN	      S-PP	         O	              -	         O	(PP*
+     Shenandoah	       NNP	      B-NP	     B-ORG	              -	         O	(NP*
+          Drive	       NNP	      E-NP	     I-ORG	              -	         O	*))
+           near	        IN	      S-PP	     I-ORG	              -	         O	(PP*
+          Craft	       NNP	      B-NP	     I-ORG	              -	         O	(NP*
+            and	        CC	      I-NP	     I-ORG	              -	         O	*
+        Goodman	       NNP	      I-NP	     I-ORG	              -	         O	*
+           Road	       NNP	      E-NP	     E-ORG	              -	         O	*))))
+           when	       WRB	    S-ADVP	         O	              -	S-R-AM-TMP	(SBAR(WHADVP*)
+            she	       PRP	      S-NP	         O	              -	      S-A1	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	(S1(S(NP*
+        suspect	        NN	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+            the	        DT	      B-NP	         O	              -	(NP*
+           case	        NN	      E-NP	         O	              -	*))
+             is	       VBZ	      S-VP	         O	              -	(VP*
+              a	        DT	      B-NP	         O	              -	(NP*
+        16-year	        JJ	      I-NP	         O	              -	*
+              -	         :	      I-NP	         O	              -	*
+            old	        JJ	      I-NP	         O	              -	*
+           male	        NN	      E-NP	         O	              -	*
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	*))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(S(NP*
+           girl	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+         rushed	       VBN	      E-VP	         O	         rushed	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	         O	(NP*
+       Regional	       NNP	      I-NP	     B-ORG	              -	      I-A2	         O	*
+        medical	        JJ	      I-NP	     I-ORG	              -	      I-A2	         O	*
+         Center	       NNP	      E-NP	     E-ORG	              -	      E-A2	         O	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+            and	        CC	         O	         O	              -	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	      B-A1	(S(NP*
+            boy	        NN	      E-NP	         O	              -	         O	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	         O	       S-V	(VP*
+           into	        IN	      S-PP	         O	              -	         O	      B-A2	(PP*
+        custody	        NN	      S-NP	         O	              -	         O	      E-A2	(NP*
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	*)))))))
+
+    Authorities	       NNS	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+           have	       VBP	      B-VP	         O	              -	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	*
+       released	       VBN	      E-VP	         O	       released	       S-V	(VP*
+            any	        DT	      B-NP	         O	              -	      B-A1	(NP*
+          other	        JJ	      I-NP	         O	              -	      I-A1	*
+    information	        NN	      E-NP	         O	              -	      E-A1	*)
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+           this	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           time	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))
+              .	         .	         O	         O	              -	         O	*))
+

@@ -1,0 +1,120 @@
+     2015-11-30	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        16-year	       SYM	      S-NP	         O	              -	         O	(S1(VP(ADJP*
+              -	         :	         O	         O	              -	         O	*
+            old	        JJ	         O	         O	              -	      S-A1	*)
+          flown	       VBN	      S-VP	         O	          flown	       S-V	(S(VP*
+             to	        TO	      S-PP	         O	              -	      B-A4	(PP*
+       hospital	        NN	      S-NP	         O	              -	      E-A4	(NP*))
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+     accidental	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
+       shooting	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+        16-year	        JJ	      E-NP	         O	              -	      I-A1	         O	(ADJP*
+              -	         :	         O	         O	              -	      I-A1	         O	*
+            old	        JJ	    S-ADJP	         O	              -	      E-A1	         O	*))
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+          flown	       VBN	      E-VP	         O	          flown	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A3	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A3	         O	(NP*
+       hospital	        NN	      E-NP	         O	              -	      E-A3	         O	*))
+          after	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	(SBAR*
+             he	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A1	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	  I-AM-TMP	         O	(VP*
+   accidentally	        RB	      I-VP	         O	              -	  I-AM-TMP	  S-AM-MNR	(VP(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	  E-AM-TMP	       S-V	*))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+         Sunday	       NNP	      S-NP	         O	              -	  S-AM-TMP	(NP*)
+           just	        RB	    S-ADVP	         O	              -	  B-AM-TMP	(PP*
+         before	        RB	    S-ADVP	         O	              -	  I-AM-TMP	*
+              4	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*))
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+           Town	       NNP	      E-NP	     B-LOC	              -	  I-AM-LOC	*)
+             of	        IN	      S-PP	     I-LOC	              -	  I-AM-LOC	(PP*
+           West	       NNP	      B-NP	     I-LOC	              -	  I-AM-LOC	(NP*
+         Sweden	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	*))))
+              ,	         ,	         O	         O	              -	  I-AM-LOC	*
+          which	       WDT	      S-NP	         O	              -	  I-AM-LOC	(SBAR(WHNP*)
+             is	       VBZ	      S-VP	         O	              -	  I-AM-LOC	(S(VP*
+      northwest	        RB	    S-ADVP	         O	              -	  I-AM-LOC	(ADVP*
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+     Cumberland	       NNP	      B-NP	     S-LOC	              -	  I-AM-LOC	(NP*
+              .	         .	      I-NP	         O	              -	  I-AM-LOC	*
+        NEWLINE	       NNP	      E-NP	     S-LOC	              -	  E-AM-LOC	*)))))))))
+
+       Deputies	       NNS	      S-NP	         O	              -	      S-A0	         O	         O	         O	(S1(S(NP*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	         O	         O	(VP*
+        Michael	       NNP	      B-NP	     B-PER	              -	      B-A1	      B-A0	         O	      B-A0	(SBAR(S(NP(NP*
+           Coen	       NNP	      E-NP	     E-PER	              -	      I-A1	      I-A0	         O	      I-A0	*)
+              -	         :	         O	         O	              -	      I-A1	      I-A0	         O	      I-A0	*
+         Nelson	       NNP	      S-NP	     B-ORG	              -	      I-A1	      I-A0	         O	      I-A0	(NP(NP*)
+             of	        IN	      S-PP	     I-ORG	              -	      I-A1	      I-A0	         O	      I-A0	(PP*
+      Frederick	       NNP	      S-NP	     E-ORG	              -	      I-A1	      E-A0	         O	      E-A0	(NP*))))
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+        driving	       VBG	      E-VP	         O	        driving	      I-A1	       S-V	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	(NP*
+         pickup	        NN	      I-NP	         O	              -	      I-A1	      I-A1	         O	         O	*
+          truck	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	*)
+           when	       WRB	    S-ADVP	         O	              -	      I-A1	  B-AM-TMP	         O	         O	(SBAR(WHADVP*)
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	      B-A1	      B-A1	(S(NP(NP*
+          rifle	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	      I-A1	(NP(NP*
+            cab	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	      I-A1	(NP*
+          truck	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	      E-A1	      E-A1	*)))))
+           went	       VBD	      S-VP	         O	           went	      I-A1	  I-AM-TMP	       S-V	         O	(VP(VP*
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	         O	         O	(PP*))
+            and	        CC	         O	         O	              -	      I-A1	  I-AM-TMP	         O	         O	*
+           shot	       VBD	      S-VP	         O	           shot	      I-A1	  I-AM-TMP	         O	       S-V	(VP*
+            him	       PRP	      S-NP	         O	              -	      I-A1	  I-AM-TMP	         O	      S-A1	(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	         O	  B-AM-MNR	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	         O	  I-AM-MNR	(NP*
+        forearm	        NN	      E-NP	         O	              -	      E-A1	  I-AM-TMP	         O	  E-AM-MNR	*
+              .	         .	         O	         O	              -	         O	  I-AM-TMP	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	  E-AM-TMP	         O	         O	*)))))))))))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP*
+         bullet	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+         passed	       VBN	      S-VP	         O	         passed	       S-V	         O	(VP(VP*
+        through	        IN	      S-PP	         O	              -	  B-AM-DIR	         O	(PP*
+            his	      PRP$	      B-NP	         O	              -	  I-AM-DIR	         O	(NP*
+            arm	        NN	      E-NP	         O	              -	  E-AM-DIR	         O	*)))
+            and	        CC	         O	         O	              -	         O	         O	*
+           went	       VBD	      S-VP	         O	           went	         O	       S-V	(VP*
+        through	        IN	      S-PP	         O	              -	         O	      B-A1	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	(NP*
+          truck	        NN	      I-NP	         O	              -	         O	      I-A1	*
+            cab	        NN	      E-NP	         O	              -	         O	      E-A1	*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	      S-A1	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	*
+          taken	       VBN	      E-VP	         O	          taken	       S-V	         O	*
+             to	        TO	      S-PP	         O	              -	  B-AM-DIR	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-DIR	      B-A1	(NP*
+          local	        JJ	      I-NP	         O	              -	  I-AM-DIR	      I-A1	*
+       hospital	        NN	      E-NP	         O	              -	  E-AM-DIR	      E-A1	*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+           then	        RB	    S-ADVP	         O	              -	         O	  S-AM-TMP	(VP(ADVP*)
+          flown	       VBN	      S-VP	         O	          flown	         O	       S-V	*
+             to	        TO	      S-PP	         O	              -	         O	      B-A4	(PP*
+            St.	       NNP	      B-NP	     B-PER	              -	         O	      I-A4	(NP*
+           Paul	       NNP	      I-NP	     E-PER	              -	         O	      I-A4	*)))
+              .	         .	      I-NP	         O	              -	         O	      I-A4	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	      E-A4	(NP*)))
+
+       Deputies	       NNS	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+          still	        RB	      I-VP	         O	              -	  S-AM-TMP	(ADVP*)
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	*))
+

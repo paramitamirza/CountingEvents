@@ -1,0 +1,69 @@
+     2016-06-28	        CD	      S-NP	         O	              -	(S1(NP*))
+
+      Milwaukee	       NNP	      B-NP	     S-LOC	              -	      B-A0	(S1(S(NP*
+         police	       NNS	      E-NP	         O	              -	      E-A0	*)
+  investigating	       VBG	      S-VP	         O	  investigating	       S-V	(VP*
+          fatal	        JJ	      B-NP	         O	              -	      B-A1	(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*))))
+
+      Milwaukee	       NNP	      B-NP	     S-LOC	              -	      B-A0	(S1(S(NP*
+         police	       NNS	      E-NP	         O	              -	      E-A0	*)
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	(NP*
+          fatal	        JJ	      I-NP	         O	              -	      I-A1	*
+       shooting	        NN	      I-NP	         O	              -	      E-A1	*)))
+              .	         .	      I-NP	         O	              -	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      S-A0	(NP*)))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+       reported	       VBN	      E-VP	         O	       reported	       S-V	(VP*
+           just	        RB	    S-ADVP	         O	              -	  B-AM-TMP	(PP(ADVP*)
+         before	        IN	      S-PP	         O	              -	  I-AM-TMP	*
+           3:00	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP(NP(NP*
+           a.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+             on	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+        Tuesday	       NNP	      S-NP	         O	              -	  I-AM-LOC	(NP*))
+           near	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+           28th	        JJ	      B-NP	         O	              -	  I-AM-LOC	(NP*
+         Street	       NNP	      E-NP	         O	              -	  I-AM-LOC	*)))
+            and	        CC	         O	         O	              -	  I-AM-LOC	*
+        Capitol	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	(NP*
+          Drive	       NNP	      E-NP	     E-ORG	              -	  E-AM-LOC	*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	*)))))))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+        49-year	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*)
+            man	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+           died	       VBD	      S-VP	         O	           died	      I-A1	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+          scene	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+  Investigators	       NNS	      S-NP	         O	              -	      S-A0	      S-A0	         O	(S1(S(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+          still	        RB	      I-VP	         O	              -	  S-AM-TMP	         O	         O	(ADVP*)
+         trying	       VBG	      I-VP	         O	         trying	       S-V	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	         O	(S(VP*
+         figure	        VB	      E-VP	         O	         figure	      I-A1	       B-V	         O	(VP*
+            out	        RP	     S-PRT	         O	              -	      I-A1	       E-V	         O	(ADVP*)
+        exactly	        RB	      B-NP	         O	              -	      I-A1	      B-A1	         O	(SBAR(ADVP*)
+           what	        WP	      E-NP	         O	              -	      I-A1	      I-A1	    S-R-A1	(WHNP*)
+            led	       VBD	      S-VP	         O	            led	      I-A1	      I-A1	       B-V	(S(VP*
+             up	        RP	     S-PRT	         O	              -	      I-A1	      I-A1	       E-V	(ADVP*)
+             to	        TO	      S-PP	         O	              -	      I-A1	      I-A1	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      I-A2	(NP(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      I-A2	*
+             's	       POS	      B-NP	         O	              -	      I-A1	      I-A1	      I-A2	*)
+          death	        NN	      E-NP	         O	              -	      E-A1	      E-A1	      E-A2	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	*))
+

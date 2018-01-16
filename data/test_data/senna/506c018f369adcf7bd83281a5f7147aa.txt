@@ -1,0 +1,90 @@
+     2016-07-24	        CD	      S-NP	         O	              -	(S1(NP*))
+
+          Child	        NN	      B-NP	         O	              -	(S1(NP(NP*
+           shot	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+          local	        JJ	      B-NP	         O	              -	(NP*
+      apartment	        NN	      I-NP	         O	              -	*
+        complex	        NN	      E-NP	         O	              -	*))))
+
+       Meridian	       NNP	      B-NP	     S-LOC	              -	      B-A0	         O	(S1(S(NP*
+         police	       NNS	      E-NP	         O	              -	      E-A0	         O	*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+      overnight	        RB	    S-ADVP	         O	              -	  S-AM-TMP	         O	(ADVP*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+             an	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP(NP*
+      apartment	        NN	      I-NP	         O	              -	  I-AM-LOC	         O	*
+        complex	        NN	      E-NP	         O	              -	  I-AM-LOC	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	  I-AM-LOC	         O	(SBAR(WHADVP*)
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	      B-A1	(S(NP*
+          child	        NN	      E-NP	         O	              -	  I-AM-LOC	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	  I-AM-LOC	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	  E-AM-LOC	       S-V	(VP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	         O	(NP*)))
+
+            MPD	       NNP	      S-NP	     S-ORG	              -	      S-A0	         O	(S1(S(NP*)
+      responded	       VBD	      S-VP	         O	      responded	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	(PP*
+        Western	       NNP	      B-NP	     B-LOC	              -	      I-A2	  B-AM-LOC	(NP*
+        Gardens	      NNPS	      E-NP	     E-LOC	              -	      I-A2	  E-AM-LOC	*))
+          where	       WRB	    S-ADVP	         O	              -	      I-A2	S-R-AM-LOC	(SBAR(WHADVP*)
+           that	        DT	      B-NP	         O	              -	      I-A2	      B-A1	(S(NP*
+       incident	        NN	      E-NP	         O	              -	      I-A2	      E-A1	*)
+           took	       VBD	      S-VP	         O	           took	      I-A2	       S-V	(VP*
+          place	        NN	      S-NP	         O	              -	      E-A2	      S-A2	(NP*)))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	      S-A1	(NP*)))
+
+       Sergeant	       NNP	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP*
+        Dareall	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	*
+       Thompson	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+        1-month	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+         infant	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+      airlifted	       VBN	      E-VP	         O	      airlifted	      I-A1	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A2	(PP*
+        Jackson	       NNP	      S-NP	     S-PER	              -	      E-A1	      E-A2	(NP*
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	*)))))))))
+
+       Thompson	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	(S1(S(NP*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	(SBAR(S(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+        appears	       VBZ	      B-VP	         O	        appears	      I-A1	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	    B-C-A1	         O	(S(VP*
+             be	        VB	      E-VP	         O	              -	      I-A1	    I-C-A1	         O	(VP*
+     accidental	        JJ	    S-ADJP	         O	              -	      I-A1	    E-C-A1	         O	(ADJP*))))))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	*
+            but	        CC	         O	         O	              -	      I-A1	         O	         O	*
+            two	        CD	      B-NP	         O	              -	      I-A1	         O	      B-A1	(S(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	         O	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	      I-A1	         O	       S-V	(VP*
+           into	        IN	      S-PP	         O	              -	      I-A1	         O	      B-A2	(PP*
+        custody	        NN	      S-NP	         O	              -	      E-A1	         O	      E-A2	(NP*
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	*))))))))))
+
+             We	       PRP	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+            'll	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	(VP*
+          bring	        VB	      E-VP	         O	          bring	       S-V	         O	(VP*
+            you	       PRP	      S-NP	         O	              -	      S-A3	         O	(NP*)
+           more	       JJR	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
+    information	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+             as	        RB	    B-ADVP	         O	              -	  B-AM-TMP	         O	(ADVP*
+           soon	        RB	    E-ADVP	         O	              -	  I-AM-TMP	         O	*
+             as	        IN	    S-SBAR	         O	              -	  I-AM-TMP	         O	(SBAR*
+             we	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A0	(S(NP*)
+            get	       VBP	      S-VP	         O	            get	  I-AM-TMP	       S-V	(VP*
+             it	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A1	(NP*))))))))
+              .	         .	         O	         O	              -	  I-AM-TMP	         O	*
+        NEWLINE	       NNP	      S-NP	     S-ORG	              -	  E-AM-TMP	         O	(NP*)))
+

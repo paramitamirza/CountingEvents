@@ -108,50 +108,52 @@ public class SemEvalDataParser {
 		}
 	}
 	
-	public void writeSentences(String filepath) throws IOException {
+	public void writeSentences(String filepath, String outputdir) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(filepath));
 		String line, filename = "";
-		StringBuilder sentences = new StringBuilder();
+//		StringBuilder sentences = new StringBuilder();
 		
 		line = br.readLine();
 		String sentStr = "";
-		String curSent = "";
-		String curPart = "";
+		String prevSent = "", currSent = "";
+		
+		File directory = new File(outputdir);
+	    if (!directory.exists()){
+	        directory.mkdirs();
+	    }
 		
 		while (line != null) {
 			if (!line.startsWith("#begin") && !line.startsWith("#end")) {
+				
 				String[] cols = line.split("\t");
-				if (curSent.equals("")
-						&& !curSent.equals(cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1])) {
-					
-					curSent = cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1];
-					
-				} else if (!curSent.equals("")
-						&& !curSent.equals(cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1])) {
-					sentences.append(sentStr);
-					curSent = cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1];
-				} 
+				currSent = cols[0].split("\\.")[1];
 				
-				if (cols[1].equals("NEWLINE"))	sentStr += "\n";
-				else if (cols[2].equals("DCT")) sentStr += cols[1];
-				else if (!cols[2].equals(curPart)) sentStr += "\n\n" + cols[1] + " ";
-				else sentStr += cols[1] + " ";
-				
-				curPart = cols[2];
+				if (currSent.equals("DCT")) {
+					sentStr += cols[1];
+					prevSent = currSent;
+				} else {
+					if (currSent.equals(prevSent)) {
+						sentStr += " " + cols[1];
+					} else {
+						sentStr += "\n" + cols[1];
+						prevSent = currSent;						
+					}
+				}
 				
 			} else {
 				if (line.startsWith("#begin")) {
 					filename = line.split(" ")[2].substring(1);
 					filename = filename.substring(0, filename.length()-2);
-					sentences.setLength(0);
+//					sentences.setLength(0);
 				
 				} else if (line.startsWith("#end")) {
-					sentences.append(sentStr);
-					BufferedWriter bw = new BufferedWriter(new FileWriter("./data/input/s1/files/" + filename + ".txt"));
+//					sentences.append(sentStr);
+					BufferedWriter bw = new BufferedWriter(new FileWriter(outputdir + "/" + filename + ".txt"));
 			        bw.write(sentStr);
 			        bw.close();					
 				}
-				curSent = "";
+				currSent = "";
+				prevSent = "";
 				sentStr = "";
 			}
 			line = br.readLine();
@@ -167,7 +169,7 @@ public class SemEvalDataParser {
 		else return false;
 	}
 	
-	public void writeBabelOutput(String filepath) throws IOException, InvalidBabelSynsetIDException {
+	public void writeBabelOutput(String filepath, String outputdir) throws IOException, InvalidBabelSynsetIDException {
 		BufferedReader br = new BufferedReader(new FileReader(filepath));
 		String line, filename = "";
 		StringBuilder sentences = new StringBuilder();
@@ -176,10 +178,16 @@ public class SemEvalDataParser {
 		String sentStr = "";
 		String curSent = "";
 		String curPart = "";
+		String word = "";
 		
 		int limit = 1200;
-		int start = 1;
+		int start = 2785;
 		int num = 1;
+		
+		File directory = new File(outputdir);
+	    if (!directory.exists()){
+	        directory.mkdirs();
+	    }
 		
 		BabelNet bn = BabelNet.getInstance();
 		BabelfyConstraints constraints = new BabelfyConstraints();
@@ -204,47 +212,33 @@ public class SemEvalDataParser {
 				} else if (!curSent.equals("")
 						&& !curSent.equals(cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1])) {
 					curSent = cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1];
-				} 
+				}
 				
-//				if (cols[1].equals("NEWLINE"))	sentStr += "\n";
-//				else if (cols[2].equals("DCT")) sentStr += cols[1];
-//				else if (!cols[2].equals(curPart)) sentStr += "\n\n" + cols[1] + " ";
-//				else sentStr += cols[1] + " ";
+//				if (cols[1].trim().isEmpty()) word = "EMPTY";
+				if (cols[1].equals("  ")) word = "EMPTY";
+				else word = cols[1];
 				
-				if (cols[2].equals("DCT")) sentStr += cols[1];
-				else if (!cols[2].equals(curPart)) sentStr += "\n" + cols[1] + " ";
-				else sentStr += cols[1] + " ";
+				if (cols[2].equals("DCT")) sentStr += word;
+				else if (!cols[2].equals(curPart)) sentStr += "\n" + word;
+				else sentStr += " " + word;
 				
 				curPart = cols[2];
 				
 			} else {
 				if (line.startsWith("#begin")) {
-					if (num > (start + limit - 1)) {
-						break;
-					}
+//					if (num > (start + limit - 1)) {
+//						break;
+//					}
 					filename = line.split(" ")[2].substring(1);
 					filename = filename.substring(0, filename.length()-2);
 					sentences.setLength(0);
 				
 				} else if (line.startsWith("#end")) {
-//					for (String l : sentStr.split("\n")) {
-//						
-//						if (!l.trim().equals("")) {
-//							Document doc = new Document(l);
-//							for (Sentence sss : doc.sentences()) {
-////								List<String> words = sss.words();
-//								sentences.append(sss.text() + "\n");
-//							}
-//						}
-//					}
 					
 					if (num >= start) {
-					
-						BufferedWriter bw = new BufferedWriter(new FileWriter("./data/babel/s3/files/" + filename + ".txt"));
-				        bw.write(sentStr);
-				        bw.close();
 						
 						System.out.println("====" + num + "====");
+						System.out.println(sentStr);
 						
 						sentStr = sentStr.trim();
 						List<BabelfyToken> tokenizedInput = new ArrayList<>();
@@ -253,7 +247,6 @@ public class SemEvalDataParser {
 								tokenizedInput.add(new BabelfyToken(tok, Language.EN));
 							}
 						}
-//						System.out.println(sentStr);
 						
 						List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(tokenizedInput, Language.EN, constraints);
 						//bfyAnnotations is the result of Babelfy.babelfy() call
@@ -299,7 +292,7 @@ public class SemEvalDataParser {
 						
 						String lastOffset = "";
 						
-						bw = new BufferedWriter(new FileWriter("./data/babel/s3/output/" + filename + ".tsv"));
+						BufferedWriter bw = new BufferedWriter(new FileWriter(outputdir + "/" + filename + ".tsv"));
 						for (int n = 0; n < words.size(); n ++) {
 							if (n == 0 && n == (words.size()-1)) {	//the only concept
 								bw.write(words.get(n)
@@ -355,191 +348,6 @@ public class SemEvalDataParser {
 				        					+ "\t" + offsets.get(n)
 						        			+ "\t" + babelSynsets.get(n)
 						        			+ "\t" + babelTypes.get(n)
-						        			+ "\t" + wordnetSynsets.get(n)
-						        			+ "\t" + babelNetURLs.get(n)
-						        			+ "\t" + DBPediaURLs.get(n)
-						        			+ "\n"
-						        			);
-				        			lastOffset = offsets.get(n);
-				        		}
-				        	} 
-						}
-						bw.close();
-					}
-					
-					num ++;
-				}
-				curSent = "";
-				sentStr = "";
-			}
-			line = br.readLine();
-		}
-	}
-	
-	public void writeBabelOutputOnlyTitle(String filepath) throws IOException, InvalidBabelSynsetIDException {
-		BufferedReader br = new BufferedReader(new FileReader(filepath));
-		String line, filename = "";
-		StringBuilder sentences = new StringBuilder();
-		
-		line = br.readLine();
-		String sentStr = "";
-		String curSent = "";
-		String curPart = "";
-		
-		int limit = 5;
-		int start = 981;
-		int num = 1;
-		
-		BabelNet bn = BabelNet.getInstance();
-		BabelfyConstraints constraints = new BabelfyConstraints();
-//		SemanticAnnotation a = new SemanticAnnotation(new TokenOffsetFragment(0, 0), "bn:03083790n",
-//		    "http://dbpedia.org/resource/BabelNet", Source.OTHER);
-//		constraints.addAnnotatedFragments(a);
-		BabelfyParameters bp = new BabelfyParameters();
-		bp.setAnnotationResource(SemanticAnnotationResource.BN);
-		bp.setMCS(MCS.ON_WITH_STOPWORDS);
-//		bp.setScoredCandidates(ScoredCandidates.ALL);
-		
-		Babelfy bfy = new Babelfy(bp);
-		
-		while (line != null) {
-			if (!line.startsWith("#begin") && !line.startsWith("#end")) {
-				String[] cols = line.split("\t");
-				if (curSent.equals("")
-						&& !curSent.equals(cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1])) {
-					
-					curSent = cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1];
-					
-				} else if (!curSent.equals("")
-						&& !curSent.equals(cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1])) {
-					curSent = cols[0].split("\\.")[0] + "." + cols[0].split("\\.")[1];
-				} 
-				
-//				if (cols[1].equals("NEWLINE"))	sentStr += "\n";
-//				else if (cols[2].equals("DCT")) sentStr += cols[1];
-//				else if (!cols[2].equals(curPart)) sentStr += "\n\n" + cols[1] + " ";
-//				else sentStr += cols[1] + " ";
-				
-				if (cols[2].equals("TITLE")) sentStr += cols[1] + " ";
-				
-				curPart = cols[2];
-				
-			} else {
-				if (line.startsWith("#begin")) {
-					if (num > (start + limit - 1)) {
-						break;
-					}
-					filename = line.split(" ")[2].substring(1);
-					filename = filename.substring(0, filename.length()-2);
-					sentences.setLength(0);
-				
-				} else if (line.startsWith("#end")) {
-//					for (String l : sentStr.split("\n")) {
-//						
-//						if (!l.trim().equals("")) {
-//							Document doc = new Document(l);
-//							for (Sentence sss : doc.sentences()) {
-////								List<String> words = sss.words();
-//								sentences.append(sss.text() + "\n");
-//							}
-//						}
-//					}
-					
-					if (num >= start) {
-					
-						BufferedWriter bw;
-//						bw = new BufferedWriter(new FileWriter("./data/babel/s1/files/" + filename + ".txt"));
-//				        bw.write(sentStr);
-//				        bw.close();
-						
-						sentStr = sentStr.trim();
-						
-						System.out.println("====" + num + "====");
-						System.out.println(filename + "\t" + sentStr.trim());
-						
-						List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(sentStr, Language.EN, constraints);
-						//bfyAnnotations is the result of Babelfy.babelfy() call
-						List<String> words = new ArrayList<String>();
-						List<String> offsets = new ArrayList<String>();
-						List<String> wordnetSynsets = new ArrayList<String>();
-						List<String> babelSynsets = new ArrayList<String>();
-						List<String> babelNetURLs = new ArrayList<String>();
-						List<String> DBPediaURLs = new ArrayList<String>();
-						
-						for (SemanticAnnotation annotation : bfyAnnotations)
-						{
-						    //splitting the input text using the CharOffsetFragment start and end anchors
-						    String frag = sentStr.substring(annotation.getCharOffsetFragment().getStart(),
-						        annotation.getCharOffsetFragment().getEnd() + 1);
-						    words.add(frag);
-						    offsets.add(annotation.getCharOffsetFragment().getStart() + "," + (annotation.getCharOffsetFragment().getEnd() + 1));
-						    babelSynsets.add(annotation.getBabelSynsetID());
-						    babelNetURLs.add(annotation.getBabelNetURL());
-						    DBPediaURLs.add(annotation.getDBpediaURL());
-						    
-						    BabelSynset by = bn.getSynset(new BabelSynsetID(annotation.getBabelSynsetID()));
-						    Set<String> wnSynSet = new HashSet<String>();
-						    List<WordNetSynsetID> wnSynList = by.getWordNetOffsets();
-						    for (WordNetSynsetID syn : wnSynList) {
-						    	wnSynSet.add(syn.toString());
-						    }					    
-						    wordnetSynsets.add(wnSynSet.toString());
-						}
-						
-						String lastOffset = "";
-						
-						bw = new BufferedWriter(new FileWriter("./data/babel/s1/title/" + filename + ".tsv"));
-						for (int n = 0; n < words.size(); n ++) {
-							if (n == 0 && n == (words.size()-1)) {	//the only concept
-								bw.write(words.get(n)
-					        			+ "\t" + offsets.get(n)
-					        			+ "\t" + babelSynsets.get(n)
-					        			+ "\t" + wordnetSynsets.get(n)
-					        			+ "\t" + babelNetURLs.get(n)
-					        			+ "\t" + DBPediaURLs.get(n)
-					        			+ "\n"
-					        			);
-			        			lastOffset = offsets.get(n);
-								
-							} else if (n == 0 && (n+1) < words.size()) {		//first concept
-								if (!isIncludedInOffset(offsets.get(n), offsets.get(n+1))) {
-				        			bw.write(words.get(n)
-						        			+ "\t" + offsets.get(n)
-						        			+ "\t" + babelSynsets.get(n)
-						        			+ "\t" + wordnetSynsets.get(n)
-						        			+ "\t" + babelNetURLs.get(n)
-						        			+ "\t" + DBPediaURLs.get(n)
-						        			+ "\n"
-						        			);
-				        			lastOffset = offsets.get(n);
-				        		}
-								
-							} else if (n == (words.size()-1) && (n-1) >= 0) {	//last concept
-								if (((!lastOffset.equals("") && !isIncludedInOffset(offsets.get(n), lastOffset)))
-										|| lastOffset.equals("")
-											) {
-				        			bw.write(words.get(n)
-						        			+ "\t" + offsets.get(n)
-						        			+ "\t" + babelSynsets.get(n)
-						        			+ "\t" + wordnetSynsets.get(n)
-						        			+ "\t" + babelNetURLs.get(n)
-						        			+ "\t" + DBPediaURLs.get(n)
-						        			+ "\n"
-						        			);
-				        			lastOffset = offsets.get(n);
-				        		}
-								
-							} else {	//excluding the first concept and the last concept
-								
-								if (!isIncludedInOffset(offsets.get(n), offsets.get(n+1))
-										&& (
-											((!lastOffset.equals("") && !isIncludedInOffset(offsets.get(n), lastOffset)))
-											|| lastOffset.equals("")
-												)
-										) {
-				        			bw.write(words.get(n)
-						        			+ "\t" + offsets.get(n)
-						        			+ "\t" + babelSynsets.get(n)
 						        			+ "\t" + wordnetSynsets.get(n)
 						        			+ "\t" + babelNetURLs.get(n)
 						        			+ "\t" + DBPediaURLs.get(n)
@@ -726,10 +534,12 @@ public class SemEvalDataParser {
 //		parser.writeMateSentences("./data/trial_data_final/input/s1/docs.conll");
 		
 		//Parse SemEval CoNLL format into sentence (raw text) format, one article per file
-//		parser.writeSentences("./data/trial_data_final/input/s1/docs.conll");
+//		parser.writeSentences("./data/trial_data_final/input/s1/docs.conll", "./data/trial_data_final/sentences/");		//done!
+//		parser.writeSentences("./data/test_data/input/s1/docs.conll", "./data/test_data/sentences/");					//done!
 		
 		//Parse SemEval CoNLL format into sentence (raw text) format, then run BabelFly on the sentences
-		parser.writeBabelOutput("./data/trial_data_final/input/s3/docs.conll");
+//		parser.writeBabelOutput("./data/trial_data_final/input/s1/docs.conll", "./data/trial_data_final/babel/");
+		parser.writeBabelOutput("./data/test_data/input/s1/docs.conll", "./data/test_data/babel/");
 		
 //		parser.writeBabelOutputOnlyTitle("./data/trial_data_final/input/s1/docs.conll");
 		

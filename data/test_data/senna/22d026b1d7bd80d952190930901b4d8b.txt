@@ -1,0 +1,166 @@
+     2015-11-19	        CD	      S-NP	         O	              -	(S1(NP*))
+
+             De	       NNP	      B-NP	     B-ORG	              -	(S1(S(NP*
+          Queen	       NNP	      I-NP	     I-ORG	              -	*
+        Student	       NNP	      I-NP	     E-ORG	              -	*)
+           Dies	       NNP	      E-NP	         O	              -	(VP*
+          after	        IN	      S-PP	         O	              -	(PP*
+        Hunting	       NNP	      B-NP	         O	              -	(NP*
+       Accident	       NNP	      E-NP	         O	              -	*)))))
+
+             DE	       NNP	      B-NP	     B-LOC	              -	      B-A1	(S1(S(NP(NP*
+          QUEEN	       NNP	      E-NP	     E-LOC	              -	      I-A1	*)
+              ,	         ,	         O	         O	              -	      I-A1	*
+           Ark.	       NNP	      S-NP	     S-PER	              -	      I-A1	(NP*)
+              -	         :	         O	         O	              -	      I-A1	*
+              A	        DT	      B-NP	         O	              -	      I-A1	(NP*
+          local	        JJ	      I-NP	         O	              -	      I-A1	*
+        student	        NN	      E-NP	         O	              -	      E-A1	*))
+            has	       VBZ	      B-VP	         O	              -	         O	(VP*
+           died	       VBN	      E-VP	         O	           died	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+        weekend	        NN	      I-NP	         O	              -	  I-AM-TMP	*
+        hunting	        NN	      I-NP	         O	              -	  I-AM-TMP	*
+       accident	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A1	(NP*)))
+
+           That	        DT	      S-NP	         O	              -	(S1(S(NP*)
+             's	       VBZ	      S-VP	         O	              -	(VP*
+      according	       VBG	      S-PP	         O	              -	(PP*
+             to	        TO	      S-PP	         O	              -	(PP*
+            the	        DT	      B-NP	         O	              -	(NP(NP*
+ superintendent	        NN	      E-NP	         O	              -	*)
+             of	        IN	      S-PP	         O	              -	(PP*
+             De	       NNP	      B-NP	     B-ORG	              -	(NP*
+          Queen	       NNP	      I-NP	     I-ORG	              -	*
+        Schools	       NNP	      E-NP	     E-ORG	              -	*
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	*))))))))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP*
+       Arkansas	       NNP	      I-NP	    B-MISC	              -	      I-A0	         O	*
+           Game	       NNP	      I-NP	    E-MISC	              -	      I-A0	         O	*
+            and	        CC	      I-NP	         O	              -	      I-A0	         O	*
+           Fish	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	*
+     Commission	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*)
+          tells	       VBZ	      S-VP	         O	          tells	       S-V	         O	(VP*
+          FOX16	       NNP	      S-NP	     S-ORG	              -	      S-A2	         O	(NP*)
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(S(NP*
+         victim	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	      I-A1	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	      I-A1	      B-A0	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	      I-A0	(NP*
+        brother	        NN	      E-NP	         O	              -	      E-A1	      E-A0	*)))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	         O	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+      airlifted	       VBN	      E-VP	         O	      airlifted	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	(PP*
+       Arkansas	       NNP	      B-NP	     B-LOC	              -	      I-A2	         O	(NP(NP(NP*
+       Children	       NNP	      E-NP	     I-LOC	              -	      I-A2	         O	*
+             's	       POS	      B-NP	     I-LOC	              -	      I-A2	         O	*)
+       Hospital	        NN	      E-NP	     E-LOC	              -	      E-A2	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	  B-AM-TMP	         O	(SBAR(WHADVP*)
+             he	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A1	(S(NP*)
+          later	        RB	    S-ADVP	         O	              -	  I-AM-TMP	  S-AM-TMP	(ADVP*)
+           died	       VBD	      S-VP	         O	           died	  E-AM-TMP	       S-V	(VP*)))))))
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	(NP*)))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP(NP*
+           post	        NN	      E-NP	         O	              -	      I-A0	*)
+             on	        IN	      S-PP	         O	              -	      I-A0	(PP*
+       Facebook	       NNP	      S-NP	         O	              -	      E-A0	(NP*)))
+     identifies	       VBZ	      S-VP	         O	     identifies	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(NP*
+         victim	        NN	      E-NP	         O	              -	      I-A1	*)
+             as	        IN	      S-PP	         O	              -	      I-A1	(PP*
+          Layne	       NNP	      B-NP	     B-PER	              -	      I-A1	(NP*
+          Woods	       NNP	      E-NP	     E-PER	              -	      E-A1	*)))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-LOC	              -	      S-A0	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	(S1(S(S(NP(NP(NP*
+         Sevier	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	*
+         County	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	*
+        Sheriff	       NNP	      E-NP	     I-ORG	              -	      I-A0	         O	*
+             's	       POS	      B-NP	     I-ORG	              -	      I-A0	         O	*)
+         Office	       NNP	      E-NP	     E-ORG	              -	      I-A0	         O	*)
+              (	     -LRB-	         O	         O	              -	      I-A0	         O	(PRN*
+           SCSO	       NNP	      S-NP	     S-ORG	              -	      I-A0	         O	(NP*)
+              )	     -RRB-	         O	         O	              -	      E-A0	         O	*))
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(NP*
+         victim	        NN	      E-NP	         O	              -	      I-A1	      I-A1	*
+              ,	         ,	         O	         O	              -	      I-A1	      I-A1	*
+             16	        CD	      S-NP	         O	              -	      I-A1	      I-A1	*)))
+              ,	         ,	         O	         O	              -	      I-A1	      E-A1	*
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	      I-A1	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	      I-A1	      B-A0	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	      I-A0	(NP*
+        12-year	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A0	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	*)
+        brother	        NN	      E-NP	         O	              -	      E-A1	      E-A0	*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+       Cossatot	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	*
+          River	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	*
+           area	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+      northwest	        RB	    S-ADVP	         O	              -	  I-AM-LOC	(ADVP*
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+     Lockesburg	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	(NP*)))))
+             on	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+       Saturday	       NNP	      S-NP	         O	              -	  I-AM-TMP	(NP*))
+         around	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+           noon	        NN	      S-NP	         O	              -	  E-AM-TMP	(NP*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-LOC	              -	      S-A1	*)))))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+           SCSO	       NNP	      E-NP	     S-ORG	              -	      E-A0	         O	         O	*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	(VP(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	(SBAR(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+            was	       VBD	      S-VP	         O	              -	      I-A1	         O	         O	(VP*
+              "	        JJ	    S-ADJP	         O	              -	      I-A1	         O	         O	(ADJP*)
+        clearly	        RB	    S-ADVP	         O	              -	      I-A1	         O	         O	(ADVP*)
+             an	        DT	      B-NP	         O	              -	      I-A1	         O	         O	(NP*
+       accident	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+              "	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)))))
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	*
+       happened	       VBD	      S-VP	         O	       happened	      I-A1	       S-V	         O	(VP*
+          while	        IN	    S-SBAR	         O	              -	      I-A1	  B-AM-TMP	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	      B-A1	(S(NP*
+           boys	       NNS	      E-NP	         O	              -	      I-A1	  I-AM-TMP	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	  I-AM-TMP	         O	(VP*
+       shooting	       VBG	      E-VP	         O	       shooting	      I-A1	  I-AM-TMP	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	  B-AM-LOC	(PP*
+          crows	       NNS	      S-NP	         O	              -	      E-A1	  E-AM-TMP	  E-AM-LOC	(NP*
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	*))))))))))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+    candlelight	        NN	      I-NP	         O	              -	      I-A1	*
+          vigil	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+           held	       VBN	      E-VP	         O	           held	       S-V	(VP*
+         Sunday	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP*
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+             De	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	*
+          Queen	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	*
+         school	        NN	      E-NP	         O	              -	  E-AM-LOC	*))))
+              .	         .	         O	         O	              -	         O	*))
+

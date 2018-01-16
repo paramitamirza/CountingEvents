@@ -1,0 +1,145 @@
+     2015-09-16	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Warren	       NNP	      B-NP	     B-ORG	              -	      B-A0	(S1(S(NP*
+            Co.	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+            EMS	       NNP	      I-NP	     E-ORG	              -	      I-A0	*
+       employee	        NN	      E-NP	         O	              -	      E-A0	*)
+          fired	       VBD	      S-VP	         O	          fired	       S-V	(VP*
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+         arrest	        NN	      S-NP	         O	              -	  I-AM-TMP	(NP(NP*)
+             on	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+           drug	        NN	      B-NP	         O	              -	  I-AM-TMP	(NP*
+        charges	       NNS	      E-NP	         O	              -	  E-AM-TMP	*)))))))
+
+    McMINNVILLE	       NNP	      S-NP	     S-LOC	              -	(S1(NP(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+             TN	       NNP	      S-NP	         O	              -	(NP*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+           WSMV	       NNP	      S-NP	     S-LOC	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*))
+              -	         :	         O	         O	              -	*
+        NEWLINE	        NN	         O	     S-ORG	              -	(NP*)))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         Warren	       NNP	      I-NP	     B-ORG	              -	      I-A1	*
+         County	       NNP	      I-NP	     I-ORG	              -	      I-A1	*
+            EMS	       NNP	      I-NP	     E-ORG	              -	      I-A1	*
+       employee	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+          fired	       VBN	      E-VP	         O	          fired	       S-V	(VP*
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+          being	       VBG	      B-VP	         O	              -	  I-AM-TMP	(S(VP*
+       arrested	       VBN	      E-VP	         O	              -	  I-AM-TMP	(VP*
+           last	        JJ	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          month	        NN	      E-NP	         O	              -	  I-AM-TMP	*)
+             on	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+           drug	        NN	      B-NP	         O	              -	  I-AM-TMP	(NP*
+        charges	       NNS	      E-NP	         O	              -	  E-AM-TMP	*))))))))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+         Travis	       NNP	      B-NP	     B-PER	              -	      B-A1	         O	         O	(S1(S(NP(NP*
+        Roberts	       NNP	      E-NP	     E-PER	              -	      I-A1	         O	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	*
+             35	        CD	      S-NP	         O	              -	      I-A1	         O	         O	(NP*)
+              ,	         ,	         O	         O	              -	      E-A1	         O	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+        charged	       VBN	      E-VP	         O	        charged	       S-V	         O	         O	(VP*
+           with	        IN	      S-PP	         O	              -	      B-A2	         O	         O	(PP*
+     possession	        NN	      S-NP	         O	              -	      I-A2	         O	         O	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A2	         O	         O	(PP*
+           meth	        NN	      B-NP	         O	              -	      I-A2	         O	         O	(NP(NP*
+            and	        CC	      I-NP	         O	              -	      I-A2	         O	         O	*
+   distribution	        NN	      E-NP	         O	              -	      I-A2	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A2	         O	         O	(PP*
+   prescription	        NN	      B-NP	         O	              -	      I-A2	         O	         O	(NP*
+          drugs	       NNS	      E-NP	         O	              -	      E-A2	         O	         O	*))))))
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	(SBAR*
+     undercover	        JJ	      B-NP	         O	              -	  I-AM-TMP	      B-A0	         O	(S(NP*
+         agents	       NNS	      E-NP	         O	              -	  I-AM-TMP	      E-A0	         O	*)
+           made	       VBD	      S-VP	         O	           made	  I-AM-TMP	       S-V	         O	(VP*
+            two	        CD	      B-NP	         O	              -	  I-AM-TMP	      B-A1	      B-A1	(SBAR(S(NP*
+           drug	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	      E-A1	*)
+           buys	       VBZ	      S-VP	         O	           buys	  I-AM-TMP	      B-A2	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A2	      B-A3	(PP*
+            him	       PRP	      S-NP	         O	              -	  E-AM-TMP	      E-A2	      E-A3	(NP*))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	(NP*
+         Warren	       NNP	      I-NP	     B-ORG	              -	         O	         O	         O	*
+         County	       NNP	      I-NP	     I-ORG	              -	         O	         O	         O	*
+        Sheriff	       NNP	      I-NP	     I-ORG	              -	         O	         O	         O	*
+           ’s	       NNP	      I-NP	     I-ORG	              -	         O	         O	         O	*
+         Office	       NNP	      E-NP	     E-ORG	              -	         O	         O	         O	*
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	*)))))))))))))
+
+        Roberts	       NNP	      S-NP	     S-PER	              -	      S-A1	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+   subsequently	        RB	      I-VP	         O	              -	  S-AM-TMP	(ADVP*)
+          fired	       VBN	      E-VP	         O	          fired	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+            EMS	       NNP	      E-NP	     S-ORG	              -	      E-A2	*))
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+            his	      PRP$	      B-NP	         O	              -	  I-AM-TMP	(NP*
+         arrest	        NN	      E-NP	         O	              -	  I-AM-TMP	*))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+      according	       VBG	      S-PP	         O	              -	  I-AM-TMP	(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+        sheriff	        NN	      E-NP	         O	              -	  I-AM-TMP	*)))))
+              .	         .	         O	         O	              -	  I-AM-TMP	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	  E-AM-TMP	(NP*)))
+
+        Because	        IN	      B-PP	         O	              -	  B-AM-CAU	         O	         O	         O	(S1(S(S(PP*
+             of	        IN	      E-PP	         O	              -	  I-AM-CAU	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	  I-AM-CAU	         O	         O	         O	(NP*
+         arrest	        NN	      E-NP	         O	              -	  E-AM-CAU	         O	         O	         O	*))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	      B-A0	      B-A0	      B-A0	         O	(NP*
+            EMS	       NNP	      E-NP	     S-ORG	              -	      E-A0	      E-A0	      E-A0	         O	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+   reevaluating	       VBG	      E-VP	         O	   reevaluating	       S-V	         O	         O	         O	(VP(VP*
+            its	      PRP$	      B-NP	         O	              -	      B-A1	         O	         O	         O	(NP*
+           drug	        NN	      I-NP	         O	              -	      I-A1	         O	         O	         O	*
+         policy	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+             in	        IN	      S-PP	         O	              -	         O	         O	         O	         O	(PP*
+       addition	        NN	      S-NP	         O	              -	         O	         O	         O	         O	(NP(NP*)
+             to	        TO	      S-PP	         O	              -	         O	         O	         O	         O	(PP*
+          using	       VBG	      S-VP	         O	          using	         O	       S-V	         O	         O	(S(VP*
+              a	        DT	      B-NP	         O	              -	         O	      B-A1	         O	         O	(NP*
+            MRO	       NNP	      I-NP	     S-ORG	              -	         O	      I-A1	         O	         O	*
+           test	        NN	      E-NP	         O	              -	         O	      E-A1	         O	         O	*)))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	*
+          would	        MD	      B-VP	         O	              -	         O	         O	  S-AM-MOD	         O	(VP*
+             do	        VB	      E-VP	         O	             do	         O	         O	       S-V	         O	(VP*
+           more	       JJR	      S-NP	         O	              -	         O	         O	      S-A1	         O	(NP*)
+             to	        TO	      B-VP	         O	              -	         O	         O	  B-AM-PNC	         O	(S(VP*
+        address	        VB	      E-VP	         O	        address	         O	         O	  I-AM-PNC	       S-V	(VP*
+   prescription	        NN	      B-NP	         O	              -	         O	         O	  I-AM-PNC	      B-A1	(NP*
+          drugs	       NNS	      E-NP	         O	              -	         O	         O	  E-AM-PNC	      E-A1	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	         O	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP*
+            new	        JJ	      I-NP	         O	              -	      I-A0	         O	*
+         policy	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+          would	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	(VP*
+          limit	        VB	      E-VP	         O	          limit	       S-V	         O	(VP*
+           what	        WP	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(WHNP*
+          drugs	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+           they	       PRP	      S-NP	         O	              -	      I-A1	      S-A0	(S(NP*)
+            can	        MD	      B-VP	         O	              -	      I-A1	  S-AM-MOD	(VP*
+           take	        VB	      E-VP	         O	           take	      I-A1	       S-V	(VP*
+          under	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+          legal	        JJ	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+  circumstances	       NNS	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*))
+          while	        IN	    S-SBAR	         O	              -	  B-AM-TMP	  B-AM-TMP	(PP*
+             on	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	(PP*
+           duty	        NN	      S-NP	         O	              -	  E-AM-TMP	  E-AM-TMP	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+

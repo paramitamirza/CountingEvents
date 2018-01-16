@@ -1,0 +1,168 @@
+     2013-10-27	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            One	        CD	      B-NP	         O	              -	  B-AM-ADV	(S1(NP(NP*
+           dead	        JJ	      E-NP	         O	              -	  E-AM-ADV	*
+              ,	         ,	         O	         O	              -	         O	*
+           five	        CD	      S-NP	         O	              -	      S-A1	*)
+        injured	       VBN	      S-VP	         O	        injured	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+       shooting	        NN	      S-NP	         O	              -	  E-AM-LOC	(NP*))
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            New	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP(NP*
+          Haven	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	*
+          Conn.	       NNP	      B-NP	     S-LOC	              -	  I-AM-LOC	(NP*)
+              ,	         ,	      I-NP	         O	              -	  I-AM-LOC	*)))
+      nightclub	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+
+            NEW	       NNP	      B-NP	     B-LOC	              -	(S1(NP(NP(NP*
+          HAVEN	       NNP	      E-NP	     E-LOC	              -	*)
+              ,	         ,	         O	         O	              -	*
+          Conn.	       NNP	      S-NP	     S-LOC	              -	(NP(NP*)
+              ,	         ,	         O	         O	              -	*))
+           Oct.	       NNP	      B-NP	         O	              -	(NP(NP*
+             27	        CD	      E-NP	         O	              -	*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+            UPI	       NNP	      S-NP	         O	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*)
+             --	         :	         O	         O	              -	*)))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	         O	      B-A1	(S1(S(S(S(NP*
+         person	        NN	      E-NP	         O	              -	      E-A1	         O	      I-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	      I-A1	(VP*
+         killed	       VBN	      E-VP	         O	         killed	       S-V	         O	      I-A1	(VP*)))
+            and	        CC	         O	         O	              -	         O	         O	      I-A1	(S*
+           five	        CD	      B-NP	         O	              -	         O	      B-A1	      I-A1	(VP(NP*
+         others	       NNS	      E-NP	         O	              -	         O	      E-A1	      I-A1	*)
+        injured	       VBN	      S-VP	         O	        injured	         O	       S-V	      I-A1	*
+              ,	         ,	         O	         O	              -	         O	         O	      I-A1	*
+            one	        CD	      S-NP	         O	              -	         O	         O	      I-A1	(NP*)
+     critically	        RB	    S-ADVP	         O	              -	         O	         O	      I-A1	(ADVP*)
+              ,	         ,	         O	         O	              -	         O	         O	      I-A1	*
+             in	        IN	      S-PP	         O	              -	         O	         O	      I-A1	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	      I-A1	(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	         O	      I-A1	*))
+             at	        IN	      S-PP	         O	              -	         O	         O	      I-A1	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	      I-A1	(NP*
+    Connecticut	       NNP	      I-NP	     S-LOC	              -	         O	         O	      I-A1	*
+      nightclub	        NN	      E-NP	         O	              -	         O	         O	      E-A1	*))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+         police	       NNS	      S-NP	         O	              -	         O	         O	      S-A0	(NP*)
+            say	       VBP	      S-VP	         O	            say	         O	         O	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	       S-V	(NP*)))
+
+            New	       NNP	      B-NP	     B-LOC	              -	      B-A0	         O	         O	         O	(S1(S(NP*
+          Haven	       NNP	      I-NP	     E-LOC	              -	      I-A0	         O	         O	         O	*
+         Police	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+          Chief	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+           Dean	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	         O	         O	*
+       Esserman	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	         O	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	         O	(SBAR(S(NP*
+        shooter	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	*)
+         should	        MD	      B-VP	         O	              -	      I-A1	  S-AM-MOD	         O	         O	(VP*
+             be	        VB	      I-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+       captured	       VBN	      E-VP	         O	       captured	      I-A1	       S-V	         O	         O	(VP*
+        quickly	        RB	    S-ADVP	         O	              -	      I-A1	  S-AM-MNR	         O	         O	(ADVP*)
+        because	        IN	    S-SBAR	         O	              -	      I-A1	  B-AM-CAU	         O	  B-AM-CAU	(SBAR*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-CAU	      B-A1	  I-AM-CAU	(S(NP*
+       incident	        NN	      E-NP	         O	              -	      I-A1	  I-AM-CAU	      E-A1	  I-AM-CAU	*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	  I-AM-CAU	         O	  I-AM-CAU	(VP*
+       captured	       VBN	      E-VP	         O	       captured	      I-A1	  I-AM-CAU	       S-V	  I-AM-CAU	(VP*
+             on	        IN	      S-PP	         O	              -	      I-A1	  I-AM-CAU	  B-AM-LOC	  I-AM-CAU	(PP*
+          video	        NN	      S-NP	         O	              -	      E-A1	  E-AM-CAU	  E-AM-LOC	  E-AM-CAU	(NP*)))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	      B-A0	(NP(NP*
+            New	       NNP	      I-NP	     B-LOC	              -	         O	         O	         O	      I-A0	*
+          Haven	       NNP	      I-NP	     E-LOC	              -	         O	         O	         O	      I-A0	*
+       Register	       NNP	      E-NP	         O	              -	         O	         O	         O	      E-A0	*)
+       reported	       VBD	      S-VP	         O	       reported	         O	         O	         O	       S-V	(VP*
+         Sunday	       NNP	      B-NP	         O	              -	         O	         O	         O	  S-AM-TMP	(NP*
+              .	         .	      I-NP	         O	              -	         O	         O	         O	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	         O	         O	         O	*))))))))
+
+       Esserman	       NNP	      S-NP	     S-PER	              -	      S-A0	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(SBAR(S(NP(NP*
+         victim	        NN	      E-NP	         O	              -	      I-A1	*)
+              ,	         ,	         O	         O	              -	      I-A1	*
+          Erica	       NNP	      B-NP	     B-PER	              -	      I-A1	(NP*
+       Robinson	       NNP	      E-NP	     E-PER	              -	      I-A1	*)
+              ,	         ,	         O	         O	              -	      I-A1	*
+             26	        CD	      S-NP	         O	              -	      I-A1	(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	*
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+           West	       NNP	      B-NP	     B-LOC	              -	      I-A1	(NP*
+          Haven	       NNP	      E-NP	     E-LOC	              -	      I-A1	*))
+              ,	         ,	         O	         O	              -	      I-A1	*)
+            was	       VBD	      S-VP	         O	              -	      I-A1	(VP*
+            not	        RB	         O	         O	              -	      I-A1	*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+       intended	        JJ	      I-NP	         O	              -	      I-A1	*
+         target	        NN	      E-NP	         O	              -	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+           3:30	        CD	      I-NP	         O	              -	      I-A1	*
+           a.m.	        NN	      I-NP	         O	              -	      I-A1	*
+       Saturday	       NNP	      I-NP	         O	              -	      I-A1	*
+       incident	        NN	      E-NP	         O	              -	      I-A1	*)
+             at	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+            Key	       NNP	      I-NP	    B-MISC	              -	      I-A1	*
+           Club	       NNP	      I-NP	    I-MISC	              -	      I-A1	*
+        Cabaret	       NNP	      I-NP	    E-MISC	              -	      I-A1	*
+              .	         .	      I-NP	         O	              -	      I-A1	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      E-A1	*)))))))))))
+
+        Another	        DT	      B-NP	         O	              -	(S1(S(S(NP(NP*
+         victim	        NN	      E-NP	         O	              -	*)
+              ,	         ,	         O	         O	              -	*
+          Jahad	       NNP	      B-NP	     B-PER	              -	(NP(NP*
+         Ramsey	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+             29	        CD	      S-NP	         O	              -	(NP*)
+              ,	         ,	         O	         O	              -	*)
+             of	        IN	      S-PP	         O	              -	(PP*
+            New	       NNP	      B-NP	     B-LOC	              -	(NP*
+          Haven	       NNP	      E-NP	     E-LOC	              -	*)))
+              ,	         ,	         O	         O	              -	*
+            was	       VBD	      S-VP	         O	              -	(VP*
+             in	        IN	      S-PP	         O	              -	(PP*
+       critical	        JJ	      B-NP	         O	              -	(NP*
+      condition	        NN	      E-NP	         O	              -	*))))
+              .	         .	         O	         O	              -	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP(NP*
+           club	        NN	      E-NP	         O	              -	      I-A0	         O	         O	*
+             's	       POS	      B-NP	         O	              -	      I-A0	         O	         O	*)
+       Facebook	       NNP	      I-NP	     S-ORG	              -	      I-A0	         O	         O	*
+           page	        NN	      E-NP	         O	              -	      E-A0	         O	         O	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	*
+             it	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	         O	(NP*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	*
+       offering	       VBG	      E-VP	         O	       offering	      I-A1	       S-V	         O	*
+              a	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	(NP*
+              $	         $	      I-NP	         O	              -	      I-A1	      I-A1	         O	(ADJP*
+          5,000	        CD	      I-NP	         O	              -	      I-A1	      I-A1	         O	*)
+         reward	        NN	      E-NP	         O	              -	      I-A1	      I-A1	         O	*)
+            for	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	*
+    information	        NN	      S-NP	         O	              -	      I-A1	      I-A1	      S-A1	(NP*)
+        leading	       VBG	      S-VP	         O	        leading	      I-A1	      I-A1	       S-V	*
+             to	        TO	      S-PP	         O	              -	      I-A1	      I-A1	      B-A2	*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      I-A2	(NP*
+         arrest	        NN	      I-NP	         O	              -	      I-A1	      I-A1	      I-A2	*
+            and	        CC	      I-NP	         O	              -	      I-A1	      I-A1	      I-A2	*
+     conviction	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      I-A2	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      I-A2	*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      I-A2	(NP*
+         person	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      I-A2	*)
+    responsible	        JJ	    S-ADJP	         O	              -	      E-A1	      E-A1	      E-A2	*
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	      S-A0	      S-A0	         O	(NP*)))
+
+        Related	       VBN	      B-NP	         O	        Related	       S-V	(S1(S(VP*
+            UPI	       NNP	      I-NP	         O	              -	      B-A1	(NP*
+        Stories	       NNS	      E-NP	         O	              -	      E-A1	*))))
+

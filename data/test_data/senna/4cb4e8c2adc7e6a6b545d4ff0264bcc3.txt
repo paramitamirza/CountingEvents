@@ -1,0 +1,206 @@
+     2016-11-05	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Person	        NN	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+          found	       VBD	      S-VP	         O	          found	       S-V	(VP*
+           shot	        NN	      S-VP	         O	              -	      S-A1	(NP(NP(NP*)
+             to	        TO	      S-PP	         O	              -	      B-A3	(PP*
+          death	        NN	      S-NP	         O	              -	      I-A3	(NP*)))
+             in	        IN	      S-PP	         O	              -	      I-A3	(PP*
+           Gary	       NNP	      S-NP	     S-PER	              -	      E-A3	(NP*))))))
+
+         Person	        NN	      S-NP	         O	              -	      S-A0	      B-A1	(S1(S(NP(NP*)
+          found	       VBD	      S-VP	         O	          found	       S-V	      I-A1	(VP*
+           shot	        NN	      S-VP	         O	              -	      S-A1	      I-A1	(S(VP*
+             to	        TO	      S-PP	         O	              -	      B-A3	      I-A1	(PP*
+          death	        NN	      S-NP	         O	              -	      I-A3	      I-A1	(NP*))
+             in	        IN	      S-PP	         O	              -	      I-A3	      I-A1	(PP*
+           Gary	       NNP	      B-NP	     B-PER	              -	      I-A3	      I-A1	(NP(NP*
+        NEWLINE	       NNP	      E-NP	     E-PER	              -	      I-A3	      I-A1	*)
+              A	       NNP	      B-NP	         O	              -	      I-A3	      I-A1	(NP*
+         person	        NN	      E-NP	         O	              -	      I-A3	      E-A1	*)))))))
+            was	       VBD	      B-VP	         O	              -	      I-A3	         O	(VP*
+          found	       VBN	      E-VP	         O	          found	      I-A3	       S-V	(VP*
+           shot	        NN	    S-ADJP	         O	              -	      I-A3	      S-A1	(S(VP*
+             to	        TO	      S-PP	         O	              -	      I-A3	      B-A3	(PP*
+          death	        NN	      S-NP	         O	              -	      I-A3	      E-A3	(NP*))
+       Saturday	       NNP	      B-NP	         O	              -	      I-A3	  B-AM-TMP	(NP(NP*
+        morning	        NN	      E-NP	         O	              -	      I-A3	  E-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	      I-A3	  B-AM-LOC	(PP*
+      northwest	        JJ	      B-NP	         O	              -	      I-A3	  I-AM-LOC	(NP*
+        Indiana	       NNP	      I-NP	     S-LOC	              -	      I-A3	  I-AM-LOC	*
+              .	         .	      I-NP	         O	              -	      I-A3	  I-AM-LOC	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      E-A3	  E-AM-LOC	*)))))))))
+
+       Officers	       NNS	      S-NP	         O	              -	      S-A1	         O	         O	(S1(S(NP*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+         called	       VBN	      E-VP	         O	         called	       S-V	         O	         O	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	(PP*
+           7:17	        CD	      B-NP	         O	              -	  I-AM-TMP	         O	         O	(NP*
+           a.m.	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	         O	*))
+             to	        TO	      S-PP	         O	              -	  I-AM-TMP	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	         O	(NP(NP*
+            500	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	         O	*
+          block	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	         O	(PP*
+           West	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	         O	         O	(NP*
+           39th	        JJ	      I-NP	     I-LOC	              -	  I-AM-TMP	         O	         O	*
+         Avenue	       NNP	      E-NP	     E-LOC	              -	  I-AM-TMP	         O	         O	*))))
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	         O	(PP*
+           Gary	       NNP	      S-NP	     S-LOC	              -	  I-AM-TMP	         O	         O	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	         O	*
+        Indiana	       NNP	      S-NP	     S-LOC	              -	  I-AM-TMP	         O	         O	(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	         O	*))
+          where	       WRB	    S-ADVP	         O	              -	  I-AM-TMP	S-R-AM-LOC	         O	(SBAR(WHADVP*)
+           they	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A0	         O	(S(NP*)
+          found	       VBD	      S-VP	         O	          found	  I-AM-TMP	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A1	         O	(S(NP*
+           male	        JJ	      E-NP	         O	              -	  I-AM-TMP	      I-A1	         O	*)
+           dead	        JJ	    S-ADJP	         O	              -	  I-AM-TMP	      I-A1	         O	(ADJP*
+           with	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A1	         O	(PP*
+        gunshot	        NN	      B-NP	         O	              -	  I-AM-TMP	      I-A1	         O	(NP(NP*
+         wounds	       NNS	      E-NP	         O	              -	  I-AM-TMP	      E-A1	         O	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	         O	(NP*
+         debris	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	         O	*))
+        between	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-LOC	         O	(PP*
+             an	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	         O	(NP*
+      abandoned	       VBN	      I-NP	         O	      abandoned	  I-AM-TMP	  I-AM-LOC	       S-V	*
+           home	        NN	      I-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	      B-A1	*
+            and	        CC	      I-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	      I-A1	*
+         garage	        NN	      E-NP	         O	              -	  I-AM-TMP	  E-AM-LOC	      E-A1	*))))))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	         O	*
+      according	       VBG	      S-PP	         O	              -	  I-AM-TMP	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-TMP	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	         O	(NP(NP*
+      statement	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	         O	*)
+           from	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	         O	(PP*
+           Gary	       NNP	      B-NP	     S-PER	              -	  I-AM-TMP	         O	         O	(NP*
+         police	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	         O	*))))))))))
+              .	         .	         O	         O	              -	  I-AM-TMP	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	  E-AM-TMP	         O	         O	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         victim	        NN	      E-NP	         O	              -	      E-A1	*)
+            has	       VBZ	      B-VP	         O	              -	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	*
+            yet	        RB	      I-VP	         O	              -	  S-AM-TMP	(ADVP*)
+           been	       VBN	      I-VP	         O	              -	         O	(VP*
+     identified	       VBN	      E-VP	         O	     identified	       S-V	(VP*
+              ,	         ,	         O	         O	              -	         O	*
+      according	       VBG	      S-PP	         O	              -	  B-AM-ADV	(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	(PP*
+         police	        NN	      S-NP	         O	              -	  I-AM-ADV	(NP(NP*)
+            and	        CC	         O	         O	              -	  I-AM-ADV	*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	(NP*
+           Lake	       NNP	      I-NP	     B-LOC	              -	  I-AM-ADV	*
+         County	       NNP	      I-NP	     E-LOC	              -	  I-AM-ADV	*
+        coroner	        NN	      I-NP	         O	              -	  I-AM-ADV	*
+           ’s	        NN	      I-NP	         O	              -	  I-AM-ADV	*
+         office	        NN	      E-NP	         O	              -	  E-AM-ADV	*)))))))
+              .	         .	         O	         O	              -	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	         O	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+      described	       VBN	      E-VP	         O	      described	       S-V	         O	(VP*
+             as	        IN	      S-PP	         O	              -	      B-A0	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A0	      B-A0	(NP(NP*
+          black	        JJ	      I-NP	         O	              -	      I-A0	      I-A0	*
+           male	        NN	      E-NP	         O	              -	      I-A0	      E-A0	*)
+        wearing	       VBG	      S-VP	         O	        wearing	      I-A0	       S-V	(VP*
+           gray	        JJ	      B-NP	         O	              -	      I-A0	      B-A1	(NP*
+           Levi	       NNP	      I-NP	     S-PER	              -	      I-A0	      I-A1	*
+           ’s	        JJ	      I-NP	         O	              -	      I-A0	      I-A1	*
+           size	        NN	      I-NP	         O	              -	      I-A0	      I-A1	*
+          32/34	        CD	      I-NP	         O	              -	      I-A0	      I-A1	*
+          jeans	       NNS	      E-NP	         O	              -	      I-A0	      E-A1	*))))
+              ;	         :	         O	         O	              -	      I-A0	         O	*
+              a	        DT	      B-NP	         O	              -	      I-A0	         O	(NP(NP*
+           dark	        JJ	      I-NP	         O	              -	      I-A0	         O	*
+           gray	        JJ	      I-NP	         O	              -	      I-A0	         O	*
+              ,	         ,	      I-NP	         O	              -	      I-A0	         O	*
+          Hawks	      NNPS	      I-NP	     S-PER	              -	      I-A0	         O	(NP*)
+              -	         :	      I-NP	         O	              -	      I-A0	         O	*
+        branded	       VBN	      I-NP	         O	              -	      I-A0	         O	(NP*
+          extra	        JJ	      I-NP	         O	              -	      I-A0	         O	*)
+              -	         :	      I-NP	         O	              -	      I-A0	         O	*
+          large	        JJ	      I-NP	         O	              -	      I-A0	         O	(NP*
+            zip	        NN	      E-NP	         O	              -	      I-A0	         O	*)
+              -	         :	         O	         O	              -	      I-A0	         O	*
+             up	        RB	    S-ADVP	         O	              -	      I-A0	         O	(ADVP*
+         hooded	        JJ	      B-NP	         O	              -	      I-A0	         O	(NP*
+         jacket	        NN	      E-NP	         O	              -	      I-A0	         O	*)))
+              ;	         :	         O	         O	              -	      I-A0	         O	*
+              a	        DT	      B-NP	         O	              -	      I-A0	         O	(NP*
+         medium	        JJ	      I-NP	         O	              -	      I-A0	         O	(ADJP*
+          black	        JJ	      I-NP	         O	              -	      I-A0	         O	*)
+              -	         :	      I-NP	         O	              -	      I-A0	         O	*
+            and	        CC	      I-NP	         O	              -	      I-A0	         O	*
+              -	         :	      I-NP	         O	              -	      I-A0	         O	*
+          white	        JJ	      I-NP	         O	              -	      I-A0	         O	(NP(NP*
+              T	       NNP	      E-NP	         O	              -	      I-A0	         O	*
+              -	         :	         O	         O	              -	      I-A0	         O	*
+          shirt	        NN	      S-NP	         O	              -	      I-A0	         O	*)
+           with	        IN	      S-PP	         O	              -	      I-A0	         O	(PP*
+            “	        NN	      S-NP	         O	              -	      E-A0	         O	(NP*)))))))))
+
+         Hustle	       NNP	      B-NP	     S-ORG	              -	      B-A1	(S1(NP(NP*
+          first	        JJ	      I-NP	         O	              -	      I-A1	*
+       question	        NN	      E-NP	         O	              -	      I-A1	*)
+          later	        JJ	      B-NP	         O	              -	      I-A1	(NP(NP*
+            ”	        NN	      E-NP	         O	              -	      E-A1	*)
+        printed	       VBN	      S-VP	         O	        printed	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	      B-A2	(PP*
+             it	       PRP	      S-NP	         O	              -	      I-A2	(NP(NP*)
+            and	        CC	         O	         O	              -	      I-A2	*
+          white	        JJ	      B-NP	         O	              -	      I-A2	(NP*
+           size	        NN	      E-NP	         O	              -	      I-A2	*))))
+              9	        CD	      B-NP	         O	              -	      I-A2	(NP(QP*
+            1/2	        CD	      I-NP	         O	              -	      I-A2	*)
+           Fila	       NNP	      I-NP	     S-ORG	              -	      I-A2	*
+         tennis	        NN	      I-NP	         O	              -	      I-A2	*
+          shoes	       NNS	      E-NP	         O	              -	      E-A2	*))
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+         Anyone	        NN	      S-NP	         O	              -	      B-A2	      B-A0	(S1(S(NP(NP*)
+           with	        IN	      S-PP	         O	              -	      I-A2	      I-A0	(PP*
+    information	        NN	      S-NP	         O	              -	      I-A2	      I-A0	(NP(NP*)
+          about	        IN	      S-PP	         O	              -	      I-A2	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      I-A0	(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A2	      E-A0	*)))))
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+          asked	       VBN	      E-VP	         O	          asked	       S-V	         O	(VP*
+             to	        TO	      B-VP	         O	              -	      B-A1	         O	(S(VP*
+           call	        VB	      E-VP	         O	           call	      I-A1	       S-V	(VP*
+            Det	       NNP	      S-NP	     S-ORG	              -	      E-A1	      S-A1	(NP*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+     Kristopher	       NNP	      B-NP	     B-PER	              -	(S1(NP(NP(NP*
+          Adams	       NNP	      E-NP	     E-PER	              -	*)
+             of	        IN	      S-PP	         O	              -	(PP*
+            the	        DT	      B-NP	         O	              -	(NP*
+           Lake	       NNP	      I-NP	    B-MISC	              -	(ADJP*
+    County/Gary	       NNP	      I-NP	    I-MISC	              -	*)
+          Metro	       NNP	      I-NP	    I-MISC	              -	*
+       Homicide	       NNP	      I-NP	    I-MISC	              -	*
+           Unit	       NNP	      E-NP	    E-MISC	              -	*))
+             at	        IN	      S-PP	         O	              -	(PP*
+              (	     -LRB-	         O	         O	              -	(NP(NP*
+            219	        CD	      S-NP	         O	              -	*
+              )	     -RRB-	         O	         O	              -	*
+            755	        CD	      S-NP	         O	              -	*
+              -	         :	         O	         O	              -	*
+           3855	        CD	      S-NP	         O	              -	*)
+             or	        CC	         O	         O	              -	*
+            the	        DT	      B-NP	         O	              -	(NP*
+          crime	        NN	      I-NP	         O	              -	*
+            tip	        NN	      I-NP	         O	              -	*
+           line	        NN	      E-NP	         O	              -	*))))
+             at	        IN	      S-PP	         O	              -	(PP*
+              (	     -LRB-	         O	         O	              -	(NP(NP(PRN*
+            866	        CD	         O	         O	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*)
+          CRIME	        NN	      S-NP	         O	              -	*)
+              -	         :	         O	         O	              -	*
+            GP.	        NN	         O	     S-PER	              -	(NP*)))))
+

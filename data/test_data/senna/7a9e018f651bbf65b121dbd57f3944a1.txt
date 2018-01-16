@@ -1,0 +1,178 @@
+     2016-08-14	        CD	      S-NP	         O	              -	(S1(NP*))
+
+              5	        CD	      B-NP	         O	              -	      B-A1	(S1(NP(NP*
+         adults	       NNS	      E-NP	         O	              -	      E-A1	*)
+        injured	       VBN	      S-VP	         O	        injured	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+       shooting	        NN	      S-NP	         O	              -	  I-AM-LOC	(NP*))
+             on	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+       Plymouth	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+            Ave	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+              N	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	*))
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+    Minneapolis	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	(NP*)))))
+
+              5	        CD	      B-NP	         O	              -	      B-A1	         O	      B-A0	(S1(S(NP*
+         adults	       NNS	      E-NP	         O	              -	      E-A1	         O	      I-A0	*)
+        injured	       VBN	      S-VP	         O	        injured	       S-V	         O	      I-A0	(VP*
+             in	        IN	      S-PP	         O	              -	      B-A0	         O	      I-A0	(PP*
+       shooting	        NN	      S-NP	         O	              -	      I-A0	         O	      I-A0	(NP*))
+             on	        IN	      S-PP	         O	              -	      I-A0	         O	      I-A0	(PP*
+       Plymouth	       NNP	      B-NP	     B-LOC	              -	      I-A0	         O	      I-A0	(NP*
+            Ave	       NNP	      I-NP	     I-LOC	              -	      I-A0	         O	      I-A0	*
+              N	       NNP	      E-NP	     E-LOC	              -	      I-A0	         O	      I-A0	*))
+             in	        IN	      S-PP	         O	              -	      I-A0	         O	      I-A0	(PP*
+    Minneapolis	       NNP	      B-NP	     B-ORG	              -	      I-A0	      B-A1	      I-A0	(NP*
+           News	       NNP	      E-NP	     E-ORG	              -	      I-A0	      I-A1	      I-A0	*
+              5	        CD	      B-NP	         O	              -	      I-A0	      I-A1	      I-A0	*
+         adults	       NNS	      E-NP	         O	              -	      I-A0	      E-A1	      I-A0	*))
+        injured	       VBN	      S-VP	         O	        injured	      I-A0	       S-V	      I-A0	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A0	  B-AM-LOC	      I-A0	(PP*
+       shooting	        NN	      S-NP	         O	              -	      I-A0	  I-AM-LOC	      I-A0	(NP*))
+             on	        IN	      S-PP	         O	              -	      I-A0	  I-AM-LOC	      I-A0	(PP*
+       Plymouth	       NNP	      B-NP	     B-LOC	              -	      I-A0	  I-AM-LOC	      I-A0	(NP(NP*
+            Ave	       NNP	      I-NP	     I-LOC	              -	      I-A0	  I-AM-LOC	      I-A0	*
+              N	       NNP	      E-NP	     E-LOC	              -	      E-A0	  E-AM-LOC	      I-A0	*)
+             in	        IN	      S-PP	         O	              -	         O	         O	      I-A0	(PP*
+    Minneapolis	       NNP	      S-NP	    B-MISC	              -	         O	         O	      I-A0	(NP*)))))
+           Five	        CD	      B-NP	    E-MISC	              -	         O	         O	      I-A0	(SBAR(S(NP*
+         people	       NNS	      E-NP	         O	              -	         O	         O	      E-A0	*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+        injured	       VBN	      E-VP	         O	        injured	         O	         O	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	         O	         O	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	  I-AM-LOC	(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	         O	  E-AM-LOC	*))
+          early	        JJ	      B-NP	         O	              -	         O	         O	  B-AM-TMP	(NP(NP*
+         Sunday	       NNP	      I-NP	         O	              -	         O	         O	  I-AM-TMP	*
+        morning	        NN	      E-NP	         O	              -	         O	         O	  E-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	         O	         O	  B-AM-LOC	(PP*
+          north	        JJ	      B-NP	         O	              -	         O	         O	  I-AM-LOC	(NP*
+    Minneapolis	       NNP	      E-NP	     S-LOC	              -	         O	         O	  E-AM-LOC	*)))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	         O	         O	(PP*
+         police	        NN	      S-NP	         O	              -	         O	         O	         O	(NP*
+              .	         .	         O	         O	              -	         O	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	         O	*))))))
+
+              -	         :	         O	         O	              -	         O	(S1(S*
+           Five	        CD	      B-NP	         O	              -	      B-A1	(S(NP*
+         people	       NNS	      E-NP	         O	              -	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+        injured	       VBN	      E-VP	         O	        injured	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+       shooting	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+          early	        JJ	      B-NP	         O	              -	  B-AM-TMP	(NP(NP*
+         Sunday	       NNP	      I-NP	         O	              -	  I-AM-TMP	*
+        morning	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+          north	        JJ	      B-NP	         O	              -	  I-AM-LOC	(NP*
+    Minneapolis	       NNP	      E-NP	     S-LOC	              -	  E-AM-LOC	*))))))
+              ,	         ,	         O	         O	              -	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	(PP*
+         police	        NN	      S-NP	         O	              -	         O	(NP*
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	*)))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(S(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+           1717	        CD	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+       Plymouth	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	*
+         Avenue	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*)
+          North	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	(ADJP*
+         around	        IN	      S-PP	         O	              -	  I-AM-LOC	(ADVP*
+          12:30	        CD	      S-NP	         O	              -	  I-AM-LOC	*))))))
+             am	       VBP	      S-VP	         O	              -	  E-AM-LOC	*)
+              .	         .	         O	         O	              -	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP(NP(NP*
+           five	        CD	      I-NP	         O	              -	      I-A0	*
+          adult	        NN	      I-NP	         O	              -	      I-A0	*
+        victims	       NNS	      E-NP	         O	              -	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A0	*
+          three	        CD	      B-NP	         O	              -	      I-A0	(NP*
+            men	       NNS	      E-NP	         O	              -	      I-A0	*)
+            and	        CC	         O	         O	              -	      I-A0	*
+            two	        CD	      B-NP	         O	              -	      I-A0	(NP*
+          women	       NNS	      E-NP	         O	              -	      I-A0	*))
+              ,	         ,	         O	         O	              -	      I-A0	*
+            all	        DT	      S-NP	         O	              -	      E-A0	(NP*))
+       received	       VBD	      S-VP	         O	       received	       S-V	(VP*
+            non	        JJ	      B-NP	         O	              -	      B-A1	(ADJP*)
+              -	         :	      I-NP	         O	              -	      I-A1	*
+           life	        NN	      E-NP	         O	              -	      I-A1	(S(NP*)
+    threatening	        JJ	      B-NP	         O	              -	      I-A1	(VP*
+       injuries	       NNS	      E-NP	         O	              -	      E-A1	(NP*))))
+              .	         .	         O	         O	              -	         O	*))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	         O	         O	(S1(S(S(NP*
+            man	        NN	      E-NP	         O	              -	      E-A1	         O	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	         O	(NP*
+          lower	       JJR	      I-NP	         O	              -	  I-AM-LOC	         O	         O	*
+          torso	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	         O	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+        another	        DT	      S-NP	         O	              -	         O	      S-A1	         O	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	         O	       S-V	         O	(VP*
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	         O	(NP*
+            arm	        NN	      E-NP	         O	              -	         O	  E-AM-LOC	         O	*)))))
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	         O	      B-A1	(S(NP*
+          third	        JJ	      I-NP	         O	              -	         O	         O	      I-A1	*
+            man	        NN	      E-NP	         O	              -	         O	         O	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+            hit	       VBN	      E-VP	         O	            hit	         O	         O	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	         O	         O	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	  I-AM-TMP	(NP*
+            leg	        NN	      E-NP	         O	              -	         O	         O	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	         O	(S1(S(S(NP*
+          woman	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+        wounded	       VBN	      E-VP	         O	        wounded	       S-V	         O	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+        buttock	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	      B-A1	(S(NP*
+          other	        JJ	      I-NP	         O	              -	         O	      I-A1	*
+          woman	        NN	      E-NP	         O	              -	         O	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	         O	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-TMP	(NP*
+            leg	        NN	      E-NP	         O	              -	         O	  E-AM-TMP	*
+              .	         .	         O	         O	              -	         O	         O	*
+        NEWLINE	       NNP	         O	     S-ORG	              -	         O	         O	*)))))))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+        believe	       VBP	      S-VP	         O	        believe	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A0	(SBAR(S(NP(NP*
+         victim	        NN	      E-NP	         O	              -	      I-A1	      I-A0	*)
+            and	        CC	         O	         O	              -	      I-A1	      I-A0	*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A0	(NP*
+        shooter	        NN	      E-NP	         O	              -	      I-A1	      E-A0	*))
+           know	       VBP	      S-VP	         O	           know	      I-A1	       S-V	(VP*
+           each	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP*
+          other	        JJ	      I-NP	         O	              -	      I-A1	      E-A1	*
+              .	         .	      I-NP	         O	              -	      I-A1	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	      E-A1	         O	*)))))))
+
+            The	        DT	      B-NP	         O	              -	(S1(S(NP*
+           case	        NN	      E-NP	         O	              -	*)
+             is	       VBZ	      S-VP	         O	              -	(VP*
+          still	        RB	    S-ADVP	         O	              -	(ADVP*)
+          under	        IN	      S-PP	         O	              -	(PP*
+  investigation	        NN	      S-NP	         O	              -	(NP*)))
+              .	         .	         O	         O	              -	*))
+

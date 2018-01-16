@@ -1,0 +1,145 @@
+     2016-11-30	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        Gunshot	        NN	      B-NP	         O	              -	(S1(NP(NP*
+         wounds	       NNS	      I-NP	         O	              -	*)
+         Chetek	       NNP	      I-NP	     S-PER	              -	(NP*
+           teen	        NN	      E-NP	         O	              -	*)))
+
+           Area	        NN	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+            law	        NN	      I-NP	         O	              -	      I-A0	         O	         O	*
+    enforcement	        NN	      I-NP	         O	              -	      I-A0	         O	         O	*
+       officers	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	*)
+           paid	       VBD	      S-VP	         O	           paid	       S-V	         O	         O	(VP*
+        tribute	        NN	      S-NP	         O	              -	      S-A1	         O	         O	(NP(NP*)
+             to	        TO	      B-VP	         O	              -	      B-A3	         O	         O	(PP*
+         fallen	       VBN	      E-VP	         O	         fallen	      I-A3	       S-V	         O	(NP(NP(NP*
+           Rusk	       NNP	      S-NP	     B-LOC	              -	      I-A3	         O	         O	*
+         County	       NNP	      B-NP	     E-LOC	              -	      I-A3	         O	         O	*
+        sheriff	        NN	      E-NP	         O	              -	      I-A3	         O	         O	*
+             's	       POS	      B-NP	         O	              -	      I-A3	         O	         O	*)
+         deputy	        NN	      I-NP	         O	              -	      I-A3	         O	      B-A1	*
+            Dan	       NNP	      I-NP	     B-PER	              -	      I-A3	         O	      I-A1	*
+          Glaze	       NNP	      E-NP	     E-PER	              -	      I-A3	         O	      E-A1	*)
+              ,	         ,	         O	         O	              -	      I-A3	         O	         O	*
+            who	        WP	      S-NP	         O	              -	      I-A3	         O	    S-R-A1	(SBAR(WHNP*)
+            was	       VBD	      B-VP	         O	              -	      I-A3	         O	         O	(S(VP*
+         killed	       VBN	      E-VP	         O	         killed	      I-A3	         O	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A3	         O	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A3	         O	  I-AM-TMP	(NP(NP*
+           line	        NN	      E-NP	         O	              -	      I-A3	         O	  I-AM-TMP	*)
+             of	        IN	      S-PP	         O	              -	      I-A3	         O	  I-AM-TMP	(PP*
+           duty	        NN	      S-NP	         O	              -	      I-A3	         O	  I-AM-TMP	(NP(NP*)
+             on	        IN	      S-PP	         O	              -	      I-A3	         O	  I-AM-TMP	(PP*
+       Saturday	       NNP	      S-NP	         O	              -	      I-A3	         O	  I-AM-TMP	(NP*))))))
+              ,	         ,	         O	         O	              -	      I-A3	         O	  I-AM-TMP	*
+           Oct.	       NNP	      B-NP	         O	              -	      I-A3	         O	  I-AM-TMP	(NP*
+             29	        CD	      E-NP	         O	              -	      E-A3	         O	  E-AM-TMP	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	(S1(X(S(NP(NP*
+     procession	        NN	      E-NP	         O	              -	      I-A0	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	(PP*
+            law	        NN	      B-NP	         O	              -	      I-A0	(NP*
+    enforcement	        NN	      I-NP	         O	              -	      I-A0	*
+       vehicles	       NNS	      E-NP	         O	              -	      E-A0	*)))
+       escorted	       VBD	      S-VP	         O	       escorted	       S-V	(VP*
+            his	      PRP$	      B-NP	         O	              -	      B-A1	(NP*
+           body	        NN	      E-NP	         O	              -	      E-A1	*)
+           back	        RB	    S-ADVP	         O	              -	  B-AM-DIR	(ADVP*
+           home	        NN	    S-ADVP	         O	              -	  E-AM-DIR	(NP*)
+             on	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+         Monday	       NNP	      S-NP	         O	              -	  I-AM-TMP	(NP*)))))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+           Oct.	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP*
+             31	        CD	      I-NP	         O	              -	  E-AM-TMP	*
+              .	         .	      I-NP	         O	              -	         O	*
+        NEWLINE	       NNP	      E-NP	     S-ORG	              -	         O	*)))
+
+            The	        DT	      B-NP	         O	              -	(S1(X(NP*
+         Chetek	       NNP	      I-NP	     S-LOC	              -	*)
+              -	         :	      I-NP	         O	              -	*
+   Weyerhaeuser	       NNP	      I-NP	     S-ORG	              -	(NP(NP*
+         parade	        NN	      E-NP	         O	              -	*)
+             on	        IN	      S-PP	         O	              -	(PP*
+         Friday	       NNP	      S-NP	         O	              -	(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+          Sept.	       NNP	      B-NP	         O	              -	(NP*
+             23	        CD	      E-NP	         O	              -	*))))
+              .	         .	         O	         O	              -	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+           home	        NN	      I-NP	         O	              -	      I-A1	*
+           game	        NN	      E-NP	         O	              -	      E-A1	*)
+         starts	       VBZ	      S-VP	         O	         starts	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+              7	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           p.m.	        NN	      E-NP	         O	              -	  I-AM-TMP	*))
+        against	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+             Ha	       NNP	      E-NP	         O	              -	  I-AM-TMP	*)))
+            ...	         :	         O	         O	              -	  I-AM-TMP	*
+        NEWLINE	       NNP	      S-NP	         O	              -	  E-AM-TMP	(NP*)))
+
+          Local	        JJ	      B-NP	         O	              -	      B-A0	      B-A0	         O	(S1(S(NP(NP*
+   organization	        NN	      E-NP	         O	              -	      I-A0	      I-A0	         O	*
+       Walleyes	       NNP	      S-NP	     S-ORG	              -	      I-A0	      I-A0	         O	*)
+            for	        IN	      S-PP	         O	              -	      I-A0	      I-A0	         O	(PP*
+         Chetek	       NNP	      S-NP	     S-LOC	              -	      E-A0	      I-A0	         O	(NP(NP*)
+        stocked	       VBN	      S-VP	         O	        stocked	       S-V	      I-A0	         O	(VP*
+         10,000	        CD	      B-NP	         O	              -	      B-A1	      I-A0	         O	(NP*
+       juvenile	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	         O	*
+       walleyes	       NNS	      E-NP	         O	              -	      E-A1	      I-A0	         O	*)
+           into	        IN	      S-PP	         O	              -	      B-A2	      I-A0	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      I-A0	         O	(NP(NP*
+         Chetek	       NNP	      I-NP	     B-LOC	              -	      I-A2	      I-A0	         O	*
+          Chain	       NNP	      E-NP	     E-LOC	              -	      E-A2	      I-A0	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A0	         O	(PP*
+            ...	         :	         O	         O	              -	         O	      I-A0	         O	*
+        NEWLINE	       NNP	      B-NP	     B-PER	              -	         O	      I-A0	         O	(NP*
+          Jason	       NNP	      I-NP	     I-PER	              -	         O	      I-A0	         O	*
+        Melrose	       NNP	      E-NP	     E-PER	              -	         O	      E-A0	         O	*))))))))
+          gives	       VBZ	      S-VP	         O	          gives	         O	       S-V	         O	*
+            you	       PRP	      S-NP	         O	              -	         O	      S-A2	         O	(NP*)
+              a	        DT	      B-NP	         O	              -	         O	      B-A1	         O	(NP*
+       personal	        JJ	      I-NP	         O	              -	         O	      I-A1	         O	*
+           tour	        NN	      E-NP	         O	              -	         O	      I-A1	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A1	         O	*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	      B-A1	(NP*
+          wacky	        JJ	      I-NP	         O	              -	         O	      I-A1	      I-A1	(ADJP*
+            and	        CC	      I-NP	         O	              -	         O	      I-A1	      I-A1	*
+            odd	        JJ	      I-NP	         O	              -	         O	      I-A1	      I-A1	*)
+         things	       NNS	      E-NP	         O	              -	         O	      I-A1	      E-A1	*)
+             he	       PRP	      S-NP	         O	              -	         O	      I-A1	      S-A0	(NP*)
+          finds	       VBZ	      S-VP	         O	          finds	         O	      I-A1	       S-V	*
+         around	        IN	      S-PP	         O	              -	         O	      I-A1	  B-AM-LOC	(ADVP*)
+         Chetek	       NNP	      S-NP	     S-LOC	              -	         O	      I-A1	  E-AM-LOC	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	         O	      I-A1	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	         O	      I-A1	  I-AM-LOC	(NP*
+              h	        NN	      E-NP	         O	              -	         O	      I-A1	  I-AM-LOC	*)))
+            ...	         :	         O	         O	              -	         O	      I-A1	  I-AM-LOC	*
+        NEWLINE	        NN	      S-NP	         O	              -	         O	      E-A1	  E-AM-LOC	(NP*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(X(NP*
+         Chetek	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
+      Municipal	       NNP	      I-NP	     E-ORG	              -	      I-A0	*)
+              -	         :	      I-NP	         O	              -	      I-A0	*
+     Southworth	       NNP	      I-NP	     B-ORG	              -	      I-A0	(S(NP*
+        Airport	       NNP	      E-NP	     E-ORG	              -	      E-A0	*)
+         hosted	       VBD	      S-VP	         O	         hosted	       S-V	(VP*
+             80	        CD	      B-NP	         O	              -	      B-A1	(NP*
+         planes	       NNS	      E-NP	         O	              -	      E-A1	*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+            fly	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+              -	         :	         O	         O	              -	         O	*
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+             on	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+           Aug.	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP*
+             21	        CD	      E-NP	         O	              -	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	*)))
+
+         Flight	        NN	      S-NP	         O	              -	(S1(NP*
+            ...	         :	         O	         O	              -	*))
+
