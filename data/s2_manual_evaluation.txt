@@ -1,0 +1,63 @@
+"verbose_question": "How many ['killing'] events happened in 2017 (year) that involve the name Williams (last) ?"
+gold "numerical_answer": 3
+system "numerical_answer": 16
+gold num documents retrieved: 11
+system num documents retrieved: 20
+
+gold standard:
+2-7184----14----[17, 22]   --> correctly clustered
+   +6ec29e65feb117051d252f5e19b62b3b+
+   +506cd74a80407bbbb51af11116f41e3a+
+
+2-7184----7----[7, 12]  --> correctly clustered
+   +26103d2602885a115799d63a2a3f7bce
+   +d0c74aee937c7e7e59e441e4e43d2a6e+
+   -64b25b80bcba863e2eb242d1d1d0fea4   --> same incident, but no Williams mentioned, sim 0.37447    
+
+2-7184----1----[0, 3, 11]  --> correctly clustered
+   +ba3199d11a95053b6fae7d69d423abae+
+   +f78654322e69e05f79ee1c4f698f7568+
+   +0b0a3c8d1702abf11b678e524c7f5451+
+2-7184----3----[2]
+   +e4dd984123b711a94db192af19226b5e   --> should be clustered, sim 0.16104348
+   -f364be273e91a5b17b774ae2d975fe2d   --> same incident, but no Williams mentioned, max(sim) 0.10662338 0.17418553 0.12737805 0.21807113
+   -36f1a11999e377b5d716ea3efbcba460   --> same incident, but no Williams mentioned, max(sim) 0.20787084 0.17418553  <0.1  0.10903036
+
+correct (but not in gold standard):
+2-7184----9----[9]   --> correctly clustered
+   ?4bb7c527fc432e0d4539c4dc6cd07c84+   
+
+2-7184----11----[13] --> correctly clustered
+   ?29f342344795c36f497d25c7e47fdf50
+
+Williams as bystander:
+2-7184----6----[6, 16]  --> correctly clustered
+   -a01b246769b0ec78d310ae4731cb81c2   --> Williams as reporter/witness
+   -4ca1cbd3f6ffdda10a145ea48b31c96b
+
+2-7184----8----[8]
+   -9c3289ed3a8066a7a8287737df8fb2b8   --> Williams as police officer   
+
+2-7184----10----[10, 18, 21]  --> correctly clustered
+   -e08ffa2dcd244ff86e2f8bd81ebb776c   --> Williams as reporter/witness
+   -358807b6c7431cfb6a333cf179db319d
+   -9d9eeb109e8f9b9d6d7a57e7f75f67f8
+
+2-7184----12----[14]
+   -540a214ec4078f4e643943d314f33fbc   --> Williams as family member
+
+2-7184----13----[15]
+   -24db181b64dadbf4badbb6c2dbe77617   --> Williams as expert
+
+wrong:
+2-7184----2----[1]
+   -658bd26c13c0d6f365462c19ea7df065   --> not killing
+2-7184----4----[4]
+   -dcdd529840a44b982e26dd49f61c63d2   --> not killing
+2-7184----5----[5]
+   -0bd91382d9dabb36a37ee3f5f0db0ae1   --> not killing   --> topic detection failed
+2-7184----15----[19]
+   -5549a4bfcaf8e1d3622aa4ed89dc8518   --> not killing   --> topic detection failed
+2-7184----16----[20]
+   -ffa4bba39a6492d6497dd2658acc4f0a   --> Williams not in killing since there are several incidents  --> multiple incident detection failed   
+
