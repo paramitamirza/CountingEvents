@@ -1205,7 +1205,7 @@ public class SemEvalDataParser {
 		////////////////DONE!
 		
 		
-		////////////////Read file containing sense embedding similarity of concepts to event type, saved in babelSenseSims ////////////////
+		////////////////Read file containing location (city, state) per document, saved in mapLocation ////////////////
 		Map<String, String> mapLocation = new HashMap<String, String>();
 		brr = new BufferedReader(new FileReader(topicfile.replace("topics_v1.tsv", "location_output_all.tsv")));
 		line = brr.readLine();
@@ -1468,18 +1468,23 @@ public class SemEvalDataParser {
 		int eventTypeId = 1, incidentIdx = 1;
 		String city, state;
 		for (String eventType : eventTypes) {
+			
+			////////Extract document clusters based on similarity files
 			List<Set<String>> clusters = DocumentClustering.getClusters(topicfile.replace("topics_v1.tsv", "similar_doc_0.1.tsv"), 
 					topicfile.replace("topics_v1.tsv", "similar_ent_0.1.tsv"), 
 					topicfile.replace(".tsv", "_" + eventType + ".tsv")
 					);
 			
+			
 			for (Set<String> docs : clusters) {
-				String incidentId = eventTypeId + "" + incidentIdx;
+				String incidentId = eventTypeId + "" + incidentIdx;		//Update event id...
+				
 				if (!incDocs.containsKey(incidentId)) incDocs.put(incidentId, new ArrayList<String>());
 				
 				if (!docTimes.containsKey(incidentId)) docTimes.put(incidentId, new HashSet<LocalDate>());
 				if (!incTimes.containsKey(incidentId)) incTimes.put(incidentId, new HashSet<LocalDate>());
 				
+				////////For each document in a cluster, assume them to have the same event id...
 				for (String doc : docs) {
 					
 					//Mapping between documents and event id
@@ -1490,9 +1495,9 @@ public class SemEvalDataParser {
 						docIncidents.get(doc).add("null");
 						docIncidents.get(doc).add("null");
 					}
+					docIncidents.get(doc).set(eventTypes.indexOf(eventType), incidentId);
 					
 					//Mapping between event id and list of documents
-					docIncidents.get(doc).set(eventTypes.indexOf(eventType), incidentId);
 					incDocs.get(incidentId).add(doc);
 					
 					//Mapping between event id and DCT, and event id and event time
