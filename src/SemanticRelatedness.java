@@ -67,9 +67,9 @@ public class SemanticRelatedness {
 	public static void main(String[] args) throws Exception {
 		
 		ILexicalDatabase db = new NictWordNet();
-//		RelatednessCalculator rc = new HirstStOnge(db);
+		RelatednessCalculator rc = new HirstStOnge(db);
 //		RelatednessCalculator rc = new Path(db);
-		RelatednessCalculator rc = new WuPalmer(db);	//might work with threshold 0.5
+//		RelatednessCalculator rc = new WuPalmer(db);	//might work with threshold 0.5
 		
 		List<Concept> test = (List<Concept>) db.getAllConcepts("deadly", "a");
 		System.out.println(test);
@@ -123,8 +123,8 @@ public class SemanticRelatedness {
 		System.out.println(rel.getScore());
 		
 		System.out.println("---");
-		SemanticRelatedness semrel = new SemanticRelatedness("01405044-v", "00069879-v");
-		System.out.println(semrel.getWupScore());
+		SemanticRelatedness semrel = new SemanticRelatedness("01323958-v", "02636810-v");
+		System.out.println(semrel.getHsoScore());
 		
 	}
 
