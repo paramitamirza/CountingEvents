@@ -1815,6 +1815,7 @@ public class SemEvalDataParser {
 			
 			for (String fname : cleanFullNames) {
 				
+				////Preprocessing the names started...
 				String doc = fname.split("\t")[1];
 				
 				fname = fname.split("\t")[0];
@@ -1909,6 +1910,8 @@ public class SemEvalDataParser {
 					String full3 = firstName.trim() + " " + "null" + " " + "null";
 					String full4 = "null" + " " + "null" + " " + lastName.trim();
 					
+					
+					////Combining is happening here...
 					if (!participants.contains(full)
 							&& !participants.contains(full2)
 							&& !participants.contains(full3)
@@ -2616,6 +2619,372 @@ public class SemEvalDataParser {
 		bw.close();
 	}
 	
+	public void asnwerFromTopicFiles(String questionFile, String topicfile, String locationFile, 
+			String timeFile, String participantFile, String numVictimFile, int subtask) throws IOException, JSONException, URISyntaxException {
+		
+		Map<String, List<String>> docIncidents = new HashMap<String, List<String>>();
+		Set<String> allIncidents = new HashSet<String>();
+		Map<String, Set<String>> incDocs = new HashMap<String, Set<String>>();
+		
+		Map<String, Set<String>> incCities = new HashMap<String, Set<String>>();
+		Map<String, Set<String>> incStates = new HashMap<String, Set<String>>();
+		Map<String, List<String>> incLocations = new TreeMap<String, List<String>>();
+		Map<String, LocalDate> incidentTimes = new HashMap<String, LocalDate>();
+		Map<String, List<Participant>> incParticipants = new HashMap<String, List<Participant>>();
+		Map<String, Long> incNumVictims = new HashMap<String, Long>();
+		
+		//documents to event id
+		BufferedReader br = new BufferedReader(new FileReader(topicfile));
+		String line = br.readLine();
+		while (line != null) {
+			String[] cols = line.split("\t");
+			if (!docIncidents.containsKey(cols[0])) docIncidents.put(cols[0], new ArrayList<String>());
+			if (!cols[2].equals("null")) docIncidents.get(cols[0]).add(cols[2]);
+			if (!cols[2].equals("null")) docIncidents.get(cols[0]).add(cols[3]);
+			if (!cols[2].equals("null")) docIncidents.get(cols[0]).add(cols[4]);
+			if (!cols[2].equals("null")) docIncidents.get(cols[0]).add(cols[5]);
+			
+			if (!cols[2].equals("null")) allIncidents.add(cols[2]);
+			if (!cols[3].equals("null")) allIncidents.add(cols[3]);
+			if (!cols[4].equals("null")) allIncidents.add(cols[4]);
+			if (!cols[5].equals("null")) allIncidents.add(cols[5]);
+			
+			if (!incDocs.containsKey(cols[2])) incDocs.put(cols[2], new HashSet<String>());
+			if (!cols[2].equals("null")) incDocs.get(cols[2]).add(cols[0]);
+			if (!incDocs.containsKey(cols[3])) incDocs.put(cols[3], new HashSet<String>());
+			if (!cols[3].equals("null")) incDocs.get(cols[3]).add(cols[0]);
+			if (!incDocs.containsKey(cols[4])) incDocs.put(cols[4], new HashSet<String>());
+			if (!cols[4].equals("null")) incDocs.get(cols[4]).add(cols[0]);
+			if (!incDocs.containsKey(cols[5])) incDocs.put(cols[5], new HashSet<String>());
+			if (!cols[5].equals("null")) incDocs.get(cols[5]).add(cols[0]);
+			
+			line = br.readLine();
+		}
+		br.close();
+		
+		//event id to location
+		br = new BufferedReader(new FileReader(locationFile));
+		line = br.readLine();
+		while (line != null) {
+			String[] cols = line.split("\t");
+			if (cols[1].equals("city")) {
+				if (!incCities.containsKey(cols[0])) incCities.put(cols[0], new HashSet<String>());
+				incCities.get(cols[0]).add(cols[2]);
+			}
+			if (cols[1].equals("state")) {
+				if (!incStates.containsKey(cols[0])) incStates.put(cols[0], new HashSet<String>());
+				incStates.get(cols[0]).add(cols[2]);
+			}
+			line = br.readLine();
+		}
+		br.close();
+		
+		//event id to time
+		br = new BufferedReader(new FileReader(timeFile));
+		line = br.readLine();
+		while (line != null) {
+			String[] cols = line.split("\t");
+			incidentTimes.put(cols[0], LocalDate.parse(cols[1]));
+			line = br.readLine();
+		}
+		br.close();
+		
+		
+		//event id to participants
+		br = new BufferedReader(new FileReader(participantFile));
+		line = br.readLine();
+		while (line != null) {
+			String[] cols = line.split("\t");
+			
+			if (!incParticipants.containsKey(cols[0])) incParticipants.put(cols[0], new ArrayList<Participant>());
+			Participant par = new Participant(cols[1], cols[2], cols[3], cols[4]);
+			incParticipants.get(cols[0]).add(par);
+			line = br.readLine();
+		}
+		br.close();
+		
+		
+		//event id to num victims
+		br = new BufferedReader(new FileReader(numVictimFile));
+		line = br.readLine();
+		while (line != null) {
+			String[] cols = line.split("\t");
+			incNumVictims.put(cols[0], Long.parseLong(cols[1]));
+			line = br.readLine();
+		}
+		br.close();
+		
+		
+		
+		
+		////////////////Now that we have all the mappings, let's answer some questions! ////////////////
+		
+		//Extract questions
+		br = new BufferedReader(new FileReader(questionFile));
+		String jsonStr = "";
+		line = br.readLine();
+		while (line != null) {
+			jsonStr += line;
+			line = br.readLine();
+		}
+		
+		// build a JSON object
+	    JSONObject obj = new JSONObject(jsonStr);
+	    JSONObject answers = new JSONObject();
+	    
+	    // get the first result
+	    Iterator<String> keys = obj.keys();
+	    
+	    Set<String> incidentsType = new HashSet<String>();
+	    Set<String> incidentsCity = new HashSet<String>();
+	    Set<String> incidentsState = new HashSet<String>();
+	    Set<String> incidentsPart = new HashSet<String>();
+	    Set<String> incidentsTime = new HashSet<String>();
+	    
+	    int numQuestion = 0;
+	    int numAnswered = 0;
+	    
+	    while( keys.hasNext() ) {
+	    	
+	    	numQuestion ++;
+	    	
+	    	incidentsType.clear();
+		    incidentsCity.clear();
+		    incidentsState.clear();
+		    incidentsPart.clear();
+		    incidentsTime.clear();
+	    	
+	        String key = (String)keys.next();
+	        JSONObject question = obj.getJSONObject(key);
+	        
+	        String eventType = question.getString("event_type");
+	        for (String incId : allIncidents) {
+	        	String type = "none";
+	        	if (incId.startsWith("1")) {
+	        		type = "injuring";
+	        	} else if (incId.startsWith("2")) {
+	        		type = "killing";
+	        	} else if (incId.startsWith("3")) {
+	        		type = "fire";
+	        	} else if (incId.startsWith("4")) {
+	        		type = "displace";
+	        	}
+	        	if (type.equals(eventType)) {
+	        		incidentsType.add(incId);
+	        	}
+	        }
+	        System.out.println(key + ": " + incidentsType.size());
+	        
+	        if (question.has("location")) {
+	        	JSONObject location = question.getJSONObject("location");
+	        	if (location.has("city")) {
+	        		URI ct = new URI(location.getString("city"));
+	        		for (String inc : incCities.keySet()) {
+	        			for (String ctt : incCities.get(inc)) {
+	        				URI cityy = new URI(ctt); 
+		        			if (cityy.equals(ct)) {
+		    	        		incidentsCity.add(inc);
+		        			}
+	        			}
+	        		}
+	        		System.out.println("  --location: " + incidentsCity.size());
+	        		incidentsType.retainAll(incidentsCity);
+	        	}
+	        	if (location.has("state")) {
+	        		URI st = new URI(location.getString("state"));
+	        		for (String inc : incStates.keySet()) {
+	        			for (String stt : incStates.get(inc)) {
+	        				URI statee = new URI(stt);
+		        			if (statee.equals(st)) {
+		    	        		incidentsState.add(inc);
+		        			}
+	        			}
+	        		}
+	        		System.out.println("  --location: " + incidentsState.size());
+	        		incidentsType.retainAll(incidentsState);
+	        	}
+	        }
+	        
+	        if (question.has("participant")) {
+	        	JSONObject participant = question.getJSONObject("participant");
+	        	if (participant.has("full_name")) {
+	        		String fullname = participant.getString("full_name");
+	        		for (String inc : incParticipants.keySet()) {
+	        			for (Participant part : incParticipants.get(inc)) {
+	        				if (subtask == 1 || subtask == 3) {
+	        					if (fullname.equals(part.getFullName())) {
+	        						incidentsPart.add(inc);
+	        					}
+	        				} else if (subtask == 2) {
+	        					if (fullname.equals(part.getFullName())
+	        							&& !part.getRole().equals("unknown")
+	        							) {
+	        						incidentsPart.add(inc);
+	        					}
+	        				} 
+	        			}
+	        		}
+	        		System.out.println("  --participant: " + incidentsTime.size());
+	        		incidentsType.retainAll(incidentsPart);
+	        	}
+	        	if (participant.has("first")) {
+	        		String first = participant.getString("first");
+	        		for (String inc : incParticipants.keySet()) {
+	        			for (Participant part : incParticipants.get(inc)) {
+	        				if (subtask == 1 || subtask == 3) {
+	        					if (first.equals(part.getFirstName())) {
+	        						incidentsPart.add(inc);
+	        					}
+	        				} else if (subtask == 2) {
+	        					if (first.equals(part.getFirstName())
+	        							&& !part.getRole().equals("unknown")
+	        							) {
+	        						incidentsPart.add(inc);
+	        					}
+	        				}
+	        			}
+	        		}
+	        		System.out.println("  --participant: " + incidentsPart.size());
+	        		incidentsType.retainAll(incidentsPart);
+	        	}
+	        	if (participant.has("last")) {
+	        		String last = participant.getString("last");
+	        		for (String inc : incParticipants.keySet()) {
+	        			for (Participant part : incParticipants.get(inc)) {
+	        				if (subtask == 1 || subtask == 3) {
+	        					if (last.equals(part.getLastName())) {
+	        						incidentsPart.add(inc);
+	        					}
+	        				} else if (subtask == 2) {
+	        					if (last.equals(part.getLastName())
+	        							&& !part.getRole().equals("unknown")
+	        							) {
+	        						incidentsPart.add(inc);
+	        					}
+	        				}
+	        			}
+	        		}
+	        		System.out.println("  --participant: " + incidentsPart.size());
+	        		incidentsType.retainAll(incidentsPart);
+	        	}
+	        }
+	        
+	        if (question.has("time")) {
+	        	JSONObject time = question.getJSONObject("time");
+	        	if (time.has("year")) {
+	        		String year = time.getString("year");
+	        		for (String inc : incidentTimes.keySet()) {
+	        			if (Integer.parseInt(year) == incidentTimes.get(inc).getYear()) {
+	        				incidentsTime.add(inc);
+	        			}
+	        		}
+	        		System.out.println("  --time: " + incidentsTime.size());
+	        		incidentsType.retainAll(incidentsTime);
+	        	}
+	        	if (time.has("month")) {
+	        		String month = time.getString("month").split("/")[0];
+	        		String year = time.getString("month").split("/")[1];
+	        		for (String inc : incidentTimes.keySet()) {
+	        			if (Integer.parseInt(month) == incidentTimes.get(inc).getMonthValue()
+	        					&& Integer.parseInt(year) == incidentTimes.get(inc).getYear()) {
+	        				incidentsTime.add(inc);
+	        			}
+	        		}
+	        		System.out.println("  --time: " + incidentsTime.size());
+	        		incidentsType.retainAll(incidentsTime);
+	        	}
+	        	if (time.has("day")) {
+	        		String day = time.getString("day").split("/")[0];
+	        		String month = time.getString("day").split("/")[1];
+	        		String year = time.getString("day").split("/")[2];
+	        		for (String inc : incidentTimes.keySet()) {
+	        			if (Integer.parseInt(day) == incidentTimes.get(inc).getDayOfMonth()
+	        					&& Integer.parseInt(month) == incidentTimes.get(inc).getMonthValue()
+	        					&& Integer.parseInt(year) == incidentTimes.get(inc).getYear()) {
+	        				incidentsTime.add(inc);
+	        			}
+	        		}
+	        		System.out.println("  --time: " + incidentsTime.size());
+	        		incidentsType.retainAll(incidentsTime);
+	        	}
+	        }
+	        
+	        if (incidentsType.size() > 0){
+	        	numAnswered ++;
+	        	
+//	        	JSONObject incident = new JSONObject();
+	        	JSONArray documents = new JSONArray();
+	        	for (String incId : incidentsType) {
+//	        		JSONArray documents = new JSONArray();
+	        		for (String docId : incDocs.get(incId)) {
+		        		documents.put(docId);
+		        	}
+//		        	incident.put(incId, documents);
+		        }
+		        
+		        JSONObject answer = new JSONObject();
+		        if (subtask == 1) {
+		        	answer.put("numerical_answer", 1);
+		        } else if (subtask == 2 || subtask == 3) {
+		        	answer.put("numerical_answer", incidentsType.size());
+		        }
+//		        answer.put("answer_docs", incident);
+		        answer.put("answer_docs", documents);
+		        
+		        int num_injured = 0;
+		        int num_killed = 0;
+		        if (subtask == 3) {
+		        	JSONObject incident2 = new JSONObject();
+		        	for (String inc : incidentsType) {
+		        		num_injured = 0;
+		        		num_killed = 0;
+		        		if (inc.startsWith("1")) {
+		        			if (incNumVictims.containsKey(inc)) {
+		        				num_injured += incNumVictims.get(inc);
+		        			} else {
+		        				if (incParticipants.containsKey(inc)) {
+			        				for (Participant part : incParticipants.get(inc)) {
+				        				if (part.getRole().equals("victim")) num_injured ++;
+				        			}
+		        				}
+		        			}
+		        		} else if (inc.startsWith("2")) {
+		        			if (incNumVictims.containsKey(inc)) {
+		        				num_killed += incNumVictims.get(inc);
+		        			} else {
+		        				if (incParticipants.containsKey(inc)) {
+			        				for (Participant part : incParticipants.get(inc)) {
+				        				if (part.getRole().equals("victim")) num_killed ++;
+				        			}
+		        				}
+		        			}
+		        		}
+		        		JSONObject numbers = new JSONObject();
+		        		numbers.put("num_injured", num_injured);
+		        		numbers.put("num_killed", num_killed);
+		        		
+		        		incident2.put(inc, numbers);
+		        	}
+		        	answer.put("part-info", incident2);
+		        	
+		        }
+		        
+		        answers.put(key, answer);
+		        
+	        }
+	        
+	    }
+	    System.out.println(numAnswered + "--" + numQuestion + "--" + numAnswered/(double)numQuestion);
+	    
+	    try (FileWriter jsonfile = new FileWriter(questionFile.replace("questions.json", "answers.json"))) {
+	    	jsonfile.write(answers.toString(4));
+		}
+	    
+	    
+	    ////////////////DONE! Phew... ////////////////
+		
+	}
+	
 	public static void main(String[] args) throws Exception {
 		
 		SemEvalDataParser parser = new SemEvalDataParser();
@@ -2637,19 +3006,34 @@ public class SemEvalDataParser {
 		
 		for (int i=1; i<4; i++) {
 		
-			parser.combineSennaBabelOutput("./data/trial_data_final/input/s1/docs.conll", 
-					"./data/trial_data_final/sentences/",
-					"./data/trial_data_final/babel/", 
-					"./data/trial_data_final/senna_v2/",
-					"./data/trial_data_final/topics_v1.tsv", 
-					1, "./data/trial_data_final/input/s"+i+"/questions.json", i);
+//			parser.combineSennaBabelOutput("./data/trial_data_final/input/s1/docs.conll", 
+//					"./data/trial_data_final/sentences/",
+//					"./data/trial_data_final/babel/", 
+//					"./data/trial_data_final/senna_v2/",
+//					"./data/trial_data_final/topics_v1.tsv", 
+//					1, "./data/trial_data_final/input/s"+i+"/questions.json", i);
+//			
+//			parser.combineSennaBabelOutput("./data/test_data/input/s1/docs.conll", 
+//					"./data/test_data/sentences/",
+//					"./data/test_data/babel/", 
+//					"./data/test_data/senna_v2/", 
+//					"./data/test_data/topics_v1.tsv",
+//					1, "./data/test_data/input/s"+i+"/questions.json", i);
 			
-			parser.combineSennaBabelOutput("./data/test_data/input/s1/docs.conll", 
-					"./data/test_data/sentences/",
-					"./data/test_data/babel/", 
-					"./data/test_data/senna_v2/", 
-					"./data/test_data/topics_v1.tsv",
-					1, "./data/test_data/input/s"+i+"/questions.json", i);
+			parser.asnwerFromTopicFiles("./data/trial_data_final/input/s"+i+"/questions.json", 
+					"./data/trial_data_final/trial_topics_v1(improved).tsv", 
+					"./data/trial_data_final/trial_location_v1(improved_noduplicate).tsv", 
+					"./data/trial_data_final/trial_event_time_v1(improved).tsv", 
+					"./data/trial_data_final/trial_participants_v1(improved_noduplicate).tsv",
+					"./data/trial_data_final/event_num_victims_v1.tsv", i);
+			
+			
+			parser.asnwerFromTopicFiles("./data/test_data/input/s"+i+"/questions.json", 
+					"./data/test_data/test_topics_v1(improved).tsv", 
+					"./data/test_data/test_location_v1(improved_noduplicate).tsv", 
+					"./data/test_data/test_event_time_v1(improved).tsv", 
+					"./data/test_data/test_participants_v1(improved_noduplicate).tsv",
+					"./data/test_data/event_num_victims_v1.tsv", i);
 		}
 		
 //		parser.extractWordNet("./data/trial_data_final/input/s1/docs.conll", 
