@@ -1621,7 +1621,7 @@ public class SemEvalDataParser {
 								if (arg.getType().equals("A1")) {
 									Long numInArg = containsNumber(arg.getText().toLowerCase());
 									if (numInArg > 0) {
-										incNumVictims.put(incidentId + "#" + doc + "#" + arg, numInArg);
+										incNumVictims.put(incidentId + "#" + doc + "\t" + p.getPredicate().getText() + "\t" + arg, numInArg);
 									}
 								}
 							}
@@ -1940,7 +1940,7 @@ public class SemEvalDataParser {
 		for (String incId : incNumVictims.keySet()) {
 			String[] incLine = incId.split("#");
 			bw.write(incLine[0] + "\t" + incNumVictims.get(incId) + "\n");
-			bwDebug.write(incLine[0] + "\t" + incNumVictims.get(incId) + "\t" + incLine[1] + "\t" + incLine[2] + "\n");
+			bwDebug.write(incLine[0] + "\t" + incNumVictims.get(incId) + "\t" + incLine[1] + "\n");
 		}
 		bw.close();
 		bwDebug.close();
