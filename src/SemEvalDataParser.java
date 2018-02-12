@@ -1940,7 +1940,7 @@ public class SemEvalDataParser {
 		for (String incId : incNumVictims.keySet()) {
 			String[] incLine = incId.split("#");
 			bw.write(incLine[0] + "\t" + incNumVictims.get(incId) + "\n");
-			bwDebug.write(incLine[0] + "\t" + incNumVictims.get(incId) + "\t" + incLine[1] + "\t" + incLine[2]);
+			bwDebug.write(incLine[0] + "\t" + incNumVictims.get(incId) + "\t" + incLine[1] + "\t" + incLine[2] + "\n");
 		}
 		bw.close();
 		bwDebug.close();
