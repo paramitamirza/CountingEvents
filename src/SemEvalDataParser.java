@@ -1621,7 +1621,7 @@ public class SemEvalDataParser {
 								if (arg.getType().equals("A1")) {
 									Long numInArg = containsNumber(arg.getText().toLowerCase());
 									if (numInArg > 0) {
-										incNumVictims.put(incidentId, numInArg);
+										incNumVictims.put(incidentId + "#" + doc + "#" + arg, numInArg);
 									}
 								}
 							}
@@ -1936,10 +1936,14 @@ public class SemEvalDataParser {
 		
 		//Events/incidents to number of victims
 		bw = new BufferedWriter(new FileWriter(topicfile.replace("topic", "event_num_victim")));
+		bwDebug = new BufferedWriter(new FileWriter(topicfile.replace("topics", "event_num_victim_debug")));
 		for (String incId : incNumVictims.keySet()) {
-			bw.write(incId + "\t" + incNumVictims.get(incId) + "\n");
+			String[] incLine = incId.split("#");
+			bw.write(incLine[0] + "\t" + incNumVictims.get(incId) + "\n");
+			bwDebug.write(incLine[0] + "\t" + incNumVictims.get(incId) + "\t" + incLine[1] + "\t" + incLine[2]);
 		}
 		bw.close();
+		bwDebug.close();
 		
 		
 		////////////////Now, let's generate annotated document (docs.conll) ////////////////		
@@ -3006,34 +3010,34 @@ public class SemEvalDataParser {
 		
 		for (int i=1; i<4; i++) {
 		
-//			parser.combineSennaBabelOutput("./data/trial_data_final/input/s1/docs.conll", 
-//					"./data/trial_data_final/sentences/",
-//					"./data/trial_data_final/babel/", 
-//					"./data/trial_data_final/senna_v2/",
-//					"./data/trial_data_final/topics_v1.tsv", 
-//					1, "./data/trial_data_final/input/s"+i+"/questions.json", i);
+			parser.combineSennaBabelOutput("./data/trial_data_final/input/s1/docs.conll", 
+					"./data/trial_data_final/sentences/",
+					"./data/trial_data_final/babel/", 
+					"./data/trial_data_final/senna_v2/",
+					"./data/trial_data_final/topics_v1.tsv", 
+					1, "./data/trial_data_final/input/s"+i+"/questions.json", i);
+			
+			parser.combineSennaBabelOutput("./data/test_data/input/s1/docs.conll", 
+					"./data/test_data/sentences/",
+					"./data/test_data/babel/", 
+					"./data/test_data/senna_v2/", 
+					"./data/test_data/topics_v1.tsv",
+					1, "./data/test_data/input/s"+i+"/questions.json", i);
+			
+//			parser.asnwerFromTopicFiles("./data/trial_data_final/input/s"+i+"/questions.json", 
+//					"./data/trial_data_final/trial_topics_v1(improved).tsv", 
+//					"./data/trial_data_final/trial_location_v1(improved_noduplicate).tsv", 
+//					"./data/trial_data_final/trial_event_time_v1(improved).tsv", 
+//					"./data/trial_data_final/trial_participants_v1(improved_noduplicate).tsv",
+//					"./data/trial_data_final/event_num_victims_v1.tsv", i);
 //			
-//			parser.combineSennaBabelOutput("./data/test_data/input/s1/docs.conll", 
-//					"./data/test_data/sentences/",
-//					"./data/test_data/babel/", 
-//					"./data/test_data/senna_v2/", 
-//					"./data/test_data/topics_v1.tsv",
-//					1, "./data/test_data/input/s"+i+"/questions.json", i);
-			
-			parser.asnwerFromTopicFiles("./data/trial_data_final/input/s"+i+"/questions.json", 
-					"./data/trial_data_final/trial_topics_v1(improved).tsv", 
-					"./data/trial_data_final/trial_location_v1(improved_noduplicate).tsv", 
-					"./data/trial_data_final/trial_event_time_v1(improved).tsv", 
-					"./data/trial_data_final/trial_participants_v1(improved_noduplicate).tsv",
-					"./data/trial_data_final/event_num_victims_v1.tsv", i);
-			
-			
-			parser.asnwerFromTopicFiles("./data/test_data/input/s"+i+"/questions.json", 
-					"./data/test_data/test_topics_v1(improved).tsv", 
-					"./data/test_data/test_location_v1(improved_noduplicate).tsv", 
-					"./data/test_data/test_event_time_v1(improved).tsv", 
-					"./data/test_data/test_participants_v1(improved_noduplicate).tsv",
-					"./data/test_data/event_num_victims_v1.tsv", i);
+//			
+//			parser.asnwerFromTopicFiles("./data/test_data/input/s"+i+"/questions.json", 
+//					"./data/test_data/test_topics_v1(improved).tsv", 
+//					"./data/test_data/test_location_v1(improved_noduplicate).tsv", 
+//					"./data/test_data/test_event_time_v1(improved).tsv", 
+//					"./data/test_data/test_participants_v1(improved_noduplicate).tsv",
+//					"./data/test_data/event_num_victims_v1.tsv", i);
 		}
 		
 //		parser.extractWordNet("./data/trial_data_final/input/s1/docs.conll", 
