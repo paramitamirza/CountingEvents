@@ -1,0 +1,125 @@
+     2017-02-12	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        College	       NNP	      B-NP	    B-MISC	              -	         O	(S1(S(NP*
+     Basketball	       NNP	      I-NP	    I-MISC	              -	         O	*
+         Player	       NNP	      E-NP	    I-MISC	              -	         O	*)
+        Injured	       NNP	      S-VP	    I-MISC	              -	         O	(VP*
+             In	       NNP	      S-PP	    I-MISC	              -	         O	(PP*
+          South	       NNP	      B-NP	    I-MISC	              -	         O	(NP*
+         Philly	       NNP	      I-NP	    I-MISC	              -	         O	*
+       Shooting	       NNP	      I-NP	    I-MISC	              -	         O	*))
+      Following	       NNP	      I-NP	    I-MISC	      Following	       S-V	(PP*
+         Drexel	       NNP	      I-NP	    I-MISC	              -	      B-A1	(NP*
+           Game	       NNP	      E-NP	    E-MISC	              -	      E-A1	*)))))
+
+              5	        CD	      B-NP	         O	              -	(S1(NP(NP(QP*
+           Best	       JJS	      I-NP	     B-ORG	              -	*)
+            Ski	        NN	      I-NP	     I-ORG	              -	*
+         Lodges	       NNS	      E-NP	     I-ORG	              -	*)
+             In	        IN	      S-PP	     I-ORG	              -	(PP*
+            The	        DT	      B-NP	     I-ORG	              -	(NP*
+           U.S.	       NNP	      E-NP	     E-ORG	              -	*))))
+
+              A	        DT	      B-NP	         O	              -	(S1(FRAG(NP(NP*
+           look	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+           five	        CD	      S-NP	         O	              -	(NP*))
+             of	        IN	      S-PP	         O	              -	(PP*
+            the	        DT	      B-NP	         O	              -	(NP(NP*
+           very	        RB	      I-NP	         O	              -	(ADJP*
+           best	       JJS	      I-NP	         O	              -	*)
+            ski	        NN	      I-NP	         O	              -	*
+         lodges	       NNS	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+            the	        DT	      B-NP	         O	              -	(NP*
+         United	       NNP	      I-NP	     B-LOC	              -	*
+         States	      NNPS	      E-NP	     E-LOC	              -	*)))))
+              .	         .	         O	         O	              -	*))
+
+           Five	        CD	      S-NP	         O	              -	      S-A0	         O	         O	(S1(S(NP(NP*
+           Must	       NNP	         O	         O	              -	         O	         O	         O	*)
+              -	         :	         O	         O	              -	         O	         O	         O	(PP*
+            See	        VB	      S-VP	         O	            See	       S-V	         O	         O	(S(VP*
+   Destinations	       NNS	      S-NP	     B-ORG	              -	      B-A1	         O	         O	(NP(NP*)
+             In	        IN	      S-PP	     I-ORG	              -	      I-A1	         O	         O	(PP(PP*
+    ParisWithin	       NNP	      S-NP	     E-ORG	              -	      I-A1	         O	         O	(NP*))
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	(NP(NP*
+             41	        CD	      I-NP	         O	              -	      I-A1	         O	         O	*
+         square	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+          miles	       NNS	      E-NP	         O	              -	      I-A1	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+          Paris	       NNP	      S-NP	     S-LOC	              -	      I-A1	         O	         O	(NP*)))))))))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	*
+         France	       NNP	      S-NP	     S-LOC	              -	      I-A1	         O	         O	(NP*)
+          there	        EX	      S-NP	         O	              -	      I-A1	         O	         O	(NP*)
+            are	       VBP	      S-VP	         O	              -	      I-A1	         O	         O	(VP*
+           over	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+             60	        CD	      B-NP	         O	              -	      I-A1	         O	         O	(NP(NP*
+           main	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+    attractions	       NNS	      E-NP	         O	              -	      I-A1	         O	         O	*)
+            for	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+       visitors	       NNS	      S-NP	         O	              -	      I-A1	      S-A0	      S-A1	(NP(NP*)
+             to	        TO	      B-VP	         O	              -	      I-A1	         O	         O	(PP*
+       discover	        VB	      I-VP	         O	       discover	      I-A1	       S-V	         O	(VP*
+        ranging	       VBG	      E-VP	         O	        ranging	      I-A1	      B-A1	       S-V	(S(VP*
+           from	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      B-A4	(PP(PP*
+        Museums	      NNPS	      B-NP	     B-ORG	              -	      I-A1	      I-A1	      I-A4	(NP*
+              ,	         ,	      I-NP	     I-ORG	              -	      I-A1	      I-A1	      I-A4	*
+       Churches	      NNPS	      I-NP	     I-ORG	              -	      I-A1	      I-A1	      I-A4	*
+              ,	         ,	      I-NP	     I-ORG	              -	      I-A1	      I-A1	      I-A4	*
+      Monuments	      NNPS	      I-NP	     E-ORG	              -	      I-A1	      I-A1	      I-A4	*
+            and	        CC	      I-NP	         O	              -	      I-A1	      I-A1	      I-A4	*
+        Squares	      NNPS	      E-NP	         O	              -	      I-A1	      I-A1	      I-A4	*))
+             as	        RB	    B-ADVP	         O	              -	      I-A1	      I-A1	      I-A4	(CONJP*
+           well	        RB	    E-ADVP	         O	              -	      I-A1	      I-A1	      I-A4	*
+             as	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      I-A4	*)
+       examples	       NNS	      S-NP	         O	              -	      I-A1	      I-A1	      I-A4	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      I-A4	(PP*
+   contemporary	        JJ	      B-NP	         O	              -	      I-A1	      I-A1	      I-A4	(NP*
+            and	        CC	      I-NP	         O	              -	      I-A1	      I-A1	      I-A4	*
+    traditional	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A4	*
+   architecture	        NN	      E-NP	         O	              -	      E-A1	      E-A1	      E-A4	*)))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+           This	        DT	      S-NP	         O	              -	         O	         O	(S1(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	         O	(VP*
+            far	        RB	      B-NP	         O	              -	         O	         O	(NP(NP(ADJP*
+            too	        RB	      I-NP	         O	              -	         O	         O	*
+           many	        JJ	      I-NP	         O	              -	         O	         O	*)
+          sites	       NNS	      E-NP	         O	              -	         O	         O	*)
+            for	        IN	      S-PP	         O	              -	         O	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	         O	         O	(S(NP*
+        average	        JJ	      I-NP	         O	              -	         O	         O	*
+        tourist	        NN	      E-NP	         O	              -	         O	         O	*)
+             to	        TO	      B-VP	         O	              -	         O	         O	(VP*
+        attempt	        VB	      I-VP	         O	        attempt	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	(S(VP*
+          visit	        VB	      E-VP	         O	          visit	      I-A1	       S-V	(VP*
+         during	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP(NP*
+          short	        JJ	      I-NP	         O	              -	      I-A1	  I-AM-TMP	*
+           stay	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP(NP*
+           city	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	(PP*
+         lights	       NNS	      S-NP	         O	              -	      E-A1	  E-AM-TMP	(NP*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           Thus	        RB	    S-ADVP	         O	              -	         O	(S1(S(ADVP*)
+              a	        DT	      B-NP	         O	              -	         O	(UCP(NP(NP*
+           list	        NN	      E-NP	         O	              -	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+           five	        CD	      E-NP	         O	              -	         O	(ADJP*
+           most	       RBS	    B-ADVP	         O	              -	         O	*
+         famous	        JJ	    E-ADVP	         O	              -	         O	*))))
+            and	        CC	         O	         O	              -	         O	*
+           must	        MD	      B-VP	         O	              -	  S-AM-MOD	(VP*
+            see	        VB	      E-VP	         O	            see	       S-V	(VP*
+    attractions	       NNS	      S-NP	         O	              -	      B-A1	(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	      I-A1	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+          order	        NN	      S-NP	         O	              -	      E-A1	(NP*)))))))
+              .	         .	         O	         O	              -	         O	*))
+

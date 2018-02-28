@@ -1,0 +1,94 @@
+     2017-02-04	        CD	      S-NP	         O	              -	(S1(NP*))
+
+              1	        CD	      B-NP	         O	              -	(S1(NP(NP*
+           shot	        NN	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+          Miami	       NNP	      S-NP	     S-LOC	              -	(NP(NP*
+             's	       POS	      B-NP	         O	              -	*)
+    Brownsville	       NNP	      I-NP	     S-LOC	              -	*
+   neighborhood	        NN	      E-NP	         O	              -	*))))
+
+          MIAMI	       NNP	      S-NP	     S-LOC	              -	         O	         O	(S1(S(NP(NP*)
+              -	         :	         O	         O	              -	         O	         O	*
+              A	        DT	      B-NP	         O	              -	      B-A0	         O	(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A0	         O	*))
+           left	       VBD	      S-VP	         O	           left	       S-V	         O	(VP*
+            one	        CD	      B-NP	         O	              -	      B-A1	      B-A1	(S(NP*
+         person	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+        wounded	       VBN	      S-VP	         O	        wounded	      S-A2	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	  B-AM-LOC	  B-AM-TMP	(PP*
+         Friday	       NNP	      B-NP	         O	              -	  I-AM-LOC	  I-AM-TMP	(NP*
+          night	        NN	      E-NP	         O	              -	  I-AM-LOC	  E-AM-TMP	*))
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	  B-AM-LOC	(PP*
+          Miami	       NNP	      S-NP	     S-LOC	              -	  I-AM-LOC	  I-AM-LOC	(NP(NP*
+             's	       POS	      B-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*)
+    Brownsville	       NNP	      I-NP	     S-LOC	              -	  I-AM-LOC	  I-AM-LOC	*
+   neighborhood	        NN	      E-NP	         O	              -	  I-AM-LOC	  E-AM-LOC	*))
+              ,	         ,	         O	         O	              -	  I-AM-LOC	         O	*
+      according	       VBG	      S-PP	         O	              -	  I-AM-LOC	         O	(PP*
+          Miami	       NNP	      S-NP	     S-LOC	              -	  I-AM-LOC	         O	(NP(NP*)
+              -	         :	         O	         O	              -	  I-AM-LOC	         O	*
+           Dade	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	         O	(NP*
+           Fire	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	         O	*
+         Rescue	       NNP	      E-NP	     E-ORG	              -	  E-AM-LOC	         O	*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+     Paramedics	       NNS	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+      responded	       VBD	      S-VP	         O	      responded	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP(NP(NP*
+         corner	        NN	      E-NP	         O	              -	      I-A2	*)
+             of	        IN	      S-PP	         O	              -	      I-A2	(PP*
+      Northwest	       NNP	      B-NP	     B-LOC	              -	      I-A2	(NP*
+             24	        CD	      I-NP	     I-LOC	              -	      I-A2	*
+         Avenue	       NNP	      E-NP	     E-LOC	              -	      I-A2	*)))
+            and	        CC	         O	         O	              -	      I-A2	*
+      Northwest	       NNP	      B-NP	     B-LOC	              -	      I-A2	(NP(NP(QP*
+             51	        CD	      I-NP	     I-LOC	              -	      I-A2	*)
+         Street	       NNP	      E-NP	     E-LOC	              -	      I-A2	*)
+          about	        IN	      B-NP	         O	              -	      I-A2	(NP(QP*
+              9	        CD	      I-NP	         O	              -	      I-A2	*)
+           p.m.	        NN	      E-NP	         O	              -	      E-A2	*)))))))
+
+           MDFR	       NNP	      S-NP	     S-ORG	              -	      S-A1	(S1(S(NP*)
+         rushed	       VBD	      S-VP	         O	         rushed	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A2	(NP*
+         victim	        NN	      E-NP	         O	              -	      E-A2	*)
+             to	        TO	      S-PP	         O	              -	      B-A4	(PP*
+        Jackson	       NNP	      B-NP	     B-LOC	              -	      I-A4	(NP(NP*
+       Memorial	       NNP	      I-NP	     I-LOC	              -	      I-A4	*
+       Hospital	       NNP	      E-NP	     E-LOC	              -	      I-A4	*
+             's	       POS	      B-NP	         O	              -	      I-A4	*)
+          Ryder	       NNP	      I-NP	     B-ORG	              -	      I-A4	*
+         Trauma	       NNP	      I-NP	     I-ORG	              -	      I-A4	*
+         Center	       NNP	      E-NP	     E-ORG	              -	      E-A4	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+           This	        DT	      S-NP	         O	              -	         O	(S1(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+              a	        DT	      B-NP	         O	              -	         O	(NP*
+     developing	       VBG	      I-NP	         O	     developing	       S-V	*
+          story	        NN	      E-NP	         O	              -	      S-A1	*))
+              .	         .	         O	         O	              -	         O	*))
+
+        Refresh	        VB	      S-VP	         O	        Refresh	       S-V	(S1(S(VP*
+           this	        DT	      B-NP	         O	              -	      B-A1	(NP*
+           link	        NN	      E-NP	         O	              -	      I-A1	*)
+            for	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+         latest	       JJS	      I-NP	         O	              -	      I-A1	*
+    information	        NN	      E-NP	         O	              -	      E-A1	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+          Local	        JJ	      B-NP	         O	              -	      B-A0	(S1(S(NP(NP*
+             10	        CD	      I-NP	         O	              -	      I-A0	*
+           News	       NNP	      E-NP	     S-ORG	              -	      I-A0	*
+              '	       POS	      B-NP	         O	              -	      I-A0	*)
+        Marcine	       NNP	      I-NP	     B-PER	              -	      I-A0	*
+         Joseph	       NNP	      E-NP	     E-PER	              -	      E-A0	*)
+    contributed	       VBD	      S-VP	         O	    contributed	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+           this	        DT	      B-NP	         O	              -	      I-A2	(NP*
+          story	        NN	      E-NP	         O	              -	      E-A2	*)))
+              .	         .	         O	         O	              -	         O	*))
+

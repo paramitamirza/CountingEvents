@@ -1,0 +1,495 @@
+     2017-02-01	        CD	      S-NP	         O	              -	(S1(NP*))
+
+              4	        CD	      B-NP	         O	              -	(S1(NP(NP(NP*
+           shot	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+           busy	        JJ	      B-NP	         O	              -	(NP*
+        Memphis	       NNP	      I-NP	     S-LOC	              -	*
+        bowling	        NN	      I-NP	         O	              -	*
+          alley	        NN	      E-NP	         O	              -	*)))
+              -	         :	         O	         O	              -	*
+            WMC	       NNP	      B-NP	     B-ORG	              -	(NP(NP*
+         Action	       NNP	      I-NP	     I-ORG	              -	*
+           News	       NNP	      I-NP	     E-ORG	              -	*
+              5	        CD	      E-NP	         O	              -	*)
+              -	         :	         O	         O	              -	*
+        Memphis	       NNP	      S-NP	     S-LOC	              -	(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+      Tennessee	       NNP	      S-NP	     S-LOC	              -	(NP*)))))
+
+        Gunfire	        NN	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+        erupted	       VBD	      S-VP	         O	        erupted	       S-V	(VP*
+           into	        IN	      S-PP	         O	              -	      B-A2	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	(NP(NP*
+        popular	        JJ	      I-NP	         O	              -	      I-A2	*
+        Memphis	       NNP	      I-NP	     S-LOC	              -	      I-A2	*
+        bowling	        NN	      I-NP	         O	              -	      I-A2	*
+          alley	        NN	      E-NP	         O	              -	      E-A2	*)
+        Tuesday	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP*
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+          Three	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         people	       NNS	      E-NP	         O	              -	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+         around	        IN	      S-PP	         O	              -	  B-AM-TMP	(ADVP*)
+          11:30	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+          Billy	       NNP	      B-NP	     B-PER	              -	  I-AM-LOC	(NP(NP(NP*
+       Hardwick	       NNP	      E-NP	     E-PER	              -	  I-AM-LOC	*
+             's	       POS	      B-NP	         O	              -	  I-AM-LOC	*)
+            All	       NNP	      I-NP	     B-ORG	              -	  I-AM-LOC	*
+           Star	       NNP	      I-NP	     E-ORG	              -	  I-AM-LOC	*
+          Lanes	      NNPS	      E-NP	         O	              -	  I-AM-LOC	*)
+             on	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+          South	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+          White	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+        Station	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+           Road	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	*))))))
+              .	         .	         O	         O	              -	         O	*))
+
+              "	        IN	    S-SBAR	         O	              -	         O	      B-A1	(S1(S(SBAR*
+             It	       PRP	      S-NP	         O	              -	      S-A1	      I-A1	(S(NP*)
+           came	       VBD	      S-VP	         O	           came	       S-V	      I-A1	(VP*
+            out	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
+             of	        IN	      S-PP	         O	              -	      B-A2	      I-A1	(PP*
+        nowhere	        RB	      B-NP	         O	              -	      E-A2	      E-A1	(NP*))))))
+              ,	         ,	      I-NP	         O	              -	         O	         O	*
+              "	        JJ	      I-NP	         O	              -	         O	      B-A0	(NP*
+         victim	        NN	      I-NP	         O	              -	         O	      I-A0	*
+         Miosha	       NNP	      I-NP	     B-PER	              -	         O	      I-A0	*
+           Cook	       NNP	      E-NP	     E-PER	              -	         O	      E-A0	*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              "	        IN	    S-SBAR	         O	              -	         O	(S1(S(ADVP*)
+              I	       PRP	      S-NP	         O	              -	      S-A0	(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+           just	        RB	      I-VP	         O	              -	  S-AM-ADV	(ADVP*)
+        playing	       VBG	      E-VP	         O	        playing	       S-V	(VP*
+              .	         .	         O	         O	              -	         O	*
+              "	         .	         O	         O	              -	         O	(NP*)))))
+
+           Cook	       NNP	      S-NP	     S-PER	              -	         O	(S1(S(NP*)
+            was	       VBD	      S-VP	         O	              -	         O	(VP*
+            one	        CD	      S-NP	         O	              -	         O	(NP(NP(NP*)
+             of	        IN	      S-PP	         O	              -	         O	(PP*
+           four	        CD	      B-NP	         O	              -	      B-A1	(NP*
+         people	       NNS	      E-NP	         O	              -	      E-A1	*)))
+             to	        TO	      B-VP	         O	              -	         O	(SBAR(S(VP*
+             be	        VB	      I-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+         inside	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+        bowling	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+          alley	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))))))))
+              .	         .	         O	         O	              -	         O	*))
+
+        Memphis	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	(S1(S(NP*
+         Police	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	*
+     Department	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+             it	       PRP	      S-NP	         O	              -	      B-A1	      B-A1	(NP*)
+            all	        DT	      S-NP	         O	              -	      I-A1	      E-A1	(SBAR(S(NP*)
+        started	       VBD	      S-VP	         O	        started	      I-A1	       S-V	(VP*
+           with	        IN	      S-PP	         O	              -	      I-A1	  B-AM-MNR	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A1	  I-AM-MNR	(NP(NP*
+       argument	        NN	      E-NP	         O	              -	      I-A1	  I-AM-MNR	*)
+             at	        IN	      S-PP	         O	              -	      I-A1	  I-AM-MNR	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-MNR	(NP*
+       checkout	        NN	      I-NP	         O	              -	      I-A1	  I-AM-MNR	*
+        counter	        NN	      E-NP	         O	              -	      E-A1	  E-AM-MNR	*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             An	        DT	      B-NP	         O	              -	      B-A1	      B-A1	      B-A1	(S1(S(NP(NP*
+          alley	        NN	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	*)
+        regular	        JJ	      E-NP	         O	              -	      E-A1	      E-A1	      E-A1	(ADJP*))
+            got	       VBD	      B-VP	         O	            got	       S-V	         O	         O	(VP(VP*
+          upset	       VBN	      I-VP	         O	          upset	      B-A1	       S-V	         O	(ADJP*))
+            and	        CC	      I-VP	         O	              -	      I-A1	         O	         O	*
+        stormed	       VBD	      E-VP	         O	        stormed	      I-A1	         O	       S-V	(VP*
+            out	        IN	      S-PP	         O	              -	      I-A1	         O	  B-AM-DIR	(PP*
+             of	        IN	      S-PP	         O	              -	      I-A1	      B-A2	  I-AM-DIR	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A2	  I-AM-DIR	(NP*
+       building	        NN	      E-NP	         O	              -	      E-A1	      E-A2	  E-AM-DIR	*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A0	      S-A0	      S-A0	      S-A0	(S1(S(NP*)
+           went	       VBD	      S-VP	         O	           went	       S-V	         O	         O	         O	(VP(VP*
+             to	        TO	      S-PP	         O	              -	      B-A4	         O	         O	         O	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A4	         O	         O	         O	(NP*
+          truck	        NN	      E-NP	         O	              -	      E-A4	         O	         O	         O	*)))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+         pulled	       VBD	      S-VP	         O	         pulled	         O	       B-V	         O	         O	(VP*
+            out	        RP	     S-PRT	         O	              -	         O	       E-V	         O	         O	(ADVP*)
+              a	        DT	      B-NP	         O	              -	         O	      B-A1	         O	         O	(NP*
+          rifle	        NN	      E-NP	         O	              -	         O	      E-A1	         O	         O	*))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	*
+        started	       VBD	      B-VP	         O	        started	         O	         O	       S-V	         O	(VP*
+       shooting	       VBG	      E-VP	         O	       shooting	         O	         O	      B-A1	       S-V	(NP*)
+        through	        IN	      S-PP	         O	              -	         O	         O	      I-A1	  B-AM-MNR	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	      I-A1	  I-AM-MNR	(NP*
+          front	        JJ	      I-NP	         O	              -	         O	         O	      I-A1	  I-AM-MNR	*
+          doors	       NNS	      E-NP	         O	              -	         O	         O	      E-A1	  E-AM-MNR	*))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP(QP*
+           four	        CD	      E-NP	         O	              -	      I-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+       shooting	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+        victims	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*)))
+           were	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+        treated	       VBN	      E-VP	         O	        treated	       S-V	         O	(VP(VP*
+             at	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	         O	(NP*
+       hospital	        NN	      E-NP	         O	              -	      E-A2	         O	*)))
+            and	        CC	         O	         O	              -	         O	         O	*
+       released	       VBN	      S-VP	         O	       released	         O	       S-V	(VP*)))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           Cook	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	(S1(S(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+            she	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	(SBAR(S(NP*)
+           does	       VBZ	      B-VP	         O	              -	      I-A1	         O	(VP*
+            n't	        RB	      I-VP	         O	              -	      I-A1	  S-AM-NEG	*
+          blame	        VB	      E-VP	         O	          blame	      I-A1	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP*
+        bowling	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+          alley	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)))))))
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+            and	        CC	         O	         O	              -	      I-A1	         O	*
+            she	       PRP	      S-NP	         O	              -	      I-A1	         O	(S(NP*)
+           will	        MD	      B-VP	         O	              -	      I-A1	         O	(VP*
+             be	        VB	      E-VP	         O	              -	      I-A1	         O	(VP*
+           back	        RB	    S-ADVP	         O	              -	      I-A1	         O	(ADVP*
+             to	        TO	      S-PP	         O	              -	      I-A1	         O	(PP*
+           bowl	        NN	      S-NP	         O	              -	      I-A1	         O	(NP*)))
+          again	        RB	    S-ADVP	         O	              -	      I-A1	         O	(ADVP*)
+             as	        RB	    B-ADVP	         O	              -	      I-A1	         O	(ADVP(ADVP*
+           soon	        RB	    E-ADVP	         O	              -	      I-A1	         O	*)
+             as	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+       possible	        JJ	    S-ADJP	         O	              -	      E-A1	         O	(ADJP*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              "	        ``	         O	         O	              -	         O	(S1(S(ADVP*)
+              I	       PRP	      S-NP	         O	              -	      S-A0	(NP*)
+           feel	       VBP	      S-VP	         O	           feel	       S-V	(VP*
+           like	        IN	      S-PP	         O	              -	      B-A1	(PP*
+              I	       PRP	      S-NP	         O	              -	      E-A1	(NP*)))
+            was	       VBD	      S-VP	         O	              -	         O	(VP*
+           just	        RB	    S-ADVP	         O	              -	         O	(ADVP*)
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+          wrong	        JJ	      I-NP	         O	              -	         O	*
+          place	        NN	      E-NP	         O	              -	         O	*))
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+          wrong	        JJ	      I-NP	         O	              -	         O	*
+           time	        NN	      E-NP	         O	              -	         O	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	      B-A0	      B-A1	(S1(S(S(NP*
+        bowling	        NN	      I-NP	         O	              -	      I-A0	      I-A0	      I-A1	*
+          alley	        NN	      E-NP	         O	              -	      E-A0	      E-A0	      I-A1	*)
+            did	       VBD	      B-VP	         O	              -	         O	         O	      I-A1	(VP*
+            n't	        RB	      I-VP	         O	              -	  S-AM-NEG	         O	      I-A1	*
+           have	        VB	      E-VP	         O	           have	       S-V	         O	      I-A1	(VP*
+       anything	        NN	      S-NP	         O	              -	      B-A1	      S-A1	      I-A1	(NP(NP*)
+             to	        TO	      B-VP	         O	              -	      I-A1	         O	      I-A1	(SBAR(S(VP*
+             do	        VB	      E-VP	         O	             do	      I-A1	       S-V	      I-A1	(VP*
+           with	        IN	      S-PP	         O	              -	      I-A1	      B-A2	      I-A1	(PP*
+             it	       PRP	      S-NP	         O	              -	      E-A1	      E-A2	      E-A1	(NP*))))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+              "	        FW	      B-NP	         O	              -	         O	         O	         O	(NP*
+           Cook	       NNP	      E-NP	     S-PER	              -	         O	         O	      S-A0	*)
+           said	       VBD	      S-VP	         O	           said	         O	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+          Billy	       NNP	      B-NP	     B-PER	              -	      B-A0	(S1(S(NP(NP*
+       Hardwick	       NNP	      E-NP	     E-PER	              -	      I-A0	*
+             's	       POS	      B-NP	         O	              -	      I-A0	*)
+            All	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
+           Star	       NNP	      I-NP	     E-ORG	              -	      I-A0	*
+          Lanes	      NNPS	      E-NP	         O	              -	      E-A0	*)
+       released	       VBD	      S-VP	         O	       released	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(NP(NP*
+      following	        JJ	      I-NP	         O	              -	      I-A1	*
+      statement	        NN	      E-NP	         O	              -	      I-A1	*)
+          about	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*))))
+              :	         :	         O	         O	              -	         O	*))
+
+           Last	        JJ	      B-NP	         O	              -	  B-AM-TMP	(S1(S(NP*
+        evening	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+              ,	         ,	         O	         O	              -	         O	*
+           just	        RB	      B-NP	         O	              -	  B-AM-TMP	(NP(NP(QP*
+             30	        CD	      I-NP	         O	              -	  I-AM-TMP	*)
+        minutes	       NNS	      E-NP	         O	              -	  I-AM-TMP	*)
+          prior	        RB	    S-ADVP	         O	              -	  I-AM-TMP	(ADVP*
+             to	        TO	      S-PP	         O	              -	  I-AM-TMP	(PP*
+        closing	        NN	      S-NP	         O	              -	  E-AM-TMP	(NP*))))
+              ,	         ,	         O	         O	              -	         O	*
+              a	        DT	      B-NP	         O	              -	      B-A0	(NP*
+          fight	        NN	      E-NP	         O	              -	      E-A0	*)
+          broke	       VBD	      S-VP	         O	          broke	       B-V	(VP*
+            out	        RP	     S-PRT	         O	              -	       E-V	(ADVP*)
+         inside	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            our	      PRP$	      B-NP	         O	              -	  I-AM-LOC	(NP*
+        bowling	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+         center	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+        amongst	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+          group	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+        patrons	       NNS	      S-NP	         O	              -	  E-AM-LOC	(NP*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	         O	      S-A0	         O	         O	         O	(S1(S(S(NP*)
+      escalated	       VBD	      S-VP	         O	      escalated	       S-V	         O	         O	         O	         O	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	         O	         O	         O	         O	(PP*
+            one	        CD	      B-NP	         O	              -	      I-A2	      B-A0	      B-A0	         O	         O	         O	(NP*
+            man	        NN	      E-NP	         O	              -	      I-A2	      E-A0	      E-A0	         O	         O	         O	*))
+          going	       VBG	      S-VP	         O	          going	      I-A2	       B-V	         O	         O	         O	         O	(S(VP(VP*
+            out	        RP	     S-PRT	         O	              -	      I-A2	       E-V	         O	         O	         O	         O	(ADVP*)
+           into	        IN	      S-PP	         O	              -	      I-A2	  B-AM-DIR	         O	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	  I-AM-DIR	         O	         O	         O	         O	(NP*
+        parking	        NN	      I-NP	         O	              -	      I-A2	  I-AM-DIR	         O	         O	         O	         O	*
+            lot	        NN	      E-NP	         O	              -	      I-A2	  E-AM-DIR	         O	         O	         O	         O	*)))
+            and	        CC	         O	         O	              -	      I-A2	         O	         O	         O	         O	         O	*
+     retrieving	       VBG	      S-VP	         O	     retrieving	      I-A2	         O	       S-V	         O	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A2	         O	      B-A1	         O	         O	         O	(NP*
+            gun	        NN	      E-NP	         O	              -	      I-A2	         O	      E-A1	         O	         O	         O	*)
+           from	        IN	      S-PP	         O	              -	      I-A2	         O	      B-A2	         O	         O	         O	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A2	         O	      I-A2	         O	         O	         O	(NP*
+        vehicle	        NN	      E-NP	         O	              -	      E-A2	         O	      E-A2	         O	         O	         O	*)))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	         O	*
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	         O	         O	*
+             he	       PRP	      S-NP	         O	              -	         O	         O	         O	      S-A0	         O	         O	(S(NP*)
+          fired	       VBD	      S-VP	         O	          fired	         O	         O	         O	       S-V	         O	         O	(VP*
+          shots	       NNS	      S-NP	         O	              -	         O	         O	         O	      S-A1	         O	         O	(NP*)
+           from	        IN	      S-PP	         O	              -	         O	         O	         O	  B-AM-DIR	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	  I-AM-DIR	         O	         O	(NP*
+        parking	        NN	      I-NP	         O	              -	         O	         O	         O	  I-AM-DIR	         O	         O	*
+            lot	        NN	      E-NP	         O	              -	         O	         O	         O	  E-AM-DIR	         O	         O	*))
+        through	        IN	      S-PP	         O	              -	         O	         O	         O	  B-AM-MNR	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	  I-AM-MNR	      B-A1	         O	(NP(NP*
+          front	        JJ	      I-NP	         O	              -	         O	         O	         O	  I-AM-MNR	      I-A1	         O	*
+           door	        NN	      E-NP	         O	              -	         O	         O	         O	  I-AM-MNR	      E-A1	         O	*)
+       directed	       VBN	      S-VP	         O	       directed	         O	         O	         O	  I-AM-MNR	       S-V	         O	(VP*
+             at	        IN	      S-PP	         O	              -	         O	         O	         O	  I-AM-MNR	  B-AM-LOC	         O	(PP*
+          those	        DT	      S-NP	         O	              -	         O	         O	         O	  I-AM-MNR	  I-AM-LOC	      S-A1	(NP(NP*)
+       involved	       VBN	      S-VP	         O	       involved	         O	         O	         O	  I-AM-MNR	  I-AM-LOC	       S-V	(ADJP*
+             in	        IN	      S-PP	         O	              -	         O	         O	         O	  I-AM-MNR	  I-AM-LOC	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	  I-AM-MNR	  I-AM-LOC	      I-A2	(NP*
+    altercation	        NN	      E-NP	         O	              -	         O	         O	         O	  E-AM-MNR	  E-AM-LOC	      E-A2	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	         O	*))
+
+          Three	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         people	       NNS	      E-NP	         O	              -	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP(VP*
+        injured	       VBN	      E-VP	         O	        injured	       S-V	(VP*))
+            and	        CC	         O	         O	              -	         O	*
+           were	       VBD	      S-VP	         O	              -	         O	(VP*
+            all	        DT	         O	         O	              -	         O	*
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+         stable	        JJ	      B-NP	         O	              -	         O	(NP*
+      condition	        NN	      E-NP	         O	              -	         O	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+            Our	      PRP$	      B-NP	         O	              -	         O	         O	(S1(S(S(NP*
+       thoughts	       NNS	      I-NP	         O	              -	         O	         O	*
+            and	        CC	      I-NP	         O	              -	         O	         O	*
+        prayers	       NNS	      E-NP	         O	              -	         O	         O	*)
+            are	       VBP	      S-VP	         O	              -	         O	         O	(VP*
+           with	        IN	      S-PP	         O	              -	         O	         O	(PP*
+           them	       PRP	      S-NP	         O	              -	         O	         O	(NP*))))
+            and	        CC	         O	         O	              -	         O	         O	*
+             we	       PRP	      S-NP	         O	              -	         O	         O	(S(NP*)
+            are	       VBP	      S-VP	         O	              -	         O	         O	(VP*
+       thankful	        JJ	    S-ADJP	         O	              -	         O	         O	(ADJP*)
+           they	       PRP	      S-NP	         O	              -	      S-A1	      S-A0	(SBAR(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+       expected	       VBN	      I-VP	         O	       expected	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	    B-C-A1	         O	(S(VP*
+           make	        VB	      E-VP	         O	           make	    I-C-A1	       S-V	(VP*
+           full	        JJ	      B-NP	         O	              -	    I-C-A1	      B-A1	(NP*
+     recoveries	       NNS	      E-NP	         O	              -	    E-C-A1	      E-A1	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             We	       PRP	      S-NP	         O	              -	      S-A0	         O	(S1(S(S(NP*)
+           take	       VBP	      S-VP	         O	           take	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	(S(NP(NP*
+         safety	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+            our	      PRP$	      B-NP	         O	              -	      I-A1	         O	(NP*
+      customers	       NNS	      I-NP	         O	              -	      I-A1	         O	*
+            and	        CC	      I-NP	         O	              -	      I-A1	         O	*
+      employees	       NNS	      E-NP	         O	              -	      E-A1	         O	*)))
+           very	        RB	    B-ADVP	         O	              -	  B-AM-MNR	         O	(PP(ADVP*
+      seriously	        RB	    E-ADVP	         O	              -	  E-AM-MNR	         O	*)
+            and	        CC	         O	         O	              -	         O	         O	*
+             in	        IN	      S-PP	         O	              -	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	(NP*
+             35	        CD	      I-NP	         O	              -	         O	         O	*
+          years	       NNS	      E-NP	         O	              -	         O	         O	*)))
+             we	       PRP	      S-NP	         O	              -	         O	         O	(NP*)
+           have	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+           been	       VBN	      E-VP	         O	              -	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	         O	         O	(PP*
+       business	        NN	      S-NP	         O	              -	         O	         O	(NP*)))))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+        nothing	        NN	      S-NP	         O	              -	         O	      B-A1	(NP(NP*)
+           like	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
+           this	        DT	      S-NP	         O	              -	         O	      E-A1	(NP*)))
+            has	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+           ever	        RB	      I-VP	         O	              -	         O	  S-AM-TMP	(ADVP*)
+       happened	       VBN	      E-VP	         O	       happened	         O	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           This	        DT	      S-NP	         O	              -	(S1(S(NP*)
+            was	       VBD	      S-VP	         O	              -	(VP*
+       strictly	        RB	    S-ADVP	         O	              -	(ADVP*)
+             an	        DT	      B-NP	         O	              -	(NP*
+       isolated	        JJ	      I-NP	         O	              -	(ADJP*
+            and	        CC	      I-NP	         O	              -	*
+       personal	        JJ	      I-NP	         O	              -	*)
+       incident	        NN	      E-NP	         O	              -	*))
+              .	         .	         O	         O	              -	*))
+
+             In	        IN	      S-PP	         O	              -	         O	         O	         O	         O	         O	(S1(S(PP*
+       addition	        NN	      S-NP	         O	              -	         O	         O	         O	         O	         O	(NP(NP*)
+             to	        TO	      S-PP	         O	              -	         O	         O	         O	         O	         O	(PP*
+            our	      PRP$	      B-NP	         O	              -	         O	         O	         O	         O	         O	(NP(NP*
+       security	        NN	      I-NP	         O	              -	         O	         O	         O	         O	         O	*
+        cameras	       NNS	      E-NP	         O	              -	         O	         O	         O	         O	         O	*)
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	         O	*
+          armed	       VBN	      B-NP	         O	          armed	       S-V	         O	         O	         O	         O	(NP*
+       security	        NN	      I-NP	         O	              -	      B-A1	         O	         O	         O	         O	*
+          guard	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	         O	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	*
+            who	        WP	      S-NP	         O	              -	         O	    S-R-A1	         O	         O	         O	(SBAR(WHNP*)
+           came	       VBD	      S-VP	         O	           came	         O	       S-V	         O	         O	         O	(S(VP*
+         inside	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	         O	         O	         O	(NP*
+       building	        NN	      E-NP	         O	              -	         O	  E-AM-LOC	         O	         O	         O	*))
+           when	       WRB	    S-ADVP	         O	              -	         O	  B-AM-TMP	S-R-AM-TMP	  B-AM-TMP	         O	(SBAR(WHADVP*)
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-TMP	      B-A1	  I-AM-TMP	         O	(S(NP*
+          fight	        NN	      E-NP	         O	              -	         O	  I-AM-TMP	      E-A1	  I-AM-TMP	         O	*)
+          broke	       VBD	      S-VP	         O	          broke	         O	  I-AM-TMP	       B-V	  I-AM-TMP	         O	(VP*
+            out	        RP	     S-PRT	         O	              -	         O	  E-AM-TMP	       E-V	  I-AM-TMP	         O	(ADVP*)))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	  E-AM-TMP	         O	*
+             we	       PRP	      S-NP	         O	              -	         O	         O	         O	      S-A0	      S-A0	(NP*)
+           will	        MD	      B-VP	         O	              -	         O	         O	         O	  S-AM-MOD	         O	(VP*
+             be	        VB	      I-VP	         O	              -	         O	         O	         O	         O	         O	(VP*
+         taking	       VBG	      E-VP	         O	         taking	         O	         O	         O	       S-V	         O	(VP*
+          extra	        JJ	      B-NP	         O	              -	         O	         O	         O	      B-A1	         O	(NP*
+    precautions	       NNS	      E-NP	         O	              -	         O	         O	         O	      E-A1	         O	*)
+             to	        TO	      B-VP	         O	              -	         O	         O	         O	  B-AM-PNC	         O	(S(VP*
+        further	       RBR	      I-VP	         O	              -	         O	         O	         O	  I-AM-PNC	         O	(VP(ADVP*)
+         ensure	        VB	      E-VP	         O	         ensure	         O	         O	         O	  I-AM-PNC	       S-V	*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	  I-AM-PNC	      B-A1	(NP(NP*
+         safety	        NN	      E-NP	         O	              -	         O	         O	         O	  I-AM-PNC	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	         O	         O	         O	  I-AM-PNC	      I-A1	(PP*
+            our	      PRP$	      B-NP	         O	              -	         O	         O	         O	  I-AM-PNC	      I-A1	(NP*
+      customers	       NNS	      I-NP	         O	              -	         O	         O	         O	  I-AM-PNC	      I-A1	*
+            and	        CC	      I-NP	         O	              -	         O	         O	         O	  I-AM-PNC	      I-A1	*
+          staff	        NN	      E-NP	         O	              -	         O	         O	         O	  E-AM-PNC	      E-A1	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*))
+
+             We	       PRP	      S-NP	         O	              -	      S-A0	      S-A0	         O	(S1(S(NP*)
+           will	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	         O	(VP(VP(VP*
+             be	        VB	      I-VP	         O	              -	         O	         O	         O	(VP*
+         adding	       VBG	      E-VP	         O	         adding	       S-V	         O	         O	(VP*
+     additional	        JJ	      B-NP	         O	              -	      B-A1	         O	         O	(NP*
+          armed	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+       security	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+         guards	       NNS	      E-NP	         O	              -	      E-A1	         O	         O	*))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+           will	        MD	      B-VP	         O	              -	         O	  S-AM-MOD	         O	(VP*
+      implement	        VB	      E-VP	         O	      implement	         O	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	         O	      B-A1	         O	(NP*
+           zero	        CD	      I-NP	         O	              -	         O	      I-A1	         O	*))))
+              -	         :	      I-NP	         O	              -	         O	      I-A1	         O	*
+      tolerance	        NN	      I-NP	         O	              -	         O	      I-A1	         O	(NP(NP*
+         policy	        NN	      E-NP	         O	              -	         O	      I-A1	         O	*)
+      regarding	       VBG	      S-PP	         O	              -	         O	      I-A1	         O	(VP*
+            any	        DT	      B-NP	         O	              -	         O	      I-A1	      B-A0	(NP(NP*
+       behavior	        NN	      E-NP	         O	              -	         O	      I-A1	      E-A0	*)
+           that	       WDT	      S-NP	         O	              -	         O	      I-A1	    S-R-A0	(SBAR(WHNP*)
+          could	        MD	      B-VP	         O	              -	         O	      I-A1	  S-AM-MOD	(S(VP*
+    potentially	        RB	      I-VP	         O	              -	         O	      I-A1	  S-AM-ADV	(ADVP*)
+           lead	        VB	      E-VP	         O	           lead	         O	      I-A1	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	         O	      I-A1	      B-A2	(PP*
+       violence	        NN	      S-NP	         O	              -	         O	      E-A1	      E-A2	(NP*))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+             We	       PRP	      S-NP	         O	              -	      S-A0	      S-A0	(S1(S(NP*)
+          would	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	(VP*
+           like	        VB	      I-VP	         O	           like	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	(S(VP*
+          thank	        VB	      E-VP	         O	          thank	      I-A1	       S-V	(VP*
+       everyone	        NN	      S-NP	         O	              -	      I-A1	      S-A1	(NP*)
+            for	        IN	      S-PP	         O	              -	      I-A1	      B-A2	(PP*
+          their	      PRP$	      B-NP	         O	              -	      I-A1	      I-A2	(NP(NP*
+          calls	       NNS	      E-NP	         O	              -	      I-A1	      I-A2	*
+            and	        CC	         O	         O	              -	      I-A1	      I-A2	*
+         emails	       NNS	      S-NP	         O	              -	      I-A1	      I-A2	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A2	(PP*
+        concern	        NN	      S-NP	         O	              -	      E-A1	      E-A2	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             We	       PRP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	(VP(VP*
+          doing	       VBG	      E-VP	         O	          doing	       S-V	(VP*
+           well	        RB	    S-ADVP	         O	              -	  S-AM-MNR	(ADVP*)))
+            and	        CC	         O	         O	              -	         O	*
+            are	       VBP	      S-VP	         O	              -	         O	(VP*
+           open	        JJ	    S-ADJP	         O	              -	         O	(ADJP*
+            for	        IN	      S-PP	         O	              -	         O	(PP*
+       business	        NN	      S-NP	         O	              -	         O	(NP*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	         O	(S1(S(S(NP(NP*
+        suspect	        NN	      E-NP	         O	              -	         O	*)
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+           this	        DT	      B-NP	         O	              -	         O	(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	*)))
+            was	       VBD	      S-VP	         O	              -	         O	(VP*
+              a	        DT	    B-ADJP	         O	              -	         O	(NP(NP*
+        regular	        JJ	    E-ADJP	         O	              -	         O	*)
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+        bowling	        NN	      I-NP	         O	              -	         O	*
+          alley	        NN	      E-NP	         O	              -	         O	*)))))
+              ,	         ,	         O	         O	              -	         O	*
+            but	        CC	         O	         O	              -	         O	*
+         police	        NN	      S-NP	         O	              -	      S-A0	(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(SBAR(S(NP*
+        suspect	        NN	      E-NP	         O	              -	      I-A1	*)
+             is	       VBZ	      S-VP	         O	              -	      I-A1	(VP*
+            not	        RB	         O	         O	              -	      I-A1	*
+            yet	        RB	    S-ADVP	         O	              -	      I-A1	(ADVP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+        custody	        NN	      S-NP	         O	              -	      E-A1	(NP*)))))))
+              .	         .	         O	         O	              -	         O	*))
+
+      Copyright	        NN	      B-NP	         O	              -	(S1(NP(NP*
+           2017	        CD	      I-NP	         O	              -	*
+            WMC	       NNP	      I-NP	     B-ORG	              -	*
+         Action	       NNP	      I-NP	     I-ORG	              -	*
+           News	       NNP	      I-NP	     E-ORG	              -	*
+              5	        CD	      E-NP	         O	              -	*)
+              .	         .	         O	         O	              -	*))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         rights	       NNS	      E-NP	         O	              -	      E-A1	*)
+       reserved	       VBN	      S-VP	         O	       reserved	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+

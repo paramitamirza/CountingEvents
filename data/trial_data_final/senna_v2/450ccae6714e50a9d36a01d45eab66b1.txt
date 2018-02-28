@@ -1,0 +1,206 @@
+     2017-03-30	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            One	        CD	      B-NP	         O	              -	      B-A0	         O	(S1(NP(NP*
+            man	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+      confirmed	       VBD	      S-VP	         O	      confirmed	       S-V	         O	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	  B-AM-TMP	         O	(S(ADJP*))
+          after	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+       shooting	       VBG	      S-VP	         O	       shooting	  I-AM-TMP	       S-V	(S(VP*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+         Desert	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	  I-AM-LOC	(NP*
+            Hot	       NNP	      I-NP	     I-LOC	              -	  I-AM-TMP	  I-AM-LOC	*
+        Springs	      NNPS	      E-NP	     E-LOC	              -	  E-AM-TMP	  E-AM-LOC	*))))))))
+
+            Man	        NN	      S-NP	         O	              -	      S-A0	(S1(NP(UCP(NP*
+           shot	        NN	      B-VP	         O	              -	         O	*)
+            and	        CC	      I-VP	         O	              -	         O	*
+         killed	       VBN	      E-VP	         O	         killed	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+         Desert	       NNP	      B-NP	    B-MISC	              -	  I-AM-LOC	(NP*
+            Hot	       NNP	      E-NP	    E-MISC	              -	  E-AM-LOC	*))))
+            ...	         :	         O	         O	              -	         O	*))
+
+         DESERT	       NNP	      B-NP	     B-LOC	              -	      B-A0	(S1(X(NP(NP*
+            HOT	       NNP	      I-NP	     I-LOC	              -	      I-A0	*
+        SPRINGS	       NNP	      I-NP	     E-LOC	              -	      I-A0	*)
+              ,	         ,	      I-NP	         O	              -	      I-A0	*
+         Calif.	       NNP	      I-NP	     S-LOC	              -	      I-A0	(NP*))
+              -	         :	      I-NP	         O	              -	      I-A0	*
+         Desert	       NNP	      I-NP	     B-LOC	              -	      I-A0	(S(NP*
+            Hot	       NNP	      I-NP	     I-LOC	              -	      I-A0	*
+        Springs	       NNP	      I-NP	     E-LOC	              -	      I-A0	*
+         Police	       NNP	      E-NP	         O	              -	      E-A0	*)
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	(NP*
+         deadly	        JJ	      I-NP	         O	              -	      I-A1	*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)
+      Wednesday	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP*
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))
+              .	         .	         O	         O	              -	         O	*)))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP(NP*
+            6th	        JJ	      I-NP	         O	              -	  I-AM-TMP	*
+         Street	       NNP	      I-NP	     B-ORG	              -	  I-AM-TMP	*
+              &	        CC	      I-NP	     I-ORG	              -	  I-AM-TMP	*
+         Cactus	       NNP	      I-NP	     I-ORG	              -	  I-AM-TMP	*
+          Drive	       NNP	      E-NP	     E-ORG	              -	  I-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+         Desert	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	(NP*
+            Hot	       NNP	      I-NP	     I-LOC	              -	  I-AM-TMP	*
+        Springs	      NNPS	      E-NP	     E-LOC	              -	  I-AM-TMP	*)))))
+         around	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+           8:45	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         victim	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+      described	       VBN	      E-VP	         O	      described	       S-V	(VP*
+           only	        RB	    S-ADVP	         O	              -	  S-AM-ADV	(ADVP*)
+             as	        IN	      S-PP	         O	              -	      B-A2	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	(NP*
+       Hispanic	        JJ	      I-NP	    S-MISC	              -	      I-A2	*
+           male	        NN	      E-NP	         O	              -	      E-A2	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+          DHSPD	        NN	      B-NP	         O	              -	         O	(S1(S(NP*
+     detectives	       NNS	      E-NP	         O	              -	         O	*)
+            are	       VBP	      S-VP	         O	              -	         O	(VP*
+             on	        IN	      S-PP	         O	              -	         O	(PP*
+          their	      PRP$	      B-NP	         O	              -	         O	(NP*
+            way	        NN	      E-NP	         O	              -	         O	*))
+             to	        TO	      S-PP	         O	              -	         O	(PP*
+     Eisenhower	       NNP	      B-NP	     B-ORG	              -	         O	(NP(NP*
+        Medical	       NNP	      I-NP	     I-ORG	              -	         O	*
+         Center	       NNP	      E-NP	     E-ORG	              -	         O	*)
+             to	        TO	      B-VP	         O	              -	         O	(SBAR(S(VP*
+    investigate	        VB	      E-VP	         O	    investigate	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	(NP(NP*
+       possible	        JJ	      I-NP	         O	              -	      I-A1	*
+         person	        NN	      E-NP	         O	              -	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+       interest	        NN	      S-NP	         O	              -	      E-A1	(NP*)))))))))
+              ,	         ,	         O	         O	              -	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	(PP*
+      Riverside	       NNP	      S-NP	     B-ORG	              -	         O	(NP(NP*
+         County	       NNP	      B-NP	     I-ORG	              -	         O	*
+        Sheriff	       NNP	      E-NP	     E-ORG	              -	         O	*
+             's	       POS	      B-NP	         O	              -	         O	*)
+       deputies	       NNS	      E-NP	         O	              -	         O	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+     Eisenhower	       NNP	      B-NP	     B-ORG	              -	      B-A1	         O	(S1(S(NP(NP*
+        Medical	       NNP	      I-NP	     I-ORG	              -	      I-A1	         O	*
+         Center	       NNP	      E-NP	     E-ORG	              -	      I-A1	         O	*
+             's	       POS	      B-NP	         O	              -	      I-A1	         O	*)
+      Emergency	       NNP	      I-NP	         O	              -	      I-A1	         O	*
+           Room	       NNP	      E-NP	         O	              -	      E-A1	         O	*)
+           went	       VBD	      S-VP	         O	           went	       S-V	         O	(VP*
+           into	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+       lockdown	        NN	      S-NP	         O	              -	      I-A2	         O	(NP*))
+              ,	         ,	         O	         O	              -	      I-A2	         O	*
+          which	       WDT	      S-NP	         O	              -	      I-A2	         O	(SBAR(WHNP*)
+             is	       VBZ	      S-VP	         O	              -	      I-A2	         O	(S(VP*
+       standard	        JJ	      B-NP	         O	              -	      I-A2	         O	(NP*
+       practice	        NN	      E-NP	         O	              -	      I-A2	         O	*)
+           when	       WRB	    S-ADVP	         O	              -	      I-A2	         O	(SBAR(WHADVP*)
+              a	        DT	      B-NP	         O	              -	      I-A2	      B-A1	(S(NP*
+        gunshot	        NN	      I-NP	         O	              -	      I-A2	      I-A1	*
+         victim	        NN	      E-NP	         O	              -	      I-A2	      E-A1	*)
+             is	       VBZ	      B-VP	         O	              -	      I-A2	         O	(VP*
+       involved	       VBN	      E-VP	         O	       involved	      I-A2	       S-V	(VP*
+              ,	         ,	         O	         O	              -	      I-A2	         O	*
+      according	       VBG	      S-PP	         O	              -	      I-A2	         O	(PP*
+             to	        TO	      S-PP	         O	              -	      I-A2	         O	(PP*
+       hospital	        NN	      B-NP	         O	              -	      I-A2	         O	(NP*
+   spokesperson	        NN	      I-NP	         O	              -	      I-A2	         O	*
+            Lee	       NNP	      I-NP	     B-PER	              -	      I-A2	         O	*
+           Rice	       NNP	      E-NP	     E-PER	              -	      E-A2	         O	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+       lockdown	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+         lifted	       VBN	      E-VP	         O	         lifted	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+         around	        IN	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          11:30	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+             pm	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+             On	        IN	      S-PP	         O	              -	  B-AM-TMP	(S1(S(PP*
+         Monday	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP*
+        morning	        NN	      E-NP	         O	              -	  E-AM-TMP	*))
+              ,	         ,	         O	         O	              -	         O	*
+              a	        DT	      B-NP	         O	              -	      B-A1	(NP*
+            man	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+          found	       VBN	      E-VP	         O	          found	       S-V	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	      S-A3	(S(ADJP*))
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+       driveway	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+           near	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+          exact	        JJ	      I-NP	         O	              -	  I-AM-LOC	*
+           same	        JJ	      I-NP	         O	              -	  I-AM-LOC	*
+   intersection	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+         Desert	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+            Hot	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+        Springs	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	*))))))))
+              .	         .	         O	         O	              -	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+            did	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	         O	*
+        confirm	        VB	      E-VP	         O	        confirm	       S-V	         O	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*
+           time	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+            how	       WRB	    S-ADVP	         O	              -	  I-AM-TMP	         O	(SBAR(WHADVP*)
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A1	(S(NP*
+            man	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	*)
+           died	       VBD	      S-VP	         O	           died	  E-AM-TMP	       S-V	(VP*)))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+       incident	        NN	      E-NP	         O	              -	      E-A0	*)
+      Wednesday	       NNP	      S-NP	         O	              -	  S-AM-TMP	(NP*)
+          makes	       VBZ	      S-VP	         O	          makes	       S-V	(VP*
+             it	       PRP	      S-NP	         O	              -	      S-A1	(S(NP*)
+            the	        DT	      B-NP	         O	              -	      B-A2	(NP(NP*
+          third	        JJ	      I-NP	         O	              -	      I-A2	*
+       homicide	        NN	      E-NP	         O	              -	      I-A2	*)
+             in	        IN	      S-PP	         O	              -	      I-A2	(PP*
+         Desert	       NNP	      B-NP	     B-LOC	              -	      I-A2	(NP*
+            Hot	       NNP	      I-NP	     I-LOC	              -	      I-A2	*
+        Springs	       NNP	      E-NP	     E-LOC	              -	      E-A2	*)))
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+           2017	        CD	      S-NP	         O	              -	  E-AM-TMP	(NP*))))
+              .	         .	         O	         O	              -	         O	*))
+
+           Stay	        VB	      S-VP	         O	           Stay	       S-V	         O	         O	(S1(S(VP(VP*
+           with	        IN	      S-PP	         O	              -	      B-A3	         O	         O	(PP*
+           KESQ	       NNP	      B-NP	    B-MISC	              -	      I-A3	      B-A1	         O	(NP*
+           News	       NNP	      I-NP	    I-MISC	              -	      I-A3	      I-A1	         O	*
+        Channel	       NNP	      I-NP	    I-MISC	              -	      I-A3	      I-A1	         O	*
+              3	        CD	      E-NP	    E-MISC	              -	      I-A3	      I-A1	         O	*)))
+              /	         :	         O	         O	              -	      I-A3	      I-A1	         O	*
+            CBS	       NNP	      B-NP	     B-ORG	              -	      I-A3	      I-A1	         O	(NP(NP*
+          Local	       NNP	      I-NP	     E-ORG	              -	      I-A3	      I-A1	         O	*
+              2	        CD	      E-NP	         O	              -	      I-A3	      I-A1	         O	*)
+             as	        IN	      S-PP	         O	              -	      I-A3	      I-A1	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	      I-A3	      I-A1	      B-A1	(S(NP*
+          story	        NN	      E-NP	         O	              -	      E-A3	      E-A1	      E-A1	*)
+      continues	       VBZ	      B-VP	         O	      continues	         O	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	         O	    B-C-A1	         O	(S(VP*
+        develop	        VB	      E-VP	         O	        develop	         O	    E-C-A1	       S-V	(VP*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+

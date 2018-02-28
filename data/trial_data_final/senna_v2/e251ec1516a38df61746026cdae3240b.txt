@@ -1,0 +1,244 @@
+     2017-01-10	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Airman	        NN	      S-NP	         O	              -	      S-A0	      B-A0	(S1(NP(NP*)
+            who	        WP	      S-NP	         O	              -	    S-R-A0	      I-A0	(SBAR(WHNP*)
+         served	       VBD	      S-VP	         O	         served	       S-V	      I-A0	(S(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	      I-A0	(PP*
+        Langley	       NNP	      S-NP	     S-LOC	              -	  I-AM-LOC	      I-A0	(NP*))))
+              -	         :	         O	         O	              -	  I-AM-LOC	      I-A0	*
+         Eustis	       NNP	      S-NP	     S-PER	              -	  I-AM-LOC	      E-A0	(S(NP*)
+        injured	       VBN	      S-VP	         O	        injured	  I-AM-LOC	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	  B-AM-LOC	(PP*
+        Florida	       NNP	      B-NP	     S-LOC	              -	  I-AM-LOC	  I-AM-LOC	(NP*
+        airport	        NN	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+       shooting	        NN	      E-NP	         O	              -	  E-AM-LOC	  E-AM-LOC	*)))))))
+
+           FORT	       NNP	      B-NP	     B-LOC	              -	(S1(NP(NP(NP*
+     LAUDERDALE	       NNP	      E-NP	     E-LOC	              -	*)
+              ,	         ,	         O	         O	              -	*
+           Fla.	       NNP	      S-NP	     S-LOC	              -	(NP*))
+              (	     -LRB-	         O	         O	              -	(PRN*
+           WAVY	       NNP	    S-ADJP	         O	              -	(ADJP*)
+              )	     -RRB-	         O	         O	              -	*)
+            —	         .	         O	         O	              -	*))
+
+             An	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP(NP*
+         active	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+           duty	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+         member	        NN	      E-NP	         O	              -	      E-A1	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      I-A1	(NP*
+           U.S.	       NNP	      I-NP	     B-ORG	              -	      I-A1	      I-A1	*
+            Air	       NNP	      I-NP	     I-ORG	              -	      I-A1	      I-A1	*
+          Force	       NNP	      E-NP	     E-ORG	              -	      E-A1	      I-A1	*))
+              ,	         ,	         O	         O	              -	         O	      I-A1	*
+            who	        WP	      S-NP	         O	              -	    S-R-A1	      I-A1	(SBAR(WHNP*)
+            was	       VBD	      B-VP	         O	              -	         O	      I-A1	(S(VP*
+           once	        RB	      I-VP	         O	              -	  S-AM-TMP	      I-A1	(ADVP*)
+       assigned	       VBN	      E-VP	         O	       assigned	       S-V	      I-A1	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	      I-A1	(PP*
+          Joint	       NNP	      B-NP	     B-ORG	              -	      I-A2	      I-A1	(NP(NP*
+           Base	       NNP	      I-NP	     I-ORG	              -	      I-A2	      I-A1	*
+        Langley	       NNP	      I-NP	     E-ORG	              -	      I-A2	      I-A1	*)
+              -	         :	      I-NP	         O	              -	      I-A2	      I-A1	*
+         Eustis	       NNP	      E-NP	     S-PER	              -	      E-A2	      I-A1	(NP*)))))))
+              ,	         ,	         O	         O	              -	         O	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+        injured	       VBN	      E-VP	         O	        injured	         O	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	  I-AM-LOC	*))
+             at	        IN	      S-PP	         O	              -	         O	  I-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	(NP(NP*
+           Fort	       NNP	      I-NP	     B-LOC	              -	         O	  I-AM-LOC	*
+     Lauderdale	       NNP	      I-NP	     E-LOC	              -	         O	  I-AM-LOC	*)
+              ,	         ,	      I-NP	         O	              -	         O	  I-AM-LOC	*
+        Florida	       NNP	      I-NP	     S-LOC	              -	         O	  I-AM-LOC	(NP*
+        airport	        NN	      E-NP	         O	              -	         O	  E-AM-LOC	*)))))))
+
+            Air	       NNP	      B-NP	     B-ORG	              -	      B-A0	(S1(S(NP*
+          Force	       NNP	      I-NP	     E-ORG	              -	      I-A0	*
+      officials	       NNS	      E-NP	         O	              -	      E-A0	*)
+            say	       VBP	      S-VP	         O	            say	       S-V	(VP*
+         Senior	       NNP	      B-NP	         O	              -	      B-A0	(NP*
+         Master	       NNP	      I-NP	         O	              -	      I-A0	*
+            Sgt	       NNP	      E-NP	         O	              -	      E-A0	*))
+              .	         .	         O	         O	              -	         O	*))
+
+    Christopher	       NNP	      B-NP	     B-PER	              -	      B-A1	(S1(S(NP*
+             B.	       NNP	      I-NP	     I-PER	              -	      I-A1	*
+        Prather	       NNP	      E-NP	     E-PER	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+           hurt	       VBN	      E-VP	         O	           hurt	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+             at	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+           Fort	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP(NP*
+     Lauderdale	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	*)
+              -	         :	         O	         O	              -	  I-AM-LOC	*
+      Hollywood	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	(NP*
+  International	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	*
+        Airport	       NNP	      E-NP	     E-ORG	              -	  E-AM-LOC	*)))
+             on	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+         Friday	       NNP	      S-NP	         O	              -	  I-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+           Jan.	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP*
+              6	        CD	      E-NP	         O	              -	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+       Sergeant	       NNP	      B-NP	         O	              -	(S1(S(NP*
+        Prather	       NNP	      E-NP	     S-PER	              -	*)
+             is	       VBZ	      S-VP	         O	              -	(VP*
+              a	        DT	      B-NP	         O	              -	(NP(NP*
+        Vehicle	       NNP	      I-NP	         O	              -	*
+    Maintenance	       NNP	      I-NP	         O	              -	*
+          Major	       NNP	      I-NP	         O	              -	*
+        Command	       NNP	      I-NP	         O	              -	*
+     Functional	       NNP	      I-NP	         O	              -	*
+        Manager	       NNP	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+          Joint	       NNP	      B-NP	     B-ORG	              -	(NP(NP*
+           Base	       NNP	      I-NP	     I-ORG	              -	*
+            San	       NNP	      I-NP	     I-ORG	              -	*
+        Antonio	       NNP	      E-NP	     E-ORG	              -	*)
+              ,	         ,	         O	         O	              -	*
+          Texas	       NNP	      S-NP	     S-LOC	              -	(NP*)
+              ,	         ,	         O	         O	              -	*
+          where	       WRB	    S-ADVP	         O	              -	(SBAR(WHADVP*)
+             he	       PRP	      S-NP	         O	              -	(S(NP*)
+           ’s	       VBD	      B-VP	         O	              -	(VP*
+           been	       VBN	      E-VP	         O	              -	(VP*
+          since	        IN	      S-PP	         O	              -	(PP*
+         August	       NNP	      B-NP	         O	              -	(NP*
+           2016	        CD	      E-NP	         O	              -	*))))))))))
+              .	         .	         O	         O	              -	*))
+
+             In	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	         O	(S1(S(PP*
+           that	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	         O	(NP*
+       capacity	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	         O	*))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+      officials	       NNS	      S-NP	         O	              -	      S-A0	         O	         O	(NP*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	         O	(VP(VP*
+             he	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	         O	(SBAR(S(NP*)
+       conducts	       VBZ	      S-VP	         O	       conducts	      I-A1	       S-V	         O	(VP*
+        manning	       VBG	      S-NP	         O	              -	      I-A1	      B-A1	         O	(VP*)))))
+              ,	         ,	         O	         O	              -	      I-A1	      I-A1	         O	*
+          force	        NN	      B-NP	         O	              -	      I-A1	      I-A1	         O	(NP(NP*
+    development	        NN	      I-NP	         O	              -	      I-A1	      I-A1	         O	*)
+            and	        CC	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
+         career	        NN	      I-NP	         O	              -	      I-A1	      I-A1	         O	(NP(NP*
+          field	        NN	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
+     management	        NN	      E-NP	         O	              -	      I-A1	      I-A1	         O	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	      I-A1	         O	(NP*
+      specialty	        NN	      E-NP	         O	              -	      I-A1	      I-A1	         O	*))
+            for	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	(PP*
+         Airmen	       NNP	      S-NP	    S-MISC	              -	      I-A1	      I-A1	         O	(NP*))
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      B-A1	(NP(NP*
+       commands	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	      E-A1	*)
+             he	       PRP	      S-NP	         O	              -	      I-A1	      I-A1	      S-A0	(SBAR(S(NP*)
+       supports	       VBZ	      S-VP	         O	       supports	      E-A1	      E-A1	       S-V	(VP*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+       Sergeant	       NNP	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+        Prather	       NNP	      E-NP	     S-PER	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+     previously	        RB	      I-VP	         O	              -	  S-AM-TMP	(ADVP*)
+       assigned	       VBN	      E-VP	         O	       assigned	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+            Air	       NNP	      B-NP	     B-ORG	              -	      I-A2	(NP*
+         Combat	       NNP	      I-NP	     I-ORG	              -	      I-A2	*
+        Command	       NNP	      E-NP	     E-ORG	              -	      E-A2	*))
+             at	        IN	      S-PP	         O	              -	      B-A4	(PP*
+          Joint	       NNP	      B-NP	     B-ORG	              -	      I-A4	(NP(NP*
+           Base	       NNP	      I-NP	     I-ORG	              -	      I-A4	*
+        Langley	       NNP	      E-NP	     E-ORG	              -	      I-A4	*)
+              -	         :	         O	         O	              -	      I-A4	*
+         Eustis	       NNP	      S-NP	     S-LOC	              -	      E-A4	(NP*)))
+           from	        IN	      S-PP	         O	              -	      B-A3	(PP(PP*
+           2011	        CD	      S-NP	         O	              -	      I-A3	(NP*))
+             to	        TO	      S-PP	         O	              -	      I-A3	(PP*
+           2016	        CD	      S-NP	         O	              -	      E-A3	(NP*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+      Officials	       NNS	      S-NP	         O	              -	      S-A0	         O	         O	         O	         O	         O	(S1(S(NP*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	         O	         O	         O	         O	(VP*
+        26-year	        JJ	      B-NP	         O	              -	      B-A1	      B-A0	      B-A0	      B-A0	         O	         O	(SBAR(S(ADJP*)
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A0	      I-A0	      I-A0	         O	         O	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	      I-A0	      I-A0	         O	         O	(NP(NP*
+        Esteban	       NNP	      I-NP	     B-PER	              -	      I-A1	      I-A0	      I-A0	      I-A0	         O	         O	*
+       Santiago	       NNP	      E-NP	     E-PER	              -	      I-A1	      I-A0	      I-A0	      I-A0	         O	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A0	      I-A0	      I-A0	         O	         O	*
+             an	        DT	      B-NP	         O	              -	      I-A1	      I-A0	      I-A0	      I-A0	         O	         O	(NP*
+           Army	       NNP	      I-NP	         O	              -	      I-A1	      I-A0	      I-A0	      I-A0	         O	         O	*
+        veteran	        NN	      E-NP	         O	              -	      I-A1	      I-A0	      I-A0	      I-A0	         O	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	      E-A0	      E-A0	      E-A0	         O	         O	*)
+         loaded	       VBD	      S-VP	         O	         loaded	      I-A1	       S-V	         O	         O	         O	         O	(VP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	         O	         O	(NP*
+         weapon	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	         O	         O	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	         O	         O	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	         O	         O	         O	         O	(NP*
+       bathroom	        NN	      I-NP	         O	              -	      I-A1	  I-AM-LOC	         O	         O	         O	         O	*
+          stall	        NN	      E-NP	         O	              -	      I-A1	  E-AM-LOC	         O	         O	         O	         O	*))
+         before	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	         O	         O	         O	         O	(PP*
+        opening	       VBG	      S-VP	         O	        opening	      I-A1	  I-AM-TMP	       S-V	         O	         O	         O	(S(VP*
+           fire	        NN	      S-NP	         O	              -	      I-A1	  I-AM-TMP	      S-A1	         O	         O	         O	(NP*)
+             on	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	  B-AM-LOC	         O	         O	         O	(PP*
+         fellow	        JJ	      B-NP	         O	              -	      I-A1	  I-AM-TMP	  I-AM-LOC	         O	         O	         O	(NP*
+     passengers	       NNS	      E-NP	         O	              -	      I-A1	  I-AM-TMP	  E-AM-LOC	         O	         O	         O	*))
+              ,	         ,	         O	         O	              -	      I-A1	  I-AM-TMP	         O	         O	         O	         O	*
+        killing	       VBG	      S-VP	         O	        killing	      I-A1	  I-AM-TMP	         O	       S-V	         O	         O	(S(VP(VP*
+           five	        CD	      S-NP	         O	              -	      I-A1	  I-AM-TMP	         O	      S-A1	         O	         O	(NP*))
+            and	        CC	         O	         O	              -	      I-A1	  I-AM-TMP	         O	         O	         O	         O	*
+       wounding	       VBG	      S-VP	         O	       wounding	      I-A1	  I-AM-TMP	         O	         O	       S-V	         O	(VP*
+            six	        CD	      B-NP	         O	              -	      I-A1	  I-AM-TMP	         O	         O	      B-A1	      B-A2	(NP*
+         others	       NNS	      E-NP	         O	              -	      I-A1	  I-AM-TMP	         O	         O	      E-A1	      E-A2	*)
+              ,	         ,	         O	         O	              -	      I-A1	  I-AM-TMP	         O	         O	         O	         O	*
+      including	       VBG	      S-PP	         O	      including	      I-A1	  I-AM-TMP	         O	         O	         O	       S-V	(PP*
+        Prather	       NNP	      S-NP	     S-PER	              -	      E-A1	  E-AM-TMP	         O	         O	         O	      S-A1	(NP*))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	         O	*))
+
+             10	        CD	      S-NP	         O	              -	(S1(NP*))
+
+             On	        IN	      S-PP	         O	              -	      B-A0	         O	(S1(S(PP*
+           Your	      PRP$	      B-NP	         O	              -	      I-A0	         O	(NP*
+           Side	        NN	      E-NP	         O	              -	      E-A0	         O	*))
+            has	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+           also	        RB	      I-VP	         O	              -	  S-AM-DIS	         O	(ADVP*)
+        learned	       VBN	      E-VP	         O	        learned	       S-V	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	(SBAR*
+            one	        CD	      S-NP	         O	              -	      I-A1	         O	(S(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP(NP*
+           five	        CD	      I-NP	         O	              -	      I-A1	      I-A1	*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+         killed	       VBN	      S-VP	         O	         killed	      I-A1	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	  E-AM-LOC	*))))))
+            was	       VBD	      S-VP	         O	              -	      I-A1	         O	(VP*)))
+              a	        DT	      B-NP	         O	              -	      I-A1	         O	(NP(NP*
+       Virginia	       NNP	      I-NP	     B-LOC	              -	      I-A1	         O	*
+          Beach	       NNP	      I-NP	     E-LOC	              -	      I-A1	         O	*
+            man	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+          Terry	       NNP	      B-NP	     B-PER	              -	      I-A1	         O	(NP*
+         Andres	       NNP	      E-NP	     E-PER	              -	      E-A1	         O	*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           This	        DT	      S-NP	         O	              -	         O	(S1(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+              a	        DT	      B-NP	         O	              -	         O	(NP*
+     developing	       VBG	      I-NP	         O	     developing	       S-V	*
+          story	        NN	      E-NP	         O	              -	      S-A1	*))
+              .	         .	         O	         O	              -	         O	*))
+
+           Stay	        VB	      S-VP	         O	           Stay	       S-V	(S1(S(VP*
+           with	        IN	      S-PP	         O	              -	      B-A3	(PP*
+       WAVY.com	       NNP	      S-NP	     S-PER	              -	      E-A3	(NP*))
+            for	        IN	      S-PP	         O	              -	  B-AM-PNC	(PP*
+        updates	       NNS	      S-NP	         O	              -	  E-AM-PNC	(NP*)))
+              .	         .	         O	         O	              -	         O	*))
+

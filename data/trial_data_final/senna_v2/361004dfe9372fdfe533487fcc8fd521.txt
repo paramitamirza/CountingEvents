@@ -1,0 +1,169 @@
+     2017-01-22	        CD	      S-NP	         O	              -	(S1(NP*))
+
+          Three	        CD	      B-NP	         O	              -	(S1(NP(NP(NP*)
+           dead	        JJ	      E-NP	         O	              -	(ADJP*
+             in	        IN	      S-PP	         O	              -	(PP*
+       shooting	        NN	      S-NP	         O	              -	(NP*))))
+           near	        IN	      S-PP	         O	              -	(PP*
+     Greenbriar	       NNP	      B-NP	     B-ORG	              -	(NP*
+           Mall	       NNP	      E-NP	     E-ORG	              -	*))
+             in	        IN	      S-PP	         O	              -	(PP(PP*
+             SW	       NNP	      S-NP	     B-LOC	              -	(NP*
+        Atlanta	       NNP	      S-NP	     E-LOC	              -	*))
+              -	         :	         O	         O	              -	*
+            WMC	       NNP	      B-NP	     B-ORG	              -	(NP(NP*
+         Action	       NNP	      I-NP	     I-ORG	              -	*
+           News	       NNP	      I-NP	     E-ORG	              -	*
+              5	        CD	      E-NP	         O	              -	*)
+              -	         :	         O	         O	              -	*
+        Memphis	       NNP	      S-NP	     S-LOC	              -	(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+      Tennessee	       NNP	      S-NP	     S-LOC	              -	(NP*))))))
+
+          Three	        CD	      B-NP	         O	              -	         O	(S1(S(NP*
+         people	       NNS	      E-NP	         O	              -	         O	*)
+            are	       VBP	      S-VP	         O	              -	         O	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	         O	(ADJP*)
+      following	       VBG	      S-PP	         O	      following	       S-V	(PP*
+              a	        DT	      B-NP	         O	              -	      B-A2	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A2	*)
+           near	        IN	      S-PP	         O	              -	      I-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+     Greenbriar	       NNP	      I-NP	     B-ORG	              -	      I-A2	*
+           Mall	       NNP	      E-NP	     E-ORG	              -	      I-A2	*))
+             in	        IN	      S-PP	         O	              -	      I-A2	(PP*
+      southwest	        JJ	      B-NP	         O	              -	      I-A2	(NP*
+        Atlanta	       NNP	      E-NP	     S-LOC	              -	      E-A2	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+        Atlanta	       NNP	      B-NP	     S-LOC	              -	      B-A0	         O	         O	         O	(S1(S(NP*
+         Police	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+     Lieutenant	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+        Charles	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	         O	         O	*
+        Hampton	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	         O	*)
+          tells	       VBZ	      S-VP	         O	          tells	       S-V	         O	         O	         O	(VP*
+          CBS46	       NNP	      B-NP	     B-ORG	              -	      B-A2	         O	         O	         O	(NP*
+           News	       NNP	      E-NP	     E-ORG	              -	      E-A2	         O	         O	         O	*)
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	         O	         O	(SBAR*
+            two	        CD	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	(S(S(NP(NP*
+            men	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	         O	         O	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	         O	(PP*
+          their	      PRP$	      B-NP	         O	              -	      I-A1	      I-A1	         O	         O	(NP*
+           late	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	         O	         O	*
+            20s	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	*)))
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+         killed	       VBN	      E-VP	         O	         killed	      I-A1	       S-V	         O	         O	(VP*)))
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	         O	*
+        another	        DT	      B-NP	         O	              -	      I-A1	         O	      B-A1	      B-A1	(S(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	         O	      E-A1	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+     critically	        RB	      I-VP	         O	              -	      I-A1	         O	  S-AM-MNR	         O	(VP(VP(ADVP*)
+        injured	       VBN	      I-VP	         O	        injured	      I-A1	         O	       S-V	         O	*)
+            and	        CC	      I-VP	         O	              -	      I-A1	         O	         O	         O	*
+          taken	       VBN	      E-VP	         O	          taken	      I-A1	         O	         O	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	         O	         O	      B-A2	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A1	         O	         O	      I-A2	(NP*
+           area	        NN	      I-NP	         O	              -	      I-A1	         O	         O	      I-A2	*
+       hospital	        NN	      E-NP	         O	              -	      E-A1	         O	         O	      E-A2	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	         O	(S1(S(NP*)
+          later	        RB	    S-ADVP	         O	              -	  S-AM-TMP	         O	(ADVP*)
+         passed	       VBD	      S-VP	         O	         passed	       B-V	         O	(VP*
+           away	        RB	    S-ADVP	         O	              -	       E-V	         O	(ADVP*)
+           from	        IN	      S-PP	         O	              -	      B-A1	         O	(PP*
+       injuries	       NNS	      S-NP	         O	              -	      I-A1	      S-A1	(NP(NP*)
+      sustained	       VBN	      S-VP	         O	      sustained	      I-A1	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             It	       PRP	      S-NP	         O	              -	         O	(S1(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+        unclear	        JJ	    S-ADJP	         O	              -	         O	(ADJP*)
+           what	        WP	      S-NP	         O	              -	    S-R-A0	(SBAR(WHNP*)
+       prompted	       VBD	      S-VP	         O	       prompted	       S-V	(S(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+           Stay	        VB	      S-VP	         O	           Stay	       S-V	(S1(S(VP*
+           with	        IN	      S-PP	         O	              -	      B-A3	(PP*
+          CBS46	       NNP	      B-NP	     B-ORG	              -	      I-A3	(NP*
+           News	       NNP	      E-NP	     E-ORG	              -	      I-A3	*))
+            for	        IN	      S-PP	         O	              -	      I-A3	(PP*
+        updates	       NNS	      S-NP	         O	              -	      E-A3	(NP*)))
+              .	         .	         O	         O	              -	         O	*))
+
+             At	        IN	      B-NP	         O	              -	         O	(S1(FRAG(NP(NP(QP*
+          least	       JJS	      I-NP	         O	              -	         O	*
+              2	        CD	      I-NP	         O	              -	         O	*)
+         people	       NNS	      E-NP	         O	              -	         O	*)
+           dead	        JJ	    S-ADJP	         O	              -	         O	(ADJP*
+            ...	         :	         O	         O	              -	         O	*
+              1	        CD	      B-NP	         O	              -	      B-A0	(NP(NP*
+         person	        NN	      E-NP	         O	              -	      E-A0	*)
+          taken	       VBN	      S-VP	         O	          taken	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+       hospital	        NN	      S-NP	         O	              -	      E-A2	(NP*))
+             on	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+     greenbriar	        NN	      B-NP	         O	              -	  I-AM-LOC	(NP*
+        parkway	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+           near	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+           mall	        NN	      B-NP	         O	              -	  I-AM-LOC	(NP*
+         @cbs46	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+pic.twitter.com/Gomi7ywsXd	        JJ	      I-NP	     S-LOC	              -	  I-AM-LOC	*
+            —	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+         Daniel	       NNP	      I-NP	     B-PER	              -	  I-AM-LOC	*
+      Wilkerson	       NNP	      E-NP	     E-PER	              -	  I-AM-LOC	*))))
+              (	     -LRB-	         O	         O	              -	  I-AM-LOC	(PRN*
+@WilkersonCBS46	       NNP	      S-NP	     S-LOC	              -	  I-AM-LOC	(NP*)
+              )	     -RRB-	         O	         O	              -	  I-AM-LOC	*))
+        January	       NNP	      B-NP	         O	              -	  I-AM-LOC	(NP*
+             22	        CD	      I-NP	         O	              -	  I-AM-LOC	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-LOC	*
+           2017	        CD	      E-NP	         O	              -	  E-AM-LOC	*))))
+
+    Authorities	       NNS	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+           have	       VBP	      B-VP	         O	              -	         O	(VP*
+     identified	       VBN	      E-VP	         O	     identified	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(NP(NP*
+        victims	       NNS	      E-NP	         O	              -	      E-A1	*)
+             as	        IN	      S-PP	         O	              -	      B-A2	(ADJP*
+        22-year	        JJ	      B-NP	         O	              -	      I-A2	(UCP(ADJP*)
+              -	         :	      I-NP	         O	              -	      I-A2	*
+            old	        JJ	      I-NP	         O	              -	      I-A2	(NP*
+          David	       NNP	      I-NP	     B-PER	              -	      I-A2	*
+        Worrell	       NNP	      E-NP	     E-PER	              -	      I-A2	*)
+              ,	         ,	         O	         O	              -	      I-A2	*
+        28-year	        JJ	      S-NP	         O	              -	      I-A2	(ADJP*)
+              -	         :	         O	         O	              -	      I-A2	*
+            old	        JJ	      B-NP	         O	              -	      I-A2	(NP*
+         Rickie	       NNP	      I-NP	     B-PER	              -	      I-A2	*
+          Burke	       NNP	      I-NP	     E-PER	              -	      I-A2	*)
+              ,	         ,	      I-NP	         O	              -	      I-A2	*
+            and	        CC	      I-NP	         O	              -	      I-A2	*
+        27-year	        JJ	      I-NP	         O	              -	      I-A2	(ADJP*)
+              -	         :	      I-NP	         O	              -	      I-A2	*
+            old	        JJ	      I-NP	         O	              -	      I-A2	(NP*
+          Ahmad	       NNP	      I-NP	     B-PER	              -	      I-A2	*
+        Johnson	       NNP	      E-NP	     E-PER	              -	      E-A2	*))))))
+              .	         .	         O	         O	              -	         O	*))
+
+      Copyright	        NN	      B-NP	         O	              -	(S1(NP(NP*
+           2017	        CD	      I-NP	         O	              -	*
+           WGCL	       NNP	      I-NP	     S-ORG	              -	*)
+              -	         :	      I-NP	         O	              -	*
+             TV	        NN	      E-NP	         O	              -	(NP*
+              (	     -LRB-	         O	         O	              -	(PRN*
+       Meredith	       NNP	      B-NP	     B-ORG	              -	(NP*
+    Corporation	       NNP	      E-NP	     E-ORG	              -	*)
+              )	     -RRB-	         O	         O	              -	*)
+              .	         .	         O	         O	              -	*)))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         rights	       NNS	      E-NP	         O	              -	      E-A1	*)
+       reserved	       VBN	      S-VP	         O	       reserved	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+

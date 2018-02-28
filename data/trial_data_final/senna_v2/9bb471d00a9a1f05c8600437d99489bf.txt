@@ -1,0 +1,84 @@
+     2017-04-02	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            One	        CD	      B-NP	         O	              -	         O	(S1(NP(NP*
+           dead	        JJ	      I-NP	         O	              -	         O	*
+      following	       VBG	      I-NP	         O	      following	       S-V	*
+       shooting	        NN	      I-NP	         O	              -	      B-A1	*
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+          crash	        NN	      E-NP	         O	              -	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+          North	       NNP	      B-NP	     B-LOC	              -	      I-A1	(NP*
+            Las	       NNP	      I-NP	     I-LOC	              -	      I-A1	*
+          Vegas	       NNP	      E-NP	     E-LOC	              -	      E-A1	*))))
+
+          North	       NNP	      B-NP	     B-LOC	              -	(S1(NP(NP(NP*
+            Las	       NNP	      I-NP	     I-LOC	              -	*
+          Vegas	       NNP	      E-NP	     E-LOC	              -	*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+           KTNV	       NNP	      S-NP	     S-LOC	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*))
+              -	         :	         O	         O	              -	*
+            One	        CD	      B-NP	         O	              -	(S(NP*
+         person	        NN	      E-NP	         O	              -	*)
+             is	       VBZ	      S-VP	         O	              -	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	(UCP(ADJP(ADJP*)
+          after	        IN	      S-PP	         O	              -	(PP*
+              a	        DT	      B-NP	         O	              -	(NP*
+       shooting	        NN	      E-NP	         O	              -	*)))
+            and	        CC	         O	         O	              -	*
+              a	        DT	      B-NP	         O	              -	(NP(NP(NP*
+          crash	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+           East	       NNP	      B-NP	     B-LOC	              -	(NP*
+          Craig	       NNP	      I-NP	     I-LOC	              -	*
+           Road	       NNP	      I-NP	     I-LOC	              -	*)))
+              &	        CC	      I-NP	     I-LOC	              -	*
+          North	       NNP	      I-NP	     E-LOC	              -	(NP(NP(ADJP*
+            5th	        JJ	      I-NP	         O	              -	*)
+         Street	       NNP	      E-NP	         O	              -	*)
+       Saturday	       NNP	      B-NP	         O	              -	(NP*
+        evening	        NN	      E-NP	         O	              -	*)))))
+              .	         .	         O	         O	              -	*)))
+
+          North	       NNP	      B-NP	     B-LOC	              -	      B-A0	         O	         O	(S1(S(NP*
+            Las	       NNP	      I-NP	     I-LOC	              -	      I-A0	         O	         O	*
+          Vegas	       NNP	      I-NP	     E-LOC	              -	      I-A0	         O	         O	*
+         police	        NN	      E-NP	         O	              -	      E-A0	         O	         O	*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	         O	(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A0	      B-A1	(NP(NP*
+        serious	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	      I-A1	*
+       incident	        NN	      E-NP	         O	              -	      I-A1	      E-A0	      E-A1	*)
+           that	       WDT	      S-NP	         O	              -	      I-A1	    S-R-A0	    S-R-A1	(SBAR(WHNP*)
+           left	       VBD	      S-VP	         O	           left	      I-A1	       S-V	         O	(S(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	      B-A1	(SBAR(S(NP*
+   intersection	        NN	      E-NP	         O	              -	      I-A1	      E-A1	      E-A1	*)
+      partially	        RB	      B-VP	         O	              -	      I-A1	  S-AM-MNR	  S-AM-MNR	(VP(ADVP*)
+         closed	       VBD	      E-VP	         O	         closed	      I-A1	         O	       S-V	*
+             at	        IN	      S-PP	         O	              -	      I-A1	         O	  B-AM-TMP	(PP*
+           this	        DT	      B-NP	         O	              -	      I-A1	         O	  I-AM-TMP	(NP*
+           time	        NN	      E-NP	         O	              -	      E-A1	         O	  E-AM-TMP	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           urge	       VBP	      S-VP	         O	           urge	       S-V	         O	(VP*
+        drivers	       NNS	      S-NP	         O	              -	      S-A1	      S-A0	(NP*)
+             to	        TO	      B-VP	         O	              -	      B-A2	         O	(S(VP*
+          avoid	        VB	      E-VP	         O	          avoid	      I-A2	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      B-A1	(NP*
+           area	        NN	      E-NP	         O	              -	      E-A2	      E-A1	*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           This	        DT	      S-NP	         O	              -	         O	(S1(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+              a	        DT	      B-NP	         O	              -	         O	(NP*
+     developing	       VBG	      I-NP	         O	     developing	       S-V	*
+          story	        NN	      E-NP	         O	              -	      S-A1	*))
+              .	         .	         O	         O	              -	         O	*))
+
+          Check	        VB	      S-VP	         O	          Check	       B-V	(S1(S(S(VP*
+           back	        RP	     S-PRT	         O	              -	       E-V	(ADVP*)
+            for	        IN	      S-PP	         O	              -	      B-A1	(PP*
+        updates	       NNS	      S-NP	         O	              -	      E-A1	(NP*))))
+              .	         .	         O	         O	              -	         O	*))
+

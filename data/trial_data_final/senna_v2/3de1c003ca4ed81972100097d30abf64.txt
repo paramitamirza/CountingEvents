@@ -1,0 +1,194 @@
+     2017-03-25	        CD	      S-NP	         O	              -	(S1(NP*))
+
+           Teen	        JJ	      B-NP	         O	              -	(S1(NP(NP*
+           shot	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+      Residence	       NNP	      B-NP	     B-LOC	              -	(NP*
+            Inn	       NNP	      I-NP	     I-LOC	              -	*
+       Marriott	       NNP	      E-NP	     E-LOC	              -	*))
+           near	        IN	      S-PP	         O	              -	(PP*
+       Portland	       NNP	      B-NP	     B-LOC	              -	(NP*
+        Airport	       NNP	      E-NP	     E-LOC	              -	*))))
+
+         police	        NN	      B-NP	         O	              -	(S1(S(NP*
+         lights	       NNS	      E-NP	         O	              -	*)
+              (	     -LRB-	         O	         O	              -	*
+          Photo	       NNP	      S-NP	         O	              -	(NP*)
+              :	         :	         O	         O	              -	*
+     thinkstock	        LS	      S-NP	         O	              -	(ADJP*)
+              )	     -RRB-	         O	         O	              -	*))
+
+       PORTLAND	       NNP	      S-NP	     S-LOC	              -	      B-A1	         O	(S1(S(NP(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+           Ore.	       NNP	      S-NP	         O	              -	      I-A1	         O	(NP*)
+              -	         :	         O	         O	              -	      I-A1	         O	*
+              A	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
+           male	        JJ	      I-NP	         O	              -	      I-A1	         O	*
+       teenager	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	         O	(VP*
+       Saturday	       NNP	      B-NP	         O	              -	  B-AM-TMP	         O	(NP*
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+      Residence	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	         O	*
+            Inn	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	         O	*
+       Marriott	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	         O	*))
+           near	        IN	      S-PP	         O	              -	  I-AM-LOC	         O	(PP*
+       Portland	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	         O	(NP*
+        Airport	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	         O	*))
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+           what	        WP	      S-NP	         O	              -	  I-AM-TMP	    S-R-A1	(NP*
+         police	       NNS	      S-NP	         O	              -	  I-AM-TMP	      S-A0	*)))))
+            are	       VBP	      B-VP	         O	              -	  I-AM-TMP	         O	(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	  I-AM-TMP	       S-V	(VP*
+             as	        IN	      S-PP	         O	              -	  I-AM-TMP	      B-A1	(PP(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A1	(NP*
+           gang	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A1	*))
+              -	         :	      I-NP	         O	              -	  I-AM-TMP	      I-A1	*
+        related	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A1	(NP*
+       incident	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A1	*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+          North	       NNP	      B-NP	     B-LOC	              -	      B-A0	         O	         O	         O	(S1(S(NP*
+       Precinct	       NNP	      I-NP	     E-LOC	              -	      I-A0	         O	         O	         O	*
+            and	        CC	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+           Gang	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	         O	         O	*
+    Enforcement	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	         O	         O	*
+           Team	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	         O	         O	*
+       officers	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	         O	*)
+      responded	       VBD	      S-VP	         O	      responded	       S-V	         O	         O	         O	*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      B-A1	         O	         O	(NP*
+          hotel	        NN	      E-NP	         O	              -	      E-A2	      E-A1	         O	         O	*))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+        located	       VBN	      S-VP	         O	        located	         O	       S-V	         O	         O	(S(VP*
+             at	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	         O	         O	(PP*
+           9301	        CD	      B-NP	         O	              -	         O	  I-AM-LOC	         O	         O	(NP*
+           N.E.	       NNP	      I-NP	     B-ORG	              -	         O	  I-AM-LOC	         O	         O	*
+       Cascades	       NNP	      I-NP	     I-ORG	              -	         O	  I-AM-LOC	         O	         O	*
+        Parkway	       NNP	      E-NP	     E-ORG	              -	         O	  E-AM-LOC	         O	         O	*))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+             at	        IN	      S-PP	         O	              -	         O	         O	         O	         O	(PP*
+          10:38	        CD	      B-NP	         O	              -	         O	         O	         O	         O	(NP(NP*
+           p.m.	        NN	      I-NP	         O	              -	         O	         O	         O	         O	*
+       Officers	       NNS	      I-NP	         O	              -	         O	         O	         O	         O	*)
+            and	        CC	      I-NP	         O	              -	         O	         O	         O	         O	*
+        medical	        JJ	      I-NP	         O	              -	         O	         O	      B-A0	         O	(NP*
+      personnel	       NNS	      E-NP	         O	              -	         O	         O	      E-A0	         O	*)))
+          found	       VBD	      S-VP	         O	          found	         O	         O	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	         O	         O	      B-A1	      B-A0	(NP(NP*
+           teen	        JJ	      I-NP	         O	              -	         O	         O	      I-A1	      I-A0	*
+           male	        NN	      E-NP	         O	              -	         O	         O	      I-A1	      E-A0	*)
+      suffering	       VBG	      S-VP	         O	      suffering	         O	         O	      I-A1	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	         O	         O	      I-A1	      B-A1	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	      I-A1	      I-A1	(NP*
+        gunshot	        NN	      I-NP	         O	              -	         O	         O	      I-A1	      I-A1	*
+          wound	        NN	      E-NP	         O	              -	         O	         O	      E-A1	      E-A1	*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         victim	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+    transported	       VBN	      E-VP	         O	    transported	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	      B-A0	(PP*
+      ambulance	        NN	      S-NP	         O	              -	      I-A0	(NP*))
+             to	        TO	      S-PP	         O	              -	      I-A0	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A0	(NP*
+       Portland	       NNP	      I-NP	     S-LOC	              -	      I-A0	*
+       hospital	        NN	      E-NP	         O	              -	      E-A0	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+       Officers	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+     canvassing	       VBG	      S-VP	         O	     canvassing	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(NP(NP*
+           area	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+        located	       VBN	      S-VP	         O	        located	         O	       S-V	(NP*
+       evidence	        NN	      S-NP	         O	              -	         O	      B-A1	*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
+        gunfire	        NN	      S-NP	         O	              -	         O	      I-A1	(NP(NP*)
+        outside	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	(NP(NP*
+          hotel	        NN	      I-NP	         O	              -	         O	      I-A1	*
+            and	        CC	      I-NP	         O	              -	         O	      I-A1	*
+         damage	        NN	      E-NP	         O	              -	         O	      I-A1	*)
+             to	        TO	      S-PP	         O	              -	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	(NP*
+       building	        NN	      E-NP	         O	              -	         O	      E-A1	*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Police	       NNP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+           also	        RB	    S-ADVP	         O	              -	  S-AM-DIS	(ADVP*)
+      recovered	       VBD	      S-VP	         O	      recovered	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	(NP(NP*
+        firearm	        NN	      E-NP	         O	              -	      I-A1	*)
+           from	        IN	      S-PP	         O	              -	      I-A1	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	(NP*
+          trash	        NN	      I-NP	         O	              -	      I-A1	*
+            bin	        NN	      E-NP	         O	              -	      E-A1	*))
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP(NP*
+          Wendy	       NNP	      E-NP	     S-ORG	              -	  I-AM-LOC	*
+             's	       POS	      B-NP	         O	              -	  I-AM-LOC	*)
+     restaurant	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+           just	        RB	    B-ADJP	         O	              -	  I-AM-LOC	(ADVP*
+           east	        JJ	    E-ADJP	         O	              -	  I-AM-LOC	*
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          hotel	        NN	      E-NP	         O	              -	  E-AM-LOC	*))))))
+              ,	         ,	         O	         O	              -	         O	*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+           9695	        CD	      B-NP	         O	              -	  I-AM-LOC	(NP*
+           N.E.	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	*
+       Cascades	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+        Parkway	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	(S1(S(S(NP*
+         person	        NN	      E-NP	         O	              -	      E-A1	*)
+            has	       VBZ	      B-VP	         O	              -	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	       S-V	(VP*
+           into	        IN	      S-PP	         O	              -	      B-A2	(PP*
+        custody	        NN	      S-NP	         O	              -	      E-A2	(NP*))
+             as	        IN	      S-PP	         O	              -	  B-AM-MNR	(PP*
+           part	        NN	      S-NP	         O	              -	  I-AM-MNR	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	  I-AM-MNR	(PP*
+           this	        DT	      B-NP	         O	              -	  I-AM-MNR	(NP*
+  investigation	        NN	      E-NP	         O	              -	  E-AM-MNR	*))))))))
+            but	        CC	         O	         O	              -	         O	*
+             it	       PRP	      S-NP	         O	              -	         O	(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+            not	        RB	         O	         O	              -	         O	*
+          clear	        JJ	    S-ADJP	         O	              -	         O	(ADJP*)
+             if	        IN	    S-SBAR	         O	              -	         O	(SBAR*
+           they	       PRP	      S-NP	         O	              -	         O	(S(NP*)
+            are	       VBP	      S-VP	         O	              -	         O	(VP*
+            the	        DT	      B-NP	         O	              -	         O	(NP(NP*
+        suspect	        NN	      E-NP	         O	              -	         O	*)
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	*))))))))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+           Gang	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
+    Enforcement	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+           Team	       NNP	      E-NP	     E-ORG	              -	      E-A0	*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP(NP*
+          early	        JJ	      I-NP	         O	              -	         O	*
+         stages	       NNS	      E-NP	         O	              -	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	(PP*
+  investigating	       VBG	      S-VP	         O	  investigating	       S-V	(S(VP*
+           this	        DT	      B-NP	         O	              -	      B-A1	(NP*
+       incident	        NN	      E-NP	         O	              -	      E-A1	*)))))))
+              .	         .	         O	         O	              -	         O	*))
+
+             ©	       SYM	      B-NP	         O	              -	(S1(NP(NP(NP*
+           2017	        CD	      I-NP	         O	              -	*)
+            KGW	       NNP	      I-NP	     S-ORG	              -	(NP*))
+              -	         :	      I-NP	         O	              -	(PP*
+             TV	        NN	      E-NP	         O	              -	(NP*))))
+

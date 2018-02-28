@@ -1,0 +1,85 @@
+     2017-01-23	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            Man	        NN	      S-NP	         O	              -	      S-A1	(S1(NP(NP*)
+   hospitalized	       VBN	      S-VP	         O	   hospitalized	       S-V	(VP*
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+        gunshot	        NN	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          wound	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP*
+            man	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+   hospitalized	       VBN	      E-VP	         O	   hospitalized	       S-V	         O	(VP*
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+          being	       VBG	      B-VP	         O	              -	  I-AM-TMP	         O	(S(VP*
+   accidentally	        RB	      I-VP	         O	              -	  I-AM-TMP	  S-AM-MNR	(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	  I-AM-TMP	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	(NP*
+      southeast	        JJ	      I-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	*
+         Brazos	       NNP	      I-NP	     B-LOC	              -	  I-AM-TMP	  I-AM-LOC	*
+         County	       NNP	      I-NP	     E-LOC	              -	  I-AM-TMP	  I-AM-LOC	*
+   neighborhood	        NN	      E-NP	         O	              -	  E-AM-TMP	  E-AM-LOC	*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+           call	        NN	      E-NP	         O	              -	      E-A1	*)
+           came	       VBD	      S-VP	         O	           came	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+         around	        IN	      B-NP	         O	              -	  I-AM-TMP	(NP(QP*
+              3	        CD	      I-NP	         O	              -	  I-AM-TMP	*)
+           P.M.	       NNP	      I-NP	         O	              -	  I-AM-TMP	*))
+         Sunday	       NNP	      E-NP	         O	              -	  E-AM-TMP	(NP*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+           home	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             on	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+          Early	        JJ	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          Amber	       NNP	      I-NP	         O	              -	  I-AM-LOC	*
+             Ct	       NNP	      E-NP	         O	              -	  E-AM-LOC	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+      According	       VBG	      S-PP	         O	              -	         O	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	         O	(PP*
+    dispatchers	       NNS	      S-NP	         O	              -	      S-A2	(NP*)))
+             he	       PRP	      S-NP	         O	              -	      S-A1	(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+    transported	       VBN	      E-VP	         O	    transported	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+       hospital	        NN	      E-NP	         O	              -	      E-A2	*))
+           with	        IN	      S-PP	         O	              -	  B-AM-MNR	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-MNR	(NP(NP*
+        gunshot	        NN	      I-NP	         O	              -	  I-AM-MNR	*
+          wound	        NN	      E-NP	         O	              -	  I-AM-MNR	*)
+             to	        TO	      S-PP	         O	              -	  I-AM-MNR	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-MNR	(NP*
+        abdomen	        NN	      E-NP	         O	              -	  E-AM-MNR	*))))))
+              .	         .	         O	         O	              -	         O	*))
+
+         Brazos	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	(S1(S(NP(NP*
+         County	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	*
+        Sheriff	       NNP	      E-NP	     E-ORG	              -	      I-A0	         O	*
+             's	       POS	      B-NP	         O	              -	      I-A0	         O	*)
+      officials	       NNS	      E-NP	         O	              -	      E-A0	         O	*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	(VP*
+             he	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	(SBAR(S(NP*)
+      underwent	       VBD	      S-VP	         O	      underwent	      I-A1	       S-V	(VP*
+        surgery	        NN	      S-NP	         O	              -	      I-A1	      S-A1	(NP*)
+         Sunday	       NNP	      B-NP	         O	              -	      I-A1	  B-AM-TMP	(NP*
+      afternoon	        NN	      E-NP	         O	              -	      E-A1	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+  Investigators	       NNS	      S-NP	         O	              -	      S-A0	         O	         O	(S1(S(NP*)
+        believe	       VBP	      S-VP	         O	        believe	       S-V	         O	         O	(VP*
+             he	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	      S-A0	(SBAR(S(NP*)
+   accidentally	        RB	    S-ADVP	         O	              -	      I-A1	  S-AM-MNR	         O	(ADVP*)
+           shot	       VBD	      S-VP	         O	           shot	      I-A1	       S-V	         O	(VP*
+        himself	       PRP	      S-NP	         O	              -	      I-A1	      S-A1	         O	(NP*)
+          while	        IN	    S-SBAR	         O	              -	      I-A1	  B-AM-TMP	         O	(SBAR*
+        getting	       VBG	      S-VP	         O	        getting	      I-A1	  I-AM-TMP	       S-V	(S(VP*
+           into	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	      B-A2	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A2	(NP*
+            car	        NN	      E-NP	         O	              -	      E-A1	  E-AM-TMP	      E-A2	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+

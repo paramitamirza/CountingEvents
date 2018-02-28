@@ -1,0 +1,139 @@
+     2017-01-28	        CD	      S-NP	         O	              -	(S1(NP*))
+
+             10	        CD	      S-NP	         O	              -	      S-A1	(S1(NP(NP*)
+        injured	       VBN	      S-VP	         O	        injured	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+      Tennessee	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+       National	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+          Guard	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+         Armory	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	*
+       shooting	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))))
+
+      Tennessee	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	         O	(S1(S(NP(NP*
+         Bureau	       NNP	      E-NP	     I-ORG	              -	      I-A0	         O	         O	*)
+             of	        IN	      S-PP	     I-ORG	              -	      I-A0	         O	         O	(PP*
+  Investigation	       NNP	      S-NP	     E-ORG	              -	      I-A0	         O	         O	(NP*
+    spokeswoman	        NN	      S-VP	         O	              -	      I-A0	         O	         O	*
+          Susan	       NNP	      B-NP	     B-PER	              -	      I-A0	         O	         O	*
+         Niland	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	*)))
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	(SBAR(S(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      I-A1	         O	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	(PP*
+    Brownsville	       NNP	      S-NP	     S-LOC	              -	      I-A1	      E-A1	         O	(NP*)))
+       occurred	       VBD	      S-VP	         O	       occurred	      I-A1	       S-V	         O	(VP*
+         before	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	         O	(PP*
+       midnight	        NN	      B-NP	         O	              -	      I-A1	  I-AM-TMP	         O	(NP*))
+         Friday	       NNP	      E-NP	         O	              -	      I-A1	  I-AM-TMP	         O	(NP*)
+           when	       WRB	    S-ADVP	         O	              -	      I-A1	  I-AM-TMP	S-R-AM-TMP	(SBAR(WHADVP*)
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	      B-A1	(S(NP*
+          fight	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	      E-A1	*)
+          broke	       VBD	      S-VP	         O	          broke	      I-A1	  I-AM-TMP	       B-V	(VP*
+            out	        RP	     S-PRT	         O	              -	      I-A1	  I-AM-TMP	       E-V	(ADVP*)
+             at	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	  I-AM-LOC	(NP*
+         armory	        NN	      E-NP	         O	              -	      E-A1	  E-AM-TMP	  E-AM-LOC	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+    Authorities	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+        believe	       VBP	      S-VP	         O	        believe	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+       facility	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+            had	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	      I-A1	         O	(VP*
+         rented	       VBN	      E-VP	         O	         rented	      I-A1	       B-V	(VP*
+            out	        RP	     S-PRT	         O	              -	      I-A1	       E-V	(ADVP*)
+            for	        IN	      S-PP	         O	              -	      I-A1	  B-AM-PNC	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-PNC	(NP*
+          party	        NN	      E-NP	         O	              -	      E-A1	  E-AM-PNC	*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Niland	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	(S1(S(NP*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A2	      B-A1	(SBAR(S(NP(NP*
+        victims	       NNS	      E-NP	         O	              -	      I-A1	      E-A2	      I-A1	*)
+              ,	         ,	         O	         O	              -	      I-A1	         O	      I-A1	*
+      including	       VBG	      S-PP	         O	      including	      I-A1	       S-V	      I-A1	(PP*
+            two	        CD	      B-NP	         O	              -	      I-A1	      B-A1	      I-A1	(NP(NP*
+      juveniles	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	      I-A1	*)
+            and	        CC	         O	         O	              -	      I-A1	      I-A1	      I-A1	*
+          eight	        CD	      B-NP	         O	              -	      I-A1	      I-A1	      I-A1	(NP*
+         adults	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	      I-A1	*)))
+              ,	         ,	         O	         O	              -	      I-A1	         O	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+    transported	       VBN	      E-VP	         O	    transported	      I-A1	         O	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	         O	      B-A4	(PP*
+        Jackson	       NNP	      B-NP	     B-LOC	              -	      I-A1	         O	      I-A4	(NP*
+        General	       NNP	      I-NP	     I-LOC	              -	      I-A1	         O	      I-A4	*
+       Hospital	       NNP	      E-NP	     E-LOC	              -	      E-A1	         O	      E-A4	*)))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            Two	        CD	      S-NP	         O	              -	      S-A1	      S-A1	(S1(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+       expected	       VBN	      I-VP	         O	       expected	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	    B-C-A1	         O	(S(VP*
+             be	        VB	      I-VP	         O	              -	    I-C-A1	         O	(VP*
+    transported	       VBN	      E-VP	         O	    transported	    I-C-A1	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	    I-C-A1	      B-A4	(PP*
+            The	        DT	      B-NP	     B-LOC	              -	    I-C-A1	      I-A4	(NP*
+            Med	       NNP	      E-NP	     E-LOC	              -	    I-C-A1	      I-A4	*))
+             in	        IN	      S-PP	         O	              -	    I-C-A1	      I-A4	(PP*
+        Memphis	       NNP	      S-NP	     S-LOC	              -	    I-C-A1	      I-A4	(NP*))
+           with	        IN	      S-PP	         O	              -	    I-C-A1	      I-A4	(PP*
+            non	        JJ	      B-NP	         O	              -	    I-C-A1	      I-A4	(NP(NP(ADJP*
+              -	         :	      I-NP	         O	              -	    I-C-A1	      I-A4	*)
+           life	        NN	      E-NP	         O	              -	    I-C-A1	      I-A4	(NP*))
+    threatening	        JJ	      B-NP	         O	              -	    I-C-A1	      I-A4	*
+       injuries	       NNS	      E-NP	         O	              -	    E-C-A1	      E-A4	*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Niland	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	         O	         O	(S1(S(NP*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	         O	(VP(VP*
+          seven	        CD	      B-NP	         O	              -	      B-A1	      B-A1	      B-A1	         O	(SBAR(S(NP*
+         others	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	      E-A1	         O	*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+        treated	       VBN	      E-VP	         O	        treated	      I-A1	       S-V	         O	         O	(VP*
+            for	        IN	      S-PP	         O	              -	      I-A1	      B-A2	         O	         O	(PP*
+       injuries	       NNS	      S-NP	         O	              -	      I-A1	      E-A2	         O	         O	(NP*)))))))
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	         O	*
+           have	       VBP	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+       released	       VBN	      E-VP	         O	       released	      I-A1	         O	       S-V	         O	(VP*)))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	         O	*
+             or	        CC	         O	         O	              -	      I-A1	         O	         O	         O	*
+            are	       VBP	      S-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	         O	(NP(NP*
+        process	        NN	      E-NP	         O	              -	      I-A1	         O	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	         O	         O	(PP*
+          being	       VBG	      B-VP	         O	              -	      I-A1	         O	         O	         O	(S(VP*
+       released	       VBN	      E-VP	         O	       released	      E-A1	         O	         O	       S-V	(VP*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+          scene	        NN	      E-NP	         O	              -	      I-A1	*)
+             at	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+         armory	        NN	      E-NP	         O	              -	      E-A1	*)))
+            has	       VBZ	      B-VP	         O	              -	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	(VP*
+        cleared	       VBN	      E-VP	         O	        cleared	       S-V	(VP*)))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP(NP*
+      Tennessee	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
+         Bureau	       NNP	      E-NP	     I-ORG	              -	      I-A0	*)
+             of	        IN	      S-PP	     I-ORG	              -	      I-A0	(PP*
+  Investigation	       NNP	      S-NP	     E-ORG	              -	      I-A0	(NP(NP*)
+            and	        CC	         O	         O	              -	      I-A0	*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP*
+    Brownsville	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
+         Police	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+     Department	       NNP	      E-NP	     E-ORG	              -	      E-A0	*))))
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+          still	        RB	      I-VP	         O	              -	  S-AM-TMP	(ADVP*)
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)))
+              .	         .	         O	         O	              -	         O	*))
+

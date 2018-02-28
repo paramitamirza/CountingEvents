@@ -1,0 +1,551 @@
+     2017-04-09	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        Houston	       NNP	      B-NP	     S-LOC	              -	      B-A1	(S1(NP(NP(NP*
+          woman	        NN	      E-NP	         O	              -	      E-A1	*)
+     identified	       VBD	      S-VP	         O	     identified	       S-V	(VP*
+             as	        IN	      S-PP	         O	              -	      B-A2	(PP*
+        shooter	        NN	      S-NP	         O	              -	      E-A2	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	      B-A1	(PP*
+         triple	        JJ	      B-NP	         O	              -	      I-A1	(NP*
+         murder	        NN	      E-NP	         O	              -	      I-A1	*))))))
+              -	         :	         O	         O	              -	      I-A1	*
+        suicide	        NN	      S-NP	         O	              -	      E-A1	(NP*)))
+
+          Image	        NN	      B-NP	         O	              -	(S1(NP(NP*
+              1	        CD	      E-NP	         O	              -	(QP*
+             of	        IN	      S-PP	         O	              -	*
+              /	         #	         O	         O	              -	*
+             10	        CD	         O	         O	              -	*)
+        Caption	        NN	         O	         O	              -	*)
+          Close	        RB	         O	         O	              -	(ADJP*)))
+
+          Image	        NN	      B-NP	         O	              -	      B-A1	(S1(S(S(VP*
+              1	        CD	      E-NP	         O	              -	      I-A1	(NP(QP*
+             of	        IN	      S-PP	         O	              -	      I-A1	*
+             10	        CD	      B-NP	         O	              -	      I-A1	*)
+        Dekitta	       NNP	      I-NP	     B-PER	              -	      I-A1	*
+         Holmes	       NNP	      E-NP	     E-PER	              -	      E-A1	*)))
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+     identified	       VBN	      E-VP	         O	     identified	       S-V	(VP*
+          among	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+           dead	        JJ	      E-NP	         O	              -	  I-AM-LOC	*))
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+         triple	        JJ	      I-NP	         O	              -	  I-AM-LOC	*
+         murder	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+              -	         :	         O	         O	              -	  I-AM-LOC	*
+        suicide	        NN	      S-NP	         O	              -	  E-AM-LOC	(NP*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+        Dekitta	       NNP	      B-NP	     B-PER	              -	      B-A1	(S1(S(NP*
+         Holmes	       NNP	      E-NP	     E-PER	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	*
+     identified	       VBN	      E-VP	         O	     identified	       S-V	*
+          among	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+           dead	        JJ	      E-NP	         O	              -	  I-AM-LOC	*))
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+         triple	        JJ	      I-NP	         O	              -	  I-AM-LOC	*
+         murder	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+              -	         :	         O	         O	              -	  I-AM-LOC	*
+        suicide	        NN	      S-NP	         O	              -	  E-AM-LOC	(NP*)
+              .	         .	         O	         O	              -	         O	*))
+
+          Image	        NN	      B-NP	         O	              -	         O	         O	         O	         O	(S1(S(NP(NP*
+              2	        CD	      E-NP	         O	              -	      B-A0	         O	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	         O	         O	(PP*
+             10	        CD	      B-NP	         O	              -	      I-A0	         O	         O	         O	(NP*
+         People	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	         O	*)))
+         gather	       VBP	      S-VP	         O	         gather	       S-V	         O	         O	         O	(VP*
+         behind	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	         O	         O	(NP*
+          crime	        NN	      I-NP	         O	              -	  I-AM-LOC	         O	         O	         O	*
+          scene	        NN	      I-NP	         O	              -	  E-AM-LOC	         O	         O	         O	*
+           tape	        NN	      E-NP	         O	              -	    B-C-A1	         O	         O	         O	*))
+             as	        IN	    S-SBAR	         O	              -	    I-C-A1	         O	         O	         O	(SBAR*
+        Houston	       NNP	      B-NP	     B-ORG	              -	    I-C-A1	      B-A0	         O	         O	(S(NP*
+         Police	       NNP	      I-NP	     E-ORG	              -	    I-C-A1	      I-A0	         O	         O	*
+       officers	       NNS	      E-NP	         O	              -	    I-C-A1	      E-A0	         O	         O	*)
+    investigate	       VBP	      S-VP	         O	    investigate	    I-C-A1	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	    I-C-A1	      B-A1	         O	         O	(NP(NP*
+          scene	        NN	      E-NP	         O	              -	    I-C-A1	      I-A1	         O	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	    I-C-A1	      I-A1	         O	         O	(SBAR(WHADVP*)
+            two	        CD	      B-NP	         O	              -	    I-C-A1	      I-A1	      B-A1	      B-A1	(S(NP*
+         people	       NNS	      E-NP	         O	              -	    I-C-A1	      I-A1	      E-A1	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	    I-C-A1	      I-A1	         O	         O	(VP*
+          found	       VBN	      I-VP	         O	          found	    I-C-A1	      I-A1	       S-V	         O	(VP*
+        fatally	        RB	      I-VP	         O	              -	    I-C-A1	      I-A1	    B-C-A1	  S-AM-MNR	(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	    I-C-A1	      I-A1	    I-C-A1	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-LOC	(NP(NP(NP*
+           3800	        CD	      I-NP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	    I-C-A1	      I-A1	    I-C-A1	  E-AM-LOC	*)))
+         Friday	       NNP	      S-NP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  B-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-TMP	*
+          April	       NNP	      B-NP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-TMP	(NP*
+              7	        CD	      I-NP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	    I-C-A1	      I-A1	    I-C-A1	  I-AM-TMP	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	    E-C-A1	      E-A1	    E-C-A1	  E-AM-TMP	(NP*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+              (	     -LRB-	         O	         O	              -	         O	         O	         O	         O	(S1(S*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	      B-A0	         O	         O	         O	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	      I-A0	         O	         O	         O	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	      I-A0	         O	         O	         O	*)
+              /	         :	         O	         O	              -	      I-A0	         O	         O	         O	(PRN*
+        Houston	       NNP	      B-NP	     B-ORG	              -	      I-A0	         O	         O	         O	(NP*
+      Chronicle	       NNP	      E-NP	     E-ORG	              -	      I-A0	         O	         O	         O	*)
+              )	     -RRB-	         O	         O	              -	      I-A0	         O	         O	         O	*)
+           less	       JJR	      B-NP	         O	              -	      I-A0	         O	         O	         O	*
+         People	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	         O	(NP*)
+         gather	       VBP	      S-VP	         O	         gather	       S-V	         O	         O	         O	(VP*
+         behind	        IN	      S-PP	         O	              -	      B-A1	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	         O	(NP*
+          crime	        NN	      I-NP	         O	              -	      I-A1	         O	         O	         O	*
+          scene	        NN	      I-NP	         O	              -	      I-A1	         O	         O	         O	*
+           tape	        NN	      E-NP	         O	              -	      I-A1	         O	         O	         O	*))
+             as	        IN	    S-SBAR	         O	              -	      I-A1	         O	         O	         O	(SBAR*
+        Houston	       NNP	      B-NP	     B-ORG	              -	      I-A1	      B-A0	         O	         O	(S(NP*
+         Police	       NNP	      I-NP	     E-ORG	              -	      I-A1	      I-A0	         O	         O	*
+       officers	       NNS	      E-NP	         O	              -	      I-A1	      E-A0	         O	         O	*)
+    investigate	       VBP	      S-VP	         O	    investigate	      I-A1	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	  B-AM-LOC	         O	(NP(NP*
+          scene	        NN	      E-NP	         O	              -	      I-A1	      I-A1	  E-AM-LOC	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	      I-A1	      I-A1	S-R-AM-LOC	         O	(SBAR(WHADVP*)
+            two	        CD	      B-NP	         O	              -	      I-A1	      I-A1	      B-A1	      B-A1	(S(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	      E-A1	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	      I-A1	         O	         O	(VP*
+          found	       VBN	      I-VP	         O	          found	      I-A1	      I-A1	       S-V	         O	(VP*
+        fatally	        RB	      I-VP	         O	              -	      I-A1	      I-A1	    B-C-A1	  S-AM-MNR	(S(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	      I-A1	      I-A1	    I-C-A1	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	      I-A1	      I-A1	    I-C-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-LOC	(NP(NP*
+           3800	        CD	      I-NP	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	      I-A1	      I-A1	    I-C-A1	  E-AM-LOC	*))))
+         Friday	       NNP	      S-NP	         O	              -	      I-A1	      I-A1	    I-C-A1	  B-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-TMP	*
+          April	       NNP	      B-NP	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-TMP	(NP*
+              7	        CD	      I-NP	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	      I-A1	      I-A1	    I-C-A1	  I-AM-TMP	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	      E-A1	      E-A1	    E-C-A1	  E-AM-TMP	(NP*))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*
+            ...	         :	         O	         O	              -	         O	         O	         O	         O	*))
+
+           more	       JJR	      B-NP	         O	              -	(S1(NP(NP*
+          Photo	       NNP	      E-NP	         O	              -	*)
+              :	         :	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+        Houston	       NNP	      B-NP	     B-PER	              -	(NP*
+Chronicle/Godofredo	       NNP	      I-NP	     I-PER	              -	*
+             A.	       NNP	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*))))
+
+          Image	        NN	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP(NP*
+              3	        CD	      E-NP	         O	              -	      I-A0	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	         O	(PP*
+             10	        CD	      B-NP	         O	              -	      I-A0	         O	         O	(NP*
+        Houston	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	         O	*
+         Police	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	         O	*
+       officers	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	*)))
+    investigate	       VBP	      S-VP	         O	    investigate	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP(NP*
+          scene	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	      I-A1	         O	         O	(SBAR(WHADVP*)
+            two	        CD	      B-NP	         O	              -	      I-A1	      B-A1	      B-A1	(S(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+          found	       VBN	      I-VP	         O	          found	      I-A1	       S-V	         O	(VP*
+        fatally	        RB	      I-VP	         O	              -	      I-A1	  B-AM-LOC	  S-AM-MNR	(S(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	      I-A1	  I-AM-LOC	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	(NP(NP*
+           3800	        CD	      I-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	      I-A1	  I-AM-LOC	  E-AM-LOC	*)))
+         Friday	       NNP	      S-NP	         O	              -	      I-A1	  I-AM-LOC	  B-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*
+          April	       NNP	      B-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	(NP*
+              7	        CD	      I-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	      E-A1	  E-AM-LOC	  E-AM-TMP	(NP*))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+              (	     -LRB-	         O	         O	              -	(S1(S*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              /	         :	         O	         O	              -	(VP*
+        Houston	       NNP	      B-NP	     B-LOC	              -	(NP*
+      Chronicle	       NNP	      E-NP	     E-LOC	              -	*))
+              )	     -RRB-	         O	         O	              -	*))
+
+        Houston	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	         O	(S1(S(NP*
+         Police	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	         O	*
+       officers	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	*)
+    investigate	       VBP	      S-VP	         O	    investigate	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP(NP*
+          scene	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	      I-A1	         O	         O	(SBAR(WHADVP*)
+            two	        CD	      B-NP	         O	              -	      I-A1	      B-A1	      B-A1	(S(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+          found	       VBN	      I-VP	         O	          found	      I-A1	       S-V	         O	(VP*
+        fatally	        RB	      I-VP	         O	              -	      I-A1	  B-AM-LOC	  S-AM-MNR	(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	      I-A1	  I-AM-LOC	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	(NP(NP*
+           3800	        CD	      I-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	      I-A1	  I-AM-LOC	  E-AM-LOC	*)))
+         Friday	       NNP	      S-NP	         O	              -	      I-A1	  I-AM-LOC	  B-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*
+          April	       NNP	      B-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	(NP*
+              7	        CD	      I-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	      E-A1	  E-AM-LOC	  E-AM-TMP	(NP*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+              (	     -LRB-	         O	         O	              -	(S1(S*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              /	         :	         O	         O	              -	(VP*
+        Houston	       NNP	      B-NP	     B-LOC	              -	(NP*
+      Chronicle	       NNP	      E-NP	     E-LOC	              -	*))
+              )	     -RRB-	         O	         O	              -	*))
+
+          Photo	       NNP	      S-NP	         O	              -	(S1(NP*
+              :	         :	         O	         O	              -	*))
+
+      Godofredo	        JJ	      B-NP	         O	              -	(S1(NP(NP*
+             A.	        NN	      I-NP	     B-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+        Houston	       NNP	      B-NP	     B-PER	              -	(NP(NP*
+Chronicle/Godofredo	       NNP	      I-NP	     I-PER	              -	*)
+             A.	       NNP	      I-NP	     I-PER	              -	(NP*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*))))
+
+          Image	        NN	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP(NP*
+              4	        CD	      E-NP	         O	              -	      I-A0	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	(PP*
+             10	        CD	      B-NP	         O	              -	      I-A0	         O	(NP*
+        Houston	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	*
+         Police	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*)))
+   investigates	       VBZ	      S-VP	         O	   investigates	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A0	(SBAR(S(NP*
+         murder	        NN	      I-NP	         O	              -	      I-A1	      I-A0	*
+        suicide	        NN	      E-NP	         O	              -	      I-A1	      E-A0	*)
+           left	       VBD	      S-VP	         O	           left	      I-A1	       S-V	(VP*
+          three	        CD	      B-NP	         O	              -	      I-A1	      B-A1	(NP(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+           dead	        JJ	    S-ADJP	         O	              -	      E-A1	      S-A2	(ADJP*
+             on	        IN	      S-PP	         O	              -	  B-AM-LOC	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	(NP(NP*
+           3800	        CD	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	  I-AM-LOC	*))
+         Friday	       NNP	      S-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+          April	       NNP	      B-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	(NP*
+              7	        CD	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	  I-AM-LOC	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	  E-AM-LOC	(NP*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+          Photo	       NNP	      S-NP	         O	              -	(S1(S(NP*)
+              :	         :	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+        Houston	       NNP	      B-NP	     B-ORG	              -	(NP*
+      Chronicle	       NNP	      E-NP	     E-ORG	              -	*)))
+
+          Image	        NN	      B-NP	         O	              -	(S1(NP(NP*)
+              5	        CD	      E-NP	         O	              -	(NP*)))
+
+             of	        IN	      S-PP	         O	              -	      B-A0	         O	(S1(S(PP*
+             10	        CD	      B-NP	         O	              -	      I-A0	         O	(NP*
+        Houston	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	*
+         Police	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*))
+   investigates	       VBZ	      S-VP	         O	   investigates	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A0	(NP(NP*
+         murder	        NN	      I-NP	         O	              -	      I-A1	      I-A0	*
+        suicide	        NN	      E-NP	         O	              -	      I-A1	      E-A0	*)
+           left	       VBD	      S-VP	         O	           left	      I-A1	       S-V	(VP*
+          three	        CD	      B-NP	         O	              -	      I-A1	      B-A1	(NP(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+           dead	        JJ	    S-ADJP	         O	              -	      E-A1	      S-A2	(ADJP*
+             on	        IN	      S-PP	         O	              -	  B-AM-LOC	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	(NP(NP*
+           3800	        CD	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	  I-AM-LOC	*))
+         Friday	       NNP	      S-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+          April	       NNP	      B-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	(NP*
+              7	        CD	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	  I-AM-LOC	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	  E-AM-LOC	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+          Photo	       NNP	      S-NP	         O	              -	(S1(S(NP*)
+              :	         :	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+        Houston	       NNP	      B-NP	     B-ORG	              -	(NP*
+      Chronicle	       NNP	      E-NP	     E-ORG	              -	*)))
+
+          Image	        NN	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP(NP*
+              6	        CD	      E-NP	         O	              -	      I-A0	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	(PP*
+             10	        CD	      B-NP	         O	              -	      I-A0	         O	(NP*
+        Houston	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	*
+         Police	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*)))
+   investigates	       VBZ	      S-VP	         O	   investigates	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A0	(SBAR(S(NP*
+         murder	        NN	      I-NP	         O	              -	      I-A1	      I-A0	*
+        suicide	        NN	      E-NP	         O	              -	      I-A1	      E-A0	*)
+           left	       VBD	      S-VP	         O	           left	      I-A1	       S-V	(VP*
+          three	        CD	      B-NP	         O	              -	      I-A1	      B-A1	(NP(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+           dead	        JJ	    S-ADJP	         O	              -	      E-A1	      S-A2	(ADJP*
+             on	        IN	      S-PP	         O	              -	  B-AM-LOC	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	(NP(NP*
+           3800	        CD	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	  I-AM-LOC	*))
+         Friday	       NNP	      S-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+          April	       NNP	      B-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	(NP*
+              7	        CD	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-LOC	  I-AM-LOC	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	  I-AM-LOC	*
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	  I-AM-LOC	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	  E-AM-LOC	(NP*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+          Photo	       NNP	      S-NP	         O	              -	(S1(S(NP*)
+              :	         :	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+        Houston	       NNP	      B-NP	     B-ORG	              -	(NP*
+      Chronicle	       NNP	      E-NP	     E-ORG	              -	*)))
+
+          Image	        NN	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+              7	        CD	      E-NP	         O	              -	      I-A0	         O	         O	(QP*
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	         O	*
+             10	        CD	      B-NP	         O	              -	      I-A0	         O	         O	*)
+         Family	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	*
+        members	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	*)
+           exit	       VBP	      S-VP	         O	           exit	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP*
+          crime	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+          scene	        NN	      E-NP	         O	              -	      E-A1	         O	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	  B-AM-LOC	         O	         O	(PP(WHADVP*)
+        Houston	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	      B-A0	         O	(SBAR(S(NP*
+         Police	       NNP	      I-NP	     E-ORG	              -	  I-AM-LOC	      I-A0	         O	*
+       officers	       NNS	      E-NP	         O	              -	  I-AM-LOC	      E-A0	         O	*)
+   investigated	       VBD	      S-VP	         O	   investigated	  I-AM-LOC	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	      B-A1	      B-A0	(NP(NP*
+         murder	        NN	      I-NP	         O	              -	  I-AM-LOC	      I-A1	      I-A0	*
+        suicide	        NN	      E-NP	         O	              -	  I-AM-LOC	      I-A1	      E-A0	*)
+           that	       WDT	      S-NP	         O	              -	  I-AM-LOC	      I-A1	    S-R-A0	(SBAR(WHNP*)
+           left	       VBD	      S-VP	         O	           left	  I-AM-LOC	      I-A1	       S-V	(S(VP*
+          three	        CD	      B-NP	         O	              -	  I-AM-LOC	      I-A1	      B-A1	(NP(NP*
+         people	       NNS	      E-NP	         O	              -	  I-AM-LOC	      I-A1	      E-A1	*)
+           dead	        JJ	    S-ADJP	         O	              -	  I-AM-LOC	      I-A1	      S-A2	(ADJP*
+             on	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP(NP*
+           3800	        CD	      I-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*))
+         Friday	       NNP	      S-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+          April	       NNP	      B-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP*
+              7	        CD	      I-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	      E-A1	  E-AM-LOC	(NP*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+          Photo	       NNP	      S-NP	         O	              -	(S1(S(NP*)
+              :	         :	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+        Houston	       NNP	      B-NP	     B-ORG	              -	(NP*
+      Chronicle	       NNP	      E-NP	     E-ORG	              -	*)
+              ,	         ,	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)))
+
+          Image	        NN	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+              8	        CD	      E-NP	         O	              -	      I-A0	         O	         O	(QP*
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	         O	*
+             10	        CD	      B-NP	         O	              -	      I-A0	         O	         O	*)
+         Family	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	*
+        members	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	*)
+           exit	       VBP	      S-VP	         O	           exit	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP*
+          crime	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+          scene	        NN	      E-NP	         O	              -	      E-A1	         O	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	  B-AM-LOC	         O	         O	(PP(WHADVP*)
+        Houston	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	      B-A0	         O	(SBAR(S(NP*
+         Police	       NNP	      I-NP	     E-ORG	              -	  I-AM-LOC	      I-A0	         O	*
+       officers	       NNS	      E-NP	         O	              -	  I-AM-LOC	      E-A0	         O	*)
+   investigated	       VBD	      S-VP	         O	   investigated	  I-AM-LOC	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	      B-A1	      B-A0	(NP(NP*
+         murder	        NN	      I-NP	         O	              -	  I-AM-LOC	      I-A1	      I-A0	*
+        suicide	        NN	      E-NP	         O	              -	  I-AM-LOC	      I-A1	      E-A0	*)
+           that	       WDT	      S-NP	         O	              -	  I-AM-LOC	      I-A1	    S-R-A0	(SBAR(WHNP*)
+           left	       VBD	      S-VP	         O	           left	  I-AM-LOC	      I-A1	       S-V	(S(VP*
+          three	        CD	      B-NP	         O	              -	  I-AM-LOC	      I-A1	      B-A1	(NP(NP*
+         people	       NNS	      E-NP	         O	              -	  I-AM-LOC	      I-A1	      E-A1	*)
+           dead	        JJ	    S-ADJP	         O	              -	  I-AM-LOC	      I-A1	      S-A2	(ADJP*
+             on	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP(NP*
+           3800	        CD	      I-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*))
+         Friday	       NNP	      S-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+          April	       NNP	      B-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP*
+              7	        CD	      I-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	      E-A1	  E-AM-LOC	(NP*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+          Photo	       NNP	      S-NP	         O	              -	(S1(S(NP*)
+              :	         :	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+        Houston	       NNP	      B-NP	     B-ORG	              -	(NP*
+      Chronicle	       NNP	      E-NP	     E-ORG	              -	*)
+              ,	         ,	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)))
+
+          Image	        NN	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+              9	        CD	      E-NP	         O	              -	      I-A0	         O	         O	(QP*
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	         O	*
+             10	        CD	      B-NP	         O	              -	      I-A0	         O	         O	*)
+         Family	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	*
+        members	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	*)
+           exit	       VBP	      S-VP	         O	           exit	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP*
+          crime	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+          scene	        NN	      E-NP	         O	              -	      E-A1	         O	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	  B-AM-LOC	         O	         O	(PP(WHADVP*)
+        Houston	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	      B-A0	         O	(SBAR(S(NP*
+         Police	       NNP	      I-NP	     E-ORG	              -	  I-AM-LOC	      I-A0	         O	*
+       officers	       NNS	      E-NP	         O	              -	  I-AM-LOC	      E-A0	         O	*)
+   investigated	       VBD	      S-VP	         O	   investigated	  I-AM-LOC	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	      B-A1	      B-A0	(NP(NP*
+         murder	        NN	      I-NP	         O	              -	  I-AM-LOC	      I-A1	      I-A0	*
+        suicide	        NN	      E-NP	         O	              -	  I-AM-LOC	      I-A1	      E-A0	*)
+           that	       WDT	      S-NP	         O	              -	  I-AM-LOC	      I-A1	    S-R-A0	(SBAR(WHNP*)
+           left	       VBD	      S-VP	         O	           left	  I-AM-LOC	      I-A1	       S-V	(S(VP*
+          three	        CD	      B-NP	         O	              -	  I-AM-LOC	      I-A1	      B-A1	(NP(NP*
+         people	       NNS	      E-NP	         O	              -	  I-AM-LOC	      I-A1	      E-A1	*)
+           dead	        JJ	    S-ADJP	         O	              -	  I-AM-LOC	      I-A1	      S-A2	(ADJP*
+             on	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP(NP*
+           3800	        CD	      I-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP*
+       Pleasant	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*))
+         Friday	       NNP	      S-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+          April	       NNP	      B-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(NP*
+              7	        CD	      I-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	*
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	  I-AM-LOC	(PP*
+        Houston	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	      E-A1	  E-AM-LOC	(NP*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+          Photo	       NNP	      S-NP	         O	              -	(S1(S(NP*)
+              :	         :	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+        Houston	       NNP	      B-NP	     B-ORG	              -	(NP*
+      Chronicle	       NNP	      E-NP	     E-ORG	              -	*)
+              ,	         ,	         O	         O	              -	*
+      Godofredo	        JJ	      B-NP	     B-PER	              -	(NP*
+             A.	        NN	      I-NP	     I-PER	              -	*
+        Vasquez	       NNP	      E-NP	     E-PER	              -	*)))
+

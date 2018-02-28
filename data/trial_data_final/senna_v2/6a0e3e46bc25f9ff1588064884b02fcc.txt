@@ -1,0 +1,643 @@
+     2017-03-27	        CD	      S-NP	         O	              -	(S1(NP*))
+
+              2	        CD	      B-NP	         O	              -	(S1(NP(NP*
+        victims	       NNS	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+     Cincinnati	       NNP	      B-NP	     S-LOC	              -	(NP*
+      nightclub	        NN	      I-NP	         O	              -	*
+       shooting	        NN	      E-NP	         O	              -	*))
+           from	        IN	      S-PP	         O	              -	(PP*
+       Trotwood	       NNP	      S-NP	     S-PER	              -	(NP*))))
+
+     CINCINNATI	       NNP	      S-NP	     S-ORG	              -	      B-A0	         O	         O	(S1(S(NP(NP*)
+              (	     -LRB-	         O	         O	              -	      I-A0	         O	         O	(PRN*
+        AP/WDTN	       NNP	      S-NP	     S-ORG	              -	      I-A0	         O	         O	(NP*)
+              )	     -RRB-	         O	         O	              -	      E-A0	         O	         O	*))
+            —	       VBD	      S-VP	         O	            —	       S-V	         O	         O	(VP*
+              2	        CD	      B-NP	         O	              -	      B-A1	      B-A0	         O	(SBAR(S(NP*
+           NEWS	       NNP	      E-NP	     S-ORG	              -	      E-A1	      E-A0	         O	*)
+            has	       VBZ	      B-VP	         O	              -	         O	         O	         O	(VP*
+      confirmed	       VBN	      E-VP	         O	      confirmed	         O	       S-V	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	         O	    B-C-A1	         O	(SBAR*
+            two	        CD	      B-NP	         O	              -	         O	    I-C-A1	         O	(S(NP(NP*
+        victims	       NNS	      E-NP	         O	              -	         O	    I-C-A1	         O	*)
+             in	        IN	      S-PP	         O	              -	         O	    I-C-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	    I-C-A1	         O	(NP*
+     Cincinnati	       NNP	      I-NP	     S-LOC	              -	         O	    I-C-A1	         O	*
+      nightclub	        NN	      E-NP	         O	              -	         O	    I-C-A1	         O	*
+       shooting	       VBG	      S-VP	         O	       shooting	         O	    I-C-A1	       S-V	*)))
+         Sunday	       NNP	      B-NP	         O	              -	         O	    I-C-A1	  B-AM-TMP	(NP*
+        morning	        NN	      E-NP	         O	              -	         O	    I-C-A1	  E-AM-TMP	*)
+            are	       VBP	      S-VP	         O	              -	         O	    I-C-A1	         O	(VP*
+           from	        IN	      S-PP	         O	              -	         O	    I-C-A1	         O	(PP*
+       Trotwood	       NNP	      S-NP	     S-LOC	              -	         O	    E-C-A1	         O	(NP*))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+        Friends	       NNS	      S-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	         O	(PP*
+         Jarrod	       NNP	      B-NP	     B-PER	              -	      I-A0	         O	         O	(NP(NP*
+         Givens	       NNP	      E-NP	     E-PER	              -	      I-A0	         O	         O	*)
+            and	        CC	         O	         O	              -	      I-A0	         O	         O	*
+          Lyrik	       NNP	      B-NP	     B-PER	              -	      I-A0	         O	         O	(NP*
+       Hardaway	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	*))))
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	(VP*
+           both	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(SBAR(S(NP*
+            men	       NNS	      E-NP	         O	              -	      I-A1	         O	         O	*)
+           were	       VBD	      S-VP	         O	              -	      I-A1	         O	         O	(VP*
+          among	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	(NP(NP*
+             16	        CD	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+        injured	       VBN	      S-VP	         O	        injured	      I-A1	       S-V	         O	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	         O	(NP*
+           mass	        NN	      E-NP	         O	              -	      I-A1	  I-AM-LOC	         O	*
+       shooting	       VBG	      S-VP	         O	       shooting	      I-A1	  I-AM-LOC	       S-V	*))
+             at	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	  B-AM-LOC	(PP*
+          Cameo	       NNP	      B-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-LOC	(NP*
+      nightclub	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	  E-AM-LOC	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	         O	(S1(S(NP*
+     Cincinnati	       NNP	      I-NP	     S-LOC	              -	      I-A0	         O	         O	         O	*
+         police	        NN	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+          chief	        NN	      E-NP	         O	              -	      E-A0	         O	         O	         O	*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	         O	(VP*
+             it	       PRP	      S-NP	         O	              -	      B-A1	      B-A1	         O	         O	(SBAR(S(NP*)
+      doesn’t	        MD	      B-VP	         O	              -	      I-A1	      E-A1	         O	         O	*
+         appear	        VB	      E-VP	         O	         appear	      I-A1	       S-V	         O	         O	(VP*
+          there	        EX	      S-NP	         O	              -	      I-A1	      B-A1	         O	         O	(SBAR(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	      I-A1	      I-A1	         O	         O	(VP*
+            any	        DT	      B-NP	         O	              -	      I-A1	      I-A1	         O	         O	(NP(NP*
+          video	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	         O	         O	*
+        footage	        NN	      E-NP	         O	              -	      I-A1	      I-A1	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      B-A0	      B-A1	(NP(NP*
+         deadly	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A0	      I-A1	*
+      nightclub	        NN	      I-NP	         O	              -	      I-A1	      I-A1	      I-A0	      I-A1	*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      E-A0	      E-A1	*)
+           that	       WDT	      S-NP	         O	              -	      I-A1	      I-A1	    S-R-A0	    S-R-A1	(SBAR(WHNP*)
+         killed	       VBD	      S-VP	         O	         killed	      I-A1	      I-A1	       S-V	         O	(S(VP(VP*
+            one	        CD	      B-NP	         O	              -	      I-A1	      I-A1	      B-A1	         O	(NP*
+            man	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      E-A1	         O	*))
+            and	        CC	         O	         O	              -	      I-A1	      I-A1	         O	         O	*
+        injured	       VBD	      S-VP	         O	        injured	      I-A1	      I-A1	         O	       S-V	(VP*
+             16	        CD	      B-NP	         O	              -	      I-A1	      I-A1	         O	      B-A1	(NP*
+         people	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	         O	      E-A1	*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+           READ	        VB	      S-VP	         O	           READ	       S-V	(S1(S(VP*
+           MORE	       RBR	    S-ADVP	         O	              -	  S-AM-MNR	(NP*))
+              :	         :	         O	         O	              -	         O	*))
+
+       Shooting	       VBG	      S-VP	         O	              -	  B-AM-LOC	         O	(S1(S(S(S(VP*
+             at	        IN	      S-PP	         O	              -	  I-AM-LOC	         O	(PP*
+     Cincinnati	       NNP	      B-NP	     S-LOC	              -	  I-AM-LOC	         O	(NP*
+      nightclub	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	*))))
+          kills	       VBZ	      S-VP	         O	          kills	       S-V	         O	(VP*
+              1	        CD	      S-NP	         O	              -	      S-A2	         O	(NP*)))
+              ,	         ,	         O	         O	              -	         O	         O	*
+             15	        CD	      B-NP	         O	              -	  B-AM-ADV	         O	(NP*
+           hurt	        NN	      I-NP	         O	              -	  E-AM-ADV	         O	*)
+              ,	         ,	      I-NP	         O	              -	         O	         O	*
+        suspect	        JJ	      E-NP	         O	              -	         O	         O	(ADJP*
+         sought	       VBD	      S-VP	         O	         sought	         O	         O	(VP*))))
+
+          Chief	       NNP	      B-NP	         O	              -	      B-A0	         O	         O	         O	         O	(S1(S(S(NP*
+         Elliot	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	         O	         O	         O	*
+          Isaac	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	         O	         O	*)
+           also	        RB	    S-ADVP	         O	              -	  S-AM-DIS	         O	         O	         O	         O	(ADVP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	         O	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	(NP(NP*
+         Monday	       NNP	      I-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+        morning	        NN	      I-NP	         O	              -	  I-AM-LOC	         O	         O	         O	         O	*
+       briefing	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	         O	         O	         O	*)
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	         O	         O	         O	(SBAR(WHNP*)
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A0	         O	         O	         O	(S(NP*
+          Cameo	       NNP	      I-NP	         O	              -	      I-A1	      I-A0	         O	         O	         O	*
+      nightclub	        NN	      E-NP	         O	              -	      I-A1	      E-A0	         O	         O	         O	*)
+            had	       VBD	      S-VP	         O	            had	      I-A1	       S-V	         O	         O	         O	(VP*
+          metal	        NN	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	         O	(NP*
+      detectors	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	         O	*))))))))
+            but	        CC	         O	         O	              -	      I-A1	         O	         O	         O	         O	*
+             it	       PRP	      S-NP	         O	              -	      I-A1	         O	      S-A0	         O	         O	(S(NP*)
+       wasn’t	       VBD	      S-VP	         O	       wasn’t	      I-A1	         O	       S-V	         O	         O	(VP*
+      something	        NN	      S-NP	         O	              -	      I-A1	         O	      B-A1	         O	      S-A1	(NP(NP*)
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	      I-A1	      B-A1	      B-A0	(SBAR(S(NP*
+           club	        NN	      E-NP	         O	              -	      I-A1	         O	      I-A1	      E-A1	      E-A0	*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	      I-A1	         O	         O	(VP*
+       required	       VBN	      I-VP	         O	       required	      I-A1	         O	      I-A1	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	         O	      I-A1	    B-C-A1	         O	(S(VP*
+           have	        VB	      E-VP	         O	           have	      E-A1	         O	      E-A1	    E-C-A1	       S-V	(VP*))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP*
+          chief	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	(VP*
+           five	        CD	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+            are	       VBP	      B-VP	         O	              -	      I-A1	         O	(VP*
+          still	        RB	      I-VP	         O	              -	      I-A1	  S-AM-TMP	(ADVP*)
+   hospitalized	       VBN	      E-VP	         O	   hospitalized	      I-A1	       S-V	(VP*
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+            two	        CD	      S-NP	         O	              -	      I-A1	         O	(UCP(NP(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+       critical	        JJ	      B-NP	         O	              -	      I-A1	         O	(NP*
+      condition	        NN	      E-NP	         O	              -	      I-A1	         O	*)))
+            and	        CC	         O	         O	              -	      I-A1	         O	*
+          three	        CD	      S-NP	         O	              -	      I-A1	         O	(S(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+        serious	        JJ	      B-NP	         O	              -	      I-A1	         O	(NP*
+      condition	        NN	      E-NP	         O	              -	      E-A1	         O	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+         victim	        NN	      I-NP	         O	              -	      I-A1	*)
+              ,	         ,	      I-NP	         O	              -	      I-A1	*
+        27-year	        JJ	      I-NP	         O	              -	      I-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	(PP*
+            old	        JJ	      I-NP	         O	              -	      I-A1	(NP*
+      O’Bryan	       NNP	      I-NP	     B-PER	              -	      I-A1	*
+         Spikes	      NNPS	      E-NP	     E-PER	              -	      I-A1	*)))
+              ,	         ,	         O	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+         killed	       VBN	      E-VP	         O	         killed	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+         Sunday	       NNP	      I-NP	         O	              -	  I-AM-TMP	*
+        morning	        NN	      I-NP	         O	              -	  I-AM-TMP	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	*))
+             at	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+      nightclub	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+          Keith	       NNP	      B-NP	     B-PER	              -	      B-A0	         O	(S1(S(NP(NP*
+         Forman	       NNP	      E-NP	     E-PER	              -	      I-A0	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	         O	(NP*
+     Cincinnati	       NNP	      I-NP	     S-LOC	              -	      I-A0	         O	*
+            law	        NN	      I-NP	         O	              -	      I-A0	         O	*
+     department	        NN	      E-NP	         O	              -	      E-A0	         O	*)))
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+         liquor	        NN	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+        license	        NN	      I-NP	         O	              -	      I-A1	      I-A1	*
+       renewals	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	*)
+           come	       VBP	      S-VP	         O	           come	      I-A1	       B-V	(VP*
+             up	        RP	     S-PRT	         O	              -	      I-A1	       E-V	(ADVP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(PP*
+          April	       NNP	      S-NP	         O	              -	      E-A1	  E-AM-TMP	(NP*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Forman	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+             he	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	(SBAR(S(NP*)
+           ’s	       VBD	      S-VP	         O	              -	      I-A1	         O	(VP*
+            not	        RB	         O	         O	              -	      I-A1	         O	*
+          aware	        JJ	    S-ADJP	         O	              -	      I-A1	         O	(ADJP*
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+          plans	       NNS	      S-NP	         O	              -	      I-A1	         O	(NP*))
+            yet	        RB	    S-ADVP	         O	              -	      I-A1	         O	(ADVP*)
+             to	        TO	      B-VP	         O	              -	      I-A1	         O	(S(VP*
+           look	        VB	      E-VP	         O	           look	      I-A1	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	      B-A1	(PP*
+          Cameo	       NNP	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+           ’s	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+        license	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Photos	       NNS	      B-NP	         O	              -	         O	         O	(S1(NP(NP*
+     Cincinnati	       NNP	      I-NP	     B-ORG	              -	         O	         O	*
+      Nightclub	       NNP	      I-NP	     E-ORG	              -	         O	         O	*
+       shooting	        NN	      E-NP	         O	              -	         O	         O	*
+           View	        NN	      S-VP	         O	              -	         O	         O	*)
+             as	        IN	    S-SBAR	         O	              -	         O	         O	(SBAR*
+           list	        NN	      B-NP	         O	              -	         O	         O	(S(NP(NP*
+           View	       NNP	      E-NP	         O	              -	         O	         O	*)
+             as	        IN	      S-PP	         O	              -	         O	         O	(PP*
+        gallery	        NN	      B-NP	         O	              -	      B-A1	         O	(NP*
+           Open	       NNP	      I-NP	     B-ORG	              -	      I-A1	         O	*
+        Gallery	       NNP	      I-NP	     I-ORG	              -	      I-A1	         O	*
+         Police	       NNP	      E-NP	     E-ORG	              -	      E-A1	         O	*)))
+        operate	       VBP	      S-VP	         O	        operate	       S-V	         O	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+          crime	        NN	      I-NP	         O	              -	  I-AM-LOC	         O	*
+          scene	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	*))
+        outside	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	  I-AM-LOC	         O	*
+      Nightclub	       NNP	      E-NP	         O	              -	  E-AM-LOC	         O	*))
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+       reported	       VBN	      I-NP	         O	       reported	  I-AM-TMP	       S-V	*
+          fatal	        JJ	      I-NP	         O	              -	  I-AM-TMP	      B-A1	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	*)))))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	*
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+             26	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	         O	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	         O	(NP*)))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A1	         O	(S1(S(NP*)
+        operate	       VBP	      S-VP	         O	        operate	       S-V	         O	(VP(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+          crime	        NN	      I-NP	         O	              -	  I-AM-LOC	         O	*
+          scene	        NN	      E-NP	         O	              -	  I-AM-LOC	         O	*))
+        outside	        IN	      S-PP	         O	              -	  I-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	  I-AM-LOC	         O	*
+      Nightclub	       NNP	      E-NP	         O	              -	  E-AM-LOC	         O	*))
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+       reported	       VBN	      I-NP	         O	       reported	  I-AM-TMP	       S-V	*
+          fatal	        JJ	      I-NP	         O	              -	  I-AM-TMP	      B-A1	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	*)))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	*
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+             26	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	         O	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	         O	(NP*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A1	         O	(S1(S(NP*)
+        operate	       VBP	      S-VP	         O	        operate	       S-V	         O	(VP(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+          crime	        NN	      I-NP	         O	              -	  I-AM-LOC	         O	*
+          scene	        NN	      E-NP	         O	              -	  I-AM-LOC	         O	*))
+        outside	        IN	      S-PP	         O	              -	  I-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	  I-AM-LOC	         O	*
+      Nightclub	       NNP	      E-NP	         O	              -	  E-AM-LOC	         O	*))
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+       reported	       VBN	      I-NP	         O	       reported	  I-AM-TMP	       S-V	*
+          fatal	        JJ	      I-NP	         O	              -	  I-AM-TMP	      B-A1	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	*)))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	*
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+             26	        CD	      I-NP	         O	              -	  I-AM-TMP	         O	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	         O	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	         O	*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	         O	(NP*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+        Members	       NNS	      S-NP	         O	              -	(S1(S(NP(NP*)
+             of	        IN	      S-PP	         O	              -	(PP*
+            the	        DT	      B-NP	         O	              -	(NP*
+            ATF	       NNP	      I-NP	     S-ORG	              -	*
+            and	        CC	      I-NP	         O	              -	*
+          local	        JJ	      I-NP	         O	              -	*
+         police	       NNS	      E-NP	         O	              -	*
+           work	       VBP	      S-VP	         O	              -	*))
+             at	        IN	      S-PP	         O	              -	(PP*
+              a	        DT	      B-NP	         O	              -	(NP(NP*
+          crime	        NN	      I-NP	         O	              -	*
+          scene	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+            the	        DT	      B-NP	         O	              -	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	*
+           club	        NN	      E-NP	         O	              -	*))
+          after	        IN	      S-PP	         O	              -	(PP*
+              a	        DT	      B-NP	         O	              -	(NP*
+          fatal	        JJ	      I-NP	         O	              -	*
+       shooting	        NN	      E-NP	         O	              -	*))))
+              ,	         ,	         O	         O	              -	*
+         Sunday	       NNP	      S-NP	         O	              -	(NP*)
+              ,	         ,	         O	         O	              -	*
+          March	       NNP	      B-NP	         O	              -	(NP*
+             26	        CD	      I-NP	         O	              -	*
+              ,	         ,	      I-NP	         O	              -	*
+           2017	        CD	      E-NP	         O	              -	*)
+              ,	         ,	         O	         O	              -	*
+             in	        IN	      S-PP	         O	              -	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	(NP*)))
+              .	         .	         O	         O	              -	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+           body	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+        removed	       VBN	      E-VP	         O	        removed	       S-V	         O	(VP*
+             as	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	(SBAR*
+         police	       NNS	      S-NP	         O	              -	  I-AM-TMP	      S-A1	(S(NP*)
+        operate	       VBP	      S-VP	         O	        operate	  I-AM-TMP	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	(NP*
+          crime	        NN	      I-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	*
+          scene	        NN	      E-NP	         O	              -	  I-AM-TMP	  E-AM-LOC	*))
+        outside	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	*
+           club	        NN	      E-NP	         O	              -	  I-AM-TMP	  E-AM-LOC	*))
+          after	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+          fatal	        JJ	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*)))))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+             26	        CD	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	  E-AM-TMP	(NP*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+           body	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+        removed	       VBN	      E-VP	         O	        removed	       S-V	         O	(VP*
+             as	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	(PP*
+         police	       NNS	      S-NP	         O	              -	  I-AM-TMP	      S-A0	(NP*
+           work	       VBP	      S-VP	         O	           work	  I-AM-TMP	       S-V	*))
+             at	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	*
+           club	        NN	      E-NP	         O	              -	  I-AM-TMP	  E-AM-LOC	*))
+          after	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+          fatal	        JJ	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+             26	        CD	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	  E-AM-TMP	(NP*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP(NP*
+        coroner	        NN	      E-NP	         O	              -	      I-A0	         O	*
+             's	       POS	      B-NP	         O	              -	      I-A0	         O	*)
+           unit	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+          pulls	       VBZ	      S-VP	         O	          pulls	       S-V	         O	(VP*
+           away	        RP	     S-PRT	         O	              -	      S-A2	         O	(ADVP*)
+             as	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	(SBAR*
+         police	       NNS	      S-NP	         O	              -	  I-AM-TMP	      S-A1	(S(NP*)
+        operate	       VBP	      S-VP	         O	        operate	  I-AM-TMP	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+          crime	        NN	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+          scene	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*))
+        outside	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+           club	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*))
+          after	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+          fatal	        JJ	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*)))))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+             26	        CD	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	  E-AM-TMP	(NP*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+           body	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+        removed	       VBN	      E-VP	         O	        removed	       S-V	         O	(VP*
+             as	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	(SBAR*
+         police	       NNS	      S-NP	         O	              -	  I-AM-TMP	      S-A1	(S(NP*)
+        operate	       VBP	      S-VP	         O	        operate	  I-AM-TMP	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	(NP*
+          crime	        NN	      I-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	*
+          scene	        NN	      E-NP	         O	              -	  I-AM-TMP	  E-AM-LOC	*))
+        outside	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	*
+           club	        NN	      E-NP	         O	              -	  I-AM-TMP	  E-AM-LOC	*))
+          after	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+          fatal	        JJ	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*)))))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+             26	        CD	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	  E-AM-TMP	(NP*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              (	     -LRB-	         O	         O	              -	         O	(S1(S(PRN*
+             AP	       NNP	      B-NP	     B-ORG	              -	         O	(NP*
+     Photo/John	       NNP	      I-NP	     I-ORG	              -	         O	*
+      Minchillo	       NNP	      E-NP	     I-ORG	              -	         O	*)
+              )	     -RRB-	         O	     I-ORG	              -	         O	*)
+         Police	       NNP	      B-NP	     E-ORG	              -	         O	(VP*
+           work	        NN	      E-NP	         O	              -	         O	(VP*
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	(NP(NP*
+          crime	        NN	      I-NP	         O	              -	         O	*
+          scene	        NN	      E-NP	         O	              -	         O	*)
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	         O	*
+           club	        NN	      E-NP	         O	              -	         O	*))
+          after	        IN	      S-PP	         O	              -	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	(NP*
+       reported	       VBN	      I-NP	         O	       reported	       S-V	*
+          fatal	        JJ	      I-NP	         O	              -	      B-A1	*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*))
+              ,	         ,	         O	         O	              -	         O	*
+         Sunday	       NNP	      S-NP	         O	              -	         O	(NP*)
+              ,	         ,	         O	         O	              -	         O	*
+          March	       NNP	      B-NP	         O	              -	         O	(NP*
+             26	        CD	      I-NP	         O	              -	         O	*
+              ,	         ,	      I-NP	         O	              -	         O	*
+           2017	        CD	      E-NP	         O	              -	         O	*)
+              ,	         ,	         O	         O	              -	         O	*
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	         O	(NP*))))))
+              .	         .	         O	         O	              -	         O	*))
+
+              (	     -LRB-	         O	         O	              -	         O	(S1(S(PRN*
+             AP	       NNP	      B-NP	     B-ORG	              -	         O	(NP*
+     Photo/John	       NNP	      I-NP	     I-ORG	              -	         O	*
+      Minchillo	       NNP	      E-NP	     I-ORG	              -	         O	*)
+              )	     -RRB-	         O	     I-ORG	              -	         O	*)
+         Police	       NNP	      B-NP	     E-ORG	              -	         O	(VP*
+           work	        NN	      E-NP	         O	              -	         O	(VP*
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	(NP(NP*
+          crime	        NN	      I-NP	         O	              -	         O	*
+          scene	        NN	      E-NP	         O	              -	         O	*)
+        outside	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	         O	*
+           club	        NN	      E-NP	         O	              -	         O	*))
+          after	        IN	      S-PP	         O	              -	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	(NP*
+       reported	       VBN	      I-NP	         O	       reported	       S-V	*
+          fatal	        JJ	      I-NP	         O	              -	      B-A1	*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*))
+              ,	         ,	         O	         O	              -	         O	*
+         Sunday	       NNP	      S-NP	         O	              -	         O	(NP*)
+              ,	         ,	         O	         O	              -	         O	*
+          March	       NNP	      B-NP	         O	              -	         O	(NP*
+             26	        CD	      I-NP	         O	              -	         O	*
+              ,	         ,	      I-NP	         O	              -	         O	*
+           2017	        CD	      E-NP	         O	              -	         O	*)
+              ,	         ,	         O	         O	              -	         O	*
+             in	        IN	      S-PP	         O	              -	         O	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	         O	(NP*))))))
+              .	         .	         O	         O	              -	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+        operate	       VBP	      S-VP	         O	        operate	       S-V	(VP(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          crime	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+          scene	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+        outside	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	  I-AM-LOC	*
+           club	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+              ,	         ,	         O	         O	              -	         O	*
+             in	        IN	      S-PP	         O	              -	  B-AM-DIS	(PP*
+     background	        NN	      S-NP	         O	              -	  E-AM-DIS	(NP*))
+              ,	         ,	         O	         O	              -	         O	*
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          fatal	        JJ	      I-NP	         O	              -	  I-AM-TMP	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	*)))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP*
+             26	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	(NP*))))
+              .	         .	         O	         O	              -	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+        operate	       VBP	      S-VP	         O	        operate	       S-V	(VP(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          crime	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+          scene	        NN	      E-NP	         O	              -	  I-AM-LOC	*))
+             at	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          Cameo	       NNP	      I-NP	         O	              -	  I-AM-LOC	*
+           club	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+              ,	         ,	         O	         O	              -	         O	*
+             in	        IN	      S-PP	         O	              -	  B-AM-DIS	(PP*
+     background	        NN	      S-NP	         O	              -	  E-AM-DIS	(NP*))
+              ,	         ,	         O	         O	              -	         O	*
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+          fatal	        JJ	      I-NP	         O	              -	  I-AM-TMP	*
+       shooting	        NN	      E-NP	         O	              -	  I-AM-TMP	*)))
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+         Sunday	       NNP	      S-NP	         O	              -	  I-AM-TMP	(NP(NP*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+          March	       NNP	      B-NP	         O	              -	  I-AM-TMP	(NP*
+             26	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	*
+           2017	        CD	      E-NP	         O	              -	  I-AM-TMP	*)
+              ,	         ,	         O	         O	              -	  I-AM-TMP	*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+     Cincinnati	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	(NP*))))
+              .	         .	         O	         O	              -	         O	*))
+
+              (	     -LRB-	         O	         O	              -	(S1(PRN*
+             AP	       NNP	      B-NP	     B-ORG	              -	(NP*
+     Photo/John	       NNP	      I-NP	     I-ORG	              -	*
+      Minchillo	       NNP	      E-NP	     E-ORG	              -	*)
+              )	     -RRB-	         O	         O	              -	*))
+
+           Keep	        VB	      B-VP	         O	           Keep	       S-V	         O	(S1(S(VP*
+       checking	       VBG	      E-VP	         O	       checking	      B-A1	       S-V	(S(VP*
+       WDTN.com	       NNP	      S-NP	     S-PER	              -	      I-A1	      S-A1	(NP*)
+            for	        IN	      S-PP	         O	              -	      I-A1	      B-A3	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A3	(NP*
+         latest	       JJS	      I-NP	         O	              -	      I-A1	      I-A3	*
+           news	        NN	      I-NP	         O	              -	      I-A1	      I-A3	*
+              ,	         ,	      I-NP	         O	              -	      I-A1	      I-A3	*
+        weather	        NN	      I-NP	         O	              -	      I-A1	      I-A3	*
+            and	        CC	      I-NP	         O	              -	      I-A1	      I-A3	*
+         sports	       NNS	      E-NP	         O	              -	      E-A1	      E-A3	*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             To	        TO	      B-VP	         O	              -	         O	         O	  B-AM-PNC	(S1(S(S(VP*
+            get	        VB	      E-VP	         O	            get	       S-V	         O	  I-AM-PNC	(VP(VP*
+         alerts	       NNS	      S-NP	         O	              -	      B-A1	         O	  I-AM-PNC	(NP*)
+            for	        IN	      S-PP	         O	              -	      I-A1	         O	  I-AM-PNC	(PP*
+       breaking	       VBG	      S-VP	         O	       breaking	      I-A1	       S-V	  I-AM-PNC	(S(VP*
+           news	        NN	      S-NP	         O	              -	      E-A1	      S-A1	  E-AM-PNC	(NP*)))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+           grab	        VB	      S-VP	         O	           grab	         O	         O	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	         O	         O	      B-A1	(NP*
+           FREE	       NNP	      I-NP	    B-MISC	              -	         O	         O	      I-A1	*
+           WDTN	       NNP	      I-NP	    I-MISC	              -	         O	         O	      I-A1	*
+           News	       NNP	      I-NP	    I-MISC	              -	         O	         O	      I-A1	*
+            App	       NNP	      E-NP	    E-MISC	              -	         O	         O	      E-A1	*)
+            for	        IN	      S-PP	         O	              -	         O	         O	      B-A3	(PP*
+         iPhone	        NN	      B-NP	         O	              -	         O	         O	      I-A3	(NP*
+             or	        CC	      I-NP	         O	              -	         O	         O	      I-A3	*
+        Android	       NNP	      E-NP	         O	              -	         O	         O	      E-A3	*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            You	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+            can	        MD	      B-VP	         O	              -	  S-AM-MOD	(VP*
+           also	        RB	      I-VP	         O	              -	  S-AM-DIS	(ADVP*)
+           sign	        VB	      E-VP	         O	           sign	       B-V	(VP*
+             up	        RP	     S-PRT	         O	              -	       E-V	(ADVP*)
+            for	        IN	      S-PP	         O	              -	      B-A1	(PP*
+          email	        NN	      S-NP	         O	              -	      I-A1	(NP(NP*
+         alerts	       NNS	      S-VP	         O	              -	      I-A1	*)
+           here	        RB	    S-ADVP	         O	              -	      E-A1	(ADVP*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+        Don’t	       NNP	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           miss	       VBP	      S-VP	         O	           miss	       S-V	         O	*
+        another	        DT	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
+           post	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+             on	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+       Facebook	       NNP	      B-NP	         O	              -	      I-A1	         O	(NP(NP*)
+             or	        CC	      I-NP	         O	              -	      I-A1	         O	*
+        Twitter	       NNP	      E-NP	    S-MISC	              -	      E-A1	         O	(NP*))))
+            for	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+            all	       PDT	      B-NP	         O	              -	      I-A2	         O	(NP*
+            the	        DT	      I-NP	         O	              -	      I-A2	         O	*
+         latest	       JJS	      I-NP	         O	              -	      I-A2	         O	*))
+       breaking	       VBG	      I-NP	         O	       breaking	      I-A2	       S-V	*
+           news	        NN	      E-NP	         O	              -	      E-A2	      S-A0	(NP*)))
+

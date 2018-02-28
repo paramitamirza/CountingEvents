@@ -1,0 +1,176 @@
+     2017-03-10	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            Dad	       NNP	      S-NP	         O	              -	         O	         O	(S1(S(NP*)
+              :	         :	         O	         O	              -	         O	         O	*
+            Son	        NN	      S-NP	         O	              -	      B-A0	      B-A0	(S(NP(NP*
+             's	       POS	      B-NP	         O	              -	      I-A0	      I-A0	*)
+         friend	        NN	      E-NP	         O	              -	      E-A0	      E-A0	*)
+         shoots	       VBZ	      S-VP	         O	         shoots	       S-V	         O	(VP*
+           self	        NN	      S-NP	         O	              -	      B-A1	         O	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+           head	        NN	      S-NP	         O	              -	      I-A1	         O	(NP*))
+        playing	       VBG	      S-VP	         O	        playing	      I-A1	       S-V	(S(VP*
+        Russian	        JJ	      B-NP	    S-MISC	              -	      I-A1	      B-A1	(NP*
+       roulette	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*))))))))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	      B-A1	(S1(S(S(NP(NP*
+        15-year	        JJ	      I-NP	         O	              -	      I-A0	      I-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A0	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A0	      I-A1	*)
+        playing	        NN	      E-NP	         O	              -	      I-A0	      I-A1	*)
+           with	        IN	      S-PP	         O	              -	      I-A0	      I-A1	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A0	      I-A1	(NP*
+            gun	        NN	      E-NP	         O	              -	      E-A0	      I-A1	*)))
+   accidentally	        RB	    S-ADVP	         O	              -	  S-AM-MNR	      I-A1	(ADVP*)
+           shot	       VBD	      S-VP	         O	           shot	       S-V	      I-A1	(VP*
+        himself	       PRP	      S-NP	         O	              -	      S-A1	      I-A1	(NP*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	      I-A1	(NP*
+           head	        NN	      E-NP	         O	              -	  E-AM-LOC	      E-A1	*))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+         Harris	       NNP	      B-NP	     B-ORG	              -	         O	      B-A0	(NP*
+         County	       NNP	      I-NP	     E-ORG	              -	         O	      I-A0	*
+       deputies	       NNS	      E-NP	         O	              -	         O	      E-A0	*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+           teen	        NN	      E-NP	         O	              -	      E-A0	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+        playing	       VBG	      E-VP	         O	        playing	       S-V	(VP*
+        Russian	        JJ	      B-NP	    S-MISC	              -	      B-A1	(NP*
+       roulette	        NN	      E-NP	         O	              -	      E-A1	*)
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           time	        NN	      E-NP	         O	              -	  E-AM-TMP	*))
+              ,	         ,	         O	         O	              -	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP(NP*
+         father	        NN	      E-NP	         O	              -	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	(PP*
+        another	        DT	      B-NP	         O	              -	         O	(NP*
+           teen	        JJ	      I-NP	         O	              -	         O	*
+        present	        NN	      E-NP	         O	              -	         O	*)))))
+             at	        IN	      S-PP	         O	              -	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	(NP*
+           time	        NN	      E-NP	         O	              -	         O	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+         around	        IN	      S-PP	         O	              -	  B-AM-TMP	(ADVP*)
+           9:30	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           a.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+          21300	        CD	      I-NP	         O	              -	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+       Greenham	       NNP	      B-NP	    B-MISC	              -	  I-AM-LOC	(NP*
+             Dr	       NNP	      E-NP	    E-MISC	              -	  E-AM-LOC	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	         O	         O	(S1(S(NP(NP*
+          other	        JJ	      I-NP	         O	              -	      I-A0	         O	         O	         O	         O	*
+           teen	        NN	      E-NP	         O	              -	      I-A0	         O	         O	         O	         O	*
+             's	       POS	      B-NP	         O	              -	      I-A0	         O	         O	         O	         O	*)
+         father	        NN	      E-NP	         O	              -	      E-A0	         O	         O	         O	         O	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	         O	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	         O	         O	         O	(SBAR(S(SBAR*
+             he	       PRP	      S-NP	         O	              -	      I-A1	      S-A0	         O	         O	         O	(S(NP*)
+           does	       VBZ	      B-VP	         O	              -	      I-A1	         O	         O	         O	         O	(VP*
+            not	        RB	      I-VP	         O	              -	      I-A1	  S-AM-NEG	         O	         O	         O	*
+            own	        VB	      E-VP	         O	            own	      I-A1	       S-V	         O	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	         O	(NP*
+            gun	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	         O	*)))))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	         O	         O	*
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	         O	         O	*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	         O	      B-A0	      B-A0	         O	(S(NP*
+            son	        NN	      E-NP	         O	              -	      I-A1	         O	      E-A0	      E-A0	         O	*)
+         called	       VBD	      S-VP	         O	         called	      I-A1	         O	       S-V	         O	         O	(VP*
+            him	       PRP	      S-NP	         O	              -	      I-A1	         O	      S-A1	         O	         O	(S(NP*)
+     hysterical	        JJ	    S-ADJP	         O	              -	      I-A1	         O	      B-A2	         O	         O	(ADJP*))
+             to	        TO	      B-VP	         O	              -	      I-A1	         O	      I-A2	         O	         O	(S(VP*
+           tell	        VB	      E-VP	         O	           tell	      I-A1	         O	      I-A2	       S-V	         O	(VP*
+            him	       PRP	      S-NP	         O	              -	      I-A1	         O	      I-A2	      S-A2	         O	(NP*)
+           that	        IN	    S-SBAR	         O	              -	      I-A1	         O	      I-A2	      B-A1	         O	(SBAR*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	         O	      I-A2	      I-A1	      B-A0	(S(NP*
+         friend	        NN	      E-NP	         O	              -	      I-A1	         O	      I-A2	      I-A1	      E-A0	*)
+            has	       VBZ	      B-VP	         O	              -	      I-A1	         O	      I-A2	      I-A1	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	      I-A1	         O	      I-A2	      I-A1	         O	(VP*
+        playing	       VBG	      E-VP	         O	        playing	      I-A1	         O	      I-A2	      I-A1	       S-V	(VP*
+        Russian	        JJ	      B-NP	    S-MISC	              -	      I-A1	         O	      I-A2	      I-A1	      B-A1	(NP*
+       roulette	        NN	      E-NP	         O	              -	      E-A1	         O	      E-A2	      E-A1	      E-A1	*))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*))
+
+          Jason	       NNP	      B-NP	     B-PER	              -	      B-A1	      B-A0	         O	         O	(S1(S(NP(NP*
+            Gay	       NNP	      E-NP	     E-PER	              -	      I-A1	      I-A0	         O	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	      I-A0	         O	         O	*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A0	         O	         O	(NP*
+       neighbor	        NN	      E-NP	         O	              -	      I-A1	      I-A0	         O	         O	*)
+              ,	         ,	         O	         O	              -	      E-A1	      E-A0	         O	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+        shocked	       VBN	      I-VP	         O	        shocked	       S-V	         O	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A2	         O	         O	         O	(S(VP*
+           hear	        VB	      E-VP	         O	           hear	      I-A2	       S-V	         O	         O	(VP*
+           what	        WP	      S-NP	         O	              -	      I-A2	      B-A1	         O	         O	(SBAR(S(SBAR(WHNP*)
+       unfolded	       VBD	      S-VP	         O	              -	      I-A2	      I-A1	         O	         O	(S(VP*
+            not	        RB	         O	         O	              -	      I-A2	      I-A1	         O	         O	(PP*
+            too	        RB	    B-ADVP	         O	              -	      I-A2	      I-A1	         O	         O	*
+            far	        RB	    E-ADVP	         O	              -	      I-A2	      I-A1	         O	         O	*
+           from	        IN	      S-PP	         O	              -	      I-A2	      I-A1	         O	         O	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A2	      I-A1	         O	         O	(NP*
+     home."This	        JJ	      I-NP	         O	              -	      I-A2	      I-A1	         O	         O	*
+        morning	        NN	      E-NP	         O	              -	      I-A2	      I-A1	         O	         O	*))))))
+              I	       PRP	      S-NP	         O	              -	      I-A2	      I-A1	      S-A0	         O	(NP*)
+        thought	       VBD	      S-VP	         O	        thought	      I-A2	      I-A1	       S-V	         O	(VP*
+              I	       PRP	      S-NP	         O	              -	      I-A2	      I-A1	      B-A1	      S-A0	(SBAR(S(NP*)
+          heard	       VBD	      S-VP	         O	          heard	      I-A2	      I-A1	      I-A1	       S-V	(VP*
+            two	        CD	      B-NP	         O	              -	      I-A2	      I-A1	      I-A1	      B-A1	(NP*
+       gunshots	       NNS	      E-NP	         O	              -	      E-A2	      E-A1	      E-A1	      E-A1	*))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+              I	       PRP	      S-NP	         O	              -	      S-A0	         O	      B-A1	(S1(S(NP*)
+            did	       VBD	      B-VP	         O	              -	         O	         O	      I-A1	(VP(VP*
+            n't	        RB	      I-VP	         O	              -	  S-AM-NEG	         O	      I-A1	*
+            pay	        VB	      E-VP	         O	            pay	       S-V	         O	      I-A1	(VP*
+             no	        DT	      B-NP	         O	              -	      B-A1	         O	      I-A1	(NP*
+           mind	        NN	      E-NP	         O	              -	      E-A1	         O	      I-A1	*)
+             to	        TO	      S-PP	         O	              -	      B-A3	         O	      I-A1	(PP*
+             it	       PRP	      S-NP	         O	              -	      E-A3	         O	      I-A1	(NP*))
+          until	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	      I-A1	(SBAR*
+              I	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A0	      I-A1	(S(NP*)
+            saw	       VBD	      S-VP	         O	            saw	  I-AM-TMP	       S-V	      I-A1	(VP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A1	      I-A1	(NP*
+    helicopters	       NNS	      E-NP	         O	              -	  E-AM-TMP	      E-A1	      E-A1	*))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+              "	       WDT	      S-NP	         O	              -	         O	         O	         O	(VP(ADVP*)
+           said	       VBD	      S-VP	         O	           said	         O	         O	       S-V	*
+            Gay	       NNP	      S-NP	     S-PER	              -	         O	         O	      S-A1	(NP*)))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+           teen	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+       hospital	        NN	      E-NP	         O	              -	      E-A2	*))
+             in	        IN	      S-PP	         O	              -	  B-AM-MNR	(PP*
+          grave	        JJ	      B-NP	         O	              -	  I-AM-MNR	(NP*
+      condition	        NN	      E-NP	         O	              -	  E-AM-MNR	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+     Detectives	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+  investigating	       VBG	      E-VP	         O	  investigating	       S-V	         O	(VP*
+          where	       WRB	    S-ADVP	         O	              -	      B-A1	S-R-AM-LOC	(SBAR(WHADVP*)
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(S(NP*
+         weapon	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+            may	        MD	      B-VP	         O	              -	      I-A1	  S-AM-MOD	(VP*
+           have	        VB	      I-VP	         O	              -	      I-A1	         O	(VP*
+           come	       VBN	      E-VP	         O	           come	      I-A1	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	      E-A1	         O	(PP*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
