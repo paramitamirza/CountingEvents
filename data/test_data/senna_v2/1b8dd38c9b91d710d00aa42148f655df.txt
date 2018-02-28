@@ -1,0 +1,108 @@
+     2015-07-17	        CD	      S-NP	         O	              -	(S1(NP*))
+
+           Five	        CD	      B-NP	         O	              -	(S1(NP(NP*
+           Shot	       NNP	      E-NP	         O	              -	*)
+              ,	         ,	         O	         O	              -	*
+            One	        CD	      S-NP	         O	              -	(X(NP*)
+     Critically	        RB	    S-ADVP	         O	              -	(ADVP*)
+              ,	         ,	         O	         O	              -	*
+             in	        IN	      S-PP	         O	              -	(PP*
+           West	       NNP	      B-NP	     B-LOC	              -	(NP*
+       Garfield	       NNP	      I-NP	     I-LOC	              -	*
+           Park	       NNP	      E-NP	     E-LOC	              -	*)))))
+
+           Five	        CD	      B-NP	         O	              -	      B-A1	         O	         O	(S1(S(S(NP*
+         people	       NNS	      E-NP	         O	              -	      E-A1	         O	         O	*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	         O	         O	(VP*
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+      including	       VBG	      S-PP	         O	      including	    B-C-A1	       S-V	         O	(PP*
+            one	        CD	      S-NP	         O	              -	    I-C-A1	      B-A1	      S-A0	(NP(NP*)
+            who	        WP	      S-NP	         O	              -	    I-C-A1	      I-A1	    S-R-A0	(SBAR(WHNP*)
+       suffered	       VBD	      S-VP	         O	       suffered	    I-C-A1	      I-A1	       S-V	(S(VP*
+       critical	        JJ	      B-NP	         O	              -	    I-C-A1	      I-A1	      B-A1	(NP*
+       injuries	       NNS	      E-NP	         O	              -	    I-C-A1	      E-A1	      E-A1	*)))))))))
+              ,	         ,	         O	         O	              -	    I-C-A1	         O	         O	*
+             in	        IN	      S-PP	         O	              -	    I-C-A1	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	    I-C-A1	         O	         O	(NP*
+           West	       NNP	      I-NP	     B-LOC	              -	    I-C-A1	         O	         O	*
+       Garfield	       NNP	      I-NP	     I-LOC	              -	    I-C-A1	         O	         O	*
+           Park	       NNP	      I-NP	     E-LOC	              -	    I-C-A1	         O	         O	*
+   neighborhood	        NN	      E-NP	         O	              -	    I-C-A1	         O	         O	*))
+         Friday	       NNP	      B-NP	         O	              -	    I-C-A1	         O	         O	(NP*
+        evening	        NN	      E-NP	         O	              -	    E-C-A1	         O	         O	*)
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+       shooting	        NN	      I-NP	         O	              -	      I-A1	*
+       incident	        NN	      E-NP	         O	              -	      E-A1	*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+           just	        RB	      B-NP	         O	              -	  B-AM-TMP	(PP(ADVP*)
+          after	        IN	      I-NP	         O	              -	  I-AM-TMP	*
+              5	        CD	      I-NP	         O	              -	  I-AM-TMP	(NP*
+           p.m.	        NN	      E-NP	         O	              -	  I-AM-TMP	*))
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP(NP*
+           4400	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+          block	        NN	      E-NP	         O	              -	  I-AM-TMP	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+             W.	       NNP	      B-NP	    B-MISC	              -	  I-AM-TMP	(NP*
+        Maypole	       NNP	      E-NP	    E-MISC	              -	  E-AM-TMP	*))))
+              ,	         ,	         O	         O	              -	         O	*
+      according	       VBG	      S-PP	         O	              -	  B-AM-ADV	(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	(PP*
+        Chicago	       NNP	      B-NP	     B-ORG	              -	  I-AM-ADV	(NP*
+         Police	       NNP	      I-NP	     I-ORG	              -	  I-AM-ADV	*
+           News	       NNP	      I-NP	     I-ORG	              -	  I-AM-ADV	*
+        Affairs	      NNPS	      E-NP	     E-ORG	              -	  E-AM-ADV	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+            One	        CD	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(S(NP*
+         victim	        NN	      E-NP	         O	              -	      E-A1	      I-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	      I-A1	(VP*
+    transported	       VBN	      E-VP	         O	    transported	       S-V	      I-A1	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A4	      I-A1	(PP*
+          Mount	       NNP	      B-NP	     B-LOC	              -	      I-A4	      I-A1	(NP*
+          Sinai	       NNP	      I-NP	     I-LOC	              -	      I-A4	      I-A1	*
+       Hospital	       NNP	      E-NP	     E-LOC	              -	      E-A4	      I-A1	*))
+           with	        IN	      S-PP	         O	              -	  B-AM-ADV	      I-A1	(PP*
+           life	        NN	      S-NP	         O	              -	  I-AM-ADV	      I-A1	(NP*))
+              -	         :	         O	         O	              -	  I-AM-ADV	      I-A1	*
+    threatening	        JJ	      B-NP	         O	              -	  I-AM-ADV	      I-A1	(S(VP*
+       injuries	       NNS	      E-NP	         O	              -	  I-AM-ADV	      I-A1	(NP*)
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	      I-A1	(NP*
+           back	        NN	      E-NP	         O	              -	  E-AM-ADV	      E-A1	*)))))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+         police	       NNS	      S-NP	         O	              -	         O	      S-A0	(NP*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+         others	       NNS	      E-NP	         O	              -	      E-A0	*)
+       suffered	       VBD	      S-VP	         O	       suffered	       S-V	(VP*
+        gunshot	        NN	      B-NP	         O	              -	      B-A1	(NP*
+         wounds	       NNS	      E-NP	         O	              -	      I-A1	*)
+             to	        TO	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+           hand	        NN	      I-NP	         O	              -	      I-A1	*
+              ,	         ,	      I-NP	         O	              -	      I-A1	*
+          elbow	        NN	      I-NP	         O	              -	      I-A1	*
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+            leg	        NN	      E-NP	         O	              -	      E-A1	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+            did	       VBD	      B-VP	         O	              -	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	*
+        release	        VB	      E-VP	         O	        release	       S-V	(VP*
+        further	        JJ	      B-NP	         O	              -	      B-A1	(NP*
+    information	        NN	      E-NP	         O	              -	      I-A1	*)
+             on	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+        victims	       NNS	      E-NP	         O	              -	      I-A1	*)
+             or	        CC	         O	         O	              -	      I-A1	*
+          their	      PRP$	      B-NP	         O	              -	      I-A1	(NP*
+     conditions	       NNS	      E-NP	         O	              -	      E-A1	*)))))
+              .	         .	         O	         O	              -	         O	*))
+

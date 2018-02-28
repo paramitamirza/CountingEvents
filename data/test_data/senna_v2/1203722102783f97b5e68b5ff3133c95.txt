@@ -1,0 +1,83 @@
+     2015-07-23	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        14-year	       SYM	      S-NP	         O	              -	(S1(S(ADJP*
+              -	         :	         O	         O	              -	*
+            old	        JJ	         O	         O	              -	*)
+        injured	       VBN	      S-VP	         O	              -	(VP*
+             in	        IN	      S-PP	         O	              -	(PP*
+     accidental	        JJ	      B-NP	         O	              -	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+         Olathe	       NNP	      S-NP	     S-LOC	              -	(NP*)))))))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	      B-A1	      B-A1	      B-A1	(S1(S(S(NP*
+        14-year	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	*)
+           teen	        NN	      E-NP	         O	              -	      E-A1	      E-A1	      E-A1	      I-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	      I-A1	(VP*
+        injured	       VBN	      E-VP	         O	        injured	       S-V	         O	         O	      I-A1	(VP*
+             on	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	      I-A1	(PP*
+      Wednesday	       NNP	      B-NP	         O	              -	  I-AM-TMP	         O	         O	      I-A1	(NP*
+        evening	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	         O	      I-A1	*))
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	         O	      I-A1	(PP*
+        getting	       VBG	      B-VP	         O	        getting	  I-AM-TMP	       S-V	      B-A1	      I-A1	(S(VP*
+   accidentally	        RB	      I-VP	         O	              -	  I-AM-TMP	      S-A2	      E-A1	      I-A1	(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	  I-AM-TMP	         O	       S-V	      I-A1	(VP*
+             by	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	      B-A0	      I-A1	(PP*
+        another	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	      I-A0	      I-A1	(NP*
+           teen	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	      E-A0	      E-A1	*)))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+         Olathe	       NNP	      B-NP	     S-LOC	              -	         O	         O	         O	      B-A0	(NP*
+         Police	       NNP	      E-NP	         O	              -	         O	         O	         O	      E-A0	*)
+            say	       VBP	      S-VP	         O	            say	         O	         O	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+           home	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+            600	        CD	      I-NP	         O	              -	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+           East	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+        Welston	       NNP	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+         Avenue	       NNP	      E-NP	     E-LOC	              -	  I-AM-LOC	*))
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+         Olathe	       NNP	      S-NP	     S-LOC	              -	  E-AM-LOC	(NP*)))))))
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+          about	        RB	      B-NP	         O	              -	  I-AM-TMP	(NP*
+              5	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+         victim	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP(VP*
+            hit	       VBN	      E-VP	         O	            hit	       S-V	         O	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+   shoulder/arm	        JJ	      I-NP	         O	              -	  I-AM-LOC	         O	*
+           area	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	*))
+      according	       VBG	      S-PP	         O	              -	  B-AM-ADV	         O	(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	         O	(PP*
+         police	        NN	      S-NP	         O	              -	  E-AM-ADV	         O	(NP*)))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+            and	        CC	         O	         O	              -	         O	         O	*
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+       expected	       VBN	      I-VP	         O	       expected	         O	       S-V	(VP*
+             to	        TO	      I-VP	         O	              -	         O	    B-C-A1	(S(VP*
+             be	        VB	      E-VP	         O	              -	         O	    I-C-A1	(VP*
+            OK.	       NNP	    S-ADJP	     S-ORG	              -	         O	    E-C-A1	(NP*)))))))))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+  investigation	        NN	      E-NP	         O	              -	      I-A1	*)
+           into	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+       incident	        NN	      E-NP	         O	              -	      E-A1	*)))
+      continues	       VBZ	      S-VP	         O	      continues	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+

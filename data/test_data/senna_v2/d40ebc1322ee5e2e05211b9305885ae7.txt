@@ -1,0 +1,229 @@
+     2015-07-28	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Motlow	       NNP	      S-NP	     S-PER	              -	(S1(X(NP*)
+              ,	         ,	         O	         O	              -	*
+         George	       NNP	      B-NP	     B-PER	              -	(NP(NP*
+         Dickel	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+     Manchester	       NNP	      S-NP	     S-LOC	              -	(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+       Bonnaroo	       NNP	      S-NP	     S-LOC	              -	(NP*)
+              ,	         ,	         O	         O	              -	*
+         Coffee	       NNP	      B-NP	     B-ORG	              -	(NP*
+         County	       NNP	      E-NP	     E-ORG	              -	*))
+              ,	         ,	         O	         O	              -	*
+     Winchester	       NNP	      S-NP	     S-PER	              -	(NP(NP*)
+              ,	         ,	         O	         O	              -	*))
+      Monteagle	       NNP	      S-NP	     S-LOC	              -	(NP(NP(NP*)
+              ,	         ,	         O	         O	              -	*)
+           Tims	       NNP	      B-NP	     B-PER	              -	(NP*
+           Ford	       NNP	      E-NP	     E-PER	              -	*)
+              ,	         ,	         O	         O	              -	*
+     Beechcraft	       NNP	      S-NP	     S-ORG	              -	(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+      Lynchburg	       NNP	      S-NP	     S-LOC	              -	(NP*))
+              ,	         ,	         O	         O	              -	*
+       Exchange	       NNP	      S-NP	         O	              -	(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+       A.E.D.C.	       NNP	      S-NP	     S-ORG	              -	(NP*)))))
+
+          STAFF	        NN	      B-NP	         O	              -	(S1(NP*
+         WRITER	        NN	      E-NP	         O	              -	*))
+
+          wayne	        NN	      B-NP	         O	              -	(S1(NP*
+         thomas	         .	      E-NP	         O	              -	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	      B-A1	      B-A1	(S1(S(NP(NP*
+        12-year	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	*)
+      Tullahoma	       NNP	      I-NP	     S-LOC	              -	      I-A1	      I-A1	      I-A1	*
+            boy	        NN	      E-NP	         O	              -	      E-A1	      I-A1	      I-A1	*)
+              ,	         ,	         O	         O	              -	         O	      I-A1	      I-A1	*
+          Jakob	       NNP	      B-NP	     B-PER	              -	      B-A1	      I-A1	      I-A1	(NP*
+          Weeks	       NNP	      E-NP	     E-PER	              -	      E-A1	      I-A1	      I-A1	*)
+              ,	         ,	         O	         O	              -	         O	      I-A1	      I-A1	*
+            who	        WP	      S-NP	         O	              -	    S-R-A1	      I-A1	      I-A1	(SBAR(WHNP*)
+            was	       VBD	      B-VP	         O	              -	         O	      I-A1	      I-A1	(S(VP*
+   accidentally	        RB	      I-VP	         O	              -	  S-AM-MNR	      I-A1	      I-A1	(VP(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	       S-V	      I-A1	      I-A1	*
+           last	        JJ	      B-NP	         O	              -	  B-AM-TMP	      I-A1	      I-A1	(NP*
+         Friday	       NNP	      I-NP	         O	              -	  I-AM-TMP	      I-A1	      I-A1	*
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	      I-A1	      I-A1	*)))))
+              ,	         ,	         O	         O	              -	         O	      E-A1	      E-A1	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	         O	(VP*
+       expected	       VBN	      I-VP	         O	       expected	         O	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	         O	    B-C-A1	         O	(S(VP*
+             be	        VB	      I-VP	         O	              -	         O	    I-C-A1	         O	(VP*
+       released	       VBN	      E-VP	         O	       released	         O	    I-C-A1	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	         O	    I-C-A1	  B-AM-LOC	(PP*
+     Vanderbilt	       NNP	      B-NP	     B-ORG	              -	         O	    I-C-A1	  I-AM-LOC	(NP(NP*
+     University	       NNP	      I-NP	     I-ORG	              -	         O	    I-C-A1	  I-AM-LOC	*
+        Medical	       NNP	      I-NP	     I-ORG	              -	         O	    I-C-A1	  I-AM-LOC	*
+         Center	       NNP	      E-NP	     E-ORG	              -	         O	    I-C-A1	  I-AM-LOC	*)
+             in	        IN	      S-PP	         O	              -	         O	    I-C-A1	  I-AM-LOC	(PP*
+      Nashville	       NNP	      S-NP	     S-LOC	              -	         O	    I-C-A1	  E-AM-LOC	(NP*))))
+          later	        RB	      B-NP	         O	              -	         O	    I-C-A1	  B-AM-TMP	(NP*
+           this	        DT	      I-NP	         O	              -	         O	    I-C-A1	  I-AM-TMP	*
+           week	        NN	      E-NP	         O	              -	         O	    E-C-A1	  E-AM-TMP	*)))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+      According	       VBG	      S-PP	         O	              -	  B-AM-ADV	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-ADV	(NP(NP*
+         report	        NN	      E-NP	         O	              -	  I-AM-ADV	*)
+           from	        IN	      S-PP	         O	              -	  I-AM-ADV	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	(NP*
+      Tullahoma	       NNP	      I-NP	     B-ORG	              -	  I-AM-ADV	*
+         Police	       NNP	      I-NP	     I-ORG	              -	  I-AM-ADV	*
+     Department	       NNP	      E-NP	     E-ORG	              -	  E-AM-ADV	*)))))
+              ,	         ,	         O	         O	              -	         O	*
+          Jakob	       NNP	      S-NP	     S-PER	              -	      S-A1	(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+   accidentally	        RB	      I-VP	         O	              -	  S-AM-MNR	(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          chest	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+             by	        IN	      S-PP	         O	              -	      B-A0	(PP*
+        another	        DT	      B-NP	         O	              -	      I-A0	(NP*
+       juvenile	        NN	      E-NP	         O	              -	      E-A0	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+            “	       SYM	         O	         O	              -	(S1(NP*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+           with	        IN	      S-PP	         O	              -	  B-AM-MNR	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-MNR	(NP*
+           .243	        CD	      I-NP	         O	              -	  I-AM-MNR	*
+          rifle	        NN	      E-NP	         O	              -	  E-AM-MNR	*)))))
+              ,	         ,	         O	         O	              -	         O	*
+            ”	        NN	      S-NP	         O	              -	         O	(NP*)))
+
+      Tullahoma	       NNP	      B-NP	     S-ORG	              -	      B-A0	(S1(S(NP*
+         Police	       NNP	      I-NP	         O	              -	      I-A0	*
+          Chief	       NNP	      I-NP	         O	              -	      I-A0	*
+           Paul	       NNP	      I-NP	     B-PER	              -	      I-A0	*
+      Blackwell	       NNP	      E-NP	     E-PER	              -	      E-A0	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	(VP*
+         Monday	       NNP	      S-NP	         O	              -	  S-AM-TMP	(NP*))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP*
+       incident	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+       reported	       VBN	      I-VP	         O	       reported	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	    B-C-A1	         O	(S(VP*
+           have	        VB	      I-VP	         O	              -	    I-C-A1	         O	(VP*
+       occurred	       VBN	      E-VP	         O	       occurred	    I-C-A1	       S-V	(VP*
+         around	        IN	      S-PP	         O	              -	    I-C-A1	  B-AM-TMP	(PP*
+           5:30	        CD	      B-NP	         O	              -	    I-C-A1	  I-AM-TMP	(NP*
+           p.m.	        NN	      E-NP	         O	              -	    I-C-A1	  E-AM-TMP	*))
+         Friday	       NNP	      B-NP	         O	              -	    I-C-A1	  B-AM-TMP	(NP*
+      afternoon	        NN	      E-NP	         O	              -	    I-C-A1	  E-AM-TMP	*)
+             at	        IN	      S-PP	         O	              -	    I-C-A1	  B-AM-LOC	(PP*
+       Weeks’	       NNP	      B-NP	     S-LOC	              -	    I-C-A1	  I-AM-LOC	(NP*
+      residence	        NN	      E-NP	         O	              -	    I-C-A1	  I-AM-LOC	*))
+             on	        IN	      S-PP	         O	              -	    I-C-A1	  I-AM-LOC	(PP*
+       Avondale	       NNP	      B-NP	     S-ORG	              -	    I-C-A1	  I-AM-LOC	(NP(NP*
+          Drive	       NNP	      E-NP	         O	              -	    I-C-A1	  I-AM-LOC	*)
+             in	        IN	      S-PP	         O	              -	    I-C-A1	  I-AM-LOC	(PP*
+      Tullahoma	       NNP	      S-NP	     S-LOC	              -	    E-C-A1	  E-AM-LOC	(NP*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+      According	       VBG	      S-PP	         O	              -	         O	         O	         O	(S1(PP(PP*
+             to	        TO	      S-PP	         O	              -	         O	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	         O	(NP(NP*
+         police	        NN	      I-NP	         O	              -	         O	         O	         O	*
+         report	        NN	      E-NP	         O	              -	         O	         O	         O	*)
+             by	        IN	      S-PP	         O	              -	         O	         O	         O	(PP*
+        Officer	       NNP	      B-NP	         O	              -	         O	         O	         O	(NP*
+         Justin	       NNP	      I-NP	     B-PER	              -	         O	         O	         O	*
+          Smith	       NNP	      E-NP	     E-PER	              -	         O	         O	         O	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+      following	       VBG	      S-PP	         O	      following	       S-V	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	      B-A1	(NP(NP*
+       accident	        NN	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	*)
+          Jakob	       NNP	      E-NP	     S-PER	              -	      I-A1	      E-A1	      E-A1	(SBAR(S(NP*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+    transported	       VBN	      E-VP	         O	    transported	      I-A1	       S-V	         O	(VP(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A4	         O	(PP*
+         Harton	       NNP	      B-NP	     B-ORG	              -	      I-A1	      I-A4	         O	(NP*
+       Regional	       NNP	      I-NP	     I-ORG	              -	      I-A1	      I-A4	         O	*
+        Medical	       NNP	      I-NP	     I-ORG	              -	      I-A1	      I-A4	         O	*
+         Center	       NNP	      E-NP	     E-ORG	              -	      I-A1	      I-A4	         O	*))
+             by	        IN	      S-PP	         O	              -	      I-A1	      I-A4	         O	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	      I-A4	         O	(NP*
+        parents	       NNS	      E-NP	         O	              -	      I-A1	      E-A4	         O	*)))
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	*
+           then	        RB	      B-VP	         O	              -	      I-A1	         O	  S-AM-TMP	(VP(ADVP*)
+      airlifted	       VBN	      E-VP	         O	      airlifted	      I-A1	         O	       S-V	*
+             to	        TO	      S-PP	         O	              -	      I-A1	         O	      B-A4	(PP*
+     Vanderbilt	       NNP	      S-NP	     S-PER	              -	      E-A1	         O	      E-A4	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+      According	       VBG	      S-PP	         O	              -	  B-AM-ADV	         O	         O	         O	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	         O	         O	         O	(NP*
+         police	        NN	      I-NP	         O	              -	  I-AM-ADV	         O	         O	         O	*
+          chief	        NN	      E-NP	         O	              -	  E-AM-ADV	         O	         O	         O	*
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+       hospital	        NN	      B-NP	         O	              -	      B-A0	         O	         O	         O	*
+      officials	       NNS	      E-NP	         O	              -	      E-A0	         O	         O	         O	*)))
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	      B-A1	(SBAR(S(NP*
+            boy	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	      E-A1	*)
+             is	       VBZ	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP(VP*
+     recovering	       VBG	      E-VP	         O	     recovering	      I-A1	       S-V	         O	         O	(VP*))
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	         O	*
+             is	       VBZ	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+       expected	       VBN	      I-VP	         O	       expected	      I-A1	         O	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	         O	    B-C-A1	         O	(S(VP*
+             be	        VB	      I-VP	         O	              -	      I-A1	         O	    I-C-A1	         O	(VP*
+       released	       VBN	      E-VP	         O	       released	      I-A1	         O	    I-C-A1	       S-V	(VP*
+          later	        RB	      B-NP	         O	              -	      I-A1	         O	    I-C-A1	  B-AM-TMP	(NP*
+           this	        DT	      I-NP	         O	              -	      I-A1	         O	    I-C-A1	  I-AM-TMP	*
+           week	        NN	      E-NP	         O	              -	      E-A1	         O	    E-C-A1	  E-AM-TMP	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+        Because	        IN	    S-SBAR	         O	              -	         O	         O	(S1(S(SBAR*
+             it	       PRP	      S-NP	         O	              -	         O	         O	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+          ruled	       VBD	      E-VP	         O	          ruled	       S-V	         O	(VP*
+             an	        DT	      B-NP	         O	              -	      B-A1	         O	(NP*
+     accidental	        JJ	      I-NP	         O	              -	      I-A1	         O	*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	         O	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+          there	        EX	      S-NP	         O	              -	         O	         O	(NP*)
+           will	        MD	      B-VP	         O	              -	         O	         O	(VP*
+             be	        VB	      E-VP	         O	              -	         O	         O	(VP*
+             no	        DT	      B-NP	         O	              -	         O	      B-A1	(NP(NP*
+        charges	       NNS	      E-NP	         O	              -	         O	      E-A1	*)
+          filed	       VBN	      S-VP	         O	          filed	         O	       S-V	(VP*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	         O	(PP*
+         police	        NN	      S-NP	         O	              -	         O	         O	(NP*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+      Detective	       NNP	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+         Johnny	       NNP	      I-NP	     B-PER	              -	      I-A0	*
+           Gore	       NNP	      E-NP	     E-PER	              -	      E-A0	*)
+   investigated	       VBD	      S-VP	         O	   investigated	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(NP*
+       incident	        NN	      E-NP	         O	              -	      E-A1	*))
+              .	         .	         O	         O	              -	         O	*))
+
+          Wayne	       NNP	      B-NP	     B-PER	              -	      B-A1	(S1(S(NP*
+         Thomas	       NNP	      E-NP	     E-PER	              -	      E-A1	*)
+            can	        MD	      B-VP	         O	              -	  S-AM-MOD	(VP*
+             be	        VB	      I-VP	         O	              -	         O	(VP*
+        reached	       VBN	      E-VP	         O	        reached	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	  B-AM-MNR	(PP*
+          email	        NN	      S-NP	         O	              -	  I-AM-MNR	(NP*))
+             at	        IN	      S-PP	         O	              -	  I-AM-MNR	(PP*
+tnrept04@lcs.net	        NN	      S-NP	         O	              -	  E-AM-MNR	(NP*)))))
+              .	         .	         O	         O	              -	         O	*))
+

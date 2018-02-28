@@ -1,0 +1,197 @@
+     2016-03-11	        CD	      S-NP	         O	              -	(S1(NP*))
+
+       COMPLETE	        JJ	      B-NP	         O	              -	(S1(NP*
+       COVERAGE	        NN	      E-NP	         O	              -	*
+              :	         :	         O	         O	              -	*))
+
+              5	        CD	      B-NP	         O	              -	      B-A1	(S1(NP(NP*
+       Suspects	       NNS	      E-NP	         O	              -	      E-A1	*)
+        Charged	       VBN	      S-VP	         O	        Charged	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+         Deadly	        JJ	      B-NP	         O	              -	  I-AM-LOC	(NP*
+         Summit	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	*
+         Street	       NNP	      E-NP	     I-LOC	              -	  I-AM-LOC	*))
+             Sh	       NNP	      S-NP	     E-LOC	              -	  I-AM-LOC	(NP(NP(NP*)
+              -	         :	         O	         O	              -	  I-AM-LOC	*
+           Erie	       NNP	      B-NP	     B-ORG	              -	  I-AM-LOC	(NP*
+           News	       NNP	      E-NP	     E-ORG	              -	  I-AM-LOC	*))
+            Now	       NNP	      S-NP	         O	              -	  I-AM-LOC	*))
+              :	         :	         O	         O	              -	  I-AM-LOC	*
+           News	        NN	      B-NP	     B-ORG	              -	  I-AM-LOC	(NP(NP*)
+              ,	         ,	      I-NP	     I-ORG	              -	  I-AM-LOC	*
+        Weather	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	(NP*
+              &	        CC	      I-NP	     I-ORG	              -	  I-AM-LOC	*
+         Sports	      NNPS	      I-NP	     E-ORG	              -	  I-AM-LOC	*
+              |	       POS	      I-NP	         O	              -	  I-AM-LOC	*
+           WICU	       NNP	      I-NP	     S-ORG	              -	  I-AM-LOC	*
+             12	        CD	      I-NP	         O	              -	  I-AM-LOC	*
+              &	        CC	      I-NP	         O	              -	  I-AM-LOC	*
+           WSEE	       NNP	      E-NP	     S-LOC	              -	  E-AM-LOC	*))))
+
+           Erie	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	(S1(S(NP*
+         Police	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	*)
+       arrested	       VBD	      S-VP	         O	       arrested	       S-V	         O	(VP*
+           four	        CD	      B-NP	         O	              -	      B-A1	         O	(NP(NP*
+       suspects	       NNS	      E-NP	         O	              -	      I-A1	         O	*)
+         Friday	       NNP	      B-NP	         O	              -	      I-A1	         O	(NP*
+        morning	        NN	      E-NP	         O	              -	      I-A1	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+            who	        WP	      S-NP	         O	              -	      I-A1	         O	(SBAR(WHNP*)
+            are	       VBP	      S-VP	         O	              -	      I-A1	         O	(S(VP*
+          among	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+           five	        CD	      S-NP	         O	              -	      I-A1	      S-A1	(NP(NP*)
+            now	        RB	      B-VP	         O	              -	      I-A1	  S-AM-TMP	(VP(ADVP*)
+        charged	       VBN	      E-VP	         O	        charged	      I-A1	       S-V	*
+             in	        IN	      S-PP	         O	              -	      I-A1	      B-A2	(PP*
+     connection	        NN	      S-NP	         O	              -	      I-A1	      I-A2	(NP(NP*)
+             to	        TO	      S-PP	         O	              -	      I-A1	      I-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A2	(NP*
+         deadly	        JJ	      I-NP	         O	              -	      I-A1	      I-A2	*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      I-A2	*))))
+         during	        IN	      S-PP	         O	              -	      I-A1	      I-A2	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A2	(NP*
+          house	        NN	      I-NP	         O	              -	      I-A1	      I-A2	*
+          party	        NN	      E-NP	         O	              -	      I-A1	      I-A2	*))
+             at	        IN	      S-PP	         O	              -	      I-A1	      I-A2	(PP*
+           29th	        JJ	      B-NP	         O	              -	      I-A1	      I-A2	(NP(ADJP*
+            and	        CC	      I-NP	         O	              -	      I-A1	      I-A2	*
+         Summit	       NNP	      I-NP	     B-LOC	              -	      I-A1	      I-A2	*)
+         Street	       NNP	      E-NP	     E-LOC	              -	      E-A1	      E-A2	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Elijah	       NNP	      B-NP	     B-PER	              -	      B-A1	(S1(S(NP(NP*
+        Jackson	       NNP	      E-NP	     E-PER	              -	      I-A1	*)
+            and	        CC	         O	         O	              -	      I-A1	*
+         Shakur	       NNP	      B-NP	     B-PER	              -	      I-A1	(NP(NP*
+       Franklin	       NNP	      E-NP	     E-PER	              -	      E-A1	*)
+              ,	         ,	         O	         O	              -	         O	*
+           both	        DT	      B-NP	         O	              -	      B-A1	*
+             16	        CD	      E-NP	         O	              -	      I-A1	(NP*)
+              ,	         ,	         O	         O	              -	      E-A1	*))
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+         killed	       VBN	      E-VP	         O	         killed	       S-V	(VP*
+         during	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+       shootout	        NN	      I-NP	         O	              -	  I-AM-TMP	*))
+           July	       NNP	      I-NP	         O	              -	  I-AM-TMP	(NP(NP*
+           24th	        JJ	      I-NP	         O	              -	  I-AM-TMP	*)
+              ,	         ,	      I-NP	         O	              -	  I-AM-TMP	*
+           2015	        CD	      E-NP	         O	              -	  E-AM-TMP	(NP*))))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+        gunfire	        NN	      E-NP	         O	              -	      E-A0	*)
+        injured	       VBD	      S-VP	         O	        injured	       S-V	(VP*
+        another	        DT	      B-NP	         O	              -	      B-A1	(NP*
+           four	        CD	      I-NP	         O	              -	      I-A1	*
+      teenagers	       NNS	      E-NP	         O	              -	      E-A1	*))
+              .	         .	         O	         O	              -	         O	*))
+
+  Investigators	       NNS	      S-NP	         O	              -	      S-A0	      S-A0	         O	(S1(S(NP*)
+          spent	       VBD	      S-VP	         O	          spent	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP*
+           past	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+        several	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	*
+         months	       NNS	      E-NP	         O	              -	      I-A1	         O	         O	*)
+   interviewing	       VBG	      S-VP	         O	              -	      I-A1	         O	         O	(S(VP*
+      witnesses	       NNS	      S-NP	         O	              -	      E-A1	      S-A0	         O	(NP*)))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+      reviewing	       VBG	      S-VP	         O	      reviewing	  B-AM-ADV	       S-V	         O	(S(VP*
+       evidence	        NN	      S-NP	         O	              -	  I-AM-ADV	      B-A1	         O	(NP*
+            and	        CC	         O	         O	              -	  I-AM-ADV	      I-A1	         O	*
+       tracking	        NN	      B-NP	         O	              -	  I-AM-ADV	      I-A1	         O	*
+          leads	       NNS	      E-NP	         O	              -	  I-AM-ADV	      E-A1	         O	*)))
+              ,	         ,	         O	         O	              -	  I-AM-ADV	         O	         O	*
+            all	        DT	      S-NP	         O	              -	  I-AM-ADV	  B-AM-ADV	    B-R-A0	(SBAR(WHNP(NP*)
+             of	        IN	      S-PP	         O	              -	  I-AM-ADV	  I-AM-ADV	    I-R-A0	(WHPP*
+          which	       WDT	      S-NP	         O	              -	  I-AM-ADV	  I-AM-ADV	    E-R-A0	(WHNP*)))
+            led	       VBD	      S-VP	         O	            led	  I-AM-ADV	  I-AM-ADV	       S-V	(S(VP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	  I-AM-ADV	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	  I-AM-ADV	      I-A2	(NP*
+        charges	       NNS	      E-NP	         O	              -	  E-AM-ADV	  E-AM-ADV	      E-A2	*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+        arrests	       NNS	      E-NP	         O	              -	      E-A1	*)
+        follows	       VBZ	      S-VP	         O	        follows	       S-V	(VP*
+         months	       NNS	      S-NP	         O	              -	      B-A2	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A2	(PP*
+          pleas	       NNS	      S-NP	         O	              -	      I-A2	(NP(NP*)
+            for	        IN	      S-PP	         O	              -	      I-A2	(PP*
+        justice	        NN	      S-NP	         O	              -	      I-A2	(NP*))
+           from	        IN	      S-PP	         O	              -	      I-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP(NP*
+         family	        NN	      E-NP	         O	              -	      I-A2	*)
+            and	        CC	         O	         O	              -	      I-A2	*
+        friends	       NNS	      S-NP	         O	              -	      I-A2	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+        victims	       NNS	      E-NP	         O	              -	      E-A2	*)))))))))
+              .	         .	         O	         O	              -	         O	*))
+
+       Complete	        JJ	      B-NP	         O	              -	(S1(NP*
+       Coverage	        NN	      E-NP	         O	              -	*))
+
+         Police	       NNP	      B-NP	         O	              -	(S1(NP(NP*
+         Detail	       NNP	      I-NP	         O	              -	*
+       Evidence	       NNP	      E-NP	         O	              -	*)
+              ,	         ,	         O	         O	              -	*
+        Charges	       NNS	      S-NP	         O	              -	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	(PP*
+         Double	        JJ	      B-NP	         O	              -	(NP*
+         Murder	        NN	      E-NP	         O	              -	*)))))
+
+        Victims	       NNS	      S-NP	         O	              -	      B-A0	(S1(S(NP(NP*
+              '	       POS	      B-NP	         O	              -	      I-A0	*)
+       Families	       NNS	      E-NP	         O	              -	      E-A0	*)
+          React	       VBP	      S-VP	         O	          React	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A1	(PP*
+        Arrests	       NNS	      S-NP	         O	              -	      E-A1	(NP*))
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+         Murder	       NNP	      S-NP	         O	              -	  I-AM-LOC	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+            Two	        CD	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          Teens	       NNS	      E-NP	         O	              -	  E-AM-LOC	*)))))))
+
+           News	       NNP	      B-NP	         O	              -	(S1(NP*
+     Conference	       NNP	      I-NP	         O	              -	*
+     Addressing	       NNP	      E-NP	         O	              -	*))
+
+         Deadly	        JJ	      B-NP	         O	              -	(S1(NP(NP*
+         Summit	        NN	      I-NP	     B-LOC	              -	*)
+         Street	        NN	      I-NP	     E-LOC	              -	(NP*
+       Shooting	        NN	      I-NP	         O	              -	*
+        Charges	       NNS	      E-NP	         O	              -	*)))
+
+           Team	       NNP	      B-NP	         O	              -	(S1(NP(NP*
+       Coverage	       NNP	      E-NP	         O	              -	*)
+           from	        IN	      S-PP	         O	              -	(PP*
+         Friday	       NNP	      S-NP	         O	              -	(NP(NP*
+             's	       POS	      B-NP	         O	              -	*)
+           Erie	       NNP	      I-NP	     B-ORG	              -	*
+           News	       NNP	      E-NP	     E-ORG	              -	*))
+            Now	        RB	    S-ADVP	         O	              -	(ADVP*
+             at	        IN	      S-PP	         O	              -	(PP*
+              5	        CD	      S-NP	         O	              -	(NP*)))))
+
+       Families	       NNS	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP*)
+          Rally	       NNP	      E-NP	         O	              -	      E-A0	         O	*
+             to	        TO	      B-VP	         O	              -	         O	         O	*
+            Say	        VB	      E-VP	         O	            Say	       S-V	         O	*
+              '	        ''	         O	         O	              -	      B-A1	         O	*
+          Thank	        VB	      S-VP	         O	          Thank	      I-A1	       S-V	*
+            You	       PRP	      S-NP	         O	              -	      I-A1	      S-A1	(NP*)
+              '	        ''	         O	         O	              -	      I-A1	      B-A2	*
+             to	        TO	      S-PP	         O	              -	      I-A1	      I-A2	(PP*
+           Erie	       NNP	      B-NP	     B-ORG	              -	      I-A1	      I-A2	(NP*
+         Police	       NNP	      E-NP	     E-ORG	              -	      E-A1	      E-A2	*))))
+
+         Jahaun	       NNP	      B-NP	     B-PER	              -	      B-A0	(S1(S(NP*
+          Jones	       NNP	      E-NP	     E-PER	              -	      E-A0	*)
+          Turns	       VBZ	      S-VP	         O	          Turns	         O	(VP*)))
+
+        Himself	       PRP	      S-NP	         O	              -	(S1(NP(NP*)
+             in	        IN	      S-PP	         O	              -	(PP*
+             to	        TO	      S-PP	         O	              -	(PP*
+         Police	       NNP	      S-NP	         O	              -	(NP*)))))
+

@@ -1,0 +1,442 @@
+     2015-10-05	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         Exeter	       NNP	      B-NP	     S-LOC	              -	(S1(NP(NP*
+           teen	        NN	      I-NP	         O	              -	*
+           dead	        NN	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+        hunting	        NN	      B-NP	         O	              -	(NP*
+       accident	        NN	      E-NP	         O	              -	*))))
+
+             An	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         Exeter	       NNP	      I-NP	     S-ORG	              -	      I-A1	*
+           teen	        NN	      E-NP	         O	              -	      E-A1	*)
+           died	       VBD	      S-VP	         O	           died	       S-V	(VP*
+         Sunday	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP*
+        morning	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+         during	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP(NP*
+        hunting	        NN	      I-NP	         O	              -	  I-AM-TMP	*
+     expedition	        NN	      E-NP	         O	              -	  I-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	(PP*
+        Sequoia	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	(NP*
+       National	       NNP	      I-NP	     I-LOC	              -	  I-AM-TMP	*
+         Forest	       NNP	      E-NP	     E-LOC	              -	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+              (	     -LRB-	         O	         O	              -	(S1(PRN*
+          Photo	        NN	      S-NP	         O	              -	(NP(NP*)
+              :	         :	         O	         O	              -	*
+          Steve	       NNP	      B-NP	     B-PER	              -	(S(VP*
+             R.	       NNP	      I-NP	     I-PER	              -	(NP*
+       Fujimoto	       NNP	      E-NP	     E-PER	              -	*))))
+              )	     -RRB-	         O	         O	              -	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	(S1(S(NP(NP*
+          small	        JJ	      I-NP	         O	              -	      I-A0	         O	*
+      community	        NN	      E-NP	         O	              -	      I-A0	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	         O	(PP*
+         Exeter	       NNP	      S-NP	     S-LOC	              -	      E-A0	         O	(NP*)))
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+       grieving	       VBG	      E-VP	         O	       grieving	       S-V	         O	(VP*
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*
+          death	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A1	(NP(NP*
+       teenager	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	*)
+            who	        WP	      S-NP	         O	              -	  I-AM-TMP	    S-R-A1	(SBAR(WHNP*)
+            was	       VBD	      B-VP	         O	              -	  I-AM-TMP	         O	(S(VP*
+           shot	       VBN	      E-VP	         O	           shot	  I-AM-TMP	       S-V	(VP*
+         during	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-TMP	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+        hunting	        NN	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+     expedition	        NN	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+         Sunday	       NNP	      I-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	*
+        morning	        NN	      E-NP	         O	              -	  E-AM-TMP	  E-AM-TMP	*))))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           Luke	       NNP	      B-NP	     B-PER	              -	      B-A0	         O	(S1(S(NP(NP*
+          Burns	       NNP	      E-NP	     E-PER	              -	      I-A0	         O	*)
+              ,	         ,	         O	         O	              -	      I-A0	         O	*
+             16	        CD	      S-NP	         O	              -	      I-A0	         O	(NP*)
+              ,	         ,	         O	         O	              -	      I-A0	         O	*
+             an	        DT	      B-NP	         O	              -	      I-A0	         O	(NP*
+         Exeter	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	*
+          Union	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	*
+           High	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	*
+         School	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	*
+        student	        NN	      E-NP	         O	              -	      I-A0	         O	*)
+              ,	         ,	         O	         O	              -	      E-A0	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+        hunting	       VBG	      E-VP	         O	        hunting	       S-V	         O	(VP*
+           with	        IN	      S-PP	         O	              -	      B-A1	         O	(PP*
+         family	        NN	      B-NP	         O	              -	      I-A1	         O	(NP*
+            and	        CC	      I-NP	         O	              -	      I-A1	         O	*
+        friends	       NNS	      E-NP	         O	              -	      E-A1	         O	*))
+           just	        RB	    S-ADVP	         O	              -	  B-AM-TMP	         O	(PP*
+         before	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	*
+              8	        CD	      B-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*
+           a.m.	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+           near	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+          Horse	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	         O	(NP*
+         Meadow	       NNP	      E-NP	     E-LOC	              -	  I-AM-TMP	         O	*))))
+           when	       WRB	    S-ADVP	         O	              -	  I-AM-TMP	         O	(SBAR(WHADVP*)
+             he	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A0	(S(NP*)
+       wandered	       VBD	      S-VP	         O	       wandered	  I-AM-TMP	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+          front	        NN	      S-NP	         O	              -	  I-AM-TMP	  I-AM-LOC	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-LOC	(PP*
+        hunters	       NNS	      S-NP	         O	              -	  E-AM-TMP	  E-AM-LOC	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	         O	         O	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+         hidden	       VBN	      E-VP	         O	         hidden	       S-V	         O	         O	(VP(VP*
+         behind	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	         O	(PP*
+           some	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	         O	(NP*
+          brush	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	         O	*))
+           when	       WRB	    S-ADVP	         O	              -	  B-AM-TMP	S-R-AM-TMP	         O	(SBAR(WHADVP*)
+        another	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A1	      B-A0	(S(NP*
+         hunter	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	      E-A0	*)
+          fired	       VBD	      S-VP	         O	          fired	  I-AM-TMP	       S-V	         O	(VP*))))
+            and	        CC	         O	         O	              -	  I-AM-TMP	         O	         O	*
+         struck	       VBD	      S-VP	         O	         struck	  I-AM-TMP	         O	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	      B-A1	(NP*
+            boy	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	      E-A1	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	  I-AM-LOC	(NP*
+          torso	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	  E-AM-LOC	*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+         Family	       NNP	      B-NP	         O	              -	      B-A0	      B-A0	      B-A0	         O	(S1(S(NP*
+            and	        CC	      I-NP	         O	              -	      I-A0	      I-A0	      I-A0	         O	*
+        friends	       NNS	      E-NP	         O	              -	      E-A0	      E-A0	      E-A0	         O	*)
+          tried	       VBD	      B-VP	         O	          tried	       S-V	         O	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	         O	         O	(S(VP*
+           give	        VB	      E-VP	         O	           give	      I-A1	       S-V	         O	         O	(VP*
+            CPR	       NNP	      S-NP	     S-ORG	              -	      I-A1	      B-A1	         O	         O	(NP(NP(NP*)
+            and	        CC	         O	         O	              -	      I-A1	      I-A1	         O	         O	*
+          first	        JJ	      B-NP	         O	              -	      I-A1	      I-A1	         O	         O	(NP*
+            aid	        NN	      E-NP	         O	              -	      E-A1	      E-A1	         O	         O	*))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+          later	        RB	      B-VP	         O	              -	         O	         O	  S-AM-TMP	         O	(ADVP*)
+        rushing	       VBG	      E-VP	         O	        rushing	         O	         O	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	         O	         O	      B-A1	         O	(NP*
+            boy	        NN	      E-NP	         O	              -	         O	         O	      E-A1	         O	*)
+             to	        TO	      S-PP	         O	              -	         O	      B-A1	      B-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A1	      I-A2	         O	(NP(NP*
+     California	       NNP	      I-NP	     B-LOC	              -	         O	      I-A1	      I-A2	         O	*
+            Hot	       NNP	      I-NP	     I-LOC	              -	         O	      I-A1	      I-A2	         O	*
+        Springs	       NNP	      I-NP	     I-LOC	              -	         O	      I-A1	      I-A2	         O	*
+         Ranger	       NNP	      I-NP	     E-LOC	              -	         O	      I-A1	      I-A2	         O	*
+        station	        NN	      E-NP	         O	              -	         O	      I-A1	      I-A2	         O	*)
+              ,	         ,	         O	         O	              -	         O	      I-A1	      I-A2	         O	*
+          where	       WRB	    S-ADVP	         O	              -	         O	      I-A1	      I-A2	S-R-AM-LOC	(SBAR(WHADVP*)
+             he	       PRP	      S-NP	         O	              -	         O	      I-A1	      I-A2	      S-A1	(S(NP*)
+           died	       VBD	      S-VP	         O	           died	         O	      E-A1	      E-A2	       S-V	(VP*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+           Luke	       NNP	      S-NP	     S-PER	              -	(S1(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	(VP*
+              a	        DT	      B-NP	         O	              -	(NP*
+           twin	        NN	      E-NP	         O	              -	*))
+              .	         .	         O	         O	              -	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+             is	       VBZ	      B-VP	         O	              -	         O	(VP*
+       survived	       VBN	      E-VP	         O	       survived	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	      B-A0	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A0	(NP*
+        brother	        NN	      I-NP	         O	              -	      I-A0	*
+           Levi	       NNP	      E-NP	     S-PER	              -	      E-A0	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+     Detectives	       NNS	      S-NP	         O	              -	      B-A1	      B-A0	         O	(S1(S(NP(NP*)
+           from	        IN	      S-PP	         O	              -	      I-A1	      I-A0	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A0	         O	(NP*
+        Sheriff	       NNP	      I-NP	         O	              -	      I-A1	      I-A0	         O	*
+           ’s	        JJ	      I-NP	         O	              -	      I-A1	      I-A0	         O	*
+    Departments	       NNS	      I-NP	    B-MISC	              -	      I-A1	      I-A0	         O	*
+        Violent	        JJ	      I-NP	    I-MISC	              -	      I-A1	      I-A0	         O	*
+         Crimes	      NNPS	      I-NP	    I-MISC	              -	      I-A1	      I-A0	         O	*
+           Unit	       NNP	      E-NP	    E-MISC	              -	      E-A1	      E-A0	         O	*)))
+           were	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+         called	       VBN	      E-VP	         O	         called	       S-V	         O	         O	(VP*
+             to	        TO	      B-VP	         O	              -	      B-A2	         O	         O	(S(VP*
+    investigate	        VB	      E-VP	         O	    investigate	      I-A2	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      B-A1	      B-A1	(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A2	      I-A1	      E-A1	*))))
+              ,	         ,	         O	         O	              -	      I-A2	      I-A1	         O	*
+          which	       WDT	      S-NP	         O	              -	      I-A2	      I-A1	    S-R-A1	(SBAR(WHNP*)
+           they	       PRP	      S-NP	         O	              -	      I-A2	      I-A1	      S-A0	(S(NP*)
+         called	       VBD	      S-VP	         O	         called	      I-A2	      I-A1	       S-V	(VP*
+             an	        DT	      B-NP	         O	              -	      I-A2	      I-A1	      B-A1	(NP*
+       accident	        NN	      E-NP	         O	              -	      E-A2	      E-A1	      E-A1	*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	      B-A0	(S1(S(NP*
+        Sheriff	       NNP	      I-NP	     B-ORG	              -	      I-A0	      I-A0	*
+           ’s	       NNP	      I-NP	     I-ORG	              -	      I-A0	      I-A0	*
+     Department	       NNP	      E-NP	     E-ORG	              -	      E-A0	      E-A0	*)
+             is	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+          using	       VBG	      E-VP	         O	          using	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	(NP*
+       incident	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+             to	        TO	      B-VP	         O	              -	      B-A2	         O	(S(VP*
+          bring	        VB	      E-VP	         O	          bring	      I-A2	       S-V	(VP*
+          words	       NNS	      S-NP	         O	              -	      I-A2	      B-A1	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A2	      I-A1	(PP*
+        caution	        NN	      S-NP	         O	              -	      I-A2	      I-A1	(NP*)))
+             to	        TO	      S-PP	         O	              -	      I-A2	      I-A1	(PP*
+        hunters	       NNS	      S-NP	         O	              -	      E-A2	      E-A1	(NP*)))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            “	       SYM	         O	         O	              -	(S1(NP*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	      B-A0	      B-A0	         O	(S1(S(S(NP*
+        Sheriff	       NNP	      I-NP	         O	              -	      I-A0	      I-A0	      I-A0	         O	*
+           ’s	        JJ	      I-NP	         O	              -	      I-A0	      I-A0	      I-A0	         O	*
+     Department	       NNP	      E-NP	         O	              -	      E-A0	      E-A0	      E-A0	         O	*)
+          would	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	         O	         O	(VP*
+           like	        VB	      I-VP	         O	           like	       S-V	         O	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	         O	         O	(S(VP*
+           take	        VB	      E-VP	         O	           take	      I-A1	       S-V	         O	         O	(VP*
+           this	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	(NP*
+           time	        NN	      E-NP	         O	              -	      I-A1	      I-A1	         O	         O	*)
+             to	        TO	      B-VP	         O	              -	      I-A1	      I-A1	         O	         O	(S(VP*
+         remind	        VB	      E-VP	         O	         remind	      I-A1	      I-A1	       S-V	         O	(VP*
+        hunters	       NNS	      S-NP	         O	              -	      I-A1	      I-A1	      S-A1	      S-A0	(NP*)
+         during	        IN	      S-PP	         O	              -	      I-A1	      I-A1	  B-AM-TMP	         O	(PP*
+           this	        DT	      B-NP	         O	              -	      I-A1	      I-A1	  I-AM-TMP	         O	(NP*
+        hunting	        NN	      I-NP	         O	              -	      I-A1	      I-A1	  I-AM-TMP	         O	*
+         season	        NN	      E-NP	         O	              -	      I-A1	      I-A1	  E-AM-TMP	         O	*))
+             to	        TO	      B-VP	         O	              -	      I-A1	      I-A1	  B-AM-PNC	         O	(S(VP*
+       practice	        VB	      E-VP	         O	       practice	      I-A1	      I-A1	  I-AM-PNC	       S-V	(VP*
+           good	        JJ	      B-NP	         O	              -	      I-A1	      I-A1	  I-AM-PNC	      B-A1	(NP*
+        firearm	        NN	      I-NP	         O	              -	      I-A1	      I-A1	  I-AM-PNC	      I-A1	*
+         safety	        NN	      I-NP	         O	              -	      I-A1	      I-A1	  I-AM-PNC	      I-A1	*
+       measures	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	  E-AM-PNC	      E-A1	*)))))))))))))
+              ,	         ,	         O	         O	              -	      I-A1	      I-A1	         O	         O	*
+            ”	        NN	      S-NP	         O	              -	      I-A1	      I-A1	         O	         O	(NP*)
+      according	       VBG	      S-PP	         O	              -	      I-A1	      I-A1	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      I-A1	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A1	         O	         O	(NP*
+      statement	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	*)))
+              .	         .	         O	         O	              -	      I-A1	         O	         O	         O	*
+            “	         .	         O	         O	              -	      E-A1	         O	         O	         O	*))
+
+           Know	        VB	      S-VP	         O	           Know	       S-V	         O	         O	(S1(S(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	(NP(NP(NP*
+      direction	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+            you	       PRP	      S-NP	         O	              -	      I-A1	      S-A0	         O	(SBAR(S(NP*)
+            are	       VBP	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+       shooting	       VBG	      E-VP	         O	       shooting	      E-A1	       S-V	         O	(VP*)))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+           what	        WP	      S-NP	         O	              -	      B-A1	         O	    S-R-A1	(SBAR(WHNP*)
+            you	       PRP	      S-NP	         O	              -	      I-A1	         O	      S-A0	(S(NP*)
+            are	       VBP	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+       shooting	       VBG	      E-VP	         O	       shooting	      I-A1	         O	       S-V	(VP(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*))
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	*
+           what	        WP	      S-NP	         O	              -	      I-A1	         O	         O	(SBAR(WHNP*)
+           your	      PRP$	      B-NP	         O	              -	      I-A1	         O	         O	(S(NP*
+       shooting	        NN	      I-NP	         O	              -	      I-A1	         O	         O	*
+       backstop	        NN	      E-NP	         O	              -	      I-A1	         O	         O	*)
+             is	       VBZ	      S-VP	         O	              -	      E-A1	         O	         O	(VP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            ”	       SYM	         O	         O	              -	(S1(NP*))
+
+         Exeter	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	         O	         O	(S1(S(NP*
+          Union	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	         O	         O	*
+      Principal	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	*
+         Robert	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	         O	         O	*
+           Mayo	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	         O	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	         O	(VP*
+             he	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	      S-A0	      S-A0	(SBAR(S(NP*)
+         called	       VBD	      S-VP	         O	         called	      I-A1	       S-V	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      B-A1	      B-A0	         O	(NP*
+        special	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A0	         O	*
+       assembly	        NN	      E-NP	         O	              -	      I-A1	      E-A1	      E-A0	         O	*)
+           this	        DT	      B-NP	         O	              -	      I-A1	  B-AM-TMP	         O	         O	(NP*
+        morning	        NN	      E-NP	         O	              -	      I-A1	  E-AM-TMP	         O	         O	*)
+             to	        TO	      B-VP	         O	              -	      I-A1	  B-AM-PNC	         O	         O	(S(VP*
+         notify	        VB	      E-VP	         O	         notify	      I-A1	  I-AM-PNC	       S-V	         O	(VP(VP*
+       students	       NNS	      S-NP	         O	              -	      I-A1	  I-AM-PNC	      S-A1	         O	(NP*))
+            and	        CC	         O	         O	              -	      I-A1	  I-AM-PNC	         O	         O	*
+          offer	        VB	      S-VP	         O	          offer	      I-A1	  I-AM-PNC	         O	       S-V	(VP*
+     counseling	        NN	      S-NP	         O	              -	      E-A1	  E-AM-PNC	         O	      S-A1	(NP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+             At	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	         O	         O	(S1(S(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	         O	         O	(NP(NP*
+            end	        NN	      E-NP	         O	              -	  I-AM-LOC	         O	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	         O	         O	(NP*
+       assembly	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	         O	         O	*))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+           Mayo	       NNP	      S-NP	     S-PER	              -	      S-A0	         O	      S-A0	         O	(NP*)
+           gave	       VBD	      S-VP	         O	           gave	       S-V	         O	         O	         O	(VP*
+       students	       NNS	      S-NP	         O	              -	      S-A2	      S-A0	      S-A0	         O	(NP*)
+             an	        DT	      B-NP	         O	              -	      B-A1	         O	         O	         O	(NP*
+          extra	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	         O	*
+             40	        CD	      I-NP	         O	              -	      I-A1	         O	         O	         O	*
+        minutes	       NNS	      E-NP	         O	              -	      E-A1	         O	         O	         O	*)
+             to	        TO	      B-VP	         O	              -	  B-AM-ADV	         O	         O	         O	(S(VP*
+           talk	        VB	      E-VP	         O	           talk	  I-AM-ADV	       S-V	         O	         O	(VP(VP*
+        amongst	        IN	      S-PP	         O	              -	  I-AM-ADV	      B-A1	         O	         O	(PP*
+           each	        DT	      B-NP	         O	              -	  I-AM-ADV	      I-A1	         O	         O	(NP*
+          other	        JJ	      E-NP	         O	              -	  I-AM-ADV	      E-A1	         O	         O	*)))
+            and	        CC	         O	         O	              -	  I-AM-ADV	         O	         O	         O	*
+          mourn	        VB	      S-VP	         O	          mourn	  I-AM-ADV	         O	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	         O	      B-A1	         O	(NP(NP*
+           loss	        NN	      E-NP	         O	              -	  I-AM-ADV	         O	      I-A1	         O	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-ADV	         O	      I-A1	         O	(PP*
+          their	      PRP$	      B-NP	         O	              -	  I-AM-ADV	         O	      I-A1	         O	(NP(NP*
+      classmate	        NN	      E-NP	         O	              -	  I-AM-ADV	         O	      I-A1	         O	*)
+              ,	         ,	         O	         O	              -	  I-AM-ADV	         O	      I-A1	         O	*
+          whose	       WP$	      B-NP	         O	              -	  I-AM-ADV	         O	      I-A1	    B-R-A0	(SBAR(WHNP*
+           twin	        NN	      E-NP	         O	              -	  I-AM-ADV	         O	      I-A1	    E-R-A0	*)
+           also	        RB	    S-ADVP	         O	              -	  I-AM-ADV	         O	      I-A1	  S-AM-DIS	(S(ADVP*)
+        attends	       VBZ	      S-VP	         O	        attends	  I-AM-ADV	         O	      I-A1	       S-V	(VP*
+         Exeter	       NNP	      B-NP	     B-ORG	              -	  I-AM-ADV	         O	      I-A1	      B-A1	(NP*
+          Union	       NNP	      E-NP	     E-ORG	              -	  E-AM-ADV	         O	      E-A1	      E-A1	*))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+           Many	        JJ	      S-NP	         O	              -	      B-A0	(S1(S(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP*
+       students	       NNS	      E-NP	         O	              -	      E-A0	*)))
+            are	       VBP	      B-VP	         O	              -	         O	(VP*
+          using	       VBG	      E-VP	         O	          using	       S-V	(VP*
+             on	        IN	     S-PRT	         O	              -	      B-A2	(ADVP*)
+              -	         :	         O	         O	              -	      I-A2	*
+         campus	        NN	      B-NP	         O	              -	      I-A2	(NP*
+          grief	        NN	      I-NP	         O	              -	      I-A2	*
+     counselors	       NNS	      E-NP	         O	              -	      E-A2	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+            “	        NN	      S-NP	         O	              -	(S1(S(NP*)
+             We	       PRP	      S-NP	         O	              -	(NP*)
+            are	       VBP	      S-VP	         O	              -	(VP*
+              a	        DT	      B-NP	         O	              -	(NP*
+         family	        NN	      E-NP	         O	              -	*))
+              .	         .	         O	         O	              -	*))
+
+           They	       PRP	      S-NP	         O	              -	      S-A0	      S-A0	(S1(S(NP*)
+       deserved	       VBD	      B-VP	         O	       deserved	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	(S(VP*
+           know	        VB	      E-VP	         O	           know	      E-A1	       S-V	(VP*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+          There	        EX	      S-NP	         O	              -	      B-A1	(S1(S(S(NP*)
+            was	       VBD	      S-VP	         O	              -	      I-A1	(VP*
+          shock	        NN	      B-NP	         O	              -	      I-A1	(NP*
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+        sadness	        NN	      E-NP	         O	              -	      E-A1	*)))
+              ,	         ,	         O	         O	              -	         O	*
+            ”	        JJ	      B-NP	         O	              -	      B-A0	(NP*
+           Mayo	       NNP	      E-NP	     S-PER	              -	      E-A0	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+
+            “	       SYM	         O	         O	              -	(S1(NP*))
+
+              I	       PRP	      S-NP	         O	              -	      S-A0	         O	         O	(S1(S(NP*)
+           told	       VBD	      S-VP	         O	           told	       S-V	         O	         O	(VP*
+           them	       PRP	      S-NP	         O	              -	      S-A2	      S-A0	      S-A0	(NP*)
+             to	        TO	      B-VP	         O	              -	      B-A1	         O	         O	(S(VP*
+           lean	        VB	      E-VP	         O	           lean	      I-A1	       S-V	         O	(VP(VP*
+             on	        IN	      S-PP	         O	              -	      I-A1	      B-A2	         O	(ADVP*)
+           each	        DT	      B-NP	         O	              -	      I-A1	      I-A2	         O	(NP*
+          other	        JJ	      E-NP	         O	              -	      I-A1	      E-A2	         O	*))
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	*
+           find	        VB	      S-VP	         O	           find	      I-A1	         O	       S-V	(VP*
+       strength	        NN	      S-NP	         O	              -	      I-A1	         O	      S-A1	(NP*)
+             in	        IN	      S-PP	         O	              -	      I-A1	         O	         O	(PP*
+            one	        CD	      B-NP	         O	              -	      I-A1	         O	         O	(NP*
+        another	        DT	      E-NP	         O	              -	      E-A1	         O	         O	*)))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            ”	       SYM	         O	         O	              -	(S1(NP*))
+
+           Luke	       NNP	      S-NP	     S-PER	              -	         O	(S1(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(NP(NP*
+          third	        JJ	      I-NP	         O	              -	      I-A1	*
+         Exeter	       NNP	      I-NP	     B-ORG	              -	      I-A1	*
+          Union	       NNP	      I-NP	     E-ORG	              -	      I-A1	*
+        student	        NN	      E-NP	         O	              -	      E-A1	*)
+             to	        TO	      B-VP	         O	              -	         O	(SBAR(S(VP*
+           have	        VB	      I-VP	         O	              -	         O	(VP*
+           died	       VBN	      E-VP	         O	           died	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           past	        JJ	      I-NP	         O	              -	  I-AM-TMP	*
+            two	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+          years	       NNS	      E-NP	         O	              -	  E-AM-TMP	*)))))))))
+              .	         .	         O	         O	              -	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+      described	       VBN	      E-VP	         O	      described	       S-V	(VP*
+             as	        IN	      S-PP	         O	              -	      B-A0	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A0	(NP(NP*
+           avid	        JJ	      I-NP	         O	              -	      I-A0	*
+         member	        NN	      E-NP	         O	              -	      I-A0	*)
+             of	        IN	      S-PP	         O	              -	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP*
+         school	        NN	      I-NP	         O	              -	      I-A0	*
+           ’s	        NN	      I-NP	         O	              -	      I-A0	*
+             ag	        NN	      I-NP	         O	              -	      I-A0	*
+     department	        NN	      E-NP	         O	              -	      E-A0	*))))))
+              .	         .	         O	         O	              -	         O	*))
+
+            “	       SYM	         O	         O	              -	(S1(NP*))
+
+             He	       PRP	      S-NP	         O	              -	(S1(S(NP*)
+            was	       VBD	      S-VP	         O	              -	(VP*
+              a	        DT	      B-NP	         O	              -	(NP(NP*
+           nice	        JJ	      I-NP	         O	              -	*
+              ,	         ,	      I-NP	         O	              -	*
+          young	        JJ	      I-NP	         O	              -	*
+            man	        NN	      E-NP	         O	              -	*)
+              ,	         ,	         O	         O	              -	*
+            ”	        NN	      S-NP	         O	              -	(NP*)))))
+
+           Mayo	       NNP	      S-NP	     S-PER	              -	      S-A0	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP(NP*
+     Department	       NNP	      E-NP	     B-ORG	              -	      I-A0	*)
+             of	        IN	      S-PP	     I-ORG	              -	      I-A0	(PP*
+           Fish	       NNP	      B-NP	     I-ORG	              -	      I-A0	(NP*
+            and	        CC	      I-NP	     I-ORG	              -	      I-A0	*
+           Game	       NNP	      E-NP	     E-ORG	              -	      E-A0	*)))
+           have	       VBP	      B-VP	         O	              -	         O	(VP*
+            yet	        RB	      I-VP	         O	              -	         O	(ADVP*)
+             to	        TO	      I-VP	         O	              -	         O	(PP*
+         return	        VB	      E-VP	         O	         return	       S-V	(NP(NP*
+          calls	       NNS	      S-NP	         O	              -	      B-A1	*)
+            for	        IN	      S-PP	         O	              -	      I-A1	(PP*
+        comment	        NN	      S-NP	         O	              -	      E-A1	(NP*)))))
+              .	         .	         O	         O	              -	         O	*))
+
+      They’re	       NNP	      S-NP	         O	              -	      S-A0	(S1(S(NP*)
+      assisting	       VBG	      S-VP	         O	      assisting	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	(NP*
+  investigation	        NN	      E-NP	         O	              -	      E-A2	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+           Read	       NNP	      B-NP	         O	              -	(S1(NP(NP(NP*
+             or	        CC	      I-NP	         O	              -	*
+          Share	       NNP	      E-NP	         O	              -	*)
+           this	        DT	      B-NP	         O	              -	(NP*
+          story	        NN	      E-NP	         O	              -	*))
+              :	         :	         O	         O	              -	*
+     http://vtd	        JJ	      B-NP	         O	              -	(NP(NP*)
+              -	         :	      I-NP	         O	              -	*
+ tar.co/1RrbhCV	        NN	      E-NP	         O	              -	(NP*))))
+

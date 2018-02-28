@@ -1,0 +1,64 @@
+     2016-12-12	        CD	      S-NP	         O	              -	(S1(NP*))
+
+       Multiple	        JJ	      B-NP	         O	              -	      B-A1	(S1(NP(NP(NP*
+         People	       NNS	      E-NP	         O	              -	      E-A1	*)
+        Injured	       VBN	      S-VP	         O	        Injured	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+         Triple	       NNP	      B-NP	    B-MISC	              -	  I-AM-LOC	(NP*
+       Shooting	       NNP	      E-NP	    I-MISC	              -	  I-AM-LOC	*))
+             in	        IN	      S-PP	    I-MISC	              -	  I-AM-LOC	(PP*
+       Bushwick	       NNP	      S-NP	    E-MISC	              -	  E-AM-LOC	(NP*))))
+              :	         :	         O	         O	              -	         O	*
+           NYPD	        NN	      S-NP	     S-ORG	              -	      S-A1	(NP*)))
+
+          Three	        CD	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(S(NP*
+            men	       NNS	      E-NP	         O	              -	      E-A1	      I-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	      I-A1	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	      I-A1	(VP*
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	      I-A1	(PP*
+             an	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A1	(NP(NP*
+       exchange	        NN	      E-NP	         O	              -	  I-AM-TMP	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A1	(PP*
+           fire	        NN	      S-NP	         O	              -	  I-AM-TMP	      I-A1	(NP*))))
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	      I-A1	(PP*
+       Bushwick	       NNP	      B-NP	    B-MISC	              -	  I-AM-TMP	      I-A1	(NP*
+         Sunday	       NNP	      I-NP	    E-MISC	              -	  I-AM-TMP	      I-A1	*
+        evening	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A1	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+           NYPD	       NNP	      B-NP	     S-ORG	              -	         O	      B-A0	(NP*
+      officials	       NNS	      E-NP	         O	              -	         O	      E-A0	*)
+           said	       VBD	      S-VP	         O	           said	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	*))
+
+    Authorities	       NNS	      S-NP	         O	              -	      S-A0	         O	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	(VP*
+            all	        DT	      B-NP	         O	              -	      B-A1	      B-A1	      B-A0	(SBAR(S(NP*
+          three	        CD	      I-NP	         O	              -	      I-A1	      I-A1	      I-A0	*
+            men	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	      E-A0	*)
+            are	       VBP	      B-VP	         O	              -	      I-A1	         O	         O	(VP*
+       expected	       VBN	      I-VP	         O	       expected	      I-A1	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	    B-C-A1	         O	(S(VP*
+        survive	        VB	      E-VP	         O	        survive	      E-A1	    E-C-A1	       S-V	(VP*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	(S1(S(S(NP(NP*
+       injuries	       NNS	      E-NP	         O	              -	*)
+             of	        IN	      S-PP	         O	              -	(PP*
+            all	        DT	      B-NP	         O	              -	(NP*
+          three	        CD	      I-NP	         O	              -	*
+        victims	       NNS	      E-NP	         O	              -	*)))
+           were	       VBD	      S-VP	         O	              -	(VP*
+        gunshot	        NN	      B-NP	         O	              -	(NP*
+          wound	        NN	      E-NP	         O	              -	*)))
+              -	         :	         O	         O	              -	*
+        related	       VBN	    S-ADJP	         O	              -	(VP*)
+              .	         .	         O	         O	              -	*))
+
+          There	        EX	      S-NP	         O	              -	(S1(S(NP*)
+            are	       VBP	      S-VP	         O	              -	(VP*
+             no	        DT	      B-NP	         O	              -	(NP*
+        arrests	       NNS	      E-NP	         O	              -	*)
+             so	        RB	    B-ADVP	         O	              -	(ADVP*
+            far	        RB	    E-ADVP	         O	              -	*))
+              .	         .	         O	         O	              -	*))
+

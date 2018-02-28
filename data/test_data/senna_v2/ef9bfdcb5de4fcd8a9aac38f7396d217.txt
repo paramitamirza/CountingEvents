@@ -1,0 +1,89 @@
+     2016-04-24	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        Oelwein	       NNP	      B-NP	     B-PER	              -	      B-A0	(S1(S(NP*
+            Man	        NN	      E-NP	     E-PER	              -	      E-A0	*)
+         Killed	       VBN	      S-VP	         O	         Killed	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+         Turkey	       NNP	      B-NP	     S-LOC	              -	  I-AM-LOC	(NP*
+        Hunting	       NNP	      I-NP	         O	              -	  I-AM-LOC	*
+       Accident	       NNP	      E-NP	         O	              -	  E-AM-LOC	*)))))
+
+             An	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+        Oelwein	       NNP	      I-NP	    S-MISC	              -	      I-A1	         O	*
+            man	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+        fatally	        RB	      I-VP	         O	              -	  S-AM-MNR	         O	(VP(ADVP*)
+        injured	       VBN	      E-VP	         O	        injured	       S-V	         O	*
+       Saturday	       NNP	      S-NP	         O	              -	  S-AM-TMP	         O	(NP*)
+          while	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	(SBAR*
+         turkey	        NN	      B-NP	         O	              -	  I-AM-TMP	      S-A0	(NP(NP*
+        hunting	        NN	      E-NP	         O	        hunting	  I-AM-TMP	       S-V	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+        Fayette	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	  I-AM-LOC	(NP*
+         County	       NNP	      E-NP	     E-LOC	              -	  E-AM-TMP	  E-AM-LOC	*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	         O	(S1(S(NP*
+           Iowa	       NNP	      I-NP	     S-LOC	              -	      I-A0	         O	         O	         O	*
+            DNR	       NNP	      E-NP	         O	              -	      E-A0	         O	         O	         O	*)
+           says	       VBZ	      S-VP	         O	           says	       S-V	         O	         O	         O	(VP*
+        63-year	        JJ	      B-NP	         O	              -	      B-A1	      B-A1	         O	         O	(SBAR(S(NP(ADJP*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	         O	         O	*)
+        Michael	       NNP	      I-NP	     B-PER	              -	      I-A1	      I-A1	         O	         O	*
+          Adams	       NNP	      E-NP	     E-PER	              -	      I-A1	      E-A1	         O	         O	*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+            hit	       VBN	      E-VP	         O	            hit	      I-A1	       S-V	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-PNC	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	(NP*
+           face	        NN	      I-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	*
+            and	        CC	      I-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	*
+          chest	        NN	      I-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	*
+           area	        NN	      E-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	*))
+             by	        IN	      S-PP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	(NP(NP(NP*
+           shot	        NN	      E-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	*)
+           from	        IN	      S-PP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-PNC	      B-A1	         O	(NP*
+       12-gauge	        JJ	      I-NP	         O	              -	      I-A1	  I-AM-PNC	      I-A1	         O	*
+        shotgun	        NN	      E-NP	         O	              -	      I-A1	  I-AM-PNC	      E-A1	         O	*)))
+          fired	       VBD	      S-VP	         O	          fired	      I-A1	  I-AM-PNC	       S-V	         O	(VP*
+           from	        IN	      S-PP	         O	              -	      I-A1	  I-AM-PNC	      B-A2	         O	(PP*
+        another	        DT	      B-NP	         O	              -	      I-A1	  I-AM-PNC	      I-A2	         O	(NP*
+         hunter	        NN	      E-NP	         O	              -	      I-A1	  I-AM-PNC	      E-A2	         O	*))
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-PNC	  B-AM-LOC	         O	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	  I-AM-PNC	  I-AM-LOC	         O	(NP*
+        hunting	        NN	      I-NP	         O	        hunting	      I-A1	  I-AM-PNC	  I-AM-LOC	       S-V	*
+          party	        NN	      E-NP	         O	              -	      I-A1	  I-AM-PNC	  E-AM-LOC	      S-A0	*))
+             at	        IN	      S-PP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	(PP*
+  approximately	        RB	      B-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	(NP(NP(QP*
+              3	        CD	      I-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	*)
+           p.m.	        NN	      I-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	*)
+       Saturday	       NNP	      I-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	(NP*
+          north	        NN	      E-NP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	  I-AM-PNC	         O	         O	(PP*
+        Maynard	       NNP	      S-NP	     S-PER	              -	      E-A1	  E-AM-PNC	         O	         O	(NP*))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+     pronounced	       VBN	      E-VP	         O	     pronounced	       S-V	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	      S-A2	(ADJP*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+          scene	        NN	      E-NP	         O	              -	  E-AM-LOC	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+       incident	        NN	      E-NP	         O	              -	      E-A1	*)
+        remains	       VBZ	      S-VP	         O	        remains	       S-V	(VP*
+          under	        IN	      S-PP	         O	              -	      B-A3	(PP*
+  investigation	        NN	      S-NP	         O	              -	      I-A3	(NP(NP*)
+             by	        IN	      S-PP	         O	              -	      I-A3	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A3	(NP(NP*
+           Iowa	       NNP	      I-NP	     B-ORG	              -	      I-A3	*
+     Department	       NNP	      E-NP	     I-ORG	              -	      I-A3	*)
+             of	        IN	      S-PP	     I-ORG	              -	      I-A3	(PP*
+        Natural	       NNP	      B-NP	     I-ORG	              -	      I-A3	(NP*
+      Resources	      NNPS	      E-NP	     E-ORG	              -	      E-A3	*)))))))
+              .	         .	         O	         O	              -	         O	*))
+

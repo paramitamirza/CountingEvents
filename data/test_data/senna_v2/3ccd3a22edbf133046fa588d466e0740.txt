@@ -1,0 +1,30 @@
+     2015-08-20	        CD	      S-NP	         O	              -	(S1(NP*))
+
+        Sheriff	       NNP	      S-NP	         O	              -	(S1(NP(NP*)
+              :	         :	         O	         O	              -	*
+        Iredell	       NNP	      B-NP	     B-LOC	              -	(NP*
+         County	       NNP	      E-NP	     E-LOC	              -	*)))
+
+            man	        NN	      S-NP	         O	              -	      S-A0	      B-A1	(S1(S(NP(NP*)
+            who	        WP	      S-NP	         O	              -	    S-R-A0	      I-A1	(SBAR(WHNP*)
+        fatally	        RB	    S-ADVP	         O	              -	  S-AM-MNR	      I-A1	(S(VP(ADVP*)
+           shot	       VBD	      S-VP	         O	           shot	       S-V	      I-A1	*
+          young	        JJ	      B-NP	         O	              -	      B-A1	      I-A1	(NP*
+           sons	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*)))))
+            has	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+           died	       VBN	      E-VP	         O	           died	         O	         O	(VP*))))
+
+          Shawn	       NNP	      B-NP	     B-PER	              -	      B-A0	(S1(S(NP*
+         Fuller	       NNP	      E-NP	     E-PER	              -	      E-A0	*)
+           also	        RB	    S-ADVP	         O	              -	  S-AM-DIS	(ADVP*)
+           shot	       VBD	      S-VP	         O	           shot	       S-V	(VP*
+        himself	       PRP	      S-NP	         O	              -	      S-A1	(NP*))))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+           died	       VBD	      S-VP	         O	           died	       S-V	(VP*
+             of	        IN	      S-PP	         O	              -	      B-A4	(PP*
+  complications	       NNS	      S-NP	         O	              -	      E-A4	(NP(NP*)
+           from	        IN	      S-PP	         O	              -	      B-A3	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A3	(NP*
+       injuries	       NNS	      E-NP	         O	              -	      E-A3	*)))))))
+

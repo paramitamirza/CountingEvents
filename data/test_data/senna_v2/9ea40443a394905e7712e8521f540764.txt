@@ -1,0 +1,130 @@
+     2013-12-14	        CD	      S-NP	         O	              -	(S1(NP*))
+
+              1	        CD	      B-NP	         O	              -	      B-A1	(S1(NP(NP*
+           Dead	       NNP	      E-NP	         O	              -	      I-A1	*
+              ,	         ,	         O	         O	              -	      I-A1	*
+              3	        CD	      S-NP	         O	              -	      E-A1	*)
+        Injured	       VBN	      S-VP	         O	        Injured	       S-V	(VP*
+             In	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+        Florida	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+           City	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	*
+       Shooting	       NNP	      E-NP	         O	              -	  E-AM-LOC	*)))))
+
+        FLORIDA	       NNP	      B-NP	     B-ORG	              -	(S1(NP(NP*
+           CITY	       NNP	      E-NP	     E-ORG	              -	*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+       CBSMiami	       NNP	      S-NP	     S-LOC	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*)
+            —	         .	         O	         O	              -	(ADVP*)))
+
+             An	        DT	      B-NP	         O	              -	      B-A1	      B-A0	         O	(S1(S(NP(NP*
+       argument	        NN	      E-NP	         O	              -	      E-A1	      I-A0	         O	*)
+          which	       WDT	      S-NP	         O	              -	    S-R-A1	      I-A0	         O	(SBAR(WHNP*)
+      escalated	       VBD	      S-VP	         O	      escalated	       S-V	      I-A0	         O	(S(VP*
+           into	        IN	      S-PP	         O	              -	      B-A2	      I-A0	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	      I-A0	         O	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	      I-A2	      I-A0	         O	*)
+             in	        IN	      S-PP	         O	              -	      I-A2	      I-A0	         O	(PP*
+        Florida	       NNP	      B-NP	     B-LOC	              -	      I-A2	      I-A0	         O	(NP*
+           City	       NNP	      E-NP	     E-LOC	              -	      E-A2	      E-A0	         O	*))))))))
+           left	       VBD	      S-VP	         O	           left	         O	       S-V	         O	(VP(VP*
+            one	        CD	      B-NP	         O	              -	         O	      B-A1	         O	(S(NP*
+         person	        NN	      E-NP	         O	              -	         O	      E-A1	         O	*)
+           dead	        JJ	    S-ADJP	         O	              -	         O	      S-A2	         O	(ADJP*)))
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+          three	        CD	      B-NP	         O	              -	         O	         O	      B-A1	(S(NP*
+         others	       NNS	      E-NP	         O	              -	         O	         O	      E-A1	*)
+        injured	       VBN	      S-VP	         O	        injured	         O	         O	       S-V	(VP*
+            and	        CC	         O	         O	              -	         O	         O	         O	*
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	  I-AM-LOC	      B-A1	(NP*
+       hospital	        NN	      E-NP	         O	              -	         O	  E-AM-LOC	      E-A1	*))
+       Saturday	       NNP	      S-NP	         O	              -	         O	  S-AM-TMP	  S-AM-TMP	(NP*)))
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	         O	         O	(PP*
+            our	      PRP$	      B-NP	         O	              -	         O	         O	         O	(NP(NP*
+           news	        NN	      I-NP	         O	              -	         O	         O	         O	*
+       partners	       NNS	      E-NP	         O	              -	         O	         O	         O	*)
+             at	        IN	      S-PP	         O	              -	         O	         O	         O	(PP*
+            The	        DT	      B-NP	     B-LOC	              -	         O	         O	         O	(NP*
+          Miami	       NNP	      I-NP	     I-LOC	              -	         O	         O	         O	*
+         Herald	       NNP	      E-NP	     E-LOC	              -	         O	         O	         O	*))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+      According	       VBG	      S-PP	         O	              -	  B-AM-ADV	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	(PP*
+          Miami	       NNP	      S-NP	     S-LOC	              -	  I-AM-ADV	(NP*))
+              -	         :	         O	         O	              -	  I-AM-ADV	(PP*
+           Dade	       NNP	      B-NP	     B-ORG	              -	  I-AM-ADV	(NP*
+         Police	       NNP	      E-NP	     E-ORG	              -	  E-AM-ADV	*)))
+              ,	         ,	         O	         O	              -	         O	*
+             it	       PRP	      S-NP	         O	              -	      B-A1	(NP*)
+            all	        DT	      S-NP	         O	              -	      E-A1	(NP*)
+          began	       VBD	      S-VP	         O	          began	       S-V	(VP*
+             as	        IN	      S-PP	         O	              -	      B-A1	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+       argument	        NN	      E-NP	         O	              -	      I-A1	*)
+        between	        IN	      S-PP	         O	              -	      I-A1	(PP*
+      neighbors	       NNS	      S-NP	         O	              -	      I-A1	(NP*
+            and	        CC	         O	         O	              -	      I-A1	*
+        friends	       NNS	      S-NP	         O	              -	      I-A1	*))
+             at	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            7th	        JJ	      B-NP	         O	              -	      I-A1	(NP(NP*
+         Avenue	       NNP	      I-NP	         O	              -	      I-A1	*)
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+           13th	        JJ	      I-NP	         O	              -	      I-A1	(NP*
+        Terrace	       NNP	      E-NP	     S-ORG	              -	      E-A1	*))))))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	      B-A0	         O	(S1(S(NP*
+       argument	        NN	      E-NP	         O	              -	      E-A1	      E-A0	         O	*)
+      escalated	       VBD	      B-VP	         O	      escalated	       S-V	         O	         O	(VP(VP*)
+            and	        CC	      I-VP	         O	              -	         O	         O	         O	*
+            led	       VBN	      E-VP	         O	            led	         O	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	         O	      B-A2	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A2	      B-A0	(NP(NP*
+       shooting	        NN	      E-NP	         O	              -	         O	      I-A2	      E-A0	*)
+        sending	       VBG	      S-VP	         O	        sending	         O	      I-A2	       S-V	(VP*
+           four	        CD	      B-NP	         O	              -	         O	      I-A2	      B-A1	(NP*
+        victims	       NNS	      E-NP	         O	              -	         O	      I-A2	      E-A1	*)
+             to	        TO	      S-PP	         O	              -	         O	      I-A2	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	         O	      I-A2	      I-A2	(NP*
+       hospital	        NN	      E-NP	         O	              -	         O	      E-A2	      E-A2	*)))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            One	        CD	      S-NP	         O	              -	         O	      B-A1	(S1(NP(NP*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      I-A1	(NP*
+        victims	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*))
+            who	        WP	      S-NP	         O	              -	    S-R-A1	    S-R-A1	(SBAR(WHNP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(S(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	         O	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(SBAR*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	      B-A1	(S(NP*
+           head	        NN	      E-NP	         O	              -	  E-AM-LOC	      E-A1	*)
+           died	       VBD	      S-VP	         O	           died	         O	       S-V	(VP*)))
+              ,	         ,	         O	         O	              -	         O	         O	*
+      according	       VBG	      S-PP	         O	              -	         O	         O	(PP*
+             to	        TO	      S-PP	         O	              -	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	(NP*
+          Miami	       NNP	      I-NP	     B-LOC	              -	         O	         O	*
+         Herald	       NNP	      E-NP	     E-LOC	              -	         O	         O	*)))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            Two	        CD	      S-NP	         O	              -	      B-A1	      B-A0	(S1(S(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A1	      I-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A0	(NP(NP*
+        victims	       NNS	      E-NP	         O	              -	      E-A1	      I-A0	*)
+          ended	       VBD	      S-VP	         O	          ended	       S-V	      I-A0	(VP*
+             up	        RP	     S-PRT	         O	              -	  B-AM-LOC	      I-A0	(ADVP*)
+      Homestead	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	      I-A0	(NP*
+       Hospital	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	      I-A0	*)))))
+            and	        CC	         O	         O	              -	         O	      I-A0	*
+            two	        CD	      S-NP	         O	              -	         O	      E-A0	(S(NP*)
+           went	       VBD	      S-VP	         O	           went	         O	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	         O	      B-A4	(PP*
+        Kendall	       NNP	      B-NP	     B-LOC	              -	         O	      I-A4	(NP*
+       Regional	       NNP	      E-NP	     E-LOC	              -	         O	      E-A4	*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+

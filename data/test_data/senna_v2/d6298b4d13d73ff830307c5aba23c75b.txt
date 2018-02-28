@@ -1,0 +1,166 @@
+     2016-10-12	        CD	      S-NP	         O	              -	(S1(NP*))
+
+          Child	        NN	      S-NP	         O	              -	(S1(NP(NP*
+              ,	         ,	         O	         O	              -	*
+            man	        NN	      S-NP	         O	              -	*
+           shot	        NN	      S-VP	         O	              -	*)
+         during	        IN	      S-PP	         O	              -	(PP*
+        robbery	        NN	      B-NP	         O	              -	(NP(NP*
+        attempt	        NN	      E-NP	         O	              -	*)
+             at	        IN	      S-PP	         O	              -	(PP*
+      Cleveland	       NNP	      B-NP	     S-LOC	              -	(NP*
+     barbershop	        NN	      E-NP	         O	              -	*))))))
+
+         Please	        VB	      B-VP	         O	              -	         O	         O	(S1(S(NP*)
+         enable	       VBP	      E-VP	         O	         enable	       S-V	         O	(VP*
+     Javascript	       NNP	      S-NP	         O	              -	      B-A1	      S-A0	(NP*)
+             to	        TO	      B-VP	         O	              -	      I-A1	         O	(S(VP*
+          watch	        VB	      E-VP	         O	          watch	      I-A1	       S-V	(VP*
+           this	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP*
+          video	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)))))))
+
+    CLEVELAND--	       SYM	      B-NP	         O	              -	      B-A1	         O	(S1(S(VP*
+            Two	        CD	      I-NP	         O	              -	      I-A1	         O	(SBAR(S(NP*
+         people	       NNS	      E-NP	         O	              -	      E-A1	         O	*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	         O	(VP*
+         during	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+             an	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+      attempted	       VBN	      I-NP	         O	      attempted	  I-AM-TMP	       S-V	*
+        robbery	        NN	      E-NP	         O	              -	  E-AM-TMP	      S-A1	*))
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP(NP*
+     barbershop	        NN	      E-NP	         O	              -	  I-AM-LOC	         O	*)
+             on	        IN	      S-PP	         O	              -	  I-AM-LOC	         O	(PP*
+      Cleveland	       NNP	      S-NP	     S-ORG	              -	  I-AM-LOC	         O	(NP(NP*
+             's	       POS	      B-NP	         O	              -	  I-AM-LOC	         O	*)
+           west	        JJ	      I-NP	         O	              -	  I-AM-LOC	         O	*
+           side	        NN	      E-NP	         O	              -	  E-AM-LOC	         O	*))))
+      Wednesday	       NNP	      B-NP	         O	              -	  B-AM-TMP	         O	(NP*
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+          about	        IN	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           7:40	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*))
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+        Prodigy	       NNP	      B-NP	         O	              -	  I-AM-LOC	(NP*
+           Cuts	       NNP	      E-NP	         O	              -	  I-AM-LOC	*))
+             at	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+           West	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP(NP*
+           59th	        JJ	      I-NP	     I-LOC	              -	  I-AM-LOC	*
+         Street	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	*)
+            and	        CC	      I-NP	         O	              -	  I-AM-LOC	*
+         Storer	       NNP	      I-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+         Avenue	       NNP	      E-NP	     E-LOC	              -	  E-AM-LOC	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+      Cleveland	       NNP	      B-NP	     S-ORG	              -	      B-A0	         O	(S1(S(NP*
+         police	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+      employees	       NNS	      S-NP	         O	              -	      B-A1	      S-A0	(SBAR(S(NP*)
+      exchanged	       VBD	      S-VP	         O	      exchanged	      I-A1	       S-V	(VP*
+           fire	        NN	      S-NP	         O	              -	      I-A1	      S-A1	(NP*)
+           with	        IN	      S-PP	         O	              -	      I-A1	  B-AM-MNR	(PP*
+          three	        CD	      B-NP	         O	              -	      I-A1	  I-AM-MNR	(NP*
+          teens	       NNS	      E-NP	         O	              -	      I-A1	  E-AM-MNR	*))
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+           self	        NN	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+        defense	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A1	         O	(S1(S(NP*
+        26-year	        JJ	      I-NP	         O	              -	      I-A1	         O	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	         O	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	         O	*)
+            man	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	         O	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	         O	(NP*
+           back	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+          while	        IN	    S-SBAR	         O	              -	  B-AM-TMP	         O	(SBAR*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A0	(S(NP*
+         4-year	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A0	(ADJP*
+              -	         :	      I-NP	         O	              -	  I-AM-TMP	      I-A0	*
+            old	        JJ	      I-NP	         O	              -	  I-AM-TMP	      I-A0	*)
+            boy	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A0	*)
+       suffered	       VBD	      S-VP	         O	       suffered	  I-AM-TMP	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	      B-A1	(NP*
+        gunshot	        NN	      I-NP	         O	              -	  I-AM-TMP	      I-A1	*
+          wound	        NN	      E-NP	         O	              -	  I-AM-TMP	      E-A1	*)
+             to	        TO	      S-PP	         O	              -	  I-AM-TMP	      B-A4	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	      I-A4	(NP*
+           foot	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A4	*)))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           Both	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+        victims	       NNS	      E-NP	         O	              -	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	  B-AM-DIR	(PP*
+    MetroHealth	       NNP	      B-NP	     B-ORG	              -	  I-AM-DIR	(NP*
+        Medical	       NNP	      I-NP	     I-ORG	              -	  I-AM-DIR	*
+         Center	       NNP	      E-NP	     E-ORG	              -	  E-AM-DIR	*))
+             in	        IN	      S-PP	         O	              -	  B-AM-MNR	(PP*
+         stable	        JJ	      B-NP	         O	              -	  I-AM-MNR	(NP*
+      condition	        NN	      E-NP	         O	              -	  E-AM-MNR	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+          While	        IN	    S-SBAR	         O	              -	  B-AM-TMP	  B-AM-TMP	(S1(S(PP*
+             at	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	(NP*
+          scene	        NN	      E-NP	         O	              -	  E-AM-TMP	  E-AM-TMP	*)))
+              ,	         ,	         O	         O	              -	         O	         O	*
+         police	       NNS	      S-NP	         O	              -	      S-A0	      B-A1	(NP(NP*)
+        learned	       VBD	      S-VP	         O	        learned	       S-V	      I-A1	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      I-A1	(ADJP(NP*
+        16-year	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*)
+              -	         :	      I-NP	         O	              -	      I-A1	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	      E-A1	(ADJP*))))
+            was	       VBD	      E-NP	         O	              -	      I-A1	         O	(VP*
+        dropped	       VBN	      S-VP	         O	        dropped	      I-A1	       B-V	(VP*
+            off	        RP	     S-PRT	         O	              -	      I-A1	       E-V	(ADVP*)
+             at	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+       hospital	        NN	      E-NP	         O	              -	      I-A1	  E-AM-LOC	*))
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	(NP*
+        private	        JJ	      I-NP	         O	              -	      I-A1	  I-AM-LOC	*
+        vehicle	        NN	      E-NP	         O	              -	      E-A1	  E-AM-LOC	*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+             he	       PRP	      S-NP	         O	              -	      B-A1	         O	(SBAR(S(NP*)
+             is	       VBZ	      S-VP	         O	              -	      I-A1	         O	(VP*
+            one	        CD	      S-NP	         O	              -	      I-A1	         O	(SBAR(S(NP(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
+          three	        CD	      I-NP	         O	              -	      I-A1	         O	*
+       suspects	       NNS	      E-NP	         O	              -	      I-A1	         O	*)))
+            and	        CC	         O	         O	              -	      I-A1	         O	*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP*
+          other	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+            two	        CD	      E-NP	         O	              -	      I-A1	      E-A1	*))
+         remain	       VBP	      S-VP	         O	         remain	      I-A1	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	      I-A1	      B-A3	(PP*
+          large	        JJ	    S-ADJP	         O	              -	      E-A1	      E-A3	(ADJP*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+          Check	        VB	      S-VP	         O	          Check	       B-V	(S1(S(VP*
+           back	        RP	     S-PRT	         O	              -	       E-V	(ADVP*)
+           with	        IN	      S-PP	         O	              -	      B-A1	(PP*
+            FOX	       NNP	      B-NP	     B-ORG	              -	      I-A1	(NP*
+              8	        CD	      I-NP	     I-ORG	              -	      I-A1	*
+           News	       NNP	      I-NP	     E-ORG	              -	      I-A1	*
+            and	        CC	      I-NP	         O	              -	      I-A1	*
+       FOX8.com	       NNP	      E-NP	    S-MISC	              -	      E-A1	*))
+            for	        IN	      S-PP	         O	              -	  B-AM-PNC	(PP*
+        updates	       NNS	      S-NP	         O	              -	  E-AM-PNC	(NP*)))
+              .	         .	         O	         O	              -	         O	*))
+

@@ -1,0 +1,130 @@
+     2016-05-16	        CD	      S-NP	         O	              -	(S1(NP*))
+
+  Clarification	        NN	      S-NP	         O	              -	(S1(NP*
+              :	         :	         O	         O	              -	*))
+
+           Girl	       NNP	         O	         O	              -	(S1(NP(NP*
+           Shot	       NNP	         O	         O	              -	*)
+              -	         :	         O	         O	              -	*
+      Milwaukee	       NNP	      B-NP	     S-LOC	              -	(NP(NP*)
+          story	        NN	      E-NP	         O	              -	*
+              -	         :	         O	         O	              -	*
+           WXOW	       NNP	      B-NP	     B-ORG	              -	(NP(NP*
+           News	       NNP	      E-NP	     E-ORG	              -	*
+             19	        CD	      B-NP	         O	              -	*
+             La	       NNP	      I-NP	     B-ORG	              -	*
+         Crosse	       NNP	      E-NP	     E-ORG	              -	*)
+              ,	         ,	         O	         O	              -	*
+             WI	       NNP	      B-NP	     B-ORG	              -	(NP*
+            –	        NN	      I-NP	     I-ORG	              -	*
+           News	        NN	      I-NP	     I-ORG	              -	*)
+              ,	         ,	      I-NP	     I-ORG	              -	*
+        Weather	       NNP	      I-NP	     I-ORG	              -	(NP*)
+            and	        CC	      I-NP	     I-ORG	              -	*
+         Sports	      NNPS	      E-NP	     E-ORG	              -	(NP*
+              |	         .	         O	         O	              -	*)))))
+
+      MILWAUKEE	       NNP	      S-NP	     S-ORG	              -	(S1(NP(NP*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+             AP	       NNP	      S-NP	     S-ORG	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*)
+              -	         :	         O	         O	              -	*))
+
+             In	        IN	      S-PP	         O	              -	         O	         O	         O	  B-AM-LOC	         O	(S1(S(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	         O	  I-AM-LOC	         O	(NP(NP*
+            May	       NNP	      I-NP	         O	              -	         O	         O	         O	  I-AM-LOC	         O	*
+             16	        CD	      E-NP	         O	              -	         O	         O	         O	  I-AM-LOC	         O	*)
+          about	        IN	      S-PP	         O	              -	         O	         O	         O	  I-AM-LOC	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      B-A1	         O	         O	  I-AM-LOC	         O	(NP*
+         9-year	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	  I-AM-LOC	         O	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	         O	         O	  I-AM-LOC	         O	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	  E-AM-LOC	         O	*)
+           girl	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	         O	*))))
+         struck	       VBD	      S-VP	         O	         struck	       S-V	         O	         O	         O	         O	(VP*
+        earlier	       RBR	      B-NP	         O	              -	  B-AM-TMP	         O	         O	         O	         O	(NP*
+           this	        DT	      I-NP	         O	              -	  I-AM-TMP	         O	         O	         O	         O	*
+          month	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	         O	         O	         O	*)
+             by	        IN	      S-PP	         O	              -	      B-A0	         O	         O	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A0	      B-A1	         O	         O	         O	(NP(NP*
+         bullet	        NN	      E-NP	         O	              -	      I-A0	      E-A1	         O	         O	         O	*)
+          fired	       VBN	      S-VP	         O	          fired	      I-A0	       S-V	         O	         O	         O	(VP*
+           from	        IN	      S-PP	         O	              -	      I-A0	      B-A2	         O	         O	         O	(PP*
+        outside	        IN	      S-PP	         O	              -	      I-A0	      I-A2	         O	         O	         O	(ADVP*
+            her	      PRP$	      B-NP	         O	              -	      I-A0	      I-A2	         O	         O	         O	*
+           home	        NN	      E-NP	         O	              -	      E-A0	      E-A2	         O	         O	         O	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	*
+            The	        DT	      B-NP	     B-ORG	              -	         O	         O	         O	      B-A0	         O	(SBAR(S(NP(NP*
+     Associated	       NNP	      I-NP	     I-ORG	              -	         O	         O	         O	      I-A0	         O	*
+          Press	       NNP	      E-NP	     E-ORG	              -	         O	         O	         O	      E-A0	         O	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	*
+          based	       VBN	      S-PP	         O	          based	  B-AM-CAU	         O	       S-V	         O	         O	(VP*
+             on	        IN	      S-PP	         O	              -	  I-AM-CAU	         O	      B-A2	         O	         O	(PP*
+    information	        NN	      S-NP	         O	              -	  I-AM-CAU	         O	      I-A2	         O	         O	(NP(NP*)
+           from	        IN	      S-PP	         O	              -	  I-AM-CAU	         O	      I-A2	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-CAU	         O	      I-A2	      B-A0	         O	(NP(NP*
+      Milwaukee	       NNP	      I-NP	     B-ORG	              -	  I-AM-CAU	         O	      I-A2	      I-A0	         O	*
+         County	       NNP	      I-NP	     I-ORG	              -	  I-AM-CAU	         O	      I-A2	      I-A0	         O	*
+        Medical	       NNP	      I-NP	     I-ORG	              -	  I-AM-CAU	         O	      I-A2	      I-A0	         O	*
+       Examiner	       NNP	      E-NP	     I-ORG	              -	  I-AM-CAU	         O	      I-A2	      I-A0	         O	*
+             's	       POS	      B-NP	     I-ORG	              -	  I-AM-CAU	         O	      I-A2	      I-A0	         O	*)
+         Office	       NNP	      E-NP	     E-ORG	              -	  I-AM-CAU	         O	      E-A2	      I-A0	         O	*))))))
+              ,	         ,	         O	         O	              -	  I-AM-CAU	         O	         O	      E-A0	         O	*
+       reported	       VBD	      S-VP	         O	       reported	  I-AM-CAU	         O	         O	       S-V	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	  I-AM-CAU	         O	         O	      B-A1	         O	(SBAR*
+       Za'layia	       NNP	      B-NP	     B-PER	              -	  I-AM-CAU	         O	         O	      I-A1	      B-A1	(S(NP*
+        Jenkins	       NNP	      E-NP	     E-PER	              -	  I-AM-CAU	         O	         O	      I-A1	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	  I-AM-CAU	         O	         O	      I-A1	         O	(VP*
+     pronounced	       VBN	      E-VP	         O	     pronounced	  I-AM-CAU	         O	         O	      I-A1	       S-V	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	  I-AM-CAU	         O	         O	      I-A1	      S-A2	(ADJP*
+             on	        IN	      S-PP	         O	              -	  I-AM-CAU	         O	         O	      I-A1	  B-AM-TMP	(PP*
+            May	       NNP	      B-NP	         O	              -	  I-AM-CAU	         O	         O	      I-A1	  I-AM-TMP	(NP*
+             16	        CD	      E-NP	         O	              -	  E-AM-CAU	         O	         O	      E-A1	  E-AM-TMP	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*))
+
+         Police	       NNS	      S-NP	         O	              -	      S-A0	         O	         O	         O	(S1(S(S(NP*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A0	         O	         O	(SBAR(S(NP*
+           girl	        NN	      E-NP	         O	              -	      I-A1	      E-A0	         O	         O	*)
+            was	       VBD	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+       declared	       VBN	      E-VP	         O	       declared	      I-A1	       S-V	         O	         O	(VP*
+          brain	        NN	    B-ADJP	         O	              -	      I-A1	      S-A1	         O	         O	(S(NP*)
+              -	         :	    I-ADJP	         O	              -	      I-A1	         O	         O	         O	*
+           dead	        JJ	    E-ADJP	         O	              -	      I-A1	         O	         O	         O	(ADJP*))))))))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	         O	*
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	         O	*
+            her	      PRP$	      B-NP	         O	              -	      I-A1	         O	      B-A0	         O	(S(NP*
+         family	        NN	      E-NP	         O	              -	      I-A1	         O	      E-A0	         O	*)
+           says	       VBZ	      S-VP	         O	           says	      I-A1	         O	       S-V	         O	(VP*
+            she	       PRP	      S-NP	         O	              -	      I-A1	         O	      B-A1	      S-A1	(SBAR(S(NP*)
+        remains	       VBZ	      S-VP	         O	        remains	      I-A1	         O	      I-A1	       S-V	(VP*
+             on	        IN	      S-PP	         O	              -	      I-A1	         O	      I-A1	      B-A3	(PP*
+           life	        NN	      B-NP	         O	              -	      I-A1	         O	      I-A1	      I-A3	(NP*
+        support	        NN	      E-NP	         O	              -	      E-A1	         O	      E-A1	      E-A3	*)))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+      Copyright	        NN	      B-NP	         O	              -	(S1(NP(NP*
+           2016	        CD	      E-NP	         O	              -	*)
+            The	        DT	      B-NP	     B-ORG	              -	(NP*
+     Associated	       NNP	      I-NP	     I-ORG	              -	*
+          Press	       NNP	      E-NP	     E-ORG	              -	*
+              .	         .	         O	         O	              -	*)))
+
+            All	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+         rights	       NNS	      E-NP	         O	              -	      E-A1	*)
+       reserved	       VBN	      S-VP	         O	       reserved	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	*))
+
+           This	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP*
+       material	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)
+            may	        MD	      B-VP	         O	              -	  S-AM-MOD	         O	(VP*
+            not	        RB	      I-VP	         O	              -	  S-AM-NEG	         O	*
+             be	        VB	      I-VP	         O	              -	         O	         O	(VP*
+      published	       VBN	      E-VP	         O	      published	       S-V	         O	(VP*
+              ,	         ,	         O	         O	              -	         O	         O	*
+      broadcast	        NN	      S-NP	         O	              -	         O	         O	*
+              ,	         ,	         O	         O	              -	         O	         O	*
+      rewritten	       VBN	      B-VP	         O	              -	         O	         O	*
+             or	        CC	      I-VP	         O	              -	         O	         O	*
+  redistributed	       VBN	      E-VP	         O	  redistributed	         O	       S-V	*)))
+              .	         .	         O	         O	              -	         O	         O	*))
+

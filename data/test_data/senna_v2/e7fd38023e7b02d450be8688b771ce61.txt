@@ -1,0 +1,95 @@
+     2016-10-03	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            One	        CD	      S-NP	         O	              -	      S-A0	(S1(PP(NP(NP*)
+           dead	        JJ	    S-ADJP	         O	              -	         O	(ADJP*))
+          after	        IN	      S-PP	         O	              -	         O	*
+       shooting	       VBG	      B-NP	         O	       shooting	       S-V	(S(VP*
+       incident	        NN	      E-NP	         O	              -	      S-A1	(NP*)))))
+
+           IRON	       NNP	      B-NP	     B-LOC	              -	(S1(NP*
+          RIVER	       NNP	      E-NP	     E-LOC	              -	*
+            —	         .	         O	         O	              -	*))
+
+            One	        CD	      B-NP	         O	              -	         O	         O	(S1(S(S(NP*
+            man	        NN	      E-NP	         O	              -	         O	         O	*)
+             is	       VBZ	      S-VP	         O	              -	         O	         O	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	         O	         O	(ADJP*)
+          after	        IN	      S-PP	         O	              -	         O	         O	(SBAR(S(PP*
+           what	        WP	      S-NP	         O	              -	    B-R-A0	         O	(NP*
+         police	        NN	      S-NP	         O	              -	    E-R-A0	         O	*))
+            are	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+        calling	       VBG	      E-VP	         O	        calling	       S-V	         O	(VP*
+             an	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(NP*
+     accidental	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	*
+       shooting	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)))))))
+       occurred	       VBD	      S-VP	         O	       occurred	      I-A1	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	(PP*
+           Iron	       NNP	      B-NP	     B-LOC	              -	      I-A1	  I-AM-LOC	(NP*
+          River	       NNP	      E-NP	     E-LOC	              -	      I-A1	  E-AM-LOC	*))
+             on	        IN	      S-PP	         O	              -	      I-A1	  B-AM-TMP	(PP*
+         Sunday	       NNP	      B-NP	         O	              -	      I-A1	  I-AM-TMP	(NP*
+          night	        NN	      E-NP	         O	              -	      E-A1	  E-AM-TMP	*)))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           Iron	       NNP	      B-NP	     B-LOC	              -	      B-A0	         O	         O	(S1(S(NP*
+          River	       NNP	      I-NP	     E-LOC	              -	      I-A0	         O	         O	*
+         Police	       NNP	      E-NP	         O	              -	      E-A0	         O	         O	*)
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	         O	(VP*
+           they	       PRP	      S-NP	         O	              -	      B-A1	      S-A0	         O	(SBAR(S(NP*)
+      responded	       VBD	      S-VP	         O	      responded	      I-A1	       S-V	         O	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A1	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A1	         O	(NP(NP*
+            911	        CD	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
+           call	        NN	      E-NP	         O	              -	      I-A1	      I-A1	         O	*)
+          about	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	         O	(NP*
+       incident	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	*))))
+        shortly	        RB	    S-ADVP	         O	              -	      I-A1	  B-AM-TMP	         O	(SBAR(ADVP*)
+         before	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	         O	*
+          10:00	        CD	      B-NP	         O	              -	      I-A1	  I-AM-TMP	  B-AM-TMP	(S(NP(NP*
+           p.m.	        NN	      I-NP	         O	              -	      I-A1	  I-AM-TMP	  E-AM-TMP	*)
+             An	        DT	      I-NP	         O	              -	      I-A1	  I-AM-TMP	      B-A1	(NP*
+        18-year	        JJ	      I-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	(ADJP*
+              -	         :	      I-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	*
+            old	        JJ	      I-NP	         O	              -	      I-A1	  I-AM-TMP	      I-A1	*)
+            man	        NN	      E-NP	         O	              -	      I-A1	  I-AM-TMP	      E-A1	*))
+            was	       VBD	      B-VP	         O	              -	      I-A1	  I-AM-TMP	         O	(VP*
+        fatally	        RB	      I-VP	         O	              -	      I-A1	  I-AM-TMP	  S-AM-MNR	(VP(ADVP*)
+           shot	       VBN	      E-VP	         O	           shot	      I-A1	  I-AM-TMP	       S-V	*
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-TMP	  I-AM-TMP	(NP*
+       incident	        NN	      E-NP	         O	              -	      E-A1	  E-AM-TMP	  E-AM-TMP	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)
+        remains	       VBZ	      S-VP	         O	        remains	       S-V	(VP*
+          under	        IN	      S-PP	         O	              -	      B-A3	(PP*
+  investigation	        NN	      S-NP	         O	              -	      E-A3	(NP*))
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+           this	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           time	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+           Iron	       NNP	      B-NP	     B-LOC	              -	      B-A1	(S1(S(NP*
+          River	       NNP	      I-NP	     E-LOC	              -	      I-A1	*
+         Police	       NNP	      E-NP	         O	              -	      E-A1	*)
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+       assisted	       VBN	      E-VP	         O	       assisted	       S-V	(VP*
+             by	        IN	      S-PP	         O	              -	      B-A0	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP(NP(NP*
+           Iron	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
+         County	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+        Sheriff	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+           ’s	        JJ	      I-NP	     I-ORG	              -	      I-A0	*
+         Office	       NNP	      E-NP	     E-ORG	              -	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A0	*
+            the	        DT	      B-NP	         O	              -	      I-A0	(NP*
+       Michigan	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
+          State	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+         Police	       NNP	      E-NP	     E-ORG	              -	      I-A0	*)
+              ,	         ,	         O	         O	              -	      I-A0	*)
+            and	        CC	         O	         O	              -	      I-A0	*
+        Aspirus	       NNP	      B-NP	     B-PER	              -	      I-A0	(NP*
+           EMS.	       NNP	      E-NP	     E-PER	              -	      E-A0	*)))))))
+

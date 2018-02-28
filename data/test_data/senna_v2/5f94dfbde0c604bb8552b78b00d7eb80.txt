@@ -1,0 +1,113 @@
+     2015-03-31	        CD	      S-NP	         O	              -	(S1(NP*))
+
+         2-year	       SYM	      S-NP	         O	              -	(S1(NP(NP(ADJP*
+              -	         :	         O	         O	              -	*
+            old	        JJ	      B-NP	         O	              -	*)
+            boy	        NN	      E-NP	         O	              -	*
+           shot	        NN	      S-VP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP*
+           head	        NN	      S-NP	         O	              -	(NP*))
+             at	        IN	      S-PP	         O	              -	(PP*
+        Madison	       NNP	      B-NP	     S-LOC	              -	(NP*
+      apartment	        NN	      E-NP	         O	              -	*))))
+
+      NASHVILLE	       NNP	      S-NP	     S-LOC	              -	(S1(NP(NP*)
+              ,	         ,	         O	         O	              -	*
+          Tenn.	       NNP	      S-NP	     S-PER	              -	(NP*)
+              (	     -LRB-	         O	         O	              -	(PRN*
+           WKRN	       NNP	      S-NP	     S-LOC	              -	(NP*)
+              )	     -RRB-	         O	         O	              -	*)))
+
+            –	       SYM	         O	         O	              -	(S1(NP*))
+
+              A	        DT	      B-NP	         O	              -	  B-AM-TMP	(S1(S(NP*
+            two	        CD	      I-NP	         O	              -	  I-AM-TMP	*
+              -	         :	      I-NP	         O	              -	  I-AM-TMP	*
+           year	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+              -	         :	         O	         O	              -	         O	*
+            old	        JJ	      B-NP	         O	              -	      B-A1	(NP*
+            boy	        NN	      E-NP	         O	              -	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	(VP*
+           shot	       VBN	      E-VP	         O	           shot	       S-V	(VP*
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+           head	        NN	      E-NP	         O	              -	  E-AM-LOC	*))
+        Tuesday	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP*
+      afternoon	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+             at	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+        Madison	       NNP	      I-NP	     S-LOC	              -	  I-AM-LOC	*
+      apartment	        NN	      I-NP	         O	              -	  I-AM-LOC	*
+        complex	        NN	      E-NP	         O	              -	  E-AM-LOC	*))))
+              .	         .	         O	         O	              -	         O	*))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	(S1(S(NP*)
+       happened	       VBD	      S-VP	         O	       happened	       S-V	(VP*
+         around	        IN	      S-PP	         O	              -	  B-AM-TMP	(ADVP*)
+           3:05	        CD	      B-NP	         O	              -	  I-AM-TMP	(NP(NP*
+           p.m.	        NN	      E-NP	         O	              -	  E-AM-TMP	*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP(NP*
+            300	        CD	      I-NP	         O	              -	  I-AM-LOC	*
+          block	        NN	      E-NP	         O	              -	  I-AM-LOC	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+            Rio	       NNP	      B-NP	     B-LOC	              -	  I-AM-LOC	(NP*
+          Vista	       NNP	      I-NP	     E-LOC	              -	  I-AM-LOC	*
+          Drive	       NNP	      E-NP	         O	              -	  I-AM-LOC	*)))))
+             at	        IN	      S-PP	         O	              -	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+        Charter	       NNP	      I-NP	     B-ORG	              -	  I-AM-LOC	*
+        Village	       NNP	      I-NP	     I-ORG	              -	  I-AM-LOC	*
+     Apartments	      NNPS	      E-NP	     E-ORG	              -	  E-AM-LOC	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(S1(S(NP(NP*
+          child	        NN	      E-NP	         O	              -	      E-A1	      I-A1	*)
+              ,	         ,	         O	         O	              -	         O	      I-A1	*
+     identified	       VBN	      S-VP	         O	     identified	       S-V	      I-A1	(VP*
+             as	        IN	      S-PP	         O	              -	      B-A2	      I-A1	(PP*
+        Kendall	       NNP	      B-NP	     B-PER	              -	      I-A2	      I-A1	(NP*
+      Pinkerton	       NNP	      E-NP	     E-PER	              -	      E-A2	      I-A1	*)))
+              ,	         ,	         O	         O	              -	         O	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+          taken	       VBN	      E-VP	         O	          taken	         O	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	         O	  B-AM-DIR	(PP*
+     Vanderbilt	       NNP	      B-NP	     B-ORG	              -	         O	  I-AM-DIR	(NP*
+     University	       NNP	      I-NP	     I-ORG	              -	         O	  I-AM-DIR	*
+        Medical	       NNP	      I-NP	     I-ORG	              -	         O	  I-AM-DIR	*
+         Center	       NNP	      E-NP	     E-ORG	              -	         O	  E-AM-DIR	*))
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-MNR	(PP*
+       critical	        JJ	      B-NP	         O	              -	         O	  I-AM-MNR	(NP*
+      condition	        NN	      E-NP	         O	              -	         O	  E-AM-MNR	*))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+          Metro	       NNP	      B-NP	     S-ORG	              -	      B-A0	         O	(S1(S(NP*
+         police	       NNS	      E-NP	         O	              -	      E-A0	         O	*)
+            are	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+    questioning	       VBG	      E-VP	         O	    questioning	       S-V	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A0	(NP(NP*
+         people	       NNS	      E-NP	         O	              -	      I-A1	      E-A0	*)
+            who	        WP	      S-NP	         O	              -	      I-A1	    S-R-A0	(SBAR(WHNP*)
+           were	       VBD	      S-VP	         O	              -	      I-A1	         O	(S(VP*
+         inside	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
+      apartment	        NN	      E-NP	         O	              -	      I-A1	         O	*))
+             to	        TO	      B-VP	         O	              -	      I-A1	         O	(S(VP*
+           find	        VB	      E-VP	         O	           find	      I-A1	       B-V	(VP*
+            out	        RP	    B-ADVP	         O	              -	      I-A1	       E-V	(ADVP*)
+           more	       RBR	    E-ADVP	         O	              -	      I-A1	      B-A1	(ADVP*
+          about	        IN	      S-PP	         O	              -	      I-A1	      I-A1	*)
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	(NP*
+  circumstances	       NNS	      E-NP	         O	              -	      E-A1	      E-A1	*))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             No	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+        charges	       NNS	      E-NP	         O	              -	      E-A1	*)
+           have	       VBP	      B-VP	         O	              -	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	(VP*
+          filed	       VBN	      E-VP	         O	          filed	       S-V	(VP*
+             at	        IN	      S-PP	         O	              -	  B-AM-TMP	(PP*
+           this	        DT	      B-NP	         O	              -	  I-AM-TMP	(NP*
+           time	        NN	      E-NP	         O	              -	  E-AM-TMP	*)))))
+              .	         .	         O	         O	              -	         O	*))
+

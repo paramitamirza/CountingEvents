@@ -1,0 +1,98 @@
+     2014-12-23	        CD	      S-NP	         O	              -	(S1(NP*))
+
+              5	        CD	      B-NP	         O	              -	(S1(NP(NP*
+          teens	       NNS	      I-NP	         O	              -	*
+           shot	        NN	      E-NP	         O	              -	*)
+             in	        IN	      S-PP	         O	              -	(PP(PP*
+          drive	        NN	      S-NP	         O	              -	(NP*))
+              -	         :	         O	         O	              -	*
+             by	        IN	      S-PP	         O	              -	(PP*
+       shooting	       VBG	      S-VP	         O	              -	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	(PP*
+        Chicago	       NNP	      S-NP	     S-LOC	              -	(NP*)))))))
+
+        CHICAGO	       NNP	      S-NP	     S-ORG	              -	(S1(NP*
+              (	     -LRB-	         O	         O	              -	*
+             AP	       NNP	         O	     S-ORG	              -	*
+              )	     -RRB-	         O	         O	              -	*
+            —	         .	         O	         O	              -	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	      B-A1	      B-A0	(S1(S(NP(NP*
+         gunman	        NN	      E-NP	         O	              -	      E-A0	      I-A1	      I-A0	*)
+         firing	       VBG	      S-VP	         O	         firing	       S-V	      I-A1	      I-A0	(VP*
+           from	        IN	      S-PP	         O	              -	      B-A1	      I-A1	      I-A0	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      I-A0	(NP*
+        minivan	        NN	      E-NP	         O	              -	      E-A1	      E-A1	      E-A0	*))))
+            has	       VBZ	      B-VP	         O	              -	         O	         O	         O	(VP(VP*
+           shot	       VBN	      I-VP	         O	           shot	         O	       S-V	         O	(VP*))
+            and	        CC	      I-VP	         O	              -	         O	         O	         O	*
+        wounded	       VBN	      E-VP	         O	        wounded	         O	         O	       S-V	(VP*
+           five	        CD	      B-NP	         O	              -	         O	      B-A1	      B-A1	(NP*
+      teenagers	       NNS	      E-NP	         O	              -	         O	      E-A1	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-LOC	      I-A1	(PP*
+        Chicago	       NNP	      S-NP	     S-LOC	              -	         O	  E-AM-LOC	      E-A1	(NP*))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A1	(S1(S(NP*
+       shooting	        NN	      E-NP	         O	              -	      E-A1	*)
+           took	       VBD	      S-VP	         O	           took	       S-V	(VP*
+          place	        NN	      S-NP	         O	              -	      S-A2	(NP*)
+         Monday	       NNP	      B-NP	         O	              -	  B-AM-TMP	(NP*)
+          night	        NN	      E-NP	         O	              -	  E-AM-TMP	(NP*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	(NP*
+      Englewood	       NNP	      I-NP	     S-LOC	              -	  I-AM-LOC	*
+   neighborhood	        NN	      E-NP	         O	              -	  E-AM-LOC	*)))
+              .	         .	         O	         O	              -	         O	*))
+
+          Three	        CD	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+          girls	       NNS	      E-NP	         O	              -	      I-A1	*)
+            and	        CC	         O	         O	              -	      I-A1	*
+            two	        CD	      B-NP	         O	              -	      I-A1	(NP*
+           boys	       NNS	      E-NP	         O	              -	      E-A1	*))
+           were	       VBD	      B-VP	         O	              -	         O	(VP*
+   hospitalized	       VBN	      E-VP	         O	   hospitalized	       S-V	(VP*))
+              .	         .	         O	         O	              -	         O	*))
+
+            All	        DT	      S-NP	         O	              -	(S1(S(NP*)
+            are	       VBP	      S-VP	         O	              -	(VP*
+             16	        CD	      S-NP	         O	              -	(ADJP(NP(QP*
+             or	        CC	         O	         O	              -	*
+             17	        CD	      B-NP	         O	              -	*)
+          years	       NNS	      E-NP	         O	              -	*)
+            old	        JJ	    S-ADJP	         O	              -	*))
+              .	         .	         O	         O	              -	*))
+
+        Chicago	       NNP	      B-NP	     S-LOC	              -	      B-A0	(S1(S(NP*
+         police	       NNS	      E-NP	         O	              -	      E-A0	*)
+            say	       VBP	      S-VP	         O	            say	       S-V	(VP*
+           they	       PRP	      S-NP	         O	              -	      B-A1	(SBAR(S(NP*)
+           were	       VBD	      S-VP	         O	              -	      I-A1	(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+         stable	        JJ	      B-NP	         O	              -	      I-A1	(NP*
+      condition	        NN	      E-NP	         O	              -	      I-A1	*))
+             as	        IN	      S-PP	         O	              -	      I-A1	(PP*
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+           late	        JJ	      B-NP	         O	              -	      I-A1	(NP*
+         Monday	       NNP	      I-NP	         O	              -	      I-A1	*
+          night	        NN	      E-NP	         O	              -	      E-A1	*)))))))
+              .	         .	         O	         O	              -	         O	*))
+
+             No	        DT	      B-NP	         O	              -	         O	         O	(S1(S(NP*
+       suspects	       NNS	      E-NP	         O	              -	         O	         O	*)
+           were	       VBD	      S-VP	         O	              -	         O	         O	(VP*
+             in	        IN	      S-PP	         O	              -	         O	         O	(PP*
+        custody	        NN	      S-NP	         O	              -	         O	         O	(NP*))
+             as	        IN	      S-PP	         O	              -	         O	         O	(PP*
+             of	        IN	      S-PP	         O	              -	         O	         O	(PP*
+        Tuesday	       NNP	      B-NP	         O	              -	         O	         O	(NP*
+        morning	        NN	      I-NP	         O	              -	         O	         O	*
+            and	        CC	      I-NP	         O	              -	         O	         O	*
+         police	       NNS	      E-NP	         O	              -	      S-A0	         O	*)))
+            say	       VBP	      S-VP	         O	            say	       S-V	         O	*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(SBAR(S(NP*
+         motive	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+        remains	       VBZ	      S-VP	         O	        remains	      I-A1	       S-V	(VP*
+        unclear	        JJ	    S-ADJP	         O	              -	      E-A1	      S-A3	(ADJP*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+

@@ -1,0 +1,489 @@
+     2016-11-17	        CD	      S-NP	         O	              -	(S1(NP*))
+
+            Why	       WRB	    S-ADVP	         O	              -	(S1(FRAG*
+              ?	         .	         O	         O	              -	*))
+
+            Amy	       NNP	      S-NP	     S-PER	              -	(S1(S(NP*
+            and	        CC	         O	         O	              -	*
+          Lance	       NNP	      B-NP	     B-PER	              -	*
+        Buckley	       NNP	      E-NP	     E-PER	              -	*)
+            and	        CC	         O	         O	              -	*
+            two	        CD	      B-NP	         O	              -	(S(NP*
+      daughters	       NNS	      E-NP	         O	              -	*)
+           dead	        JJ	    S-ADJP	         O	              -	(ADJP*
+             in	        IN	      S-PP	         O	              -	(PP*
+         murder	        NN	      B-NP	         O	              -	(NP*
+        suicide	        NN	      E-NP	         O	              -	*))))))
+
+            Amy	       NNP	      S-NP	     S-PER	              -	         O	         O	(S1(FRAG(NP(NP*
+            and	        CC	         O	         O	              -	         O	         O	*
+          Lance	       NNP	      B-NP	     B-PER	              -	         O	         O	*
+        Buckley	       NNP	      I-NP	     E-PER	              -	         O	         O	*
+         murder	        NN	      I-NP	         O	              -	         O	         O	*
+        suicide	        NN	      E-NP	         O	              -	         O	         O	*)
+              :	         :	         O	         O	              -	         O	         O	*
+           What	        WP	      S-NP	         O	              -	    S-R-A1	         O	(SBAR(WHNP*)
+            led	       VBD	      S-VP	         O	            led	       S-V	         O	(S(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	         O	(NP(NP*
+       Stafford	       NNP	      E-NP	     S-ORG	              -	      E-A2	         O	*
+              ,	         ,	         O	         O	              -	         O	         O	*
+       Virginia	       NNP	      B-NP	     S-LOC	              -	         O	      B-A0	*
+         father	        NN	      E-NP	         O	              -	         O	      E-A0	*)
+        killing	       VBG	      S-VP	         O	        killing	         O	       S-V	(VP*
+            his	      PRP$	      B-NP	         O	              -	         O	      B-A1	(NP(NP*
+           wife	        NN	      E-NP	         O	              -	         O	      I-A1	*)
+            and	        CC	         O	         O	              -	         O	      I-A1	*
+          their	      PRP$	      B-NP	         O	              -	         O	      I-A1	(NP*
+            two	        CD	      I-NP	         O	              -	         O	      I-A1	*
+         infant	        NN	      I-NP	         O	              -	         O	      I-A1	*
+      daughters	       NNS	      E-NP	         O	              -	         O	      E-A1	*)))))))))
+              ?	         .	         O	         O	              -	         O	         O	*))
+
+            Amy	       NNP	      S-NP	     S-PER	              -	      B-A1	         O	(S1(S(NP(NP*
+            and	        CC	         O	         O	              -	      I-A1	         O	*
+          Lance	       NNP	      B-NP	     B-PER	              -	      I-A1	         O	*
+        Buckley	       NNP	      E-NP	     E-PER	              -	      I-A1	         O	*)
+              a	        DT	      B-NP	         O	              -	      I-A1	         O	(NP*
+       Stafford	       NNP	      E-NP	     S-ORG	              -	      I-A1	         O	*))
+              ,	         ,	         O	         O	              -	      I-A1	         O	*
+       Virginia	       NNP	      B-NP	     S-LOC	              -	      I-A1	         O	(NP*
+         couple	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+           have	       VBP	      B-VP	         O	              -	         O	         O	(VP*
+           been	       VBN	      I-VP	         O	              -	         O	         O	(VP*
+          found	       VBN	      E-VP	         O	          found	       S-V	         O	(VP*
+           dead	        JJ	    S-ADJP	         O	              -	      B-A3	         O	(S(ADJP*))
+      alongside	        IN	      S-PP	         O	              -	      I-A3	         O	(PP*
+          their	      PRP$	      B-NP	         O	              -	      I-A3	         O	(NP(NP*
+            two	        CD	      I-NP	         O	              -	      I-A3	         O	*
+      daughters	       NNS	      E-NP	         O	              -	      E-A3	         O	*)
+             in	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(PP*
+              a	        DT	      B-NP	         O	              -	  I-AM-LOC	         O	(NP*
+      suspected	       VBN	      I-NP	         O	      suspected	  I-AM-LOC	       S-V	*
+         murder	        NN	      I-NP	         O	              -	  I-AM-LOC	      B-A1	*
+        suicide	        NN	      E-NP	         O	              -	  E-AM-LOC	      E-A1	*)))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+       Stafford	       NNP	      B-NP	     B-ORG	              -	      B-A0	         O	         O	(S1(S(NP*
+         County	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	         O	*
+        Sheriff	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	         O	*
+           ’s	       NNP	      I-NP	     I-ORG	              -	      I-A0	         O	         O	*
+         Office	       NNP	      E-NP	     E-ORG	              -	      E-A0	         O	         O	*)
+           told	       VBD	      S-VP	         O	           told	       S-V	         O	         O	(VP*
+             of	        IN	      S-PP	         O	              -	      B-A1	         O	         O	(PP*
+        finding	       VBG	      S-VP	         O	        finding	      I-A1	       S-V	         O	(S(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	         O	(NP*
+        parents	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+          along	        IN	      S-PP	         O	              -	      I-A1	  B-AM-LOC	         O	(PP*
+           with	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	         O	(PP*
+          their	      PRP$	      B-NP	         O	              -	      I-A1	  I-AM-LOC	         O	(NP(NP*
+            two	        CD	      I-NP	         O	              -	      I-A1	  I-AM-LOC	         O	*
+         infant	        NN	      I-NP	         O	              -	      I-A1	  I-AM-LOC	         O	*
+       children	       NNS	      E-NP	         O	              -	      I-A1	  I-AM-LOC	         O	*)
+              ,	         ,	         O	         O	              -	      I-A1	  I-AM-LOC	         O	*
+         Claire	       NNP	      S-NP	     S-PER	              -	      I-A1	  I-AM-LOC	         O	(NP*)
+            and	        CC	         O	         O	              -	      I-A1	  I-AM-LOC	         O	*
+        Abigail	       NNP	      S-NP	     S-PER	              -	      I-A1	  I-AM-LOC	         O	(NP*)))
+              ,	         ,	         O	         O	              -	      I-A1	  I-AM-LOC	         O	*
+           aged	       VBN	      B-NP	         O	           aged	      I-A1	  I-AM-LOC	       S-V	(PP*
+              5	        CD	      I-NP	         O	              -	      I-A1	  I-AM-LOC	      B-A1	(NP(NP(NP*)
+            and	        CC	      I-NP	         O	              -	      I-A1	  I-AM-LOC	      I-A1	*
+             18	        CD	      I-NP	         O	              -	      I-A1	  I-AM-LOC	      I-A1	(NP*
+         months	       NNS	      E-NP	         O	              -	      I-A1	  I-AM-LOC	      E-A1	*))
+             at	        IN	      S-PP	         O	              -	      I-A1	  I-AM-LOC	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	(NP*
+         family	        NN	      I-NP	         O	              -	      I-A1	  I-AM-LOC	  I-AM-TMP	*
+           home	        NN	      E-NP	         O	              -	      I-A1	  E-AM-LOC	  I-AM-TMP	*
+       Thursday	       NNP	      B-NP	         O	              -	      I-A1	  B-AM-TMP	  I-AM-TMP	*
+        morning	        NN	      E-NP	         O	              -	      E-A1	  E-AM-TMP	  E-AM-TMP	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+             To	        TO	      S-PP	         O	              -	      B-A0	         O	(S1(S(PP*
+           date	        NN	      B-NP	         O	              -	      I-A0	         O	(NP*
+         police	       NNS	      E-NP	         O	              -	      E-A0	         O	*))
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	(VP*
+           they	       PRP	      S-NP	         O	              -	      B-A1	      S-A2	(SBAR(S(NP*)
+           were	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+       treating	       VBG	      E-VP	         O	       treating	      I-A1	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	(NP*
+        tragedy	        NN	      E-NP	         O	              -	      I-A1	      E-A1	*)
+             as	        IN	      S-PP	         O	              -	      I-A1	      B-A2	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A2	(NP*
+         murder	        NN	      I-NP	         O	              -	      I-A1	      I-A2	*
+        suicide	        NN	      E-NP	         O	              -	      E-A1	      E-A2	*)))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            How	       WRB	    S-ADVP	         O	              -	         O	      B-A1	(S1(S(SBAR(WHADVP*)
+            the	        DT	      B-NP	         O	              -	      B-A1	      I-A1	(S(NP*
+         family	        NN	      E-NP	         O	              -	      E-A1	      I-A1	*)
+           came	       VBD	      B-VP	         O	           came	       S-V	      I-A1	(VP*
+             to	        TO	      I-VP	         O	              -	    B-C-A1	      I-A1	(S(VP*
+            die	        VB	      E-VP	         O	              -	    E-C-A1	      E-A1	(VP*))))))
+            has	       VBZ	      B-VP	         O	              -	         O	         O	(VP*
+            yet	        RB	      I-VP	         O	              -	         O	         O	(ADVP*)
+             to	        TO	      I-VP	         O	              -	         O	         O	(S(VP*
+             be	        VB	      I-VP	         O	              -	         O	         O	(VP*
+       revealed	       VBN	      E-VP	         O	       revealed	         O	       S-V	(VP*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           That	        DT	      S-NP	         O	              -	      S-A0	         O	         O	         O	         O	(S1(S(NP*)
+           said	       VBD	      S-VP	         O	           said	       S-V	         O	         O	         O	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A0	         O	         O	         O	(NP(NP*
+         report	        NN	      E-NP	         O	              -	      I-A1	      I-A0	         O	         O	         O	*)
+            via	        IN	      S-PP	         O	              -	      I-A1	      I-A0	         O	         O	         O	(PP*
+fredericksburg.com	        NN	      S-NP	         O	              -	      I-A1	      E-A0	         O	         O	         O	(NP(NP*)
+           told	       VBN	      S-VP	         O	           told	      I-A1	       S-V	         O	         O	         O	(VP*
+             of	        IN	      S-PP	         O	              -	      I-A1	      B-A2	         O	         O	         O	(PP*
+    authorities	       NNS	      S-NP	         O	              -	      I-A1	      E-A2	      S-A0	         O	         O	(S(NP*)
+      believing	       VBG	      S-VP	         O	      believing	      I-A1	      B-A1	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      B-A1	      B-A0	      B-A0	(SBAR(S(NP*
+         father	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      I-A1	      E-A0	      E-A0	*)
+         killed	       VBD	      S-VP	         O	         killed	      I-A1	      I-A1	      I-A1	       S-V	         O	(VP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	      I-A1	      I-A1	      B-A1	         O	(NP(NP*
+           wife	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	         O	*)
+            and	        CC	         O	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	         O	*
+            two	        CD	      B-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	         O	(NP*
+          young	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	      I-A1	         O	*
+      daughters	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	      I-A1	      E-A1	         O	*))
+         before	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      I-A1	  B-AM-TMP	         O	(PP*
+     committing	       VBG	      S-VP	         O	     committing	      I-A1	      I-A1	      I-A1	  I-AM-TMP	       S-V	(S(VP*
+        suicide	        NN	      S-NP	         O	              -	      I-A1	      I-A1	      I-A1	  I-AM-TMP	      S-A1	(NP*)
+         inside	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      I-A1	  I-AM-TMP	  B-AM-LOC	(PP*
+          their	      PRP$	      B-NP	         O	              -	      I-A1	      I-A1	      I-A1	  I-AM-TMP	  I-AM-LOC	(NP*
+        Windsor	       NNP	      I-NP	     B-LOC	              -	      I-A1	      I-A1	      I-A1	  I-AM-TMP	  I-AM-LOC	*
+         Forest	       NNP	      I-NP	     E-LOC	              -	      I-A1	      I-A1	      I-A1	  I-AM-TMP	  I-AM-LOC	*
+           home	        NN	      E-NP	         O	              -	      E-A1	      E-A1	      E-A1	  E-AM-TMP	  E-AM-LOC	*))))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	      B-A1	(S1(S(NP*
+         report	        NN	      E-NP	         O	              -	      E-A0	         O	      I-A1	*)
+           told	       VBD	      S-VP	         O	           told	       S-V	         O	      I-A1	(VP*
+             of	        IN	      S-PP	         O	              -	      B-A1	         O	      I-A1	(PP*
+            Amy	       NNP	      S-NP	     S-PER	              -	      I-A1	      B-A0	      I-A1	(NP(NP*
+            and	        CC	         O	         O	              -	      I-A1	      I-A0	      I-A1	*
+          Lance	       NNP	      B-NP	     B-PER	              -	      I-A1	      I-A0	      I-A1	*
+        Buckley	       NNP	      E-NP	     E-PER	              -	      I-A1	      E-A0	      I-A1	*)
+         living	       VBG	      S-VP	         O	         living	      I-A1	       S-V	      I-A1	(VP*
+           with	        IN	      S-PP	         O	              -	      I-A1	      B-A1	      I-A1	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	      I-A1	      I-A1	(NP*
+        parents	       NNS	      E-NP	         O	              -	      I-A1	      I-A1	      I-A1	*))
+             at	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      I-A1	(PP*
+          their	      PRP$	      B-NP	         O	              -	      I-A1	      I-A1	      I-A1	(NP(NP*
+          rural	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	*
+           home	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      I-A1	*)
+           with	        IN	      S-PP	         O	              -	      I-A1	      I-A1	      I-A1	(PP*
+          their	      PRP$	      B-NP	         O	              -	      I-A1	      I-A1	      I-A1	(NP*
+            two	        CD	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	*
+          young	        JJ	      I-NP	         O	              -	      I-A1	      I-A1	      I-A1	*
+      daughters	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	      E-A1	*))))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	*
+         moving	       VBG	      S-VP	         O	         moving	      I-A1	  B-AM-ADV	       S-V	(S(VP*
+             in	        IN	      S-PP	         O	              -	      I-A1	  I-AM-ADV	  B-AM-TMP	(PP*
+           some	        DT	      B-NP	         O	              -	      I-A1	  I-AM-ADV	  I-AM-TMP	(NP*
+           time	        NN	      E-NP	         O	              -	      I-A1	  I-AM-ADV	  I-AM-TMP	*))
+           last	        JJ	      B-NP	         O	              -	      I-A1	  I-AM-ADV	  I-AM-TMP	(NP*
+           year	        NN	      E-NP	         O	              -	      E-A1	  E-AM-ADV	  E-AM-TMP	*)))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+           News	        NN	      S-NP	         O	              -	      B-A0	      B-A1	(S1(S(NP(NP*)
+             of	        IN	      S-PP	         O	              -	      I-A0	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A0	      I-A1	(NP*
+         family	        NN	      I-NP	         O	              -	      I-A0	      I-A1	*
+         murder	        NN	      I-NP	         O	              -	      I-A0	      I-A1	*
+        suicide	        NN	      E-NP	         O	              -	      E-A0	      I-A1	*)))
+            led	       VBD	      S-VP	         O	            led	       S-V	      I-A1	(VP*
+             to	        TO	      S-PP	         O	              -	      B-A2	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	      I-A1	(S(NP*
+        husband	        NN	      E-NP	         O	              -	      I-A2	      I-A1	*
+           ’s	        JJ	      B-NP	         O	              -	      I-A2	      I-A1	*
+        parents	       NNS	      E-NP	         O	              -	      I-A2	      E-A1	*)
+          being	       VBG	      S-VP	         O	              -	      I-A2	         O	(VP*
+            too	        RB	    B-ADJP	         O	              -	      I-A2	         O	(ADJP*
+     distraught	        JJ	    E-ADJP	         O	              -	      I-A2	         O	*
+             to	        TO	      B-VP	         O	              -	      I-A2	         O	(S(VP*
+          speak	        VB	      I-VP	         O	              -	      I-A2	         O	(VP*
+           come	       VBN	      E-VP	         O	           come	      I-A2	       S-V	(VP*
+       Thursday	       NNP	      B-NP	         O	              -	      I-A2	  B-AM-TMP	(NP*
+          night	        NN	      E-NP	         O	              -	      I-A2	  E-AM-TMP	*)
+          along	        IN	      S-PP	         O	              -	      I-A2	  B-AM-LOC	(PP*
+           with	        IN	      S-PP	         O	              -	      I-A2	  I-AM-LOC	(PP*
+      neighbors	       NNS	      S-NP	         O	              -	      I-A2	  I-AM-LOC	(NP(NP*)
+             on	        IN	      S-PP	         O	              -	      I-A2	  I-AM-LOC	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A2	  I-AM-LOC	(NP*
+          quiet	        JJ	      I-NP	         O	              -	      I-A2	  I-AM-LOC	*
+       suburban	        JJ	      I-NP	         O	              -	      I-A2	  I-AM-LOC	*
+         street	        NN	      E-NP	         O	              -	      E-A2	  E-AM-LOC	*))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             Of	        IN	      S-PP	         O	              -	  B-AM-DIS	         O	(S1(S(PP*
+           note	        NN	      S-NP	         O	              -	  E-AM-DIS	         O	(NP*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+            the	        DT	      B-NP	         O	              -	      B-A0	         O	(NP*
+         couple	        NN	      E-NP	         O	              -	      E-A0	         O	*)
+            had	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+       welcomed	       VBN	      E-VP	         O	       welcomed	       S-V	         O	(VP*
+          their	      PRP$	      B-NP	         O	              -	      B-A1	         O	(NP*
+         second	        JJ	      I-NP	         O	              -	      I-A1	         O	*
+          child	        NN	      I-NP	         O	              -	      I-A1	         O	*)
+        Abigail	       NNP	      E-NP	     S-PER	              -	      E-A1	         O	(NP*)
+             in	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+          April	       NNP	      S-NP	         O	              -	  I-AM-TMP	         O	(NP*))
+           last	        JJ	      B-NP	         O	              -	  I-AM-TMP	         O	(NP(NP*
+           year	        NN	      E-NP	         O	              -	  E-AM-TMP	         O	*)
+              ,	         ,	         O	         O	              -	         O	         O	*
+         eleven	        CD	      B-NP	         O	              -	  B-AM-TMP	         O	(SBAR(NP*
+           days	       NNS	      E-NP	         O	              -	  I-AM-TMP	         O	*)
+         before	        IN	    S-SBAR	         O	              -	  I-AM-TMP	         O	*
+          Lance	       NNP	      B-NP	     B-PER	              -	  I-AM-TMP	      B-A1	(S(NP*
+        Buckley	       NNP	      E-NP	     E-PER	              -	  I-AM-TMP	      E-A1	*)
+       vanished	       VBD	      S-VP	         O	       vanished	  I-AM-TMP	       S-V	(VP*
+           from	        IN	      S-PP	         O	              -	  I-AM-TMP	      B-A3	(PP*
+           home	        NN	      S-NP	         O	              -	  E-AM-TMP	      E-A3	(NP*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+             In	        IN	      S-PP	         O	              -	         O	         O	         O	         O	(S1(S(PP*
+           turn	        VB	      S-VP	         O	           turn	       S-V	         O	         O	         O	(S(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	      B-A1	         O	         O	(NP*
+         father	        NN	      E-NP	         O	              -	      E-A1	      E-A1	         O	         O	*))))
+         became	       VBD	      S-VP	         O	         became	         O	       S-V	         O	         O	(VP*
+            the	        DT	      B-NP	         O	              -	         O	      B-A2	         O	         O	(NP(NP*
+        subject	        NN	      E-NP	         O	              -	         O	      I-A2	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A2	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	      I-A2	         O	         O	(NP(NP*
+        missing	        JJ	      I-NP	         O	              -	         O	      I-A2	         O	         O	*
+         person	        NN	      E-NP	         O	              -	         O	      E-A2	         O	         O	*
+           ’s	        JJ	      B-NP	         O	              -	         O	      B-A1	         O	         O	*
+         appeal	        NN	      E-NP	         O	              -	         O	      E-A1	         O	         O	*)
+          after	        IN	      S-PP	         O	              -	  B-AM-TMP	  B-AM-TMP	         O	         O	(PP*
+   disappearing	       VBG	      S-VP	         O	   disappearing	  I-AM-TMP	  I-AM-TMP	       S-V	         O	(S(VP*
+          while	        IN	    S-SBAR	         O	              -	  I-AM-TMP	  I-AM-TMP	  B-AM-TMP	         O	(PP*
+             on	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	         O	(PP*
+            his	      PRP$	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	         O	(NP(NP*
+            way	        NN	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	         O	*)
+             to	        TO	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	         O	(PP*
+         Howard	       NNP	      B-NP	     B-LOC	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	         O	(NP(NP*
+     University	       NNP	      E-NP	     E-LOC	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	         O	*)
+          where	       WRB	    S-ADVP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	         O	(SBAR(WHADVP*)
+             he	       PRP	      S-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	      S-A0	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	         O	(VP*
+       studying	       VBG	      E-VP	         O	       studying	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	       S-V	(VP*
+              a	        DT	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	      B-A1	(NP(NP*
+            PhD	       NNP	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	      E-A1	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  I-AM-TMP	  I-AM-TMP	  B-AM-LOC	(PP*
+   microbiology	        NN	      S-NP	         O	              -	  E-AM-TMP	  E-AM-TMP	  E-AM-TMP	  E-AM-LOC	(NP*)))))))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+             At	        IN	      S-PP	         O	              -	         O	         O	(S1(S(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	(NP*
+           time	        NN	      E-NP	         O	              -	         O	         O	*))
+            his	      PRP$	      B-NP	         O	              -	      B-A0	      B-A0	(NP*
+           wife	        NN	      E-NP	         O	              -	      E-A0	      E-A0	*)
+        pleaded	       VBD	      S-VP	         O	        pleaded	       S-V	         O	(VP*
+            for	        IN	      S-PP	         O	              -	      B-A1	         O	(PP*
+            his	      PRP$	      B-NP	         O	              -	      I-A1	         O	(NP*
+         return	        NN	      E-NP	         O	              -	      E-A1	         O	*))
+              ,	         ,	         O	         O	              -	         O	         O	*
+     describing	       VBG	      S-VP	         O	     describing	  B-AM-ADV	       S-V	(S(VP*
+            him	       PRP	      S-NP	         O	              -	  I-AM-ADV	      S-A1	(NP*)
+             as	        IN	      S-PP	         O	              -	  I-AM-ADV	      B-A2	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	      I-A2	(NP(NP*
+            ‘	        JJ	      I-NP	         O	              -	  I-AM-ADV	      I-A2	*
+           love	        NN	      E-NP	         O	              -	  I-AM-ADV	      I-A2	*)
+             of	        IN	      S-PP	         O	              -	  I-AM-ADV	      I-A2	(PP*
+            her	       PRP	      S-NP	         O	              -	  E-AM-ADV	      E-A2	(NP*)))))))))
+
+       life’.	       SYM	         O	         O	              -	(S1(NP*))
+
+             He	       PRP	      S-NP	         O	              -	      S-A1	      S-A1	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+        missing	       VBG	      E-VP	         O	        missing	       S-V	         O	(VP*
+            for	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+           more	       JJR	      B-NP	         O	              -	  I-AM-TMP	         O	(NP(QP*
+           than	        IN	      I-NP	         O	              -	  I-AM-TMP	         O	*
+              a	        DT	      I-NP	         O	              -	  I-AM-TMP	         O	*)
+           week	        NN	      E-NP	         O	              -	  I-AM-TMP	         O	*))
+         before	        IN	      S-PP	         O	              -	  I-AM-TMP	         O	(PP*
+          being	       VBG	      B-VP	         O	              -	  I-AM-TMP	         O	(S(VP*
+          found	       VBN	      E-VP	         O	          found	  I-AM-TMP	       S-V	(VP*
+         safely	        RB	    S-ADVP	         O	              -	  I-AM-TMP	  S-AM-MNR	(ADVP*)
+             in	        IN	      S-PP	         O	              -	  I-AM-TMP	  B-AM-LOC	(PP*
+       Maryland	       NNP	      S-NP	     S-LOC	              -	  E-AM-TMP	  E-AM-LOC	(NP*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            Yet	        RB	    S-ADVP	         O	              -	  S-AM-DIS	         O	         O	         O	(S1(SQ*
+             to	        TO	      B-VP	         O	              -	         O	         O	         O	         O	(S(VP*
+             be	        VB	      I-VP	         O	              -	         O	         O	         O	         O	(VP*
+    necessarily	        RB	      I-VP	         O	              -	  S-AM-ADV	         O	         O	         O	(ADVP*)
+     understood	       VBN	      E-VP	         O	     understood	       S-V	         O	         O	         O	(VP*))))
+             is	       VBZ	      S-VP	         O	              -	         O	         O	         O	         O	(VP*
+           what	        WP	      S-NP	         O	              -	      B-A1	    S-R-A1	         O	         O	(SBAR(WHNP*)
+            led	       VBD	      S-VP	         O	            led	      I-A1	       S-V	         O	         O	(S(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A2	         O	         O	(UCP(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A2	      B-A1	         O	(NP*
+         father	        NN	      E-NP	         O	              -	      I-A1	      E-A2	      E-A1	         O	*))
+   disappearing	       VBG	      S-VP	         O	   disappearing	      I-A1	         O	       S-V	         O	(VP*)
+            and	        CC	         O	         O	              -	      I-A1	         O	         O	         O	*
+        whether	        IN	    S-SBAR	         O	              -	      I-A1	         O	         O	         O	(SBAR*
+         family	        NN	      B-NP	         O	              -	      I-A1	         O	         O	      B-A0	(S(NP*
+        fissure	        NN	      E-NP	         O	              -	      I-A1	         O	         O	      E-A0	*)
+        brought	       VBN	      S-VP	         O	        brought	      I-A1	         O	         O	       S-V	(VP*
+         strain	        NN	      S-NP	         O	              -	      I-A1	         O	         O	      S-A1	(NP*)
+           upon	        IN	      S-PP	         O	              -	      I-A1	         O	         O	  B-AM-TMP	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	  I-AM-TMP	(NP*
+         couple	        NN	      I-NP	         O	              -	      I-A1	         O	         O	  I-AM-TMP	*
+           ’s	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	  I-AM-TMP	*
+       marriage	        NN	      E-NP	         O	              -	      E-A1	         O	         O	  E-AM-TMP	*))))))))))
+              ?	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+          While	        IN	    S-SBAR	         O	              -	         O	         O	         O	         O	         O	         O	(S1(S(SBAR*
+         police	       NNS	      S-NP	         O	              -	      S-A0	      S-A0	         O	         O	         O	         O	(S(NP*)
+           have	       VBP	      B-VP	         O	              -	         O	         O	         O	         O	         O	         O	(VP*
+       declined	       VBN	      I-VP	         O	       declined	       S-V	         O	         O	         O	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	         O	         O	         O	         O	(S(VP*
+        specify	        VB	      E-VP	         O	        specify	      I-A1	       S-V	         O	         O	         O	         O	(VP*
+            how	       WRB	    S-ADVP	         O	              -	      I-A1	      B-A1	         O	         O	         O	         O	(SBAR(WHADVP*)
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	      B-A1	         O	         O	         O	(S(NP*
+         family	        NN	      E-NP	         O	              -	      I-A1	      I-A1	      E-A1	         O	         O	         O	*)
+           died	       VBD	      S-VP	         O	           died	      E-A1	      E-A1	       S-V	         O	         O	         O	(VP*))))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	         O	*
+              a	        DT	      B-NP	         O	              -	         O	         O	         O	      B-A1	      B-A0	         O	(NP(NP*
+      statement	        NN	      E-NP	         O	              -	         O	         O	         O	      E-A1	      I-A0	         O	*)
+       released	       VBN	      S-VP	         O	       released	         O	         O	         O	       S-V	      I-A0	         O	(VP*
+             by	        IN	      S-PP	         O	              -	         O	         O	         O	      B-A0	      I-A0	         O	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	      I-A0	      I-A0	         O	(NP*
+        sheriff	        NN	      I-NP	         O	              -	         O	         O	         O	      I-A0	      I-A0	         O	*
+           ’s	        NN	      I-NP	         O	              -	         O	         O	         O	      I-A0	      I-A0	         O	*
+         office	        NN	      E-NP	         O	              -	         O	         O	         O	      E-A0	      E-A0	         O	*))))
+      confirmed	       VBD	      S-VP	         O	      confirmed	         O	         O	         O	         O	       S-V	         O	(VP*
+           they	       PRP	      S-NP	         O	              -	         O	         O	         O	         O	      B-A1	      S-A0	(SBAR(S(NP*)
+           were	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	      I-A1	         O	(VP*
+       treating	       VBG	      E-VP	         O	       treating	         O	         O	         O	         O	      I-A1	       S-V	(VP*
+             it	       PRP	      S-NP	         O	              -	         O	         O	         O	         O	      I-A1	      S-A2	(NP*)
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	         O	      I-A1	      B-A1	(NP(NP*
+        tragedy	        NN	      E-NP	         O	              -	         O	         O	         O	         O	      I-A1	      E-A1	*)
+             as	        IN	      S-PP	         O	              -	         O	         O	         O	         O	      I-A1	      B-A2	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	         O	         O	      I-A1	      I-A2	(NP*
+            ‘	        JJ	      I-NP	         O	              -	         O	         O	         O	         O	      I-A1	      I-A2	*
+       domestic	        JJ	      I-NP	         O	              -	         O	         O	         O	         O	      I-A1	      I-A2	*
+         murder	        NN	      I-NP	         O	              -	         O	         O	         O	         O	      I-A1	      I-A2	*
+    suicide’.	        NN	      E-NP	         O	              -	         O	         O	         O	         O	      E-A1	      E-A2	*))))))))))
+
+           Read	        VB	      S-VP	         O	           Read	       S-V	         O	(S1(S(S(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	      B-A1	(NP*
+      statement	        NN	      E-NP	         O	              -	      E-A1	      E-A1	*)))
+           come	       VBN	      S-VP	         O	           come	         O	       S-V	(VP*
+       Thursday	       NNP	      B-NP	         O	              -	         O	  B-AM-TMP	(NP*
+        evening	        NN	      E-NP	         O	              -	         O	  E-AM-TMP	*))
+              :	         :	         O	         O	              -	         O	         O	*))
+
+            ‘	       SYM	         O	         O	              -	(S1(NP*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+       Stafford	       NNP	      I-NP	     B-ORG	              -	      I-A0	*
+         County	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+        Sheriff	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+           ’s	       NNP	      I-NP	     I-ORG	              -	      I-A0	*
+         Office	       NNP	      E-NP	     E-ORG	              -	      E-A0	*)
+             is	       VBZ	      B-VP	         O	              -	         O	(VP*
+     conducting	       VBG	      E-VP	         O	     conducting	       S-V	(VP*
+             an	        DT	      B-NP	         O	              -	      B-A1	(NP(NP*
+  investigation	        NN	      E-NP	         O	              -	      I-A1	*)
+           into	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+         deaths	       NNS	      E-NP	         O	              -	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+           four	        CD	      B-NP	         O	              -	      I-A1	(NP(NP*
+    individuals	       NNS	      E-NP	         O	              -	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+        Windsor	       NNP	      I-NP	     B-LOC	              -	      I-A1	*
+         Forest	       NNP	      I-NP	     I-LOC	              -	      I-A1	*
+    Subdivision	       NNP	      E-NP	     E-LOC	              -	      I-A1	*))))
+             in	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+   northwestern	        JJ	      I-NP	         O	              -	      I-A1	*
+        portion	        NN	      E-NP	         O	              -	      I-A1	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	(NP*
+         county	        NN	      E-NP	         O	              -	      E-A1	*)))))))))
+              .	         .	         O	         O	              -	         O	*))
+
+            ‘	       SYM	         O	         O	              -	(S1(NP*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP*
+    preliminary	        JJ	      I-NP	         O	              -	      I-A0	*
+  investigation	        NN	      E-NP	         O	              -	      E-A0	*)
+            has	       VBZ	      B-VP	         O	              -	         O	(VP*
+     determined	       VBN	      E-VP	         O	     determined	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	      B-A1	(SBAR(S(NP*
+       incident	        NN	      E-NP	         O	              -	      I-A1	*)
+            was	       VBD	      S-VP	         O	              -	      I-A1	(VP*
+              a	        DT	      B-NP	         O	              -	      I-A1	(NP(NP*
+       domestic	        JJ	      I-NP	         O	              -	      I-A1	*
+        related	        JJ	      I-NP	         O	              -	      I-A1	*
+         murder	        NN	      E-NP	         O	              -	      I-A1	*)
+              -	         :	         O	         O	              -	      I-A1	*
+        suicide	        NN	      S-NP	         O	              -	      E-A1	(NP*)))))))
+              .	         .	         O	         O	              -	         O	*))
+
+            ‘	       SYM	         O	         O	              -	(S1(NP*))
+
+            The	        DT	      B-NP	         O	              -	(S1(S(NP(NP*
+           ages	       NNS	      E-NP	         O	              -	*)
+             of	        IN	      S-PP	         O	              -	(PP*
+            the	        DT	      B-NP	         O	              -	(NP*
+       deceased	       VBN	      E-NP	         O	              -	*)))
+            are	       VBP	      S-VP	         O	              -	(VP*
+              a	        DT	      B-NP	         O	              -	(NP(NP*
+        35-year	        JJ	      I-NP	         O	              -	*)
+              -	         :	      I-NP	         O	              -	*
+            old	        JJ	      I-NP	         O	              -	(NP(NP*
+           male	        NN	      E-NP	         O	              -	*)
+              ,	         ,	         O	         O	              -	*
+              a	        DT	      B-NP	         O	              -	(NP*
+        30-year	        JJ	      I-NP	         O	              -	(ADJP*
+              -	         :	      I-NP	         O	              -	*
+            old	        JJ	      I-NP	         O	              -	*)
+              -	         :	      I-NP	         O	              -	*
+         female	        NN	      E-NP	         O	              -	(NP*)
+              ,	         ,	         O	         O	              -	*
+              a	        DT	      B-NP	         O	              -	(NP*
+           five	        CD	      I-NP	         O	              -	*)
+              -	         :	      I-NP	         O	              -	*
+           year	        NN	      E-NP	         O	              -	(NP*)))
+              -	         :	         O	         O	              -	*
+            old	        JJ	      B-NP	         O	              -	(NP(NP*
+         female	        NN	      E-NP	         O	              -	*)
+            and	        CC	         O	         O	              -	*
+             an	        DT	      B-NP	         O	              -	(NP*
+       18-month	        JJ	      I-NP	         O	              -	(ADJP*
+              -	         :	      I-NP	         O	              -	*
+            old	        JJ	      I-NP	         O	              -	*)
+              -	         :	      I-NP	         O	              -	*
+     female.’	        NN	      E-NP	         O	              -	(NP*)))))))
+
+            Not	        RB	         O	         O	              -	  B-AM-DIS	         O	(S1(SBARQ*
+    necessarily	        RB	      B-VP	         O	              -	  E-AM-DIS	         O	(ADVP*)
+     understood	       VBN	      E-VP	         O	     understood	       S-V	         O	*
+             is	       VBZ	      S-VP	         O	              -	         O	         O	(SQ*
+        whether	        IN	    S-SBAR	         O	              -	      B-A1	         O	(SBAR*
+         police	       NNS	      S-NP	         O	              -	      I-A1	      S-A1	(S(NP*)
+            had	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+     previously	        RB	      I-VP	         O	              -	      I-A1	  S-AM-TMP	(ADVP*)
+           been	       VBN	      I-VP	         O	              -	      I-A1	         O	(VP*
+         called	       VBN	      E-VP	         O	         called	      I-A1	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A2	(UCP(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A2	(NP*
+         family	        NN	      I-NP	         O	              -	      I-A1	      I-A2	*
+           home	        NN	      E-NP	         O	              -	      I-A1	      E-A2	*))
+             or	        CC	         O	         O	              -	      I-A1	         O	*
+             if	        IN	    S-SBAR	         O	              -	      I-A1	         O	(SBAR*
+          there	        EX	      S-NP	         O	              -	      I-A1	         O	(S(NP*)
+            had	       VBD	      B-VP	         O	              -	      I-A1	         O	(VP*
+           been	       VBN	      E-VP	         O	              -	      I-A1	         O	(VP*
+          other	        JJ	      B-NP	         O	              -	      I-A1	         O	(NP(NP*
+        reports	       NNS	      E-NP	         O	              -	      I-A1	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	(PP*
+    disturbance	        NN	      S-NP	         O	              -	      E-A1	         O	(NP*)))))))))))))
+              ?	         .	         O	         O	              -	         O	         O	*)))
+

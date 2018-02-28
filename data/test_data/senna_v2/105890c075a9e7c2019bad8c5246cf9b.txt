@@ -1,0 +1,555 @@
+     2014-07-10	        CD	      S-NP	         O	              -	(S1(NP*))
+
+       Dialysis	       NNP	      B-NP	         O	              -	      B-A1	(S1(S(NP(NP*
+         Clinic	       NNP	      E-NP	         O	              -	      E-A1	*)
+              ,	         ,	         O	         O	              -	         O	*
+           Inc.	       NNP	      S-NP	     B-ORG	              -	      S-A0	(NP*))
+           Sued	       VBD	      S-VP	     E-ORG	           Sued	       S-V	(VP*)))
+
+             By	        IN	      S-PP	         O	              -	(S1(PP*
+           EEOC	        NN	      S-NP	         O	              -	(NP*)))
+
+            For	        IN	      S-PP	         O	              -	(S1(PP*
+     Disability	        NN	      B-NP	         O	              -	(NP*
+ Discrimination	        NN	      E-NP	         O	              -	*)))
+
+     SACRAMENTO	       NNP	      S-NP	     S-LOC	              -	      B-A0	         O	         O	         O	         O	         O	         O	         O	(S1(S(S(NP(NP*)
+              ,	         ,	         O	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	         O	*
+         Calif.	       NNP	      S-NP	     S-LOC	              -	      I-A0	         O	         O	         O	         O	         O	         O	         O	(NP*))
+             --	         :	         O	         O	              -	      I-A0	         O	         O	         O	         O	         O	         O	         O	*)
+     Nationwide	        JJ	      B-NP	         O	              -	      I-A0	      B-A0	      B-A0	         O	         O	         O	         O	         O	(S(NP(NP*
+     healthcare	        NN	      I-NP	         O	              -	      I-A0	      I-A0	      I-A0	         O	         O	         O	         O	         O	*
+       provider	        NN	      I-NP	         O	              -	      I-A0	      I-A0	      I-A0	         O	         O	         O	         O	         O	*
+       Dialysis	       NNP	      I-NP	     B-ORG	              -	      I-A0	      I-A0	      I-A0	         O	         O	         O	         O	         O	*
+         Clinic	       NNP	      E-NP	     I-ORG	              -	      I-A0	      I-A0	      I-A0	         O	         O	         O	         O	         O	*)
+              ,	         ,	         O	     I-ORG	              -	      I-A0	      I-A0	      I-A0	         O	         O	         O	         O	         O	*
+           Inc.	       NNP	      S-NP	     E-ORG	              -	      I-A0	      I-A0	      I-A0	         O	         O	         O	         O	         O	(NP(NP*)
+              (	     -LRB-	         O	         O	              -	      I-A0	      I-A0	      I-A0	         O	         O	         O	         O	         O	(PRN*
+            DCI	       NNP	      S-NP	     S-ORG	              -	      I-A0	      I-A0	      I-A0	         O	         O	         O	         O	         O	(NP*)
+              )	     -RRB-	         O	         O	              -	      E-A0	      E-A0	      E-A0	         O	         O	         O	         O	         O	*)))
+       violated	       VBD	      S-VP	         O	       violated	       S-V	         O	         O	         O	         O	         O	         O	         O	(VP(VP*
+        federal	        JJ	      B-NP	         O	              -	      B-A1	         O	         O	         O	         O	         O	         O	         O	(NP*
+            law	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	         O	         O	         O	         O	*)
+             by	        IN	      S-PP	         O	              -	  B-AM-MNR	         O	         O	         O	         O	         O	         O	         O	(PP*
+         firing	       VBG	      S-VP	         O	         firing	  E-AM-MNR	       S-V	         O	         O	         O	         O	         O	         O	(S(VP*
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	         O	         O	         O	         O	*
+       refusing	       VBG	      B-VP	         O	       refusing	         O	         O	       S-V	         O	         O	         O	  B-AM-PNC	         O	*
+             to	        TO	      I-VP	         O	              -	         O	         O	      B-A1	         O	         O	         O	  I-AM-PNC	         O	(S(VP*
+             re	        VB	      I-VP	         O	              -	         O	         O	      I-A1	         O	         O	         O	  I-AM-PNC	         O	(VP*)))))))
+              -	         :	      I-VP	         O	              -	         O	         O	      I-A1	         O	         O	         O	  I-AM-PNC	         O	*
+           hire	        VB	      E-VP	         O	           hire	         O	         O	      I-A1	       S-V	         O	         O	  I-AM-PNC	         O	(VP*
+              a	        DT	      B-NP	         O	              -	         O	         O	      I-A1	      S-A1	         O	         O	  I-AM-PNC	         O	(NP(NP*
+           long	        JJ	      I-NP	         O	              -	         O	         O	      I-A1	  B-AM-TMP	         O	         O	  I-AM-PNC	         O	*)
+              -	         :	      I-NP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	         O	         O	  I-AM-PNC	         O	*
+           time	        NN	      I-NP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	      B-A0	      B-A0	  I-AM-PNC	         O	(NP(NP*
+          nurse	        NN	      E-NP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	      E-A0	      E-A0	  I-AM-PNC	         O	*)
+            who	        WP	      S-NP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	    S-R-A0	    S-R-A0	  I-AM-PNC	         O	(SBAR(WHNP*)
+         needed	       VBD	      S-VP	         O	         needed	         O	         O	      I-A1	  I-AM-TMP	       S-V	         O	  I-AM-PNC	         O	(S(VP*
+           more	       RBR	      B-NP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	      B-A1	         O	  I-AM-PNC	         O	(NP(ADJP*
+        medical	        JJ	      I-NP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	      I-A1	         O	  I-AM-PNC	         O	*)
+          leave	        NN	      E-NP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	      E-A1	         O	  I-AM-PNC	         O	*)
+             to	        TO	      B-VP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	  B-AM-PNC	         O	  I-AM-PNC	         O	(S(VP*
+       complete	        VB	      E-VP	         O	       complete	         O	         O	      I-A1	  I-AM-TMP	  I-AM-PNC	       S-V	  I-AM-PNC	         O	(VP*
+            her	      PRP$	      B-NP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	  I-AM-PNC	      B-A1	  I-AM-PNC	         O	(NP*
+         cancer	        NN	      I-NP	         O	              -	         O	         O	      I-A1	  I-AM-TMP	  I-AM-PNC	      I-A1	  I-AM-PNC	         O	*
+      treatment	        NN	      E-NP	         O	              -	         O	         O	      E-A1	  E-AM-TMP	  E-AM-PNC	      E-A1	  E-AM-PNC	         O	*))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	         O	         O	         O	      B-A1	         O	(NP(NP*
+           U.S.	       NNP	      I-NP	     B-ORG	              -	         O	         O	         O	         O	         O	         O	      I-A1	         O	*
+          Equal	       NNP	      I-NP	     I-ORG	              -	         O	         O	         O	         O	         O	         O	      I-A1	         O	*
+     Employment	       NNP	      I-NP	     I-ORG	              -	         O	         O	         O	         O	         O	         O	      I-A1	         O	*
+    Opportunity	       NNP	      I-NP	     I-ORG	              -	         O	         O	         O	         O	         O	         O	      I-A1	         O	*
+     Commission	       NNP	      E-NP	     E-ORG	              -	         O	         O	         O	         O	         O	         O	      I-A1	         O	*)
+              (	     -LRB-	         O	         O	              -	         O	         O	         O	         O	         O	         O	      I-A1	         O	(PRN*
+           EEOC	       NNP	      S-NP	     S-ORG	              -	         O	         O	         O	         O	         O	         O	      I-A1	         O	(NP*)
+              )	     -RRB-	         O	         O	              -	         O	         O	         O	         O	         O	         O	      E-A1	         O	*))
+        charged	       VBN	      S-VP	         O	        charged	         O	         O	         O	         O	         O	         O	       S-V	         O	(VP*
+             in	        IN	      S-PP	         O	              -	         O	         O	         O	         O	         O	         O	  B-AM-LOC	         O	(PP*
+              a	        DT	      B-NP	         O	              -	         O	         O	         O	         O	         O	         O	  I-AM-LOC	      B-A1	(NP(NP*
+        lawsuit	        NN	      E-NP	         O	              -	         O	         O	         O	         O	         O	         O	  I-AM-LOC	      E-A1	*)
+             it	       PRP	      S-NP	         O	              -	         O	         O	         O	         O	         O	         O	  I-AM-LOC	      S-A0	(SBAR(S(NP*)
+          filed	       VBD	      S-VP	         O	          filed	         O	         O	         O	         O	         O	         O	  I-AM-LOC	       S-V	(VP*
+          today	        NN	      S-NP	         O	              -	         O	         O	         O	         O	         O	         O	  E-AM-LOC	  S-AM-TMP	(NP*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	         O	         O	         O	*))
+
+      According	       VBG	      S-PP	         O	              -	  B-AM-ADV	         O	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	  I-AM-ADV	         O	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-ADV	         O	(NP(NP*
+           EEOC	       NNP	      E-NP	     S-ORG	              -	  I-AM-ADV	         O	*
+             's	       POS	      B-NP	         O	              -	  I-AM-ADV	         O	*)
+        lawsuit	        NN	      E-NP	         O	              -	  E-AM-ADV	         O	*)))
+              ,	         ,	         O	         O	              -	         O	         O	*
+      Francisca	       NNP	      B-NP	     B-PER	              -	      B-A0	         O	(NP*
+            Lee	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	*)
+            had	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+         worked	       VBN	      E-VP	         O	         worked	       S-V	         O	(VP*
+             as	        IN	      S-PP	         O	              -	      B-A2	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A2	         O	(NP*
+          nurse	        NN	      E-NP	         O	              -	      I-A2	         O	*))
+             at	        IN	      S-PP	         O	              -	      I-A2	         O	(PP*
+            DCI	       NNP	      S-NP	     S-ORG	              -	      I-A2	         O	(NP(NP*
+             's	       POS	      B-NP	         O	              -	      I-A2	         O	*)
+     Sacramento	       NNP	      I-NP	     B-LOC	              -	      I-A2	         O	*
+      Southgate	       NNP	      I-NP	     E-LOC	              -	      I-A2	         O	*
+       location	        NN	      E-NP	         O	              -	      E-A2	         O	*))
+            for	        IN	      S-PP	         O	              -	  B-AM-TMP	         O	(PP*
+             14	        CD	      B-NP	         O	              -	  I-AM-TMP	  B-AM-TMP	(NP*
+          years	       NNS	      E-NP	         O	              -	  I-AM-TMP	  E-AM-TMP	*))
+           when	       WRB	    S-ADVP	         O	              -	  I-AM-TMP	S-R-AM-TMP	(SBAR(WHADVP*)
+            she	       PRP	      S-NP	         O	              -	  I-AM-TMP	      S-A1	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	  I-AM-TMP	         O	(VP*
+      diagnosed	       VBN	      E-VP	         O	      diagnosed	  I-AM-TMP	       S-V	(VP*
+           with	        IN	      S-PP	         O	              -	  I-AM-TMP	      B-A2	(PP*
+         breast	        NN	      B-NP	         O	              -	  I-AM-TMP	      I-A2	(NP*
+         cancer	        NN	      E-NP	         O	              -	  E-AM-TMP	      E-A2	*))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            Lee	       NNP	      S-NP	     S-PER	              -	      S-A0	      S-A0	(S1(S(NP*)
+           took	       VBD	      S-VP	         O	           took	       S-V	         O	(VP*
+        medical	        JJ	      B-NP	         O	              -	      B-A1	         O	(NP*
+          leave	        NN	      E-NP	         O	              -	      E-A1	         O	*)
+             in	        IN	    S-SBAR	         O	              -	  B-AM-PNC	         O	(PP*
+          order	        NN	         O	         O	              -	  I-AM-PNC	         O	(NP*))
+             to	        TO	      B-VP	         O	              -	  I-AM-PNC	         O	(S(VP*
+           have	        VB	      E-VP	         O	           have	  I-AM-PNC	       S-V	(VP*
+     mastectomy	        NN	      B-NP	         O	              -	  I-AM-PNC	      B-A1	(NP*
+        surgery	        NN	      E-NP	         O	              -	  I-AM-PNC	      I-A1	*
+            and	        CC	         O	         O	              -	  I-AM-PNC	      I-A1	*
+   chemotherapy	        NN	      B-NP	         O	              -	  I-AM-PNC	      I-A1	*
+     treatments	       NNS	      E-NP	         O	              -	  E-AM-PNC	      E-A1	*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+           Four	        CD	      B-NP	         O	              -	  B-AM-TMP	         O	         O	         O	      B-A1	(S1(S(S(ADVP(NP*
+         months	       NNS	      E-NP	         O	              -	  I-AM-TMP	         O	         O	         O	      I-A1	*)
+          later	        RB	    S-ADVP	         O	              -	  E-AM-TMP	         O	         O	         O	      I-A1	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	      I-A1	*
+            DCI	       NNP	      S-NP	     S-ORG	              -	      S-A0	         O	         O	         O	      I-A1	(NP*)
+       notified	       VBD	      S-VP	         O	       notified	       S-V	         O	         O	         O	      I-A1	(VP*
+            Lee	       NNP	      S-NP	     S-PER	              -	      S-A1	         O	         O	         O	      I-A1	(NP*)
+             by	        IN	      S-PP	         O	              -	      B-A2	         O	         O	         O	      I-A1	(PP*
+           mail	        NN	      S-NP	         O	              -	      I-A2	         O	         O	         O	      I-A1	(NP*
+           that	        IN	    S-SBAR	         O	              -	      I-A2	         O	         O	         O	      I-A1	(SBAR*
+            she	       PRP	      S-NP	         O	              -	      I-A2	      S-A1	      S-A0	         O	      I-A1	(S(NP*)
+            was	       VBD	      B-VP	         O	              -	      I-A2	         O	         O	         O	      I-A1	(VP*
+          being	       VBG	      I-VP	         O	              -	      I-A2	         O	         O	         O	      I-A1	(VP*
+     terminated	       VBN	      E-VP	         O	     terminated	      I-A2	       S-V	         O	         O	      I-A1	(VP*
+            for	        IN	      S-PP	         O	              -	      I-A2	  B-AM-PNC	         O	         O	      I-A1	(PP*
+      exceeding	       VBG	      S-VP	         O	      exceeding	      I-A2	  I-AM-PNC	       S-V	         O	      I-A1	(S(VP*
+            the	        DT	      B-NP	         O	              -	      I-A2	  I-AM-PNC	      B-A1	         O	      I-A1	(NP(NP*
+           time	        NN	      I-NP	         O	              -	      I-A2	  I-AM-PNC	      I-A1	         O	      I-A1	*
+          limit	        NN	      E-NP	         O	              -	      I-A2	  I-AM-PNC	      I-A1	         O	      I-A1	*)
+       dictated	       VBN	      S-VP	         O	       dictated	      I-A2	  I-AM-PNC	      I-A1	       S-V	      I-A1	(VP*
+             by	        IN	      S-PP	         O	              -	      I-A2	  I-AM-PNC	      I-A1	      B-A0	      I-A1	(PP*
+            its	      PRP$	      B-NP	         O	              -	      I-A2	  I-AM-PNC	      I-A1	      I-A0	      I-A1	(NP*
+        medical	        JJ	      I-NP	         O	              -	      I-A2	  I-AM-PNC	      I-A1	      I-A0	      I-A1	*
+          leave	        NN	      I-NP	         O	              -	      I-A2	  I-AM-PNC	      I-A1	      I-A0	      I-A1	*
+         policy	        NN	      E-NP	         O	              -	      E-A2	  E-AM-PNC	      E-A1	      E-A0	      E-A1	*))))))))))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	         O	         O	         O	         O	      B-A0	(NP*
+           EEOC	       NNP	      E-NP	     S-ORG	              -	         O	         O	         O	         O	      E-A0	*)
+           said	       VBD	      S-VP	         O	           said	         O	         O	         O	         O	       S-V	(VP*)
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*))
+
+           This	        DT	      S-NP	         O	              -	      S-A1	         O	         O	         O	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+           done	       VBN	      E-VP	         O	           done	       S-V	         O	         O	         O	(VP*
+        despite	        IN	      S-PP	         O	              -	  B-AM-ADV	         O	         O	         O	(SBAR*
+            Lee	       NNP	      S-NP	     S-PER	              -	  I-AM-ADV	         O	      S-A1	         O	(S(NP*)
+          being	       VBG	      S-VP	         O	              -	  I-AM-ADV	         O	         O	         O	(VP(VP*
+             on	        IN	      S-PP	         O	              -	  I-AM-ADV	         O	         O	         O	(PP*
+       approved	       VBN	      B-NP	         O	       approved	  I-AM-ADV	       S-V	         O	         O	(NP*
+        medical	        JJ	      I-NP	         O	              -	  I-AM-ADV	      B-A1	         O	         O	*
+          leave	        NN	      E-NP	         O	              -	  E-AM-ADV	      E-A1	         O	         O	*)))
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	*
+        cleared	       VBN	      S-VP	         O	        cleared	         O	         O	       S-V	         O	(VP*
+             by	        IN	      S-PP	         O	              -	         O	         O	      B-A0	         O	(PP*
+            her	      PRP$	      B-NP	         O	              -	         O	         O	      I-A0	         O	(NP*
+         doctor	        NN	      E-NP	         O	              -	         O	         O	      E-A0	         O	*))
+             to	        TO	      B-VP	         O	              -	         O	         O	  B-AM-PNC	         O	(S(VP*
+         return	        VB	      E-VP	         O	         return	         O	         O	  I-AM-PNC	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	         O	         O	  I-AM-PNC	      B-A4	(PP*
+           work	        VB	      S-NP	         O	              -	         O	         O	  I-AM-PNC	      E-A4	(NP*))
+        without	        IN	      S-PP	         O	              -	         O	         O	  I-AM-PNC	  B-AM-MNR	(PP*
+   restrictions	       NNS	      S-NP	         O	              -	         O	         O	  I-AM-PNC	  E-AM-MNR	(NP(NP*)
+             in	        IN	      S-PP	         O	              -	         O	         O	  I-AM-PNC	  B-AM-TMP	(PP*
+           less	       JJR	      B-NP	         O	              -	         O	         O	  I-AM-PNC	  I-AM-TMP	(NP(QP*
+           than	        IN	      I-NP	         O	              -	         O	         O	  I-AM-PNC	  I-AM-TMP	*
+            two	        CD	      I-NP	         O	              -	         O	         O	  I-AM-PNC	  I-AM-TMP	*)
+         months	       NNS	      E-NP	         O	              -	         O	         O	  E-AM-PNC	  E-AM-TMP	*)))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+            Lee	       NNP	      S-NP	     S-PER	              -	      S-A2	         O	         O	(S1(S(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	(VP*
+           told	       VBN	      E-VP	         O	           told	       S-V	         O	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	         O	(SBAR*
+            she	       PRP	      S-NP	         O	              -	      I-A1	         O	      S-A0	(S(NP*)
+          would	        MD	      B-VP	         O	              -	      I-A1	  S-AM-MOD	         O	(VP*
+           have	        VB	      I-VP	         O	           have	      I-A1	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	         O	         O	(S(VP*
+        reapply	        VB	      E-VP	         O	        reapply	      I-A1	         O	       S-V	(VP*
+            for	        IN	      S-PP	         O	              -	      I-A1	         O	      B-A1	(PP*
+           open	        JJ	      B-NP	         O	              -	      I-A1	         O	      I-A1	(NP*
+      positions	       NNS	      E-NP	         O	              -	      E-A1	         O	      E-A1	*)))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+        However	        RB	    S-ADVP	         O	              -	         O	  S-AM-DIS	         O	         O	(S1(S(S(ADVP*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+           when	       WRB	    S-ADVP	         O	              -	S-R-AM-TMP	  B-AM-TMP	         O	         O	(SBAR(WHADVP*)
+            Lee	       NNP	      S-NP	     S-PER	              -	      S-A1	  I-AM-TMP	         O	         O	(S(NP*)
+            did	       VBD	      B-VP	         O	              -	         O	  I-AM-TMP	         O	         O	(VP*
+          apply	        VB	      E-VP	         O	          apply	       S-V	  I-AM-TMP	         O	         O	(VP*
+           over	        IN	      S-PP	         O	              -	  B-AM-TMP	  I-AM-TMP	         O	         O	(ADVP*)
+            two	        CD	      B-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	         O	(ADVP(NP*
+         months	       NNS	      E-NP	         O	              -	  I-AM-TMP	  I-AM-TMP	         O	         O	*)
+          later	        RB	    S-ADVP	         O	              -	  E-AM-TMP	  E-AM-TMP	         O	         O	*)))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+            she	       PRP	      S-NP	         O	              -	         O	      S-A1	         O	         O	(NP*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	         O	         O	(VP*
+       rejected	       VBN	      E-VP	         O	       rejected	         O	       S-V	         O	         O	(VP*)))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+            and	        CC	         O	         O	              -	         O	         O	         O	         O	*
+            not	        RB	    B-ADVP	         O	              -	         O	         O	         O	         O	(S(ADVP*
+           long	        RB	    I-ADVP	         O	              -	         O	         O	         O	         O	*
+          after	        RB	    E-ADVP	         O	              -	         O	         O	         O	         O	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	*
+            DCI	       NNP	      S-NP	     S-ORG	              -	         O	         O	      S-A0	         O	(NP*)
+          hired	       VBD	      S-VP	         O	          hired	         O	         O	       S-V	         O	(VP*
+              a	        DT	      B-NP	         O	              -	         O	         O	      B-A1	         O	(NP*
+          newly	        RB	      I-NP	         O	              -	         O	         O	      I-A1	  S-AM-TMP	(ADJP*
+       licensed	       VBN	      I-NP	         O	       licensed	         O	         O	      I-A1	       S-V	*)
+          nurse	        NN	      E-NP	         O	              -	         O	         O	      E-A1	      S-A1	*)))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+    Terminating	       VBG	      S-VP	         O	    Terminating	       S-V	         O	         O	(S1(S(S(VP*
+              a	        DT	      B-NP	         O	              -	      B-A1	         O	         O	(NP*
+      qualified	       VBN	      I-NP	         O	      qualified	      I-A1	       S-V	         O	*
+       employee	        NN	      E-NP	         O	              -	      E-A1	      S-A1	         O	*)))
+        because	        IN	      B-PP	         O	              -	  B-AM-CAU	         O	         O	(SBAR*
+             of	        IN	      E-PP	         O	              -	  I-AM-CAU	         O	         O	*
+              a	        DT	      B-NP	         O	              -	  I-AM-CAU	         O	      B-A0	(S(NP*
+     disability	        NN	      E-NP	         O	              -	  I-AM-CAU	         O	      E-A0	*)
+       violates	       VBZ	      S-VP	         O	       violates	  I-AM-CAU	         O	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	  I-AM-CAU	         O	      B-A1	(NP(NP(NP*
+      Americans	      NNPS	      E-NP	    S-MISC	              -	  I-AM-CAU	         O	      E-A1	*)
+           with	        IN	      S-PP	         O	              -	  I-AM-CAU	         O	      B-A2	(PP*
+   Disabilities	       NNP	      B-NP	         O	              -	  I-AM-CAU	         O	      I-A2	(NP*))
+            Act	       NNP	      E-NP	         O	              -	  E-AM-CAU	         O	      I-A2	*)
+              (	     -LRB-	         O	         O	              -	         O	         O	      I-A2	(PRN*
+            ADA	       NNP	      S-NP	     S-ORG	              -	         O	         O	      I-A2	(NP*)
+              )	     -RRB-	         O	         O	              -	         O	         O	      E-A2	*)))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            The	        DT	      B-NP	         O	              -	      B-A0	         O	         O	         O	(S1(S(NP*
+            law	        NN	      E-NP	         O	              -	      E-A0	         O	         O	         O	*)
+           also	        RB	    S-ADVP	         O	              -	  S-AM-DIS	         O	         O	         O	(ADVP*)
+       requires	       VBZ	      S-VP	         O	       requires	       S-V	         O	         O	         O	(VP*
+             an	        DT	      B-NP	         O	              -	      B-A1	      B-A0	         O	         O	(S(NP*
+       employer	        NN	      E-NP	         O	              -	      I-A1	      E-A0	         O	         O	*)
+             to	        TO	      B-VP	         O	              -	      I-A1	         O	         O	         O	(VP*
+        provide	        VB	      E-VP	         O	        provide	      I-A1	       S-V	         O	         O	(VP*
+     reasonable	        JJ	      B-NP	         O	              -	      I-A1	      B-A1	         O	         O	(NP*
+  accommodation	        NN	      E-NP	         O	              -	      I-A1	      E-A1	         O	         O	*)
+             to	        TO	      S-PP	         O	              -	      I-A1	      B-A2	         O	         O	(PP*
+             an	        DT	      B-NP	         O	              -	      I-A1	      I-A2	         O	         O	(NP(NP*
+       employee	        NN	      I-NP	         O	              -	      I-A1	      I-A2	         O	         O	*
+             or	        CC	      I-NP	         O	              -	      I-A1	      I-A2	         O	         O	*
+            job	        NN	      I-NP	         O	              -	      I-A1	      I-A2	         O	         O	*
+      applicant	        NN	      E-NP	         O	              -	      I-A1	      I-A2	         O	         O	*)
+           with	        IN	      S-PP	         O	              -	      I-A1	      I-A2	         O	         O	(PP*
+              a	        DT	      B-NP	         O	              -	      I-A1	      I-A2	         O	         O	(NP*
+     disability	        NN	      E-NP	         O	              -	      I-A1	      E-A2	         O	         O	*)))))))
+              ,	         ,	         O	         O	              -	      I-A1	         O	         O	         O	*
+         unless	        IN	    S-SBAR	         O	              -	      I-A1	         O	         O	         O	(SBAR*
+          doing	       VBG	      S-VP	         O	          doing	      I-A1	         O	       S-V	      B-A0	(S(S(VP*
+             so	        RB	    S-ADVP	         O	              -	      I-A1	         O	      S-A1	      E-A0	(ADVP*)))
+          would	        MD	      B-VP	         O	              -	      I-A1	         O	         O	  S-AM-MOD	(VP*
+         impose	        VB	      E-VP	         O	         impose	      I-A1	         O	         O	       S-V	(VP*
+             an	        DT	      B-NP	         O	              -	      I-A1	         O	         O	      B-A1	(NP(NP*
+          undue	        JJ	      I-NP	         O	              -	      I-A1	         O	         O	      I-A1	*
+       hardship	        NN	      E-NP	         O	              -	      I-A1	         O	         O	      I-A1	*)
+            for	        IN	      S-PP	         O	              -	      I-A1	         O	         O	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	      I-A1	(NP*
+       employer	        NN	      E-NP	         O	              -	      E-A1	         O	         O	      E-A1	*))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	*))
+
+          After	        IN	      S-PP	         O	              -	         O	         O	  B-AM-TMP	(S1(S(PP*
+     attempting	       VBG	      B-VP	         O	     attempting	       S-V	         O	  I-AM-TMP	(S(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	  I-AM-TMP	(S(VP*
+        resolve	        VB	      E-VP	         O	        resolve	      I-A1	       S-V	  I-AM-TMP	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      B-A1	  I-AM-TMP	(NP*
+           case	        NN	      E-NP	         O	              -	      I-A1	      E-A1	  I-AM-TMP	*)
+        through	        IN	      S-PP	         O	              -	      I-A1	  B-AM-MNR	  I-AM-TMP	(PP*
+            pre	        RB	      B-NP	         O	              -	      I-A1	  I-AM-MNR	  I-AM-TMP	(ADVP*))))))))
+              -	         :	      I-NP	         O	              -	      I-A1	  I-AM-MNR	  I-AM-TMP	*
+     litigation	        NN	      I-NP	         O	              -	      I-A1	  I-AM-MNR	  I-AM-TMP	(NP*
+   conciliation	        NN	      I-NP	         O	              -	      I-A1	  I-AM-MNR	  I-AM-TMP	*
+        efforts	       NNS	      E-NP	         O	              -	      E-A1	  E-AM-MNR	  E-AM-TMP	*)
+              ,	         ,	         O	         O	              -	         O	         O	         O	*
+            the	        DT	      B-NP	         O	              -	      B-A0	      B-A0	      B-A0	(NP*
+           EEOC	       NNP	      E-NP	     S-ORG	              -	      E-A0	      E-A0	      E-A0	*)
+          filed	       VBD	      S-VP	         O	          filed	         O	         O	       S-V	(VP*
+            the	        DT	      B-NP	         O	              -	         O	         O	      B-A1	(NP(NP*
+        lawsuit	        NN	      E-NP	         O	              -	         O	         O	      E-A1	*)
+              (	     -LRB-	         O	         O	              -	         O	         O	      B-A4	*
+           EEOC	       NNP	      B-NP	     B-ORG	              -	         O	         O	      I-A4	(NP(NP*)
+             v.	        CC	      I-NP	     I-ORG	              -	         O	         O	      I-A4	(PP*
+       Dialysis	       NNP	      I-NP	     I-ORG	              -	         O	         O	      I-A4	(S*
+         Clinic	       NNP	      E-NP	     I-ORG	              -	         O	         O	      I-A4	(VP*
+              ,	         ,	         O	     I-ORG	              -	         O	         O	      I-A4	(PRN*
+           Inc.	       NNP	      S-NP	     E-ORG	              -	         O	         O	      I-A4	(NP*)
+              )	     -RRB-	         O	         O	              -	         O	         O	      I-A4	*)
+             in	        IN	      S-PP	         O	              -	         O	         O	      I-A4	(PP*
+           U.S.	       NNP	      B-NP	     S-LOC	              -	         O	         O	      I-A4	(NP*
+       District	       NNP	      I-NP	         O	              -	         O	         O	      I-A4	*
+          Court	       NNP	      E-NP	         O	              -	         O	         O	      I-A4	*))
+            for	        IN	      S-PP	         O	              -	         O	         O	      I-A4	(PP*
+            the	        DT	      B-NP	         O	              -	         O	         O	      I-A4	(NP(NP*
+        Eastern	       NNP	      I-NP	     B-LOC	              -	         O	         O	      I-A4	*
+       District	       NNP	      E-NP	     E-LOC	              -	         O	         O	      I-A4	*)
+             of	        IN	      S-PP	         O	              -	         O	         O	      I-A4	(PP*
+     California	       NNP	      S-NP	     S-LOC	              -	         O	         O	      E-A4	(NP*))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+              "	        ``	         O	         O	              -	         O	         O	         O	         O	         O	(S1(S(VP(ADVP*)
+          Given	       VBN	      S-PP	         O	          Given	       S-V	         O	         O	         O	      B-A1	(PP*
+            the	        DT	      B-NP	         O	              -	      B-A1	         O	         O	         O	      I-A1	(NP(NP*
+            ADA	       NNP	      E-NP	     S-ORG	              -	      I-A1	         O	         O	         O	      I-A1	*
+             's	       POS	      B-NP	         O	              -	      I-A1	         O	         O	         O	      I-A1	*)
+        mandate	        NN	      E-NP	         O	              -	      E-A1	         O	         O	         O	      I-A1	*))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	      I-A1	*
+              I	       PRP	      S-NP	         O	              -	         O	      S-A0	         O	         O	      I-A1	(SBAR(S(NP*)
+          would	        MD	      B-VP	         O	              -	         O	  S-AM-MOD	         O	         O	      I-A1	(VP*
+           urge	        VB	      E-VP	         O	           urge	         O	       S-V	         O	         O	      I-A1	(VP*
+      employers	       NNS	      S-NP	         O	              -	         O	      S-A1	      S-A0	         O	      I-A1	(NP*)
+             to	        TO	      B-VP	         O	              -	         O	      B-A2	         O	         O	      I-A1	(S(VP*
+             be	        VB	      E-VP	         O	              -	         O	      I-A2	         O	         O	      I-A1	(VP*
+       flexible	        JJ	    S-ADJP	         O	              -	         O	      I-A2	  S-AM-MNR	         O	      I-A1	(ADJP*)
+     concerning	       VBG	      S-PP	         O	     concerning	         O	      I-A2	       S-V	         O	      I-A1	(VP*
+          leave	        NN	      B-NP	         O	              -	         O	      I-A2	      B-A1	         O	      I-A1	(NP*
+     extensions	       NNS	      E-NP	         O	              -	         O	      I-A2	      E-A1	         O	      I-A1	*)
+             if	        IN	    S-SBAR	         O	              -	         O	      I-A2	         O	         O	      I-A1	(SBAR*
+             it	       PRP	      S-NP	         O	              -	         O	      I-A2	         O	      S-A0	      I-A1	(S(NP*)
+         causes	       VBZ	      S-VP	         O	         causes	         O	      I-A2	         O	       S-V	      I-A1	(VP*
+             no	        DT	      B-NP	         O	              -	         O	      I-A2	         O	      B-A1	      I-A1	(NP*
+          undue	        JJ	      I-NP	         O	              -	         O	      I-A2	         O	      I-A1	      I-A1	*
+       hardship	        NN	      E-NP	         O	              -	         O	      E-A2	         O	      E-A1	      E-A1	*)))))))))))))
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	*
+              "	       WDT	      S-NP	         O	              -	         O	         O	         O	         O	      S-A0	*
+           said	       VBD	      S-VP	         O	           said	         O	         O	         O	         O	       S-V	*
+           EEOC	       NNP	      B-NP	     B-ORG	              -	         O	         O	         O	         O	      B-A3	(NP*
+            San	       NNP	      I-NP	     I-ORG	              -	         O	         O	         O	         O	      I-A3	*
+      Francisco	       NNP	      I-NP	     I-ORG	              -	         O	         O	         O	         O	      I-A3	*
+       Regional	       NNP	      I-NP	     E-ORG	              -	         O	         O	         O	         O	      I-A3	*
+       Attorney	       NNP	      I-NP	         O	              -	         O	         O	         O	         O	      I-A3	*
+        William	       NNP	      I-NP	     B-PER	              -	         O	         O	         O	         O	      I-A3	*
+             R.	       NNP	      I-NP	     I-PER	              -	         O	         O	         O	         O	      I-A3	*
+         Tamayo	       NNP	      E-NP	     E-PER	              -	         O	         O	         O	         O	      E-A3	*)
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	*
+              "	         .	         O	         O	              -	         O	         O	         O	         O	         O	*))
+
+            Ms.	       NNP	      B-NP	         O	              -	      B-A0	      B-A0	(S1(S(NP*
+            Lee	       NNP	      E-NP	     S-PER	              -	      E-A0	      E-A0	*)
+            had	       VBD	      S-VP	         O	              -	         O	         O	(VP(VP*
+           over	        IN	      B-NP	         O	              -	         O	         O	(PP*
+             30	        CD	      I-NP	         O	              -	         O	         O	(NP(NP(NP*
+          years	       NNS	      E-NP	         O	              -	         O	         O	*
+              '	       POS	      B-NP	         O	              -	         O	         O	*)
+     experience	        NN	      E-NP	         O	              -	         O	         O	*)
+             in	        IN	      S-PP	         O	              -	         O	         O	(PP*
+       dialysis	        NN	      B-NP	         O	              -	         O	         O	(NP*
+      treatment	        NN	      E-NP	         O	              -	         O	         O	*)))))
+            and	        CC	         O	         O	              -	         O	         O	*
+         really	        RB	      B-VP	         O	              -	  S-AM-ADV	         O	(ADVP*)
+         wanted	       VBD	      I-VP	         O	         wanted	       S-V	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      B-A1	         O	(S(VP*
+           work	        VB	      E-VP	         O	           work	      E-A1	       S-V	(VP*)))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            Our	      PRP$	      B-NP	         O	              -	      B-A0	         O	         O	(S1(S(NP*
+  investigation	        NN	      E-NP	         O	              -	      E-A0	         O	         O	*)
+         showed	       VBD	      S-VP	         O	         showed	       S-V	         O	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	      B-A1	         O	         O	(SBAR*
+            she	       PRP	      S-NP	         O	              -	      I-A1	      S-A0	         O	(S(NP*)
+           only	        RB	    S-ADVP	         O	              -	      I-A1	  S-AM-ADV	         O	(ADVP*)
+         needed	       VBD	      S-VP	         O	         needed	      I-A1	       S-V	         O	(VP*
+            two	        CD	      B-NP	         O	              -	      I-A1	      B-A1	         O	(NP*
+           more	       JJR	      I-NP	         O	              -	      I-A1	      I-A1	         O	*
+         months	       NNS	      E-NP	         O	              -	      I-A1	      E-A1	         O	*)
+             to	        TO	      B-VP	         O	              -	      I-A1	  B-AM-PNC	         O	(S(VP*
+         return	        VB	      E-VP	         O	         return	      I-A1	  I-AM-PNC	       S-V	(VP*
+             to	        TO	      S-PP	         O	              -	      I-A1	  I-AM-PNC	      B-A4	(S(VP*
+           work	        VB	      S-NP	         O	              -	      E-A1	  E-AM-PNC	      E-A4	(VP*))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	*))
+
+            Why	       WRB	    S-ADVP	         O	              -	(S1(SBAR(WHADVP*)
+      sacrifice	        NN	      S-VP	         O	              -	(X(NP*)
+              a	        DT	      B-NP	         O	              -	(NP(NP*
+       valuable	        JJ	      I-NP	         O	              -	*
+       employee	        NN	      E-NP	         O	              -	*)
+           with	        IN	      S-PP	         O	              -	(PP*
+              a	        DT	      B-NP	         O	              -	(NP*
+           good	        JJ	      I-NP	         O	              -	*
+         record	        NN	      E-NP	         O	              -	*))
+           over	        IN	      S-PP	         O	              -	(PP*
+             an	        DT	      B-NP	         O	              -	(NP*
+      arbitrary	        JJ	      I-NP	         O	              -	*
+           time	        NN	      I-NP	         O	              -	*
+          limit	        NN	      E-NP	         O	              -	*)))
+              ?	         .	         O	         O	              -	*
+              "	         .	         O	         O	              -	(NP*))))
+
+           EEOC	       NNP	      B-NP	         O	              -	      B-A0	         O	         O	         O	         O	         O	(S1(S(NP*
+            San	       NNP	      I-NP	     B-ORG	              -	      I-A0	         O	         O	         O	         O	         O	*
+      Francisco	       NNP	      I-NP	     E-ORG	              -	      I-A0	         O	         O	         O	         O	         O	*
+       District	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	*
+       Director	       NNP	      I-NP	         O	              -	      I-A0	         O	         O	         O	         O	         O	*
+        Michael	       NNP	      I-NP	     B-PER	              -	      I-A0	         O	         O	         O	         O	         O	*
+      Baldonado	       NNP	      E-NP	     E-PER	              -	      E-A0	         O	         O	         O	         O	         O	*)
+          added	       VBD	      S-VP	         O	          added	       S-V	         O	         O	         O	         O	         O	(VP*
+              ,	         ,	         O	         O	              -	         O	         O	         O	         O	         O	         O	*
+              "	        IN	    S-SBAR	         O	              -	         O	         O	         O	         O	         O	         O	(SBAR(S(PP*
+            The	        DT	      B-NP	         O	              -	      B-A1	         O	         O	         O	         O	         O	(NP(NP*
+        purpose	        NN	      E-NP	         O	              -	      I-A1	         O	         O	         O	         O	         O	*)
+             of	        IN	      S-PP	         O	              -	      I-A1	         O	         O	         O	         O	         O	(PP*
+            the	        DT	      B-NP	         O	              -	      I-A1	         O	         O	         O	         O	         O	(NP*
+            ADA	       NNP	      E-NP	     S-ORG	              -	      I-A1	         O	         O	         O	         O	         O	*))))
+             is	       VBZ	      B-VP	         O	              -	      I-A1	         O	         O	         O	         O	         O	(VP*
+             to	        TO	      I-VP	         O	              -	      I-A1	         O	         O	         O	         O	         O	(S(VP*
+         ensure	        VB	      E-VP	         O	         ensure	      I-A1	       S-V	         O	         O	         O	         O	(VP*
+           that	        IN	    S-SBAR	         O	              -	      I-A1	      B-A1	         O	         O	         O	         O	(SBAR*
+         people	       NNS	      S-NP	         O	              -	      I-A1	      I-A1	      S-A1	      S-A0	      B-A0	      S-A0	(S(UCP(NP(NP*)
+            who	        WP	      S-NP	         O	              -	      I-A1	      I-A1	    S-R-A1	    S-R-A0	      I-A0	    S-R-A0	(SBAR(WHNP*)
+            are	       VBP	      B-VP	         O	              -	      I-A1	      I-A1	         O	         O	      I-A0	         O	(S(VP*
+      qualified	       VBN	      E-VP	         O	      qualified	      I-A1	      I-A1	       S-V	         O	      I-A0	         O	(VP*)))))
+            and	        CC	         O	         O	              -	      I-A1	      I-A1	         O	         O	      I-A0	         O	*
+           able	        JJ	    S-ADJP	         O	              -	      I-A1	      I-A1	         O	         O	      I-A0	         O	(ADJP*
+             to	        TO	      B-VP	         O	              -	      I-A1	      I-A1	         O	         O	      I-A0	         O	(S(VP*
+             do	        VB	      E-VP	         O	             do	      I-A1	      I-A1	         O	       S-V	      I-A0	         O	(VP*
+            the	        DT	      B-NP	         O	              -	      I-A1	      I-A1	         O	      B-A1	      I-A0	         O	(NP*
+            job	        NN	      E-NP	         O	              -	      I-A1	      I-A1	         O	      E-A1	      E-A0	         O	*))))))
+            can	        MD	      B-VP	         O	              -	      I-A1	      I-A1	         O	         O	  S-AM-MOD	         O	(VP*
+           work	        VB	      E-VP	         O	           work	      I-A1	      I-A1	         O	         O	       S-V	         O	(VP*
+        without	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	         O	  B-AM-ADV	         O	(PP*
+      prejudice	        NN	      S-NP	         O	              -	      I-A1	      I-A1	         O	         O	  I-AM-ADV	         O	(NP(NP*)
+        against	        IN	      S-PP	         O	              -	      I-A1	      I-A1	         O	         O	  I-AM-ADV	         O	(PP*
+     disability	        NN	      S-NP	         O	              -	      I-A1	      I-A1	         O	         O	  I-AM-ADV	         O	(NP*))))
+             to	        TO	      B-VP	         O	              -	      I-A1	      I-A1	         O	         O	  I-AM-ADV	         O	(S(VP*
+           hold	        VB	      E-VP	         O	           hold	      I-A1	      I-A1	         O	         O	  I-AM-ADV	       S-V	(VP*
+           them	       PRP	      S-NP	         O	              -	      I-A1	      I-A1	         O	         O	  I-AM-ADV	      S-A1	(NP*)
+           back	        RB	    S-ADVP	         O	              -	      E-A1	      E-A1	         O	         O	  E-AM-ADV	      S-A2	(ADVP*)))))))))))))))
+              .	         .	         O	         O	              -	         O	         O	         O	         O	         O	         O	*))
+
+          After	        IN	      S-PP	         O	              -	         O	  B-AM-TMP	(S1(S(SBAR*
+            her	      PRP$	      B-NP	         O	              -	      B-A0	  I-AM-TMP	(S(NP*
+         doctor	        NN	      E-NP	         O	              -	      E-A0	  I-AM-TMP	*)
+        cleared	       VBD	      S-VP	         O	        cleared	       S-V	  I-AM-TMP	(VP*
+            her	       PRP	      S-NP	         O	              -	      B-A1	  I-AM-TMP	(NP*)
+            for	        IN	      S-PP	         O	              -	      I-A1	  I-AM-TMP	(PP*
+           work	        NN	      S-NP	         O	              -	      E-A1	  E-AM-TMP	(NP*)))))
+              ,	         ,	         O	         O	              -	         O	         O	*
+            Ms.	       NNP	      B-NP	     B-PER	              -	         O	      B-A1	(NP*
+            Lee	       NNP	      E-NP	     E-PER	              -	         O	      E-A1	*)
+            was	       VBD	      B-VP	         O	              -	         O	         O	(VP*
+         passed	       VBN	      E-VP	         O	         passed	         O	       B-V	(VP*
+           over	        RP	    S-ADVP	         O	              -	         O	       E-V	(ADVP*)
+             in	        IN	      S-PP	         O	              -	         O	  B-AM-PNC	(PP*
+          favor	        NN	      S-NP	         O	              -	         O	  I-AM-PNC	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	         O	  I-AM-PNC	(PP*
+              a	        DT	      B-NP	         O	              -	         O	  I-AM-PNC	(NP*
+            far	        RB	      I-NP	         O	              -	         O	  I-AM-PNC	(ADJP*
+           less	       RBR	      I-NP	         O	              -	         O	  I-AM-PNC	*
+      qualified	        JJ	      I-NP	         O	              -	         O	  I-AM-PNC	*)
+      candidate	        NN	      E-NP	         O	              -	         O	  E-AM-PNC	*))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+            DCI	       NNP	      S-NP	     S-ORG	              -	      B-A0	         O	(S1(S(NP(NP*
+             's	       POS	      B-NP	         O	              -	      E-A0	         O	*)
+        failure	        NN	      E-NP	         O	              -	         O	         O	*
+             to	        TO	      B-VP	         O	              -	         O	         O	(S(VP*
+             re	        VB	      I-VP	         O	              -	         O	         O	(VP*
+              -	         :	      I-VP	         O	              -	         O	         O	*
+           hire	        VB	      E-VP	         O	           hire	       S-V	         O	*
+            Ms.	       NNP	      B-NP	     B-PER	              -	      B-A1	         O	(NP*
+            Lee	       NNP	      E-NP	     E-PER	              -	      E-A1	         O	*)
+        because	        IN	      B-PP	         O	              -	  B-AM-CAU	         O	(PP*
+             of	        IN	      E-PP	         O	              -	  I-AM-CAU	         O	*
+            her	      PRP$	      B-NP	         O	              -	  I-AM-CAU	      B-A0	(NP(NP*
+     disability	        NN	      E-NP	         O	              -	  E-AM-CAU	      I-A0	*)
+              ,	         ,	         O	         O	              -	         O	      I-A0	*
+             or	        CC	         O	         O	              -	         O	      I-A0	*
+         record	        NN	      S-NP	         O	              -	         O	      I-A0	(NP(NP*)
+             of	        IN	      S-PP	         O	              -	         O	      I-A0	(PP*
+     disability	        NN	      S-NP	         O	              -	         O	      I-A0	(NP*)))))))))
+              ,	         ,	         O	         O	              -	         O	      E-A0	*
+       violated	       VBD	      S-VP	         O	       violated	         O	       S-V	(VP(VP*
+        federal	        JJ	      B-NP	         O	              -	         O	      B-A1	(NP*
+            law	        NN	      E-NP	         O	              -	         O	      E-A1	*))
+            and	        CC	         O	         O	              -	         O	         O	*
+            was	       VBD	      S-VP	         O	              -	         O	         O	(VP*
+           just	        RB	    B-ADJP	         O	              -	         O	         O	(ADJP*
+          plain	        JJ	    I-ADJP	         O	              -	         O	         O	*
+          wrong	        JJ	    E-ADJP	         O	              -	         O	         O	*)))
+              .	         .	         O	         O	              -	         O	         O	*))
+
+              A	        DT	      B-NP	         O	              -	      B-A0	(S1(S(NP(NP*
+        healing	        NN	      I-NP	         O	              -	      I-A0	*
+       facility	        NN	      E-NP	         O	              -	      I-A0	*)
+           such	        JJ	      B-PP	         O	              -	      I-A0	(PP*
+             as	        IN	      E-PP	         O	              -	      I-A0	*
+            DCI	       NNP	      S-NP	     S-ORG	              -	      E-A0	(NP*)))
+         should	        MD	      B-VP	         O	              -	  S-AM-MOD	(VP*
+     especially	        RB	      I-VP	         O	              -	  S-AM-ADV	(VP(ADVP*)
+     understand	        VB	      E-VP	         O	     understand	       S-V	*
+           that	        DT	      S-NP	         O	              -	      S-A1	(NP*
+              .	         .	         O	         O	              -	         O	*
+              "	         .	         O	         O	              -	         O	*)))))
+
+      According	       VBG	      S-PP	         O	              -	         O	(S1(S(PP*
+             to	        TO	      S-PP	         O	              -	         O	(PP*
+            its	      PRP$	      B-NP	         O	              -	         O	(NP(NP*
+        website	        NN	      E-NP	         O	              -	         O	*)
+              (	     -LRB-	         O	         O	              -	         O	(PRN*
+ www.dciinc.org	        NN	      S-NP	         O	              -	         O	(NP*)
+              )	     -RRB-	         O	         O	              -	         O	*))))
+              ,	         ,	         O	         O	              -	         O	*
+            DCI	       NNP	      S-NP	     S-ORG	              -	         O	(NP*)
+             is	       VBZ	      S-VP	         O	              -	         O	(VP*
+              a	        DT	      B-NP	         O	              -	      B-A0	(NP(NP*
+      Nashville	       NNP	      I-NP	     S-LOC	              -	      I-A0	*
+              ,	         ,	      I-NP	         O	              -	      I-A0	*
+    Tenn.-based	        JJ	      I-NP	     S-ORG	              -	      I-A0	*
+      nonprofit	        JJ	      I-NP	         O	              -	      I-A0	*
+    corporation	        NN	      E-NP	         O	              -	      E-A0	*)
+        serving	       VBG	      S-VP	         O	        serving	       S-V	(VP*
+       patients	       NNS	      S-NP	         O	              -	      S-A2	(NP(NP*)
+           with	        IN	      S-PP	         O	              -	      B-A1	(PP*
+       advanced	        JJ	      B-NP	         O	              -	      I-A1	(NP*
+         kidney	        NN	      I-NP	         O	              -	      I-A1	*
+        disease	        NN	      E-NP	         O	              -	      E-A1	*))))))
+              .	         .	         O	         O	              -	         O	*))
+
+             It	       PRP	      S-NP	         O	              -	      S-A1	         O	(S1(S(NP*)
+            has	       VBZ	      S-VP	         O	              -	         O	         O	(VP(VP*
+           over	        IN	      B-NP	         O	              -	         O	         O	(PP*
+          5,000	        CD	      I-NP	         O	              -	         O	         O	(NP*
+      employees	       NNS	      E-NP	         O	              -	         O	         O	*)))
+              ,	         ,	         O	         O	              -	         O	         O	*
+            and	        CC	         O	         O	              -	         O	         O	*
+       operates	       VBZ	      S-VP	         O	       operates	       S-V	         O	(VP*
+           over	        IN	      S-PP	         O	              -	  B-AM-LOC	         O	(NP(NP(QP*
+            210	        CD	      B-NP	         O	              -	  I-AM-LOC	         O	*)
+       dialysis	        NN	      I-NP	         O	              -	  I-AM-LOC	         O	*
+        clinics	       NNS	      E-NP	         O	              -	  I-AM-LOC	         O	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	         O	(PP*
+             27	        CD	      B-NP	         O	              -	  I-AM-LOC	      B-A2	(NP(NP*
+         states	       NNS	      E-NP	         O	              -	  I-AM-LOC	      E-A2	*)
+              ,	         ,	         O	         O	              -	  I-AM-LOC	         O	*
+      including	       VBG	      S-PP	         O	      including	  I-AM-LOC	       S-V	(PP*
+          three	        CD	      B-NP	         O	              -	  I-AM-LOC	      B-A1	(NP(NP*
+      locations	       NNS	      E-NP	         O	              -	  I-AM-LOC	      I-A1	*)
+             in	        IN	      S-PP	         O	              -	  I-AM-LOC	      I-A1	(PP*
+            the	        DT	      B-NP	         O	              -	  I-AM-LOC	      I-A1	(NP*
+     Sacramento	       NNP	      I-NP	     S-LOC	              -	  I-AM-LOC	      I-A1	*
+           area	        NN	      E-NP	         O	              -	  E-AM-LOC	      E-A1	*)))))))))
+              .	         .	         O	         O	              -	         O	         O	*))
+
