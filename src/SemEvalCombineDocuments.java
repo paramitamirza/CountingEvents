@@ -221,9 +221,9 @@ public class SemEvalCombineDocuments {
 		
 	}
 	
-	public static void compareAnswersGold(String answerGold, String answerFile2, String questionFile) throws IOException {
+	public static void compareAnswersGold(String answerGold, String answerFile2, String questionFile, String comparisonFile) throws IOException {
 		
-		BufferedWriter bw = new BufferedWriter(new FileWriter("/local/home/paramita/git/CountingEvents/data/test_data_gold/input/s1/compare_gold.tsv"));
+		BufferedWriter bw = new BufferedWriter(new FileWriter(comparisonFile));
 		
 		Map<String, List<String>> documents1 = new HashMap<String, List<String>>();
 		
@@ -317,6 +317,7 @@ public class SemEvalCombineDocuments {
 	        String key = (String)keys.next();
 	        JSONObject question = obj.getJSONObject(key);
 	        String verbose = question.getString("verbose_question");
+	        String eventType = question.getString("event_type");
 	        
 	        String loc = "";
 	        if (question.has("location")) loc = "location";
@@ -351,8 +352,9 @@ public class SemEvalCombineDocuments {
 //	        		"\t" + intersection.size() + "\t" + diff.size() + 
 //	        		"\t" + documents1.get(key) + "\t" + documents2.get(key));
 	        
-	        bw.write(key + "\t" + verbose + 
+	        bw.write(key + "\t" + eventType + 
 	        		"\t" + loc + "\t" + part + "\t" + time +  
+	        		"\t" + verbose +
 	        		"\t" + doc1Size + "\t" + doc2Size + 
 	        		"\t" + intersection.size() + "\t" + diff.size() + 
 	        		"\t" + documents1.get(key) + "\t" + documents2.get(key) + "\n");
@@ -365,9 +367,10 @@ public class SemEvalCombineDocuments {
 	
 	public static void main(String[] args) throws Exception {
 		
-		compareAnswersGold("/local/home/paramita/git/CountingEvents/data/test_data_gold/dev_data/s3/answers.json", 
-				"/local/home/paramita/git/CountingEvents/data/test_data/posteval_022/s3/answers.json", 
-				"/local/home/paramita/git/CountingEvents/data/test_data_gold/input/s3/questions.json");
+		compareAnswersGold("/local/home/paramita/git/CountingEvents/data/test_data_gold/dev_data/s1/answers.json", 
+				"/local/home/paramita/git/CountingEvents/data/test_data/posteval_022/s1/answers.json", 
+				"/local/home/paramita/git/CountingEvents/data/test_data_gold/input/s1/questions.json",
+				"/local/home/paramita/git/CountingEvents/data/test_data_gold/s1_compare_gold.tsv");
 	}
 
 }

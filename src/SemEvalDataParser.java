@@ -2763,6 +2763,8 @@ public class SemEvalDataParser {
 	        String key = (String)keys.next();
 	        JSONObject question = obj.getJSONObject(key);
 	        
+	        String questionStr = key + "\t";
+	        
 	        String eventType = question.getString("event_type");
 	        for (String incId : allIncidents) {
 	        	String type = "none";
@@ -2781,7 +2783,8 @@ public class SemEvalDataParser {
 	        		incidentsType.add(incId);
 	        	}
 	        }
-	        System.out.println(key + ": " + incidentsType.size());
+	        questionStr += eventType + "\t";
+//	        System.out.println(key + ": " + incidentsType.size());
 	        
 	        if (question.has("location")) {
 	        	JSONObject location = question.getJSONObject("location");
@@ -2795,7 +2798,7 @@ public class SemEvalDataParser {
 		        			}
 	        			}
 	        		}
-	        		System.out.println("  --location: " + incidentsCity.size());
+//	        		System.out.println("  --location: " + incidentsCity.size());
 	        		incidentsType.retainAll(incidentsCity);
 	        	}
 	        	if (location.has("state")) {
@@ -2808,9 +2811,14 @@ public class SemEvalDataParser {
 		        			}
 	        			}
 	        		}
-	        		System.out.println("  --location: " + incidentsState.size());
+//	        		System.out.println("  --location: " + incidentsState.size());
 	        		incidentsType.retainAll(incidentsState);
 	        	}
+	        	
+	        	questionStr += "location" + "\t";
+	        
+	        } else {
+	        	questionStr += "" + "\t";
 	        }
 	        
 	        if (question.has("participant")) {
@@ -2832,7 +2840,7 @@ public class SemEvalDataParser {
 	        				} 
 	        			}
 	        		}
-	        		System.out.println("  --participant: " + incidentsTime.size());
+//	        		System.out.println("  --participant: " + incidentsTime.size());
 	        		incidentsType.retainAll(incidentsPart);
 	        	}
 	        	if (participant.has("first")) {
@@ -2852,7 +2860,7 @@ public class SemEvalDataParser {
 	        				}
 	        			}
 	        		}
-	        		System.out.println("  --participant: " + incidentsPart.size());
+//	        		System.out.println("  --participant: " + incidentsPart.size());
 	        		incidentsType.retainAll(incidentsPart);
 	        	}
 	        	if (participant.has("last")) {
@@ -2872,9 +2880,14 @@ public class SemEvalDataParser {
 	        				}
 	        			}
 	        		}
-	        		System.out.println("  --participant: " + incidentsPart.size());
+//	        		System.out.println("  --participant: " + incidentsPart.size());
 	        		incidentsType.retainAll(incidentsPart);
 	        	}
+	        	
+	        	questionStr += "participant" + "\t";
+	        
+	        } else {
+	        	questionStr += "" + "\t";
 	        }
 	        
 	        if (question.has("time")) {
@@ -2886,7 +2899,7 @@ public class SemEvalDataParser {
 	        				incidentsTime.add(inc);
 	        			}
 	        		}
-	        		System.out.println("  --time: " + incidentsTime.size());
+//	        		System.out.println("  --time: " + incidentsTime.size());
 	        		incidentsType.retainAll(incidentsTime);
 	        	}
 	        	if (time.has("month")) {
@@ -2898,7 +2911,7 @@ public class SemEvalDataParser {
 	        				incidentsTime.add(inc);
 	        			}
 	        		}
-	        		System.out.println("  --time: " + incidentsTime.size());
+//	        		System.out.println("  --time: " + incidentsTime.size());
 	        		incidentsType.retainAll(incidentsTime);
 	        	}
 	        	if (time.has("day")) {
@@ -2912,12 +2925,17 @@ public class SemEvalDataParser {
 	        				incidentsTime.add(inc);
 	        			}
 	        		}
-	        		System.out.println("  --time: " + incidentsTime.size());
+//	        		System.out.println("  --time: " + incidentsTime.size());
 	        		incidentsType.retainAll(incidentsTime);
 	        	}
+	        
+	        	questionStr += "time" + "\t";
+	        
+	        } else {
+	        	questionStr += "" + "\t";
 	        }
 	        
-	        if (incidentsType.size() > 0){
+//	        if (incidentsType.size() > 0){
 	        	numAnswered ++;
 	        	
 //	        	JSONObject incident = new JSONObject();
@@ -2938,6 +2956,8 @@ public class SemEvalDataParser {
 		        }
 //		        answer.put("answer_docs", incident);
 		        answer.put("answer_docs", documents);
+		        
+		        questionStr += incidentsType.size();
 		        
 		        int num_injured = 0;
 		        int num_killed = 0;
@@ -2979,7 +2999,9 @@ public class SemEvalDataParser {
 		        
 		        answers.put(key, answer);
 		        
-	        }
+		        System.out.println(questionStr);
+		        
+//	        }
 	        
 	    }
 	    System.out.println(numAnswered + "--" + numQuestion + "--" + numAnswered/(double)numQuestion);
@@ -3012,7 +3034,7 @@ public class SemEvalDataParser {
 		
 //		parser.writeBabelOutputOnlyTitle("./data/trial_data_final/input/s1/docs.conll");
 		
-		for (int i=1; i<4; i++) {
+		for (int i=1; i<2; i++) {
 		
 //			parser.combineSennaBabelOutput("./data/trial_data_final/input/s1/docs.conll", 
 //					"./data/trial_data_final/sentences/",
@@ -3028,12 +3050,12 @@ public class SemEvalDataParser {
 //					"./data/test_data/topics_v1.tsv",
 //					1, "./data/test_data/input/s"+i+"/questions.json", i);
 			
-			parser.asnwerFromTopicFiles("./data/trial_data_final/input/s"+i+"/questions.json", 
-					"./data/trial_data_final/trial_topics_v1(improved).tsv", 
-					"./data/trial_data_final/trial_location_v1(improved_noduplicate).tsv", 
-					"./data/trial_data_final/trial_event_time_v1(improved).tsv", 
-					"./data/trial_data_final/trial_participants_v1(improved_noduplicate).tsv",
-					"./data/trial_data_final/event_num_victims_v1.tsv", i);
+//			parser.asnwerFromTopicFiles("./data/trial_data_final/input/s"+i+"/questions.json", 
+//					"./data/trial_data_final/trial_topics_v1(improved).tsv", 
+//					"./data/trial_data_final/trial_location_v1(improved_noduplicate).tsv", 
+//					"./data/trial_data_final/trial_event_time_v1(improved).tsv", 
+//					"./data/trial_data_final/trial_participants_v1(improved_noduplicate).tsv",
+//					"./data/trial_data_final/event_num_victims_v1.tsv", i);
 			
 			
 			parser.asnwerFromTopicFiles("./data/test_data/input/s"+i+"/questions.json", 
