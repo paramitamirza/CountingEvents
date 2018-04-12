@@ -2959,6 +2959,9 @@ public class SemEvalDataParser {
 		        
 		        questionStr += incidentsType.size();
 		        
+		        boolean numExist = false;
+		        boolean countExist = false;
+		        
 		        int num_injured = 0;
 		        int num_killed = 0;
 		        if (subtask == 3) {
@@ -2969,22 +2972,28 @@ public class SemEvalDataParser {
 		        		if (inc.startsWith("1")) {
 		        			if (incNumVictims.containsKey(inc)) {
 		        				num_injured += incNumVictims.get(inc);
+		        				numExist = true;
+		        				
 		        			} else {
 		        				if (incParticipants.containsKey(inc)) {
 			        				for (Participant part : incParticipants.get(inc)) {
 				        				if (part.getRole().equals("victim")) num_injured ++;
 				        			}
 		        				}
+		        				countExist = true;
 		        			}
 		        		} else if (inc.startsWith("2")) {
 		        			if (incNumVictims.containsKey(inc)) {
 		        				num_killed += incNumVictims.get(inc);
+		        				numExist = true;
+		        				
 		        			} else {
 		        				if (incParticipants.containsKey(inc)) {
 			        				for (Participant part : incParticipants.get(inc)) {
 				        				if (part.getRole().equals("victim")) num_killed ++;
 				        			}
 		        				}
+		        				countExist = true;
 		        			}
 		        		}
 		        		JSONObject numbers = new JSONObject();
@@ -2995,11 +3004,17 @@ public class SemEvalDataParser {
 		        	}
 		        	answer.put("part-info", incident2);
 		        	
+		        	if (numExist && !countExist)
+		        		System.out.println(key + "\t" + "num");
+		        	else if (!numExist && countExist)
+		        		System.out.println(key + "\t" + "count");
+		        	else 
+		        		System.out.println(key + "\t" + "num+count");
 		        }
 		        
 		        answers.put(key, answer);
 		        
-		        System.out.println(questionStr);
+//		        System.out.println(questionStr);
 		        
 //	        }
 	        
@@ -3034,7 +3049,7 @@ public class SemEvalDataParser {
 		
 //		parser.writeBabelOutputOnlyTitle("./data/trial_data_final/input/s1/docs.conll");
 		
-		for (int i=1; i<2; i++) {
+		for (int i=1; i<4; i++) {
 		
 //			parser.combineSennaBabelOutput("./data/trial_data_final/input/s1/docs.conll", 
 //					"./data/trial_data_final/sentences/",
@@ -3059,11 +3074,11 @@ public class SemEvalDataParser {
 			
 			
 			parser.asnwerFromTopicFiles("./data/test_data/input/s"+i+"/questions.json", 
-					"./data/test_data/test_topics_v1(improved).tsv", 
-					"./data/test_data/test_location_v1(improved_noduplicate).tsv", 
-					"./data/test_data/test_event_time_v1(improved).tsv", 
-					"./data/test_data/test_participants_v1(improved_noduplicate).tsv",
-					"./data/test_data/event_num_victims_v1.tsv", i);
+					"./data/test_data/post-leaderboard-v2.1/test_topics_v2(improved).tsv", 
+					"./data/test_data/post-leaderboard-v2.1/test_event_location_v2(improved).tsv", 
+					"./data/test_data/post-leaderboard-v2.1/test_event_time_v2(improved).tsv", 
+					"./data/test_data/post-leaderboard-v2.1/test_event_participant_v2(improved).tsv",
+					"./data/test_data/post-leaderboard-v2.1/test_event_num_victim_v2(improved).tsv", i);
 		}
 		
 //		parser.extractWordNet("./data/trial_data_final/input/s1/docs.conll", 

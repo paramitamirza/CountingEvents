@@ -226,6 +226,7 @@ public class SemEvalCombineDocuments {
 		BufferedWriter bw = new BufferedWriter(new FileWriter(comparisonFile));
 		
 		Map<String, List<String>> documents1 = new HashMap<String, List<String>>();
+		Map<String, Integer> numAnswers1 = new HashMap<String, Integer>();
 		
 		BufferedReader br = new BufferedReader(new FileReader(answerGold));
 		String jsonStr = "";
@@ -259,13 +260,14 @@ public class SemEvalCombineDocuments {
 		        	docList.add(doc);
 		        }	        
 	        }
-	        Integer numAnswers = answer.getInt("numerical_answer");
 	        
 	        documents1.put(key, docList);
+	        numAnswers1.put(key, answer.getInt("numerical_answer"));
 	        
 	    }
 	    
 	    Map<String, List<String>> documents2 = new HashMap<String, List<String>>();
+	    Map<String, Integer> numAnswers2 = new HashMap<String, Integer>();
 		
 		br = new BufferedReader(new FileReader(answerFile2));
 		jsonStr = "";
@@ -285,7 +287,6 @@ public class SemEvalCombineDocuments {
 	        String key = (String)keys.next();
 	        JSONObject answer = obj.getJSONObject(key);
 	        JSONArray docs = answer.getJSONArray("answer_docs");
-	        Integer numAnswers = answer.getInt("numerical_answer");
 	        
 	        List<String> docList = new ArrayList<String>();
 	        for (int i=0; i<docs.length(); i++) {
@@ -294,7 +295,7 @@ public class SemEvalCombineDocuments {
 	        }
 	        
 	        documents2.put(key, docList);
-	        
+	        numAnswers2.put(key, answer.getInt("numerical_answer"));
 	    }
 	    
 	    br = new BufferedReader(new FileReader(questionFile));
@@ -337,14 +338,19 @@ public class SemEvalCombineDocuments {
 	        if (documents2.containsKey(key)) b = documents2.get(key);
 	        
 	        //intersection
-	        List<String> intersection = new ArrayList<String> (a.size() > b.size() ?a.size():b.size());
-	        intersection.addAll(a);
-	        intersection.retainAll(b);
+	        List<String> tp = new ArrayList<String> (a.size() > b.size() ?a.size():b.size());
+	        tp.addAll(a);
+	        tp.retainAll(b);
 
 	        //difference a-b
-	        List<String> diff = new ArrayList<String> (a.size());
-	        diff.addAll(a);
-	        diff.removeAll(b);
+	        List<String> fn = new ArrayList<String> (a.size());
+	        fn.addAll(a);
+	        fn.removeAll(b);
+	        
+	        //difference b-a
+	        List<String> fp = new ArrayList<String> (b.size());
+	        fp.addAll(b);
+	        fp.removeAll(a);
 	        
 //	        System.out.println(key + "\t" + verbose + 
 //	        		"\t" + loc + "\t" + part + "\t" + time +  
@@ -356,8 +362,8 @@ public class SemEvalCombineDocuments {
 	        		"\t" + loc + "\t" + part + "\t" + time +  
 	        		"\t" + verbose +
 	        		"\t" + doc1Size + "\t" + doc2Size + 
-	        		"\t" + intersection.size() + "\t" + diff.size() + 
-	        		"\t" + documents1.get(key) + "\t" + documents2.get(key) + "\n");
+	        		"\t" + tp.size() + "\t" + fp.size() + "\t" + fn.size() + 
+	        		"\t" + numAnswers1.get(key) + "\t" + numAnswers2.get(key) + "\n");
 	        numQ ++;
 	        
 	    }
@@ -367,10 +373,10 @@ public class SemEvalCombineDocuments {
 	
 	public static void main(String[] args) throws Exception {
 		
-		compareAnswersGold("/local/home/paramita/git/CountingEvents/data/test_data_gold/dev_data/s1/answers.json", 
-				"/local/home/paramita/git/CountingEvents/data/test_data/posteval_022/s1/answers.json", 
-				"/local/home/paramita/git/CountingEvents/data/test_data_gold/input/s1/questions.json",
-				"/local/home/paramita/git/CountingEvents/data/test_data_gold/s1_compare_gold.tsv");
+		compareAnswersGold("/local/home/paramita/git/CountingEvents/data/test_data_gold/dev_data/s3/answers.json", 
+				"/local/home/paramita/git/CountingEvents/data/test_data/posteval_final/s3/answers.json", 
+				"/local/home/paramita/git/CountingEvents/data/test_data_gold/input/s3/questions.json",
+				"/local/home/paramita/git/CountingEvents/data/test_data_gold/s3_compare_gold.tsv");
 	}
 
 }
