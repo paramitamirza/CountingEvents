@@ -321,11 +321,30 @@ public class SemEvalCombineDocuments {
 	        String eventType = question.getString("event_type");
 	        
 	        String loc = "";
-	        if (question.has("location")) loc = "location";
+	        if (question.has("location")) {
+	        	if (question.getJSONObject("location").has("state"))
+	        		loc = "state";
+	        	else if (question.getJSONObject("location").has("city"))
+	        		loc = "city";
+	        }
 	        String part = "";
-	        if (question.has("participant")) part = "participant";
+	        if (question.has("participant")) {
+	        	if (question.getJSONObject("participant").has("last"))
+	        		part = "last";
+	        	else if (question.getJSONObject("participant").has("first"))
+	        		part = "first";
+	        	else if (question.getJSONObject("participant").has("full_name"))
+	        		part = "full_name";
+	        }
 	        String time = "";
-	        if (question.has("time")) time = "time";
+	        if (question.has("time")) {
+	        	if (question.getJSONObject("time").has("day"))
+	        		time = "day";
+	        	else if (question.getJSONObject("time").has("month"))
+	        		time = "month";
+	        	else if (question.getJSONObject("time").has("year"))
+	        		time = "year";
+	        }
 	        
 	        int doc1Size = 0;
 	        if (documents1.containsKey(key)) doc1Size = documents1.get(key).size();
